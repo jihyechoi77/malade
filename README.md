@@ -41,9 +41,11 @@ In the root of the repo, copy the `.env-template` file to a new file `.env`:
 cp .env-template .env
 ```
 
-Set up a Qdrant instance and API key is required(see the [Langroid instructions](https://github.com/langroid/langroid?tab=readme-ov-file#set-up-environment-variables-api-keys-etc)); set up `QDRANT_API_URL` and `QDRANT_API_KEY` in `.env` as described there. 
+First, an OpenAI API key is required; set one up [here](https://platform.openai.com/account/api-keys) and store it in `.env` in `OPENAI_API_KEY`.
 
-An OpenFDA API key is also required (get one [here](https://open.fda.gov/apis/authentication/)), store it in `OPENFDA_API_KEY`.
+A Qdrant instance and API key is required (see the [Langroid instructions](https://github.com/langroid/langroid?tab=readme-ov-file#set-up-environment-variables-api-keys-etc)); set up `QDRANT_API_URL` and `QDRANT_API_KEY` in `.env` as described there. 
+
+An OpenFDA API key is also required (get one [here](https://open.fda.gov/apis/authentication/)), store it in `OPENFDA_API_KEY` in `.env`.
 
 ## (Optional) Setup for drug representative generation
 
