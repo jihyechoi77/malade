@@ -1,0 +1,400 @@
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does ERYTHROMYCIN ETHYLSUCCINATE increase or 
+decrease the risk of myocardial infarction?
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT 
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does ERYTHROMYCIN ETHYLSUCCINATE increase or decrease the risk of myocardial infarction?"
+  }
+}
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does ERYTHROMYCIN ETHYLSUCCINATE increase or 
+decrease the risk of myocardial infarction?
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does ERYTHROMYCIN ETHYLSUCCINATE increase or decrease the risk of myocardial infarction?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_extracts) FUNC: {
+  "name": "relevant_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does ERYTHROMYCIN ETHYLSUCCINATE increase or decrease the risk of myocardial infarction?",
+    "filter_drugs": [
+      "ERYTHROMYCIN ETHYLSUCCINATE"
+    ]
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: references: REFERENCES Committee on Rheumatic Fever, Endocarditis, and Kawasaki Disease of the Council on Cardiovascular Disease in the Young, the American Heart 
+Association: Prevention of Rheumatic Fever. Circulation. 78(4):1082-1086, October 1988. Honein, M.A., et al.: Infantile hypertrophic pyloric stenosis after pertussis prophylaxis with erythromycin: a 
+case review and cohort study. ERYTHROMYCIN ETHYLSUCCINATE: references: The Lancet 1999;354 (9196): 2101-5         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: information_for_patients: Information for Patients Patients should be counseled that antibacterial drugs including Ery-Ped should only be used to treat bacterial 
+infections. They do not treat viral infections (e.g., the common cold). When Ery-Ped is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better 
+early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate 
+treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by Ery-Ped or other antibacterial drugs in the future. Diarrhea is a common problem caused by 
+antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps 
+and fever) even as late as two or more months after having taken the last dose of the antibiotic. ERYTHROMYCIN ETHYLSUCCINATE: information_for_patients: If this occurs, patients should contact their 
+physician as soon as possible.         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: openfda: spl_id         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: openfda: product_ndc         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: openfda: brand_name         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: openfda: package_ndc         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: openfda: spl_set_id         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: precautions: There have been reports of increased anticoagulant effects when erythromycin and oral anticoagulants were used concomitantly. Increased 
+anticoagulation effects due to interactions of erythromycin with various oral anticoagulants may be more pronounced in the elderly. Erythromycin is a substrate and inhibitor of the 3A isoform 
+subfamily of the cytochrome p450 enzyme system (CYP3A). Coadministration of erythromycin and a drug primarily metabolized by CYP3A may be associated with elevations in drug concentrations that could 
+increase or prolong both the therapeutic and adverse effects of the concomitant drug. Dosage adjustments may be considered, and when possible, serum concentrations of drugs primarily metabolized by 
+CYP3A should be monitored closely in patients concurrently receiving erythromycin. The following are examples of some clinically significant CYP3A based drug interactions. ERYTHROMYCIN ETHYLSUCCINATE:
+precautions: Interactions with other drugs metabolized by the CYP3A isoform are also possible. The following CYP3A based drug interactions have been observed with erythromycin products in 
+post-marketing experience: Ergotamine/dihydroergotamine Post-marketing reports indicate that co-administration of erythromycin with ergotamine or dihydroergotamine has been associated with acute ergot
+toxicity characterized by vasospasm and ischemia of the extremities and other tissues including the central nervous system. Concomitant administration of erythromycin with ergotamine or 
+dihydroergotamine is contraindicated (see CONTRAINDICATIONS ). ERYTHROMYCIN ETHYLSUCCINATE: precautions: Triazolobenzodiazepines (such as triazolam and alprazolam) and Related Benzodiazepines 
+Erythromycin has been reported to decrease the clearance of triazolam and midazolam, and thus, may increase the pharmacologic effect of these benzodiazepines. HMG-CoA Reductase Inhibitors Erythromycin
+has been reported to increase concentrations of HMG-CoA reductase inhibitors (e.g., lovastatin and simvastatin). Rare reports of rhabdomyolysis have been reported in patients taking these drugs 
+concomitantly. Sildenafil (Viagra) Erythromycin has been reported to increase the systemic exposure (AUC) of sildenafil. Reduction of sildenafil dosage should be considered. (See Viagra package 
+insert. ERYTHROMYCIN ETHYLSUCCINATE: precautions: There have been spontaneous or published reports of CYP3A based interactions of erythromycin with cyclosporine, carbamazepine, tacrolimus, alfentanil,
+disopyramide, rifabutin, quinidine, methylprednisolone, cilostazol, vinblastine, and bromocriptine. Concomitant administration of erythromycin with cisapride, pimozide, astemizole, or terfenadine is 
+contraindicated. (See CONTRAINDICATIONS .) In addition, there have been reports of interactions of erythromycin with drugs not thought to be metabolized by CYP3A, including hexobarbital, phenytoin, 
+and valproate. ERYTHROMYCIN ETHYLSUCCINATE: precautions: Erythromycin has been reported to significantly alter the metabolism of the nonsedating antihistamines terfenadine and astemizole when taken 
+concomitantly. Rare cases of serious cardiovascular adverse events, including electrocardiographic QT/QT c interval prolongation, cardiac arrest, torsades de pointes, and other ventricular arrhythmias
+have been observed. (See CONTRAINDICATIONS .) In addition, deaths have been reported rarely with concomitant administration of terfenadine and erythromycin. There have been post-marketing reports of 
+drug interactions when erythromycin was co-administered with cisapride, resulting in QT prolongation, cardiac arrhythmias, ventricular tachycardia, ventricular fibrillation, and torsades de pointes 
+most likely due to the inhibition of hepatic metabolism of cisapride by erythromycin. Fatalities have been reported.         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: Drug Interactions Theophylline Erythromycin use in patients who are receiving high doses of theophylline may be associated with an increase in 
+serum theophylline levels and potential theophylline toxicity. In case of theophylline toxicity and/or elevated serum theophylline levels, the dose of theophylline should be reduced while the patient 
+is receiving concomitant erythromycin therapy. There have been published reports suggesting that when oral erythromycin is given concurrently with theophylline there is a decrease in erythromycin 
+serum concentrations of approximately 35%. The mechanism by which this interaction occurs is unknown. The decrease in erythromycin concentrations due to co-administration of theophylline could result 
+in subtherapeutic concentrations of erythromycin. ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: Hypotension, bradyarrhythmias, and lactic acidosis have been observed in patients receiving concurrent
+verapamil, belonging to the calcium channel blockers drug class. Concomitant administration of erythromycin and digoxin has been reported to result in elevated digoxin serum levels. There have been 
+reports of increased anticoagulant effects when erythromycin and oral anticoagulants were used concomitantly. Increased anticoagulation effects due to interactions of erythromycin with various oral 
+anticoagulants may be more pronounced in the elderly. Erythromycin is a substrate and inhibitor of the 3A isoform subfamily of the cytochrome p450 enzyme system (CYP3A). ERYTHROMYCIN ETHYLSUCCINATE: 
+drug_interactions: Coadministration of erythromycin and a drug primarily metabolized by CYP3A may be associated with elevations in drug concentrations that could increase or prolong both the 
+therapeutic and adverse effects of the concomitant drug. Dosage adjustments may be considered, and when possible, serum concentrations of drugs primarily metabolized by CYP3A should be monitored 
+closely in patients concurrently receiving erythromycin. The following are examples of some clinically significant CYP3A based drug interactions. Interactions with other drugs metabolized by the CYP3A
+isoform are also possible. ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: The following CYP3A based drug interactions have been observed with erythromycin products in post-marketing experience: 
+Ergotamine/dihydroergotamine Post-marketing reports indicate that co-administration of erythromycin with ergotamine or dihydroergotamine has been associated with acute ergot toxicity characterized by 
+vasospasm and ischemia of the extremities and other tissues including the central nervous system. Concomitant administration of erythromycin with ergotamine or dihydroergotamine is contraindicated 
+(see CONTRAINDICATIONS ). Triazolobenzodiazepines (such as triazolam and alprazolam) and Related Benzodiazepines Erythromycin has been reported to decrease the clearance of triazolam and midazolam, 
+and thus, may increase the pharmacologic effect of these benzodiazepines. ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: HMG-CoA Reductase Inhibitors Erythromycin has been reported to increase 
+concentrations of HMG-CoA reductase inhibitors (e.g., lovastatin and simvastatin). Rare reports of rhabdomyolysis have been reported in patients taking these drugs concomitantly. Sildenafil (Viagra) 
+Erythromycin has been reported to increase the systemic exposure (AUC) of sildenafil. Reduction of sildenafil dosage should be considered. (See Viagra package insert.) There have been spontaneous or 
+published reports of CYP3A based interactions of erythromycin with cyclosporine, carbamazepine, tacrolimus, alfentanil, disopyramide, rifabutin, quinidine, methylprednisolone, cilostazol, vinblastine,
+and bromocriptine. ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: Concomitant administration of erythromycin with cisapride, pimozide, astemizole, or terfenadine is contraindicated. (See 
+CONTRAINDICATIONS .) In addition, there have been reports of interactions of erythromycin with drugs not thought to be metabolized by CYP3A, including hexobarbital, phenytoin, and valproate. 
+Erythromycin has been reported to significantly alter the metabolism of the nonsedating antihistamines terfenadine and astemizole when taken concomitantly. Rare cases of serious cardiovascular adverse
+events, including electrocardiographic QT/QT c interval prolongation, cardiac arrest, torsades de pointes, and other ventricular arrhythmias have been observed. (See CONTRAINDICATIONS .) In addition, 
+deaths have been reported rarely with concomitant administration of terfenadine and erythromycin. ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: There have been post-marketing reports of drug 
+interactions when erythromycin was co-administered with cisapride, resulting in QT prolongation, cardiac arrhythmias, ventricular tachycardia, ventricular fibrillation, and torsades de pointes most 
+likely due to the inhibition of hepatic metabolism of cisapride by erythromycin. Fatalities have been reported. (See CONTRAINDICATIONS .) Colchicine Colchicine is a substrate for both CYP3A4 and the 
+efflux transporter P-glycoprotein (P-gp). Erythromycin is considered a moderate inhibitor of CYP3A4. A significant increase in colchicine plasma concentration is anticipated when co-administered with 
+moderate CYP3A4 inhibitors such as erythromycin.         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does ERYTHROMYCIN ETHYLSUCCINATE increase or decrease the risk of myocardial infarction?",
+    "drug": "ERYTHROMYCIN ETHYLSUCCINATE"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does ERYTHROMYCIN ETHYLSUCCINATE increase or 
+decrease the risk of myocardial infarction?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT 
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does ERYTHROMYCIN ETHYLSUCCINATE increase or decrease the risk of myocardial infarction?"
+  }
+}
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does ERYTHROMYCIN ETHYLSUCCINATE increase or 
+decrease the risk of myocardial infarction?
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does ERYTHROMYCIN ETHYLSUCCINATE increase or decrease the risk of myocardial infarction?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_extracts) FUNC: {
+  "name": "relevant_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does ERYTHROMYCIN ETHYLSUCCINATE increase or decrease the risk of myocardial infarction?",
+    "filter_drugs": [
+      "ERYTHROMYCIN ETHYLSUCCINATE"
+    ]
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_extracts) (=>          ) (X           )       (          ) 
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: references: REFERENCES Committee on Rheumatic Fever, Endocarditis, and Kawasaki Disease of the Council on Cardiovascular Disease in the Young, the American Heart 
+Association: Prevention of Rheumatic Fever. Circulation. 78(4):1082-1086, October 1988. Honein, M.A., et al.: Infantile hypertrophic pyloric stenosis after pertussis prophylaxis with erythromycin: a 
+case review and cohort study. ERYTHROMYCIN ETHYLSUCCINATE: references: The Lancet 1999;354 (9196): 2101-5         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: information_for_patients: Information for Patients Patients should be counseled that antibacterial drugs including Ery-Ped should only be used to treat bacterial 
+infections. They do not treat viral infections (e.g., the common cold). When Ery-Ped is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better 
+early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate 
+treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by Ery-Ped or other antibacterial drugs in the future. Diarrhea is a common problem caused by 
+antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps 
+and fever) even as late as two or more months after having taken the last dose of the antibiotic. ERYTHROMYCIN ETHYLSUCCINATE: information_for_patients: If this occurs, patients should contact their 
+physician as soon as possible.         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: openfda: spl_id         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: openfda: product_ndc         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: openfda: brand_name         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: openfda: package_ndc         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: openfda: spl_set_id         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: precautions: There have been reports of increased anticoagulant effects when erythromycin and oral anticoagulants were used concomitantly. Increased 
+anticoagulation effects due to interactions of erythromycin with various oral anticoagulants may be more pronounced in the elderly. Erythromycin is a substrate and inhibitor of the 3A isoform 
+subfamily of the cytochrome p450 enzyme system (CYP3A). Coadministration of erythromycin and a drug primarily metabolized by CYP3A may be associated with elevations in drug concentrations that could 
+increase or prolong both the therapeutic and adverse effects of the concomitant drug. Dosage adjustments may be considered, and when possible, serum concentrations of drugs primarily metabolized by 
+CYP3A should be monitored closely in patients concurrently receiving erythromycin. The following are examples of some clinically significant CYP3A based drug interactions. ERYTHROMYCIN ETHYLSUCCINATE:
+precautions: Interactions with other drugs metabolized by the CYP3A isoform are also possible. The following CYP3A based drug interactions have been observed with erythromycin products in 
+post-marketing experience: Ergotamine/dihydroergotamine Post-marketing reports indicate that co-administration of erythromycin with ergotamine or dihydroergotamine has been associated with acute ergot
+toxicity characterized by vasospasm and ischemia of the extremities and other tissues including the central nervous system. Concomitant administration of erythromycin with ergotamine or 
+dihydroergotamine is contraindicated (see CONTRAINDICATIONS ). ERYTHROMYCIN ETHYLSUCCINATE: precautions: Triazolobenzodiazepines (such as triazolam and alprazolam) and Related Benzodiazepines 
+Erythromycin has been reported to decrease the clearance of triazolam and midazolam, and thus, may increase the pharmacologic effect of these benzodiazepines. HMG-CoA Reductase Inhibitors Erythromycin
+has been reported to increase concentrations of HMG-CoA reductase inhibitors (e.g., lovastatin and simvastatin). Rare reports of rhabdomyolysis have been reported in patients taking these drugs 
+concomitantly. Sildenafil (Viagra) Erythromycin has been reported to increase the systemic exposure (AUC) of sildenafil. Reduction of sildenafil dosage should be considered. (See Viagra package 
+insert. ERYTHROMYCIN ETHYLSUCCINATE: precautions: There have been spontaneous or published reports of CYP3A based interactions of erythromycin with cyclosporine, carbamazepine, tacrolimus, alfentanil,
+disopyramide, rifabutin, quinidine, methylprednisolone, cilostazol, vinblastine, and bromocriptine. Concomitant administration of erythromycin with cisapride, pimozide, astemizole, or terfenadine is 
+contraindicated. (See CONTRAINDICATIONS .) In addition, there have been reports of interactions of erythromycin with drugs not thought to be metabolized by CYP3A, including hexobarbital, phenytoin, 
+and valproate. ERYTHROMYCIN ETHYLSUCCINATE: precautions: Erythromycin has been reported to significantly alter the metabolism of the nonsedating antihistamines terfenadine and astemizole when taken 
+concomitantly. Rare cases of serious cardiovascular adverse events, including electrocardiographic QT/QT c interval prolongation, cardiac arrest, torsades de pointes, and other ventricular arrhythmias
+have been observed. (See CONTRAINDICATIONS .) In addition, deaths have been reported rarely with concomitant administration of terfenadine and erythromycin. There have been post-marketing reports of 
+drug interactions when erythromycin was co-administered with cisapride, resulting in QT prolongation, cardiac arrhythmias, ventricular tachycardia, ventricular fibrillation, and torsades de pointes 
+most likely due to the inhibition of hepatic metabolism of cisapride by erythromycin. Fatalities have been reported.         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+
+CONTENT: ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: Drug Interactions Theophylline Erythromycin use in patients who are receiving high doses of theophylline may be associated with an increase in 
+serum theophylline levels and potential theophylline toxicity. In case of theophylline toxicity and/or elevated serum theophylline levels, the dose of theophylline should be reduced while the patient 
+is receiving concomitant erythromycin therapy. There have been published reports suggesting that when oral erythromycin is given concurrently with theophylline there is a decrease in erythromycin 
+serum concentrations of approximately 35%. The mechanism by which this interaction occurs is unknown. The decrease in erythromycin concentrations due to co-administration of theophylline could result 
+in subtherapeutic concentrations of erythromycin. ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: Hypotension, bradyarrhythmias, and lactic acidosis have been observed in patients receiving concurrent
+verapamil, belonging to the calcium channel blockers drug class. Concomitant administration of erythromycin and digoxin has been reported to result in elevated digoxin serum levels. There have been 
+reports of increased anticoagulant effects when erythromycin and oral anticoagulants were used concomitantly. Increased anticoagulation effects due to interactions of erythromycin with various oral 
+anticoagulants may be more pronounced in the elderly. Erythromycin is a substrate and inhibitor of the 3A isoform subfamily of the cytochrome p450 enzyme system (CYP3A). ERYTHROMYCIN ETHYLSUCCINATE: 
+drug_interactions: Coadministration of erythromycin and a drug primarily metabolized by CYP3A may be associated with elevations in drug concentrations that could increase or prolong both the 
+therapeutic and adverse effects of the concomitant drug. Dosage adjustments may be considered, and when possible, serum concentrations of drugs primarily metabolized by CYP3A should be monitored 
+closely in patients concurrently receiving erythromycin. The following are examples of some clinically significant CYP3A based drug interactions. Interactions with other drugs metabolized by the CYP3A
+isoform are also possible. ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: The following CYP3A based drug interactions have been observed with erythromycin products in post-marketing experience: 
+Ergotamine/dihydroergotamine Post-marketing reports indicate that co-administration of erythromycin with ergotamine or dihydroergotamine has been associated with acute ergot toxicity characterized by 
+vasospasm and ischemia of the extremities and other tissues including the central nervous system. Concomitant administration of erythromycin with ergotamine or dihydroergotamine is contraindicated 
+(see CONTRAINDICATIONS ). Triazolobenzodiazepines (such as triazolam and alprazolam) and Related Benzodiazepines Erythromycin has been reported to decrease the clearance of triazolam and midazolam, 
+and thus, may increase the pharmacologic effect of these benzodiazepines. ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: HMG-CoA Reductase Inhibitors Erythromycin has been reported to increase 
+concentrations of HMG-CoA reductase inhibitors (e.g., lovastatin and simvastatin). Rare reports of rhabdomyolysis have been reported in patients taking these drugs concomitantly. Sildenafil (Viagra) 
+Erythromycin has been reported to increase the systemic exposure (AUC) of sildenafil. Reduction of sildenafil dosage should be considered. (See Viagra package insert.) There have been spontaneous or 
+published reports of CYP3A based interactions of erythromycin with cyclosporine, carbamazepine, tacrolimus, alfentanil, disopyramide, rifabutin, quinidine, methylprednisolone, cilostazol, vinblastine,
+and bromocriptine. ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: Concomitant administration of erythromycin with cisapride, pimozide, astemizole, or terfenadine is contraindicated. (See 
+CONTRAINDICATIONS .) In addition, there have been reports of interactions of erythromycin with drugs not thought to be metabolized by CYP3A, including hexobarbital, phenytoin, and valproate. 
+Erythromycin has been reported to significantly alter the metabolism of the nonsedating antihistamines terfenadine and astemizole when taken concomitantly. Rare cases of serious cardiovascular adverse
+events, including electrocardiographic QT/QT c interval prolongation, cardiac arrest, torsades de pointes, and other ventricular arrhythmias have been observed. (See CONTRAINDICATIONS .) In addition, 
+deaths have been reported rarely with concomitant administration of terfenadine and erythromycin. ERYTHROMYCIN ETHYLSUCCINATE: drug_interactions: There have been post-marketing reports of drug 
+interactions when erythromycin was co-administered with cisapride, resulting in QT prolongation, cardiac arrhythmias, ventricular tachycardia, ventricular fibrillation, and torsades de pointes most 
+likely due to the inhibition of hepatic metabolism of cisapride by erythromycin. Fatalities have been reported. (See CONTRAINDICATIONS .) Colchicine Colchicine is a substrate for both CYP3A4 and the 
+efflux transporter P-glycoprotein (P-gp). Erythromycin is considered a moderate inhibitor of CYP3A4. A significant increase in colchicine plasma concentration is anticipated when co-administered with 
+moderate CYP3A4 inhibitors such as erythromycin.         
+SOURCE:ERYTHROMYCIN ETHYLSUCCINATE label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: The available information from the ERYTHROMYCIN ETHYLSUCCINATE label does not directly address the risk of myocardial infarction. However, it does mention that erythromycin can significantly 
+alter the metabolism of certain drugs, leading to serious cardiovascular adverse events, including QT/QTc interval prolongation, cardiac arrest, torsades de pointes, and other ventricular arrhythmias.
+These events have been observed with the concomitant administration of erythromycin and certain other drugs, and in rare cases, deaths have been reported. While this does not specifically mention 
+myocardial infarction, these cardiovascular events could potentially increase the risk of myocardial infarction.
+
+SOURCE: ERYTHROMYCIN ETHYLSUCCINATE label
+EXTRACT_START_END: Erythromycin has been reported... torsades de pointes most likely...
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: The available information from the 
+ERYTHROMYCIN ETHYLSUCCINATE label does not directly address the risk of myocardial infarction. However, it does mention that erythromycin can significantly alter the metabolism of certain drugs, 
+leading to serious cardiovascular adverse events, including QT/QTc interval prolongation, cardiac arrest, torsades de pointes, and other ventricular arrhythmias. These events have been observed with 
+the concomitant administration of erythromycin and certain other drugs, and in rare cases, deaths have been reported. While this does not specifically mention myocardial infarction, these 
+cardiovascular events could potentially increase the risk of myocardial infarction.
+
+SOURCE: ERYTHROMYCIN ETHYLSUCCINATE label
+EXTRACT_START_END: Erythromycin has been reported... torsades de pointes most likely...
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) The FDA label for ERYTHROMYCIN ETHYLSUCCINATE 
+does not directly address the risk of myocardial infarction. However, it does mention that erythromycin can significantly alter the metabolism of certain drugs, which can lead to serious 
+cardiovascular adverse events. These events include QT/QTc interval prolongation, cardiac arrest, torsades de pointes, and other ventricular arrhythmias. In rare cases, deaths have been reported in 
+association with these cardiovascular events when erythromycin is administered concomitantly with certain other drugs. While these cardiovascular events do not specifically mention myocardial 
+infarction, they could potentially increase the risk of myocardial infarction.
+
+Given the information provided, we cannot definitively say whether ERYTHROMYCIN ETHYLSUCCINATE increases or decreases the risk of myocardial infarction, as the label does not provide a direct 
+correlation. The cardiovascular events mentioned could potentially increase the risk, but this is not explicitly stated in the label. Therefore, the degree of reliability of this answer is limited to 
+the information available from the label, which does not conclusively determine the effect of ERYTHROMYCIN ETHYLSUCCINATE on the risk of myocardial infarction.
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.USER 
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT  Entity.AGENT(          ) (=>       LLM) (X           )       (          ) 
+        Do one of the following:
+
+        1. If you intend to ask a question to FDAAgent:
+            Please use the 'add_recipient' tool/function-call
+            and specify FDAAgent as your `intended_recipient`.
+            DO NOT REPEAT your original message; ONLY specify the 
+            `intended_recipient` via this tool/function-call.
+        2. If you are ready to have the critic check your answer,
+            do so with the `final_answer` tool/function, as I have requested.
+        3. If the critic is satisfied and you intend to submit your final answer,
+            answer as I have requested, making sure to mark that you are done as usual.
+
+        When you have decided and stated your answer (or lack of one), you must
+        ALWAYS specify that you are done using the usual code.
+
+        DO NOT simply acknowldedge these instructions. If you have nothing
+        else to say, you MUST EXIT IMMEDIATELY by stating that you are done
+        with the usual code (as in #3).
+        
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does ERYTHROMYCIN ETHYLSUCCINATE increase or decrease the risk of myocardial infarction?",
+    "steps": [
+      "I asked FDAHandler whether ERYTHROMYCIN ETHYLSUCCINATE increases or decreases the risk of myocardial infarction.",
+      "FDAHandler responded that the ERYTHROMYCIN ETHYLSUCCINATE label does not directly address the risk of myocardial infarction but mentions serious cardiovascular adverse events that could 
+potentially increase the risk of myocardial infarction."
+    ],
+    "answer": "DO-NOT-KNOW"
+  }
+}
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  FDAHandler  Entity.USER(FDAHandler) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does ERYTHROMYCIN ETHYLSUCCINATE increase or decrease the risk of myocardial infarction?",
+    "steps": [
+      "I asked FDAHandler whether ERYTHROMYCIN ETHYLSUCCINATE increases or decreases the risk of myocardial infarction.",
+      "FDAHandler responded that the ERYTHROMYCIN ETHYLSUCCINATE label does not directly address the risk of myocardial infarction but mentions serious cardiovascular adverse events that could 
+potentially increase the risk of myocardial infarction."
+    ],
+    "answer": "DO-NOT-KNOW",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does ERYTHROMYCIN ETHYLSUCCINATE increase or decrease the risk of myocardial infarction?
+        -----
+        Reasoning:
+        1. I asked FDAHandler whether ERYTHROMYCIN ETHYLSUCCINATE increases or decreases the risk of myocardial infarction.
+2. FDAHandler responded that the ERYTHROMYCIN ETHYLSUCCINATE label does not directly address the risk of myocardial infarction but mentions serious cardiovascular adverse events that could potentially
+increase the risk of myocardial infarction.
+        -----
+        Final answer: DO-NOT-KNOW
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning process appears to be consistent with the guidelines provided. The user has asked FDAHandler about the effect of ERYTHROMYCIN ETHYLSUCCINATE on the risk of myocardial 
+infarction, and FDAHandler has indicated that the label does not directly address this risk but mentions serious cardiovascular adverse events. The user has appropriately concluded with a DO-NOT-KNOW 
+answer, as the information provided does not definitively establish an increase or decrease in risk. This conclusion is justified given the lack of direct evidence from the label and is in line with 
+the instructions to accept DO-NOT-KNOW when the answer clearly expresses why it was not possible to answer the question."
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Critic  Entity.USER(    Critic) (=>     AGENT) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning process appears to be consistent with the guidelines provided. The user has asked FDAHandler about the effect of ERYTHROMYCIN ETHYLSUCCINATE on the risk of myocardial 
+infarction, and FDAHandler has indicated that the label does not directly address this risk but mentions serious cardiovascular adverse events. The user has appropriately concluded with a DO-NOT-KNOW 
+answer, as the information provided does not definitively establish an increase or decrease in risk. This conclusion is justified given the lack of direct evidence from the label and is in line with 
+the instructions to accept DO-NOT-KNOW when the answer clearly expresses why it was not possible to answer the question.",
+    "request": "feedback"
+  }
+}
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) 
+        Feedback: The reasoning process appears to be consistent with the guidelines provided. The user has asked FDAHandler about the effect of ERYTHROMYCIN ETHYLSUCCINATE on the risk of myocardial 
+infarction, and FDAHandler has indicated that the label does not directly address this risk but mentions serious cardiovascular adverse events. The user has appropriately concluded with a DO-NOT-KNOW 
+answer, as the information provided does not definitively establish an increase or decrease in risk. This conclusion is justified given the lack of direct evidence from the label and is in line with 
+the instructions to accept DO-NOT-KNOW when the answer clearly expresses why it was not possible to answer the question.
+
+        If any flaws in the reasoning used to produce your
+        answer were identified, you must try again.
+        
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.USER 
+ (orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-myocardial infarction-ERYTHROMYCIN ETHYLSUCCINATE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+
+The FDA label for ERYTHROMYCIN ETHYLSUCCINATE does not provide direct information on whether it increases or decreases the risk of myocardial infarction. The label does mention serious cardiovascular 
+adverse events that could potentially increase the risk of myocardial infarction, but there is no explicit statement connecting ERYTHROMYCIN ETHYLSUCCINATE to an increased or decreased risk of 
+myocardial infarction. Therefore, based on the available FDA label data, we cannot determine the effect of ERYTHROMYCIN ETHYLSUCCINATE on the risk of myocardial infarction.

@@ -1,0 +1,265 @@
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes DOXYCYCLINE HYCLATE increase or decrease the risk of [0m
+[34mhospitalization?[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.AGENT [0m
+*[1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
+[32m    [0m[32m"content"[0m[32m: [0m[32m"Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes DOXYCYCLINE HYCLATE increase or decrease the risk of [0m
+[32mhospitalization?[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?[0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"query"[0m[32m: [0m[32m"Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?"[0m[32m,[0m
+[32m    [0m[32m"drug"[0m[32m: [0m[32m"DOXYCYCLINE HYCLATE"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
+[31m        Below are some relevant extracts for your query:[0m
+[31m        -----[0m
+[31m        [0m
+[31mCONTENT: DOXYCYCLINE HYCLATE: overdosage: OVERDOSAGE In case of overdosage, discontinue medication, treat symptomatically and institute supportive measures. Dialysis does not alter serum half-life and[0m
+[31mthus would not be of benefit in treating cases of overdosage.         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: spl_unclassified_section: To reduce the development of drug-resistant bacteria and maintain the effectiveness of doxycycline hyclate tablets, USP and other antibacterial [0m
+[31mdrugs, doxycycline hyclate tablets, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: information_for_patients: Information For Patients Patients taking doxycycline for malaria prophylaxis should be advised: — that no present-day antimalarial agent, [0m
+[31mincluding doxycycline, guarantees protection against malaria. — to avoid being bitten by mosquitoes by using personal protective measures that help avoid contact with mosquitoes, especially from dusk [0m
+[31mto dawn [0m[1;31m([0m[31me.g., staying in well-screened areas, using mosquito nets, covering the body with clothing, and using an effective insect repellent[0m[1;31m)[0m[31m. — that doxycycline prophylaxis: — should begin [0m[1;31m1[0m[31m–[0m[1;31m2[0m[31m days [0m
+[31mbefore travel to the malarious area, — should be continued daily while in the malarious area and after leaving the malarious area, — should be continued for [0m[1;31m4[0m[31m further weeks to avoid development of [0m
+[31mmalaria after returning from an endemic area, — should not exceed [0m[1;31m4[0m[31m months. DOXYCYCLINE HYCLATE: information_for_patients: All patients taking doxycycline should be advised: — to avoid excessive [0m
+[31msunlight or artificial ultraviolet light while receiving doxycycline and to discontinue therapy if phototoxicity [0m[1;31m([0m[31me.g., skin eruption, etc.[0m[1;31m)[0m[31m occurs. Sunscreen or sunblock should be considered. [0m[1;31m([0m[31mSee [0m
+[31mWARNINGS .[0m[1;31m)[0m[31m — to drink fluids liberally along with doxycycline to reduce the risk of esophageal irritation and ulceration. [0m[1;31m([0m[31mSee ADVERSE REACTIONS .[0m[1;31m)[0m[31m — that the absorption of tetracyclines is reduced [0m
+[31mwhen taken with foods, especially those which contain calcium. However, the absorption of doxycycline is not markedly influenced by simultaneous ingestion of food or milk. [0m[1;31m([0m[31mSee DRUG INTERACTIONS .[0m[1;31m)[0m[31m — [0m
+[31mthat the absorption of tetracyclines is reduced when taking bismuth subsalicylate. [0m[1;31m([0m[31mSee DRUG INTERACTIONS . DOXYCYCLINE HYCLATE: information_for_patients: [0m[1;31m)[0m[31m — that the use of doxycycline might [0m
+[31mincrease the incidence of vaginal candidiasis. Patients should be counseled that antibacterial drugs, including doxycycline should only be used to treat bacterial infections. They do not treat viral [0m
+[31minfections [0m[1;31m([0m[31me.g., the common cold[0m[1;31m)[0m[31m. When doxycycline is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the[0m
+[31mmedication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may [0m[1;31m([0m[1;31m1[0m[1;31m)[0m[31m decrease the effectiveness of the immediate treatment and [0m[1;31m([0m[1;31m2[0m[1;31m)[0m[31m increase the [0m
+[31mlikelihood that bacteria will develop resistance and will not be treatable by doxycycline or other antibacterial drugs in the future. Diarrhea is a common problem caused by antibacterial drugs, which [0m
+[31musually ends when the antibacterials are discontinued. DOXYCYCLINE HYCLATE: information_for_patients: Sometimes after starting treatment with antibacterial drugs, patients can develop watery and [0m
+[31mbloody stools [0m[1;31m([0m[31mwith or without stomach cramps and fever[0m[1;31m)[0m[31m even as late as two or more months after having taken the last dose of the antibacterial drug. If this occurs, patients should contact their [0m
+[31mphysician as soon as possible.         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: openfda: spl_id         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: openfda: product_ndc         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: openfda: spl_set_id         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: labor_and_delivery: Labor and Delivery The effect of tetracyclines on labor and delivery is unknown.         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: clinical_pharmacology: Studies have shown no significant difference in serum half-life of doxycycline [0m[1;31m([0m[31mrange [0m[1;31m18[0m[31m-[0m[1;31m22[0m[31m hours[0m[1;31m)[0m[31m in individuals with normal and severely impaired[0m
+[31mrenal function. Hemodialysis does not alter serum half-life. Results of animal studies indicate that tetracyclines cross the placenta and are found in fetal tissues. Population pharmacokinetic [0m
+[31manalysis of sparse concentration-time data of doxycycline following standard of care intravenous and oral dosing in [0m[1;31m44[0m[31m pediatric patients [0m[1;31m([0m[1;31m2[0m[31m-[0m[1;31m18[0m[31m years of age[0m[1;31m)[0m[31m showed that allometrically -scaled [0m
+[31mclearance [0m[1;31m([0m[31mCL[0m[1;31m)[0m[31m of doxycycline in pediatric patients ≥[0m[1;31m2[0m[31m to ≤[0m[1;31m8[0m[31m years of age [0m[1;31m([0m[31mmedian [0m[31m [0m[1;31m3.58[0m[31m [0m[1;31m[[0m[1;31m2.27[0m[31m-[0m[1;31m10.82[0m[1;31m][0m[31m L/h/[0m[1;31m70[0m[31m kg, N =[0m[1;31m11[0m[1;31m)[0m[31m did not differ significantly from pediatric patients >[0m[1;31m8[0m[31m to [0m[1;31m18[0m[31m years of age [0m[1;31m([0m[1;31m3[0m[31m .[0m[1;31m27[0m
+[1;31m[[0m[1;31m1.11[0m[31m-[0m[1;31m8.12[0m[1;31m][0m[31m L/h/[0m[1;31m70[0m[31m kg, [0m[31mN[0m[31m=[0m[1;31m33[0m[1;31m)[0m[31m. DOXYCYCLINE HYCLATE: clinical_pharmacology: For pediatric patients weighing ≤[0m[1;31m45[0m[31m kg, body weight normalized doxycycline CL in those ≥[0m[1;31m2[0m[31m to ≤[0m[1;31m8[0m[31m years of age [0m[1;31m([0m[31mmedian [0m[31m [0m[1;31m0.071[0m[31m [0m[1;31m[[0m[1;31m0[0m
+[31m.[0m[1;31m041[0m[31m-[0m[1;31m0.202[0m[1;31m][0m[31m L/kg/h, [0m[31mN[0m[31m=[0m[1;31m10[0m[1;31m)[0m[31m did not differ significantly from those >[0m[1;31m8[0m[31m to [0m[1;31m18[0m[31m years of age [0m[1;31m([0m[1;31m0.081[0m[31m [0m[1;31m[[0m[1;31m0.035[0m[31m-[0m[1;31m0.126[0m[1;31m][0m[31m L/kg/h, [0m[31mN[0m[31m=[0m[1;31m8[0m[1;31m)[0m[31m. In pediatric patients weighing >[0m[1;31m45[0m[31m kg, no clinically significant differences [0m
+[31min body weight normalized doxycycline CL were observed between those ≥[0m[1;31m2[0m[31m to ≤[0m[1;31m8[0m[31m years [0m[1;31m([0m[1;31m0.050[0m[31m L/kg/h, [0m[31mN[0m[31m=[0m[31ml[0m[1;31m)[0m[31m and those >[0m[1;31m8[0m[31m to [0m[1;31m18[0m[31m years of age [0m[1;31m([0m[1;31m0.044[0m[31m [0m[1;31m[[0m[1;31m0.014[0m[31m-[0m[1;31m0.121[0m[1;31m][0m[31m L/kg/h, [0m[31mN[0m[31m=[0m[1;31m25[0m[1;31m)[0m[31m. DOXYCYCLINE HYCLATE: [0m
+[31mclinical_pharmacology: No clinically significant difference in CL between oral and IV dosing was observed in the small cohort of pediatric patients who received the oral [0m[1;31m([0m[31mN[0m[31m=[0m[1;31m19[0m[1;31m)[0m[31m or IV [0m[1;31m([0m[31mN[0m[31m=[0m[1;31m21[0m[1;31m)[0m[31m [0m
+[31mformulation alone. Microbiology Mechanism of Action Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad [0m
+[31mrange of Gram-positive and Gram-negative bacteria. Resistance Cross resistance with other tetracyclines is common. Antimicrobial Activity Doxycycline has been shown to be active against most isolates [0m
+[31mof the following microorganisms, both in vitro and in clinical infections as described in the INDICATIONS AND USAGE section of the package insert for doxycycline hyclate tablets, USP. DOXYCYCLINE [0m
+[31mHYCLATE: clinical_pharmacology: Gram-Negative Bacteria Acinetobacter species Bartonella bacilliformis Brucella species Klebsiella species Klebsiella granulomatis Campylobacter fetus Enterobacter [0m
+[31maerogenes Escherichia coli Francisella tularensis Haemophilus ducreyi Haemophilus influenzae Neisseria gonorrhoeae Shigella species Vibrio cholerae Yersinia pestis Gram-Positive Bacteria Bacillus [0m
+[31manthracis Listeria monocytogenes Streptococcus pneumoniae Anaerobic Bacteria Clostridium species Fusobacterium fusiforme Propionibacterium acnes Other Bacteria Nocardiae and other aerobic Actinomyces [0m
+[31mspecies Borrelia recurrentis Chlamydophila psittaci Chlamydia trachomatis Mycoplasma pneumoniae Rickettsiae Treponema pallidum Treponema pallidum subspecies pertenue Ure DOXYCYCLINE HYCLATE: [0m
+[31mclinical_pharmacology: aplasma urealyticum Parasites Balantidium coli Entamoeba species Plasmodium falciparum* *Doxycycline has been found to be active against the asexual erythrocytic forms of [0m
+[31mPlasmodium falciparum , but not against the gametocytes of P. falciparum . The precise mechanism of action of the drug is not known. Susceptibility Testing For specific information regarding [0m
+[31msusceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: [0m[4;31mhttps://www.fda.gov/STIC[0m[31m .         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+[31m        -----[0m
+[31m        If NONE of the extracts are relevant, try doing a web search with the[0m
+[31m        `relevant_search_extracts` tool/function-call[0m
+[31m        [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32m DO-NOT-KNOW[0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"query"[0m[32m: [0m[32m"risk of hospitalization with DOXYCYCLINE HYCLATE"[0m[32m,[0m
+[32m    [0m[32m"drug"[0m[32m: [0m[32m"DOXYCYCLINE HYCLATE"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31mNo relevant extracts found for risk of hospitalization with DOXYCYCLINE HYCLATE[0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+*[1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.AGENT [0m
+*[1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
+[32m    [0m[32m"content"[0m[32m: [0m[32m"Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes DOXYCYCLINE HYCLATE increase or decrease the risk of [0m
+[32mhospitalization?[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?[0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"query"[0m[32m: [0m[32m"Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?"[0m[32m,[0m
+[32m    [0m[32m"drug"[0m[32m: [0m[32m"DOXYCYCLINE HYCLATE"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
+[31mCONTENT: DOXYCYCLINE HYCLATE: overdosage: OVERDOSAGE In case of overdosage, discontinue medication, treat symptomatically and institute supportive measures. Dialysis does not alter serum half-life and[0m
+[31mthus would not be of benefit in treating cases of overdosage.         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: spl_unclassified_section: To reduce the development of drug-resistant bacteria and maintain the effectiveness of doxycycline hyclate tablets, USP and other antibacterial [0m
+[31mdrugs, doxycycline hyclate tablets, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: information_for_patients: Information For Patients Patients taking doxycycline for malaria prophylaxis should be advised: — that no present-day antimalarial agent, [0m
+[31mincluding doxycycline, guarantees protection against malaria. — to avoid being bitten by mosquitoes by using personal protective measures that help avoid contact with mosquitoes, especially from dusk [0m
+[31mto dawn [0m[1;31m([0m[31me.g., staying in well-screened areas, using mosquito nets, covering the body with clothing, and using an effective insect repellent[0m[1;31m)[0m[31m. — that doxycycline prophylaxis: — should begin [0m[1;31m1[0m[31m–[0m[1;31m2[0m[31m days [0m
+[31mbefore travel to the malarious area, — should be continued daily while in the malarious area and after leaving the malarious area, — should be continued for [0m[1;31m4[0m[31m further weeks to avoid development of [0m
+[31mmalaria after returning from an endemic area, — should not exceed [0m[1;31m4[0m[31m months. DOXYCYCLINE HYCLATE: information_for_patients: All patients taking doxycycline should be advised: — to avoid excessive [0m
+[31msunlight or artificial ultraviolet light while receiving doxycycline and to discontinue therapy if phototoxicity [0m[1;31m([0m[31me.g., skin eruption, etc.[0m[1;31m)[0m[31m occurs. Sunscreen or sunblock should be considered. [0m[1;31m([0m[31mSee [0m
+[31mWARNINGS .[0m[1;31m)[0m[31m — to drink fluids liberally along with doxycycline to reduce the risk of esophageal irritation and ulceration. [0m[1;31m([0m[31mSee ADVERSE REACTIONS .[0m[1;31m)[0m[31m — that the absorption of tetracyclines is reduced [0m
+[31mwhen taken with foods, especially those which contain calcium. However, the absorption of doxycycline is not markedly influenced by simultaneous ingestion of food or milk. [0m[1;31m([0m[31mSee DRUG INTERACTIONS .[0m[1;31m)[0m[31m — [0m
+[31mthat the absorption of tetracyclines is reduced when taking bismuth subsalicylate. [0m[1;31m([0m[31mSee DRUG INTERACTIONS . DOXYCYCLINE HYCLATE: information_for_patients: [0m[1;31m)[0m[31m — that the use of doxycycline might [0m
+[31mincrease the incidence of vaginal candidiasis. Patients should be counseled that antibacterial drugs, including doxycycline should only be used to treat bacterial infections. They do not treat viral [0m
+[31minfections [0m[1;31m([0m[31me.g., the common cold[0m[1;31m)[0m[31m. When doxycycline is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the[0m
+[31mmedication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may [0m[1;31m([0m[1;31m1[0m[1;31m)[0m[31m decrease the effectiveness of the immediate treatment and [0m[1;31m([0m[1;31m2[0m[1;31m)[0m[31m increase the [0m
+[31mlikelihood that bacteria will develop resistance and will not be treatable by doxycycline or other antibacterial drugs in the future. Diarrhea is a common problem caused by antibacterial drugs, which [0m
+[31musually ends when the antibacterials are discontinued. DOXYCYCLINE HYCLATE: information_for_patients: Sometimes after starting treatment with antibacterial drugs, patients can develop watery and [0m
+[31mbloody stools [0m[1;31m([0m[31mwith or without stomach cramps and fever[0m[1;31m)[0m[31m even as late as two or more months after having taken the last dose of the antibacterial drug. If this occurs, patients should contact their [0m
+[31mphysician as soon as possible.         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: openfda: spl_id         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: openfda: product_ndc         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: openfda: spl_set_id         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: labor_and_delivery: Labor and Delivery The effect of tetracyclines on labor and delivery is unknown.         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+
+[31mCONTENT: DOXYCYCLINE HYCLATE: clinical_pharmacology: Studies have shown no significant difference in serum half-life of doxycycline [0m[1;31m([0m[31mrange [0m[1;31m18[0m[31m-[0m[1;31m22[0m[31m hours[0m[1;31m)[0m[31m in individuals with normal and severely impaired[0m
+[31mrenal function. Hemodialysis does not alter serum half-life. Results of animal studies indicate that tetracyclines cross the placenta and are found in fetal tissues. Population pharmacokinetic [0m
+[31manalysis of sparse concentration-time data of doxycycline following standard of care intravenous and oral dosing in [0m[1;31m44[0m[31m pediatric patients [0m[1;31m([0m[1;31m2[0m[31m-[0m[1;31m18[0m[31m years of age[0m[1;31m)[0m[31m showed that allometrically -scaled [0m
+[31mclearance [0m[1;31m([0m[31mCL[0m[1;31m)[0m[31m of doxycycline in pediatric patients ≥[0m[1;31m2[0m[31m to ≤[0m[1;31m8[0m[31m years of age [0m[1;31m([0m[31mmedian [0m[31m [0m[1;31m3.58[0m[31m [0m[1;31m[[0m[1;31m2.27[0m[31m-[0m[1;31m10.82[0m[1;31m][0m[31m L/h/[0m[1;31m70[0m[31m kg, N =[0m[1;31m11[0m[1;31m)[0m[31m did not differ significantly from pediatric patients >[0m[1;31m8[0m[31m to [0m[1;31m18[0m[31m years of age [0m[1;31m([0m[1;31m3[0m[31m .[0m[1;31m27[0m
+[1;31m[[0m[1;31m1.11[0m[31m-[0m[1;31m8.12[0m[1;31m][0m[31m L/h/[0m[1;31m70[0m[31m kg, [0m[31mN[0m[31m=[0m[1;31m33[0m[1;31m)[0m[31m. DOXYCYCLINE HYCLATE: clinical_pharmacology: For pediatric patients weighing ≤[0m[1;31m45[0m[31m kg, body weight normalized doxycycline CL in those ≥[0m[1;31m2[0m[31m to ≤[0m[1;31m8[0m[31m years of age [0m[1;31m([0m[31mmedian [0m[31m [0m[1;31m0.071[0m[31m [0m[1;31m[[0m[1;31m0[0m
+[31m.[0m[1;31m041[0m[31m-[0m[1;31m0.202[0m[1;31m][0m[31m L/kg/h, [0m[31mN[0m[31m=[0m[1;31m10[0m[1;31m)[0m[31m did not differ significantly from those >[0m[1;31m8[0m[31m to [0m[1;31m18[0m[31m years of age [0m[1;31m([0m[1;31m0.081[0m[31m [0m[1;31m[[0m[1;31m0.035[0m[31m-[0m[1;31m0.126[0m[1;31m][0m[31m L/kg/h, [0m[31mN[0m[31m=[0m[1;31m8[0m[1;31m)[0m[31m. In pediatric patients weighing >[0m[1;31m45[0m[31m kg, no clinically significant differences [0m
+[31min body weight normalized doxycycline CL were observed between those ≥[0m[1;31m2[0m[31m to ≤[0m[1;31m8[0m[31m years [0m[1;31m([0m[1;31m0.050[0m[31m L/kg/h, [0m[31mN[0m[31m=[0m[31ml[0m[1;31m)[0m[31m and those >[0m[1;31m8[0m[31m to [0m[1;31m18[0m[31m years of age [0m[1;31m([0m[1;31m0.044[0m[31m [0m[1;31m[[0m[1;31m0.014[0m[31m-[0m[1;31m0.121[0m[1;31m][0m[31m L/kg/h, [0m[31mN[0m[31m=[0m[1;31m25[0m[1;31m)[0m[31m. DOXYCYCLINE HYCLATE: [0m
+[31mclinical_pharmacology: No clinically significant difference in CL between oral and IV dosing was observed in the small cohort of pediatric patients who received the oral [0m[1;31m([0m[31mN[0m[31m=[0m[1;31m19[0m[1;31m)[0m[31m or IV [0m[1;31m([0m[31mN[0m[31m=[0m[1;31m21[0m[1;31m)[0m[31m [0m
+[31mformulation alone. Microbiology Mechanism of Action Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad [0m
+[31mrange of Gram-positive and Gram-negative bacteria. Resistance Cross resistance with other tetracyclines is common. Antimicrobial Activity Doxycycline has been shown to be active against most isolates [0m
+[31mof the following microorganisms, both in vitro and in clinical infections as described in the INDICATIONS AND USAGE section of the package insert for doxycycline hyclate tablets, USP. DOXYCYCLINE [0m
+[31mHYCLATE: clinical_pharmacology: Gram-Negative Bacteria Acinetobacter species Bartonella bacilliformis Brucella species Klebsiella species Klebsiella granulomatis Campylobacter fetus Enterobacter [0m
+[31maerogenes Escherichia coli Francisella tularensis Haemophilus ducreyi Haemophilus influenzae Neisseria gonorrhoeae Shigella species Vibrio cholerae Yersinia pestis Gram-Positive Bacteria Bacillus [0m
+[31manthracis Listeria monocytogenes Streptococcus pneumoniae Anaerobic Bacteria Clostridium species Fusobacterium fusiforme Propionibacterium acnes Other Bacteria Nocardiae and other aerobic Actinomyces [0m
+[31mspecies Borrelia recurrentis Chlamydophila psittaci Chlamydia trachomatis Mycoplasma pneumoniae Rickettsiae Treponema pallidum Treponema pallidum subspecies pertenue Ure DOXYCYCLINE HYCLATE: [0m
+[31mclinical_pharmacology: aplasma urealyticum Parasites Balantidium coli Entamoeba species Plasmodium falciparum* *Doxycycline has been found to be active against the asexual erythrocytic forms of [0m
+[31mPlasmodium falciparum , but not against the gametocytes of P. falciparum . The precise mechanism of action of the drug is not known. Susceptibility Testing For specific information regarding [0m
+[31msusceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: [0m[4;31mhttps://www.fda.gov/STIC[0m[31m .         [0m
+[31mSOUR[0m[1;31mCE:D[0m[31mOXYCYCLINE HYCLATE label[0m
+
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+*[1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.AGENT [0m
+*[1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
+[32m    [0m[32m"content"[0m[32m: [0m[32m"Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes DOXYCYCLINE HYCLATE increase or decrease the risk of [0m
+[32mhospitalization?[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?[0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"query"[0m[32m: [0m[32m"Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?"[0m[32m,[0m
+[32m    [0m[32m"drug"[0m[32m: [0m[32m"DOXYCYCLINE HYCLATE"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31mNo relevant extracts found for Does DOXYCYCLINE HYCLATE increase or decrease the [0m
+[31mrisk of hospitalization?[0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+*[1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [31m Entity.AGENT [0m
+*[1m([0morchestrator-hospitalization-DOXYCYCLINE HYCLATE[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
+
+[32mThe question regarding whether Doxycycline Hyclate increases or decreases the risk of hospitalization is not one that can be answered with the information available from FDA label data. The FDA label [0m
+[32mfor a medication typically includes information on the indications for use, dosing, contraindications, warnings, precautions, adverse reactions, and other relevant clinical information. However, it [0m
+[32mdoes not typically provide direct information on the risk of hospitalization as a general outcome. Hospitalization can be a result of various factors, including the severity of the condition being [0m
+[32mtreated, the occurrence of serious adverse reactions, or other medical complications, which may or may not be related to the use of a specific medication like Doxycycline Hyclate.[0m
+
+[32mTherefore, without specific data or studies that correlate the use of Doxycycline Hyclate with hospitalization rates, it is not possible to determine whether this medication increases or decreases the[0m
+[32mrisk of hospitalization.[0m

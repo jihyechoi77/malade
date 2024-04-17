@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "malade"
+version = "0.0.1"
+description = ""
+authors = ["Anonymous Authors"]
+readme = "README.md"
+license = ""
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+langroid = {version="^0.1.222", extras=["hf-embeddings", "postgres", "chainlit"]}
+duckdb = "^0.10.0"
+pandas = "^2.2.1"
+nest_asyncio = "^1.6.0"
+matplotlib = "^3.8.3"
+altair = {extras = ["all"], version = "^5.3.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

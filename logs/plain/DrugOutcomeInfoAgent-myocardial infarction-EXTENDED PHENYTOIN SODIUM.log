@@ -1,0 +1,537 @@
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does EXTENDED PHENYTOIN SODIUM increase or 
+decrease the risk of myocardial infarction?
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT 
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of myocardial infarction?"
+  }
+}
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does EXTENDED PHENYTOIN SODIUM increase or 
+decrease the risk of myocardial infarction?
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of myocardial infarction?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of myocardial infarction?",
+    "drug": "EXTENDED PHENYTOIN SODIUM"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: EXTENDED PHENYTOIN SODIUM: drug_interactions: John’s wort b , sucralfate, theophylline Drugs that may either increase or decrease phenytoin serum levels Antiepileptic drugs Phenobarbital, 
+valproate sodium c , valproic acid c a Antacids may affect absorption of phenytoin. b The induction potency of St. John’s wort may vary widely based on preparation. c Valproate sodium and valproic 
+acid are similar medications. The term valproate has been used to represent these medications. 7.2 Drugs Affected by Phenytoin Table 3 includes commonly occurring drug interactions affected by 
+phenytoin. However, this list is not intended to be inclusive or comprehensive. Individual drug package inserts should be consulted. The addition or withdrawal of phenytoin during concomitant therapy 
+with these agents may require adjustment of the dose of these agents to achieve optimal clinical outcome. EXTENDED PHENYTOIN SODIUM: drug_interactions: Table 3: Drugs Affected by Phenytoin Interacting
+Agent Examples Drugs whose efficacy is impaired by phenytoin Azoles Fluconazole, ketoconazole, itraconazole, posaconazole, voriconazole Antineoplastic agents Irinotecan, paclitaxel, teniposide 
+Delavirdine Phenytoin can substantially reduce the concentrations of delavirdine. This can lead to loss of virologic response and possible resistance . Neuromuscular blocking agents Cisatracurium, 
+pancuronium, rocuronium and vecuronium: resistance to the neuromuscular blocking action of the nondepolarizing neuromuscular blocking agents has occurred in patients chronically administered 
+phenytoin. Whether or not phenytoin has the same effect on other non-depolarizing agents is unknown. EXTENDED PHENYTOIN SODIUM: drug_interactions: Prevention or Management: Patients should be 
+monitored closely for more rapid recovery from neuromuscular blockade than expected, and infusion rate requirements may be higher. EXTENDED PHENYTOIN SODIUM: drug_interactions: Warfarin Increased and 
+decreased PT/INR responses have been reported when phenytoin is co-administered with warfarin Other Corticosteroids, doxycycline, estrogens, furosemide, oral contraceptives, paroxetine, quinidine, 
+rifampin, sertraline, theophylline, and vitamin D Drugs whose level is decreased by phenytoin Anticoagulants Apixaban, dabigatran, edoxaban, rivaroxaban Antiepileptic drugs a Carbamazepine, felbamate,
+lamotrigine, topiramate, oxcarbazepine, lacosamide Antilipidemic agents Atorvastatin, fluvastatin, simvastatin Antiplatelets Ticagrelor Antiviral agents Efavirenz, lopinavir/ritonavir, indinavir, 
+nelfin EXTENDED PHENYTOIN SODIUM: drug_interactions: avir, ritonavir, saquinavir Fosamprenavir: phenytoin when given with fosamprenavir alone may decrease the concentration of amprenavir, the active 
+metabolite. Phenytoin when given with the combination of fosamprenavir and ritonavir may increase the concentration of amprenavir Calcium channel blockers Nifedipine, nimodipine, nisoldipine, 
+verapamil Other Albendazole (decreases active metabolite), chlorpropamide, clozapine, cyclosporine, digoxin, disopyramide, folic acid, methadone, mexiletine, praziquantel, quetiapine a The effect of 
+phenytoin on phenobarbital, valproic acid and sodium valproate serum levels is unpredictable 7. EXTENDED PHENYTOIN SODIUM: drug_interactions: 3 Hyperammonemia with Concomitant Use of Valproate 
+Concomitant administration of phenytoin and valproate has been associated with an increased risk of valproate-associated hyperammonemia. Patients treated concomitantly with these two drugs should be 
+monitored for signs and symptoms of hyperammonemia. 7.4 Drug Enteral Feeding/Nutritional Preparations Interaction Literature reports suggest that patients who have received enteral feeding 
+preparations and/or related nutritional supplements have lower than expected phenytoin serum levels. It is therefore suggested that phenytoin not be administered concomitantly with an enteral feeding 
+preparation. More frequent serum phenytoin level monitoring may be necessary in these patients. 7.5 Drug/Laboratory Test Interactions Care should be taken when using immunoanalytical methods to 
+measure serum phenytoin concentrations.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: drug_interactions_table: intake, amiodarone, chloramphenicol, chlordiazepoxide, disulfiram, estrogen, fluvastatin, isoniazid, methylphenidate, phenothiazines, 
+salicylates, ticlopidine, tolbutamide, trazodone, warfarin</paragraph></td></tr><tr><td colspan="2"><paragraph><content styleCode="bold">Drugs that may decrease phenytoin serum 
+levels</content></paragraph></td></tr><tr><td/><td/></tr><tr><td><paragraph>Antacids <sup>a</sup></paragraph></td><td><paragraph>Calcium carbonate, aluminum hydroxide, magnesium hydroxide <content 
+styleCode="italics">Prevention or Management:</content>Phenytoin and antacids should not be taken at the same time of day </paragraph></td></tr><tr><td><paragraph>Antineop EXTENDED PHENYTOIN SODIUM: 
+drug_interactions_table: lastic agents usually in combination</paragraph></td><td><paragraph>Bleomycin, carboplatin, cisplatin, doxorubicin, 
+methotrexate</paragraph></td></tr><tr><td><paragraph>Antiviral agents</paragraph></td><td><paragraph>Fosamprenavir, nelfinavir, ritonavir</paragraph></td></tr><tr><td><paragraph>Antiepileptic 
+drugs</paragraph></td><td><paragraph>Carbamazepine, vigabatrin</paragraph></td></tr><tr><td><paragraph>Other</paragraph></td><td><paragraph>Chronic alcohol abuse, diazepam, diazoxide, folic 
+acid,</paragraph><paragraph>reserpine, rifampin, St. EXTENDED PHENYTOIN SODIUM: drug_interactions_table: John&#x2019;s wort <sup>b</sup>, sucralfate, theophylline </paragraph></td></tr><tr><td 
+colspan="2"><paragraph><content styleCode="bold">Drugs that may either increase or decrease phenytoin serum levels</content></paragraph></td></tr><tr><td><paragraph>Antiepileptic 
+drugs</paragraph></td><td><paragraph>Phenobarbital, valproate sodium <sup>c</sup>, valproic acid <sup>c</sup></paragraph></td></tr></tbody></table>         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide: Keep extended phenytoin sodium capsules and all medicines out of the reach of children. General information about the safe and effective use of 
+extended phenytoin sodium capsules. Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use extended phenytoin sodium capsules for a condition for 
+which it was not prescribed. Do not give extended phenytoin sodium capsules to other people, even if they have the same symptoms that you have. It may harm them. You can ask your pharmacist or 
+healthcare provider for information about extended phenytoin sodium capsules that is written for health professionals. What are the ingredients in extended phenytoin sodium capsules? Extended 
+phenytoin sodium capsules 100 mg: white opaque/light lavender opaque, hard gelatin capsules imprinted with "IP 212" on both cap and body. EXTENDED PHENYTOIN SODIUM: spl_medguide: Active ingredient: 
+100 mg phenytoin sodium, USP Inactive ingredients: D&C Red #28, D&C Red #33, FD&C Blue #1, gelatin, hydroxypropyl cellulose, mannitol, magnesium stearate, talc and titanium dioxide. For more 
+information about extended phenytoin sodium capsules, visit www.amneal.com or call 1-877-835-5472. This Medication Guide has been approved by the U.S. Food and Drug Administration. Distributed by: 
+Amneal Pharmaceuticals LLC Bridgewater, NJ 08807 Rev. EXTENDED PHENYTOIN SODIUM: spl_medguide: 08-2023-07         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide_table: content></paragraph><paragraph>Extended phenytoin sodium capsules are a prescription medicine used to treat certain types of seizures called 
+tonic-clonic (grand mal) and psychomotor (temporal lobe) seizures.</paragraph></td></tr><tr><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph><content styleCode="bold">Do not 
+take</content><content styleCode="bold">extended phenytoin sodium capsules if you:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Are allergic to phenytoin or any of the 
+ingredients in extended phenytoin sodium capsules. See the end of this leaflet for a complete list of ingredients in extended phenytoin sodium capsules.</item><item>Have had an allergic reaction to 
+CEREBYX (fosphenytoin), PEGANONE (ethotoin), or MESANTOIN (mephenytoin). EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item><item>Have had liver problems from taking phenytoin.</item><item>Take 
+delavirdine.</item></list><paragraph><content styleCode="bold">Before taking</content><content styleCode="bold">extended phenytoin sodium capsules, tell your healthcare provider about all of your 
+medical conditions, including if you:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Have or have had depression, mood problems, or suicidal thoughts or 
+behavior</item><item>Have had an allergic reaction to a medicine similar to extended phenytoin sodium capsules called carboxamides, barbiturates, succinimides, and oxazolidinediones</item><item>Have 
+or had liver or kidney problems</item><item>Have or had an enzyme problem called porphyria</item><item>Have or had high blood sugar (hyperglycemia)</item><item>Drink alcohol</item><item EXTENDED 
+PHENYTOIN SODIUM: spl_medguide_table: >Are pregnant or plan to become pregnant. Extended phenytoin sodium capsules may harm your unborn baby.</item><item>If you take extended phenytoin sodium capsules
+during pregnancy, your baby is at risk for serious birth defects.</item><item>If you become pregnant while taking extended phenytoin sodium capsules, the level of phenytoin in your blood may decrease,
+causing your seizures to become worse. Your healthcare provider may change your dose of extended phenytoin sodium capsules.</item><item>If you take extended phenytoin sodium capsules during pregnancy,
+your baby is also at risk for bleeding problems right after birth. Your healthcare provider may give you and your baby medicine to prevent this.</item><item>All women of child-bearing age should talk 
+to their healthcare provider about using other possible treatments instead of extended phenytoin sodium capsules. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item><item>If you are of childbearing 
+age and are not planning on getting pregnant, you should use effective birth control (contraception) while taking extended phenytoin sodium capsules.</item><item><content styleCode="bold">Pregnancy 
+Registry:</content>If you become pregnant while taking extended phenytoin sodium capsules, talk to your healthcare provider about registering with the North American Antiepileptic Drug Pregnancy 
+Registry. You can enroll in this registry by calling 1-888-233-2334. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. </item><item>Are 
+breastfeeding or plan to breastfeed. Phenytoin can pass into breast milk. You and your healthcare provider should decide if you will take extended phenytoin sodium capsules while you are 
+breastfeeding. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item></list><paragraph>Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter 
+medicines, vitamins, and herbal supplements. These medicines can change the levels of phenytoin in your blood.</paragraph><paragraph>Taking extended phenytoin sodium capsules with certain other 
+medicines can cause side effects or affect how well they work. Do not start or stop other medicines without talking to your healthcare provider.</paragraph><paragraph>Know the medicines you take. Keep
+a list of them and show it to your healthcare provider and pharmacist when you get a new medicine.</paragraph></td></tr><tr><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph><content 
+styleCode="bold">How should I take</content><content styleCode="bold">extended phenytoin sodium capsules?         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: spl_id         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: product_ndc         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: brand_name         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: package_ndc         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: spl_set_id         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide: Extended phenytoin sodium capsules can cause problems with your heart, including a slow heartbeat. Let your healthcare provider know right away if you
+have any of these symptoms: dizziness tiredness feeling like your heart is beating slowly or skipping beats chest pain What are extended phenytoin sodium capsules? Extended phenytoin sodium capsules 
+are a prescription medicine used to treat certain types of seizures called tonic-clonic (grand mal) and psychomotor (temporal lobe) seizures. Do not take extended phenytoin sodium capsules if you: Are
+allergic to phenytoin or any of the ingredients in extended phenytoin sodium capsules. See the end of this leaflet for a complete list of ingredients in extended phenytoin sodium capsules. Have had an
+allergic reaction to CEREBYX (fosphenytoin), PEGANONE (ethotoin), or MESANTOIN (mephenytoin). EXTENDED PHENYTOIN SODIUM: spl_medguide: Have had liver problems from taking phenytoin. Take delavirdine. 
+Before taking extended phenytoin sodium capsules, tell your healthcare provider about all of your medical conditions, including if you: Have or have had depression, mood problems, or suicidal thoughts
+or behavior Have had an allergic reaction to a medicine similar to extended phenytoin sodium capsules called carboxamides, barbiturates, succinimides, and oxazolidinediones Have or had liver or kidney
+problems Have or had an enzyme problem called porphyria Have or had high blood sugar (hyperglycemia) Drink alcohol Are pregnant or plan to become pregnant. Extended phenytoin sodium capsules may harm 
+your unborn baby. If you take extended phenytoin sodium capsules during pregnancy, your baby is at risk for serious birth defects. EXTENDED PHENYTOIN SODIUM: spl_medguide: If you become pregnant while
+taking extended phenytoin sodium capsules, the level of phenytoin in your blood may decrease, causing your seizures to become worse. Your healthcare provider may change your dose of extended phenytoin
+sodium capsules. If you take extended phenytoin sodium capsules during pregnancy, your baby is also at risk for bleeding problems right after birth. Your healthcare provider may give you and your baby
+medicine to prevent this. All women of child-bearing age should talk to their healthcare provider about using other possible treatments instead of extended phenytoin sodium capsules. If you are of 
+childbearing age and are not planning on getting pregnant, you should use effective birth control (contraception) while taking extended phenytoin sodium capsules. Pregnancy Registry: If you become 
+pregnant while taking extended phenytoin sodium capsules, talk to your healthcare provider about registering with the North American Antiepileptic Drug Pregnancy Registry. EXTENDED PHENYTOIN SODIUM: 
+spl_medguide: You can enroll in this registry by calling 1-888-233-2334. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. Are 
+breastfeeding or plan to breastfeed. Phenytoin can pass into breast milk. You and your healthcare provider should decide if you will take extended phenytoin sodium capsules while you are 
+breastfeeding. Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. These medicines can change the 
+levels of phenytoin in your blood. Taking extended phenytoin sodium capsules with certain other medicines can cause side effects or affect how well they work. Do not start or stop other medicines 
+without talking to your healthcare provider. Know the medicines you take. Keep a list of them and show it to your healthcare provider and pharmacist when you get a new medicine. How should I take 
+extended phenytoin sodium capsules? EXTENDED PHENYTOIN SODIUM: spl_medguide: Take extended phenytoin sodium capsules exactly as your healthcare provider tells you. Your healthcare provider will tell 
+you how much extended phenytoin sodium capsules to take and when to take it. Your healthcare provider may change your dose if needed. Do not change your dose of extended phenytoin sodium capsules 
+without talking to your healthcare provider. Do not stop taking extended phenytoin sodium capsules without first talking to your healthcare provider. Stopping extended phenytoin sodium capsules 
+suddenly can cause serious problems. What should I avoid while taking extended phenytoin sodium capsules? Do not drink alcohol while you take extended phenytoin sodium capsules without first talking 
+to your healthcare provider. Drinking alcohol while taking extended phenytoin sodium capsules may change your blood levels of phenytoin which can cause serious problems. Do not drive, operate heavy 
+machinery, or do other dangerous activities until you know how extended phenytoin sodium capsules affects you.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: drug_interactions_table: <table width="100%" cellspacing="0" cellpadding="0" border="1"><col width="17px"/><col width="17px"/><tbody><tr><td><paragraph><content 
+styleCode="bold">Interacting Agent</content></paragraph></td><td><paragraph><content styleCode="bold">Examples</content></paragraph></td></tr><tr><td colspan="2"><paragraph><content 
+styleCode="bold">Drugs whose efficacy is impaired by phenytoin</content></paragraph></td></tr><tr><td><paragraph>Azoles</paragraph></td><td><paragraph>Fluconazole, ketoconazole, itraconazole, 
+posaconazole, voriconazole</paragraph></td></tr><tr><td><paragraph>Antineoplastic agents</paragraph></td><td><paragraph>Irinotecan, paclitaxel, teniposide</paragraph></td></tr><tr><td><paragraph> 
+EXTENDED PHENYTOIN SODIUM: drug_interactions_table: Delavirdine</paragraph></td><td><paragraph>Phenytoin can substantially reduce the concentrations of delavirdine. This can lead to loss of virologic 
+response and possible resistance <content styleCode="italics">. </content></paragraph></td></tr><tr><td><paragraph>Neuromuscular</paragraph><paragraph>blocking 
+agents</paragraph></td><td><paragraph>Cisatracurium, pancuronium, rocuronium and vecuronium: resistance to the neuromuscular blocking action of the nondepolarizing neuromuscular blocking agents has 
+occurred in patients chronically administered phenytoin. EXTENDED PHENYTOIN SODIUM: drug_interactions_table: Whether or not phenytoin has the same effect on other non-depolarizing agents is 
+unknown.</paragraph><paragraph><content styleCode="italics"><content styleCode="underline">Prevention or Management:</content> </content>Patients should be monitored closely for more rapid recovery 
+from neuromuscular blockade than expected, and infusion rate requirements may be higher. EXTENDED PHENYTOIN SODIUM: drug_interactions_table: 
+</paragraph></td></tr><tr><td><paragraph>Warfarin</paragraph></td><td><paragraph>Increased and decreased PT/INR responses have been reported when phenytoin is co-administered with 
+warfarin</paragraph></td></tr><tr><td><paragraph>Other</paragraph></td><td><paragraph>Corticosteroids, doxycycline, estrogens, furosemide, oral contraceptives, paroxetine, quinidine, rifampin, 
+sertraline, theophylline, and vitamin D</paragraph></td></tr><tr><td colspan="2"><paragraph><content styleCode="bold">Drugs whose level is decreased by 
+phenytoin</content></paragraph></td></tr><tr><td><paragraph>Anticoagulants</paragraph></td><td><paragraph>Apixaban, dabigatran, edoxaban, rivaroxaban EXTENDED PHENYTOIN SODIUM: 
+drug_interactions_table: </paragraph></td></tr><tr><td><paragraph>Antiepileptic drugs <sup>a</sup></paragraph></td><td><paragraph>Carbamazepine, felbamate, lamotrigine, topiramate, oxcarbazepine, 
+lacosamide</paragraph></td></tr><tr><td><paragraph>Antilipidemic agents</paragraph></td><td><paragraph>Atorvastatin, fluvastatin, 
+simvastatin</paragraph></td></tr><tr><td><paragraph>Antiplatelets</paragraph></td><td><paragraph>Ticagrelor</paragraph></td></tr><tr><td><paragraph>Antiviral 
+agents</paragraph></td><td><paragraph>Efavirenz, lopinavir/ritonavir, indinavir, nelfinavir, ritonavir, saquinavir</paragraph><paragraph>Fosamp         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: pregnancy: 8.1 Pregnancy Pregnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to antiepileptic drugs
+(AEDs), such as phenytoin sodium, during pregnancy. Physicians are advised to recommend that pregnant patients taking phenytoin sodium enroll in the North American Antiepileptic Drug (NAAED) Pregnancy
+Registry. This can be done by calling the toll free number 1-888-233-2334, and must be done by patients themselves. Information on the registry can also be found at the website 
+http://www.aedpregnancyregistry.org/ Risk Summary In humans, prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse developmental outcomes. Prenatal 
+phenytoin exposure is associated with an increased incidence of major malformations, including orofacial clefts and cardiac defects. EXTENDED PHENYTOIN SODIUM: pregnancy: In addition, the fetal 
+hydantoin syndrome, a pattern of abnormalities including dysmorphic skull and facial features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits has been
+reported among children born to epileptic women who took phenytoin alone or in combination with other antiepileptic drugs during pregnancy  . There have been several reported cases of malignancies, 
+including neuroblastoma, in children whose mothers received phenytoin during pregnancy. Administration of phenytoin to pregnant animals resulted in an increased incidence of fetal malformations and 
+other manifestations of developmental toxicity (including embryofetal death, growth impairment, and behavioral abnormalities) in multiple species at clinically relevant doses . In the U.S. general 
+population, the estimated background risk of major birth defects and of miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively. EXTENDED PHENYTOIN SODIUM: pregnancy:
+The background risk of major birth defects and miscarriage for the indicated population is unknown. Clinical Considerations Disease-associated maternal risk An increase in seizure frequency may occur 
+during pregnancy because of altered phenytoin pharmacokinetics. Periodic measurement of serum phenytoin concentrations may be valuable in the management of pregnant women as a guide to appropriate 
+adjustment of dosage  . However, postpartum restoration of the original dosage will probably be indicated . Fetal/Neonatal Adverse Reactions A potentially life-threatening bleeding disorder related to
+decreased levels of vitamin K-dependent clotting factors may occur in newborns exposed to phenytoin in utero . This drug-induced condition can be prevented with vitamin K administration to the mother 
+before delivery and to the neonate after birth. EXTENDED PHENYTOIN SODIUM: pregnancy: Data Human Data Meta-analyses using data from published observational studies and registries have estimated an 
+approximately 2.4-fold increased risk for any major malformation in children with prenatal phenytoin exposure compared to controls. An increased risk of heart defects, facial clefts, and digital 
+hypoplasia has been reported. The fetal hydantoin syndrome is a pattern of congenital anomalies including craniofacial anomalies, nail and digital hypoplasia, prenatal-onset growth deficiency, and 
+neurodevelopmental deficiencies. Animal Data Administration of phenytoin to pregnant rats, rabbits, and mice during organogenesis resulted in embryofetal death, fetal malformations, and decreased 
+fetal growth. Malformations (including craniofacial, cardiovascular, neural, limb, and digit abnormalities) were observed in rats, rabbits, and mice at doses as low as 100, 75, and 12.5 mg/kg, 
+respectively.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of myocardial infarction?",
+    "drug": "EXTENDED PHENYTOIN SODIUM"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does EXTENDED PHENYTOIN SODIUM increase or decrease 
+the risk of myocardial infarction?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT 
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of myocardial infarction?"
+  }
+}
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does EXTENDED PHENYTOIN SODIUM increase or 
+decrease the risk of myocardial infarction?
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of myocardial infarction?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of myocardial infarction?",
+    "drug": "EXTENDED PHENYTOIN SODIUM"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: EXTENDED PHENYTOIN SODIUM: drug_interactions: John’s wort b , sucralfate, theophylline Drugs that may either increase or decrease phenytoin serum levels Antiepileptic drugs Phenobarbital, 
+valproate sodium c , valproic acid c a Antacids may affect absorption of phenytoin. b The induction potency of St. John’s wort may vary widely based on preparation. c Valproate sodium and valproic 
+acid are similar medications. The term valproate has been used to represent these medications. 7.2 Drugs Affected by Phenytoin Table 3 includes commonly occurring drug interactions affected by 
+phenytoin. However, this list is not intended to be inclusive or comprehensive. Individual drug package inserts should be consulted. The addition or withdrawal of phenytoin during concomitant therapy 
+with these agents may require adjustment of the dose of these agents to achieve optimal clinical outcome. EXTENDED PHENYTOIN SODIUM: drug_interactions: Table 3: Drugs Affected by Phenytoin Interacting
+Agent Examples Drugs whose efficacy is impaired by phenytoin Azoles Fluconazole, ketoconazole, itraconazole, posaconazole, voriconazole Antineoplastic agents Irinotecan, paclitaxel, teniposide 
+Delavirdine Phenytoin can substantially reduce the concentrations of delavirdine. This can lead to loss of virologic response and possible resistance . Neuromuscular blocking agents Cisatracurium, 
+pancuronium, rocuronium and vecuronium: resistance to the neuromuscular blocking action of the nondepolarizing neuromuscular blocking agents has occurred in patients chronically administered 
+phenytoin. Whether or not phenytoin has the same effect on other non-depolarizing agents is unknown. EXTENDED PHENYTOIN SODIUM: drug_interactions: Prevention or Management: Patients should be 
+monitored closely for more rapid recovery from neuromuscular blockade than expected, and infusion rate requirements may be higher. EXTENDED PHENYTOIN SODIUM: drug_interactions: Warfarin Increased and 
+decreased PT/INR responses have been reported when phenytoin is co-administered with warfarin Other Corticosteroids, doxycycline, estrogens, furosemide, oral contraceptives, paroxetine, quinidine, 
+rifampin, sertraline, theophylline, and vitamin D Drugs whose level is decreased by phenytoin Anticoagulants Apixaban, dabigatran, edoxaban, rivaroxaban Antiepileptic drugs a Carbamazepine, felbamate,
+lamotrigine, topiramate, oxcarbazepine, lacosamide Antilipidemic agents Atorvastatin, fluvastatin, simvastatin Antiplatelets Ticagrelor Antiviral agents Efavirenz, lopinavir/ritonavir, indinavir, 
+nelfin EXTENDED PHENYTOIN SODIUM: drug_interactions: avir, ritonavir, saquinavir Fosamprenavir: phenytoin when given with fosamprenavir alone may decrease the concentration of amprenavir, the active 
+metabolite. Phenytoin when given with the combination of fosamprenavir and ritonavir may increase the concentration of amprenavir Calcium channel blockers Nifedipine, nimodipine, nisoldipine, 
+verapamil Other Albendazole (decreases active metabolite), chlorpropamide, clozapine, cyclosporine, digoxin, disopyramide, folic acid, methadone, mexiletine, praziquantel, quetiapine a The effect of 
+phenytoin on phenobarbital, valproic acid and sodium valproate serum levels is unpredictable 7. EXTENDED PHENYTOIN SODIUM: drug_interactions: 3 Hyperammonemia with Concomitant Use of Valproate 
+Concomitant administration of phenytoin and valproate has been associated with an increased risk of valproate-associated hyperammonemia. Patients treated concomitantly with these two drugs should be 
+monitored for signs and symptoms of hyperammonemia. 7.4 Drug Enteral Feeding/Nutritional Preparations Interaction Literature reports suggest that patients who have received enteral feeding 
+preparations and/or related nutritional supplements have lower than expected phenytoin serum levels. It is therefore suggested that phenytoin not be administered concomitantly with an enteral feeding 
+preparation. More frequent serum phenytoin level monitoring may be necessary in these patients. 7.5 Drug/Laboratory Test Interactions Care should be taken when using immunoanalytical methods to 
+measure serum phenytoin concentrations.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: drug_interactions_table: intake, amiodarone, chloramphenicol, chlordiazepoxide, disulfiram, estrogen, fluvastatin, isoniazid, methylphenidate, phenothiazines, 
+salicylates, ticlopidine, tolbutamide, trazodone, warfarin</paragraph></td></tr><tr><td colspan="2"><paragraph><content styleCode="bold">Drugs that may decrease phenytoin serum 
+levels</content></paragraph></td></tr><tr><td/><td/></tr><tr><td><paragraph>Antacids <sup>a</sup></paragraph></td><td><paragraph>Calcium carbonate, aluminum hydroxide, magnesium hydroxide <content 
+styleCode="italics">Prevention or Management:</content>Phenytoin and antacids should not be taken at the same time of day </paragraph></td></tr><tr><td><paragraph>Antineop EXTENDED PHENYTOIN SODIUM: 
+drug_interactions_table: lastic agents usually in combination</paragraph></td><td><paragraph>Bleomycin, carboplatin, cisplatin, doxorubicin, 
+methotrexate</paragraph></td></tr><tr><td><paragraph>Antiviral agents</paragraph></td><td><paragraph>Fosamprenavir, nelfinavir, ritonavir</paragraph></td></tr><tr><td><paragraph>Antiepileptic 
+drugs</paragraph></td><td><paragraph>Carbamazepine, vigabatrin</paragraph></td></tr><tr><td><paragraph>Other</paragraph></td><td><paragraph>Chronic alcohol abuse, diazepam, diazoxide, folic 
+acid,</paragraph><paragraph>reserpine, rifampin, St. EXTENDED PHENYTOIN SODIUM: drug_interactions_table: John&#x2019;s wort <sup>b</sup>, sucralfate, theophylline </paragraph></td></tr><tr><td 
+colspan="2"><paragraph><content styleCode="bold">Drugs that may either increase or decrease phenytoin serum levels</content></paragraph></td></tr><tr><td><paragraph>Antiepileptic 
+drugs</paragraph></td><td><paragraph>Phenobarbital, valproate sodium <sup>c</sup>, valproic acid <sup>c</sup></paragraph></td></tr></tbody></table>         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide: Keep extended phenytoin sodium capsules and all medicines out of the reach of children. General information about the safe and effective use of 
+extended phenytoin sodium capsules. Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use extended phenytoin sodium capsules for a condition for 
+which it was not prescribed. Do not give extended phenytoin sodium capsules to other people, even if they have the same symptoms that you have. It may harm them. You can ask your pharmacist or 
+healthcare provider for information about extended phenytoin sodium capsules that is written for health professionals. What are the ingredients in extended phenytoin sodium capsules? Extended 
+phenytoin sodium capsules 100 mg: white opaque/light lavender opaque, hard gelatin capsules imprinted with "IP 212" on both cap and body. EXTENDED PHENYTOIN SODIUM: spl_medguide: Active ingredient: 
+100 mg phenytoin sodium, USP Inactive ingredients: D&C Red #28, D&C Red #33, FD&C Blue #1, gelatin, hydroxypropyl cellulose, mannitol, magnesium stearate, talc and titanium dioxide. For more 
+information about extended phenytoin sodium capsules, visit www.amneal.com or call 1-877-835-5472. This Medication Guide has been approved by the U.S. Food and Drug Administration. Distributed by: 
+Amneal Pharmaceuticals LLC Bridgewater, NJ 08807 Rev. EXTENDED PHENYTOIN SODIUM: spl_medguide: 08-2023-07         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide_table: content></paragraph><paragraph>Extended phenytoin sodium capsules are a prescription medicine used to treat certain types of seizures called 
+tonic-clonic (grand mal) and psychomotor (temporal lobe) seizures.</paragraph></td></tr><tr><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph><content styleCode="bold">Do not 
+take</content><content styleCode="bold">extended phenytoin sodium capsules if you:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Are allergic to phenytoin or any of the 
+ingredients in extended phenytoin sodium capsules. See the end of this leaflet for a complete list of ingredients in extended phenytoin sodium capsules.</item><item>Have had an allergic reaction to 
+CEREBYX (fosphenytoin), PEGANONE (ethotoin), or MESANTOIN (mephenytoin). EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item><item>Have had liver problems from taking phenytoin.</item><item>Take 
+delavirdine.</item></list><paragraph><content styleCode="bold">Before taking</content><content styleCode="bold">extended phenytoin sodium capsules, tell your healthcare provider about all of your 
+medical conditions, including if you:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Have or have had depression, mood problems, or suicidal thoughts or 
+behavior</item><item>Have had an allergic reaction to a medicine similar to extended phenytoin sodium capsules called carboxamides, barbiturates, succinimides, and oxazolidinediones</item><item>Have 
+or had liver or kidney problems</item><item>Have or had an enzyme problem called porphyria</item><item>Have or had high blood sugar (hyperglycemia)</item><item>Drink alcohol</item><item EXTENDED 
+PHENYTOIN SODIUM: spl_medguide_table: >Are pregnant or plan to become pregnant. Extended phenytoin sodium capsules may harm your unborn baby.</item><item>If you take extended phenytoin sodium capsules
+during pregnancy, your baby is at risk for serious birth defects.</item><item>If you become pregnant while taking extended phenytoin sodium capsules, the level of phenytoin in your blood may decrease,
+causing your seizures to become worse. Your healthcare provider may change your dose of extended phenytoin sodium capsules.</item><item>If you take extended phenytoin sodium capsules during pregnancy,
+your baby is also at risk for bleeding problems right after birth. Your healthcare provider may give you and your baby medicine to prevent this.</item><item>All women of child-bearing age should talk 
+to their healthcare provider about using other possible treatments instead of extended phenytoin sodium capsules. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item><item>If you are of childbearing 
+age and are not planning on getting pregnant, you should use effective birth control (contraception) while taking extended phenytoin sodium capsules.</item><item><content styleCode="bold">Pregnancy 
+Registry:</content>If you become pregnant while taking extended phenytoin sodium capsules, talk to your healthcare provider about registering with the North American Antiepileptic Drug Pregnancy 
+Registry. You can enroll in this registry by calling 1-888-233-2334. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. </item><item>Are 
+breastfeeding or plan to breastfeed. Phenytoin can pass into breast milk. You and your healthcare provider should decide if you will take extended phenytoin sodium capsules while you are 
+breastfeeding. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item></list><paragraph>Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter 
+medicines, vitamins, and herbal supplements. These medicines can change the levels of phenytoin in your blood.</paragraph><paragraph>Taking extended phenytoin sodium capsules with certain other 
+medicines can cause side effects or affect how well they work. Do not start or stop other medicines without talking to your healthcare provider.</paragraph><paragraph>Know the medicines you take. Keep
+a list of them and show it to your healthcare provider and pharmacist when you get a new medicine.</paragraph></td></tr><tr><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph><content 
+styleCode="bold">How should I take</content><content styleCode="bold">extended phenytoin sodium capsules?         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: spl_id         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: product_ndc         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: brand_name         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: package_ndc         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: spl_set_id         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide: Extended phenytoin sodium capsules can cause problems with your heart, including a slow heartbeat. Let your healthcare provider know right away if you
+have any of these symptoms: dizziness tiredness feeling like your heart is beating slowly or skipping beats chest pain What are extended phenytoin sodium capsules? Extended phenytoin sodium capsules 
+are a prescription medicine used to treat certain types of seizures called tonic-clonic (grand mal) and psychomotor (temporal lobe) seizures. Do not take extended phenytoin sodium capsules if you: Are
+allergic to phenytoin or any of the ingredients in extended phenytoin sodium capsules. See the end of this leaflet for a complete list of ingredients in extended phenytoin sodium capsules. Have had an
+allergic reaction to CEREBYX (fosphenytoin), PEGANONE (ethotoin), or MESANTOIN (mephenytoin). EXTENDED PHENYTOIN SODIUM: spl_medguide: Have had liver problems from taking phenytoin. Take delavirdine. 
+Before taking extended phenytoin sodium capsules, tell your healthcare provider about all of your medical conditions, including if you: Have or have had depression, mood problems, or suicidal thoughts
+or behavior Have had an allergic reaction to a medicine similar to extended phenytoin sodium capsules called carboxamides, barbiturates, succinimides, and oxazolidinediones Have or had liver or kidney
+problems Have or had an enzyme problem called porphyria Have or had high blood sugar (hyperglycemia) Drink alcohol Are pregnant or plan to become pregnant. Extended phenytoin sodium capsules may harm 
+your unborn baby. If you take extended phenytoin sodium capsules during pregnancy, your baby is at risk for serious birth defects. EXTENDED PHENYTOIN SODIUM: spl_medguide: If you become pregnant while
+taking extended phenytoin sodium capsules, the level of phenytoin in your blood may decrease, causing your seizures to become worse. Your healthcare provider may change your dose of extended phenytoin
+sodium capsules. If you take extended phenytoin sodium capsules during pregnancy, your baby is also at risk for bleeding problems right after birth. Your healthcare provider may give you and your baby
+medicine to prevent this. All women of child-bearing age should talk to their healthcare provider about using other possible treatments instead of extended phenytoin sodium capsules. If you are of 
+childbearing age and are not planning on getting pregnant, you should use effective birth control (contraception) while taking extended phenytoin sodium capsules. Pregnancy Registry: If you become 
+pregnant while taking extended phenytoin sodium capsules, talk to your healthcare provider about registering with the North American Antiepileptic Drug Pregnancy Registry. EXTENDED PHENYTOIN SODIUM: 
+spl_medguide: You can enroll in this registry by calling 1-888-233-2334. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. Are 
+breastfeeding or plan to breastfeed. Phenytoin can pass into breast milk. You and your healthcare provider should decide if you will take extended phenytoin sodium capsules while you are 
+breastfeeding. Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. These medicines can change the 
+levels of phenytoin in your blood. Taking extended phenytoin sodium capsules with certain other medicines can cause side effects or affect how well they work. Do not start or stop other medicines 
+without talking to your healthcare provider. Know the medicines you take. Keep a list of them and show it to your healthcare provider and pharmacist when you get a new medicine. How should I take 
+extended phenytoin sodium capsules? EXTENDED PHENYTOIN SODIUM: spl_medguide: Take extended phenytoin sodium capsules exactly as your healthcare provider tells you. Your healthcare provider will tell 
+you how much extended phenytoin sodium capsules to take and when to take it. Your healthcare provider may change your dose if needed. Do not change your dose of extended phenytoin sodium capsules 
+without talking to your healthcare provider. Do not stop taking extended phenytoin sodium capsules without first talking to your healthcare provider. Stopping extended phenytoin sodium capsules 
+suddenly can cause serious problems. What should I avoid while taking extended phenytoin sodium capsules? Do not drink alcohol while you take extended phenytoin sodium capsules without first talking 
+to your healthcare provider. Drinking alcohol while taking extended phenytoin sodium capsules may change your blood levels of phenytoin which can cause serious problems. Do not drive, operate heavy 
+machinery, or do other dangerous activities until you know how extended phenytoin sodium capsules affects you.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: drug_interactions_table: <table width="100%" cellspacing="0" cellpadding="0" border="1"><col width="17px"/><col width="17px"/><tbody><tr><td><paragraph><content 
+styleCode="bold">Interacting Agent</content></paragraph></td><td><paragraph><content styleCode="bold">Examples</content></paragraph></td></tr><tr><td colspan="2"><paragraph><content 
+styleCode="bold">Drugs whose efficacy is impaired by phenytoin</content></paragraph></td></tr><tr><td><paragraph>Azoles</paragraph></td><td><paragraph>Fluconazole, ketoconazole, itraconazole, 
+posaconazole, voriconazole</paragraph></td></tr><tr><td><paragraph>Antineoplastic agents</paragraph></td><td><paragraph>Irinotecan, paclitaxel, teniposide</paragraph></td></tr><tr><td><paragraph> 
+EXTENDED PHENYTOIN SODIUM: drug_interactions_table: Delavirdine</paragraph></td><td><paragraph>Phenytoin can substantially reduce the concentrations of delavirdine. This can lead to loss of virologic 
+response and possible resistance <content styleCode="italics">. </content></paragraph></td></tr><tr><td><paragraph>Neuromuscular</paragraph><paragraph>blocking 
+agents</paragraph></td><td><paragraph>Cisatracurium, pancuronium, rocuronium and vecuronium: resistance to the neuromuscular blocking action of the nondepolarizing neuromuscular blocking agents has 
+occurred in patients chronically administered phenytoin. EXTENDED PHENYTOIN SODIUM: drug_interactions_table: Whether or not phenytoin has the same effect on other non-depolarizing agents is 
+unknown.</paragraph><paragraph><content styleCode="italics"><content styleCode="underline">Prevention or Management:</content> </content>Patients should be monitored closely for more rapid recovery 
+from neuromuscular blockade than expected, and infusion rate requirements may be higher. EXTENDED PHENYTOIN SODIUM: drug_interactions_table: 
+</paragraph></td></tr><tr><td><paragraph>Warfarin</paragraph></td><td><paragraph>Increased and decreased PT/INR responses have been reported when phenytoin is co-administered with 
+warfarin</paragraph></td></tr><tr><td><paragraph>Other</paragraph></td><td><paragraph>Corticosteroids, doxycycline, estrogens, furosemide, oral contraceptives, paroxetine, quinidine, rifampin, 
+sertraline, theophylline, and vitamin D</paragraph></td></tr><tr><td colspan="2"><paragraph><content styleCode="bold">Drugs whose level is decreased by 
+phenytoin</content></paragraph></td></tr><tr><td><paragraph>Anticoagulants</paragraph></td><td><paragraph>Apixaban, dabigatran, edoxaban, rivaroxaban EXTENDED PHENYTOIN SODIUM: 
+drug_interactions_table: </paragraph></td></tr><tr><td><paragraph>Antiepileptic drugs <sup>a</sup></paragraph></td><td><paragraph>Carbamazepine, felbamate, lamotrigine, topiramate, oxcarbazepine, 
+lacosamide</paragraph></td></tr><tr><td><paragraph>Antilipidemic agents</paragraph></td><td><paragraph>Atorvastatin, fluvastatin, 
+simvastatin</paragraph></td></tr><tr><td><paragraph>Antiplatelets</paragraph></td><td><paragraph>Ticagrelor</paragraph></td></tr><tr><td><paragraph>Antiviral 
+agents</paragraph></td><td><paragraph>Efavirenz, lopinavir/ritonavir, indinavir, nelfinavir, ritonavir, saquinavir</paragraph><paragraph>Fosamp         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: pregnancy: 8.1 Pregnancy Pregnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to antiepileptic drugs
+(AEDs), such as phenytoin sodium, during pregnancy. Physicians are advised to recommend that pregnant patients taking phenytoin sodium enroll in the North American Antiepileptic Drug (NAAED) Pregnancy
+Registry. This can be done by calling the toll free number 1-888-233-2334, and must be done by patients themselves. Information on the registry can also be found at the website 
+http://www.aedpregnancyregistry.org/ Risk Summary In humans, prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse developmental outcomes. Prenatal 
+phenytoin exposure is associated with an increased incidence of major malformations, including orofacial clefts and cardiac defects. EXTENDED PHENYTOIN SODIUM: pregnancy: In addition, the fetal 
+hydantoin syndrome, a pattern of abnormalities including dysmorphic skull and facial features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits has been
+reported among children born to epileptic women who took phenytoin alone or in combination with other antiepileptic drugs during pregnancy  . There have been several reported cases of malignancies, 
+including neuroblastoma, in children whose mothers received phenytoin during pregnancy. Administration of phenytoin to pregnant animals resulted in an increased incidence of fetal malformations and 
+other manifestations of developmental toxicity (including embryofetal death, growth impairment, and behavioral abnormalities) in multiple species at clinically relevant doses . In the U.S. general 
+population, the estimated background risk of major birth defects and of miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively. EXTENDED PHENYTOIN SODIUM: pregnancy:
+The background risk of major birth defects and miscarriage for the indicated population is unknown. Clinical Considerations Disease-associated maternal risk An increase in seizure frequency may occur 
+during pregnancy because of altered phenytoin pharmacokinetics. Periodic measurement of serum phenytoin concentrations may be valuable in the management of pregnant women as a guide to appropriate 
+adjustment of dosage  . However, postpartum restoration of the original dosage will probably be indicated . Fetal/Neonatal Adverse Reactions A potentially life-threatening bleeding disorder related to
+decreased levels of vitamin K-dependent clotting factors may occur in newborns exposed to phenytoin in utero . This drug-induced condition can be prevented with vitamin K administration to the mother 
+before delivery and to the neonate after birth. EXTENDED PHENYTOIN SODIUM: pregnancy: Data Human Data Meta-analyses using data from published observational studies and registries have estimated an 
+approximately 2.4-fold increased risk for any major malformation in children with prenatal phenytoin exposure compared to controls. An increased risk of heart defects, facial clefts, and digital 
+hypoplasia has been reported. The fetal hydantoin syndrome is a pattern of congenital anomalies including craniofacial anomalies, nail and digital hypoplasia, prenatal-onset growth deficiency, and 
+neurodevelopmental deficiencies. Animal Data Administration of phenytoin to pregnant rats, rabbits, and mice during organogenesis resulted in embryofetal death, fetal malformations, and decreased 
+fetal growth. Malformations (including craniofacial, cardiovascular, neural, limb, and digit abnormalities) were observed in rats, rabbits, and mice at doses as low as 100, 75, and 12.5 mg/kg, 
+respectively.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: The available information from the EXTENDED PHENYTOIN SODIUM label does not specifically mention an increase or decrease in the risk of myocardial infarction as a result of using the drug. 
+However, it does note that EXTENDED PHENYTOIN SODIUM can cause problems with the heart, including a slow heartbeat. Symptoms such as dizziness, tiredness, feeling like your heart is beating slowly or 
+skipping beats, and chest pain are mentioned as potential indicators of heart issues.
+
+SOURCE: EXTENDED PHENYTOIN SODIUM label
+EXTRACT_START_END: Extended phenytoin sodium capsules can cause ... chest pain.
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: The available information from the 
+EXTENDED PHENYTOIN SODIUM label does not specifically mention an increase or decrease in the risk of myocardial infarction as a result of using the drug. However, it does note that EXTENDED PHENYTOIN 
+SODIUM can cause problems with the heart, including a slow heartbeat. Symptoms such as dizziness, tiredness, feeling like your heart is beating slowly or skipping beats, and chest pain are mentioned 
+as potential indicators of heart issues.
+
+SOURCE: EXTENDED PHENYTOIN SODIUM label
+EXTRACT_START_END: Extended phenytoin sodium capsules can cause ... chest pain.
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) The FDAHandler has indicated that the available 
+information from the EXTENDED PHENYTOIN SODIUM label does not specifically mention an increase or decrease in the risk of myocardial infarction as a result of using the drug. However, the label does 
+note that EXTENDED PHENYTOIN SODIUM can cause problems with the heart, including a slow heartbeat, and lists symptoms such as dizziness, tiredness, feeling like your heart is beating slowly or 
+skipping beats, and chest pain as potential indicators of heart issues.
+
+Given this information, it is not possible to definitively say whether EXTENDED PHENYTOIN SODIUM increases or decreases the risk of myocardial infarction based on the FDA label data alone. Therefore, 
+the answer to the question is DO-NOT-KNOW.
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.USER 
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(          ) (=>       LLM) (X           )       (          ) 
+        Do one of the following:
+
+        1. If you intend to ask a question to FDAAgent:
+            Please use the 'add_recipient' tool/function-call
+            and specify FDAAgent as your `intended_recipient`.
+            DO NOT REPEAT your original message; ONLY specify the 
+            `intended_recipient` via this tool/function-call.
+        2. If you are ready to have the critic check your answer,
+            do so with the `final_answer` tool/function, as I have requested.
+        3. If the critic is satisfied and you intend to submit your final answer,
+            answer as I have requested, making sure to mark that you are done as usual.
+
+        When you have decided and stated your answer (or lack of one), you must
+        ALWAYS specify that you are done using the usual code.
+
+        DO NOT simply acknowldedge these instructions. If you have nothing
+        else to say, you MUST EXIT IMMEDIATELY by stating that you are done
+        with the usual code (as in #3).
+        
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of myocardial infarction?",
+    "steps": [
+      "I asked FDAHandler whether EXTENDED PHENYTOIN SODIUM increases or decreases the risk of myocardial infarction.",
+      "FDAHandler responded that the EXTENDED PHENYTOIN SODIUM label does not specifically mention an increase or decrease in the risk of myocardial infarction.",
+      "The label does note that EXTENDED PHENYTOIN SODIUM can cause heart problems, including a slow heartbeat, and lists symptoms that could indicate heart issues, but it does not explicitly link the
+drug to myocardial infarction."
+    ],
+    "answer": "DO-NOT-KNOW"
+  }
+}
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  FDAHandler  Entity.USER(FDAHandler) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of myocardial infarction?",
+    "steps": [
+      "I asked FDAHandler whether EXTENDED PHENYTOIN SODIUM increases or decreases the risk of myocardial infarction.",
+      "FDAHandler responded that the EXTENDED PHENYTOIN SODIUM label does not specifically mention an increase or decrease in the risk of myocardial infarction.",
+      "The label does note that EXTENDED PHENYTOIN SODIUM can cause heart problems, including a slow heartbeat, and lists symptoms that could indicate heart issues, but it does not explicitly link the
+drug to myocardial infarction."
+    ],
+    "answer": "DO-NOT-KNOW",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of myocardial infarction?
+        -----
+        Reasoning:
+        1. I asked FDAHandler whether EXTENDED PHENYTOIN SODIUM increases or decreases the risk of myocardial infarction.
+2. FDAHandler responded that the EXTENDED PHENYTOIN SODIUM label does not specifically mention an increase or decrease in the risk of myocardial infarction.
+3. The label does note that EXTENDED PHENYTOIN SODIUM can cause heart problems, including a slow heartbeat, and lists symptoms that could indicate heart issues, but it does not explicitly link the 
+drug to myocardial infarction.
+        -----
+        Final answer: DO-NOT-KNOW
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": ""
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Critic  Entity.USER(    Critic) (=>     AGENT) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "",
+    "request": "feedback"
+  }
+}
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) Your reasoning is valid, no feedback was 
+provided.
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.USER 
+ (orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-myocardial infarction-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+
+The FDAHandler has indicated that the available information from the EXTENDED PHENYTOIN SODIUM label does not specifically mention an increase or decrease in the risk of myocardial infarction as a 
+result of using the drug. The label does note that EXTENDED PHENYTOIN SODIUM can cause heart problems, including a slow heartbeat, and lists symptoms that could indicate heart issues, but it does not 
+explicitly link the drug to myocardial infarction. Therefore, based on the FDA label data, it is not possible to determine whether EXTENDED PHENYTOIN SODIUM increases or decreases the risk of 
+myocardial infarction.

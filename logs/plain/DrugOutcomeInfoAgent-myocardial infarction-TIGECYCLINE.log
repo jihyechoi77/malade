@@ -1,0 +1,431 @@
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does TIGECYCLINE increase or decrease the risk of myocardial 
+infarction?
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.AGENT 
+*(orchestrator-myocardial infarction-TIGECYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "TIGECYCLINE"
+  }
+}
+*(orchestrator-myocardial infarction-TIGECYCLINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) TIGECYCLINE
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) TIGECYCLINE
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(drug_category_search) FUNC: {
+  "name": "drug_category_search",
+  "to": "",
+  "arguments": {
+    "category": "antibiotics",
+    "sub_categories": [
+      "tetracyclines"
+    ]
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(drug_category_search) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: 
+The drugs in category antibiotics with sub-categories tetracyclines include:
+MINOCYCLINE, PYLERA, DORYX MPC, DORYX, DOXYCLYCLINE HYCLATE, VIBRAMYCIN CALCIUM, BWELL FIRST AID ANTIBIOTIC, TETRACYTE TOPICAL TETRACYCLINE HYDROCHLORIDE, BISMUTH SUBCITRATE POTASSIUM, METRONIDAZOLE, 
+AND TETRACYCLINE HYDROCHLORIDE, ARESTIN, BISMUTH SUBCITRATE POTASSIUM, METRONIDAZOLE, TETRACYCLINE HYDROCHLORIDE, ACTICLATE, ORACEA, AMZEEQ, ADENOSINUM TRIPHOSPHORICUM DINATRUM, L-ASPARAGINE 
+(MONOHYDRATE), L-PHENYLALANINE, QUERCETIN, ILEUM (SUIS), JEJUNUM (SUIS), STOMACH (SUIS), ASCORBICUM ACIDUM, CALCAREA CARBONICA, FERRUM IODATUM, TETRACYCLINE, EGG (HEN WHOLE), PROTEUS (MORGANI), 
+DOXYCYCLATE HYCLATE, ERAVACYCLINE, SARECYCLINE HYDROCHLORIDE, DOXYCYCLINE, XERAVA, VIBRAMYCIN MONOHYDRATE, EGG ALLERGEN MIX, ZILXI, DOXY 100(TM) DOXYCYCLINE, SOLODYN, VIABECLINE FIRST AID ANTIBIOTIC, 
+DOXY 100, DOXYCYCLINE MONOHYDRATE, MEASTEM FIRST AID AND ANTIBIOTIC, DOXYCYCLINE CALCIUM, TYGACIL, APT T3X TETRACYCLINE HYDROCHLORIDE FIRST AID ANTIBIOTIC, TETRACYCLINE HYDROCHLORIDE, BISMUTH 
+SUBCITRATE POTASSIUM, METRONIDAZOLE AND TETRACYCLINE HYDROCHLORIDE, LYMEPAK, ANISTEM, MINOCIN, TIGECYCLINE, VIBRAMYCIN HYCLATE, TARGADOX, DEMECLOCYCLINE, DEMECLOCYCLINE HYDROCHLORIDE, DOXYCYCLINE 
+HYCLATE, OMADACYCLINE, DOXYCYCLINE HYCLATE DELAYED RELEASE, SEYSARA, VIABECLINE, ADENOSINUM TRIPHOSPHORICUM DINATRUM, L-ASPARAGINE (MONOHYDRATE), PHENYLALANINE, QUERCETIN, ILEUM (SUIS), JEJUNUM 
+(SUIS), STOMACH (SUIS), CANARY FEATHERS, CATTLE EPITHELIA, CHICKEN FEATHERS, DOG EPITHELIA, DUCK FEATHERS, GERBIL EPITHELIA, GOAT EPITHELIA, GOOSE FEATHERS, GUINEA PIG EPITHELIA, HAMSTER EPITHELIA, 
+HOG EPITHELIA, HORSE EPITHELIA, MOUSE EPITHELIA, PARAKEET FEATHERS, RABBIT EPITHELIA, RAT EPITHELIA, STANDARDIZED CAT HAIR, ASCORBICUM ACIDUM, CALCAREA CARBONICA, FERRUM IODATUM, TETRACYCLINE, EGG, 
+TETRACYTE TOPICAL, MINOCYCLINE HYDROCHLORIDE, NUZYRA, ACTICLATE CAP, VITASTEM, TETRACYTE TOPICAL - TETRACYCLINE HYDROCHLORIDE, TETRACYCLINE 3 PERCENT A FIRST AID ANTIBIOTIC, and VITASTEM-TETRACYCLINE 
+HYDROCHLORIDE.
+
+SOURCE:context
+
+
+CONTENT: ACTICLATE CAP: clinical_pharmacology: - - - - - Tetracycline ≤4 - - - - - - - - Haemophilus influenzae Tetracycline ≤2 4 ≥8 ≥29 26-28 ≤25 - - - Mycoplasma pneumoniae b Tetracycline - - - - - 
+≤2 - - Nocardiae and other aerobic Actinomyces species b Doxycycline ≤1 2-4 ≥8 - - - - - Neisseria gonorrhoeae species c Tetracycline - - - ≥38 31-37 ≤30 ≤0.25 0.5-1 ≥2 Streptococcus pneumoniae 
+Doxycycline ≤0.25 0. ACTICLATE CAP: clinical_pharmacology: 5 ≥1 ≥28 25-27 ≤24 - - - Tetracycline ≤1 2 ≥4 ≥28 25-27 ≤24 - - - Vibrio cholerae Doxycycline ≤4 8 ≥16 - - - - - - Tetracycline ≤4 8 ≥16 - - 
+- - - - Yersinia pestis Doxycycline ≤4 8 ≥16 - - - - - - Tetracycline ≤4 8 ≥16 - - - - - - Ureaplasma urealyticum Tetracycline - - - - - - ≤1 - ≥2 Doxycycline susceptibility testing interpretive 
+criteria for anaerobes, Haemophilus influenzae, Mycoplasma pneumoniae, Neisseria gonorrhoeae , and Ureaplasma urealyticum have not been established. ACTICLATE CAP: clinical_pharmacology: Isolates of 
+these species that are susceptible to tetracycline are also considered susceptible to doxycycline. 5 A report of Susceptible (S) indicates that the antimicrobial drug is likely to inhibit growth of 
+the pathogen if the antimicrobial drug reaches the concentration usually achievable at the site of infection. A report of Intermediate (I) indicates that the result should be considered equivocal, 
+and, if the microorganism is not fully susceptible to alternative, clinically feasible drugs, the test should be repeated. This category implies possible clinical applicability in body sites where the
+drug product is physiologically concentrated or in situations where high dosage of drug can be used. This category also provides a buffer zone that prevents small uncontrolled technical factors from 
+causing major discrepancies in interpretation. ACTICLATE CAP: clinical_pharmacology: A report of Resistant (R) indicates that the antimicrobial drug is not likely to inhibit growth of the pathogen if 
+the antimicrobial drug reaches the concentration usually achievable at the infection site; other therapy should be selected. Quality Control Standardized susceptibility test procedures require the use
+of laboratory controls to monitor and ensure the accuracy and precision of the supplies and reagents used in the assay, and the techniques of the individuals performing the test 5,6,7,8,9,10,11 . 
+Standard doxycycline powders should provide the following range of MIC values noted in Table 2 . For the diffusion technique using the 30 mcg doxycycline disk, the criteria noted in Table 2 should be 
+achieved. ACTICLATE CAP: clinical_pharmacology: Table 2: Acceptable Quality Control Ranges for Doxycycline and Tetracycline a ATCC is the American Type Culture Collection QC Strain Minimal Inhibitory 
+Concentration (mcg per mL) Disk Diffusion (zone diameter mm) Agar Dilution (mcg/ml) Enterococcus faecalis ATCC a 29212 Doxycycline 2 – 8 - - Tetracycline 8-32 - - Escherichia coli ATCC 25922 
+Doxycycline 0.5 – 2 18 – 24 - Tetracycline 0.         
+SOURCE:ACTICLATE CAP label
+
+
+CONTENT: DEMECLOCYCLINE HYDROCHLORIDE: precautions: Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with 
+antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this 
+occurs, patients should contact their physician as soon as possible. Laboratory Tests In venereal diseases when coexistent syphilis is suspected, darkfield examination should be done before treatment 
+is started and the blood serology repeated monthly for at least 4 months. In long-term therapy, periodic laboratory evaluation of organ systems, including hematopoietic, renal and hepatic, should be 
+performed. All patients with gonorrhea should have a serologic test for syphilis at the time of diagnosis. Patients treated with demeclocycline HCl should have a follow-up serologic test for syphilis 
+after 3 months. DEMECLOCYCLINE HYDROCHLORIDE: precautions: Drug Interactions Because tetracyclines have shown to depress plasma prothrombin activity, patients who are on anticoagulant therapy may 
+require downward adjustment of their anticoagulant dosage. Since bacteriostatic drugs may interfere with the bactericidal action of penicillins, it is advisable to avoid giving tetracycline-class 
+drugs in conjunction with penicillin. Concurrent use of tetracyclines with oral contraceptives may render oral contraceptives less effective. The concurrent use of tetracyclines and methoxyflurane has
+been reported to result in fatal renal toxicity. Absorption of tetracyclines is impaired by antacids containing aluminum, calcium or magnesium and by iron-containing preparations. Carcinogenesis, 
+Mutagenesis, Impairment of Fertility Long-term studies in animals to evaluate carcinogenic potential of demeclocycline HCl have not been conducted. DEMECLOCYCLINE HYDROCHLORIDE: precautions: However, 
+there has been evidence of oncogenic activity in rats in studies with the related antibiotics oxytetracycline (adrenal and pituitary tumors) and minocycline (thyroid tumors). Although mutagenicity 
+studies of demeclocycline HCl have not been conducted, positive results in in vitro mammalian cell assays (i.e., mouse lymphoma and Chinese hamster lung cells) have been reported for related 
+antibiotics (tetracyclines HCl and oxytetracycline) (see WARNINGS and ANIMAL PHARMACOLOGY AND ANIMAL TOXICOLOGY ). Demeclocycline HCl had no effect on fertility when administered in the diet to male 
+and female rats at a daily intake of 45 times the human dose. Pregnancy Teratogenic effects Pregnancy Category D (See WARNINGS ). DEMECLOCYCLINE HYDROCHLORIDE: precautions: Result of animal studies 
+indicate that tetracyclines cross the placenta, are found in fetal tissues, and can have toxic effects on the developing fetus (often related to retardation of skeletal development). Evidence of 
+embryotoxicity has been noted in animals treated early in pregnancy. Nonteratogenic effects (See WARNINGS ) Labor and Delivery The effect of tetracyclines on labor and delivery is unknown. Nursing 
+Mothers Tetracyclines are excreted in human milk. Because of the potential for serious adverse reactions in nursing infants from the tetracyclines, a decision should be made whether to discontinue 
+nursing or discontinue the drug, taking into account the importance of the drug to the mother (see WARNINGS ). Pediatric Use Not for use in patients younger than eight years of age .         
+SOURCE:DEMECLOCYCLINE HYDROCHLORIDE label
+
+
+CONTENT: MINOCIN: drug_interactions: Drug Interactions Because tetracyclines have been shown to depress plasma prothrombin activity, patients who are on anticoagulant therapy may require downward 
+adjustment of their anticoagulant dosage. Since bacteriostatic drugs may interfere with the bactericidal action of penicillin, it is advisable to avoid giving tetracycline-class drugs in conjunction 
+with penicillin. Absorption of tetracyclines is impaired by antacids containing aluminum, calcium, or magnesium, and iron-containing preparations. The concurrent use of tetracycline and methoxyflurane
+has been reported to result in fatal renal toxicity. Concurrent use of tetracyclines with oral contraceptives may render oral contraceptives less effective. Administration of isotretinoin should be 
+avoided shortly before, during, and shortly after minocycline therapy. Each drug alone has been associated with pseudotumor cerebri. (See PRECAUTIONS . MINOCIN: drug_interactions: ) Increased risk of 
+ergotism when ergot alkaloids or their derivatives are given with tetracyclines.         
+SOURCE:MINOCIN label
+
+
+CONTENT: DOXY 100(TM) DOXYCYCLINE: description: DESCRIPTION Doxycycline hyclate is soluble in water and chars at 201°C without melting. The base doxycycline has a high degree of lipid solubility and a
+low affinity for calcium binding. It is highly stable in normal human serum. Each 100 mg vial contains: Doxycycline hyclate equivalent to 100 mg doxycycline; ascorbic acid 480 mg; mannitol 300 mg. pH 
+of the reconstituted solution (10 mg/mL) is between 1.8 and 3.3. Doxycycline for Injection, USP is a sterile, lyophilized powder prepared from a solution of doxycycline hyclate, ascorbic acid and 
+mannitol in Water for Injection. Doxycycline hyclate is a broad spectrum antibiotic derived from oxytetracycline. DOXY 100(TM) DOXYCYCLINE: description: It is meant for INTRAVENOUS use only after 
+reconstitution. Doxycycline hyclate is a yellowish crystalline powder which is chemically designated 4-(Dimethylamino)-1,4,4a,5,5a,6,11, 12a-octahydro-3,5,10,12,12a-pentahydroxy-6-methyl-1,11-de 
+monohydrochloride, compound with ethyl alcohol (2:1), monohydrate. It has the following structural formula: Doxycycline hyclate is soluble in water and chars at 201°C without melting. The base 
+doxycycline has a high degree of lipid solubility and a low affinity for calcium binding. It is highly stable in normal human serum. DOXY 100(TM) DOXYCYCLINE: description: Each 100 mg vial contains: 
+Doxycycline hyclate equivalent to 100 mg doxycycline; ascorbic acid 480 mg; mannitol 300 mg. pH of the reconstituted solution (10 mg/mL) is between 1.8 and 3.3.         
+SOURCE:DOXY 100(TM) DOXYCYCLINE label
+
+
+CONTENT: DOXY 100: description: DESCRIPTION Doxycycline hyclate is soluble in water and chars at 201°C without melting. The base doxycycline has a high degree of lipid solubility and a low affinity 
+for calcium binding. It is highly stable in normal human serum. Each 100 mg vial contains: Doxycycline hyclate equivalent to 100 mg doxycycline; ascorbic acid 480 mg; mannitol 300 mg. pH of the 
+reconstituted solution (10 mg/mL) is between 1.8 and 3.3. Doxycycline for Injection, USP is a sterile, lyophilized powder prepared from a solution of doxycycline hyclate, ascorbic acid and mannitol in
+Water for Injection. Doxycycline hyclate is a broad spectrum antibiotic derived from oxytetracycline. DOXY 100: description: It is meant for INTRAVENOUS use only after reconstitution. Doxycycline 
+hyclate is a yellowish crystalline powder which is chemically designated 4-(Dimethylamino)-1,4,4a,5,5a,6,11, 12a-octahydro-3,5,10,12,12a-pentahydroxy-6-methyl-1,11-de monohydrochloride, compound with 
+ethyl alcohol (2:1), monohydrate. It has the following structural formula: Doxycycline hyclate is soluble in water and chars at 201°C without melting. The base doxycycline has a high degree of lipid 
+solubility and a low affinity for calcium binding. It is highly stable in normal human serum. DOXY 100: description: Each 100 mg vial contains: Doxycycline hyclate equivalent to 100 mg doxycycline; 
+ascorbic acid 480 mg; mannitol 300 mg. pH of the reconstituted solution (10 mg/mL) is between 1.8 and 3.3.         
+SOURCE:DOXY 100 label
+
+
+CONTENT: BISMUTH SUBCITRATE POTASSIUM, METRONIDAZOLE, TETRACYCLINE HYDROCHLORIDE: drug_interactions: 14 , 7.5 ) Lithium: Increased lithium serum concentrations; measure serum lithium and serum 
+creatinine concentrations during therapy. ( 5.14 , 7.6 ) Antacids, Multivitamins or Dairy Products: Decreased absorption of bismuth subcitrate potassium, metronidazole and tetracycline hydrochloride 
+capsules; do not take concomitantly. ( 7.7 ) Busulfan: Increased busulfan serum concentrations; avoid concomitant use, monitor for busulfan toxicity. ( 7.8 ) CYP inducers and CYP inhibitors: Prolonged
+or accelerated half-life of metronidazole or concomitant medications; use with caution. ( 7.9 , 7.10 ) 7. BISMUTH SUBCITRATE POTASSIUM, METRONIDAZOLE, TETRACYCLINE HYDROCHLORIDE: drug_interactions: 1 
+Methoxyflurane Do not administer methoxyflurane to patients taking bismuth subcitrate potassium, metronidazole and tetracycline hydrochloride capsules. The concurrent use of tetracycline 
+hydrochloride, a component of bismuth subcitrate potassium, metronidazole and tetracycline hydrochloride capsules, with methoxyflurane has been reported to result in fatal renal toxicity [ see 
+Contraindications ( 4.1 ) ] . 7.2 Disulfiram Psychotic reactions have been reported in alcoholic patients who are using metronidazole, a component of bismuth subcitrate potassium, metronidazole and 
+tetracycline hydrochloride capsules and disulfiram concurrently. BISMUTH SUBCITRATE POTASSIUM, METRONIDAZOLE, TETRACYCLINE HYDROCHLORIDE: drug_interactions: Bismuth subcitrate potassium, metronidazole
+and tetracycline hydrochloride capsules should not be given to patients who have taken disulfiram within the last two weeks [ see Contraindications ( 4.2 ) ] . 7.3 Alcohol Consumption of alcoholic 
+beverages or administration of other products containing propylene glycol during treatment with bismuth subcitrate potassium, metronidazole and tetracycline hydrochloride capsules and for at least 3 
+days afterwards may cause a disulfiram-like reaction (abdominal cramps, nausea, vomiting, headaches, and flushing) due to the interaction between alcohol or propylene glycol and metronidazole, a 
+component of bismuth subcitrate potassium, metronidazole and tetracycline hydrochloride capsules. BISMUTH SUBCITRATE POTASSIUM, METRONIDAZOLE, TETRACYCLINE HYDROCHLORIDE: drug_interactions: 
+Discontinue alcoholic beverage or other products containing propylene glycol during and for at least 3 days after therapy with bismuth subcitrate potassium, metronidazole and tetracycline 
+hydrochloride capsules [ see Contraindications ( 4.3 ) ] . 7.4 Oral Contraceptives Concurrent use of bismuth subcitrate potassium, metronidazole and tetracycline hydrochloride capsules with oral 
+contraceptive may make oral contraceptives less effective due to an interaction with the tetracycline component of bismuth subcitrate potassium, metronidazole and tetracycline hydrochloride capsules. 
+Breakthrough bleeding has been reported. Women of child-bearing potential should use a different or additional form of contraception while taking bismuth subcitrate potassium, metronidazole and 
+tetracycline hydrochloride capsules [ see Warnings and Precautions ( 5.14 ) ] . 7. BISMUTH SUBCITRATE POTASSIUM, METRONIDAZOLE, TETRACYCLINE HYDROCHLORIDE: drug_interactions: 5 Anticoagulants Bismuth 
+subcitrate potassium, metronidazole and tetracycline hydrochloride capsules may alter the anticoagulant effects of warfarin and other oral coumarin anticoagulants. Metronidazole has been reported to 
+potentiate the anticoagulant effect of warfarin, and other oral coumarin anticoagulants, resulting in a prolongation of prothrombin time. Tetracycline has been shown to depress plasma prothrombin 
+activity. Prothrombin time, International Normalized Ratio (INR), or other suitable anticoagulation tests should be closely monitored if bismuth subcitrate potassium, metronidazole and tetracycline 
+hydrochloride capsules are administered concomitantly with warfarin. Patients should also be monitored for evidence of bleeding [ see Warnings and Precautions ( 5.14 ) ] . 7.         
+SOURCE:BISMUTH SUBCITRATE POTASSIUM, METRONIDAZOLE, TETRACYCLINE HYDROCHLORIDE label
+
+
+CONTENT: DEMECLOCYCLINE: precautions: Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, 
+patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients
+should contact their physician as soon as possible. Laboratory Tests In venereal diseases when coexistent syphilis is suspected, darkfield examination should be done before treatment is started and 
+the blood serology repeated monthly for at least 4 months. In long-term therapy, periodic laboratory evaluation of organ systems, including hematopoietic, renal and hepatic, should be performed. All 
+patients with gonorrhea should have a serologic test for syphilis at the time of diagnosis. Patients treated with demeclocycline HCl should have a follow-up serologic test for syphilis after 3 months.
+DEMECLOCYCLINE: precautions: Drug Interactions Because tetracyclines have shown to depress plasma prothrombin activity, patients who are on anticoagulant therapy may require downward adjustment of 
+their anticoagulant dosage. Since bacteriostatic drugs may interfere with the bactericidal action of penicillins, it is advisable to avoid giving tetracycline-class drugs in conjunction with 
+penicillin. Concurrent use of tetracyclines with oral contraceptives may render oral contraceptives less effective. The concurrent use of tetracyclines and methoxyflurane has been reported to result 
+in fatal renal toxicity. Absorption of tetracyclines is impaired by antacids containing aluminum, calcium or magnesium and by iron-containing preparations. Carcinogenesis, Mutagenesis, Impairment of 
+Fertility Long-term studies in animals to evaluate carcinogenic potential of demeclocycline HCl have not been conducted. DEMECLOCYCLINE: precautions: However, there has been evidence of oncogenic 
+activity in rats in studies with the related antibiotics oxytetracycline (adrenal and pituitary tumors) and minocycline (thyroid tumors). Although mutagenicity studies of demeclocycline HCl have not 
+been conducted, positive results in in vitro mammalian cell assays (i.e., mouse lymphoma and Chinese hamster lung cells) have been reported for related antibiotics (tetracyclines HCl and 
+oxytetracycline) (see WARNINGS and ANIMAL PHARMACOLOGY AND ANIMAL TOXICOLOGY ). Demeclocycline HCl had no effect on fertility when administered in the diet to male and female rats at a daily intake of
+45 times the human dose. Pregnancy Teratogenic effects Pregnancy Category D (See WARNINGS ). DEMECLOCYCLINE: precautions: Result of animal studies indicate that tetracyclines cross the placenta, are 
+found in fetal tissues, and can have toxic effects on the developing fetus (often related to retardation of skeletal development). Evidence of embryotoxicity has been noted in animals treated early in
+pregnancy. Nonteratogenic effects (See WARNINGS ) Labor and Delivery The effect of tetracyclines on labor and delivery is unknown. Nursing Mothers Tetracyclines are excreted in human milk. Because of 
+the potential for serious adverse reactions in nursing infants from the tetracyclines, a decision should be made whether to discontinue nursing or discontinue the drug, taking into account the 
+importance of the drug to the mother (see WARNINGS ). Pediatric Use Not for use in patients younger than eight years of age .         
+SOURCE:DEMECLOCYCLINE label
+
+
+CONTENT: ACTICLATE: clinical_pharmacology: - - - - - Tetracycline ≤4 - - - - - - - - Haemophilus influenzae Tetracycline ≤2 4 ≥8 ≥29 26-28 ≤25 - - - Mycoplasma pneumoniae b Tetracycline - - - - - ≤2 -
+- Nocardiae and other aerobic Actinomyces species b Doxycycline ≤1 2-4 ≥8 - - - - - Neisseria gonorrhoeae species c Tetracycline - - - ≥38 31-37 ≤30 ≤0.25 0.5-1 ≥2 Streptococcus pneumoniae Doxycycline
+≤0.25 0. ACTICLATE: clinical_pharmacology: 5 ≥1 ≥28 25-27 ≤24 - - - Tetracycline ≤1 2 ≥4 ≥28 25-27 ≤24 - - - Vibrio cholerae Doxycycline ≤4 8 ≥16 - - - - - - Tetracycline ≤4 8 ≥16 - - - - - - Yersinia
+pestis Doxycycline ≤4 8 ≥16 - - - - - - Tetracycline ≤4 8 ≥16 - - - - - - Ureaplasma urealyticum Tetracycline - - - - - - ≤1 - ≥2 Doxycycline susceptibility testing interpretive criteria for 
+anaerobes, Haemophilus influenzae, Mycoplasma pneumoniae, Neisseria gonorrhoeae , and Ureaplasma urealyticum have not been established. ACTICLATE: clinical_pharmacology: Isolates of these species that
+are susceptible to tetracycline are also considered susceptible to doxycycline. 5 A report of Susceptible (S) indicates that the antimicrobial drug is likely to inhibit growth of the pathogen if the 
+antimicrobial drug reaches the concentration usually achievable at the site of infection. A report of Intermediate (I) indicates that the result should be considered equivocal, and, if the 
+microorganism is not fully susceptible to alternative, clinically feasible drugs, the test should be repeated. This category implies possible clinical applicability in body sites where the drug 
+product is physiologically concentrated or in situations where high dosage of drug can be used. This category also provides a buffer zone that prevents small uncontrolled technical factors from 
+causing major discrepancies in interpretation. ACTICLATE: clinical_pharmacology: A report of Resistant (R) indicates that the antimicrobial drug is not likely to inhibit growth of the pathogen if the 
+antimicrobial drug reaches the concentration usually achievable at the infection site; other therapy should be selected. Quality Control Standardized susceptibility test procedures require the use of 
+laboratory controls to monitor and ensure the accuracy and precision of the supplies and reagents used in the assay, and the techniques of the individuals performing the test 5,6,7,8,9,10,11 . 
+Standard doxycycline powders should provide the following range of MIC values noted in Table 2 . For the diffusion technique using the 30 mcg doxycycline disk, the criteria noted in Table 2 should be 
+achieved. ACTICLATE: clinical_pharmacology: Table 2: Acceptable Quality Control Ranges for Doxycycline and Tetracycline a ATCC is the American Type Culture Collection QC Strain Minimal Inhibitory 
+Concentration (mcg per mL) Disk Diffusion (zone diameter mm) Agar Dilution (mcg/ml) Enterococcus faecalis ATCC a 29212 Doxycycline 2 – 8 - - Tetracycline 8-32 - - Escherichia coli ATCC 25922 
+Doxycycline 0.5 – 2 18 – 24 - Tetracycline 0.         
+SOURCE:ACTICLATE label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: TIGECYCLINE is included in the list of drugs that belong to the category of antibiotics, specifically under the sub-category of tetracyclines.
+
+SOURCE: context
+EXTRACT_START_END: The drugs in category antibiotics... TIGECYCLINE, VIBRAMYCIN HYCLATE, ...
+*(orchestrator-myocardial infarction-TIGECYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: TIGECYCLINE is included in the list of drugs that belong
+to the category of antibiotics, specifically under the sub-category of tetracyclines.
+
+SOURCE: context
+EXTRACT_START_END: The drugs in category antibiotics... TIGECYCLINE, VIBRAMYCIN HYCLATE, ...
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-myocardial infarction-TIGECYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does the FDA label for TIGECYCLINE mention an increased or decreased risk of myocardial infarction?"
+  }
+}
+*(orchestrator-myocardial infarction-TIGECYCLINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does the FDA label for TIGECYCLINE mention an increased or 
+decreased risk of myocardial infarction?
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does the FDA label for TIGECYCLINE mention an increased or decreased risk of myocardial infarction?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does the FDA label for TIGECYCLINE mention an increased or decreased risk of myocardial infarction?",
+    "drug": "tigecycline"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: TIGECYCLINE: adverse_reactions: 6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: All-Cause Mortality  Mortality Imbalance and Lower Cure 
+Rates in Hospital-Acquired Pneumonia  Anaphylaxis [Warning and Precautions ( 5.3 )] Hepatic Adverse Effects [Warnings and Precautions ( 5.4 )] Pancreatitis [Warnings and Precautions ( 5.5 )] The most 
+common adverse reactions (incidence >5%) are nausea, vomiting, diarrhea, abdominal pain, headache, and increased SGPT. ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact Apotex at 1-800-706-5575 
+or FDA at 1-800-FDA-1088 or www. TIGECYCLINE: adverse_reactions: da.gov/medwatch 6.1 Clinical Trials Experience Because clinical trials are conducted under widely varying conditions, adverse reaction 
+rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. In clinical trials, 2514
+patients were treated with tigecycline for injection. Tigecycline for injection was discontinued due to adverse reactions in 7% of patients compared to 6% for all comparators. Table 1 shows the 
+incidence of adverse reactions through test of cure reported in ≥2% of patients in these trials. Table 1. TIGECYCLINE: adverse_reactions: Incidence (%) of Adverse Reactions Through Test of Cure 
+Reported in ≥ 2% of Patients Treated in Clinical Studies Body System Tigecycline for injection Comparators a Adverse Reactions (N=2514) (N=2307) a Vancomycin/Aztreonam, Imipenem/Cilastatin, 
+Levofloxacin, Linezolid. b LFT abnormalities in tigecycline for injection-treated patients were reported more frequently in the post therapy period than those in comparator-treated patients, which 
+occurred more often on therapy.         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: recent_major_changes: RECENT MAJOR CHANGES SECTION Dosage and Administration, Monitoring of Blood Coagulation Parameters (2.4) 6/2020 Warnings and Precautions, Monitoring of 
+Blood Coagulation Parameters (5.6) 6/2020 Warnings and Precautions, Tooth Discoloration and Enamel Hypoplasia (5.7) 1/2020 Warnings and Precautions, Inhibition of Bone Growth (5. TIGECYCLINE: 
+recent_major_changes: 8) 1/2020         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: METOPROLOL TARTRATE: clinical_pharmacology: CLINICAL PHARMACOLOGY Mechanism of Action Metoprolol tartrate is a beta 1 -selective (cardioselective) adrenergic receptor blocker. This 
+preferential effect is not absolute, however, and at higher plasma concentrations, metoprolol also inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature. Clinical
+pharmacology studies have demonstrated the beta-blocking activity of metoprolol, as shown by (1) reduction in heart rate and cardiac output at rest and upon exercise, (2) reduction of systolic blood 
+pressure upon exercise, (3) inhibition of isoproterenol-induced tachycardia, and (4) reduction of reflex orthostatic tachycardia. Hypertension The mechanism of the antihypertensive effects of 
+beta-blocking agents has not been fully elucidated. METOPROLOL TARTRATE: clinical_pharmacology: However, several possible mechanisms have been proposed: (1) competitive antagonism of catecholamines at
+peripheral (especially cardiac) adrenergic neuron sites, leading to decreased cardiac output; (2) a central effect leading to reduced sympathetic outflow to the periphery; and (3) suppression of renin
+activity. Angina Pectoris By blocking catecholamine-induced increases in heart rate, in velocity and extent of myocardial contraction, and in blood pressure, metoprolol reduces the oxygen requirements
+of the heart at any given level of effort, thus making it useful in the long-term management of angina pectoris. Myocardial Infarction The precise mechanism of action of metoprolol in patients with 
+suspected or definite myocardial infarction is not known. METOPROLOL TARTRATE: clinical_pharmacology: Pharmacodynamics Relative beta 1 selectivity is demonstrated by the following: (1) In healthy 
+subjects, metoprolol is unable to reverse the beta 2 -mediated vasodilating effects of epinephrine. This contrasts with the effect of nonselective (beta 1 plus beta 2 ) beta-blockers, which completely
+reverse the vasodilating effects of epinephrine. (2) In asthmatic patients, metoprolol reduces FEV 1 and FVC significantly less than a nonselective beta-blocker, propranolol, at equivalent beta 1 
+-receptor blocking doses. Metoprolol has no intrinsic sympathomimetic activity, and membrane-stabilizing activity is detectable only at doses much greater than required for beta-blockade. Animal and 
+human experiments indicate that metoprolol slows the sinus rate and decreases AV nodal conduction. METOPROLOL TARTRATE: clinical_pharmacology: Significant beta-blocking effect (as measured by 
+reduction of exercise heart rate) occurs within 1 hour after oral administration, and its duration is dose-related. For example, a 50% reduction of the maximum effect after single oral doses of 20, 
+50, and 100 mg occurred at 3.3, 5, and 6.4 hours, respectively, in normal subjects. After repeated oral dosages of 100 mg twice daily, a significant reduction in exercise systolic blood pressure was 
+evident at 12 hours. When the drug was infused over a 10-minute period, in normal volunteers, maximum beta-blockade was achieved at approximately 20 minutes. Equivalent maximal beta-blocking effect is
+achieved with oral and intravenous doses in the ratio of approximately 2.5:1. There is a linear relationship between the log of plasma levels and reduction of exercise heart rate. However, 
+antihypertensive activity does not appear to be related to plasma levels.         
+SOURCE:METOPROLOL TARTRATE label
+
+
+CONTENT: WARFARIN: clinical_studies_table: 02)</paragraph></td><td align="center" styleCode=" Toprule"><paragraph>22 (p = 0.068)</paragraph></td></tr><tr><td styleCode=" Toprule"><paragraph>Recurrent 
+MI </paragraph></td><td align="center" styleCode=" Toprule"><paragraph>82 (4.1/100 py)</paragraph></td><td align="center" styleCode=" Toprule"><paragraph>124 (6.4/100 py)</paragraph></td><td 
+align="center" styleCode=" Toprule"><paragraph>0.66 (0.51, 0.85)</paragraph></td><td align="center" styleCode=" Toprule"><paragraph>34 (p = 0. WARFARIN: clinical_studies_table: 
+001)</paragraph></td></tr><tr><td styleCode=" Toprule"><paragraph>Cerebrovascular Event </paragraph></td><td align="center" styleCode=" Toprule"><paragraph>20 (1/100 py)</paragraph></td><td 
+align="center" styleCode=" Toprule"><paragraph>44 (2.3/100 py)</paragraph></td><td align="center" styleCode=" Toprule"><paragraph>0.46 (0.28, 0.75)</paragraph></td><td align="center" styleCode=" 
+Toprule"><paragraph>54 (p = 0. WARFARIN: clinical_studies_table: 002)</paragraph></td></tr><tr><td colspan="5" styleCode=" Toprule"><paragraph>RR = Relative risk; Risk reduction = (1 - RR); CI = 
+Confidence interval; MI = Myocardial infarction; py = patient years </paragraph></td></tr></tbody></table>         
+SOURCE:WARFARIN label
+
+
+CONTENT: TIGECYCLINE: openfda: brand_name         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: generic_name         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: spl_id         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: METOPROLOL TARTRATE: overdosage: OVERDOSAGE Acute Toxicity Several cases of overdosage have been reported, some leading to death. Oral LD 50 ’s (mg/kg): mice, 1158 to 2460; rats, 3090 to 
+4670. Signs and Symptoms Potential signs and symptoms associated with overdosage with metoprolol are bradycardia, hypotension, bronchospasm, myocardial infarction, cardiac failure and death. 
+Management There is no specific antidote. In general, patients with acute or recent myocardial infarction may be more hemodynamically unstable than other patients and should be treated accordingly 
+(see WARNINGS, Myocardial Infarction ). On the basis of the pharmacologic actions of metoprolol, the following general measures should be employed: Elimination of the Drug: Gastric lavage should be 
+performed. Other clinical manifestations of overdose should be managed symptomatically based on modern methods of intensive care. METOPROLOL TARTRATE: overdosage: Hypotension: Administer a 
+vasopressor, e.g., levarterenol or dopamine. Bronchospasm: Administer a beta 2 -stimulating agent and/or a theophylline derivative. Cardiac Failure: Administer digitalis glycoside and diuretic. In 
+shock resulting from inadequate cardiac contractility, consider administration of dobutamine, isoproterenol or glucagon.         
+SOURCE:METOPROLOL TARTRATE label
+
+
+CONTENT: WARFARIN: indications_and_usage: 1 INDICATIONS AND USAGE Warfarin sodium tablets are indicated for: Prophylaxis and treatment of venous thrombosis and its extension, pulmonary embolism (PE). 
+Prophylaxis and treatment of thromboembolic complications associated with atrial fibrillation (AF) and/or cardiac valve replacement. Reduction in the risk of death, recurrent myocardial infarction 
+(MI), and thromboembolic events such as stroke or systemic embolization after myocardial infarction. Limitations of Use Warfarin sodium tablets have no direct effect on an established thrombus, nor 
+does it reverse ischemic tissue damage. Once a thrombus has occurred, however, the goals of anticoagulant treatment are to prevent further extension of the formed clot and to prevent secondary 
+thromboembolic complications that may result in serious and possibly fatal sequelae. WARFARIN: indications_and_usage: Warfarin sodium tablets are a vitamin K antagonist indicated for: Prophylaxis and 
+treatment of venous thrombosis and its extension, pulmonary embolism ( 1 ) Prophylaxis and treatment of thromboembolic complications associated with atrial fibrillation and/or cardiac valve 
+replacement ( 1 ) Reduction in the risk of death, recurrent myocardial infarction, and thromboembolic events such as stroke or systemic embolization after myocardial infarction ( 1 ) Limitations of 
+Use Warfarin sodium tablets have no direct effect on an established thrombus, nor does it reverse ischemic tissue damage.         
+SOURCE:WARFARIN label
+
+
+CONTENT: WARFARIN: clinical_studies: Major hemorrhages occurred in 4.6% of patients in the higher intensity INR group compared to zero in the lower intensity INR group. 14.3 Myocardial Infarction 
+WARIS (The Warfarin Re-Infarction Study) was a double-blind, randomized study of 1214 patients 2 to 4 weeks post-infarction treated with warfarin to a target INR of 2.8 to 4.8. The primary endpoint 
+was a composite of total mortality and recurrent infarction. A secondary endpoint of cerebrovascular events was assessed. Mean follow-up of the patients was 37 months. The results for each endpoint 
+separately, including an analysis of vascular death, are provided in Table 7 . WARFARIN: clinical_studies: Table 7: WARIS – Endpoint Analysis of Separate Events % Risk Warfarin Placebo Reduction Event
+(N = 607) (N = 607) RR (95% CI) ( p -value) Total Patient Years of Follow-up 2018 1944 Total Mortality 94 (4.7/100 py) 123 (6.3/100 py) 0.76 (0.60, 0.97) 24 (p = 0.030) Vascular Death 82 (4.1/100 py) 
+105 (5.4/100 py) 0.78 (0.60, 1.02) 22 (p = 0.068) Recurrent MI 82 (4.1/100 py) 124 (6.4/100 py) 0.66 (0.51, 0.85) 34 (p = 0. WARFARIN: clinical_studies: 001) Cerebrovascular Event 20 (1/100 py) 44 
+(2.3/100 py) 0.46 (0.28, 0.75) 54 (p = 0.002) RR = Relative risk; Risk reduction = (1 - RR); CI = Confidence interval; MI = Myocardial infarction; py = patient years WARIS II (The Warfarin, Aspirin, 
+Re-Infarction Study) was an open-label, randomized study of 3630 patients hospitalized for acute myocardial infarction treated with warfarin to a target INR 2.8 to 4.2, aspirin 160 mg per day, or 
+warfarin to a target INR 2 to 2.5 plus aspirin 75 mg per day prior to hospital discharge. The primary endpoint was a composite of death, nonfatal reinfarction, or thromboembolic stroke. WARFARIN: 
+clinical_studies: The mean duration of observation was approximately 4 years. The results for WARIS II are provided in Table 8 . Table 8: WARIS II – Distribution of Events According to Treatment Group
+Event Aspirin (N = 1206) Warfarin (N = 1216) Aspirin plus Warfarin (N = 1208) Rate Ratio (95% CI) p -value No. of Events Major Bleeding a 8 33 28 3.35 b (ND) ND 4.00 c (ND) ND Minor Bleeding d 39 103 
+133 3.21 b (ND) ND 2.55 c (ND) ND Composite Endpoints e 241 203 181 0.81 (0.69 to 0.95) b 0.03 0.71 (0.60 to 0.83) c 0. WARFARIN: clinical_studies: 001 Reinfarction 117 90 69 0.56 (0.41 to 0.78) b < 
+0.001 0.74 (0.55 to 0.98) c 0.03 Thromboembolic Stroke 32 17 17 0.52 (0.28 to 0.98) b 0.03 0.52 (0.28 to 0.97) c 0.03 Death 92 96 95 0.82 a Major bleeding episodes were defined as nonfatal cerebral 
+hemorrhage or bleeding necessitating surgical intervention or blood transfusion. b The rate ratio is for aspirin plus warfarin as compared with aspirin. c The rate ratio is for warfarin as compared 
+with aspirin. d Minor bleeding episodes were defined as non-cerebral hemorrhage not necessitating surgical intervention or blood transfusion.         
+SOURCE:WARFARIN label
+
+
+CONTENT: TIGECYCLINE: clinical_studies_table: <table ID="t11" width="100%"><caption ID="G27e24559-6ed6-49f7-a922-9571f94945ca">Table 10. Post-hoc Analysis of Clinical Cure Rates in Patients with 
+Community-Acquired Bacterial Pneumonia Based on Risk of Mortality<sup>a</sup></caption><colgroup><col align="left" width="25%"/><col align="center" width="25%"/><col align="center" width="25%"/><col 
+align="center" width="25%"/></colgroup><thead><tr><th/><th>Tigecycline for injection</th><th>Levofloxacin</th><th/></tr><tr><th/><th>n/N (%) </th><th>n/N (%) </th><th>95% 
+CI<sup>b</sup></th></tr></thead><tfoot><tr><td colspan="4"><sup>a</sup TIGECYCLINE: clinical_studies_table: > Patients at higher risk of death include patients with any one of the following: 
+&#x2265;50 year of age; PSI score &#x2265;3; or bacteremia due to <content styleCode="italics">Streptococcus pneumoniae</content><paragraph><sup>b</sup> 95% confidence interval for the treatment 
+difference</paragraph><paragraph><sup>c</sup> After at least 3 days of intravenous therapy, a switch to oral levofloxacin (500 mg daily) was permitted for both treatment arms in Study 1. TIGECYCLINE: 
+clinical_studies_table: paragraph></td></tr></tfoot><tbody><tr><td>Study 1<sup>c</sup></td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td></tr><tr><td> CE </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Higher risk 
+</td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Yes </td><td align="center" valign="middle">93/103 (90.3) 
+</td><td align="center" valign="middle">84/102 (82. TIGECYCLINE: clinical_studies_table: 4) </td><td align="center" valign="middle">(-2.3, 18.2) </td></tr><tr><td> No </td><td align="center" 
+valign="middle">32/35 (91.4) </td><td align="center" valign="middle">52/54 (96.3) </td><td align="center" valign="middle">(-20.8, 7. TIGECYCLINE: clinical_studies_table: 1) </td></tr><tr><td> c-mITT 
+</td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Higher risk </td><td align="center" valign="middle"> 
+</td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Yes </td><td align="center" valign="middle">111/142 (78.2) </td><td align="center" 
+valign="middle">100/134 (74.6) </td><td align="center" valign="middle">(-6.9, 14) </td></tr><tr><td> No </td><td align="center" valign="middle">38/49 (77. TIGECYCLINE: clinical_studies_table: 6) 
+</td><td align="center" valign="middle">58/69 (84.1) </td><td align="center" valign="middle">(-22.8, 8. TIGECYCLINE: clinical_studies_table: 7) </td></tr><tr><td>Study 2 </td><td align="center" 
+valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> CE </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Higher risk </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td></tr><tr><td> Yes </td><td align="center" valign="middle">95/107 (88. TIGECYCLINE: clinical_studies_table: 8) </td><td align="center" valign="middle">68/85 (80) </td><td 
+align="center" valign="middle">(-2.2, 20.3) </td></tr><tr><td> No </td><td align="center" valign="middle">33/37 (89.2) </td><td align="center" valign="middle">48/51 (94.1) </td><td align="center" 
+valign="middle">(-21.1, 8. TIGECYCLINE: clinical_studies_table: 6) </td></tr><tr><td> c-mITT </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td></tr><tr><td> Higher risk </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Yes 
+</td><td align="center" valign="middle">112/134 (83.6) </td><td align="center" valign="middle">93/120 (77.5) </td><td align="center" valign="middle">(-4.2, 16.4) </td></tr><tr><td> No </td><td 
+align="center" valign="middle">58/69 (84. TIGECYCLINE: clinical_studies_table: 1) </td><td align="center" valign="middle">70/80 (87.5) </td><td align="center" valign="middle">(-16.2, 8. TIGECYCLINE: 
+clinical_studies_table: 8) </td></tr></tbody></table>         
+SOURCE:TIGECYCLINE label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: The FDA label for TIGECYCLINE does not mention an increased or decreased risk of myocardial infarction.
+
+SOURCE: TIGECYCLINE label
+EXTRACT_START_END: TIGECYCLINE: adverse_reactions: 6 ADVERSE... and increased SGPT. (6.1)
+*(orchestrator-myocardial infarction-TIGECYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: The FDA label for TIGECYCLINE does not mention an 
+increased or decreased risk of myocardial infarction.
+
+SOURCE: TIGECYCLINE label
+EXTRACT_START_END: TIGECYCLINE: adverse_reactions: 6 ADVERSE... and increased SGPT. (6.1)
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-myocardial infarction-TIGECYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does TIGECYCLINE increase or decrease the risk of myocardial infarction?",
+    "steps": [
+      "I asked FDAHandler if the FDA label for TIGECYCLINE mentions an increased or decreased risk of myocardial infarction.",
+      "FDAHandler responded that the FDA label for TIGECYCLINE does not mention an increased or decreased risk of myocardial infarction."
+    ],
+    "answer": "DO-NOT-KNOW"
+  }
+}
+*(orchestrator-myocardial infarction-TIGECYCLINE)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-myocardial infarction-TIGECYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does TIGECYCLINE increase or decrease the risk of myocardial infarction?",
+    "steps": [
+      "I asked FDAHandler if the FDA label for TIGECYCLINE mentions an increased or decreased risk of myocardial infarction.",
+      "FDAHandler responded that the FDA label for TIGECYCLINE does not mention an increased or decreased risk of myocardial infarction."
+    ],
+    "answer": "DO-NOT-KNOW",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does TIGECYCLINE increase or decrease the risk of myocardial infarction?
+        -----
+        Reasoning:
+        1. I asked FDAHandler if the FDA label for TIGECYCLINE mentions an increased or decreased risk of myocardial infarction.
+2. FDAHandler responded that the FDA label for TIGECYCLINE does not mention an increased or decreased risk of myocardial infarction.
+        -----
+        Final answer: DO-NOT-KNOW
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": ""
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(orchestrator-myocardial infarction-TIGECYCLINE)  Critic  Entity.USER(    Critic) (=>     AGENT) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "",
+    "request": "feedback"
+  }
+}
+*(orchestrator-myocardial infarction-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) Your reasoning is valid, no feedback was provided.
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.USER 
+ (orchestrator-myocardial infarction-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-myocardial infarction-TIGECYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+
+The FDA label for TIGECYCLINE does not mention an increased or decreased risk of myocardial infarction, so I cannot provide a definitive answer to whether TIGECYCLINE increases or decreases the risk 
+of myocardial infarction.

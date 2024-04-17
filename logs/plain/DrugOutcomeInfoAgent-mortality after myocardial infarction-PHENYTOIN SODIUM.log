@@ -1,0 +1,218 @@
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does PHENYTOIN SODIUM increase or decrease
+the risk of mortality after myocardial infarction?
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.AGENT 
+*(orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does PHENYTOIN SODIUM increase or decrease the risk of mortality after myocardial infarction?"
+  }
+}
+*(orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does PHENYTOIN SODIUM increase or decrease
+the risk of mortality after myocardial infarction?
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does PHENYTOIN SODIUM increase or decrease the risk of mortality after myocardial infarction?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does Phenytoin Sodium affect mortality after myocardial infarction?",
+    "drug": "Phenytoin Sodium"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: PHENYTOIN SODIUM: warnings_and_cautions: 5 WARNINGS AND PRECAUTIONS Withdrawal Precipitated Seizure : May precipitate status epilepticus. Dose reductions or discontinuation should be done 
+gradually. ( 5.2 ) Serious Dermatologic Reactions : Discontinue phenytoin at the first sign of a rash, unless the rash is clearly not drug-related. If signs or symptoms suggest SJS/TEN, use of this 
+drug should not be resumed and alternative therapy should be considered. ( 5.3 ) Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)/Multiorgan hypersensitivity : If signs or symptoms of 
+hypersensitivity are present, evaluate the patient immediately. Discontinue if an alternative etiology cannot be established. ( 5.4 ) Hematopoietic Complications: If occurs, follow-up observation is 
+indicated and an alternative antiepileptic treatment should be used. ( 5.7 ) 5. PHENYTOIN SODIUM: warnings_and_cautions: 1 Cardiovascular Risk Associated with Rapid Infusion Rapid intravenous 
+administration of Phenytoin Sodium Injection increases the risk of adverse cardiovascular reactions, including severe hypotension and cardiac arrhythmias. Cardiac arrhythmias have included 
+bradycardia, heart block, ventricular tachycardia, and ventricular fibrillation which have resulted in asystole, cardiac arrest, and death. Severe complications are most commonly encountered in 
+critically ill patients, elderly patients, and patients with hypotension and severe myocardial insufficiency. However, cardiac events have also been reported in adults and children without underlying 
+cardiac disease or comorbidities and at recommended doses and infusion rates. Intravenous administration should not exceed 50 mg per minute in adults. In pediatric patients, administer the drug at a 
+rate not exceeding 1 to 3 mg/kg/min or 50 mg per minute, whichever is slower. PHENYTOIN SODIUM: warnings_and_cautions: Although the risk of cardiovascular toxicity increases with infusion rates above 
+the recommended infusion rate, these events have also been reported at or below the recommended infusion rate. As non-emergency therapy, Phenytoin Sodium Injection should be administered more slowly 
+as either a loading dose or by intermittent infusion. Because of the risks of cardiac and local toxicity associated with intravenous phenytoin, oral phenytoin should be used whenever possible. Because
+adverse cardiovascular reactions have occurred during and after infusions, careful cardiac and respiratory monitoring is needed during and after the administration of intravenous Phenytoin Sodium 
+Injection. Reduction in rate of administration or discontinuation of dosing may be needed. 5.2 Withdrawal Precipitated Seizure, Status Epilepticus Antiepileptic drugs should not be abruptly 
+discontinued because of the possibility of increased seizure frequency, including status epilepticus. PHENYTOIN SODIUM: warnings_and_cautions: When, in the judgment of the clinician, the need for 
+dosage reduction, discontinuation, or substitution of alternative antiepileptic medication arises, this should be done gradually. However, in the event of an allergic or hypersensitivity reaction, 
+rapid substitution of alternative therapy may be necessary. In this case, alternative therapy should be an antiepileptic drug not belonging to the hydantoin chemical class. 5.3 Serious Dermatologic 
+Reactions Serious and sometimes fatal dermatologic reactions, including toxic epidermal necrolysis (TEN) and Stevens-Johnson syndrome (SJS), have been reported with phenytoin treatment. The onset of 
+symptoms is usually within 28 days, but can occur later. Phenytoin should be discontinued at the first sign of a rash, unless the rash is clearly not drug-related. If signs or symptoms suggest 
+SJS/TEN, use of this drug should not be resumed and alternative therapy should be considered. PHENYTOIN SODIUM: warnings_and_cautions: If a rash occurs, the patient should be evaluated for signs and 
+symptoms of Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)  . Studies in patients of Chinese ancestry have found a strong association between the risk of developing SJS/TEN and the 
+presence of HLA-B*1502, an inherited allelic variant of the HLA B gene, in patients using carbamazepine. Limited evidence suggests that HLA-B*1502 may be a risk factor for the development of SJS/TEN 
+in patients of Asian ancestry taking other antiepileptic drugs associated with SJS/TEN, including phenytoin.         
+SOURCE:PHENYTOIN SODIUM label
+
+
+CONTENT: PHENYTOIN SODIUM: clinical_pharmacology: 12 CLINICAL PHARMACOLOGY 12.1 Mechanism of Action The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but 
+is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges. 12.3 Pharmacokinetics Absorption A fall in 
+serum levels may occur when patients are changed from oral to intramuscular administration. The drop is caused by slower absorption, as compared to oral administration, because of the poor water 
+solubility of phenytoin. Intravenous administration is the preferred route for producing rapid therapeutic serum levels. Patients stabilized on a daily oral regimen of phenytoin experience a drop in 
+peak blood levels to 50 to 60 percent of stable levels if crossed over to an equal dose administered intramuscularly. PHENYTOIN SODIUM: clinical_pharmacology: However, the intramuscular depot of 
+poorly soluble material is eventually absorbed, as determined by urinary excretion of 5-(p-hydroxyphenyl)-5-phenylhydantoin (HPPH), the principal metabolite, as well as the total amount of drug 
+eventually appearing in the blood. As phenytoin is highly protein bound, free phenytoin levels may be altered in patients whose protein binding characteristics differ from normal. A short-term (one 
+week) study indicates that patients do not experience the expected drop in blood levels when crossed over to the intramuscular route if the phenytoin IM dose is increased by 50 percent over the 
+previously established oral dose. To avoid drug accumulation caused by absorption from the muscle depots, it is recommended that for the first week back on oral phenytoin, the dose be reduced to half 
+of the original oral dose (one-third of the IM dose). PHENYTOIN SODIUM: clinical_pharmacology: Experience for periods greater than one week is lacking and blood level monitoring is recommended. 
+Therapeutic effect without clinical signs of toxicity occurs most often with serum total concentrations between 10 and 20 mcg/mL (unbound phenytoin concentrations of 1 to 2 mcg/mL). Distribution 
+Phenytoin is extensively bound to plasma proteins and is prone to competitive displacement. Elimination The serum half-life in man after intravenous administration ranges from 10 to 15 hours. 
+Metabolism Phenytoin is metabolized by the hepatic cytochrome P450 enzymes CYP2C9 and to a lesser extent by CYP2C19. Excretion Most of the drug is excreted in the bile as inactive metabolites. Urinary
+excretion of phenytoin and its metabolites occurs partly by glomerular filtration but, more importantly, by tubular secretion.         
+SOURCE:PHENYTOIN SODIUM label
+
+
+CONTENT: PHENYTOIN SODIUM: pharmacokinetics: 12.3 Pharmacokinetics Absorption A fall in serum levels may occur when patients are changed from oral to intramuscular administration. The drop is caused 
+by slower absorption, as compared to oral administration, because of the poor water solubility of phenytoin. Intravenous administration is the preferred route for producing rapid therapeutic serum 
+levels. Patients stabilized on a daily oral regimen of phenytoin experience a drop in peak blood levels to 50 to 60 percent of stable levels if crossed over to an equal dose administered 
+intramuscularly. However, the intramuscular depot of poorly soluble material is eventually absorbed, as determined by urinary excretion of 5-(p-hydroxyphenyl)-5-phenylhydantoin (HPPH), the principal 
+metabolite, as well as the total amount of drug eventually appearing in the blood. PHENYTOIN SODIUM: pharmacokinetics: As phenytoin is highly protein bound, free phenytoin levels may be altered in 
+patients whose protein binding characteristics differ from normal. A short-term (one week) study indicates that patients do not experience the expected drop in blood levels when crossed over to the 
+intramuscular route if the phenytoin IM dose is increased by 50 percent over the previously established oral dose. To avoid drug accumulation caused by absorption from the muscle depots, it is 
+recommended that for the first week back on oral phenytoin, the dose be reduced to half of the original oral dose (one-third of the IM dose). Experience for periods greater than one week is lacking 
+and blood level monitoring is recommended. Therapeutic effect without clinical signs of toxicity occurs most often with serum total concentrations between 10 and 20 mcg/mL (unbound phenytoin 
+concentrations of 1 to 2 mcg/mL). PHENYTOIN SODIUM: pharmacokinetics: Distribution Phenytoin is extensively bound to plasma proteins and is prone to competitive displacement. Elimination The serum 
+half-life in man after intravenous administration ranges from 10 to 15 hours. Metabolism Phenytoin is metabolized by the hepatic cytochrome P450 enzymes CYP2C9 and to a lesser extent by CYP2C19. 
+Excretion Most of the drug is excreted in the bile as inactive metabolites. Urinary excretion of phenytoin and its metabolites occurs partly by glomerular filtration but, more importantly, by tubular 
+secretion. Specific Populations Age: Geriatric Population: Phenytoin clearance tends to decrease with increasing age (20% less in patients over 70 years of age relative to that in patients 20 to 30 
+years of age). PHENYTOIN SODIUM: pharmacokinetics: Since phenytoin clearance is decreased slightly in elderly patients, lower or less frequent dosing may be required . S e x /Race: Gender and race 
+have no significant impact on phenytoin pharmacokinetics. Renal or Hepatic Impairment: Increased fraction of unbound phenytoin in patients with renal or hepatic disease, or in those with 
+hypoalbuminemia has been reported. P regnancy: It has been reported in the literature that the plasma clearance of phenytoin generally increased during pregnancy, reached a peak in the third trimester
+and returned to the level of pre-pregnancy after few weeks or months of delivery. Drug Interaction Studies Phenytoin is primarily metabolized by the cytochrome P450 enzymes CYP2C9 and to a lesser 
+extent by CYP2C19.         
+SOURCE:PHENYTOIN SODIUM label
+
+
+CONTENT: PHENYTOIN SODIUM: adverse_reactions: 6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: Cardiovascular Risk Associated with Rapid Infusion  
+Withdrawal Precipitated Seizure, Status Epilepticus  Serious Dermatologic Reactions  Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)/Multiorgan Hypersensitivity  Hypersensitivity  
+Hepatic Injury  Hematopoietic Complications  Local toxicity (Including Purple Glove Syndrome)  Exacerbation of Porphyria  Teratogenicity and Other Harm to the Newborn  Hyperglycemia  The following 
+adverse reactions associated with the use of Phenytoin Sodium Injection were identified in clinical studies or postmarketing reports. Because these reactions are reported voluntarily from a population
+of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. The most notable signs of toxicity associated with the 
+intravenous use of this drug are cardiovascular collapse and/or CNS depression. Hypotension does occur when the drug is administered rapidly by the intravenous route. PHENYTOIN SODIUM: 
+adverse_reactions: The rate of administration is very important; it should not exceed 50 mg per minute in adults, and 1 to 3 mg/kg/min (or 50 mg per minute, whichever is slower) in pediatric patients 
+. Body As a Whole: Allergic reactions in the form of rash and rarely more serious forms (see Skin and Appendages paragraph below) and DRESS  have been observed. Anaphylaxis has also been reported. 
+There have also been reports of coarsening of facial features, systemic lupus erythematosus, periarteritis nodosa, and immunoglobulin abnormalities. Cardiovascular: Severe cardiovascular events and 
+fatalities have been reported with atrial and ventricular conduction depression and ventricular fibrillation. PHENYTOIN SODIUM: adverse_reactions: Severe complications are most commonly encountered in
+elderly or critically ill patients  . Digestive System: Acute hepatic failure  , toxic hepatitis, liver damage, nausea, vomiting, constipation, enlargement of the lips, and gingival hyperplasia. 
+Hematologic and Lymphatic System: Hematopoietic complications, some fatal, have occasionally been reported in association with administration of phenytoin  . These have included thrombocytopenia, 
+leukopenia, granulocytopenia, agranulocytosis, and pancytopenia with or without bone marrow suppression. While macrocytosis and megaloblastic anemia have occurred, these conditions usually respond to 
+folic acid therapy.         
+SOURCE:PHENYTOIN SODIUM label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: Phenytoin Sodium has been associated with severe cardiovascular events, including cardiac arrhythmias such as bradycardia, heart block, ventricular tachycardia, and ventricular fibrillation, 
+which have resulted in asystole, cardiac arrest, and death. These severe complications are most commonly encountered in critically ill patients, elderly patients, and patients with hypotension and 
+severe myocardial insufficiency. However, these events have also been reported in adults and children without underlying cardiac disease or comorbidities and at recommended doses and infusion rates. 
+The risk of cardiovascular toxicity increases with infusion rates above the recommended infusion rate, but these events have also been reported at or below the recommended infusion rate.
+
+SOURCE: PHENYTOIN SODIUM label
+EXTRACT_START_END: ...including severe hypotension and cardiac arrhythmias... and death. Severe complications are...
+*(orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: Phenytoin Sodium has been 
+associated with severe cardiovascular events, including cardiac arrhythmias such as bradycardia, heart block, ventricular tachycardia, and ventricular fibrillation, which have resulted in asystole, 
+cardiac arrest, and death. These severe complications are most commonly encountered in critically ill patients, elderly patients, and patients with hypotension and severe myocardial insufficiency. 
+However, these events have also been reported in adults and children without underlying cardiac disease or comorbidities and at recommended doses and infusion rates. The risk of cardiovascular 
+toxicity increases with infusion rates above the recommended infusion rate, but these events have also been reported at or below the recommended infusion rate.
+
+SOURCE: PHENYTOIN SODIUM label
+EXTRACT_START_END: ...including severe hypotension and cardiac arrhythmias... and death. Severe complications are...
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does PHENYTOIN SODIUM increase or decrease the risk of mortality after myocardial infarction?",
+    "steps": [
+      "I asked FDAHandler whether PHENYTOIN SODIUM increases or decreases the risk of mortality after myocardial infarction.",
+      "FDAHandler responded that Phenytoin Sodium has been associated with severe cardiovascular events, including cardiac arrhythmias and death, particularly in critically ill patients, elderly 
+patients, and those with severe myocardial insufficiency. These events can occur even at recommended doses and infusion rates.",
+      "The information provided by FDAHandler indicates that Phenytoin Sodium can increase the risk of mortality due to its association with severe cardiovascular events."
+    ],
+    "answer": "PHENYTOIN SODIUM can increase the risk of mortality after myocardial infarction due to its association with severe cardiovascular events, including cardiac arrhythmias and death."
+  }
+}
+*(orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  FDAHandler  Entity.USER(FDAHandler) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does PHENYTOIN SODIUM increase or decrease the risk of mortality after myocardial infarction?",
+    "steps": [
+      "I asked FDAHandler whether PHENYTOIN SODIUM increases or decreases the risk of mortality after myocardial infarction.",
+      "FDAHandler responded that Phenytoin Sodium has been associated with severe cardiovascular events, including cardiac arrhythmias and death, particularly in critically ill patients, elderly 
+patients, and those with severe myocardial insufficiency. These events can occur even at recommended doses and infusion rates.",
+      "The information provided by FDAHandler indicates that Phenytoin Sodium can increase the risk of mortality due to its association with severe cardiovascular events."
+    ],
+    "answer": "PHENYTOIN SODIUM can increase the risk of mortality after myocardial infarction due to its association with severe cardiovascular events, including cardiac arrhythmias and death.",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does PHENYTOIN SODIUM increase or decrease the risk of mortality after myocardial infarction?
+        -----
+        Reasoning:
+        1. I asked FDAHandler whether PHENYTOIN SODIUM increases or decreases the risk of mortality after myocardial infarction.
+2. FDAHandler responded that Phenytoin Sodium has been associated with severe cardiovascular events, including cardiac arrhythmias and death, particularly in critically ill patients, elderly patients,
+and those with severe myocardial insufficiency. These events can occur even at recommended doses and infusion rates.
+3. The information provided by FDAHandler indicates that Phenytoin Sodium can increase the risk of mortality due to its association with severe cardiovascular events.
+        -----
+        Final answer: PHENYTOIN SODIUM can increase the risk of mortality after myocardial infarction due to its association with severe cardiovascular events, including cardiac arrhythmias and death.
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is consistent with medical knowledge and common sense. The user has correctly interpreted the information from FDAHandler, which states that Phenytoin Sodium is
+associated with severe cardiovascular events, including cardiac arrhythmias and death. The user has logically concluded that this association suggests an increased risk of mortality after myocardial 
+infarction. There are no apparent flaws in the reasoning process."
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Critic  Entity.USER(    Critic) (=>     AGENT) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is consistent with medical knowledge and common sense. The user has correctly interpreted the information from FDAHandler, which states that Phenytoin Sodium is
+associated with severe cardiovascular events, including cardiac arrhythmias and death. The user has logically concluded that this association suggests an increased risk of mortality after myocardial 
+infarction. There are no apparent flaws in the reasoning process.",
+    "request": "feedback"
+  }
+}
+*(orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) 
+        Feedback: The reasoning provided is consistent with medical knowledge and common sense. The user has correctly interpreted the information from FDAHandler, which states that Phenytoin Sodium 
+is associated with severe cardiovascular events, including cardiac arrhythmias and death. The user has logically concluded that this association suggests an increased risk of mortality after 
+myocardial infarction. There are no apparent flaws in the reasoning process.
+
+        If any flaws in the reasoning used to produce your
+        answer were identified, you must try again.
+        
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.USER 
+ (orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-mortality after myocardial infarction-PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+
+The final answer to the question "Does PHENYTOIN SODIUM increase or decrease the risk of mortality after myocardial infarction?" is that PHENYTOIN SODIUM can increase the risk of mortality after 
+myocardial infarction due to its association with severe cardiovascular events, including cardiac arrhythmias and death. This conclusion is based on the information provided by FDAHandler, which 
+indicates that Phenytoin Sodium has been associated with these severe cardiovascular events, particularly in critically ill patients, elderly patients, and those with severe myocardial insufficiency, 
+and can occur even at recommended doses and infusion rates.

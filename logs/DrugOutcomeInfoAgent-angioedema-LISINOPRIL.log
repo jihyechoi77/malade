@@ -1,0 +1,243 @@
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes LISINOPRIL increase or decrease the risk of angioedema?[0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m
+*[1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
+[32m    [0m[32m"content"[0m[32m: [0m[32m"Does LISINOPRIL increase the risk of angioedema?"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes LISINOPRIL increase the risk of angioedema?[0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes LISINOPRIL increase the risk of angioedema?[0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_extracts"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"query"[0m[32m: [0m[32m"Does LISINOPRIL increase the risk of angioedema?"[0m[32m,[0m
+[32m    [0m[32m"filter_drugs"[0m[32m: [0m[1;32m[[0m
+[32m      [0m[32m"Lisinopril"[0m
+[32m    [0m[1;32m][0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
+[31m        Below are some relevant extracts for your query:[0m
+[31m        -----[0m
+[31m        [0m
+[31mCONTENT: LISINOPRIL: warnings: WARNINGS General Lisinopril Anaphylactoid and Possibly Related Reactions: Presumably because angiotensin-converting enzyme inhibitors affect the metabolism of [0m
+[31meicosanoids and polypeptides, including endogenous bradykinin, patients receiving ACE inhibitors [0m[1;31m([0m[31mincluding lisinopril and hydrochlorothiazide tablets[0m[1;31m)[0m[31m may be subject to a variety of adverse [0m
+[31mreactions, some of them serious. Head and Neck Angioedema: Angioedema of the face, extremities, lips, tongue, glottis and/or larynx has been reported rarely in patients treated with angiotensin [0m
+[31mconverting enzyme inhibitors, including lisinopril. This may occur at any time during treatment. ACE inhibitors have been associated with a higher rate of angioedema in Black than in non-Black [0m
+[31mpatients. LISINOPRIL: warnings: In such cases lisinopril and hydrochlorothiazide tablets should be promptly discontinued and appropriate therapy and monitoring should be provided until complete and [0m
+[31msustained resolution of signs and symptoms has occurred. Even in those instances where swelling of only the tongue is involved, without respiratory distress, patients may require prolonged observation[0m
+[31msince treatment with antihistamines and corticosteroids may not be sufficient. Very rarely, fatalities have been reported due to angioedema associated with laryngeal edema or tongue edema. Patients [0m
+[31mwith involvement of the tongue, glottis or larynx are likely to experience airway obstruction, especially those with a history of airway surgery. Where there is involvement of the tongue, glottis or [0m
+[31mlarynx, likely to cause airway obstruction, subcutaneous epinephrine solution [0m[1;31m1:1000[0m[31m [0m[1;31m([0m[1;31m0.3[0m[31m mL to [0m[1;31m0[0m[31m. LISINOPRIL: warnings: [0m[1;31m5[0m[31m mL[0m[1;31m)[0m[31m and/or measures necessary to ensure a patent airway should be promptly [0m
+[31mprovided [0m[1;31m([0m[31mSee ADVERSE REACTIONS . [0m[1;31m)[0m[31m Patients with a history of angioedema unrelated to ACE-inhibitor therapy may be at increased risk of angioedema while receiving an ACE inhibitor [0m[1;31m([0m[31msee also [0m
+[31mINDICATIONS AND USAGE and CONTRAINDICATIONS [0m[1;31m)[0m[31m. Patients receiving coadministration of ACE inhibitor and mTOR [0m[1;31m([0m[31mmammalian target of rapamycin[0m[1;31m)[0m[31m inhibitor [0m[1;31m([0m[31me.g., temsirolimus, sirolimus, everolimus[0m[1;31m)[0m[31m [0m
+[31mtherapy or a neprilysin inhibitor may be at increased risk for angioedema [0m[1;31m([0m[31msee PRECAUTIONS [0m[1;31m)[0m[31m. Intestinal Angioedema : Intestinal angioedema has been reported in patients treated with ACE inhibitors. [0m
+[31mThese patients presented with abdominal pain [0m[1;31m([0m[31mwith or without nausea or vomiting[0m[1;31m)[0m[31m; in some cases there was no prior history of facial angioedema and C-[0m[1;31m1[0m[31m esterase levels were normal. LISINOPRIL: [0m
+[31mwarnings: The angioedema was diagnosed by procedures including abdominal CT scan or ultrasound, or at surgery, and symptoms resolved after stopping the ACE inhibitor. Intestinal angioedema should be [0m
+[31mincluded in the differential diagnosis of patients on ACE inhibitors presenting with abdominal pain. Anaphylactoid reactions during desensitization: Two patients undergoing desensitizing treatment [0m
+[31mwith hymenoptera venom while receiving ACE inhibitors sustained life-threatening anaphylactoid reactions. In the same patients, these reactions were avoided when ACE inhibitors were temporarily [0m
+[31mwithheld, but they reappeared upon inadvertent rechallenge. Anaphylactoid reactions during membrane exposure: Sudden and potentially life-threatening anaphylactoid reactions have been reported in some[0m
+[31mpatients dialyzed with high-flux membranes and treated concomitantly with an ACE inhibitor. In such patients, dialysis must be stopped immediately, and aggressive therapy for anaphylactoid reactions [0m
+[31mmust be initiated. LISINOPRIL: warnings: Symptoms have not been relieved by antihistamines in these situations. In these patients, consideration should be given to using a different type of dialysis [0m
+[31mmembrane or a different class of antihypertensive agent. Anaphylactoid reactions have also been reported in patients undergoing low-density lipoprotein apheresis with dextran sulfate absorption. [0m
+[31mHypotension and Related Effects Excessive hypotension was rarely seen in uncomplicated hypertensive patients but is a possible consequence of lisinopril use in salt/volume-depleted persons such as [0m
+[31mthose treated vigorously with diuretics or patients on dialysis. [0m[1;31m([0m[31mSee PRECAUTIONS, Drug Interactions and ADVERSE REACTIONS .[0m[1;31m)[0m[31m Syncope has been reported in [0m[1;31m0.8[0m[31m percent of patients receiving lisinopril [0m
+[31mand hydrochlorothiazide tablets. In patients with hypertension receiving lisinopril alone, the incidence of syncope was [0m[1;31m0.1[0m[31m percent. LISINOPRIL: warnings: The overall incidence of syncope may be [0m
+[31mreduced by proper titration of the individual components. [0m[1;31m([0m[31mSee PRECAUTIONS, Drug Interactions , ADVERSE REACTIONS and DOSAGE AND ADMINISTRATION .[0m[1;31m)[0m[31m In patients with severe congestive heart failure, [0m
+[31mwith or without associated renal insufficiency, excessive hypotension has been observed and may be associated with oliguria and/or progressive azotemia, and rarely with acute renal failure and/or [0m
+[31mdeath. Because of the potential fall in blood pressure in these patients, therapy should be started under very close medical supervision. Such patients should be followed closely for the first two [0m
+[31mweeks of treatment and whenever the dose of lisinopril and/or diuretic is increased. Similar considerations apply to patients with ischemic heart or cerebrovascular disease in whom an excessive fall [0m
+[31min blood pressure could result in a myocardial infarction or cerebrovascular accident.         [0m
+[31mSOURCE:LISINOPRIL label[0m
+
+
+[31mCONTENT: LISINOPRIL: adverse_reactions: [0m[1;31m0[0m[31m Diarrhea [0m[1;31m2.5[0m[31m [0m[1;31m([0m[1;31m0.2[0m[1;31m)[0m[31m [0m[1;31m2.4[0m[31m Nausea [0m[1;31m2.2[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m2.4[0m[31m Upper Respiratory Infection [0m[1;31m2.2[0m[31m [0m[1;31m([0m[1;31m0.0[0m[1;31m)[0m[31m [0m[1;31m0.0[0m[31m Muscle Cramps [0m[1;31m2.0[0m[31m [0m[1;31m([0m[1;31m0.4[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Asthenia [0m[1;31m1.8[0m[31m [0m[1;31m([0m[1;31m0.2[0m[1;31m)[0m[31m [0m[1;31m1.0[0m[31m Paresthesia [0m[1;31m1.5[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m
+[1;31m0.0[0m[31m Hypotension [0m[1;31m1.4[0m[31m [0m[1;31m([0m[1;31m0.3[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Vomiting [0m[1;31m1.4[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Dyspepsia [0m[1;31m1.3[0m[31m [0m[1;31m([0m[1;31m0.0[0m[1;31m)[0m[31m [0m[1;31m0.0[0m[31m Rash [0m[1;31m1.2[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Impotence [0m[1;31m1.2[0m[31m [0m[1;31m([0m[1;31m0.3[0m[1;31m)[0m[31m [0m[1;31m0[0m[31m. LISINOPRIL: adverse_reactions: [0m[1;31m0[0m[31m Body as a Whole: Chest pain, abdominal pain, [0m
+[31msyncope, chest discomfort, fever, trauma, virus infection. Cardiovascular: Palpitation, orthostatic hypotension. Digestive: Gastrointestinal cramps, dry mouth, constipation, heartburn. [0m
+[31mMusculoskeletal: Back pain, shoulder pain, knee pain, back strain, myalgia, foot pain. Nervous/Psychiatric: Decreased libido, vertigo, depression, somnolence. Respiratory: Common cold, nasal [0m
+[31mcongestion, influenza, bronchitis, pharyngeal pain, dyspnea, pulmonary congestion, chronic sinusitis, allergic rhinitis, pharyngeal discomfort. Skin: Flushing, pruritus, skin inflammation, [0m
+[31mdiaphoresis. Special Senses: Blurred vision, tinnitus, otalgia. Urogenital: Urinary tract infection. LISINOPRIL: adverse_reactions: Angioedema: Angioedema has been reported in patients receiving [0m
+[31mPRINZIDE, with an incidence higher in Black than in non-Black patients. Angioedema associated with laryngeal edema may be fatal. If angioedema of the face, extremities, lips, tongue, glottis and/or [0m
+[31mlarynx occurs, treatment with PRINZIDE should be discontinued and appropriate therapy instituted immediately. In rare cases, intestinal angioedema has been reported with angiotensin converting enzyme [0m
+[31minhibitors including lisinopril. [0m[1;31m([0m[31mSee WARNINGS [0m[1;31m)[0m[31m. Hypotension: In clinical trials, adverse effects relating to hypotension occurred as follows: hypotension [0m[1;31m([0m[1;31m1.4[0m[31m percent[0m[1;31m)[0m[31m, orthostatic hypotension [0m[1;31m([0m[1;31m0.5[0m[31m [0m
+[31mpercent[0m[1;31m)[0m[31m, other orthostatic effects [0m[1;31m([0m[1;31m3.2[0m[31m percent[0m[1;31m)[0m[31m. In addition syncope occurred in [0m[1;31m0.8[0m[31m percent of patients [0m[1;31m([0m[31mSee WARNINGS [0m[1;31m)[0m[31m. LISINOPRIL: adverse_reactions: Cough: See PRECAUTIONS - Cough . Clinical [0m
+[31mLaboratory Test Findings Serum Electrolytes: [0m[1;31m([0m[31mSee PRECAUTIONS [0m[1;31m)[0m[31m. Creatinine, Blood Urea Nitrogen: Minor reversible increases in blood urea nitrogen and serum creatinine were observed in patients with [0m
+[31messential hypertension treated with lisinopril and hydrochlorothiazide tablets. More marked increases have also been reported and were more likely to occur in patients with renal artery stenosis [0m[1;31m([0m[31mSee [0m
+[31mPRECAUTIONS [0m[1;31m)[0m[31m. Serum Uric Acid, Glucose, Magnesium, Cholesterol, Triglycerides and Calcium: [0m[1;31m([0m[31mSee PRECAUTIONS [0m[1;31m)[0m[31m. Hemoglobin and Hematocrit: Small decreases in hemoglobin and hematocrit [0m[1;31m([0m[31mmean decreases [0m
+[31mof approximately [0m[1;31m0.5[0m[31m g% and [0m[1;31m1.5[0m[31m vol%, respectively[0m[1;31m)[0m[31m occurred frequently in hypertensive patients treated with lisinopril and hydrochlorothiazide tablets but were rarely of clinical importance unless [0m
+[31manother cause of anemia coexisted. LISINOPRIL: adverse_reactions: In clinical trials, [0m[1;31m0.4[0m[31m% of patients discontinued therapy due to anemia. Liver Function Tests: Rarely, elevations of liver enzymes [0m
+[31mand/or serum bilirubin have occurred. [0m[1;31m([0m[31mSee WARNINGS, Hepatic Failure [0m[1;31m)[0m[31m. Other adverse reactions that have been reported with the individual components are listed below: Lisinopril - In clinical trials[0m
+[31madverse reactions which occurred with lisinopril were also seen with lisinopril and hydrochlorothiazide tablets.         [0m
+[31mSOURCE:LISINOPRIL label[0m
+
+
+[31mCONTENT: LISINOPRIL: drug_interactions: Patients receiving the combination of losartan and lisinopril did not obtain any additional benefit compared to monotherapy for the combined endpoint of decline[0m
+[31min GFR, end state renal disease, or death, but experienced an increased incidence of hyperkalemia and acute kidney injury compared with the monotherapy group. In general, avoid combined use of RAS [0m
+[31minhibitors. Monitor blood pressure, renal function, and electrolytes in patients on lisinopril and hydrochlorothiazide tablets and other agents that affect the RAS. Do not coadminister aliskiren with [0m
+[31mlisinopril and hydrochlorothiazide tablets in patients with diabetes. Avoid use of aliskiren with PRINZIDE in patients with renal impairment [0m[1;31m([0m[31mGFR <[0m[1;31m60[0m[31m ml/min[0m[1;31m)[0m[31m. Other Agents: Lisinopril has been used [0m
+[31mconcomitantly with nitrates and/or digoxin without evidence of clinically significant adverse interactions. LISINOPRIL: drug_interactions: No meaningful clinically important pharmacokinetic [0m
+[31minteractions occurred when lisinopril was used concomitantly with propranolol, digoxin, or hydrochlorothiazide. The presence of food in the stomach does not alter the bioavailability of lisinopril. [0m
+[31mAgents Increasing Serum Potassium: Lisinopril attenuates potassium loss caused by thiazide-type diuretics. Use of lisinopril with potassium-sparing diuretics [0m[1;31m([0m[31me.g., spironolactone, eplerenone, [0m
+[31mtriamterene, or amiloride[0m[1;31m)[0m[31m, potassium supplements, or potassium-containing salt substitutes may lead to significant increases in serum potassium. Therefore, if concomitant use of these agents is [0m
+[31mindicated, because of demonstrated hypokalemia, they should be used with caution and with frequent monitoring of serum potassium. Lithium: Lithium toxicity has been reported in patients receiving [0m
+[31mlithium concomitantly with drugs which cause elimination of sodium, including ACE inhibitors. LISINOPRIL: drug_interactions: Lithium toxicity was usually reversible upon discontinuation of lithium and[0m
+[31mthe ACE inhibitor. It is recommended that serum lithium levels be monitored frequently if lisinopril is administered concomitantly with lithium. Gold: Nitritoid reactions [0m[1;31m([0m[31msymptoms include facial [0m
+[31mflushing, nausea, vomiting and hypotension[0m[1;31m)[0m[31m have been reported rarely in patients on therapy with injectable gold [0m[1;31m([0m[31msodium aurothiomalate[0m[1;31m)[0m[31m and concomitant ACE inhibitor therapy including lisinopril and[0m
+[31mhydrochlorothiazide tablets. mTOR [0m[1;31m([0m[31mmammalian target of rapamycin[0m[1;31m)[0m[31m inhibitors: Patients receiving coadministration of ACE inhibitor and mTOR inhibitor [0m[1;31m([0m[31me.g., temsirolimus, sirolimus, everolimus[0m[1;31m)[0m[31m [0m
+[31mtherapy may be at increased risk for angioedema. [0m[1;31m([0m[31msee WARNINGS [0m[1;31m)[0m[31m Neprilysin Inhibitors: Patients taking concomitant neprilysin inhibitors may be at increased risk for angioedema. LISINOPRIL: [0m
+[31mdrug_interactions: [0m[1;31m([0m[31msee WARNINGS [0m[1;31m)[0m[31m Hydrochlorothiazide When administered concurrently the following drugs may interact with thiazide diuretics. Alcohol, barbiturates, or narcotics - potentiation of [0m
+[31morthostatic hypotension may occur. Antidiabetic drugs [0m[1;31m([0m[31moral agents and insulin[0m[1;31m)[0m[31m - dosage adjustment of the antidiabetic drug may be required. Other antihypertensive drugs - additive effect or [0m
+[31mpotentiation. Cholestyramine and colestipol resins - Absorption of hydrochlorothiazide is impaired in the presence of anionic exchange resins. Single doses of either cholestyramine or colestipol [0m
+[31mresins bind the hydrochlorothiazide and reduce its absorption from the gastrointestinal tract by up to [0m[1;31m85[0m[31m% and [0m[1;31m43[0m[31m%, respectively. Corticosteroids, ACTH - intensified electrolyte depletion, [0m
+[31mparticularly hypokalemia. Pressor amines [0m[1;31m([0m[31me.g. LISINOPRIL: drug_interactions: norepinephrine[0m[1;31m)[0m[31m - possible decreased response to pressor amines but not sufficient to preclude their use. Skeletal muscle [0m
+[31mrelaxants, nondepolarizing [0m[1;31m([0m[31me.g., tubocurarine[0m[1;31m)[0m[31m - possible increased responsiveness to the muscle relaxant. Lithium - should not generally be given with diuretics. Diuretic agents reduce the renal [0m
+[31mclearance of lithium and add a high risk of lithium toxicity. Refer to the package insert for lithium preparations before use of such preparations with lisinopril and hydrochlorothiazide tablets. [0m
+[31mNon-steroidal Anti-inflammatoryDrugs - In some patients, the administration of a non-steroidal anti-inflammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, [0m
+[31mpotassium-sparing and thiazide diuretics.         [0m
+[31mSOURCE:LISINOPRIL label[0m
+
+
+[31mCONTENT: LISINOPRIL: contraindications: CONTRAINDICATIONS Lisinopril and hydrochlorothiazide tablets are contraindicated in patients who are hypersensitive to any component of this product and in [0m
+[31mpatients with a history of angioedema related to previous treatment with an angiotensin converting enzyme inhibitor and in patients with hereditary or idiopathic angioedema. Because of the [0m
+[31mhydrochlorothiazide component, this product is contraindicated in patients with anuria or hypersensitivity to other sulfonamide-derived drugs. Lisinopril and hydrochlorothiazide tablets are [0m
+[31mcontraindicated in combination with a neprilysin inhibitor [0m[1;31m([0m[31me.g., sacubitril[0m[1;31m)[0m[31m. Do not administer lisinopril and hydrochlorothiazide tablets within [0m[1;31m36[0m[31m hours of switching to or from [0m
+[31msacubitril/valsartan, a neprilysin inhibitor [0m[1;31m([0m[31msee WARNINGS [0m[1;31m)[0m[31m. LISINOPRIL: contraindications: Do not coadminister aliskiren with lisinopril and hydrochlorothiazide tablets in patients with diabetes.   [0m
+[31mSOURCE:LISINOPRIL label[0m
+
+
+[31mCONTENT: LISINOPRIL: indications_and_usage: Numerous antihypertensive drugs, from a variety of pharmacologic classes and with different mechanisms of action, have been shown in randomized controlled [0m
+[31mtrials to reduce cardiovascular morbidity and mortality, and it can be concluded that it is blood pressure reduction, and not some other pharmacologic property of the drugs, that is largely [0m
+[31mresponsible for those benefits. The largest and most consistent cardiovascular outcome benefit has been a reduction in the risk of stroke, but reductions in myocardial infarction and cardiovascular [0m
+[31mmortality also have been seen regularly. Elevated systolic or diastolic pressure causes increased cardiovascular risk, and the absolute risk increase per mmHg is greater at higher blood pressures, so [0m
+[31mthat even modest reductions of severe hypertension can provide substantial benefit. LISINOPRIL: indications_and_usage: Relative risk reduction from blood pressure reduction is similar across [0m
+[31mpopulations with varying absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension [0m[1;31m([0m[31mfor example, patients with diabetes or hyperlipidemia[0m[1;31m)[0m[31m,[0m
+[31mand such patients would be expected to benefit from more aggressive treatment to a lower blood pressure goal. Some antihypertensive drugs have smaller blood pressure effects [0m[1;31m([0m[31mas monotherapy[0m[1;31m)[0m[31m in black [0m
+[31mpatients, and many antihypertensive drugs have additional approved indications and effects [0m[1;31m([0m[31me.g., on angina, heart failure, or diabetic kidney disease[0m[1;31m)[0m[31m. These considerations may guide selection of [0m
+[31mtherapy. These fixed-dose combinations are not indicated for initial therapy [0m[1;31m([0m[31msee DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m. LISINOPRIL: indications_and_usage: In using lisinopril and hydrochlorothiazide tablets, [0m
+[31mconsideration should be given to the fact that an angiotensin-converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients with renal impairment or collagen vascular [0m
+[31mdisease, and that available data are insufficient to show that lisinopril does not have a similar risk. [0m[1;31m([0m[31mSee WARNINGS .[0m[1;31m)[0m[31m In considering use of lisinopril and hydrochlorothiazide tablets, it should be [0m
+[31mnoted that Black patients receiving ACE inhibitors have been reported to have a higher incidence of angioedema compared to non-Black. [0m[1;31m([0m[31mSee WARNINGS, Head and Neck Angioedema .         [0m
+[31mSOURCE:LISINOPRIL label[0m
+
+
+[31mCONTENT: LISINOPRIL: information_for_patients: Information for Patients Angioedema: Angioedema, including laryngeal edema, may occur at any time during treatment with angiotensin converting enzyme [0m
+[31minhibitors, including lisinopril. Patients should be so advised and told to report immediately any signs or symptoms suggesting angioedema [0m[1;31m([0m[31mswelling of face, extremities, eyes, lips, tongue, [0m
+[31mdifficulty in swallowing or breathing[0m[1;31m)[0m[31m and to take no more drug until they have consulted with the prescribing physician. Symptomatic Hypotension: Patients should be cautioned to report [0m
+[31mlightheadedness especially during the first few days of therapy. If actual syncope occurs, the patients should be told to discontinue the drug until they have consulted with the prescribing physician.[0m
+[31mAll patients should be cautioned that excessive perspiration and dehydration may lead to an excessive fall in blood pressure because of reduction in fluid volume. LISINOPRIL: information_for_patients:[0m
+[31mOther causes of volume depletion such as vomiting or diarrhea may also lead to a fall in blood pressure; patients should be advised to consult with their physician. Hyperkalemia: Patients should be [0m
+[31mtold not to use salt substitutes containing potassium without consulting their physician. Neutropenia: Patients should be told to report promptly any indication of infection [0m[1;31m([0m[31me.g., sore throat, fever[0m[1;31m)[0m
+[31mwhich may be a sign of neutropenia. Pregnancy: Female patients of childbearing age should be told about the consequences of exposure to lisinopril and hydrochlorothiazide tablets during pregnancy. [0m
+[31mDiscuss treatment options with women planning to become pregnant. Patients should be asked to report pregnancies to their physicians as soon as possible. Non-melanoma Skin Cancer: Instruct patients [0m
+[31mtaking hydrochlorothiazide to protect skin from the sun and undergo regular skin cancer screening.         [0m
+[31mSOURCE:LISINOPRIL label[0m
+
+[31m        -----[0m
+[31m        If NONE of the extracts are relevant, try doing a web search with the[0m
+[31m        `relevant_search_extracts` tool/function-call[0m
+[31m        [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m
+[32mANSWER: Yes, LISINOPRIL has been associated with an increased risk of angioedema. Angioedema of the face, extremities, lips, tongue, glottis, and/or larynx has been reported rarely in patients treated[0m
+[32mwith angiotensin-converting enzyme inhibitors, including LISINOPRIL. This can occur at any time during treatment. The incidence of angioedema is higher in Black patients compared to non-Black [0m
+[32mpatients. In very rare cases, fatalities have been reported due to angioedema associated with laryngeal edema or tongue edema. Patients with a history of angioedema unrelated to ACE-inhibitor therapy [0m
+[32mmay be at increased risk of angioedema while receiving an ACE inhibitor. Intestinal angioedema has also been reported in patients treated with ACE inhibitors, presenting with abdominal pain, with or [0m
+[32mwithout nausea or vomiting.[0m
+
+[32mSOURCE: LISINOPRIL label[0m
+[32mEXTRACT_START_END: Head and Neck Angioedema: Angioedema of the face[0m[32m...[0m[32massociated with laryngeal edema or tongue edema.[0m
+*[1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [37m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mANSWER: Yes, LISINOPRIL has been associated with an increased risk of [0m
+[34mangioedema. Angioedema of the face, extremities, lips, tongue, glottis, and/or larynx has been reported rarely in patients treated with angiotensin-converting enzyme inhibitors, including LISINOPRIL. [0m
+[34mThis can occur at any time during treatment. The incidence of angioedema is higher in Black patients compared to non-Black patients. In very rare cases, fatalities have been reported due to angioedema[0m
+[34massociated with laryngeal edema or tongue edema. Patients with a history of angioedema unrelated to ACE-inhibitor therapy may be at increased risk of angioedema while receiving an ACE inhibitor. [0m
+[34mIntestinal angioedema has also been reported in patients treated with ACE inhibitors, presenting with abdominal pain, with or without nausea or vomiting.[0m
+
+[34mSOURCE: LISINOPRIL label[0m
+[34mEXTRACT_START_END: Head and Neck Angioedema: Angioedema of the face[0m[34m...[0m[34massociated with laryngeal edema or tongue edema.[0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"final_answer"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"question"[0m[32m: [0m[32m"Does LISINOPRIL increase or decrease the risk of angioedema?"[0m[32m,[0m
+[32m    [0m[32m"steps"[0m[32m: [0m[1;32m[[0m
+[32m      [0m[32m"I asked FDAHandler if LISINOPRIL increases the risk of angioedema."[0m[32m,[0m
+[32m      [0m[32m"FDAHandler confirmed that LISINOPRIL has been associated with an increased risk of angioedema. Angioedema involving the face, extremities, lips, tongue, glottis, and/or larynx has been reported[0m
+[32mrarely in patients treated with angiotensin-converting enzyme inhibitors, including LISINOPRIL. The incidence is higher in Black patients compared to non-Black patients, and very rare cases have [0m
+[32mresulted in fatalities. Patients with a history of angioedema unrelated to ACE-inhibitor therapy may be at increased risk of angioedema while receiving an ACE inhibitor. Intestinal angioedema has also[0m
+[32mbeen reported rarely."[0m
+[32m    [0m[1;32m][0m[32m,[0m
+[32m    [0m[32m"answer"[0m[32m: [0m[32m"LISINOPRIL increases the risk of angioedema."[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31m__PASS__:Critic[0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0mCritic[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [34mFUNC: [0m[1;34m{[0m
+[34m  [0m[34m"name"[0m[34m: [0m[34m"final_answer"[0m[34m,[0m
+[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
+[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
+[34m    [0m[34m"question"[0m[34m: [0m[34m"Does LISINOPRIL increase or decrease the risk of angioedema?"[0m[34m,[0m
+[34m    [0m[34m"steps"[0m[34m: [0m[1;34m[[0m
+[34m      [0m[34m"I asked FDAHandler if LISINOPRIL increases the risk of angioedema."[0m[34m,[0m
+[34m      [0m[34m"FDAHandler confirmed that LISINOPRIL has been associated with an increased risk of angioedema. Angioedema involving the face, extremities, lips, tongue, glottis, and/or larynx has been reported[0m
+[34mrarely in patients treated with angiotensin-converting enzyme inhibitors, including LISINOPRIL. The incidence is higher in Black patients compared to non-Black patients, and very rare cases have [0m
+[34mresulted in fatalities. Patients with a history of angioedema unrelated to ACE-inhibitor therapy may be at increased risk of angioedema while receiving an ACE inhibitor. Intestinal angioedema has also[0m
+[34mbeen reported rarely."[0m
+[34m    [0m[1;34m][0m[34m,[0m
+[34m    [0m[34m"answer"[0m[34m: [0m[34m"LISINOPRIL increases the risk of angioedema."[0m[34m,[0m
+[34m    [0m[34m"request"[0m[34m: [0m[34m"final_answer"[0m
+[34m  [0m[1;34m}[0m
+[1;34m}[0m
+*[1m([0mCritic[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
+[31m        Question: Does LISINOPRIL increase or decrease the risk of angioedema?[0m
+[31m        -----[0m
+[31m        Reasoning:[0m
+[31m        [0m[1;31m1[0m[31m. I asked FDAHandler if LISINOPRIL increases the risk of angioedema.[0m
+[1;31m2[0m[31m. FDAHandler confirmed that LISINOPRIL has been associated with an increased risk of angioedema. Angioedema involving the face, extremities, lips, tongue, glottis, and/or larynx has been reported [0m
+[31mrarely in patients treated with angiotensin-converting enzyme inhibitors, including LISINOPRIL. The incidence is higher in Black patients compared to non-Black patients, and very rare cases have [0m
+[31mresulted in fatalities. Patients with a history of angioedema unrelated to ACE-inhibitor therapy may be at increased risk of angioedema while receiving an ACE inhibitor. Intestinal angioedema has also[0m
+[31mbeen reported rarely.[0m
+[31m        -----[0m
+[31m        Final answer: LISINOPRIL increases the risk of angioedema.[0m
+[31m        [0m
+ [1m([0mCritic[1m)[0m [31m Entity.USER [0m
+ [1m([0mCritic[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"feedback"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"critique"[0m[32m: [0m[32m""[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m[31m __PASS__[0m
+*[1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [37m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>     AGENT[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [34mFUNC: [0m[1;34m{[0m
+[34m  [0m[34m"name"[0m[34m: [0m[34m"feedback"[0m[34m,[0m
+[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
+[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
+[34m    [0m[34m"critique"[0m[34m: [0m[34m""[0m[34m,[0m
+[34m    [0m[34m"request"[0m[34m: [0m[34m"feedback"[0m
+[34m  [0m[1;34m}[0m
+[1;34m}[0m
+*[1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31mYour reasoning is valid, no feedback was provided.[0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.USER [0m
+ [1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0morchestrator-angioedema-LISINOPRIL[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m
+
+[32mLISINOPRIL increases the risk of angioedema. This has been confirmed by FDAHandler, who referenced the LISINOPRIL label indicating that angioedema of the face, extremities, lips, tongue, glottis, [0m
+[32mand/or larynx has been reported rarely in patients treated with angiotensin-converting enzyme inhibitors, including LISINOPRIL. The incidence of angioedema is higher in Black patients compared to [0m
+[32mnon-Black patients, and in very rare cases, fatalities have been reported due to angioedema associated with laryngeal edema or tongue edema. Patients with a history of angioedema unrelated to [0m
+[32mACE-inhibitor therapy may be at increased risk of angioedema while receiving an ACE inhibitor. Intestinal angioedema has also been reported rarely in patients treated with ACE inhibitors.[0m

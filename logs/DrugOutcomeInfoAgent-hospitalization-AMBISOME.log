@@ -1,0 +1,233 @@
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes AMBISOME increase or decrease the risk of hospitalization?[0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.AGENT [0m
+*[1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
+[32m    [0m[32m"content"[0m[32m: [0m[32m"Does AMBISOME increase or decrease the risk of hospitalization?"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes AMBISOME increase or decrease the risk of hospitalization?[0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes AMBISOME increase or decrease the risk of hospitalization?[0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"query"[0m[32m: [0m[32m"Does AMBISOME increase or decrease the risk of hospitalization?"[0m[32m,[0m
+[32m    [0m[32m"drug"[0m[32m: [0m[32m"AMBISOME"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
+[31m        Below are some relevant extracts for your query:[0m
+[31m        -----[0m
+[31m        [0m
+[31mCONTENT: AMBISOME: clinical_studies: The following table presents a comparison of efficacy rates among immunocompetent and immunocompromised patients infected in the Mediterranean basin who had no [0m
+[31mprior treatment or remote prior treatment for visceral leishmaniasis. Efficacy is expressed as both acute parasite clearance at the end of therapy [0m[1;31m([0m[31mEOT[0m[1;31m)[0m[31m and as overall success [0m[1;31m([0m[31mclearance with no [0m
+[31mrelapse[0m[1;31m)[0m[31m during the follow-up period [0m[1;31m([0m[31mF/U[0m[1;31m)[0m[31m of greater than [0m[1;31m6[0m[31m months for immunocompetent and immunocompromised patients: AmBisome Efficacy in Visceral Leishmaniasis Immunocompetent Patients No. of [0m
+[31mPatients Parasite [0m[1;31m([0m[31m%[0m[1;31m)[0m[31m Clearance at EOT Overall Success [0m[1;31m([0m[31m%[0m[1;31m)[0m[31m at F/U [0m[1;31m87[0m[31m [0m[1;31m86[0m[31m/[0m[1;31m87[0m[31m [0m[1;31m([0m[1;31m98.9[0m[1;31m)[0m[31m [0m[1;31m83[0m[31m/[0m[1;31m86[0m[31m [0m[1;31m([0m[1;31m96.5[0m[1;31m)[0m[31m Immunocompromised Patients Regimen Total Dose Parasite [0m[1;31m([0m[31m%[0m[1;31m)[0m[31m Clearance at EOT Overall Success [0m[1;31m([0m[31m%[0m[1;31m)[0m[31m at F/U [0m
+[1;31m100[0m[31m mg/day X [0m[1;31m21[0m[31m days [0m[1;31m29[0m[31m-[0m[1;31m38[0m[31m. AMBISOME: clinical_studies: [0m[1;31m9[0m[31m mg/kg [0m[1;31m10[0m[31m/[0m[1;31m10[0m[31m [0m[1;31m([0m[1;31m100[0m[1;31m)[0m[31m [0m[1;31m2[0m[31m/[0m[1;31m10[0m[31m [0m[1;31m([0m[1;31m20[0m[1;31m)[0m[31m [0m[1;31m4[0m[31m mg/kg/day, days [0m[1;31m1[0m[31m-[0m[1;31m5[0m[31m, and [0m[1;31m10[0m[31m, [0m[1;31m17[0m[31m, [0m[1;31m24[0m[31m, [0m[1;31m31[0m[31m, [0m[1;31m38[0m[31m [0m[1;31m40[0m[31m mg/kg [0m[1;31m8[0m[31m/[0m[1;31m9[0m[31m [0m[1;31m([0m[1;31m88.9[0m[1;31m)[0m[31m [0m[1;31m0[0m[31m/[0m[1;31m7[0m[31m [0m[1;31m([0m[1;31m0[0m[1;31m)[0m[31m TOTAL [0m[1;31m18[0m[31m/[0m[1;31m19[0m[31m [0m[1;31m([0m[1;31m94.7[0m[1;31m)[0m[31m [0m[1;31m2[0m[31m/[0m[1;31m17[0m[31m [0m[1;31m([0m[1;31m11.8[0m[1;31m)[0m[31m When [0m
+[31mfollowed for [0m[1;31m6[0m[31m months or more after treatment, the overall success rate among immunocompetent patients was [0m[1;31m96.5[0m[31m% and the overall success rate among immunocompromised patients was [0m[1;31m11.8[0m[31m% due to relapse [0m
+[31min the majority of patients. While case reports have suggested there may be a role for long-term therapy to prevent relapses in HIV coinfected patients [0m[1;31m([0m[31mLopez-Dupla, et al. AMBISOME: clinical_studies:[0m
+[31mJ Antimicrob Chemother [0m[1;31m1993[0m[31m; [0m[1;31m32[0m[31m: [0m[1;31m657[0m[31m-[0m[1;31m659[0m[1;31m)[0m[31m, there are no data to date documenting the efficacy or safety of repeat courses of Am B isome or of maintenance therapy with this drug among immunocompromised[0m
+[31mpatients.         [0m
+[31mSOUR[0m[1;31mCE:A[0m[31mMBISOME label[0m
+
+
+[31mCONTENT: AMBISOME: clinical_studies: [0m[1;31m3[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m97.5[0m[31m% CI* = [0m[1;31m-9.4[0m[31m%, +[0m[1;31m31[0m[31m% [0m[1;31m36[0m[31m/[0m[1;31m75[0m[31m [0m[1;31m([0m[1;31m48[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m97.5[0m[31m% CI* = [0m[1;31m-18.8[0m[31m%, +[0m[1;31m19.8[0m[31m% [0m[1;31m29[0m[31m/[0m[1;31m61[0m[31m [0m[1;31m([0m[1;31m47.5[0m[31m%[0m[1;31m)[0m[31m * [0m[1;31m97.5[0m[31m% Confidence Interval for the difference between Am B isome and amphotericin[0m
+[31mB success rates. A negative value is in favor of amphotericin B. A positive value is in favor of Am B isome. Success at [0m[1;31m10[0m[31m weeks was defined as clinical success at week [0m[1;31m10[0m[31m plus CSF culture conversion [0m
+[31mat or prior to week [0m[1;31m10[0m[31m. Success rates at [0m[1;31m10[0m[31m weeks in patients with positive baseline culture for cryptococcus species are summarized in the following table and show that the efficacy of Am B isome [0m[1;31m6[0m[31m [0m
+[31mmg/kg/day approximates the efficacy of the amphotericin B deoxycholate regimen. AMBISOME: clinical_studies: These data do not support the conclusion that Am B isome [0m[1;31m3[0m[31m mg/kg/day is comparable in [0m
+[31mefficacy to amphotericin B deoxycholate. The table also presents [0m[1;31m10[0m[31m-week survival rates for patients treated in this study. Success Rates and Survival Rates at Week [0m[1;31m10[0m[31m, Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m013[0m[31m [0m[1;31m([0m[31msee text for [0m
+[31mdefinitions[0m[1;31m)[0m[31m AmBisome [0m[1;31m3[0m[31m mg/kg/day AmBisome [0m[1;31m6[0m[31m mg/kg/day Amphotericin B [0m[1;31m0.7[0m[31m mg/kg/day Success in patients with documented cryptococcal meningitis [0m[1;31m27[0m[31m/[0m[1;31m73[0m[31m [0m[1;31m([0m[1;31m37[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m97.5[0m[31m% CI* = [0m[1;31m-33.7[0m[31m%, +[0m[1;31m2.4[0m[31m% [0m[1;31m42[0m[31m/[0m[1;31m85[0m[31m [0m[1;31m([0m[1;31m49[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m97.5[0m[31m% [0m
+[31mCI* = [0m[1;31m-20.9[0m[31m%, +[0m[1;31m14.5[0m[31m% [0m[1;31m40[0m[31m/[0m[1;31m76[0m[31m [0m[1;31m([0m[1;31m53[0m[31m%[0m[1;31m)[0m[31m Survival rates [0m[1;31m74[0m[31m/[0m[1;31m86[0m[31m [0m[1;31m([0m[1;31m86[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m97.5[0m[31m% CI* = [0m[1;31m-13.8[0m[31m%, +[0m[1;31m8[0m[31m. AMBISOME: clinical_studies: [0m[1;31m9[0m[31m% [0m[1;31m85[0m[31m/[0m[1;31m94[0m[31m [0m[1;31m([0m[1;31m90[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m97.5[0m[31m% CI* = [0m[1;31m-8.3[0m[31m%, +[0m[1;31m12.2[0m[31m% [0m[1;31m77[0m[31m/[0m[1;31m87[0m[31m [0m[1;31m([0m[1;31m89[0m[31m%[0m[1;31m)[0m[31m * [0m[1;31m97.5[0m[31m% Confidence Interval for the[0m
+[31mdifference between Am B isome and amphotericin B rates. A negative value is in favor of amphotericin B. A positive value is in favor of Am B isome. The incidence of infusion-related, cardiovascular [0m
+[31mand renal adverse events was lower in patients receiving Am B isome compared to amphotericin B deoxycholate [0m[1;31m([0m[31msee ADVERSE REACTIONS section for details[0m[1;31m)[0m[31m; therefore, the risks and benefits [0m[1;31m([0m[31madvantages [0m
+[31mand disadvantages[0m[1;31m)[0m[31m of the different amphotericin B formulations should be taken into consideration when selecting a patient treatment regimen. AMBISOME: clinical_studies: Treatment of Patients with [0m
+[31mAspergillus Species, Candida Species and/or Cryptococcus Species Infections Refractory to Amphotericin B Deoxycholate, or in Patients Where Renal Impairment or Unacceptable Toxicity Precludes the Use [0m
+[31mof Amphotericin B Deoxycholate Am B isome was evaluated in a compassionate use study in hospitalized patients with systemic fungal infections. These patients either had fungal infections refractory to[0m
+[31mamphotericin B deoxycholate, were intolerant to the use of amphotericin B deoxycholate, or had pre-existing renal insufficiency. Patient recruitment involved [0m[1;31m140[0m[31m infectious episodes in [0m[1;31m133[0m[31m patients, [0m
+[31mwith [0m[1;31m53[0m[31m episodes evaluable for mycological response and [0m[1;31m91[0m[31m episodes evaluable for clinical outcome. Clinical success and mycological eradication occurred in some patients with documented [0m
+[31maspergillosis, candidiasis, and cryptococcosis. AMBISOME: clinical_studies: Treatment of Visceral Leishmaniasis Am B isome was studied in patients with visceral leishmaniasis who were infected in the [0m
+[31mMediterranean basin with documented or presumed Leishmania infantum . Clinical studies have not provided conclusive data regarding efficacy against L. donovani or L. chagasi . Am B isome achieved high[0m
+[31mrates of acute parasite clearance in immunocompetent patients when total doses of [0m[1;31m12[0m[31m-[0m[1;31m30[0m[31m mg/kg were administered. Most of these immunocompetent patients remained relapse-free during follow-up periods [0m
+[31mof [0m[1;31m6[0m[31m months or longer. While acute parasite clearance was achieved in most of the immunocompromised patients who received total doses of [0m[1;31m30[0m[31m-[0m[1;31m40[0m[31m mg/kg, the majority of these patients were observed to [0m
+[31mrelapse in the [0m[1;31m6[0m[31m months following the completion of therapy. Of the [0m[1;31m21[0m[31m immunocompromised patients studied, [0m[1;31m17[0m[31m were coinfected with HIV; approximately half of the HIV-infected patients had AIDS.       [0m
+[31mSOUR[0m[1;31mCE:A[0m[31mMBISOME label[0m
+
+
+[31mCONTENT: AMBISOME: openfda: spl_id         [0m
+[31mSOUR[0m[1;31mCE:A[0m[31mMBISOME label[0m
+
+
+[31mCONTENT: AMBISOME: adverse_reactions: [0m[1;31m1[0m[31m Cardiovascular System Chest pain Hypertension Hypotension Tachycardia [0m[1;31m8.2[0m[31m [0m[1;31m10.6[0m[31m [0m[1;31m10.6[0m[31m [0m[1;31m9.4[0m[31m [0m[1;31m11.1[0m[31m [0m[1;31m19.8[0m[31m [0m[1;31m7.4[0m[31m [0m[1;31m18.5[0m[31m [0m[1;31m6.4[0m[31m [0m[1;31m23.1[0m[31m [0m[1;31m19.2[0m[31m [0m[1;31m23.1[0m[31m Digestive System Diarrhea Nausea [0m
+[31mVomiting [0m[1;31m15.3[0m[31m [0m[1;31m25.9[0m[31m [0m[1;31m22.4[0m[31m [0m[1;31m17.3[0m[31m [0m[1;31m29.6[0m[31m [0m[1;31m25.9[0m[31m [0m[1;31m14.1[0m[31m [0m[1;31m37.2[0m[31m [0m[1;31m30.8[0m[31m Metabolic and Nutritional Disorders Alkaline phosphatase increased Bilirubinemia BUN increased Creatinine increased Edema Hyperglycemia [0m
+[31mHypervolemia Hypocalcemia Hypokalemia Hypomagnesemia Liver function tests abnormal [0m[1;31m7.1[0m[31m [0m[1;31m16.5[0m[31m [0m[1;31m20[0m[31m [0m[1;31m20[0m[31m [0m[1;31m12.9[0m[31m [0m[1;31m8.2[0m[31m [0m[1;31m8.2[0m[31m [0m[1;31m10.6[0m[31m [0m[1;31m37.6[0m[31m [0m[1;31m15[0m[31m. AMBISOME: adverse_reactions: [0m[1;31m3[0m[31m [0m[1;31m10.6[0m[31m [0m[1;31m8.6[0m[31m [0m[1;31m11.1[0m[31m [0m[1;31m18.5[0m[31m [0m[1;31m18.5[0m[31m [0m[1;31m12.3[0m[31m [0m[1;31m8.6[0m[31m [0m[1;31m11.1[0m[31m [0m[1;31m4.9[0m[31m [0m
+[1;31m43.2[0m[31m [0m[1;31m25.9[0m[31m [0m[1;31m7.4[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m11.5[0m[31m [0m[1;31m28.2[0m[31m [0m[1;31m48.7[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m14.1[0m[31m [0m[1;31m14.1[0m[31m [0m[1;31m5.1[0m[31m [0m[1;31m39.7[0m[31m [0m[1;31m15.4[0m[31m [0m[1;31m11.5[0m[31m Nervous System Anxiety Confusion Headache [0m[1;31m10.6[0m[31m [0m[1;31m12.9[0m[31m [0m[1;31m9.4[0m[31m [0m[1;31m7.4[0m[31m [0m[1;31m8.6[0m[31m [0m[1;31m17.3[0m[31m [0m[1;31m9[0m[31m [0m[1;31m3.8[0m[31m [0m[1;31m10.3[0m[31m Respiratory System Dyspnea Epistaxis Hypoxia Lung [0m
+[31mdisorder [0m[1;31m17.6[0m[31m [0m[1;31m10.6[0m[31m [0m[1;31m7.1[0m[31m [0m[1;31m14.1[0m[31m [0m[1;31m22.2[0m[31m [0m[1;31m8.6[0m[31m [0m[1;31m6.2[0m[31m [0m[1;31m13.6[0m[31m [0m[1;31m23.1[0m[31m [0m[1;31m14.1[0m[31m [0m[1;31m20.5[0m[31m [0m[1;31m15[0m[31m. AMBISOME: adverse_reactions: [0m[1;31m4[0m[31m Skin and Appendages Rash [0m[1;31m23.5[0m[31m [0m[1;31m22.2[0m[31m [0m[1;31m14.1[0m[31m The following adverse events are based on the experience of [0m[1;31m267[0m[31m [0m
+[31mpatients [0m[1;31m([0m[1;31m266[0m[31m adult patients and [0m[1;31m1[0m[31m pediatric patient[0m[1;31m)[0m[31m of whom [0m[1;31m86[0m[31m patients were treated with Am B isome [0m[1;31m3[0m[31m mg/kg, [0m[1;31m94[0m[31m patients were treated with Am B isome [0m[1;31m6[0m[31m mg/kg and [0m[1;31m87[0m[31m patients were treated with [0m
+[31mamphotericin B deoxycholate [0m[1;31m0.7[0m[31m mg/kg in Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m013[0m[31m a randomized, double-blind, comparative multi-center trial, in the treatment of cryptococcal meningitis in HIV-positive patients. AMBISOME: [0m
+[31madverse_reactions: The incidence of adverse events occurring in more than [0m[1;31m10[0m[31m% of subjects in one or more arms regardless of relationship to study drug are summarized in the following table: [0m
+[31mCryptococcal Meningitis Therapy Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m013[0m[31m Common Adverse Events Adverse Event by Body System AmBisome [0m[1;31m3[0m[31m mg/kg/day N = [0m[1;31m86[0m[31m % AmBisome [0m[1;31m6[0m[31m mg/kg/day N = [0m[1;31m94[0m[31m % Amphotericin B [0m[1;31m0.7[0m[31m mg/kg/day N = [0m[1;31m87[0m[31m % Body[0m
+[31mas a Whole Abdominal pain Infection Procedural Complication [0m[1;31m7[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m8.1[0m[31m [0m[1;31m7.4[0m[31m [0m[1;31m11.7[0m[31m [0m[1;31m9.6[0m[31m [0m[1;31m10.3[0m[31m [0m[1;31m6.9[0m[31m [0m[1;31m10.3[0m[31m Cardiovascular System Phlebitis [0m[1;31m9.3[0m[31m [0m[1;31m10.6[0m[31m [0m[1;31m25.3[0m[31m Digestive System Anorexia Constipation Diarrhea Nausea [0m
+[31mVomiting [0m[1;31m14[0m[31m [0m[1;31m15.1[0m[31m [0m[1;31m10.5[0m[31m [0m[1;31m16[0m[31m. AMBISOME: adverse_reactions: [0m[1;31m3[0m[31m [0m[1;31m10.5[0m[31m [0m[1;31m9.6[0m[31m [0m[1;31m14.9[0m[31m [0m[1;31m16[0m[31m [0m[1;31m21.3[0m[31m [0m[1;31m21.3[0m[31m [0m[1;31m11.5[0m[31m [0m[1;31m20.7[0m[31m [0m[1;31m10.3[0m[31m [0m[1;31m25.3[0m[31m [0m[1;31m20.7[0m[31m Hemic and Lymphatic System Anemia Leukopenia Thrombocytopenia [0m[1;31m26.7[0m[31m [0m[1;31m15.1[0m[31m [0m[1;31m5.8[0m[31m [0m[1;31m47.9[0m[31m [0m[1;31m17[0m[31m [0m[1;31m12.8[0m[31m [0m
+[1;31m43.7[0m[31m [0m[1;31m17.2[0m[31m [0m[1;31m6.9[0m[31m Metabolic and Nutritional Disorders Bilirubinemia BUN increased Creatinine increased Hyperglycemia Hypocalcemia Hypokalemia Hypomagnesemia Hyponatremia Liver Function Tests Abnormal [0m[1;31m0[0m[31m [0m
+[1;31m9.3[0m[31m [0m[1;31m18.6[0m[31m [0m[1;31m9.3[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m31.4[0m[31m [0m[1;31m29.1[0m[31m [0m[1;31m11.6[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m8.5[0m[31m [0m[1;31m7.4[0m[31m [0m[1;31m39.4[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m17[0m[31m [0m[1;31m51.1[0m[31m [0m[1;31m48[0m[31m. AMBISOME: adverse_reactions: [0m[1;31m9[0m[31m [0m[1;31m8.5[0m[31m [0m[1;31m4.3[0m[31m [0m[1;31m12.6[0m[31m [0m[1;31m10.3[0m[31m [0m[1;31m43.7[0m[31m [0m[1;31m17.2[0m[31m [0m[1;31m13.8[0m[31m [0m[1;31m48.3[0m[31m [0m[1;31m40.2[0m[31m [0m[1;31m9.2[0m[31m [0m[1;31m9.2[0m[31m Nervous System Dizziness Insomnia [0m[1;31m7[0m[31m [0m[1;31m22.1[0m[31m [0m[1;31m8.5[0m[31m [0m[1;31m17[0m[31m [0m
+[1;31m10.3[0m[31m [0m[1;31m20.7[0m[31m Respiratory System Cough Increased [0m[1;31m8.1[0m[31m [0m[1;31m2.1[0m[31m [0m[1;31m10.3[0m[31m Skin and Appendages Rash [0m[1;31m4.7[0m[31m [0m[1;31m11.7[0m[31m [0m[1;31m4.6[0m[31m Infusion-Related Reactions In Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m002[0m[31m, the large, double-blind study of pediatric and adult [0m
+[31mfebrile neutropenic patients, no premedication to prevent infusion-related reaction was administered prior to the first dose of study drug [0m[1;31m([0m[31mDay [0m[1;31m1[0m[1;31m)[0m[31m. AMBISOME: adverse_reactions: Am B isome-treated [0m
+[31mpatients had a lower incidence of infusion-related fever [0m[1;31m([0m[1;31m17[0m[31m% versus [0m[1;31m44[0m[31m%[0m[1;31m)[0m[31m, chills/rigors [0m[1;31m([0m[1;31m18[0m[31m% versus [0m[1;31m54[0m[31m%[0m[1;31m)[0m[31m and vomiting [0m[1;31m([0m[1;31m6[0m[31m% versus [0m[1;31m8[0m[31m%[0m[1;31m)[0m[31m on Day [0m[1;31m1[0m[31m as compared to amphotericin B deoxycholate-treated [0m
+[31mpatients. The incidence of infusion-related reactions on Day [0m[1;31m1[0m[31m in pediatric and adult patients is summarized in the following table: Incidence of Day [0m[1;31m1[0m[31m Infusion-Related Reactions [0m[1;31m([0m[31mIRR[0m[1;31m)[0m[31m By Patient Age [0m
+[31mPediatric Patients [0m[1;31m([0m[31m≤ [0m[1;31m16[0m[31m years of age[0m[1;31m)[0m[31m Adult Patients [0m[1;31m([0m[31m> [0m[1;31m16[0m[31m years of age[0m[1;31m)[0m[31m AmBisome [0m[1;31m3[0m[31m mg/kg/day Amphotericin B [0m[1;31m0.6[0m[31m mg/kg/day AmBisome [0m[1;31m3[0m[31m mg/kg/day Amphotericin B [0m[1;31m0.6[0m[31m mg/kg/day Total number of patients [0m
+[31mreceiving at least one dose of study drug [0m[1;31m48[0m[31m [0m[1;31m47[0m[31m [0m[1;31m295[0m[31m [0m[1;31m297[0m[31m Patients with fever* increase ≥ [0m[1;31m1[0m[31m. AMBISOME: adverse_reactions: [0m[1;31m0[0m[31m o C [0m[1;31m6[0m[31m [0m[1;31m([0m[1;31m13[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m22[0m[31m [0m[1;31m([0m[1;31m47[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m52[0m[31m [0m[1;31m([0m[1;31m18[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m128[0m[31m [0m[1;31m([0m[1;31m43[0m[31m%[0m[1;31m)[0m[31m Patients with chills/rigors [0m[1;31m4[0m[31m [0m[1;31m([0m[1;31m8[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m22[0m[31m [0m
+[1;31m([0m[1;31m47[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m59[0m[31m [0m[1;31m([0m[1;31m20[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m165[0m[31m [0m[1;31m([0m[1;31m56[0m[31m%[0m[1;31m)[0m[31m Patients with nausea [0m[1;31m4[0m[31m [0m[1;31m([0m[1;31m8[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m4[0m[31m [0m[1;31m([0m[1;31m9[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m38[0m[31m [0m[1;31m([0m[1;31m13[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m31[0m[31m [0m[1;31m([0m[1;31m10[0m[31m%[0m[1;31m)[0m[31m Patients with vomiting [0m[1;31m2[0m[31m [0m[1;31m([0m[1;31m4[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m7[0m[31m [0m[1;31m([0m[1;31m15[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m19[0m[31m [0m[1;31m([0m[1;31m6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m21[0m[31m [0m[1;31m([0m[1;31m7[0m[31m%[0m[1;31m)[0m[31m Patients with other reactions [0m[1;31m10[0m[31m [0m[1;31m([0m[1;31m21[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m13[0m[31m [0m[1;31m([0m[1;31m28[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m47[0m[31m [0m[1;31m([0m[1;31m16[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m69[0m[31m [0m[1;31m([0m[1;31m23[0m[31m%[0m[1;31m)[0m[31m * [0m
+[31mDay [0m[1;31m1[0m[31m body temperature increased above the temperature taken within [0m[1;31m1[0m[31m hour prior to infusion [0m[1;31m([0m[31mpreinfusion temperature[0m[1;31m)[0m[31m or above the lowest infusion value [0m[1;31m([0m[31mno preinfusion temperature recorded[0m[1;31m)[0m[31m. [0m
+[31mAMBISOME: adverse_reactions: Cardiorespiratory events, except for vasodilatation [0m[1;31m([0m[31mflushing[0m[1;31m)[0m[31m, during all study drug infusions were more frequent in amphotericin B-treated patients as summarized in the [0m
+[31mfollowing table: Incidence of Infusion-Related Cardiorespiratory Events Event AmBisome [0m[1;31m3[0m[31m mg/kg/day N = [0m[1;31m343[0m[31m Amphotericin B [0m[1;31m0.6[0m[31m mg/kg/day N = [0m[1;31m344[0m[31m Hypotension [0m[1;31m12[0m[31m [0m[1;31m([0m[1;31m3.5[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m28[0m[31m [0m[1;31m([0m[1;31m8.1[0m[31m%[0m[1;31m)[0m[31m Tachycardia [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m2.3[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m43[0m[31m [0m
+[1;31m([0m[1;31m12.5[0m[31m%[0m[1;31m)[0m[31m Hypertension [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m2.3[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m39[0m[31m [0m[1;31m([0m[1;31m11.3[0m[31m%[0m[1;31m)[0m[31m Vasodilatation [0m[1;31m18[0m[31m [0m[1;31m([0m[1;31m5.2[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m2[0m[31m [0m[1;31m([0m[1;31m0.6[0m[31m%[0m[1;31m)[0m[31m Dyspnea [0m[1;31m16[0m[31m [0m[1;31m([0m[1;31m4.7[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m25[0m[31m [0m[1;31m([0m[1;31m7.3[0m[31m%[0m[1;31m)[0m[31m Hyperventilation [0m[1;31m4[0m[31m [0m[1;31m([0m[1;31m1.2[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m17[0m[31m [0m[1;31m([0m[1;31m4.9[0m[31m%[0m[1;31m)[0m[31m Hypoxia [0m[1;31m1[0m[31m [0m[1;31m([0m[1;31m0[0m[31m.         [0m
+[31mSOUR[0m[1;31mCE:A[0m[31mMBISOME label[0m
+
+
+[31mCONTENT: AMBISOME: adverse_reactions: [0m[1;31m7[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m45[0m[31m [0m[1;31m([0m[1;31m57.7[0m[31m%[0m[1;31m)[0m[31m Nausea [0m[1;31m9[0m[31m [0m[1;31m([0m[1;31m10.6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m7[0m[31m [0m[1;31m([0m[1;31m8.6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m16[0m[31m [0m[1;31m([0m[1;31m9.6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m9[0m[31m [0m[1;31m([0m[1;31m11.5[0m[31m%[0m[1;31m)[0m[31m Vomiting [0m[1;31m5[0m[31m [0m[1;31m([0m[1;31m5.9[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m5[0m[31m [0m[1;31m([0m[1;31m6.2[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m10[0m[31m [0m[1;31m([0m[1;31m6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m11[0m[31m [0m[1;31m([0m[1;31m14.1[0m[31m%[0m[1;31m)[0m[31m Hypertension [0m[1;31m4[0m[31m [0m[1;31m([0m[1;31m4.7[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m7[0m[31m [0m[1;31m([0m[1;31m8.6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m11[0m[31m [0m[1;31m([0m[1;31m6.6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m12[0m[31m [0m[1;31m([0m[1;31m15.4[0m[31m%[0m[1;31m)[0m[31m [0m
+[31mTachycardia [0m[1;31m2[0m[31m [0m[1;31m([0m[1;31m2.4[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m9.9[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m10[0m[31m [0m[1;31m([0m[1;31m6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m14[0m[31m [0m[1;31m([0m[1;31m17.9[0m[31m%[0m[1;31m)[0m[31m Dyspnea [0m[1;31m4[0m[31m [0m[1;31m([0m[1;31m4.7[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m9.9[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m12[0m[31m [0m[1;31m([0m[1;31m7.2[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m10.3[0m[31m%[0m[1;31m)[0m[31m Hypoxia [0m[1;31m0[0m[31m [0m[1;31m1[0m[31m [0m[1;31m([0m[1;31m1.2[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m1[0m[31m [0m[1;31m([0m[1;31m<[0m[31m [0m[1;31m1[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m9[0m[31m [0m[1;31m([0m[1;31m11[0m[31m. AMBISOME: adverse_reactions: [0m[1;31m5[0m[31m%[0m[1;31m)[0m[31m Day [0m[1;31m1[0m[31m body temperature increased [0m
+[31mabove the temperature taken within [0m[1;31m1[0m[31m hour prior to infusion [0m[1;31m([0m[31mpreinfusion temperature[0m[1;31m)[0m[31m or above the lowest infusion value [0m[1;31m([0m[31mno preinfusion temperature recorded[0m[1;31m)[0m[31m. Patients were not administered [0m
+[31mpremedications to prevent infusion-related reactions prior to the Day [0m[1;31m1[0m[31m study drug infusion. In Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m013[0m[31m, a randomized, double-blind, multicenter trial comparing Am B isome and amphotericin B [0m
+[31mdeoxycholate as initial therapy for cryptococcal meningitis, premedications to prevent infusion-related reactions were permitted. Am B isome-treated patients had a lower incidence of fever, [0m
+[31mchills/rigors and respiratory adverse events as summarized in the following table: Incidence of Infusion-Related Reactions Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m013[0m[31m AmBisome [0m[1;31m3[0m[31m mg/kg/day AmBisome [0m[1;31m6[0m[31m mg/kg/day Amphotericin B [0m[1;31m0[0m[31m. [0m
+[31mAMBISOME: adverse_reactions: [0m[1;31m7[0m[31m mg/kg/day Total number of patients receiving at least one dose of study drug [0m[1;31m86[0m[31m [0m[1;31m94[0m[31m [0m[1;31m87[0m[31m Patients with fever increase of [0m[1;31m>[0m[1;31m1[0m[31m°C [0m[1;31m6[0m[31m [0m[1;31m([0m[1;31m7[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m9[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m24[0m[31m [0m[1;31m([0m[1;31m28[0m[31m%[0m[1;31m)[0m[31m Patients with [0m
+[31mchills/rigors [0m[1;31m5[0m[31m [0m[1;31m([0m[1;31m6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m9[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m42[0m[31m [0m[1;31m([0m[1;31m48[0m[31m%[0m[1;31m)[0m[31m Patients with nausea [0m[1;31m11[0m[31m [0m[1;31m([0m[1;31m13[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m13[0m[31m [0m[1;31m([0m[1;31m14[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m18[0m[31m [0m[1;31m([0m[1;31m20[0m[31m%[0m[1;31m)[0m[31m Patients with vomiting [0m[1;31m14[0m[31m [0m[1;31m([0m[1;31m16[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m13[0m[31m [0m[1;31m([0m[1;31m14[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m16[0m[31m [0m[1;31m([0m[1;31m18[0m[31m%[0m[1;31m)[0m[31m Respiratory adverse events [0m[1;31m0[0m[31m [0m[1;31m1[0m[31m [0m[1;31m([0m[1;31m1[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m9[0m[31m%[0m[1;31m)[0m[31m There have been a few [0m
+[31mreports of flushing, back pain with or without chest tightness, and chest pain associated with Am B isome administration; on occasion this has been severe. Where these symptoms were noted, the [0m
+[31mreaction developed within a few minutes after the start of infusion and disappeared rapidly when the infusion was stopped. AMBISOME: adverse_reactions: The symptoms do not occur with every dose and [0m
+[31musually do not recur on subsequent administrations when the infusion rate is slowed. Toxicity and Discontinuation of Dosing In Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m002[0m[31m, a significantly lower incidence of grade [0m[1;31m3[0m[31m or [0m[1;31m4[0m[31m toxicity [0m
+[31mwas observed in the Am B isome group compared with the amphotericin B group. In addition, nearly three times as many patients administered amphotericin B required a reduction in dose due to toxicity [0m
+[31mor discontinuation of study drug due to an infusion-related reaction compared with those administered Am B isome. In empirical therapy study [0m[1;31m97[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m034[0m[31m, a greater proportion of patients in the [0m
+[31mamphotericin B lipid complex group discontinued the study drug due to an adverse event than in the Am B isome groups. AMBISOME: adverse_reactions: Less Common Adverse Events The following adverse [0m
+[31mevents also have been reported in [0m[1;31m2[0m[31m% to [0m[1;31m10[0m[31m% of Am B isome-treated patients receiving chemotherapy or bone marrow transplantation, or who had HIV disease in six comparative, clinical trials: Body as a [0m
+[31mWhole Abdomen enlarged, allergic reaction, cellulitis, cell-mediated immunological reaction, face edema, graft-versus-host disease, malaise, neck pain, and procedural complication. Cardiovascular [0m
+[31mSystem Arrhythmia, atrial fibrillation, bradycardia, cardiac arrest, cardiomegaly, hemorrhage, postural hypotension, valvular heart disease, vascular disorder, and vasodilatation [0m[1;31m([0m[31mflushing[0m[1;31m)[0m[31m.         [0m
+[31mSOUR[0m[1;31mCE:A[0m[31mMBISOME label[0m
+
+[31m        -----[0m
+[31m        If NONE of the extracts are relevant, try doing a web search with the[0m
+[31m        `relevant_search_extracts` tool/function-call[0m
+[31m        [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32m DO-NOT-KNOW[0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"query"[0m[32m: [0m[32m"Does AMBISOME increase or decrease the risk of hospitalization?"[0m[32m,[0m
+[32m    [0m[32m"drug"[0m[32m: [0m[32m"AMBISOME"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31mNo relevant extracts found for Does AMBISOME increase or decrease the risk of [0m
+[31mhospitalization?[0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+*[1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.AGENT [0m
+*[1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mI have sent a request to FDAHandler to inquire about the effect of [0m
+[32mAMBISOME on the risk of hospitalization. However, I received a DO-NOT-KNOW response, indicating that the FDA label data does not specify whether AMBISOME increases or decreases the risk of [0m
+[32mhospitalization.[0m
+
+[32mSince the FDA label data is the source of information for this inquiry and it does not provide the necessary details, I cannot provide a definitive answer to the question of whether AMBISOME increases[0m
+[32mor decreases the risk of hospitalization. Therefore, my final answer is also DO-NOT-KNOW.[0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.USER [0m
+*[1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0m          [1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
+[31m        Do one of the following:[0m
+
+[31m        [0m[1;31m1[0m[31m. If you intend to ask a question to FDAAgent:[0m
+[31m            Please use the [0m[31m'add_recipient'[0m[31m tool/function-call[0m
+[31m            and specify FDAAgent as your `intended_recipient`.[0m
+[31m            DO NOT REPEAT your original message; ONLY specify the [0m
+[31m            `intended_recipient` via this tool/function-call.[0m
+[31m        [0m[1;31m2[0m[31m. If you are ready to have the critic check your answer,[0m
+[31m            do so with the `final_answer` tool/function, as I have requested.[0m
+[31m        [0m[1;31m3[0m[31m. If the critic is satisfied and you intend to submit your final answer,[0m
+[31m            answer as I have requested, making sure to mark that you are done as usual.[0m
+
+[31m        When you have decided and stated your answer [0m[1;31m([0m[31mor lack of one[0m[1;31m)[0m[31m, you must[0m
+[31m        ALWAYS specify that you are done using the usual code.[0m
+
+[31m        DO NOT simply acknowldedge these instructions. If you have nothing[0m
+[31m        else to say, you MUST EXIT IMMEDIATELY by stating that you are done[0m
+[31m        with the usual code [0m[1;31m([0m[31mas in #[0m[1;31m3[0m[1;31m)[0m[31m.[0m
+[31m        [0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"final_answer"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"question"[0m[32m: [0m[32m"Does AMBISOME increase or decrease the risk of hospitalization?"[0m[32m,[0m
+[32m    [0m[32m"steps"[0m[32m: [0m[1;32m[[0m
+[32m      [0m[32m"I requested information from FDAHandler regarding the effect of AMBISOME on the risk of hospitalization."[0m[32m,[0m
+[32m      [0m[32m"FDAHandler responded with a DO-NOT-KNOW, indicating that the FDA label data does not specify information about the risk of hospitalization associated with AMBISOME."[0m
+[32m    [0m[1;32m][0m[32m,[0m
+[32m    [0m[32m"answer"[0m[32m: [0m[32m"DO-NOT-KNOW"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31m__PASS__:Critic[0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0mCritic[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [34mFUNC: [0m[1;34m{[0m
+[34m  [0m[34m"name"[0m[34m: [0m[34m"final_answer"[0m[34m,[0m
+[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
+[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
+[34m    [0m[34m"question"[0m[34m: [0m[34m"Does AMBISOME increase or decrease the risk of hospitalization?"[0m[34m,[0m
+[34m    [0m[34m"steps"[0m[34m: [0m[1;34m[[0m
+[34m      [0m[34m"I requested information from FDAHandler regarding the effect of AMBISOME on the risk of hospitalization."[0m[34m,[0m
+[34m      [0m[34m"FDAHandler responded with a DO-NOT-KNOW, indicating that the FDA label data does not specify information about the risk of hospitalization associated with AMBISOME."[0m
+[34m    [0m[1;34m][0m[34m,[0m
+[34m    [0m[34m"answer"[0m[34m: [0m[34m"DO-NOT-KNOW"[0m[34m,[0m
+[34m    [0m[34m"request"[0m[34m: [0m[34m"final_answer"[0m
+[34m  [0m[1;34m}[0m
+[1;34m}[0m
+*[1m([0mCritic[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
+[31m        Question: Does AMBISOME increase or decrease the risk of hospitalization?[0m
+[31m        -----[0m
+[31m        Reasoning:[0m
+[31m        [0m[1;31m1[0m[31m. I requested information from FDAHandler regarding the effect of AMBISOME on the risk of hospitalization.[0m
+[1;31m2[0m[31m. FDAHandler responded with a DO-NOT-KNOW, indicating that the FDA label data does not specify information about the risk of hospitalization associated with AMBISOME.[0m
+[31m        -----[0m
+[31m        Final answer: DO-NOT-KNOW[0m
+[31m        [0m
+ [1m([0mCritic[1m)[0m [31m Entity.USER [0m
+ [1m([0mCritic[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"feedback"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"critique"[0m[32m: [0m[32m""[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m[31m __PASS__[0m
+*[1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [37m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>     AGENT[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [34mFUNC: [0m[1;34m{[0m
+[34m  [0m[34m"name"[0m[34m: [0m[34m"feedback"[0m[34m,[0m
+[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
+[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
+[34m    [0m[34m"critique"[0m[34m: [0m[34m""[0m[34m,[0m
+[34m    [0m[34m"request"[0m[34m: [0m[34m"feedback"[0m
+[34m  [0m[1;34m}[0m
+[1;34m}[0m
+*[1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31mYour reasoning is valid, no feedback was provided.[0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.USER [0m
+ [1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0morchestrator-hospitalization-AMBISOME[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
+
+[32mThe FDA label data does not specify whether AMBISOME increases or decreases the risk of hospitalization, and therefore I cannot provide a definitive answer to this question.[0m

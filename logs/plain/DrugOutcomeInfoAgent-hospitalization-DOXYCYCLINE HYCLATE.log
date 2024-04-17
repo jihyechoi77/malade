@@ -1,0 +1,265 @@
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does DOXYCYCLINE HYCLATE increase or decrease the risk of 
+hospitalization?
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.AGENT 
+*(orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?"
+  }
+}
+*(orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does DOXYCYCLINE HYCLATE increase or decrease the risk of 
+hospitalization?
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?",
+    "drug": "DOXYCYCLINE HYCLATE"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: DOXYCYCLINE HYCLATE: overdosage: OVERDOSAGE In case of overdosage, discontinue medication, treat symptomatically and institute supportive measures. Dialysis does not alter serum half-life and
+thus would not be of benefit in treating cases of overdosage.         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: spl_unclassified_section: To reduce the development of drug-resistant bacteria and maintain the effectiveness of doxycycline hyclate tablets, USP and other antibacterial 
+drugs, doxycycline hyclate tablets, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: information_for_patients: Information For Patients Patients taking doxycycline for malaria prophylaxis should be advised: — that no present-day antimalarial agent, 
+including doxycycline, guarantees protection against malaria. — to avoid being bitten by mosquitoes by using personal protective measures that help avoid contact with mosquitoes, especially from dusk 
+to dawn (e.g., staying in well-screened areas, using mosquito nets, covering the body with clothing, and using an effective insect repellent). — that doxycycline prophylaxis: — should begin 1–2 days 
+before travel to the malarious area, — should be continued daily while in the malarious area and after leaving the malarious area, — should be continued for 4 further weeks to avoid development of 
+malaria after returning from an endemic area, — should not exceed 4 months. DOXYCYCLINE HYCLATE: information_for_patients: All patients taking doxycycline should be advised: — to avoid excessive 
+sunlight or artificial ultraviolet light while receiving doxycycline and to discontinue therapy if phototoxicity (e.g., skin eruption, etc.) occurs. Sunscreen or sunblock should be considered. (See 
+WARNINGS .) — to drink fluids liberally along with doxycycline to reduce the risk of esophageal irritation and ulceration. (See ADVERSE REACTIONS .) — that the absorption of tetracyclines is reduced 
+when taken with foods, especially those which contain calcium. However, the absorption of doxycycline is not markedly influenced by simultaneous ingestion of food or milk. (See DRUG INTERACTIONS .) — 
+that the absorption of tetracyclines is reduced when taking bismuth subsalicylate. (See DRUG INTERACTIONS . DOXYCYCLINE HYCLATE: information_for_patients: ) — that the use of doxycycline might 
+increase the incidence of vaginal candidiasis. Patients should be counseled that antibacterial drugs, including doxycycline should only be used to treat bacterial infections. They do not treat viral 
+infections (e.g., the common cold). When doxycycline is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the
+medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the 
+likelihood that bacteria will develop resistance and will not be treatable by doxycycline or other antibacterial drugs in the future. Diarrhea is a common problem caused by antibacterial drugs, which 
+usually ends when the antibacterials are discontinued. DOXYCYCLINE HYCLATE: information_for_patients: Sometimes after starting treatment with antibacterial drugs, patients can develop watery and 
+bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibacterial drug. If this occurs, patients should contact their 
+physician as soon as possible.         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: openfda: spl_id         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: openfda: product_ndc         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: openfda: spl_set_id         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: labor_and_delivery: Labor and Delivery The effect of tetracyclines on labor and delivery is unknown.         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: clinical_pharmacology: Studies have shown no significant difference in serum half-life of doxycycline (range 18-22 hours) in individuals with normal and severely impaired
+renal function. Hemodialysis does not alter serum half-life. Results of animal studies indicate that tetracyclines cross the placenta and are found in fetal tissues. Population pharmacokinetic 
+analysis of sparse concentration-time data of doxycycline following standard of care intravenous and oral dosing in 44 pediatric patients (2-18 years of age) showed that allometrically -scaled 
+clearance (CL) of doxycycline in pediatric patients ≥2 to ≤8 years of age (median  3.58 [2.27-10.82] L/h/70 kg, N =11) did not differ significantly from pediatric patients >8 to 18 years of age (3 .27
+[1.11-8.12] L/h/70 kg, N=33). DOXYCYCLINE HYCLATE: clinical_pharmacology: For pediatric patients weighing ≤45 kg, body weight normalized doxycycline CL in those ≥2 to ≤8 years of age (median  0.071 [0
+.041-0.202] L/kg/h, N=10) did not differ significantly from those >8 to 18 years of age (0.081 [0.035-0.126] L/kg/h, N=8). In pediatric patients weighing >45 kg, no clinically significant differences 
+in body weight normalized doxycycline CL were observed between those ≥2 to ≤8 years (0.050 L/kg/h, N=l) and those >8 to 18 years of age (0.044 [0.014-0.121] L/kg/h, N=25). DOXYCYCLINE HYCLATE: 
+clinical_pharmacology: No clinically significant difference in CL between oral and IV dosing was observed in the small cohort of pediatric patients who received the oral (N=19) or IV (N=21) 
+formulation alone. Microbiology Mechanism of Action Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad 
+range of Gram-positive and Gram-negative bacteria. Resistance Cross resistance with other tetracyclines is common. Antimicrobial Activity Doxycycline has been shown to be active against most isolates 
+of the following microorganisms, both in vitro and in clinical infections as described in the INDICATIONS AND USAGE section of the package insert for doxycycline hyclate tablets, USP. DOXYCYCLINE 
+HYCLATE: clinical_pharmacology: Gram-Negative Bacteria Acinetobacter species Bartonella bacilliformis Brucella species Klebsiella species Klebsiella granulomatis Campylobacter fetus Enterobacter 
+aerogenes Escherichia coli Francisella tularensis Haemophilus ducreyi Haemophilus influenzae Neisseria gonorrhoeae Shigella species Vibrio cholerae Yersinia pestis Gram-Positive Bacteria Bacillus 
+anthracis Listeria monocytogenes Streptococcus pneumoniae Anaerobic Bacteria Clostridium species Fusobacterium fusiforme Propionibacterium acnes Other Bacteria Nocardiae and other aerobic Actinomyces 
+species Borrelia recurrentis Chlamydophila psittaci Chlamydia trachomatis Mycoplasma pneumoniae Rickettsiae Treponema pallidum Treponema pallidum subspecies pertenue Ure DOXYCYCLINE HYCLATE: 
+clinical_pharmacology: aplasma urealyticum Parasites Balantidium coli Entamoeba species Plasmodium falciparum* *Doxycycline has been found to be active against the asexual erythrocytic forms of 
+Plasmodium falciparum , but not against the gametocytes of P. falciparum . The precise mechanism of action of the drug is not known. Susceptibility Testing For specific information regarding 
+susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC .         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "risk of hospitalization with DOXYCYCLINE HYCLATE",
+    "drug": "DOXYCYCLINE HYCLATE"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for risk of hospitalization with DOXYCYCLINE HYCLATE
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.AGENT 
+*(orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?"
+  }
+}
+*(orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does DOXYCYCLINE HYCLATE increase or decrease the risk of 
+hospitalization?
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?",
+    "drug": "DOXYCYCLINE HYCLATE"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: DOXYCYCLINE HYCLATE: overdosage: OVERDOSAGE In case of overdosage, discontinue medication, treat symptomatically and institute supportive measures. Dialysis does not alter serum half-life and
+thus would not be of benefit in treating cases of overdosage.         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: spl_unclassified_section: To reduce the development of drug-resistant bacteria and maintain the effectiveness of doxycycline hyclate tablets, USP and other antibacterial 
+drugs, doxycycline hyclate tablets, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: information_for_patients: Information For Patients Patients taking doxycycline for malaria prophylaxis should be advised: — that no present-day antimalarial agent, 
+including doxycycline, guarantees protection against malaria. — to avoid being bitten by mosquitoes by using personal protective measures that help avoid contact with mosquitoes, especially from dusk 
+to dawn (e.g., staying in well-screened areas, using mosquito nets, covering the body with clothing, and using an effective insect repellent). — that doxycycline prophylaxis: — should begin 1–2 days 
+before travel to the malarious area, — should be continued daily while in the malarious area and after leaving the malarious area, — should be continued for 4 further weeks to avoid development of 
+malaria after returning from an endemic area, — should not exceed 4 months. DOXYCYCLINE HYCLATE: information_for_patients: All patients taking doxycycline should be advised: — to avoid excessive 
+sunlight or artificial ultraviolet light while receiving doxycycline and to discontinue therapy if phototoxicity (e.g., skin eruption, etc.) occurs. Sunscreen or sunblock should be considered. (See 
+WARNINGS .) — to drink fluids liberally along with doxycycline to reduce the risk of esophageal irritation and ulceration. (See ADVERSE REACTIONS .) — that the absorption of tetracyclines is reduced 
+when taken with foods, especially those which contain calcium. However, the absorption of doxycycline is not markedly influenced by simultaneous ingestion of food or milk. (See DRUG INTERACTIONS .) — 
+that the absorption of tetracyclines is reduced when taking bismuth subsalicylate. (See DRUG INTERACTIONS . DOXYCYCLINE HYCLATE: information_for_patients: ) — that the use of doxycycline might 
+increase the incidence of vaginal candidiasis. Patients should be counseled that antibacterial drugs, including doxycycline should only be used to treat bacterial infections. They do not treat viral 
+infections (e.g., the common cold). When doxycycline is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the
+medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the 
+likelihood that bacteria will develop resistance and will not be treatable by doxycycline or other antibacterial drugs in the future. Diarrhea is a common problem caused by antibacterial drugs, which 
+usually ends when the antibacterials are discontinued. DOXYCYCLINE HYCLATE: information_for_patients: Sometimes after starting treatment with antibacterial drugs, patients can develop watery and 
+bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibacterial drug. If this occurs, patients should contact their 
+physician as soon as possible.         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: openfda: spl_id         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: openfda: product_ndc         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: openfda: spl_set_id         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: labor_and_delivery: Labor and Delivery The effect of tetracyclines on labor and delivery is unknown.         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+
+CONTENT: DOXYCYCLINE HYCLATE: clinical_pharmacology: Studies have shown no significant difference in serum half-life of doxycycline (range 18-22 hours) in individuals with normal and severely impaired
+renal function. Hemodialysis does not alter serum half-life. Results of animal studies indicate that tetracyclines cross the placenta and are found in fetal tissues. Population pharmacokinetic 
+analysis of sparse concentration-time data of doxycycline following standard of care intravenous and oral dosing in 44 pediatric patients (2-18 years of age) showed that allometrically -scaled 
+clearance (CL) of doxycycline in pediatric patients ≥2 to ≤8 years of age (median  3.58 [2.27-10.82] L/h/70 kg, N =11) did not differ significantly from pediatric patients >8 to 18 years of age (3 .27
+[1.11-8.12] L/h/70 kg, N=33). DOXYCYCLINE HYCLATE: clinical_pharmacology: For pediatric patients weighing ≤45 kg, body weight normalized doxycycline CL in those ≥2 to ≤8 years of age (median  0.071 [0
+.041-0.202] L/kg/h, N=10) did not differ significantly from those >8 to 18 years of age (0.081 [0.035-0.126] L/kg/h, N=8). In pediatric patients weighing >45 kg, no clinically significant differences 
+in body weight normalized doxycycline CL were observed between those ≥2 to ≤8 years (0.050 L/kg/h, N=l) and those >8 to 18 years of age (0.044 [0.014-0.121] L/kg/h, N=25). DOXYCYCLINE HYCLATE: 
+clinical_pharmacology: No clinically significant difference in CL between oral and IV dosing was observed in the small cohort of pediatric patients who received the oral (N=19) or IV (N=21) 
+formulation alone. Microbiology Mechanism of Action Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad 
+range of Gram-positive and Gram-negative bacteria. Resistance Cross resistance with other tetracyclines is common. Antimicrobial Activity Doxycycline has been shown to be active against most isolates 
+of the following microorganisms, both in vitro and in clinical infections as described in the INDICATIONS AND USAGE section of the package insert for doxycycline hyclate tablets, USP. DOXYCYCLINE 
+HYCLATE: clinical_pharmacology: Gram-Negative Bacteria Acinetobacter species Bartonella bacilliformis Brucella species Klebsiella species Klebsiella granulomatis Campylobacter fetus Enterobacter 
+aerogenes Escherichia coli Francisella tularensis Haemophilus ducreyi Haemophilus influenzae Neisseria gonorrhoeae Shigella species Vibrio cholerae Yersinia pestis Gram-Positive Bacteria Bacillus 
+anthracis Listeria monocytogenes Streptococcus pneumoniae Anaerobic Bacteria Clostridium species Fusobacterium fusiforme Propionibacterium acnes Other Bacteria Nocardiae and other aerobic Actinomyces 
+species Borrelia recurrentis Chlamydophila psittaci Chlamydia trachomatis Mycoplasma pneumoniae Rickettsiae Treponema pallidum Treponema pallidum subspecies pertenue Ure DOXYCYCLINE HYCLATE: 
+clinical_pharmacology: aplasma urealyticum Parasites Balantidium coli Entamoeba species Plasmodium falciparum* *Doxycycline has been found to be active against the asexual erythrocytic forms of 
+Plasmodium falciparum , but not against the gametocytes of P. falciparum . The precise mechanism of action of the drug is not known. Susceptibility Testing For specific information regarding 
+susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC .         
+SOURCE:DOXYCYCLINE HYCLATE label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.AGENT 
+*(orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?"
+  }
+}
+*(orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does DOXYCYCLINE HYCLATE increase or decrease the risk of 
+hospitalization?
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does DOXYCYCLINE HYCLATE increase or decrease the risk of hospitalization?",
+    "drug": "DOXYCYCLINE HYCLATE"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does DOXYCYCLINE HYCLATE increase or decrease the 
+risk of hospitalization?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.AGENT 
+*(orchestrator-hospitalization-DOXYCYCLINE HYCLATE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+
+The question regarding whether Doxycycline Hyclate increases or decreases the risk of hospitalization is not one that can be answered with the information available from FDA label data. The FDA label 
+for a medication typically includes information on the indications for use, dosing, contraindications, warnings, precautions, adverse reactions, and other relevant clinical information. However, it 
+does not typically provide direct information on the risk of hospitalization as a general outcome. Hospitalization can be a result of various factors, including the severity of the condition being 
+treated, the occurrence of serious adverse reactions, or other medical complications, which may or may not be related to the use of a specific medication like Doxycycline Hyclate.
+
+Therefore, without specific data or studies that correlate the use of Doxycycline Hyclate with hospitalization rates, it is not possible to determine whether this medication increases or decreases the
+risk of hospitalization.

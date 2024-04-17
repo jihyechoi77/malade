@@ -1,0 +1,195 @@
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes AMBISOME increase or decrease the risk of bleeding?[0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.AGENT [0m
+*[1m([0morchestrator-bleeding-AMBISOME[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
+[32m    [0m[32m"content"[0m[32m: [0m[32m"Does AMBISOME increase or decrease the risk of bleeding?"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0morchestrator-bleeding-AMBISOME[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes AMBISOME increase or decrease the risk of bleeding?[0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes AMBISOME increase or decrease the risk of bleeding?[0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"query"[0m[32m: [0m[32m"Does AMBISOME increase or decrease the risk of bleeding?"[0m[32m,[0m
+[32m    [0m[32m"drug"[0m[32m: [0m[32m"AMBISOME"[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
+[31m        Below are some relevant extracts for your query:[0m
+[31m        -----[0m
+[31m        [0m
+[31mCONTENT: AMBISOME: clinical_studies: The following table presents a comparison of efficacy rates among immunocompetent and immunocompromised patients infected in the Mediterranean basin who had no [0m
+[31mprior treatment or remote prior treatment for visceral leishmaniasis. Efficacy is expressed as both acute parasite clearance at the end of therapy [0m[1;31m([0m[31mEOT[0m[1;31m)[0m[31m and as overall success [0m[1;31m([0m[31mclearance with no [0m
+[31mrelapse[0m[1;31m)[0m[31m during the follow-up period [0m[1;31m([0m[31mF/U[0m[1;31m)[0m[31m of greater than [0m[1;31m6[0m[31m months for immunocompetent and immunocompromised patients: AmBisome Efficacy in Visceral Leishmaniasis Immunocompetent Patients No. of [0m
+[31mPatients Parasite [0m[1;31m([0m[31m%[0m[1;31m)[0m[31m Clearance at EOT Overall Success [0m[1;31m([0m[31m%[0m[1;31m)[0m[31m at F/U [0m[1;31m87[0m[31m [0m[1;31m86[0m[31m/[0m[1;31m87[0m[31m [0m[1;31m([0m[1;31m98.9[0m[1;31m)[0m[31m [0m[1;31m83[0m[31m/[0m[1;31m86[0m[31m [0m[1;31m([0m[1;31m96.5[0m[1;31m)[0m[31m Immunocompromised Patients Regimen Total Dose Parasite [0m[1;31m([0m[31m%[0m[1;31m)[0m[31m Clearance at EOT Overall Success [0m[1;31m([0m[31m%[0m[1;31m)[0m[31m at F/U [0m
+[1;31m100[0m[31m mg/day X [0m[1;31m21[0m[31m days [0m[1;31m29[0m[31m-[0m[1;31m38[0m[31m. AMBISOME: clinical_studies: [0m[1;31m9[0m[31m mg/kg [0m[1;31m10[0m[31m/[0m[1;31m10[0m[31m [0m[1;31m([0m[1;31m100[0m[1;31m)[0m[31m [0m[1;31m2[0m[31m/[0m[1;31m10[0m[31m [0m[1;31m([0m[1;31m20[0m[1;31m)[0m[31m [0m[1;31m4[0m[31m mg/kg/day, days [0m[1;31m1[0m[31m-[0m[1;31m5[0m[31m, and [0m[1;31m10[0m[31m, [0m[1;31m17[0m[31m, [0m[1;31m24[0m[31m, [0m[1;31m31[0m[31m, [0m[1;31m38[0m[31m [0m[1;31m40[0m[31m mg/kg [0m[1;31m8[0m[31m/[0m[1;31m9[0m[31m [0m[1;31m([0m[1;31m88.9[0m[1;31m)[0m[31m [0m[1;31m0[0m[31m/[0m[1;31m7[0m[31m [0m[1;31m([0m[1;31m0[0m[1;31m)[0m[31m TOTAL [0m[1;31m18[0m[31m/[0m[1;31m19[0m[31m [0m[1;31m([0m[1;31m94.7[0m[1;31m)[0m[31m [0m[1;31m2[0m[31m/[0m[1;31m17[0m[31m [0m[1;31m([0m[1;31m11.8[0m[1;31m)[0m[31m When [0m
+[31mfollowed for [0m[1;31m6[0m[31m months or more after treatment, the overall success rate among immunocompetent patients was [0m[1;31m96.5[0m[31m% and the overall success rate among immunocompromised patients was [0m[1;31m11.8[0m[31m% due to relapse [0m
+[31min the majority of patients. While case reports have suggested there may be a role for long-term therapy to prevent relapses in HIV coinfected patients [0m[1;31m([0m[31mLopez-Dupla, et al. AMBISOME: clinical_studies:[0m
+[31mJ Antimicrob Chemother [0m[1;31m1993[0m[31m; [0m[1;31m32[0m[31m: [0m[1;31m657[0m[31m-[0m[1;31m659[0m[1;31m)[0m[31m, there are no data to date documenting the efficacy or safety of repeat courses of Am B isome or of maintenance therapy with this drug among immunocompromised[0m
+[31mpatients.         [0m
+[31mSOUR[0m[1;31mCE:A[0m[31mMBISOME label[0m
+
+
+[31mCONTENT: AMBISOME: precautions: Skeletal Muscle Relaxants Amphotericin B-induced hypokalemia may enhance the curariform effect of skeletal muscle relaxants [0m[1;31m([0m[31me.g. tubocurarine[0m[1;31m)[0m[31m due to hypokalemia. When[0m
+[31madministered concomitantly, serum potassium levels should be closely monitored. Carcinogenesis, Mutagenesis, Impairment of Fertility No long-term studies in animals have been performed to evaluate [0m
+[31mcarcinogenic potential of Am B isome. Am B isome has not been tested to determine its mutagenic potential. A Segment I Reproductive Study in rats found an abnormal estrous cycle [0m[1;31m([0m[31mprolonged diestrus[0m[1;31m)[0m[31m [0m
+[31mand decreased number of corpora lutea in the high-dose groups [0m[1;31m([0m[1;31m10[0m[31m and [0m[1;31m15[0m[31m mg/kg, doses equivalent to human doses of [0m[1;31m1.6[0m[31m and [0m[1;31m2.4[0m[31m mg/kg based on body surface area considerations[0m[1;31m)[0m[31m. Am B isome did not [0m
+[31maffect fertility or days to copulation. AMBISOME: precautions: There were no effects on male reproductive function. Pregnancy There have been no adequate and well-controlled studies of Am B isome in [0m
+[31mpregnant women. Systemic fungal infections have been successfully treated in pregnant women with amphotericin B deoxycholate, but the number of cases reported has been small. Segment II studies in [0m
+[31mboth rats and rabbits have concluded that Am B isome had no teratogenic potential in these species. In rats, the maternal non-toxic dose of Am B isome was estimated to be [0m[1;31m5[0m[31m mg/kg [0m[1;31m([0m[31mequivalent to [0m[1;31m0.16[0m[31m [0m
+[31mto [0m[1;31m0.8[0m[31m times the recommended human clinical dose range of [0m[1;31m1[0m[31m to [0m[1;31m5[0m[31m mg/kg[0m[1;31m)[0m[31m and in rabbits, [0m[1;31m3[0m[31m mg/kg [0m[1;31m([0m[31mequivalent to [0m[1;31m0.2[0m[31m to [0m[1;31m1[0m[31m times the recommended human clinical dose range[0m[1;31m)[0m[31m, based on body surface area [0m
+[31mcorrection. Rabbits receiving the higher doses, [0m[1;31m([0m[31mequivalent to [0m[1;31m0[0m[31m. AMBISOME: precautions: [0m[1;31m5[0m[31m to [0m[1;31m2[0m[31m times the recommended human dose[0m[1;31m)[0m[31m of Am B isome experienced a higher rate of spontaneous abortions than [0m
+[31mdid the control groups. Am B isome should only be used during pregnancy if the possible benefits to be derived outweigh the potential risks involved. Nursing Mothers Many drugs are excreted in human [0m
+[31mmilk; however, it is not known whether Am B isome is excreted in human milk. Due to the potential for serious adverse reactions in breastfed infants, a decision should be made whether to discontinue [0m
+[31mnursing or whether to discontinue the drug, taking into account the importance of the drug to the mother. Pediatric Use Pediatric patients, age [0m[1;31m1[0m[31m month to [0m[1;31m16[0m[31m years, with presumed fungal infection [0m
+[1;31m([0m[31mempirical therapy[0m[1;31m)[0m[31m, confirmed systemic fungal infections or with visceral leishmaniasis have been successfully treated with Am B isome. AMBISOME: precautions: In studies which included [0m[1;31m302[0m[31m pediatric [0m
+[31mpatients administered Am B isome, there was no evidence of any differences in efficacy or safety of Am B isome compared to adults. Since pediatric patients have received Am B isome at doses comparable[0m
+[31mto those used in adults on a per kilogram body weight basis, no dosage adjustment is required in this population. Safety and effectiveness in pediatric patients below the age of one month have not [0m
+[31mbeen established [0m[1;31m([0m[31mSee DESCRIPTION OF CLINICAL STUDIES - Empirical Therapy in Febrile Neutropenic Patients and DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m. Elderly Patients Experience with Am B isome in the elderly [0m
+[1;31m([0m[1;31m65[0m[31m years or older[0m[1;31m)[0m[31m comprised [0m[1;31m72[0m[31m patients. It has not been necessary to alter the dose of Am B isome for this population. As with most other drugs, elderly patients receiving Am B isome should be [0m
+[31mcarefully monitored.         [0m
+[31mSOUR[0m[1;31mCE:A[0m[31mMBISOME label[0m
+
+
+[31mCONTENT: AMBISOME: openfda: spl_id         [0m
+[31mSOUR[0m[1;31mCE:A[0m[31mMBISOME label[0m
+
+
+[31mCONTENT: AMBISOME: adverse_reactions: [0m[1;31m3[0m[31m [0m[1;31m10.6[0m[31m [0m[1;31m8.6[0m[31m [0m[1;31m11.1[0m[31m [0m[1;31m18.5[0m[31m [0m[1;31m18.5[0m[31m [0m[1;31m12.3[0m[31m [0m[1;31m8.6[0m[31m [0m[1;31m11.1[0m[31m [0m[1;31m4.9[0m[31m [0m[1;31m43.2[0m[31m [0m[1;31m25.9[0m[31m [0m[1;31m7.4[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m11.5[0m[31m [0m[1;31m28.2[0m[31m [0m[1;31m48.7[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m14.1[0m[31m [0m[1;31m14.1[0m[31m [0m[1;31m5.1[0m[31m [0m[1;31m39.7[0m[31m [0m[1;31m15.4[0m[31m [0m[1;31m11.5[0m[31m Nervous System Anxiety Confusion Headache [0m[1;31m10.6[0m[31m [0m
+[1;31m12.9[0m[31m [0m[1;31m9.4[0m[31m [0m[1;31m7.4[0m[31m [0m[1;31m8.6[0m[31m [0m[1;31m17.3[0m[31m [0m[1;31m9[0m[31m [0m[1;31m3.8[0m[31m [0m[1;31m10.3[0m[31m Respiratory System Dyspnea Epistaxis Hypoxia Lung disorder [0m[1;31m17.6[0m[31m [0m[1;31m10.6[0m[31m [0m[1;31m7.1[0m[31m [0m[1;31m14.1[0m[31m [0m[1;31m22.2[0m[31m [0m[1;31m8.6[0m[31m [0m[1;31m6.2[0m[31m [0m[1;31m13.6[0m[31m [0m[1;31m23.1[0m[31m [0m[1;31m14.1[0m[31m [0m[1;31m20.5[0m[31m [0m[1;31m15[0m[31m. AMBISOME: adverse_reactions: [0m[1;31m4[0m[31m Skin and Appendages [0m
+[31mRash [0m[1;31m23.5[0m[31m [0m[1;31m22.2[0m[31m [0m[1;31m14.1[0m[31m The following adverse events are based on the experience of [0m[1;31m267[0m[31m patients [0m[1;31m([0m[1;31m266[0m[31m adult patients and [0m[1;31m1[0m[31m pediatric patient[0m[1;31m)[0m[31m of whom [0m[1;31m86[0m[31m patients were treated with Am B isome [0m[1;31m3[0m[31m mg/kg, [0m[1;31m94[0m[31m [0m
+[31mpatients were treated with Am B isome [0m[1;31m6[0m[31m mg/kg and [0m[1;31m87[0m[31m patients were treated with amphotericin B deoxycholate [0m[1;31m0.7[0m[31m mg/kg in Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m013[0m[31m a randomized, double-blind, comparative multi-center trial, in [0m
+[31mthe treatment of cryptococcal meningitis in HIV-positive patients. AMBISOME: adverse_reactions: The incidence of adverse events occurring in more than [0m[1;31m10[0m[31m% of subjects in one or more arms regardless of[0m
+[31mrelationship to study drug are summarized in the following table: Cryptococcal Meningitis Therapy Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m013[0m[31m Common Adverse Events Adverse Event by Body System AmBisome [0m[1;31m3[0m[31m mg/kg/day N = [0m[1;31m86[0m[31m % [0m
+[31mAmBisome [0m[1;31m6[0m[31m mg/kg/day N = [0m[1;31m94[0m[31m % Amphotericin B [0m[1;31m0.7[0m[31m mg/kg/day N = [0m[1;31m87[0m[31m % Body as a Whole Abdominal pain Infection Procedural Complication [0m[1;31m7[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m8.1[0m[31m [0m[1;31m7.4[0m[31m [0m[1;31m11.7[0m[31m [0m[1;31m9.6[0m[31m [0m[1;31m10.3[0m[31m [0m[1;31m6.9[0m[31m [0m[1;31m10.3[0m[31m Cardiovascular System [0m
+[31mPhlebitis [0m[1;31m9.3[0m[31m [0m[1;31m10.6[0m[31m [0m[1;31m25.3[0m[31m Digestive System Anorexia Constipation Diarrhea Nausea Vomiting [0m[1;31m14[0m[31m [0m[1;31m15.1[0m[31m [0m[1;31m10.5[0m[31m [0m[1;31m16[0m[31m. AMBISOME: adverse_reactions: [0m[1;31m3[0m[31m [0m[1;31m10.5[0m[31m [0m[1;31m9.6[0m[31m [0m[1;31m14.9[0m[31m [0m[1;31m16[0m[31m [0m[1;31m21.3[0m[31m [0m[1;31m21.3[0m[31m [0m[1;31m11.5[0m[31m [0m[1;31m20.7[0m[31m [0m[1;31m10.3[0m[31m [0m[1;31m25.3[0m[31m [0m[1;31m20.7[0m[31m Hemic and [0m
+[31mLymphatic System Anemia Leukopenia Thrombocytopenia [0m[1;31m26.7[0m[31m [0m[1;31m15.1[0m[31m [0m[1;31m5.8[0m[31m [0m[1;31m47.9[0m[31m [0m[1;31m17[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m43.7[0m[31m [0m[1;31m17.2[0m[31m [0m[1;31m6.9[0m[31m Metabolic and Nutritional Disorders Bilirubinemia BUN increased Creatinine increased Hyperglycemia [0m
+[31mHypocalcemia Hypokalemia Hypomagnesemia Hyponatremia Liver Function Tests Abnormal [0m[1;31m0[0m[31m [0m[1;31m9.3[0m[31m [0m[1;31m18.6[0m[31m [0m[1;31m9.3[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m31.4[0m[31m [0m[1;31m29.1[0m[31m [0m[1;31m11.6[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m8.5[0m[31m [0m[1;31m7.4[0m[31m [0m[1;31m39.4[0m[31m [0m[1;31m12.8[0m[31m [0m[1;31m17[0m[31m [0m[1;31m51.1[0m[31m [0m[1;31m48[0m[31m. AMBISOME: adverse_reactions: [0m[1;31m9[0m[31m [0m[1;31m8.5[0m[31m [0m[1;31m4.3[0m[31m [0m[1;31m12.6[0m[31m [0m
+[1;31m10.3[0m[31m [0m[1;31m43.7[0m[31m [0m[1;31m17.2[0m[31m [0m[1;31m13.8[0m[31m [0m[1;31m48.3[0m[31m [0m[1;31m40.2[0m[31m [0m[1;31m9.2[0m[31m [0m[1;31m9.2[0m[31m Nervous System Dizziness Insomnia [0m[1;31m7[0m[31m [0m[1;31m22.1[0m[31m [0m[1;31m8.5[0m[31m [0m[1;31m17[0m[31m [0m[1;31m10.3[0m[31m [0m[1;31m20.7[0m[31m Respiratory System Cough Increased [0m[1;31m8.1[0m[31m [0m[1;31m2.1[0m[31m [0m[1;31m10.3[0m[31m Skin and Appendages Rash [0m[1;31m4.7[0m[31m [0m[1;31m11.7[0m[31m [0m[1;31m4.6[0m[31m Infusion-Related [0m
+[31mReactions In Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m002[0m[31m, the large, double-blind study of pediatric and adult febrile neutropenic patients, no premedication to prevent infusion-related reaction was administered prior to the [0m
+[31mfirst dose of study drug [0m[1;31m([0m[31mDay [0m[1;31m1[0m[1;31m)[0m[31m.         [0m
+[31mSOUR[0m[1;31mCE:A[0m[31mMBISOME label[0m
+
+
+[31mCONTENT: AMBISOME: adverse_reactions: [0m[1;31m7[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m45[0m[31m [0m[1;31m([0m[1;31m57.7[0m[31m%[0m[1;31m)[0m[31m Nausea [0m[1;31m9[0m[31m [0m[1;31m([0m[1;31m10.6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m7[0m[31m [0m[1;31m([0m[1;31m8.6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m16[0m[31m [0m[1;31m([0m[1;31m9.6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m9[0m[31m [0m[1;31m([0m[1;31m11.5[0m[31m%[0m[1;31m)[0m[31m Vomiting [0m[1;31m5[0m[31m [0m[1;31m([0m[1;31m5.9[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m5[0m[31m [0m[1;31m([0m[1;31m6.2[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m10[0m[31m [0m[1;31m([0m[1;31m6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m11[0m[31m [0m[1;31m([0m[1;31m14.1[0m[31m%[0m[1;31m)[0m[31m Hypertension [0m[1;31m4[0m[31m [0m[1;31m([0m[1;31m4.7[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m7[0m[31m [0m[1;31m([0m[1;31m8.6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m11[0m[31m [0m[1;31m([0m[1;31m6.6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m12[0m[31m [0m[1;31m([0m[1;31m15.4[0m[31m%[0m[1;31m)[0m[31m [0m
+[31mTachycardia [0m[1;31m2[0m[31m [0m[1;31m([0m[1;31m2.4[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m9.9[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m10[0m[31m [0m[1;31m([0m[1;31m6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m14[0m[31m [0m[1;31m([0m[1;31m17.9[0m[31m%[0m[1;31m)[0m[31m Dyspnea [0m[1;31m4[0m[31m [0m[1;31m([0m[1;31m4.7[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m9.9[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m12[0m[31m [0m[1;31m([0m[1;31m7.2[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m10.3[0m[31m%[0m[1;31m)[0m[31m Hypoxia [0m[1;31m0[0m[31m [0m[1;31m1[0m[31m [0m[1;31m([0m[1;31m1.2[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m1[0m[31m [0m[1;31m([0m[1;31m<[0m[31m [0m[1;31m1[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m9[0m[31m [0m[1;31m([0m[1;31m11[0m[31m. AMBISOME: adverse_reactions: [0m[1;31m5[0m[31m%[0m[1;31m)[0m[31m Day [0m[1;31m1[0m[31m body temperature increased [0m
+[31mabove the temperature taken within [0m[1;31m1[0m[31m hour prior to infusion [0m[1;31m([0m[31mpreinfusion temperature[0m[1;31m)[0m[31m or above the lowest infusion value [0m[1;31m([0m[31mno preinfusion temperature recorded[0m[1;31m)[0m[31m. Patients were not administered [0m
+[31mpremedications to prevent infusion-related reactions prior to the Day [0m[1;31m1[0m[31m study drug infusion. In Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m013[0m[31m, a randomized, double-blind, multicenter trial comparing Am B isome and amphotericin B [0m
+[31mdeoxycholate as initial therapy for cryptococcal meningitis, premedications to prevent infusion-related reactions were permitted. Am B isome-treated patients had a lower incidence of fever, [0m
+[31mchills/rigors and respiratory adverse events as summarized in the following table: Incidence of Infusion-Related Reactions Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m013[0m[31m AmBisome [0m[1;31m3[0m[31m mg/kg/day AmBisome [0m[1;31m6[0m[31m mg/kg/day Amphotericin B [0m[1;31m0[0m[31m. [0m
+[31mAMBISOME: adverse_reactions: [0m[1;31m7[0m[31m mg/kg/day Total number of patients receiving at least one dose of study drug [0m[1;31m86[0m[31m [0m[1;31m94[0m[31m [0m[1;31m87[0m[31m Patients with fever increase of [0m[1;31m>[0m[1;31m1[0m[31m°C [0m[1;31m6[0m[31m [0m[1;31m([0m[1;31m7[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m9[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m24[0m[31m [0m[1;31m([0m[1;31m28[0m[31m%[0m[1;31m)[0m[31m Patients with [0m
+[31mchills/rigors [0m[1;31m5[0m[31m [0m[1;31m([0m[1;31m6[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m9[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m42[0m[31m [0m[1;31m([0m[1;31m48[0m[31m%[0m[1;31m)[0m[31m Patients with nausea [0m[1;31m11[0m[31m [0m[1;31m([0m[1;31m13[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m13[0m[31m [0m[1;31m([0m[1;31m14[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m18[0m[31m [0m[1;31m([0m[1;31m20[0m[31m%[0m[1;31m)[0m[31m Patients with vomiting [0m[1;31m14[0m[31m [0m[1;31m([0m[1;31m16[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m13[0m[31m [0m[1;31m([0m[1;31m14[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m16[0m[31m [0m[1;31m([0m[1;31m18[0m[31m%[0m[1;31m)[0m[31m Respiratory adverse events [0m[1;31m0[0m[31m [0m[1;31m1[0m[31m [0m[1;31m([0m[1;31m1[0m[31m%[0m[1;31m)[0m[31m [0m[1;31m8[0m[31m [0m[1;31m([0m[1;31m9[0m[31m%[0m[1;31m)[0m[31m There have been a few [0m
+[31mreports of flushing, back pain with or without chest tightness, and chest pain associated with Am B isome administration; on occasion this has been severe. Where these symptoms were noted, the [0m
+[31mreaction developed within a few minutes after the start of infusion and disappeared rapidly when the infusion was stopped. AMBISOME: adverse_reactions: The symptoms do not occur with every dose and [0m
+[31musually do not recur on subsequent administrations when the infusion rate is slowed. Toxicity and Discontinuation of Dosing In Study [0m[1;31m94[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m002[0m[31m, a significantly lower incidence of grade [0m[1;31m3[0m[31m or [0m[1;31m4[0m[31m toxicity [0m
+[31mwas observed in the Am B isome group compared with the amphotericin B group. In addition, nearly three times as many patients administered amphotericin B required a reduction in dose due to toxicity [0m
+[31mor discontinuation of study drug due to an infusion-related reaction compared with those administered Am B isome. In empirical therapy study [0m[1;31m97[0m[31m-[0m[1;31m0[0m[31m-[0m[1;31m034[0m[31m, a greater proportion of patients in the [0m
+[31mamphotericin B lipid complex group discontinued the study drug due to an adverse event than in the Am B isome groups. AMBISOME: adverse_reactions: Less Common Adverse Events The following adverse [0m
+[31mevents also have been reported in [0m[1;31m2[0m[31m% to [0m[1;31m10[0m[31m% of Am B isome-treated patients receiving chemotherapy or bone marrow transplantation, or who had HIV disease in six comparative, clinical trials: Body as a [0m
+[31mWhole Abdomen enlarged, allergic reaction, cellulitis, cell-mediated immunological reaction, face edema, graft-versus-host disease, malaise, neck pain, and procedural complication. Cardiovascular [0m
+[31mSystem Arrhythmia, atrial fibrillation, bradycardia, cardiac arrest, cardiomegaly, hemorrhage, postural hypotension, valvular heart disease, vascular disorder, and vasodilatation [0m[1;31m([0m[31mflushing[0m[1;31m)[0m[31m. AMBISOME:[0m
+[31madverse_reactions: Digestive System Anorexia, constipation, dry mouth/nose, dyspepsia, dysphagia, eructation, fecal incontinence, flatulence, hemorrhoids, gum/oral hemorrhage, hematemesis, [0m
+[31mhepatocellular damage, hepatomegaly, liver function test abnormal, ileus, mucositis, rectal disorder, stomatitis, ulcerative stomatitis, and veno-occlusive liver disease. Hemic & Lymphatic System [0m
+[31mAnemia, coagulation disorder, ecchymosis, fluid overload, petechia, prothrombin decreased, prothrombin increased, and thrombocytopenia. AMBISOME: adverse_reactions: Metabolic & Nutritional Disorders [0m
+[31mAcidosis, amylase increased, hyperchloremia, hyperkalemia, hypermagnesemia, hyperphosphatemia, hyponatremia, hypophosphatemia, hypoproteinemia, lactate dehydrogenase increased, nonprotein nitrogen [0m
+[1;31m([0m[31mNPN[0m[1;31m)[0m[31m increased, and respiratory alkalosis. Musculoskeletal System Arthralgia, bone pain, dystonia, myalgia, and rigors. Nervous System Agitation, coma, convulsion, cough, depression, dysesthesia, [0m
+[31mdizziness, hallucinations, nervousness, paresthesia, somnolence, thinking abnormality, and tremor. Respiratory System Asthma, atelectasis, hemoptysis, hiccup, hyperventilation, influenza-like [0m
+[31msymptoms, lung edema, pharyngitis, pneumonia, respiratory insufficiency, respiratory failure, and sinusitis.         [0m
+[31mSOUR[0m[1;31mCE:A[0m[31mMBISOME label[0m
+
+[31m        -----[0m
+[31m        If NONE of the extracts are relevant, try doing a web search with the[0m
+[31m        `relevant_search_extracts` tool/function-call[0m
+[31m        [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
+ [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m
+[32mANSWER: AMBISOME has been reported to cause thrombocytopenia, which is a condition that can increase the risk of bleeding due to a reduced number of platelets in the blood. Additionally, hemorrhage is[0m
+[32mlisted as a cardiovascular adverse event, and gum/oral hemorrhage is listed under digestive system adverse events. These findings suggest that AMBISOME may increase the risk of bleeding.[0m
+
+[32mSOURCE: AMBISOME label[0m
+[32mEXTRACT_START_END: Hemic & Lymphatic System[0m[32m...[0m[32m thrombocytopenia. [0m[32m/[0m[32m Digestive System[0m[32m...[0m[32m gum/oral hemorrhage.[0m
+*[1m([0morchestrator-bleeding-AMBISOME[1m)[0m [37m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mANSWER: AMBISOME has been reported to cause thrombocytopenia, which is a [0m
+[34mcondition that can increase the risk of bleeding due to a reduced number of platelets in the blood. Additionally, hemorrhage is listed as a cardiovascular adverse event, and gum/oral hemorrhage is [0m
+[34mlisted under digestive system adverse events. These findings suggest that AMBISOME may increase the risk of bleeding.[0m
+
+[34mSOURCE: AMBISOME label[0m
+[34mEXTRACT_START_END: Hemic & Lymphatic System[0m[34m...[0m[34m thrombocytopenia. [0m[34m/[0m[34m Digestive System[0m[34m...[0m[34m gum/oral hemorrhage.[0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0morchestrator-bleeding-AMBISOME[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"final_answer"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"question"[0m[32m: [0m[32m"Does AMBISOME increase or decrease the risk of bleeding?"[0m[32m,[0m
+[32m    [0m[32m"steps"[0m[32m: [0m[1;32m[[0m
+[32m      [0m[32m"I asked FDAHandler whether AMBISOME increases or decreases the risk of bleeding."[0m[32m,[0m
+[32m      [0m[32m"FDAHandler reported that AMBISOME has been associated with thrombocytopenia, which can increase the risk of bleeding due to a reduced number of platelets. Additionally, hemorrhage is listed as [0m
+[32ma cardiovascular adverse event, and gum/oral hemorrhage is listed under digestive system adverse events in the AMBISOME label."[0m
+[32m    [0m[1;32m][0m[32m,[0m
+[32m    [0m[32m"answer"[0m[32m: [0m[32m"AMBISOME may increase the risk of bleeding due to its association with thrombocytopenia and the listing of hemorrhage as an adverse event."[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0morchestrator-bleeding-AMBISOME[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31m__PASS__:Critic[0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
+ [1m([0mCritic[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [34mFUNC: [0m[1;34m{[0m
+[34m  [0m[34m"name"[0m[34m: [0m[34m"final_answer"[0m[34m,[0m
+[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
+[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
+[34m    [0m[34m"question"[0m[34m: [0m[34m"Does AMBISOME increase or decrease the risk of bleeding?"[0m[34m,[0m
+[34m    [0m[34m"steps"[0m[34m: [0m[1;34m[[0m
+[34m      [0m[34m"I asked FDAHandler whether AMBISOME increases or decreases the risk of bleeding."[0m[34m,[0m
+[34m      [0m[34m"FDAHandler reported that AMBISOME has been associated with thrombocytopenia, which can increase the risk of bleeding due to a reduced number of platelets. Additionally, hemorrhage is listed as [0m
+[34ma cardiovascular adverse event, and gum/oral hemorrhage is listed under digestive system adverse events in the AMBISOME label."[0m
+[34m    [0m[1;34m][0m[34m,[0m
+[34m    [0m[34m"answer"[0m[34m: [0m[34m"AMBISOME may increase the risk of bleeding due to its association with thrombocytopenia and the listing of hemorrhage as an adverse event."[0m[34m,[0m
+[34m    [0m[34m"request"[0m[34m: [0m[34m"final_answer"[0m
+[34m  [0m[1;34m}[0m
+[1;34m}[0m
+*[1m([0mCritic[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
+[31m        Question: Does AMBISOME increase or decrease the risk of bleeding?[0m
+[31m        -----[0m
+[31m        Reasoning:[0m
+[31m        [0m[1;31m1[0m[31m. I asked FDAHandler whether AMBISOME increases or decreases the risk of bleeding.[0m
+[1;31m2[0m[31m. FDAHandler reported that AMBISOME has been associated with thrombocytopenia, which can increase the risk of bleeding due to a reduced number of platelets. Additionally, hemorrhage is listed as a [0m
+[31mcardiovascular adverse event, and gum/oral hemorrhage is listed under digestive system adverse events in the AMBISOME label.[0m
+[31m        -----[0m
+[31m        Final answer: AMBISOME may increase the risk of bleeding due to its association with thrombocytopenia and the listing of hemorrhage as an adverse event.[0m
+[31m        [0m
+ [1m([0mCritic[1m)[0m [31m Entity.USER [0m
+ [1m([0mCritic[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [32mFUNC: [0m[1;32m{[0m
+[32m  [0m[32m"name"[0m[32m: [0m[32m"feedback"[0m[32m,[0m
+[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
+[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
+[32m    [0m[32m"critique"[0m[32m: [0m[32m""[0m
+[32m  [0m[1;32m}[0m
+[1;32m}[0m
+*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m[31m __PASS__[0m
+*[1m([0morchestrator-bleeding-AMBISOME[1m)[0m [37m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>     AGENT[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [34mFUNC: [0m[1;34m{[0m
+[34m  [0m[34m"name"[0m[34m: [0m[34m"feedback"[0m[34m,[0m
+[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
+[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
+[34m    [0m[34m"critique"[0m[34m: [0m[34m""[0m[34m,[0m
+[34m    [0m[34m"request"[0m[34m: [0m[34m"feedback"[0m
+[34m  [0m[1;34m}[0m
+[1;34m}[0m
+*[1m([0morchestrator-bleeding-AMBISOME[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31mYour reasoning is valid, no feedback was provided.[0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.USER [0m
+ [1m([0morchestrator-bleeding-AMBISOME[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
+*[1m([0morchestrator-bleeding-AMBISOME[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m
+
+[32mAMBISOME may increase the risk of bleeding due to its association with thrombocytopenia and the listing of hemorrhage as an adverse event. This information is based on the AMBISOME label, which [0m
+[32mreports thrombocytopenia as a condition that can increase the risk of bleeding and lists hemorrhage as a cardiovascular adverse event and gum/oral hemorrhage under digestive system adverse events.[0m

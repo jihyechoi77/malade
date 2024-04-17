@@ -1,0 +1,233 @@
+ (orchestrator-hospitalization-AMBISOME)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does AMBISOME increase or decrease the risk of hospitalization?
+ (orchestrator-hospitalization-AMBISOME)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-AMBISOME)  Entity.AGENT 
+*(orchestrator-hospitalization-AMBISOME)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does AMBISOME increase or decrease the risk of hospitalization?"
+  }
+}
+*(orchestrator-hospitalization-AMBISOME)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does AMBISOME increase or decrease the risk of hospitalization?
+ (orchestrator-hospitalization-AMBISOME)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-AMBISOME)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-AMBISOME)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does AMBISOME increase or decrease the risk of hospitalization?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does AMBISOME increase or decrease the risk of hospitalization?",
+    "drug": "AMBISOME"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: AMBISOME: clinical_studies: The following table presents a comparison of efficacy rates among immunocompetent and immunocompromised patients infected in the Mediterranean basin who had no 
+prior treatment or remote prior treatment for visceral leishmaniasis. Efficacy is expressed as both acute parasite clearance at the end of therapy (EOT) and as overall success (clearance with no 
+relapse) during the follow-up period (F/U) of greater than 6 months for immunocompetent and immunocompromised patients: AmBisome Efficacy in Visceral Leishmaniasis Immunocompetent Patients No. of 
+Patients Parasite (%) Clearance at EOT Overall Success (%) at F/U 87 86/87 (98.9) 83/86 (96.5) Immunocompromised Patients Regimen Total Dose Parasite (%) Clearance at EOT Overall Success (%) at F/U 
+100 mg/day X 21 days 29-38. AMBISOME: clinical_studies: 9 mg/kg 10/10 (100) 2/10 (20) 4 mg/kg/day, days 1-5, and 10, 17, 24, 31, 38 40 mg/kg 8/9 (88.9) 0/7 (0) TOTAL 18/19 (94.7) 2/17 (11.8) When 
+followed for 6 months or more after treatment, the overall success rate among immunocompetent patients was 96.5% and the overall success rate among immunocompromised patients was 11.8% due to relapse 
+in the majority of patients. While case reports have suggested there may be a role for long-term therapy to prevent relapses in HIV coinfected patients (Lopez-Dupla, et al. AMBISOME: clinical_studies:
+J Antimicrob Chemother 1993; 32: 657-659), there are no data to date documenting the efficacy or safety of repeat courses of Am B isome or of maintenance therapy with this drug among immunocompromised
+patients.         
+SOURCE:AMBISOME label
+
+
+CONTENT: AMBISOME: clinical_studies: 3%) 97.5% CI* = -9.4%, +31% 36/75 (48%) 97.5% CI* = -18.8%, +19.8% 29/61 (47.5%) * 97.5% Confidence Interval for the difference between Am B isome and amphotericin
+B success rates. A negative value is in favor of amphotericin B. A positive value is in favor of Am B isome. Success at 10 weeks was defined as clinical success at week 10 plus CSF culture conversion 
+at or prior to week 10. Success rates at 10 weeks in patients with positive baseline culture for cryptococcus species are summarized in the following table and show that the efficacy of Am B isome 6 
+mg/kg/day approximates the efficacy of the amphotericin B deoxycholate regimen. AMBISOME: clinical_studies: These data do not support the conclusion that Am B isome 3 mg/kg/day is comparable in 
+efficacy to amphotericin B deoxycholate. The table also presents 10-week survival rates for patients treated in this study. Success Rates and Survival Rates at Week 10, Study 94-0-013 (see text for 
+definitions) AmBisome 3 mg/kg/day AmBisome 6 mg/kg/day Amphotericin B 0.7 mg/kg/day Success in patients with documented cryptococcal meningitis 27/73 (37%) 97.5% CI* = -33.7%, +2.4% 42/85 (49%) 97.5% 
+CI* = -20.9%, +14.5% 40/76 (53%) Survival rates 74/86 (86%) 97.5% CI* = -13.8%, +8. AMBISOME: clinical_studies: 9% 85/94 (90%) 97.5% CI* = -8.3%, +12.2% 77/87 (89%) * 97.5% Confidence Interval for the
+difference between Am B isome and amphotericin B rates. A negative value is in favor of amphotericin B. A positive value is in favor of Am B isome. The incidence of infusion-related, cardiovascular 
+and renal adverse events was lower in patients receiving Am B isome compared to amphotericin B deoxycholate (see ADVERSE REACTIONS section for details); therefore, the risks and benefits (advantages 
+and disadvantages) of the different amphotericin B formulations should be taken into consideration when selecting a patient treatment regimen. AMBISOME: clinical_studies: Treatment of Patients with 
+Aspergillus Species, Candida Species and/or Cryptococcus Species Infections Refractory to Amphotericin B Deoxycholate, or in Patients Where Renal Impairment or Unacceptable Toxicity Precludes the Use 
+of Amphotericin B Deoxycholate Am B isome was evaluated in a compassionate use study in hospitalized patients with systemic fungal infections. These patients either had fungal infections refractory to
+amphotericin B deoxycholate, were intolerant to the use of amphotericin B deoxycholate, or had pre-existing renal insufficiency. Patient recruitment involved 140 infectious episodes in 133 patients, 
+with 53 episodes evaluable for mycological response and 91 episodes evaluable for clinical outcome. Clinical success and mycological eradication occurred in some patients with documented 
+aspergillosis, candidiasis, and cryptococcosis. AMBISOME: clinical_studies: Treatment of Visceral Leishmaniasis Am B isome was studied in patients with visceral leishmaniasis who were infected in the 
+Mediterranean basin with documented or presumed Leishmania infantum . Clinical studies have not provided conclusive data regarding efficacy against L. donovani or L. chagasi . Am B isome achieved high
+rates of acute parasite clearance in immunocompetent patients when total doses of 12-30 mg/kg were administered. Most of these immunocompetent patients remained relapse-free during follow-up periods 
+of 6 months or longer. While acute parasite clearance was achieved in most of the immunocompromised patients who received total doses of 30-40 mg/kg, the majority of these patients were observed to 
+relapse in the 6 months following the completion of therapy. Of the 21 immunocompromised patients studied, 17 were coinfected with HIV; approximately half of the HIV-infected patients had AIDS.       
+SOURCE:AMBISOME label
+
+
+CONTENT: AMBISOME: openfda: spl_id         
+SOURCE:AMBISOME label
+
+
+CONTENT: AMBISOME: adverse_reactions: 1 Cardiovascular System Chest pain Hypertension Hypotension Tachycardia 8.2 10.6 10.6 9.4 11.1 19.8 7.4 18.5 6.4 23.1 19.2 23.1 Digestive System Diarrhea Nausea 
+Vomiting 15.3 25.9 22.4 17.3 29.6 25.9 14.1 37.2 30.8 Metabolic and Nutritional Disorders Alkaline phosphatase increased Bilirubinemia BUN increased Creatinine increased Edema Hyperglycemia 
+Hypervolemia Hypocalcemia Hypokalemia Hypomagnesemia Liver function tests abnormal 7.1 16.5 20 20 12.9 8.2 8.2 10.6 37.6 15. AMBISOME: adverse_reactions: 3 10.6 8.6 11.1 18.5 18.5 12.3 8.6 11.1 4.9 
+43.2 25.9 7.4 12.8 11.5 28.2 48.7 12.8 14.1 14.1 5.1 39.7 15.4 11.5 Nervous System Anxiety Confusion Headache 10.6 12.9 9.4 7.4 8.6 17.3 9 3.8 10.3 Respiratory System Dyspnea Epistaxis Hypoxia Lung 
+disorder 17.6 10.6 7.1 14.1 22.2 8.6 6.2 13.6 23.1 14.1 20.5 15. AMBISOME: adverse_reactions: 4 Skin and Appendages Rash 23.5 22.2 14.1 The following adverse events are based on the experience of 267 
+patients (266 adult patients and 1 pediatric patient) of whom 86 patients were treated with Am B isome 3 mg/kg, 94 patients were treated with Am B isome 6 mg/kg and 87 patients were treated with 
+amphotericin B deoxycholate 0.7 mg/kg in Study 94-0-013 a randomized, double-blind, comparative multi-center trial, in the treatment of cryptococcal meningitis in HIV-positive patients. AMBISOME: 
+adverse_reactions: The incidence of adverse events occurring in more than 10% of subjects in one or more arms regardless of relationship to study drug are summarized in the following table: 
+Cryptococcal Meningitis Therapy Study 94-0-013 Common Adverse Events Adverse Event by Body System AmBisome 3 mg/kg/day N = 86 % AmBisome 6 mg/kg/day N = 94 % Amphotericin B 0.7 mg/kg/day N = 87 % Body
+as a Whole Abdominal pain Infection Procedural Complication 7 12.8 8.1 7.4 11.7 9.6 10.3 6.9 10.3 Cardiovascular System Phlebitis 9.3 10.6 25.3 Digestive System Anorexia Constipation Diarrhea Nausea 
+Vomiting 14 15.1 10.5 16. AMBISOME: adverse_reactions: 3 10.5 9.6 14.9 16 21.3 21.3 11.5 20.7 10.3 25.3 20.7 Hemic and Lymphatic System Anemia Leukopenia Thrombocytopenia 26.7 15.1 5.8 47.9 17 12.8 
+43.7 17.2 6.9 Metabolic and Nutritional Disorders Bilirubinemia BUN increased Creatinine increased Hyperglycemia Hypocalcemia Hypokalemia Hypomagnesemia Hyponatremia Liver Function Tests Abnormal 0 
+9.3 18.6 9.3 12.8 31.4 29.1 11.6 12.8 8.5 7.4 39.4 12.8 17 51.1 48. AMBISOME: adverse_reactions: 9 8.5 4.3 12.6 10.3 43.7 17.2 13.8 48.3 40.2 9.2 9.2 Nervous System Dizziness Insomnia 7 22.1 8.5 17 
+10.3 20.7 Respiratory System Cough Increased 8.1 2.1 10.3 Skin and Appendages Rash 4.7 11.7 4.6 Infusion-Related Reactions In Study 94-0-002, the large, double-blind study of pediatric and adult 
+febrile neutropenic patients, no premedication to prevent infusion-related reaction was administered prior to the first dose of study drug (Day 1). AMBISOME: adverse_reactions: Am B isome-treated 
+patients had a lower incidence of infusion-related fever (17% versus 44%), chills/rigors (18% versus 54%) and vomiting (6% versus 8%) on Day 1 as compared to amphotericin B deoxycholate-treated 
+patients. The incidence of infusion-related reactions on Day 1 in pediatric and adult patients is summarized in the following table: Incidence of Day 1 Infusion-Related Reactions (IRR) By Patient Age 
+Pediatric Patients (≤ 16 years of age) Adult Patients (> 16 years of age) AmBisome 3 mg/kg/day Amphotericin B 0.6 mg/kg/day AmBisome 3 mg/kg/day Amphotericin B 0.6 mg/kg/day Total number of patients 
+receiving at least one dose of study drug 48 47 295 297 Patients with fever* increase ≥ 1. AMBISOME: adverse_reactions: 0 o C 6 (13%) 22 (47%) 52 (18%) 128 (43%) Patients with chills/rigors 4 (8%) 22 
+(47%) 59 (20%) 165 (56%) Patients with nausea 4 (8%) 4 (9%) 38 (13%) 31 (10%) Patients with vomiting 2 (4%) 7 (15%) 19 (6%) 21 (7%) Patients with other reactions 10 (21%) 13 (28%) 47 (16%) 69 (23%) * 
+Day 1 body temperature increased above the temperature taken within 1 hour prior to infusion (preinfusion temperature) or above the lowest infusion value (no preinfusion temperature recorded). 
+AMBISOME: adverse_reactions: Cardiorespiratory events, except for vasodilatation (flushing), during all study drug infusions were more frequent in amphotericin B-treated patients as summarized in the 
+following table: Incidence of Infusion-Related Cardiorespiratory Events Event AmBisome 3 mg/kg/day N = 343 Amphotericin B 0.6 mg/kg/day N = 344 Hypotension 12 (3.5%) 28 (8.1%) Tachycardia 8 (2.3%) 43 
+(12.5%) Hypertension 8 (2.3%) 39 (11.3%) Vasodilatation 18 (5.2%) 2 (0.6%) Dyspnea 16 (4.7%) 25 (7.3%) Hyperventilation 4 (1.2%) 17 (4.9%) Hypoxia 1 (0.         
+SOURCE:AMBISOME label
+
+
+CONTENT: AMBISOME: adverse_reactions: 7%) 45 (57.7%) Nausea 9 (10.6%) 7 (8.6%) 16 (9.6%) 9 (11.5%) Vomiting 5 (5.9%) 5 (6.2%) 10 (6%) 11 (14.1%) Hypertension 4 (4.7%) 7 (8.6%) 11 (6.6%) 12 (15.4%) 
+Tachycardia 2 (2.4%) 8 (9.9%) 10 (6%) 14 (17.9%) Dyspnea 4 (4.7%) 8 (9.9%) 12 (7.2%) 8 (10.3%) Hypoxia 0 1 (1.2%) 1 (< 1%) 9 (11. AMBISOME: adverse_reactions: 5%) Day 1 body temperature increased 
+above the temperature taken within 1 hour prior to infusion (preinfusion temperature) or above the lowest infusion value (no preinfusion temperature recorded). Patients were not administered 
+premedications to prevent infusion-related reactions prior to the Day 1 study drug infusion. In Study 94-0-013, a randomized, double-blind, multicenter trial comparing Am B isome and amphotericin B 
+deoxycholate as initial therapy for cryptococcal meningitis, premedications to prevent infusion-related reactions were permitted. Am B isome-treated patients had a lower incidence of fever, 
+chills/rigors and respiratory adverse events as summarized in the following table: Incidence of Infusion-Related Reactions Study 94-0-013 AmBisome 3 mg/kg/day AmBisome 6 mg/kg/day Amphotericin B 0. 
+AMBISOME: adverse_reactions: 7 mg/kg/day Total number of patients receiving at least one dose of study drug 86 94 87 Patients with fever increase of >1°C 6 (7%) 8 (9%) 24 (28%) Patients with 
+chills/rigors 5 (6%) 8 (9%) 42 (48%) Patients with nausea 11 (13%) 13 (14%) 18 (20%) Patients with vomiting 14 (16%) 13 (14%) 16 (18%) Respiratory adverse events 0 1 (1%) 8 (9%) There have been a few 
+reports of flushing, back pain with or without chest tightness, and chest pain associated with Am B isome administration; on occasion this has been severe. Where these symptoms were noted, the 
+reaction developed within a few minutes after the start of infusion and disappeared rapidly when the infusion was stopped. AMBISOME: adverse_reactions: The symptoms do not occur with every dose and 
+usually do not recur on subsequent administrations when the infusion rate is slowed. Toxicity and Discontinuation of Dosing In Study 94-0-002, a significantly lower incidence of grade 3 or 4 toxicity 
+was observed in the Am B isome group compared with the amphotericin B group. In addition, nearly three times as many patients administered amphotericin B required a reduction in dose due to toxicity 
+or discontinuation of study drug due to an infusion-related reaction compared with those administered Am B isome. In empirical therapy study 97-0-034, a greater proportion of patients in the 
+amphotericin B lipid complex group discontinued the study drug due to an adverse event than in the Am B isome groups. AMBISOME: adverse_reactions: Less Common Adverse Events The following adverse 
+events also have been reported in 2% to 10% of Am B isome-treated patients receiving chemotherapy or bone marrow transplantation, or who had HIV disease in six comparative, clinical trials: Body as a 
+Whole Abdomen enlarged, allergic reaction, cellulitis, cell-mediated immunological reaction, face edema, graft-versus-host disease, malaise, neck pain, and procedural complication. Cardiovascular 
+System Arrhythmia, atrial fibrillation, bradycardia, cardiac arrest, cardiomegaly, hemorrhage, postural hypotension, valvular heart disease, vascular disorder, and vasodilatation (flushing).         
+SOURCE:AMBISOME label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does AMBISOME increase or decrease the risk of hospitalization?",
+    "drug": "AMBISOME"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does AMBISOME increase or decrease the risk of 
+hospitalization?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-hospitalization-AMBISOME)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hospitalization-AMBISOME)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-hospitalization-AMBISOME)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hospitalization-AMBISOME)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-AMBISOME)  Entity.AGENT 
+*(orchestrator-hospitalization-AMBISOME)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) I have sent a request to FDAHandler to inquire about the effect of 
+AMBISOME on the risk of hospitalization. However, I received a DO-NOT-KNOW response, indicating that the FDA label data does not specify whether AMBISOME increases or decreases the risk of 
+hospitalization.
+
+Since the FDA label data is the source of information for this inquiry and it does not provide the necessary details, I cannot provide a definitive answer to the question of whether AMBISOME increases
+or decreases the risk of hospitalization. Therefore, my final answer is also DO-NOT-KNOW.
+ (orchestrator-hospitalization-AMBISOME)  Entity.USER 
+*(orchestrator-hospitalization-AMBISOME)  Entity.AGENT  Entity.AGENT(          ) (=>       LLM) (X           )       (          ) 
+        Do one of the following:
+
+        1. If you intend to ask a question to FDAAgent:
+            Please use the 'add_recipient' tool/function-call
+            and specify FDAAgent as your `intended_recipient`.
+            DO NOT REPEAT your original message; ONLY specify the 
+            `intended_recipient` via this tool/function-call.
+        2. If you are ready to have the critic check your answer,
+            do so with the `final_answer` tool/function, as I have requested.
+        3. If the critic is satisfied and you intend to submit your final answer,
+            answer as I have requested, making sure to mark that you are done as usual.
+
+        When you have decided and stated your answer (or lack of one), you must
+        ALWAYS specify that you are done using the usual code.
+
+        DO NOT simply acknowldedge these instructions. If you have nothing
+        else to say, you MUST EXIT IMMEDIATELY by stating that you are done
+        with the usual code (as in #3).
+        
+ (orchestrator-hospitalization-AMBISOME)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-AMBISOME)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-hospitalization-AMBISOME)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does AMBISOME increase or decrease the risk of hospitalization?",
+    "steps": [
+      "I requested information from FDAHandler regarding the effect of AMBISOME on the risk of hospitalization.",
+      "FDAHandler responded with a DO-NOT-KNOW, indicating that the FDA label data does not specify information about the risk of hospitalization associated with AMBISOME."
+    ],
+    "answer": "DO-NOT-KNOW"
+  }
+}
+*(orchestrator-hospitalization-AMBISOME)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (orchestrator-hospitalization-AMBISOME)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-AMBISOME)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-AMBISOME)  FDAHandler  Entity.USER(FDAHandler) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does AMBISOME increase or decrease the risk of hospitalization?",
+    "steps": [
+      "I requested information from FDAHandler regarding the effect of AMBISOME on the risk of hospitalization.",
+      "FDAHandler responded with a DO-NOT-KNOW, indicating that the FDA label data does not specify information about the risk of hospitalization associated with AMBISOME."
+    ],
+    "answer": "DO-NOT-KNOW",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does AMBISOME increase or decrease the risk of hospitalization?
+        -----
+        Reasoning:
+        1. I requested information from FDAHandler regarding the effect of AMBISOME on the risk of hospitalization.
+2. FDAHandler responded with a DO-NOT-KNOW, indicating that the FDA label data does not specify information about the risk of hospitalization associated with AMBISOME.
+        -----
+        Final answer: DO-NOT-KNOW
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": ""
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(orchestrator-hospitalization-AMBISOME)  Critic  Entity.USER(    Critic) (=>     AGENT) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "",
+    "request": "feedback"
+  }
+}
+*(orchestrator-hospitalization-AMBISOME)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) Your reasoning is valid, no feedback was provided.
+ (orchestrator-hospitalization-AMBISOME)  Entity.USER 
+ (orchestrator-hospitalization-AMBISOME)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-hospitalization-AMBISOME)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+
+The FDA label data does not specify whether AMBISOME increases or decreases the risk of hospitalization, and therefore I cannot provide a definitive answer to this question.

@@ -1,0 +1,304 @@
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does EXTENDED PHENYTOIN SODIUM increase or decrease 
+the risk of acute liver injury?
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT 
+*(orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of acute liver injury?"
+  }
+}
+*(orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does EXTENDED PHENYTOIN SODIUM increase or decrease 
+the risk of acute liver injury?
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of acute liver injury?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does EXTENDED PHENYTOIN SODIUM increase the risk of acute liver injury?",
+    "drug": "EXTENDED PHENYTOIN SODIUM"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: 4 Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)/Multiorgan Hypersensitivity Drug Reaction with Eosinophilia and Systemic 
+Symptoms (DRESS), also known as Multiorgan hypersensitivity, has been reported in patients taking antiepileptic drugs, including phenytoin sodium. Some of these events have been fatal or 
+life-threatening. DRESS typically, although not exclusively, presents with fever, rash, lymphadenopathy, and/or facial swelling, in association with other organ system involvement, such as hepatitis, 
+nephritis, hematological abnormalities, myocarditis, or myositis sometimes resembling an acute viral infection. Eosinophilia is often present. Because this disorder is variable in its expression, 
+other organ systems not noted here may be involved. It is important to note that early manifestations of hypersensitivity, such as fever or lymphadenopathy, may be present even though rash is not 
+evident. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: If such signs or symptoms are present, the patient should be evaluated immediately. Phenytoin sodium should be discontinued if an alternative
+etiology for the signs or symptoms cannot be established. 5.5 Hypersensitivity Phenytoin sodium and other hydantoins are contraindicated in patients who have experienced phenytoin hypersensitivity  . 
+Additionally, consider alternatives to structurally similar drugs such as carboxamides (e.g., carbamazepine), barbiturates, succinimides, and oxazolidinediones (e.g., trimethadione) in these same 
+patients. Similarly, if there is a history of hypersensitivity reactions to these structurally similar drugs in the patient or immediate family members, consider alternatives to phenytoin sodium. 5. 
+EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: 6 Cardiac Effects Cases of bradycardia and cardiac arrest have been reported in phenytoin sodium-treated patients, both at recommended phenytoin doses
+and levels, and in association with phenytoin toxicity  . Most of the reports of cardiac arrest occurred in patients with underlying cardiac disease. 5.7 Angioedema Angioedema has been reported in 
+patients treated with phenytoin sodium in the postmarketing setting. Phenytoin sodium should be discontinued immediately if symptoms of angioedema, such as facial, perioral, or upper airway swelling 
+occur. Phenytoin sodium should be discontinued permanently if a clear alternative etiology for the reaction cannot be established. 5.8 Hepatic Injury Cases of acute hepatotoxicity, including 
+infrequent cases of acute hepatic failure, have been reported with phenytoin sodium. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: These events may be part of the spectrum of DRESS or may occur in
+isolation . Other common manifestations include jaundice, hepatomegaly, elevated serum transaminase levels, leukocytosis, and eosinophilia. The clinical course of acute phenytoin hepatotoxicity ranges
+from prompt recovery to fatal outcomes. In these patients with acute hepatotoxicity, phenytoin sodium should be immediately discontinued and not readministered. 5.9 Hematopoietic Complications 
+Hematopoietic complications, some fatal, have occasionally been reported in association with administration of phenytoin sodium. These have included thrombocytopenia, leukopenia, granulocytopenia, 
+agranulocytosis, and pancytopenia with or without bone marrow suppression. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: There have been a number of reports suggesting a relationship between 
+phenytoin and the development of lymphadenopathy (local or generalized) including benign lymph node hyperplasia, pseudolymphoma, lymphoma, and Hodgkin’s disease. Although a cause and effect 
+relationship has not been established, the occurrence of lymphadenopathy indicates the need to differentiate such a condition from other types of lymph node pathology. Lymph node involvement may occur
+with or without symptoms and signs of DRESS  . In all cases of lymphadenopathy, follow-up observation for an extended period is indicated and every effort should be made to achieve seizure control 
+using alternative antiepileptic drugs. 5.10 Effects on Vitamin D and Bone The chronic use of phenytoin in patients with epilepsy has been associated with decreased bone mineral density (osteopenia, 
+osteoporosis, and osteomalacia) and bone fractures. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: Phenytoin induces hepatic metabolizing enzymes. This may enhance the metabolism of vitamin D and 
+decrease vitamin D levels, which may lead to vitamin D deficiency, hypocalcemia, and hypophosphatemia. Consideration should be given to screening with bone-related laboratory and radiological tests as
+appropriate and initiating treatment plans according to established guidelines. 5.11 Renal or Hepatic Impairment or Hypoalbuminemia Because the fraction of unbound phenytoin is increased in patients 
+with renal or hepatic disease, or in those with hypoalbuminemia, the monitoring of phenytoin serum levels should be based on the unbound fraction in those patients. 5.12 Exacerbation of Porphyria In 
+view of isolated reports associating phenytoin with exacerbation of porphyria, caution should be exercised in using this medication in patients suffering from this disease. 5.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: overdosage: 10 OVERDOSAGE The lethal dose in pediatric patients is not known. The lethal dose in adults is estimated to be 2 to 5 grams. The initial symptoms are 
+nystagmus, ataxia, and dysarthria. Other signs are tremor, hyperreflexia, lethargy, slurred speech, blurred vision, nausea, and vomiting. The patient may become comatose and hypotensive. Bradycardia 
+and cardiac arrest have been reported  . Death is caused by respiratory and circulatory depression. There are marked variations among individuals with respect to phenytoin serum levels where toxicity 
+may occur. EXTENDED PHENYTOIN SODIUM: overdosage: Nystagmus, on lateral gaze, usually appears at 20 mcg/mL, ataxia at 30 mcg/mL; dysarthria and lethargy appear when the serum concentration is over 40 
+mcg/mL, but as high a concentration as 50 mcg/mL has been reported without evidence of toxicity. As much as 25 times the therapeutic dose has been taken to result in a serum concentration over 100 
+mcg/mL with complete recovery. Irreversible cerebellar dysfunction and atrophy have been reported. Treatment: Treatment is nonspecific since there is no known antidote. The adequacy of the respiratory
+and circulatory systems should be carefully observed and appropriate supportive measures employed. Hemodialysis can be considered since phenytoin is not completely bound to plasma proteins. Total 
+exchange transfusion has been used in the treatment of severe intoxication in pediatric patients. EXTENDED PHENYTOIN SODIUM: overdosage: In acute overdosage the possibility of other CNS depressants, 
+including alcohol, should be borne in mind.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide_table: content></paragraph><paragraph>Extended phenytoin sodium capsules are a prescription medicine used to treat certain types of seizures called 
+tonic-clonic (grand mal) and psychomotor (temporal lobe) seizures.</paragraph></td></tr><tr><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph><content styleCode="bold">Do not 
+take</content><content styleCode="bold">extended phenytoin sodium capsules if you:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Are allergic to phenytoin or any of the 
+ingredients in extended phenytoin sodium capsules. See the end of this leaflet for a complete list of ingredients in extended phenytoin sodium capsules.</item><item>Have had an allergic reaction to 
+CEREBYX (fosphenytoin), PEGANONE (ethotoin), or MESANTOIN (mephenytoin). EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item><item>Have had liver problems from taking phenytoin.</item><item>Take 
+delavirdine.</item></list><paragraph><content styleCode="bold">Before taking</content><content styleCode="bold">extended phenytoin sodium capsules, tell your healthcare provider about all of your 
+medical conditions, including if you:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Have or have had depression, mood problems, or suicidal thoughts or 
+behavior</item><item>Have had an allergic reaction to a medicine similar to extended phenytoin sodium capsules called carboxamides, barbiturates, succinimides, and oxazolidinediones</item><item>Have 
+or had liver or kidney problems</item><item>Have or had an enzyme problem called porphyria</item><item>Have or had high blood sugar (hyperglycemia)</item><item>Drink alcohol</item><item EXTENDED 
+PHENYTOIN SODIUM: spl_medguide_table: >Are pregnant or plan to become pregnant. Extended phenytoin sodium capsules may harm your unborn baby.</item><item>If you take extended phenytoin sodium capsules
+during pregnancy, your baby is at risk for serious birth defects.</item><item>If you become pregnant while taking extended phenytoin sodium capsules, the level of phenytoin in your blood may decrease,
+causing your seizures to become worse. Your healthcare provider may change your dose of extended phenytoin sodium capsules.</item><item>If you take extended phenytoin sodium capsules during pregnancy,
+your baby is also at risk for bleeding problems right after birth. Your healthcare provider may give you and your baby medicine to prevent this.</item><item>All women of child-bearing age should talk 
+to their healthcare provider about using other possible treatments instead of extended phenytoin sodium capsules. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item><item>If you are of childbearing 
+age and are not planning on getting pregnant, you should use effective birth control (contraception) while taking extended phenytoin sodium capsules.</item><item><content styleCode="bold">Pregnancy 
+Registry:</content>If you become pregnant while taking extended phenytoin sodium capsules, talk to your healthcare provider about registering with the North American Antiepileptic Drug Pregnancy 
+Registry. You can enroll in this registry by calling 1-888-233-2334. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. </item><item>Are 
+breastfeeding or plan to breastfeed. Phenytoin can pass into breast milk. You and your healthcare provider should decide if you will take extended phenytoin sodium capsules while you are 
+breastfeeding. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item></list><paragraph>Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter 
+medicines, vitamins, and herbal supplements. These medicines can change the levels of phenytoin in your blood.</paragraph><paragraph>Taking extended phenytoin sodium capsules with certain other 
+medicines can cause side effects or affect how well they work. Do not start or stop other medicines without talking to your healthcare provider.</paragraph><paragraph>Know the medicines you take. Keep
+a list of them and show it to your healthcare provider and pharmacist when you get a new medicine.</paragraph></td></tr><tr><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph><content 
+styleCode="bold">How should I take</content><content styleCode="bold">extended phenytoin sodium capsules?         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: spl_id         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: brand_name         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: generic_name         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: package_ndc         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: openfda: spl_set_id         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item><item>Stopping a seizure medicine suddenly can cause you to have seizures more often or seizures that will not stop (status 
+epilepticus).</item></list><paragraph><content styleCode="bold">2. Like other antiepileptic drugs,</content><content styleCode="bold">extended phenytoin sodium capsules may cause suicidal thoughts or 
+actions in a very small number of people, about 1 in 500. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: Call a healthcare provider right away if you have any of these symptoms, especially if they are
+new, worse, or worry you:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Thoughts about suicide or dying</item><item>New or worse anxiety</item><item>Trouble sleeping 
+(insomnia)</item><item>Acting on dangerous impulses</item><item>Attempts to commit suicide</item><item>Feeling agitated or restless</item><item>New or worse irritability</item><item>An extreme 
+increase in activity and talking (mania)</item><item>New or worse depression</item><item>Panic attacks</item><item>Acting aggressive, being angry, or violent</item><item>Other unusual changes in 
+behavior or mood</item></list><paragraph>Suicidal thoughts or actions can be caused by things other than medicines. If you have suicidal thoughts or actions, your healthcare provider may check for 
+other causes. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: paragraph><paragraph><content styleCode="bold">How can I watch for early symptoms of suicidal thoughts and 
+actions?</content></paragraph><list listType="unordered" styleCode="Disc"><item>Pay attention to any changes, especially sudden changes, in mood, behaviors, thoughts, or feelings.</item><item>Keep all
+follow-up visits with your healthcare provider as scheduled.</item></list><paragraph>Call your healthcare provider between visits as needed, especially if you are worried about 
+symptoms.</paragraph><paragraph><content styleCode="bold">3.</content><content styleCode="bold">Extended phenytoin sodium capsules can cause a type of serious allergic reaction that may affect 
+different parts of the body such as your liver, kidneys, blood, heart, skin or other parts of your body. These can be very serious and cause death. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: Call 
+your healthcare provider right away if you have any or all of these symptoms:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Fever</item><item>Sore throat</item><item>Not 
+wanting to eat (anorexia)</item><item>Rash</item><item>Sores in your mouth</item><item>Nausea</item><item>Swollen lymph glands</item><item>Bruise easily</item><item>Vomiting</item><item>Swelling of 
+your face, eye, lips, or tongue</item><item>Trouble swallowing or breathing</item><item>Purple or red spots on your skin</item><item>Increase infections</item><item>Yellowing of the skin and the white
+part of your eyes (jaundice)</item></list><paragraph>Call your healthcare provider even if the symptoms are mild or if you have been taking extended phenytoin sodium capsules for an extended EXTENDED 
+PHENYTOIN SODIUM: spl_medguide_table: period of time. These symptoms can be a sign of a serious allergic reaction.</paragraph><paragraph><content styleCode="bold">4. Extended phenytoin sodium capsules
+can cause problems with your heart, including a slow heartbeat. Let your healthcare provider know right away if you have any of these symptoms:</content></paragraph><list listType="unordered" 
+styleCode="Disc"><item>dizziness</item><item>tiredness</item><item>feeling like your heart is beating slowly or skipping beats</item><item>chest pain</item></list></td></tr><tr><td styleCode=" Botrule
+Toprule Lrule Rrule"><paragraph><content styleCode="bold">What are</content><content styleCode="bold">extended phenytoin sodium capsules?         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide: MEDICATION GUIDE Dispense with Medication Guide available at: documents.amneal.com/mg/extended-phenytoin-sodium.pdf Extended phenytoin sodium (fen‘ i 
+toyn soe‘ dee um) capsules What is the most important information I should know about extended phenytoin sodium capsules? 1. Do not stop taking extended phenytoin sodium capsules without first talking
+to your healthcare provider. Stopping extended phenytoin sodium capsules suddenly can cause serious problems. Stopping a seizure medicine suddenly can cause you to have seizures more often or seizures
+that will not stop (status epilepticus). 2. Like other antiepileptic drugs, extended phenytoin sodium capsules may cause suicidal thoughts or actions in a very small number of people, about 1 in 500. 
+EXTENDED PHENYTOIN SODIUM: spl_medguide: Call a healthcare provider right away if you have any of these symptoms, especially if they are new, worse, or worry you: Thoughts about suicide or dying New 
+or worse anxiety Trouble sleeping (insomnia) Acting on dangerous impulses Attempts to commit suicide Feeling agitated or restless New or worse irritability An extreme increase in activity and talking 
+(mania) New or worse depression Panic attacks Acting aggressive, being angry, or violent Other unusual changes in behavior or mood Suicidal thoughts or actions can be caused by things other than 
+medicines. If you have suicidal thoughts or actions, your healthcare provider may check for other causes. How can I watch for early symptoms of suicidal thoughts and actions? Pay attention to any 
+changes, especially sudden changes, in mood, behaviors, thoughts, or feelings. Keep all follow-up visits with your healthcare provider as scheduled. Call your healthcare provider between visits as 
+needed, especially if you are worried about symptoms. 3. EXTENDED PHENYTOIN SODIUM: spl_medguide: Extended phenytoin sodium capsules can cause a type of serious allergic reaction that may affect 
+different parts of the body such as your liver, kidneys, blood, heart, skin or other parts of your body. These can be very serious and cause death. Call your healthcare provider right away if you have
+any or all of these symptoms: Fever Sore throat Not wanting to eat (anorexia) Rash Sores in your mouth Nausea Swollen lymph glands Bruise easily Vomiting Swelling of your face, eye, lips, or tongue 
+Trouble swallowing or breathing Purple or red spots on your skin Increase infections Yellowing of the skin and the white part of your eyes (jaundice) Call your healthcare provider even if the symptoms
+are mild or if you have been taking extended phenytoin sodium capsules for an extended period of time. These symptoms can be a sign of a serious allergic reaction. 4. EXTENDED PHENYTOIN SODIUM: 
+spl_medguide: Extended phenytoin sodium capsules can cause problems with your heart, including a slow heartbeat. Let your healthcare provider know right away if you have any of these symptoms: 
+dizziness tiredness feeling like your heart is beating slowly or skipping beats chest pain What are extended phenytoin sodium capsules? Extended phenytoin sodium capsules are a prescription medicine 
+used to treat certain types of seizures called tonic-clonic (grand mal) and psychomotor (temporal lobe) seizures. Do not take extended phenytoin sodium capsules if you: Are allergic to phenytoin or 
+any of the ingredients in extended phenytoin sodium capsules. See the end of this leaflet for a complete list of ingredients in extended phenytoin sodium capsules. Have had an allergic reaction to 
+CEREBYX (fosphenytoin), PEGANONE (ethotoin), or MESANTOIN (mephenytoin). EXTENDED PHENYTOIN SODIUM: spl_medguide: Have had liver problems from taking phenytoin. Take delavirdine. Before taking 
+extended phenytoin sodium capsules, tell your healthcare provider about all of your medical conditions, including if you: Have or have had depression, mood problems, or suicidal thoughts or behavior 
+Have had an allergic reaction to a medicine similar to extended phenytoin sodium capsules called carboxamides, barbiturates, succinimides, and oxazolidinediones Have or had liver or kidney problems 
+Have or had an enzyme problem called porphyria Have or had high blood sugar (hyperglycemia) Drink alcohol Are pregnant or plan to become pregnant. Extended phenytoin sodium capsules may harm your 
+unborn baby. If you take extended phenytoin sodium capsules during pregnancy, your baby is at risk for serious birth defects. EXTENDED PHENYTOIN SODIUM: spl_medguide: If you become pregnant while 
+taking extended phenytoin sodium capsules, the level of phenytoin in your blood may decrease, causing your seizures to become worse. Your healthcare provider may change your dose of extended phenytoin
+sodium capsules. If you take extended phenytoin sodium capsules during pregnancy, your baby is also at risk for bleeding problems right after birth. Your healthcare provider may give you and your baby
+medicine to prevent this. All women of child-bearing age should talk to their healthcare provider about using other possible treatments instead of extended phenytoin sodium capsules. If you are of 
+childbearing age and are not planning on getting pregnant, you should use effective birth control (contraception) while taking extended phenytoin sodium capsules. Pregnancy Registry: If you become 
+pregnant while taking extended phenytoin sodium capsules, talk to your healthcare provider about registering with the North American Antiepileptic Drug Pregnancy Registry. EXTENDED PHENYTOIN SODIUM: 
+spl_medguide: You can enroll in this registry by calling 1-888-233-2334. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. Are 
+breastfeeding or plan to breastfeed. Phenytoin can pass into breast milk. You and your healthcare provider should decide if you will take extended phenytoin sodium capsules while you are 
+breastfeeding. Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. These medicines can change the 
+levels of phenytoin in your blood. Taking extended phenytoin sodium capsules with certain other medicines can cause side effects or affect how well they work. Do not start or stop other medicines 
+without talking to your healthcare provider. Know the medicines you take. Keep a list of them and show it to your healthcare provider and pharmacist when you get a new medicine. How should I take 
+extended phenytoin sodium capsules? EXTENDED PHENYTOIN SODIUM: spl_medguide: Take extended phenytoin sodium capsules exactly as your healthcare provider tells you. Your healthcare provider will tell 
+you how much extended phenytoin sodium capsules to take and when to take it. Your healthcare provider may change your dose if needed. Do not change your dose of extended phenytoin sodium capsules 
+without talking to your healthcare provider. Do not stop taking extended phenytoin sodium capsules without first talking to your healthcare provider. Stopping extended phenytoin sodium capsules 
+suddenly can cause serious problems. What should I avoid while taking extended phenytoin sodium capsules? Do not drink alcohol while you take extended phenytoin sodium capsules without first talking 
+to your healthcare provider. Drinking alcohol while taking extended phenytoin sodium capsules may change your blood levels of phenytoin which can cause serious problems. Do not drive, operate heavy 
+machinery, or do other dangerous activities until you know how extended phenytoin sodium capsules affects you. EXTENDED PHENYTOIN SODIUM: spl_medguide: Extended phenytoin sodium capsules can slow your
+thinking and motor skills. What are the possible side effects of extended phenytoin sodium capsules? See “ What is the most important information I should know about extended phenytoin sodium 
+capsules?” Extended phenytoin sodium capsules may cause other serious side effects including: Liver problems. Low blood count which could increase your chance of getting infections, bruising, bleeding
+and increased fatigue. Softening of your bones (osteopenia, osteoporosis, and osteomalacia) can cause your bones to break (fractures). High blood sugar (hyperglycemia). High levels of phenytoin in 
+your blood that could cause confusion also known as delirium, psychosis or a more serious condition that affects how your brain works (encephalopathy). Call your healthcare provider right away, if you
+have any of the symptoms listed above. EXTENDED PHENYTOIN SODIUM: spl_medguide: The most common side effects of extended phenytoin sodium capsules include: Irregular movement of the eye (nystagmus) 
+Slurred speech Drowsiness (somnolence) Problems with movement and balance (ataxia) Decrease in coordination Confusion Extended phenytoin sodium capsules can cause overgrowth of your gums. Brushing and
+flossing your teeth and seeing a dentist regularly while taking extended phenytoin sodium capsules can help prevent this from happening. These are not all of the possible side effects of extended 
+phenytoin sodium capsules. Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. How should I store extended phenytoin sodium capsules? Store 
+extended phenytoin sodium capsules at room temperature between 68°F to 77°F (20°C to 25°C). Store in tight, light-resistant containers. Protect from moisture. EXTENDED PHENYTOIN SODIUM: spl_medguide: 
+Keep extended phenytoin sodium capsules and all medicines out of the reach of children. General information about the safe and effective use of extended phenytoin sodium capsules. Medicines are 
+sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use extended phenytoin sodium capsules for a condition for which it was not prescribed. Do not give extended 
+phenytoin sodium capsules to other people, even if they have the same symptoms that you have. It may harm them. You can ask your pharmacist or healthcare provider for information about extended 
+phenytoin sodium capsules that is written for health professionals. What are the ingredients in extended phenytoin sodium capsules? Extended phenytoin sodium capsules 100 mg: white opaque/light 
+lavender opaque, hard gelatin capsules imprinted with "IP 212" on both cap and body.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: EXTENDED PHENYTOIN SODIUM can increase the risk of acute liver injury. Cases of acute hepatotoxicity, including infrequent cases of acute hepatic failure, have been reported with phenytoin 
+sodium. These events may be part of the spectrum of DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms) or may occur in isolation. Common manifestations include jaundice, hepatomegaly, 
+elevated serum transaminase levels, leukocytosis, and eosinophilia. The clinical course of acute phenytoin hepatotoxicity ranges from prompt recovery to fatal outcomes. In patients with acute 
+hepatotoxicity, phenytoin sodium should be immediately discontinued and not readministered.
+
+SOURCE: EXTENDED PHENYTOIN SODIUM label
+EXTRACT_START_END: Cases of acute hepatotoxicity... not readministered.
+*(orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: EXTENDED PHENYTOIN SODIUM can increase the 
+risk of acute liver injury. Cases of acute hepatotoxicity, including infrequent cases of acute hepatic failure, have been reported with phenytoin sodium. These events may be part of the spectrum of 
+DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms) or may occur in isolation. Common manifestations include jaundice, hepatomegaly, elevated serum transaminase levels, leukocytosis, and 
+eosinophilia. The clinical course of acute phenytoin hepatotoxicity ranges from prompt recovery to fatal outcomes. In patients with acute hepatotoxicity, phenytoin sodium should be immediately 
+discontinued and not readministered.
+
+SOURCE: EXTENDED PHENYTOIN SODIUM label
+EXTRACT_START_END: Cases of acute hepatotoxicity... not readministered.
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of acute liver injury?",
+    "steps": [
+      "I asked FDAHandler if EXTENDED PHENYTOIN SODIUM increases or decreases the risk of acute liver injury.",
+      "FDAHandler responded that EXTENDED PHENYTOIN SODIUM can increase the risk of acute liver injury. Cases of acute hepatotoxicity, including infrequent cases of acute hepatic failure, have been 
+reported with phenytoin sodium. These events may be part of the spectrum of DRESS or may occur in isolation with manifestations such as jaundice, hepatomegaly, elevated serum transaminase levels, 
+leukocytosis, and eosinophilia. The clinical course can range from prompt recovery to fatal outcomes, and in cases of acute hepatotoxicity, the drug should be immediately discontinued."
+    ],
+    "answer": "EXTENDED PHENYTOIN SODIUM can increase the risk of acute liver injury."
+  }
+}
+*(orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  FDAHandler  Entity.USER(FDAHandler) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of acute liver injury?",
+    "steps": [
+      "I asked FDAHandler if EXTENDED PHENYTOIN SODIUM increases or decreases the risk of acute liver injury.",
+      "FDAHandler responded that EXTENDED PHENYTOIN SODIUM can increase the risk of acute liver injury. Cases of acute hepatotoxicity, including infrequent cases of acute hepatic failure, have been 
+reported with phenytoin sodium. These events may be part of the spectrum of DRESS or may occur in isolation with manifestations such as jaundice, hepatomegaly, elevated serum transaminase levels, 
+leukocytosis, and eosinophilia. The clinical course can range from prompt recovery to fatal outcomes, and in cases of acute hepatotoxicity, the drug should be immediately discontinued."
+    ],
+    "answer": "EXTENDED PHENYTOIN SODIUM can increase the risk of acute liver injury.",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of acute liver injury?
+        -----
+        Reasoning:
+        1. I asked FDAHandler if EXTENDED PHENYTOIN SODIUM increases or decreases the risk of acute liver injury.
+2. FDAHandler responded that EXTENDED PHENYTOIN SODIUM can increase the risk of acute liver injury. Cases of acute hepatotoxicity, including infrequent cases of acute hepatic failure, have been 
+reported with phenytoin sodium. These events may be part of the spectrum of DRESS or may occur in isolation with manifestations such as jaundice, hepatomegaly, elevated serum transaminase levels, 
+leukocytosis, and eosinophilia. The clinical course can range from prompt recovery to fatal outcomes, and in cases of acute hepatotoxicity, the drug should be immediately discontinued.
+        -----
+        Final answer: EXTENDED PHENYTOIN SODIUM can increase the risk of acute liver injury.
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is consistent with medical knowledge regarding the potential hepatotoxic effects of phenytoin sodium, which is the active ingredient in EXTENDED PHENYTOIN 
+SODIUM. The explanation includes specific details about the manifestations and potential outcomes of acute liver injury related to the drug, indicating a clear understanding of the associated risks. 
+There are no flaws in the reasoning process, and the final answer is supported by the evidence provided."
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Critic  Entity.USER(    Critic) (=>     AGENT) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is consistent with medical knowledge regarding the potential hepatotoxic effects of phenytoin sodium, which is the active ingredient in EXTENDED PHENYTOIN 
+SODIUM. The explanation includes specific details about the manifestations and potential outcomes of acute liver injury related to the drug, indicating a clear understanding of the associated risks. 
+There are no flaws in the reasoning process, and the final answer is supported by the evidence provided.",
+    "request": "feedback"
+  }
+}
+*(orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) 
+        Feedback: The reasoning provided is consistent with medical knowledge regarding the potential hepatotoxic effects of phenytoin sodium, which is the active ingredient in EXTENDED PHENYTOIN 
+SODIUM. The explanation includes specific details about the manifestations and potential outcomes of acute liver injury related to the drug, indicating a clear understanding of the associated risks. 
+There are no flaws in the reasoning process, and the final answer is supported by the evidence provided.
+
+        If any flaws in the reasoning used to produce your
+        answer were identified, you must try again.
+        
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.USER 
+ (orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-acute liver injury-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+
+EXTENDED PHENYTOIN SODIUM can increase the risk of acute liver injury. Cases of acute hepatotoxicity, including infrequent cases of acute hepatic failure, have been reported with phenytoin sodium. 
+These events may be part of the spectrum of DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms) or may occur in isolation. Manifestations include jaundice, hepatomegaly, elevated serum 
+transaminase levels, leukocytosis, and eosinophilia. The clinical course can range from prompt recovery to fatal outcomes. In cases of acute hepatotoxicity, the drug should be immediately discontinued
+and not readministered. This information is based on the EXTENDED PHENYTOIN SODIUM label provided by FDAHandler.

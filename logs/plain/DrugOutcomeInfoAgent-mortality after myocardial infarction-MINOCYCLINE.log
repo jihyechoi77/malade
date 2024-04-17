@@ -1,0 +1,416 @@
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does MINOCYCLINE increase or decrease the risk 
+of mortality after myocardial infarction?
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT 
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?"
+  }
+}
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does MINOCYCLINE increase or decrease the risk 
+of mortality after myocardial infarction?
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?",
+    "drug": "MINOCYCLINE"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: MINOCYCLINE: use_in_specific_populations: 8 USE IN SPECIFIC POPULATIONS • Minocycline like other tetracycline-class drugs can cause fetal harm when administered to a pregnant woman. ( 5.1 , 
+8.1 ) • The use of drugs of the tetracycline class during tooth development may cause permanent discoloration of teeth. ( 5.1 , 8.4 ) 8.1 Pregnancy Teratogenic Effects: Pregnancy Category D [ see 
+WARNINGS AND PRECAUTIONS ( 5.1 )] Minocycline hydrochloride extended-release tablets should not be used during pregnancy. If the patient becomes pregnant while taking this drug, the patient should be 
+apprised of the potential hazard to the fetus and stop treatment immediately. There are no adequate and well-controlled studies on the use of minocycline in pregnant women. MINOCYCLINE: 
+use_in_specific_populations: Minocycline, like other tetracycline-class drugs, crosses the placenta and may cause fetal harm when administered to a pregnant woman. Rare spontaneous reports of 
+congenital anomalies including limb reduction have been reported with minocycline use in pregnancy in post-marketing experience. Only limited information is available regarding these reports; 
+therefore, no conclusion on causal association can be established. Minocycline induced skeletal malformations (bent limb bones) in fetuses when administered to pregnant rats and rabbits in doses of 30
+mg/kg/day and 100 mg/kg/day, respectively, (resulting in approximately 3 times and 2 times, respectively, the systemic exposure to minocycline observed in patients as a result of use of minocycline 
+hydrochloride extended-release tablets). MINOCYCLINE: use_in_specific_populations: Reduced mean fetal body weight was observed in studies in which minocycline was administered to pregnant rats at a 
+dose of 10 mg/kg/day (which resulted in approximately the same level of systemic exposure to minocycline as that observed in patients who use minocycline hydrochloride extended-release tablets). 
+Minocycline was assessed for effects on peri-and post-natal development of rats in a study that involved oral administration to pregnant rats from day 6 of gestation through the period of lactation 
+(postpartum day 20), at dosages of 5, 10, or 50 mg/kg/day. In this study, body weight gain was significantly reduced in pregnant females that received 50 mg/kg/day (resulting in approximately 2.5 
+times the systemic exposure to minocycline observed in patients as a result of use of minocycline hydrochloride extended-release tablets). MINOCYCLINE: use_in_specific_populations: No effects of 
+treatment on the duration of the gestation period or the number of live pups born per litter were observed. Gross external anomalies observed in F1 pups (offspring of animals that received 
+minocycline) included reduced body size, improperly rotated forelimbs, and reduced size of extremities. No effects were observed on the physical development, behavior, learning ability, or 
+reproduction of F1 pups, and there was no effect on gross appearance of F2 pups (offspring of F1 animals). 8.3 Nursing Mothers Tetracycline-class antibiotics are excreted in human milk. Because of the
+potential for serious adverse effects on bone and tooth development in nursing infants from the tetracycline-class antibiotics, a decision should be made whether to discontinue nursing or discontinue 
+the drug, taking into account the importance of the drug to the mother . 8. MINOCYCLINE: use_in_specific_populations: 4 Pediatric Use Minocycline hydrochloride extended-release tablet is indicated to 
+treat only inflammatory lesions of non-nodular moderate to severe acne vulgaris in patients 12 years and older. Safety and effectiveness in pediatric patients below the age of 12 has not been 
+established. Use of tetracycline-class antibiotics below the age of 8 is not recommended due to the potential for tooth discoloration . 8.5 Geriatric Use Clinical studies of minocycline hydrochloride 
+extended-release tablets did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not
+identified differences in responses between the elderly and younger patients. MINOCYCLINE: use_in_specific_populations: In general, dose selection for an elderly patient should be cautious, usually 
+starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and concomitant disease or other drug therapy.         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: pregnancy: 8.1 Pregnancy Teratogenic Effects: Pregnancy Category D [ see WARNINGS AND PRECAUTIONS ( 5.1 )] Minocycline hydrochloride extended-release tablets should not be used 
+during pregnancy. If the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to the fetus and stop treatment immediately. There are no adequate and 
+well-controlled studies on the use of minocycline in pregnant women. Minocycline, like other tetracycline-class drugs, crosses the placenta and may cause fetal harm when administered to a pregnant 
+woman. Rare spontaneous reports of congenital anomalies including limb reduction have been reported with minocycline use in pregnancy in post-marketing experience. Only limited information is 
+available regarding these reports; therefore, no conclusion on causal association can be established. MINOCYCLINE: pregnancy: Minocycline induced skeletal malformations (bent limb bones) in fetuses 
+when administered to pregnant rats and rabbits in doses of 30 mg/kg/day and 100 mg/kg/day, respectively, (resulting in approximately 3 times and 2 times, respectively, the systemic exposure to 
+minocycline observed in patients as a result of use of minocycline hydrochloride extended-release tablets). Reduced mean fetal body weight was observed in studies in which minocycline was administered
+to pregnant rats at a dose of 10 mg/kg/day (which resulted in approximately the same level of systemic exposure to minocycline as that observed in patients who use minocycline hydrochloride 
+extended-release tablets). MINOCYCLINE: pregnancy: Minocycline was assessed for effects on peri-and post-natal development of rats in a study that involved oral administration to pregnant rats from 
+day 6 of gestation through the period of lactation (postpartum day 20), at dosages of 5, 10, or 50 mg/kg/day. In this study, body weight gain was significantly reduced in pregnant females that 
+received 50 mg/kg/day (resulting in approximately 2.5 times the systemic exposure to minocycline observed in patients as a result of use of minocycline hydrochloride extended-release tablets). No 
+effects of treatment on the duration of the gestation period or the number of live pups born per litter were observed. Gross external anomalies observed in F1 pups (offspring of animals that received 
+minocycline) included reduced body size, improperly rotated forelimbs, and reduced size of extremities. MINOCYCLINE: pregnancy: No effects were observed on the physical development, behavior, learning
+ability, or reproduction of F1 pups, and there was no effect on gross appearance of F2 pups (offspring of F1 animals).         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: openfda: spl_id         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: openfda: product_ndc         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: openfda: spl_set_id         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: openfda: package_ndc         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: clinical_studies_table: <table width="100%"> <col width="14%"/> <col width="14%"/> <col width="15%"/> <col width="15%"/> <tbody> <tr> <td styleCode="Botrule Lrule Toprule " 
+valign="top"> <paragraph> <content styleCode="bold">Subject&#x2019;s Weight (lbs) </content> </paragraph> </td> <td styleCode="Botrule Lrule Toprule " valign="top"> <paragraph> <content 
+styleCode="bold">Subject&#x2019;s Weight (kg) </content> </paragraph> </td> <td styleCode="Botrule Lrule Toprule " valign="top"> <paragraph> <content styleCode="bold">Available Caplet Strength (mg) 
+</content> </paragraph> </td> <td styleCode="Rrule Botrule Lrule Toprule " valign="top"> <paragraph> <content styleCode="bold">Actual MINOCYCLINE: clinical_studies_table: mg/kg</content> </paragraph> 
+<paragraph> <content styleCode="bold">Dose </content> </paragraph> </td> </tr> <tr> <td align="center" styleCode="Lrule Botrule " valign="top"> <paragraph>99 &#x2013; 131</paragraph> </td> <td 
+align="center" styleCode="Lrule Botrule " valign="top"> <paragraph>45 &#x2013; 59</paragraph> </td> <td align="center" styleCode="Lrule Botrule " valign="top"> <paragraph>45</paragraph> </td> <td 
+align="center" styleCode="Rrule Lrule Botrule " valign="top"> <paragraph>1 &#x2013; 0. MINOCYCLINE: clinical_studies_table: 76</paragraph> </td> </tr> <tr> <td align="center" styleCode="Lrule Botrule 
+" valign="top"> <paragraph>132 &#x2013; 199</paragraph> </td> <td align="center" styleCode="Lrule Botrule " valign="top"> <paragraph>60 &#x2013; 90</paragraph> </td> <td align="center" 
+styleCode="Lrule Botrule " valign="top"> <paragraph>90</paragraph> </td> <td align="center" styleCode="Rrule Lrule Botrule " valign="top"> <paragraph>1. MINOCYCLINE: clinical_studies_table: 5 &#x2013;
+1</paragraph> </td> </tr> <tr> <td align="center" styleCode="Botrule Lrule " valign="top"> <paragraph>200 &#x2013; 300</paragraph> </td> <td align="center" styleCode="Botrule Lrule " valign="top"> 
+<paragraph>91 &#x2013; 136</paragraph> </td> <td align="center" styleCode="Botrule Lrule " valign="top"> <paragraph>135</paragraph> </td> <td align="center" styleCode="Rrule Botrule Lrule " 
+valign="top"> <paragraph>1.48 &#x2013; 0. MINOCYCLINE: clinical_studies_table: 99</paragraph> </td> </tr> </tbody> </table>         
+SOURCE:MINOCYCLINE label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?",
+    "drug": "MINOCYCLINE"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does MINOCYCLINE increase or decrease the risk of 
+mortality after myocardial infarction?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT 
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?"
+  }
+}
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does MINOCYCLINE increase or decrease the risk 
+of mortality after myocardial infarction?
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?",
+    "drug": "MINOCYCLINE"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: MINOCYCLINE: use_in_specific_populations: 8 USE IN SPECIFIC POPULATIONS • Minocycline like other tetracycline-class drugs can cause fetal harm when administered to a pregnant woman. ( 5.1 , 
+8.1 ) • The use of drugs of the tetracycline class during tooth development may cause permanent discoloration of teeth. ( 5.1 , 8.4 ) 8.1 Pregnancy Teratogenic Effects: Pregnancy Category D [ see 
+WARNINGS AND PRECAUTIONS ( 5.1 )] Minocycline hydrochloride extended-release tablets should not be used during pregnancy. If the patient becomes pregnant while taking this drug, the patient should be 
+apprised of the potential hazard to the fetus and stop treatment immediately. There are no adequate and well-controlled studies on the use of minocycline in pregnant women. MINOCYCLINE: 
+use_in_specific_populations: Minocycline, like other tetracycline-class drugs, crosses the placenta and may cause fetal harm when administered to a pregnant woman. Rare spontaneous reports of 
+congenital anomalies including limb reduction have been reported with minocycline use in pregnancy in post-marketing experience. Only limited information is available regarding these reports; 
+therefore, no conclusion on causal association can be established. Minocycline induced skeletal malformations (bent limb bones) in fetuses when administered to pregnant rats and rabbits in doses of 30
+mg/kg/day and 100 mg/kg/day, respectively, (resulting in approximately 3 times and 2 times, respectively, the systemic exposure to minocycline observed in patients as a result of use of minocycline 
+hydrochloride extended-release tablets). MINOCYCLINE: use_in_specific_populations: Reduced mean fetal body weight was observed in studies in which minocycline was administered to pregnant rats at a 
+dose of 10 mg/kg/day (which resulted in approximately the same level of systemic exposure to minocycline as that observed in patients who use minocycline hydrochloride extended-release tablets). 
+Minocycline was assessed for effects on peri-and post-natal development of rats in a study that involved oral administration to pregnant rats from day 6 of gestation through the period of lactation 
+(postpartum day 20), at dosages of 5, 10, or 50 mg/kg/day. In this study, body weight gain was significantly reduced in pregnant females that received 50 mg/kg/day (resulting in approximately 2.5 
+times the systemic exposure to minocycline observed in patients as a result of use of minocycline hydrochloride extended-release tablets). MINOCYCLINE: use_in_specific_populations: No effects of 
+treatment on the duration of the gestation period or the number of live pups born per litter were observed. Gross external anomalies observed in F1 pups (offspring of animals that received 
+minocycline) included reduced body size, improperly rotated forelimbs, and reduced size of extremities. No effects were observed on the physical development, behavior, learning ability, or 
+reproduction of F1 pups, and there was no effect on gross appearance of F2 pups (offspring of F1 animals). 8.3 Nursing Mothers Tetracycline-class antibiotics are excreted in human milk. Because of the
+potential for serious adverse effects on bone and tooth development in nursing infants from the tetracycline-class antibiotics, a decision should be made whether to discontinue nursing or discontinue 
+the drug, taking into account the importance of the drug to the mother . 8. MINOCYCLINE: use_in_specific_populations: 4 Pediatric Use Minocycline hydrochloride extended-release tablet is indicated to 
+treat only inflammatory lesions of non-nodular moderate to severe acne vulgaris in patients 12 years and older. Safety and effectiveness in pediatric patients below the age of 12 has not been 
+established. Use of tetracycline-class antibiotics below the age of 8 is not recommended due to the potential for tooth discoloration . 8.5 Geriatric Use Clinical studies of minocycline hydrochloride 
+extended-release tablets did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not
+identified differences in responses between the elderly and younger patients. MINOCYCLINE: use_in_specific_populations: In general, dose selection for an elderly patient should be cautious, usually 
+starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and concomitant disease or other drug therapy.         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: pregnancy: 8.1 Pregnancy Teratogenic Effects: Pregnancy Category D [ see WARNINGS AND PRECAUTIONS ( 5.1 )] Minocycline hydrochloride extended-release tablets should not be used 
+during pregnancy. If the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to the fetus and stop treatment immediately. There are no adequate and 
+well-controlled studies on the use of minocycline in pregnant women. Minocycline, like other tetracycline-class drugs, crosses the placenta and may cause fetal harm when administered to a pregnant 
+woman. Rare spontaneous reports of congenital anomalies including limb reduction have been reported with minocycline use in pregnancy in post-marketing experience. Only limited information is 
+available regarding these reports; therefore, no conclusion on causal association can be established. MINOCYCLINE: pregnancy: Minocycline induced skeletal malformations (bent limb bones) in fetuses 
+when administered to pregnant rats and rabbits in doses of 30 mg/kg/day and 100 mg/kg/day, respectively, (resulting in approximately 3 times and 2 times, respectively, the systemic exposure to 
+minocycline observed in patients as a result of use of minocycline hydrochloride extended-release tablets). Reduced mean fetal body weight was observed in studies in which minocycline was administered
+to pregnant rats at a dose of 10 mg/kg/day (which resulted in approximately the same level of systemic exposure to minocycline as that observed in patients who use minocycline hydrochloride 
+extended-release tablets). MINOCYCLINE: pregnancy: Minocycline was assessed for effects on peri-and post-natal development of rats in a study that involved oral administration to pregnant rats from 
+day 6 of gestation through the period of lactation (postpartum day 20), at dosages of 5, 10, or 50 mg/kg/day. In this study, body weight gain was significantly reduced in pregnant females that 
+received 50 mg/kg/day (resulting in approximately 2.5 times the systemic exposure to minocycline observed in patients as a result of use of minocycline hydrochloride extended-release tablets). No 
+effects of treatment on the duration of the gestation period or the number of live pups born per litter were observed. Gross external anomalies observed in F1 pups (offspring of animals that received 
+minocycline) included reduced body size, improperly rotated forelimbs, and reduced size of extremities. MINOCYCLINE: pregnancy: No effects were observed on the physical development, behavior, learning
+ability, or reproduction of F1 pups, and there was no effect on gross appearance of F2 pups (offspring of F1 animals).         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: openfda: spl_id         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: openfda: product_ndc         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: openfda: spl_set_id         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: openfda: package_ndc         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: clinical_studies_table: <table width="100%"> <col width="14%"/> <col width="14%"/> <col width="15%"/> <col width="15%"/> <tbody> <tr> <td styleCode="Botrule Lrule Toprule " 
+valign="top"> <paragraph> <content styleCode="bold">Subject&#x2019;s Weight (lbs) </content> </paragraph> </td> <td styleCode="Botrule Lrule Toprule " valign="top"> <paragraph> <content 
+styleCode="bold">Subject&#x2019;s Weight (kg) </content> </paragraph> </td> <td styleCode="Botrule Lrule Toprule " valign="top"> <paragraph> <content styleCode="bold">Available Caplet Strength (mg) 
+</content> </paragraph> </td> <td styleCode="Rrule Botrule Lrule Toprule " valign="top"> <paragraph> <content styleCode="bold">Actual MINOCYCLINE: clinical_studies_table: mg/kg</content> </paragraph> 
+<paragraph> <content styleCode="bold">Dose </content> </paragraph> </td> </tr> <tr> <td align="center" styleCode="Lrule Botrule " valign="top"> <paragraph>99 &#x2013; 131</paragraph> </td> <td 
+align="center" styleCode="Lrule Botrule " valign="top"> <paragraph>45 &#x2013; 59</paragraph> </td> <td align="center" styleCode="Lrule Botrule " valign="top"> <paragraph>45</paragraph> </td> <td 
+align="center" styleCode="Rrule Lrule Botrule " valign="top"> <paragraph>1 &#x2013; 0. MINOCYCLINE: clinical_studies_table: 76</paragraph> </td> </tr> <tr> <td align="center" styleCode="Lrule Botrule 
+" valign="top"> <paragraph>132 &#x2013; 199</paragraph> </td> <td align="center" styleCode="Lrule Botrule " valign="top"> <paragraph>60 &#x2013; 90</paragraph> </td> <td align="center" 
+styleCode="Lrule Botrule " valign="top"> <paragraph>90</paragraph> </td> <td align="center" styleCode="Rrule Lrule Botrule " valign="top"> <paragraph>1. MINOCYCLINE: clinical_studies_table: 5 &#x2013;
+1</paragraph> </td> </tr> <tr> <td align="center" styleCode="Botrule Lrule " valign="top"> <paragraph>200 &#x2013; 300</paragraph> </td> <td align="center" styleCode="Botrule Lrule " valign="top"> 
+<paragraph>91 &#x2013; 136</paragraph> </td> <td align="center" styleCode="Botrule Lrule " valign="top"> <paragraph>135</paragraph> </td> <td align="center" styleCode="Rrule Botrule Lrule " 
+valign="top"> <paragraph>1.48 &#x2013; 0. MINOCYCLINE: clinical_studies_table: 99</paragraph> </td> </tr> </tbody> </table>         
+SOURCE:MINOCYCLINE label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT 
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?"
+  }
+}
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does MINOCYCLINE increase or decrease the risk 
+of mortality after myocardial infarction?
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?",
+    "drug": "MINOCYCLINE"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does MINOCYCLINE increase or decrease the risk of 
+mortality after myocardial infarction?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT 
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "MINOCYCLINE"
+  }
+}
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) MINOCYCLINE
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) MINOCYCLINE
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "MINOCYCLINE",
+    "drug": "MINOCYCLINE"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: MINOCYCLINE: openfda: brand_name         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: clinical_studies_table: 76</paragraph> </td> </tr> <tr> <td align="center" styleCode="Lrule Botrule " valign="top"> <paragraph>132 &#x2013; 199</paragraph> </td> <td 
+align="center" styleCode="Lrule Botrule " valign="top"> <paragraph>60 &#x2013; 90</paragraph> </td> <td align="center" styleCode="Lrule Botrule " valign="top"> <paragraph>90</paragraph> </td> <td 
+align="center" styleCode="Rrule Lrule Botrule " valign="top"> <paragraph>1. MINOCYCLINE: clinical_studies_table: 5 &#x2013; 1</paragraph> </td> </tr> <tr> <td align="center" styleCode="Botrule Lrule "
+valign="top"> <paragraph>200 &#x2013; 300</paragraph> </td> <td align="center" styleCode="Botrule Lrule " valign="top"> <paragraph>91 &#x2013; 136</paragraph> </td> <td align="center" 
+styleCode="Botrule Lrule " valign="top"> <paragraph>135</paragraph> </td> <td align="center" styleCode="Rrule Botrule Lrule " valign="top"> <paragraph>1.48 &#x2013; 0. MINOCYCLINE: 
+clinical_studies_table: 99</paragraph> </td> </tr> </tbody> </table>         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: openfda: manufacturer_name         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: spl_product_data_elements: Minocycline Hydrochloride Minocycline Hydrochloride MINOCYCLINE HYDROCHLORIDE MINOCYCLINE FERROSOFERRIC OXIDE SILICON DIOXIDE LACTOSE MONOHYDRATE 
+MAGNESIUM STEARATE TITANIUM DIOXIDE TRIACETIN FERRIC OXIDE YELLOW HYPROMELLOSE 2208 (15000 MPA.S) HYPROMELLOSE 2910 (15 MPA.S) capsule shaped I113 Minocycline Hydrochloride Minocycline Hydrochloride 
+MINOCYCLINE HYDROCHLORIDE MINOCYCLINE SILICON DIOXIDE LACTOSE MONOHYDRATE MAGNESIUM STEARATE TITANIUM DIOXIDE TRIACETIN FERRIC OXIDE YELLOW FD&C YELLOW NO. MINOCYCLINE: spl_product_data_elements: 6 
+FERRIC OXIDE RED HYPROMELLOSE 2208 (15000 MPA.S) HYPROMELLOSE 2910 (15 MPA.S) light capsule shaped I112 Minocycline Hydrochloride Minocycline Hydrochloride MINOCYCLINE HYDROCHLORIDE MINOCYCLINE 
+SILICON DIOXIDE LACTOSE MONOHYDRATE MAGNESIUM STEARATE TITANIUM DIOXIDE TRIACETIN FERRIC OXIDE YELLOW HYPROMELLOSE 2208 (15000 MPA.S) HYPROMELLOSE 2910 (15 MPA. MINOCYCLINE: spl_product_data_elements:
+) light capsule shaped I111         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: contraindications: 4 CONTRAINDICATIONS This drug is contraindicated in persons who have shown hypersensitivity to any of the tetracyclines. This drug is contraindicated in 
+persons who have shown hypersensitivity to any of the tetracyclines.         
+SOURCE:MINOCYCLINE label
+
+
+CONTENT: MINOCYCLINE: openfda: generic_name         
+SOURCE:MINOCYCLINE label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: Minocycline is a tetracycline antibiotic that is used to treat a variety of infections. It is contraindicated in persons who have shown hypersensitivity to any of the tetracyclines. It is also
+not recommended for use during pregnancy due to the potential for fetal harm, and it should be used with caution in nursing mothers and the elderly. The drug comes in various forms and strengths, and 
+its use includes treatment for inflammatory lesions of non-nodular moderate to severe acne vulgaris in patients 12 years and older.
+
+SOURCE: MINOCYCLINE label
+EXTRACT_START_END: MINOCYCLINE: contraindications: 4 CONTRAINDICATIONS ... to any of the tetracyclines.
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: Minocycline is a tetracycline antibiotic
+that is used to treat a variety of infections. It is contraindicated in persons who have shown hypersensitivity to any of the tetracyclines. It is also not recommended for use during pregnancy due to 
+the potential for fetal harm, and it should be used with caution in nursing mothers and the elderly. The drug comes in various forms and strengths, and its use includes treatment for inflammatory 
+lesions of non-nodular moderate to severe acne vulgaris in patients 12 years and older.
+
+SOURCE: MINOCYCLINE label
+EXTRACT_START_END: MINOCYCLINE: contraindications: 4 CONTRAINDICATIONS ... to any of the tetracyclines.
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?",
+    "steps": [
+      "I requested information from FDAHandler regarding the impact of MINOCYCLINE on mortality after myocardial infarction.",
+      "FDAHandler provided information about MINOCYCLINE, stating its uses and contraindications, but did not provide specific information regarding its impact on mortality after myocardial 
+infarction."
+    ],
+    "answer": "DO-NOT-KNOW"
+  }
+}
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?",
+    "steps": [
+      "I requested information from FDAHandler regarding the impact of MINOCYCLINE on mortality after myocardial infarction.",
+      "FDAHandler provided information about MINOCYCLINE, stating its uses and contraindications, but did not provide specific information regarding its impact on mortality after myocardial 
+infarction."
+    ],
+    "answer": "DO-NOT-KNOW",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does MINOCYCLINE increase or decrease the risk of mortality after myocardial infarction?
+        -----
+        Reasoning:
+        1. I requested information from FDAHandler regarding the impact of MINOCYCLINE on mortality after myocardial infarction.
+2. FDAHandler provided information about MINOCYCLINE, stating its uses and contraindications, but did not provide specific information regarding its impact on mortality after myocardial infarction.
+        -----
+        Final answer: DO-NOT-KNOW
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": ""
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Critic  Entity.USER(    Critic) (=>     AGENT) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "",
+    "request": "feedback"
+  }
+}
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) Your reasoning is valid, no feedback was 
+provided.
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.USER 
+ (orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-mortality after myocardial infarction-MINOCYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+
+The FDAHandler provided information about the uses and contraindications of MINOCYCLINE, which is a tetracycline antibiotic used to treat various infections. However, the FDAHandler did not provide 
+specific information regarding the impact of MINOCYCLINE on mortality after myocardial infarction. Therefore, based on the available FDA label data, I cannot determine whether MINOCYCLINE increases or
+decreases the risk of mortality after myocardial infarction.

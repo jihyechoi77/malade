@@ -1,0 +1,322 @@
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does DESIPRAMINE increase or decrease the risk
+of gastrointestinal ulcer hospitalization?
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.AGENT 
+*(orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does DESIPRAMINE increase or decrease the risk of gastrointestinal ulcer hospitalization?"
+  }
+}
+*(orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does DESIPRAMINE increase or decrease the risk
+of gastrointestinal ulcer hospitalization?
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does DESIPRAMINE increase or decrease the risk of gastrointestinal ulcer hospitalization?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does DESIPRAMINE increase or decrease the risk of gastrointestinal ulcer hospitalization?",
+    "drug": "desipramine"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: DESIPRAMINE: boxed_warning: Suicidality and Antidepressant Drugs Antidepressants increased the risk compared to placebo of suicidal thinking and behavior (suicidality) in children, 
+adolescents, and young adults in short-term studies of major depressive disorder (MDD) and other psychiatric disorders. Anyone considering the use of desipramine hydrochloride tablets or any other 
+antidepressant in a child, adolescent, or young adult must balance this risk with the clinical need. Short-term studies did not show an increase in the risk of suicidality with antidepressants 
+compared to placebo in adults beyond age 24; there was a reduction in risk with antidepressants compared to placebo in adults aged 65 and older. Depression and certain other psychiatric disorders are 
+themselves associated with increases in the risk of suicide. Patients of all ages who are started on antidepressant therapy should be monitored appropriately and observed closely for clinical 
+worsening, suicidality, or unusual changes in behavior. DESIPRAMINE: boxed_warning: Families and caregivers should be advised of the need for close observation and communication with the prescriber. 
+Desipramine hydrochloride is not approved for use in pediatric patients ( See WARNINGS: Clinical Worsening and Suicide Risk , PRECAUTIONS: Information for Patients , and PRECAUTIONS: Pediatric Use .  
+SOURCE:DESIPRAMINE label
+
+
+CONTENT: DESIPRAMINE: adverse_reactions: ADVERSE REACTIONS Included in the following listing are a few adverse reactions that have not been reported with this specific drug. However, the pharmacologic
+similarities among the tricyclic antidepressant drugs require that each of the reactions be considered when desipramine hydrochloride is given. Cardiovascular: Hypotension, hypertension, palpitations,
+heart block, myocardial infarction, stroke, arrhythmias, premature ventricular contractions, tachycardia, ventricular tachycardia, ventricular fibrillation, sudden death There has been a report of an 
+"acute collapse" and "sudden death" in an 8-year-old (18 kg) male, treated for 2 years for hyperactivity. DESIPRAMINE: adverse_reactions: There have been additional reports of sudden death in children
+( See PRECAUTIONS- Pediatric Use ) Psychiatric: Confusional states (especially in the elderly) with hallucinations, disorientation, delusions; anxiety, restlessness, agitation; insomnia and 
+nightmares; hypomania; exacerbation of psychosis Neurologic: Numbness, tingling, paresthesias of extremities; incoordination, ataxia, tremors; peripheral neuropathy; extrapyramidal symptoms; seizures;
+alterations in EEG patterns; tinnitus . Symptoms attributed to Neuroleptic Malignant Syndrome have been reported during desipramine use with and without concomitant neuroleptic therapy. DESIPRAMINE: 
+adverse_reactions: Anticholinergic: Dry mouth, and rarely associated sublingual adenitis; blurred vision, disturbance of accommodation, mydriasis, increased intraocular pressure; constipation, 
+paralytic ileus; urinary retention, delayed micturition, dilation of urinary tract Allergic: Skin rash, petechiae, urticaria, itching, photosensitization (avoid excessive exposure to sunlight), edema 
+(of face and tongue or general), drug fever, cross- sensitivity with other tricyclic drugs Hematologic: Bone marrow depressions including agranulocytosis, eosinophilia, purpura, thrombocytopenia 
+Gastrointestinal: Anorexia, nausea and vomiting, epigastric distress, peculiar taste, abdominal cramps, diarrhea, stomatitis, black tongue, hepatitis, jaundice (simulating obstructive), altered liver 
+function, elevated liver function tests, increased pancreatic enzymes Endocrine: Gynecomastia DESIPRAMINE: adverse_reactions: in the male, breast enlargement and galactorrhea in the female; increased 
+or decreased libido, impotence, painful ejaculation, testicular swelling; elevation or depression of blood sugar levels; syndrome of inappropriate antidiuretic hormone secretion (SIADH) Other: Weight 
+gain or loss; perspiration, flushing; urinary frequency, nocturia; parotid swelling; drowsiness, dizziness, proneness to falling, weakness and fatigue, headache; fever; alopecia; elevated alkaline 
+phosphatase Withdrawal Symptoms: Though not indicative of addiction, abrupt cessation of treatment after prolonged therapy may produce nausea, headache, and malaise. To report SUSPECTED ADVERSE 
+REACTIONS, contact Chartwell RX, LLC. at 1-845-232-1683 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.         
+SOURCE:DESIPRAMINE label
+
+
+CONTENT: DESIPRAMINE: warnings: WARNINGS Clinical Worsening and Suicide Risk Patients with major depressive disorder (MDD), both adult and pediatric, may experience worsening of their depression 
+and/or the emergence of suicidal ideation and behavior (suicidality) or unusual changes in behavior, whether or not they are taking antidepressant medications, and this risk may persist until 
+significant remission occurs. Suicide is a known risk of depression and certain other psychiatric disorders, and these disorders themselves are the strongest predictors of suicide. There has been a 
+long- standing concern, however, that antidepressants may have a role in inducing worsening of depression and the emergence of suicidality in certain patients during the early phases of treatment. 
+DESIPRAMINE: warnings: Pooled analyses of short-term placebo-controlled trials of antidepressant drugs (selective serotonin reuptake inhibitors [SSRIs] and others) showed that these drugs increase the
+risk of suicidal thinking and behavior (suicidality) in children, adolescents, and young adults (ages 18-24) with major depressive disorder (MDD) and other psychiatric disorders. Short-term studies 
+did not show an increase in the risk of suicidality with antidepressants compared to placebo in adults beyond age 24; there was a reduction with antidepressants compared to placebo in adults aged 65 
+and older. The pooled analyses of placebo-controlled trials in children and adolescents with MDD, obsessive compulsive disorder (OCD), or other psychiatric disorders included a total of 24 short-term 
+trials of 9 antidepressant drugs in over 4400 patients. DESIPRAMINE: warnings: The pooled analyses of placebo- controlled trials in adults with MDD or other psychiatric disorders included a total of 
+295 short-term trials (median duration of 2 months) of 11 antidepressant drugs in over 77,000 patients. There was considerable variation in risk of suicidality among drugs, but a tendency toward an 
+increase in the younger patients for almost all drugs studied. There were differences in absolute risk of suicidality across the different indications, with the highest incidence in MDD. The risk 
+differences (drug vs placebo), however, were relatively stable within age strata and across indications. These risk differences (drug-placebo difference in the number of cases of suicidality per 1000 
+patients treated) are provided in Table 1 . DESIPRAMINE: warnings: Table 1 Age Range Drug-Placebo Difference in Number of Cases of Suicidality per 1000 Patients Treated Increases Compared to Placebo 
+<18 14 additional cases 18-24 5 additional cases Decreases Compared to Placebo 25-64 1 fewer case ≥65 6 fewer cases No suicides occurred in any of the pediatric trials. There were suicides in the 
+adult trials, but the number was not sufficient to reach any conclusion about drug effect on suicide. It is unknown whether the suicidality risk extends to longer-term use, i.e., beyond several 
+months. However, there is substantial evidence from placebo-controlled maintenance trials in adults with depression that the use of antidepressants can delay the recurrence of depression. DESIPRAMINE:
+warnings: All patients being treated with antidepressants for any indication should be monitored appropriately and observed closely for clinical worsening, suicidality, and unusual changes in 
+behavior, especially during the initial few months of a course of drug therapy, or at times of dose changes, either increases or decreases. The following symptoms, anxiety, agitation, panic attacks, 
+insomnia, irritability, hostility, aggressiveness, impulsivity, akathisia (psychomotor restlessness), hypomania, and mania, have been reported in adult and pediatric patients being treated with 
+antidepressants for major depressive disorder as well as for other indications, both psychiatric and nonpsychiatric. Although a causal link between the emergence of such symptoms and either the 
+worsening of depression and/or the emergence of suicidal impulses has not been established, there is concern that such symptoms may represent precursors to emerging suicidality. DESIPRAMINE: warnings:
+Consideration should be given to changing the therapeutic regimen, including possibly discontinuing the medication, in patients whose depression is persistently worse, or who are experiencing emergent
+suicidality or symptoms that might be precursors to worsening depression or suicidality, especially if these symptoms are severe, abrupt in onset, or were not part of the patient's presenting 
+symptoms. Families and caregivers of patients being treated with antidepressants for major depressive disorder or other indications, both psychiatric and nonpsychiatric, should be alerted about the 
+need to monitor patients for the emergence of agitation, irritability, unusual changes in behavior, and the other symptoms described above, as well as the emergence of suicidality, and to report such 
+symptoms immediately to health care providers. Such monitoring should include daily observation by families and caregivers. Prescriptions for desipramine hydrochloride should be written for the 
+smallest quantity of tablets consistent with good patient management, in order to reduce the risk of overdose. DESIPRAMINE: warnings: Screening Patients for Bipolar Disorder: A major depressive 
+episode may be the initial presentation of bipolar disorder. It is generally believed (though not established in controlled trials) that treating such an episode with an antidepressant alone may 
+increase the likelihood of precipitation of a mixed/manic episode in patients at risk for bipolar disorder. Whether any of the symptoms described above represent such a conversion is unknown. However,
+prior to initiating treatment with an antidepressant, patients with depressive symptoms should be adequately screened to determine if they are at risk for bipolar disorder; such screening should 
+include a detailed psychiatric history, including a family history of suicide, bipolar disorder, and depression. It should be noted that desipramine hydrochloride is not approved for use in treating 
+bipolar depression. DESIPRAMINE: warnings: Serotonin Syndrome: The development of a potentially life-threatening serotonin syndrome has been reported with serotonin norepinephrine reuptake inhibitors 
+(SNRIs) and SSRIs, including desipramine hydrochloride, alone but particularly with concomitant use of other serotonergic drugs (including triptans, tricyclic antidepressants, fentanyl, lithium, 
+tramadol, tryptophan, buspirone, and St. John's Wort) and with drugs that impair metabolism of serotonin (in particular, MAOIs both those intended to treat psychiatric disorders and also others, such 
+as linezolid and intravenous methylene blue). Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., 
+tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular changes (e.g. DESIPRAMINE: warnings: tremor, rigidity, myoclonus, hyperreflexia, incoordination), 
+seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea). Patients should be monitored for the emergence of serotonin syndrome. The concomitant use of desipramine hydrochloride 
+with MAOIs intended to treat psychiatric disorders is contraindicated. Desipramine hydrochloride should also not be started in a patient who is being treated with MAOIs such as linezolid or 
+intravenous methylene blue. All reports with methylene blue that provided information on the route of administration involved intravenous administration in the dose range of 1 mg/kg to 8 mg/kg. No 
+reports involved the administration of methylene blue by other routes (such as oral tablets or local tissue injection) or at lower doses. DESIPRAMINE: warnings: There may be circumstances when it is 
+necessary to initiate treatment with an MAOI such as linezolid or intravenous methylene blue in a patient taking desipramine hydrochloride. Desipramine hydrochloride should be discontinued before 
+initiating treatment with the MAOI ( see CONTRAINDICATIONS and DOSAGE AND ADMINISTRATION ). If concomitant use of desipramine hydrochloride with other serotonergic drugs including triptans, tricyclic 
+antidepressants, fentanyl, lithium, tramadol, buspirone, tryptophan, and St. John's Wort is clinically warranted, patients should be made aware of a potential increased risk for serotonin syndrome 
+particularly during treatment initiation and dose increases. Treatment with desipramine hydrochloride and any concomitant serotonergic agents should be discontinued immediately if the above events 
+occur and supportive symptomatic treatment should be initiated. DESIPRAMINE: warnings: Angle-Closure Glaucoma: The pupillary dilation that occurs following use of many antidepressant drugs including 
+desipramine hydrochloride may trigger an angle closure attack in a patient with anatomically narrow angles who does not have a patent iridectomy. General Extreme caution should be used when this drug 
+is given in the following situations: In patients with cardiovascular disease, because of the possibility of conduction defects, arrhythmias, tachycardias, strokes, and acute myocardial infarction. In
+patients who have a family history of sudden death, cardiac dysrhythmias, or cardiac conduction disturbances. In patients with a history of urinary retention or glaucoma, because of the 
+anticholinergic properties of the drug. In patients with thyroid disease or those taking thyroid medication, because of the possibility of cardiovascular toxicity, including arrhythmias. In patients 
+with a history of seizure disorder, because this drug has been shown to lower the seizure threshold. DESIPRAMINE: warnings: Seizures precede cardiac dysrhythmias and death in some patients. This drug 
+is capable of blocking the antihypertensive effect of guanethidine and similarly acting compounds. The patient should be cautioned that this drug may impair the mental and/or physical abilities 
+required for the performance of potentially hazardous tasks such as driving a car or operating machinery. In patients who may use alcohol excessively, it should be borne in mind that the potentiation 
+may increase the danger inherent in any suicide attempt or overdosage. Pregnancy There is a pregnancy exposure registry that monitors pregnancy outcomes in woman exposed to antidepressants, including 
+desipramine hydrochloride tablets during pregnancy. Healthcare providers are encouraged to register patients by calling the National Pregnancy Registry for Antidepressants at 1-844-405-6185 or 
+visiting online at http://womensmentalhealth. DESIPRAMINE: warnings: /clinical-and-research- programs/pregnancyregistry/antidepressants Safe use of desipramine hydrochloride during pregnancy and 
+lactation has not been established; therefore, if it is to be given to pregnant patients, nursing mothers, or women of childbearing potential, the possible benefits must be weighed against the 
+possible hazards to mother and child. Animal reproductive studies have been inconclusive. Geriatric Use Clinical studies of desipramine hydrochloride did not include sufficient numbers of subjects 
+aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger 
+patients. Lower doses are recommended for elderly patients. ( See DOSAGE AND ADMINISTRATION .) The ratio of 2-hydroxydesipramine to desipramine may be increased in the elderly, most likely due to 
+decreased renal elimination with aging. DESIPRAMINE: warnings: This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients 
+with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. 
+Desipramine hydrochloride use in the elderly has been associated with a proneness to falling as well as confusional states (See ADVERSE REACTIONS .         
+SOURCE:DESIPRAMINE label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does DESIPRAMINE increase or decrease the risk of gastrointestinal ulcer hospitalization?",
+    "drug": "desipramine"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does DESIPRAMINE increase or decrease the risk of 
+gastrointestinal ulcer hospitalization?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.AGENT 
+*(orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does DESIPRAMINE increase or decrease the risk of gastrointestinal ulcer hospitalization?"
+  }
+}
+*(orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does DESIPRAMINE increase or decrease the risk
+of gastrointestinal ulcer hospitalization?
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does DESIPRAMINE increase or decrease the risk of gastrointestinal ulcer hospitalization?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does DESIPRAMINE increase or decrease the risk of gastrointestinal ulcer hospitalization?",
+    "drug": "desipramine"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: DESIPRAMINE: boxed_warning: Suicidality and Antidepressant Drugs Antidepressants increased the risk compared to placebo of suicidal thinking and behavior (suicidality) in children, 
+adolescents, and young adults in short-term studies of major depressive disorder (MDD) and other psychiatric disorders. Anyone considering the use of desipramine hydrochloride tablets or any other 
+antidepressant in a child, adolescent, or young adult must balance this risk with the clinical need. Short-term studies did not show an increase in the risk of suicidality with antidepressants 
+compared to placebo in adults beyond age 24; there was a reduction in risk with antidepressants compared to placebo in adults aged 65 and older. Depression and certain other psychiatric disorders are 
+themselves associated with increases in the risk of suicide. Patients of all ages who are started on antidepressant therapy should be monitored appropriately and observed closely for clinical 
+worsening, suicidality, or unusual changes in behavior. DESIPRAMINE: boxed_warning: Families and caregivers should be advised of the need for close observation and communication with the prescriber. 
+Desipramine hydrochloride is not approved for use in pediatric patients ( See WARNINGS: Clinical Worsening and Suicide Risk , PRECAUTIONS: Information for Patients , and PRECAUTIONS: Pediatric Use .  
+SOURCE:DESIPRAMINE label
+
+
+CONTENT: DESIPRAMINE: adverse_reactions: ADVERSE REACTIONS Included in the following listing are a few adverse reactions that have not been reported with this specific drug. However, the pharmacologic
+similarities among the tricyclic antidepressant drugs require that each of the reactions be considered when desipramine hydrochloride is given. Cardiovascular: Hypotension, hypertension, palpitations,
+heart block, myocardial infarction, stroke, arrhythmias, premature ventricular contractions, tachycardia, ventricular tachycardia, ventricular fibrillation, sudden death There has been a report of an 
+"acute collapse" and "sudden death" in an 8-year-old (18 kg) male, treated for 2 years for hyperactivity. DESIPRAMINE: adverse_reactions: There have been additional reports of sudden death in children
+( See PRECAUTIONS- Pediatric Use ) Psychiatric: Confusional states (especially in the elderly) with hallucinations, disorientation, delusions; anxiety, restlessness, agitation; insomnia and 
+nightmares; hypomania; exacerbation of psychosis Neurologic: Numbness, tingling, paresthesias of extremities; incoordination, ataxia, tremors; peripheral neuropathy; extrapyramidal symptoms; seizures;
+alterations in EEG patterns; tinnitus . Symptoms attributed to Neuroleptic Malignant Syndrome have been reported during desipramine use with and without concomitant neuroleptic therapy. DESIPRAMINE: 
+adverse_reactions: Anticholinergic: Dry mouth, and rarely associated sublingual adenitis; blurred vision, disturbance of accommodation, mydriasis, increased intraocular pressure; constipation, 
+paralytic ileus; urinary retention, delayed micturition, dilation of urinary tract Allergic: Skin rash, petechiae, urticaria, itching, photosensitization (avoid excessive exposure to sunlight), edema 
+(of face and tongue or general), drug fever, cross- sensitivity with other tricyclic drugs Hematologic: Bone marrow depressions including agranulocytosis, eosinophilia, purpura, thrombocytopenia 
+Gastrointestinal: Anorexia, nausea and vomiting, epigastric distress, peculiar taste, abdominal cramps, diarrhea, stomatitis, black tongue, hepatitis, jaundice (simulating obstructive), altered liver 
+function, elevated liver function tests, increased pancreatic enzymes Endocrine: Gynecomastia DESIPRAMINE: adverse_reactions: in the male, breast enlargement and galactorrhea in the female; increased 
+or decreased libido, impotence, painful ejaculation, testicular swelling; elevation or depression of blood sugar levels; syndrome of inappropriate antidiuretic hormone secretion (SIADH) Other: Weight 
+gain or loss; perspiration, flushing; urinary frequency, nocturia; parotid swelling; drowsiness, dizziness, proneness to falling, weakness and fatigue, headache; fever; alopecia; elevated alkaline 
+phosphatase Withdrawal Symptoms: Though not indicative of addiction, abrupt cessation of treatment after prolonged therapy may produce nausea, headache, and malaise. To report SUSPECTED ADVERSE 
+REACTIONS, contact Chartwell RX, LLC. at 1-845-232-1683 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.         
+SOURCE:DESIPRAMINE label
+
+
+CONTENT: DESIPRAMINE: warnings: WARNINGS Clinical Worsening and Suicide Risk Patients with major depressive disorder (MDD), both adult and pediatric, may experience worsening of their depression 
+and/or the emergence of suicidal ideation and behavior (suicidality) or unusual changes in behavior, whether or not they are taking antidepressant medications, and this risk may persist until 
+significant remission occurs. Suicide is a known risk of depression and certain other psychiatric disorders, and these disorders themselves are the strongest predictors of suicide. There has been a 
+long- standing concern, however, that antidepressants may have a role in inducing worsening of depression and the emergence of suicidality in certain patients during the early phases of treatment. 
+DESIPRAMINE: warnings: Pooled analyses of short-term placebo-controlled trials of antidepressant drugs (selective serotonin reuptake inhibitors [SSRIs] and others) showed that these drugs increase the
+risk of suicidal thinking and behavior (suicidality) in children, adolescents, and young adults (ages 18-24) with major depressive disorder (MDD) and other psychiatric disorders. Short-term studies 
+did not show an increase in the risk of suicidality with antidepressants compared to placebo in adults beyond age 24; there was a reduction with antidepressants compared to placebo in adults aged 65 
+and older. The pooled analyses of placebo-controlled trials in children and adolescents with MDD, obsessive compulsive disorder (OCD), or other psychiatric disorders included a total of 24 short-term 
+trials of 9 antidepressant drugs in over 4400 patients. DESIPRAMINE: warnings: The pooled analyses of placebo- controlled trials in adults with MDD or other psychiatric disorders included a total of 
+295 short-term trials (median duration of 2 months) of 11 antidepressant drugs in over 77,000 patients. There was considerable variation in risk of suicidality among drugs, but a tendency toward an 
+increase in the younger patients for almost all drugs studied. There were differences in absolute risk of suicidality across the different indications, with the highest incidence in MDD. The risk 
+differences (drug vs placebo), however, were relatively stable within age strata and across indications. These risk differences (drug-placebo difference in the number of cases of suicidality per 1000 
+patients treated) are provided in Table 1 . DESIPRAMINE: warnings: Table 1 Age Range Drug-Placebo Difference in Number of Cases of Suicidality per 1000 Patients Treated Increases Compared to Placebo 
+<18 14 additional cases 18-24 5 additional cases Decreases Compared to Placebo 25-64 1 fewer case ≥65 6 fewer cases No suicides occurred in any of the pediatric trials. There were suicides in the 
+adult trials, but the number was not sufficient to reach any conclusion about drug effect on suicide. It is unknown whether the suicidality risk extends to longer-term use, i.e., beyond several 
+months. However, there is substantial evidence from placebo-controlled maintenance trials in adults with depression that the use of antidepressants can delay the recurrence of depression. DESIPRAMINE:
+warnings: All patients being treated with antidepressants for any indication should be monitored appropriately and observed closely for clinical worsening, suicidality, and unusual changes in 
+behavior, especially during the initial few months of a course of drug therapy, or at times of dose changes, either increases or decreases. The following symptoms, anxiety, agitation, panic attacks, 
+insomnia, irritability, hostility, aggressiveness, impulsivity, akathisia (psychomotor restlessness), hypomania, and mania, have been reported in adult and pediatric patients being treated with 
+antidepressants for major depressive disorder as well as for other indications, both psychiatric and nonpsychiatric. Although a causal link between the emergence of such symptoms and either the 
+worsening of depression and/or the emergence of suicidal impulses has not been established, there is concern that such symptoms may represent precursors to emerging suicidality. DESIPRAMINE: warnings:
+Consideration should be given to changing the therapeutic regimen, including possibly discontinuing the medication, in patients whose depression is persistently worse, or who are experiencing emergent
+suicidality or symptoms that might be precursors to worsening depression or suicidality, especially if these symptoms are severe, abrupt in onset, or were not part of the patient's presenting 
+symptoms. Families and caregivers of patients being treated with antidepressants for major depressive disorder or other indications, both psychiatric and nonpsychiatric, should be alerted about the 
+need to monitor patients for the emergence of agitation, irritability, unusual changes in behavior, and the other symptoms described above, as well as the emergence of suicidality, and to report such 
+symptoms immediately to health care providers. Such monitoring should include daily observation by families and caregivers. Prescriptions for desipramine hydrochloride should be written for the 
+smallest quantity of tablets consistent with good patient management, in order to reduce the risk of overdose. DESIPRAMINE: warnings: Screening Patients for Bipolar Disorder: A major depressive 
+episode may be the initial presentation of bipolar disorder. It is generally believed (though not established in controlled trials) that treating such an episode with an antidepressant alone may 
+increase the likelihood of precipitation of a mixed/manic episode in patients at risk for bipolar disorder. Whether any of the symptoms described above represent such a conversion is unknown. However,
+prior to initiating treatment with an antidepressant, patients with depressive symptoms should be adequately screened to determine if they are at risk for bipolar disorder; such screening should 
+include a detailed psychiatric history, including a family history of suicide, bipolar disorder, and depression. It should be noted that desipramine hydrochloride is not approved for use in treating 
+bipolar depression. DESIPRAMINE: warnings: Serotonin Syndrome: The development of a potentially life-threatening serotonin syndrome has been reported with serotonin norepinephrine reuptake inhibitors 
+(SNRIs) and SSRIs, including desipramine hydrochloride, alone but particularly with concomitant use of other serotonergic drugs (including triptans, tricyclic antidepressants, fentanyl, lithium, 
+tramadol, tryptophan, buspirone, and St. John's Wort) and with drugs that impair metabolism of serotonin (in particular, MAOIs both those intended to treat psychiatric disorders and also others, such 
+as linezolid and intravenous methylene blue). Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., 
+tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular changes (e.g. DESIPRAMINE: warnings: tremor, rigidity, myoclonus, hyperreflexia, incoordination), 
+seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea). Patients should be monitored for the emergence of serotonin syndrome. The concomitant use of desipramine hydrochloride 
+with MAOIs intended to treat psychiatric disorders is contraindicated. Desipramine hydrochloride should also not be started in a patient who is being treated with MAOIs such as linezolid or 
+intravenous methylene blue. All reports with methylene blue that provided information on the route of administration involved intravenous administration in the dose range of 1 mg/kg to 8 mg/kg. No 
+reports involved the administration of methylene blue by other routes (such as oral tablets or local tissue injection) or at lower doses. DESIPRAMINE: warnings: There may be circumstances when it is 
+necessary to initiate treatment with an MAOI such as linezolid or intravenous methylene blue in a patient taking desipramine hydrochloride. Desipramine hydrochloride should be discontinued before 
+initiating treatment with the MAOI ( see CONTRAINDICATIONS and DOSAGE AND ADMINISTRATION ). If concomitant use of desipramine hydrochloride with other serotonergic drugs including triptans, tricyclic 
+antidepressants, fentanyl, lithium, tramadol, buspirone, tryptophan, and St. John's Wort is clinically warranted, patients should be made aware of a potential increased risk for serotonin syndrome 
+particularly during treatment initiation and dose increases. Treatment with desipramine hydrochloride and any concomitant serotonergic agents should be discontinued immediately if the above events 
+occur and supportive symptomatic treatment should be initiated. DESIPRAMINE: warnings: Angle-Closure Glaucoma: The pupillary dilation that occurs following use of many antidepressant drugs including 
+desipramine hydrochloride may trigger an angle closure attack in a patient with anatomically narrow angles who does not have a patent iridectomy. General Extreme caution should be used when this drug 
+is given in the following situations: In patients with cardiovascular disease, because of the possibility of conduction defects, arrhythmias, tachycardias, strokes, and acute myocardial infarction. In
+patients who have a family history of sudden death, cardiac dysrhythmias, or cardiac conduction disturbances. In patients with a history of urinary retention or glaucoma, because of the 
+anticholinergic properties of the drug. In patients with thyroid disease or those taking thyroid medication, because of the possibility of cardiovascular toxicity, including arrhythmias. In patients 
+with a history of seizure disorder, because this drug has been shown to lower the seizure threshold. DESIPRAMINE: warnings: Seizures precede cardiac dysrhythmias and death in some patients. This drug 
+is capable of blocking the antihypertensive effect of guanethidine and similarly acting compounds. The patient should be cautioned that this drug may impair the mental and/or physical abilities 
+required for the performance of potentially hazardous tasks such as driving a car or operating machinery. In patients who may use alcohol excessively, it should be borne in mind that the potentiation 
+may increase the danger inherent in any suicide attempt or overdosage. Pregnancy There is a pregnancy exposure registry that monitors pregnancy outcomes in woman exposed to antidepressants, including 
+desipramine hydrochloride tablets during pregnancy. Healthcare providers are encouraged to register patients by calling the National Pregnancy Registry for Antidepressants at 1-844-405-6185 or 
+visiting online at http://womensmentalhealth. DESIPRAMINE: warnings: /clinical-and-research- programs/pregnancyregistry/antidepressants Safe use of desipramine hydrochloride during pregnancy and 
+lactation has not been established; therefore, if it is to be given to pregnant patients, nursing mothers, or women of childbearing potential, the possible benefits must be weighed against the 
+possible hazards to mother and child. Animal reproductive studies have been inconclusive. Geriatric Use Clinical studies of desipramine hydrochloride did not include sufficient numbers of subjects 
+aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger 
+patients. Lower doses are recommended for elderly patients. ( See DOSAGE AND ADMINISTRATION .) The ratio of 2-hydroxydesipramine to desipramine may be increased in the elderly, most likely due to 
+decreased renal elimination with aging. DESIPRAMINE: warnings: This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients 
+with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. 
+Desipramine hydrochloride use in the elderly has been associated with a proneness to falling as well as confusional states (See ADVERSE REACTIONS .         
+SOURCE:DESIPRAMINE label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.AGENT 
+*(orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does DESIPRAMINE increase or decrease the risk of gastrointestinal ulcer hospitalization?"
+  }
+}
+*(orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does DESIPRAMINE increase or decrease the risk
+of gastrointestinal ulcer hospitalization?
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does DESIPRAMINE increase or decrease the risk of gastrointestinal ulcer hospitalization?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does DESIPRAMINE increase or decrease the risk of gastrointestinal ulcer hospitalization?",
+    "drug": "desipramine"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does DESIPRAMINE increase or decrease the risk of 
+gastrointestinal ulcer hospitalization?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.AGENT 
+*(orchestrator-gastrointestinal ulcer hospitalization-DESIPRAMINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) I have attempted to retrieve information 
+regarding the effect of Desipramine on the risk of gastrointestinal ulcer hospitalization from the FDAHandler multiple times, but have not received any information. This indicates that the FDA label 
+for Desipramine does not specify whether it increases or decreases the risk of gastrointestinal ulcer hospitalization. Therefore, I cannot provide a definitive answer to the question based on FDA 
+label data.
+
+<DONE> DO-NOT-KNOW
+
+The justification for this response is that the FDA label data, which FDAHandler uses to provide information, does not contain information about the relationship between Desipramine and the risk of 
+gastrointestinal ulcer hospitalization. As a result, we cannot determine whether Desipramine has an effect on this risk.

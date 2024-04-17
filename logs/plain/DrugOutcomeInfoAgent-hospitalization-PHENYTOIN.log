@@ -1,0 +1,608 @@
+ (orchestrator-hospitalization-PHENYTOIN)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does PHENYTOIN increase or decrease the risk of hospitalization?
+ (orchestrator-hospitalization-PHENYTOIN)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-PHENYTOIN)  Entity.AGENT 
+*(orchestrator-hospitalization-PHENYTOIN)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does PHENYTOIN increase or decrease the risk of hospitalization?"
+  }
+}
+*(orchestrator-hospitalization-PHENYTOIN)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does PHENYTOIN increase or decrease the risk of hospitalization?
+ (orchestrator-hospitalization-PHENYTOIN)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-PHENYTOIN)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-PHENYTOIN)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does PHENYTOIN increase or decrease the risk of hospitalization?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does PHENYTOIN increase or decrease the risk of hospitalization?",
+    "drug": "phenytoin"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: PHENYTOIN: pregnancy: 8.1 Pregnancy P regnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to antiepileptic drugs (AEDs), such 
+as Phenytoin Sodium Injection, during pregnancy. Physicians are advised to recommend that pregnant patients taking phenytoin enroll in the North American Antiepileptic Drug (NAAED) Pregnancy Registry.
+This can be done by calling the toll free number 1-888-233-2334, and must be done by patients themselves. Information on the registry can also be found at the website 
+http://www.aedpregnancyregistry.org/ . Risk Summary In humans, prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse developmental outcomes. Prenatal 
+phenytoin exposure is associated with an increased incidence of major malformations (including orofacial clefts and cardiac defects). PHENYTOIN: pregnancy: In addition, the fetal hydantoin syndrome a 
+pattern of abnormalities including dysmorphic skull and facial features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits has been reported among 
+children born to epileptic women who took phenytoin alone or in combination with other antiepileptic drugs during pregnancy  . There have been several reported cases of malignancies, including 
+neuroblastoma, in children whose mothers received phenytoin during pregnancy. Administration of phenytoin to pregnant animals resulted in an increased incidence of fetal malformations and other 
+manifestations of developmental toxicity (including embryofetal death, growth impairment, and behavioral abnormalities) in multiple species at clinically relevant doses . In the U.S. general 
+population, the estimated background risk of major birth defects and of miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively. PHENYTOIN: pregnancy: The background 
+risk of major birth defects and miscarriage for the indicated population is unknown. Clinical Considerations Disease-associated maternal risk An increase in seizure frequency may occur during 
+pregnancy because of altered phenytoin pharmacokinetics. Periodic measurement of serum phenytoin concentrations may be valuable in the management of pregnant women as a guide to appropriate adjustment
+of dosage  . However, postpartum restoration of the original dosage will probably be indicated. Fetal/Neonatal adverse reactions A potentially life-threatening bleeding disorder related to decreased 
+levels of vitamin K-dependent clotting factors may occur in newborns exposed to phenytoin in utero . This drug-induced condition can be prevented with vitamin K administration to the mother before 
+delivery and to the neonate after birth. Data Human Data Meta-analyses using data from published observational studies and registries have estimated an approximately 2. PHENYTOIN: pregnancy: 4-fold 
+increased risk for any major malformation in children with prenatal phenytoin exposure compared to controls. An increased risk of heart defects, facial clefts, and digital hypoplasia has been 
+reported. The fetal hydantion syndrome is a pattern of congenital anomalies including craniofacial anomalies, nail and digital hypoplasia, prenatal-onset growth deficiency, and neurodevelopmental 
+deficiencies. Animal Data Administration of phenytoin to pregnant rats, rabbits, and mice during organogenesis resulted in embryofetal death, fetal malformations, and decreased fetal growth 
+retardation. Malformations (including craniofacial, cardiovascular, neural, limb, and digit abnormalities) were observed in rats, rabbits, and mice at doses as low as 100, 75, and 12.5 mg/kg, 
+respectively.         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: geriatric_use: 8.5 Geriatric Use Phenytoin clearance tends to decrease with increasing age  . Lower or less frequent dosing may be required .         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: dosage_and_administration: When returned to oral administration, the dose should be reduced by 50% of the original oral dose for one week to prevent excessive serum levels due to 
+sustained release from intramuscular tissue sites. Monitoring serum levels would help prevent a fall into the subtherapeutic range. Serum blood level determinations are especially helpful when 
+possible drug interactions are suspected. 2.4 Parenteral Substitution for Oral Phenytoin Therapy When treatment with oral phenytoin is not possible, IV phenytoin can be substituted for oral phenytoin 
+at the same total daily dose. Phenytoin capsules are approximately 90% bioavailable by the oral route. Phenytoin is 100% bioavailable by the IV route. For this reason, serum phenytoin concentrations 
+may increase modestly when IV phenytoin is substituted for oral phenytoin sodium therapy. PHENYTOIN: dosage_and_administration: The rate of administration for IV phenytoin should be no greater than 50
+mg per minute in adults and 1 to 3 mg/kg/min (or 50 mg per minute, whichever is slower) in pediatric patients. When intramuscular administration may be required, a sufficient dose must be administered
+intramuscularly to maintain the serum level within the therapeutic range. Where oral dosage is resumed following intramuscular usage, the oral dose should be properly adjusted to compensate for the 
+slow, continuing IM absorption to minimize toxic symptoms . Serum concentrations should be monitored and care should be taken when switching a patient from the sodium salt to the free acid form. 
+Phenytoin Sodium Injection is formulated with the sodium salt of phenytoin. PHENYTOIN: dosage_and_administration: Because there is approximately an 8% increase in drug content with the free acid form 
+over that of the sodium salt, dosage adjustments and serum level monitoring may be necessary when switching from a product formulated with the free acid to a product formulated with the sodium salt 
+and vice versa. 2.5 Dosing in Patients with Renal or Hepatic Impairment or Hypoalbuminemia Because the fraction of unbound phenytoin is increased in patients with renal or hepatic disease, or in those
+with hypoalbuminemia, the monitoring of phenytoin serum levels should be based on the unbound fraction in those patients. 2.6 Dosing in Geriatrics Phenytoin clearance is decreased slightly in elderly 
+patients and lower or less frequent dosing may be required . 2. PHENYTOIN: dosage_and_administration: 7 Dosing During Pregnancy Decreased serum concentrations of phenytoin may occur during pregnancy 
+because of altered phenytoin pharmacokinetics. Periodic measurement of serum phenytoin concentrations should be performed during pregnancy, and the Phenytoin Sodium Injection dosage should be adjusted
+as necessary. Postpartum restoration of the original dosage will probably be indicated . Because of potential changes in protein binding during pregnancy, the monitoring of phenytoin serum levels 
+should be based on the unbound fraction. 2.8 Dosing in Pediatrics A loading dose of 15 to 20 mg/kg of Phenytoin Sodium Injection intravenously will usually produce serum concentrations of phenytoin 
+within the generally accepted serum total concentrations between 10 and 20 mcg/mL (unbound phenytoin concentrations of 1 to 2 mcg/mL). PHENYTOIN: dosage_and_administration: The drug should be injected
+slowly intravenously at a rate not exceeding 1 to 3 mg/kg/min or 50 mg per minute, whichever is slower.         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: drug_interactions: Neuromuscular blocking agents Cisatracurium, pancuronium, rocuronium and vecuronium: resistance to the neuromuscular blocking action of the nondepolarizing 
+neuromuscular blocking agents has occurred in patients chronically administered phenytoin. Whether or not phenytoin has the same effect on other non-depolarizing agents is unknown. Prevention or 
+Management : Patients should be monitored closely for more rapid recovery from neuromuscular blockade than expected, and infusion rate requirements may be higher. PHENYTOIN: drug_interactions: 
+Warfarin Increased and decreased PT/INR responses have been reported when phenytoin is coadministered with warfarin Other Corticosteroids, doxycycline, estrogens, furosemide, oral contraceptives, 
+paroxetine, quinidine, rifampin, sertraline, theophylline, and vitamin D Drugs whose level is decreased by phenytoin Antiepileptic drugs a Carbamazepine, felbamate, lamotrigine, topiramate, 
+oxcarbazepine Antilipidemic agents Atorvastatin, fluvastatin, simvastatin Antiviral agents Efavirenz, lopinavir/ritonavir, indinavir, nelfinavir, ritonavir, saquinavir Fosamprenavir: phenytoin when 
+given with fosamprenavir alone may PHENYTOIN: drug_interactions: decrease the concentration of amprenavir, the active metabolite. Phenytoin when given with the combination of fosamprenavir and 
+ritonavir may increase the concentration of amprenavir Calcium channel blockers Nifedipine, nimodipine, nisoldipine, verapamil Other Albendazole (decreases active metabolite), chlorpropamide, 
+clozapine, cyclosporine, digoxin, disopyramide, folic acid, methadone, mexiletine, praziquantel, quetiapine a The effect of phenytoin on phenobarbital, valproic acid and sodium valproate serum levels 
+is unpredictable 7.3 Drug/Laboratory Test Interactions Care should be taken when using immunoanalytical methods to measure serum phenytoin concentrations following fosphenytoin administration.        
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: openfda: spl_id         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: use_in_specific_populations: 8 USE IN SPECIFIC POPULATIONS Pregnancy: Prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse 
+developmental outcomes. ( 5.11 , 8.1 ) Renal and/or Hepatic Impairment or Hypoalbuminemia: Monitor unbound phenytoin concentrations in these patients. ( 8.6 ) 8.1 Pregnancy P regnancy Exposure 
+Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to antiepileptic drugs (AEDs), such as Phenytoin Sodium Injection, during pregnancy. Physicians are 
+advised to recommend that pregnant patients taking phenytoin enroll in the North American Antiepileptic Drug (NAAED) Pregnancy Registry. This can be done by calling the toll free number 
+1-888-233-2334, and must be done by patients themselves. PHENYTOIN: use_in_specific_populations: Information on the registry can also be found at the website http://www.aedpregnancyregistry.org/ . 
+Risk Summary In humans, prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse developmental outcomes. Prenatal phenytoin exposure is associated with an 
+increased incidence of major malformations (including orofacial clefts and cardiac defects). In addition, the fetal hydantoin syndrome a pattern of abnormalities including dysmorphic skull and facial 
+features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits has been reported among children born to epileptic women who took phenytoin alone or in 
+combination with other antiepileptic drugs during pregnancy  . There have been several reported cases of malignancies, including neuroblastoma, in children whose mothers received phenytoin during 
+pregnancy. PHENYTOIN: use_in_specific_populations: Administration of phenytoin to pregnant animals resulted in an increased incidence of fetal malformations and other manifestations of developmental 
+toxicity (including embryofetal death, growth impairment, and behavioral abnormalities) in multiple species at clinically relevant doses . In the U.S. general population, the estimated background risk
+of major birth defects and of miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively. The background risk of major birth defects and miscarriage for the indicated 
+population is unknown. Clinical Considerations Disease-associated maternal risk An increase in seizure frequency may occur during pregnancy because of altered phenytoin pharmacokinetics. Periodic 
+measurement of serum phenytoin concentrations may be valuable in the management of pregnant women as a guide to appropriate adjustment of dosage  . However, postpartum restoration of the original 
+dosage will probably be indicated.         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: warnings_and_cautions: In all cases of lymphadenopathy, follow-up observation for an extended period is indicated and every effort should be made to achieve seizure control using 
+alternative antiepileptic drugs. 5.8 Local Toxicity (Including Purple Glove Syndrome) Soft tissue irritation and inflammation has occurred at the site of injection with and without extravasation of 
+intravenous phenytoin. Edema, discoloration and pain distal to the site of injection (described as “purple glove syndrome”) have also been reported following peripheral intravenous phenytoin 
+injection. Soft tissue irritation may vary from slight tenderness to extensive necrosis, and sloughing. The syndrome may not develop for several days after injection. Although resolution of symptoms 
+may be spontaneous, skin necrosis and limb ischemia have occurred and required such interventions as fasciotomies, skin grafting, and, in rare cases, amputation. PHENYTOIN: warnings_and_cautions: 
+Because of the risk of local toxicity, intravenous Phenytoin Sodium Injection should be administered directly into a large peripheral or central vein through a large-gauge catheter. Prior to the 
+administration, the patency of the IV catheter should be tested with a flush of sterile saline. Each injection of parenteral Phenytoin Sodium Injection should then be followed by a flush of sterile 
+saline through the same catheter to avoid local venous irritation caused by the alkalinity of the solution. Intramuscular Phenytoin Sodium Injection administration may cause pain, necrosis, and 
+abscess formation at the injection site  . 5. PHENYTOIN: warnings_and_cautions: 9 Renal or Hepatic Impairment or Hypoalbuminemia Because the fraction of unbound phenytoin is increased in patients with
+renal or hepatic disease, or in those with hypoalbuminemia, the monitoring of phenytoin serum levels should be based on the unbound fraction in those patients. 5.10 Exacerbation of Porphyria In view 
+of isolated reports associating phenytoin with exacerbation of porphyria, caution should be exercised in using this medication in patients suffering from this disease. 5.11 Teratogenicity and Other 
+Harm to the Newborn Phenytoin Sodium Injection may cause fetal harm when administered to a pregnant woman. Prenatal exposure to phenytoin may increase the risks for congenital malformations and other 
+adverse developmental outcomes  . PHENYTOIN: warnings_and_cautions: Increased frequencies of major malformations (such as orofacial clefts and cardiac defects), and abnormalities characteristic of 
+fetal hydantoin syndrome, including dysmorphic skull and facial features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits, have been reported among 
+children born to epileptic women who took phenytoin alone or in combination with other antiepileptic drugs during pregnancy. There have been several reported cases of malignancies, including 
+neuroblastoma. A potentially life-threatening bleeding disorder related to decreased levels of vitamin K-dependent clotting factors may occur in newborns exposed to phenytoin in utero. This 
+drug-induced condition can be prevented with vitamin K administration to the mother before delivery and to the neonate after birth. 5.12 Hyperglycemia Hyperglycemia, resulting from the drug's 
+inhibitory effect on insulin release, has been reported. PHENYTOIN: warnings_and_cautions: Phenytoin may also raise the serum glucose level in diabetic patients. 5.13 Serum Phenytoin Levels Above 
+Therapeutic Range Serum levels of phenytoin sustained above the therapeutic range may produce confusional states referred to as "delirium", "psychosis", or "encephalopathy", or rarely irreversible 
+cerebellar dysfunction and/or cerebellar atrophy. Accordingly, at the first sign of acute toxicity, serum levels should be immediately checked. Dose reduction of phenytoin therapy is indicated if 
+serum levels are excessive; if symptoms persist, termination is recommended.         
+SOURCE:PHENYTOIN label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_extracts) FUNC: {
+  "name": "relevant_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does PHENYTOIN increase or decrease the risk of hospitalization?",
+    "filter_drugs": [
+      "phenytoin"
+    ]
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: PHENYTOIN: pregnancy: 8.1 Pregnancy P regnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to antiepileptic drugs (AEDs), such 
+as Phenytoin Sodium Injection, during pregnancy. Physicians are advised to recommend that pregnant patients taking phenytoin enroll in the North American Antiepileptic Drug (NAAED) Pregnancy Registry.
+This can be done by calling the toll free number 1-888-233-2334, and must be done by patients themselves. Information on the registry can also be found at the website 
+http://www.aedpregnancyregistry.org/ . Risk Summary In humans, prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse developmental outcomes. Prenatal 
+phenytoin exposure is associated with an increased incidence of major malformations (including orofacial clefts and cardiac defects). PHENYTOIN: pregnancy: In addition, the fetal hydantoin syndrome a 
+pattern of abnormalities including dysmorphic skull and facial features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits has been reported among 
+children born to epileptic women who took phenytoin alone or in combination with other antiepileptic drugs during pregnancy  . There have been several reported cases of malignancies, including 
+neuroblastoma, in children whose mothers received phenytoin during pregnancy. Administration of phenytoin to pregnant animals resulted in an increased incidence of fetal malformations and other 
+manifestations of developmental toxicity (including embryofetal death, growth impairment, and behavioral abnormalities) in multiple species at clinically relevant doses . In the U.S. general 
+population, the estimated background risk of major birth defects and of miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively. PHENYTOIN: pregnancy: The background 
+risk of major birth defects and miscarriage for the indicated population is unknown. Clinical Considerations Disease-associated maternal risk An increase in seizure frequency may occur during 
+pregnancy because of altered phenytoin pharmacokinetics. Periodic measurement of serum phenytoin concentrations may be valuable in the management of pregnant women as a guide to appropriate adjustment
+of dosage  . However, postpartum restoration of the original dosage will probably be indicated. Fetal/Neonatal adverse reactions A potentially life-threatening bleeding disorder related to decreased 
+levels of vitamin K-dependent clotting factors may occur in newborns exposed to phenytoin in utero . This drug-induced condition can be prevented with vitamin K administration to the mother before 
+delivery and to the neonate after birth. Data Human Data Meta-analyses using data from published observational studies and registries have estimated an approximately 2. PHENYTOIN: pregnancy: 4-fold 
+increased risk for any major malformation in children with prenatal phenytoin exposure compared to controls. An increased risk of heart defects, facial clefts, and digital hypoplasia has been 
+reported. The fetal hydantion syndrome is a pattern of congenital anomalies including craniofacial anomalies, nail and digital hypoplasia, prenatal-onset growth deficiency, and neurodevelopmental 
+deficiencies. Animal Data Administration of phenytoin to pregnant rats, rabbits, and mice during organogenesis resulted in embryofetal death, fetal malformations, and decreased fetal growth 
+retardation. Malformations (including craniofacial, cardiovascular, neural, limb, and digit abnormalities) were observed in rats, rabbits, and mice at doses as low as 100, 75, and 12.5 mg/kg, 
+respectively.         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: geriatric_use: 8.5 Geriatric Use Phenytoin clearance tends to decrease with increasing age  . Lower or less frequent dosing may be required .         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: dosage_and_administration: When returned to oral administration, the dose should be reduced by 50% of the original oral dose for one week to prevent excessive serum levels due to 
+sustained release from intramuscular tissue sites. Monitoring serum levels would help prevent a fall into the subtherapeutic range. Serum blood level determinations are especially helpful when 
+possible drug interactions are suspected. 2.4 Parenteral Substitution for Oral Phenytoin Therapy When treatment with oral phenytoin is not possible, IV phenytoin can be substituted for oral phenytoin 
+at the same total daily dose. Phenytoin capsules are approximately 90% bioavailable by the oral route. Phenytoin is 100% bioavailable by the IV route. For this reason, serum phenytoin concentrations 
+may increase modestly when IV phenytoin is substituted for oral phenytoin sodium therapy. PHENYTOIN: dosage_and_administration: The rate of administration for IV phenytoin should be no greater than 50
+mg per minute in adults and 1 to 3 mg/kg/min (or 50 mg per minute, whichever is slower) in pediatric patients. When intramuscular administration may be required, a sufficient dose must be administered
+intramuscularly to maintain the serum level within the therapeutic range. Where oral dosage is resumed following intramuscular usage, the oral dose should be properly adjusted to compensate for the 
+slow, continuing IM absorption to minimize toxic symptoms . Serum concentrations should be monitored and care should be taken when switching a patient from the sodium salt to the free acid form. 
+Phenytoin Sodium Injection is formulated with the sodium salt of phenytoin. PHENYTOIN: dosage_and_administration: Because there is approximately an 8% increase in drug content with the free acid form 
+over that of the sodium salt, dosage adjustments and serum level monitoring may be necessary when switching from a product formulated with the free acid to a product formulated with the sodium salt 
+and vice versa. 2.5 Dosing in Patients with Renal or Hepatic Impairment or Hypoalbuminemia Because the fraction of unbound phenytoin is increased in patients with renal or hepatic disease, or in those
+with hypoalbuminemia, the monitoring of phenytoin serum levels should be based on the unbound fraction in those patients. 2.6 Dosing in Geriatrics Phenytoin clearance is decreased slightly in elderly 
+patients and lower or less frequent dosing may be required . 2. PHENYTOIN: dosage_and_administration: 7 Dosing During Pregnancy Decreased serum concentrations of phenytoin may occur during pregnancy 
+because of altered phenytoin pharmacokinetics. Periodic measurement of serum phenytoin concentrations should be performed during pregnancy, and the Phenytoin Sodium Injection dosage should be adjusted
+as necessary. Postpartum restoration of the original dosage will probably be indicated . Because of potential changes in protein binding during pregnancy, the monitoring of phenytoin serum levels 
+should be based on the unbound fraction. 2.8 Dosing in Pediatrics A loading dose of 15 to 20 mg/kg of Phenytoin Sodium Injection intravenously will usually produce serum concentrations of phenytoin 
+within the generally accepted serum total concentrations between 10 and 20 mcg/mL (unbound phenytoin concentrations of 1 to 2 mcg/mL). PHENYTOIN: dosage_and_administration: The drug should be injected
+slowly intravenously at a rate not exceeding 1 to 3 mg/kg/min or 50 mg per minute, whichever is slower.         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: drug_interactions: Neuromuscular blocking agents Cisatracurium, pancuronium, rocuronium and vecuronium: resistance to the neuromuscular blocking action of the nondepolarizing 
+neuromuscular blocking agents has occurred in patients chronically administered phenytoin. Whether or not phenytoin has the same effect on other non-depolarizing agents is unknown. Prevention or 
+Management : Patients should be monitored closely for more rapid recovery from neuromuscular blockade than expected, and infusion rate requirements may be higher. PHENYTOIN: drug_interactions: 
+Warfarin Increased and decreased PT/INR responses have been reported when phenytoin is coadministered with warfarin Other Corticosteroids, doxycycline, estrogens, furosemide, oral contraceptives, 
+paroxetine, quinidine, rifampin, sertraline, theophylline, and vitamin D Drugs whose level is decreased by phenytoin Antiepileptic drugs a Carbamazepine, felbamate, lamotrigine, topiramate, 
+oxcarbazepine Antilipidemic agents Atorvastatin, fluvastatin, simvastatin Antiviral agents Efavirenz, lopinavir/ritonavir, indinavir, nelfinavir, ritonavir, saquinavir Fosamprenavir: phenytoin when 
+given with fosamprenavir alone may PHENYTOIN: drug_interactions: decrease the concentration of amprenavir, the active metabolite. Phenytoin when given with the combination of fosamprenavir and 
+ritonavir may increase the concentration of amprenavir Calcium channel blockers Nifedipine, nimodipine, nisoldipine, verapamil Other Albendazole (decreases active metabolite), chlorpropamide, 
+clozapine, cyclosporine, digoxin, disopyramide, folic acid, methadone, mexiletine, praziquantel, quetiapine a The effect of phenytoin on phenobarbital, valproic acid and sodium valproate serum levels 
+is unpredictable 7.3 Drug/Laboratory Test Interactions Care should be taken when using immunoanalytical methods to measure serum phenytoin concentrations following fosphenytoin administration.        
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: openfda: spl_id         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: use_in_specific_populations: 8 USE IN SPECIFIC POPULATIONS Pregnancy: Prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse 
+developmental outcomes. ( 5.11 , 8.1 ) Renal and/or Hepatic Impairment or Hypoalbuminemia: Monitor unbound phenytoin concentrations in these patients. ( 8.6 ) 8.1 Pregnancy P regnancy Exposure 
+Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to antiepileptic drugs (AEDs), such as Phenytoin Sodium Injection, during pregnancy. Physicians are 
+advised to recommend that pregnant patients taking phenytoin enroll in the North American Antiepileptic Drug (NAAED) Pregnancy Registry. This can be done by calling the toll free number 
+1-888-233-2334, and must be done by patients themselves. PHENYTOIN: use_in_specific_populations: Information on the registry can also be found at the website http://www.aedpregnancyregistry.org/ . 
+Risk Summary In humans, prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse developmental outcomes. Prenatal phenytoin exposure is associated with an 
+increased incidence of major malformations (including orofacial clefts and cardiac defects). In addition, the fetal hydantoin syndrome a pattern of abnormalities including dysmorphic skull and facial 
+features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits has been reported among children born to epileptic women who took phenytoin alone or in 
+combination with other antiepileptic drugs during pregnancy  . There have been several reported cases of malignancies, including neuroblastoma, in children whose mothers received phenytoin during 
+pregnancy. PHENYTOIN: use_in_specific_populations: Administration of phenytoin to pregnant animals resulted in an increased incidence of fetal malformations and other manifestations of developmental 
+toxicity (including embryofetal death, growth impairment, and behavioral abnormalities) in multiple species at clinically relevant doses . In the U.S. general population, the estimated background risk
+of major birth defects and of miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively. The background risk of major birth defects and miscarriage for the indicated 
+population is unknown. Clinical Considerations Disease-associated maternal risk An increase in seizure frequency may occur during pregnancy because of altered phenytoin pharmacokinetics. Periodic 
+measurement of serum phenytoin concentrations may be valuable in the management of pregnant women as a guide to appropriate adjustment of dosage  . However, postpartum restoration of the original 
+dosage will probably be indicated.         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN: warnings_and_cautions: In all cases of lymphadenopathy, follow-up observation for an extended period is indicated and every effort should be made to achieve seizure control using 
+alternative antiepileptic drugs. 5.8 Local Toxicity (Including Purple Glove Syndrome) Soft tissue irritation and inflammation has occurred at the site of injection with and without extravasation of 
+intravenous phenytoin. Edema, discoloration and pain distal to the site of injection (described as “purple glove syndrome”) have also been reported following peripheral intravenous phenytoin 
+injection. Soft tissue irritation may vary from slight tenderness to extensive necrosis, and sloughing. The syndrome may not develop for several days after injection. Although resolution of symptoms 
+may be spontaneous, skin necrosis and limb ischemia have occurred and required such interventions as fasciotomies, skin grafting, and, in rare cases, amputation. PHENYTOIN: warnings_and_cautions: 
+Because of the risk of local toxicity, intravenous Phenytoin Sodium Injection should be administered directly into a large peripheral or central vein through a large-gauge catheter. Prior to the 
+administration, the patency of the IV catheter should be tested with a flush of sterile saline. Each injection of parenteral Phenytoin Sodium Injection should then be followed by a flush of sterile 
+saline through the same catheter to avoid local venous irritation caused by the alkalinity of the solution. Intramuscular Phenytoin Sodium Injection administration may cause pain, necrosis, and 
+abscess formation at the injection site  . 5. PHENYTOIN: warnings_and_cautions: 9 Renal or Hepatic Impairment or Hypoalbuminemia Because the fraction of unbound phenytoin is increased in patients with
+renal or hepatic disease, or in those with hypoalbuminemia, the monitoring of phenytoin serum levels should be based on the unbound fraction in those patients. 5.10 Exacerbation of Porphyria In view 
+of isolated reports associating phenytoin with exacerbation of porphyria, caution should be exercised in using this medication in patients suffering from this disease. 5.11 Teratogenicity and Other 
+Harm to the Newborn Phenytoin Sodium Injection may cause fetal harm when administered to a pregnant woman. Prenatal exposure to phenytoin may increase the risks for congenital malformations and other 
+adverse developmental outcomes  . PHENYTOIN: warnings_and_cautions: Increased frequencies of major malformations (such as orofacial clefts and cardiac defects), and abnormalities characteristic of 
+fetal hydantoin syndrome, including dysmorphic skull and facial features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits, have been reported among 
+children born to epileptic women who took phenytoin alone or in combination with other antiepileptic drugs during pregnancy. There have been several reported cases of malignancies, including 
+neuroblastoma. A potentially life-threatening bleeding disorder related to decreased levels of vitamin K-dependent clotting factors may occur in newborns exposed to phenytoin in utero. This 
+drug-induced condition can be prevented with vitamin K administration to the mother before delivery and to the neonate after birth. 5.12 Hyperglycemia Hyperglycemia, resulting from the drug's 
+inhibitory effect on insulin release, has been reported. PHENYTOIN: warnings_and_cautions: Phenytoin may also raise the serum glucose level in diabetic patients. 5.13 Serum Phenytoin Levels Above 
+Therapeutic Range Serum levels of phenytoin sustained above the therapeutic range may produce confusional states referred to as "delirium", "psychosis", or "encephalopathy", or rarely irreversible 
+cerebellar dysfunction and/or cerebellar atrophy. Accordingly, at the first sign of acute toxicity, serum levels should be immediately checked. Dose reduction of phenytoin therapy is indicated if 
+serum levels are excessive; if symptoms persist, termination is recommended.         
+SOURCE:PHENYTOIN label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_extracts) FUNC: {
+  "name": "relevant_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does PHENYTOIN increase or decrease the risk of hospitalization?",
+    "filter_drugs": []
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: EXTENDED PHENYTOIN SODIUM: drug_interactions: John’s wort b , sucralfate, theophylline Drugs that may either increase or decrease phenytoin serum levels Antiepileptic drugs Phenobarbital, 
+valproate sodium c , valproic acid c a Antacids may affect absorption of phenytoin. b The induction potency of St. John’s wort may vary widely based on preparation. c Valproate sodium and valproic 
+acid are similar medications. The term valproate has been used to represent these medications. 7.2 Drugs Affected by Phenytoin Table 3 includes commonly occurring drug interactions affected by 
+phenytoin. However, this list is not intended to be inclusive or comprehensive. Individual drug package inserts should be consulted. The addition or withdrawal of phenytoin during concomitant therapy 
+with these agents may require adjustment of the dose of these agents to achieve optimal clinical outcome. EXTENDED PHENYTOIN SODIUM: drug_interactions: Table 3: Drugs Affected by Phenytoin Interacting
+Agent Examples Drugs whose efficacy is impaired by phenytoin Azoles Fluconazole, ketoconazole, itraconazole, posaconazole, voriconazole Antineoplastic agents Irinotecan, paclitaxel, teniposide 
+Delavirdine Phenytoin can substantially reduce the concentrations of delavirdine. This can lead to loss of virologic response and possible resistance . Neuromuscular blocking agents Cisatracurium, 
+pancuronium, rocuronium and vecuronium: resistance to the neuromuscular blocking action of the nondepolarizing neuromuscular blocking agents has occurred in patients chronically administered 
+phenytoin. Whether or not phenytoin has the same effect on other non-depolarizing agents is unknown. EXTENDED PHENYTOIN SODIUM: drug_interactions: Prevention or Management: Patients should be 
+monitored closely for more rapid recovery from neuromuscular blockade than expected, and infusion rate requirements may be higher. EXTENDED PHENYTOIN SODIUM: drug_interactions: Warfarin Increased and 
+decreased PT/INR responses have been reported when phenytoin is co-administered with warfarin Other Corticosteroids, doxycycline, estrogens, furosemide, oral contraceptives, paroxetine, quinidine, 
+rifampin, sertraline, theophylline, and vitamin D Drugs whose level is decreased by phenytoin Anticoagulants Apixaban, dabigatran, edoxaban, rivaroxaban Antiepileptic drugs a Carbamazepine, felbamate,
+lamotrigine, topiramate, oxcarbazepine, lacosamide Antilipidemic agents Atorvastatin, fluvastatin, simvastatin Antiplatelets Ticagrelor Antiviral agents Efavirenz, lopinavir/ritonavir, indinavir, 
+nelfin EXTENDED PHENYTOIN SODIUM: drug_interactions: avir, ritonavir, saquinavir Fosamprenavir: phenytoin when given with fosamprenavir alone may decrease the concentration of amprenavir, the active 
+metabolite. Phenytoin when given with the combination of fosamprenavir and ritonavir may increase the concentration of amprenavir Calcium channel blockers Nifedipine, nimodipine, nisoldipine, 
+verapamil Other Albendazole (decreases active metabolite), chlorpropamide, clozapine, cyclosporine, digoxin, disopyramide, folic acid, methadone, mexiletine, praziquantel, quetiapine a The effect of 
+phenytoin on phenobarbital, valproic acid and sodium valproate serum levels is unpredictable 7. EXTENDED PHENYTOIN SODIUM: drug_interactions: 3 Hyperammonemia with Concomitant Use of Valproate 
+Concomitant administration of phenytoin and valproate has been associated with an increased risk of valproate-associated hyperammonemia. Patients treated concomitantly with these two drugs should be 
+monitored for signs and symptoms of hyperammonemia. 7.4 Drug Enteral Feeding/Nutritional Preparations Interaction Literature reports suggest that patients who have received enteral feeding 
+preparations and/or related nutritional supplements have lower than expected phenytoin serum levels. It is therefore suggested that phenytoin not be administered concomitantly with an enteral feeding 
+preparation. More frequent serum phenytoin level monitoring may be necessary in these patients. 7.5 Drug/Laboratory Test Interactions Care should be taken when using immunoanalytical methods to 
+measure serum phenytoin concentrations.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: pregnancy: 8.1 Pregnancy Pregnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to antiepileptic drugs
+(AEDs), such as phenytoin sodium, during pregnancy. Physicians are advised to recommend that pregnant patients taking phenytoin sodium enroll in the North American Antiepileptic Drug (NAAED) Pregnancy
+Registry. This can be done by calling the toll free number 1-888-233-2334, and must be done by patients themselves. Information on the registry can also be found at the website 
+http://www.aedpregnancyregistry.org/ Risk Summary In humans, prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse developmental outcomes. Prenatal 
+phenytoin exposure is associated with an increased incidence of major malformations, including orofacial clefts and cardiac defects. EXTENDED PHENYTOIN SODIUM: pregnancy: In addition, the fetal 
+hydantoin syndrome, a pattern of abnormalities including dysmorphic skull and facial features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits has been
+reported among children born to epileptic women who took phenytoin alone or in combination with other antiepileptic drugs during pregnancy  . There have been several reported cases of malignancies, 
+including neuroblastoma, in children whose mothers received phenytoin during pregnancy. Administration of phenytoin to pregnant animals resulted in an increased incidence of fetal malformations and 
+other manifestations of developmental toxicity (including embryofetal death, growth impairment, and behavioral abnormalities) in multiple species at clinically relevant doses . In the U.S. general 
+population, the estimated background risk of major birth defects and of miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively. EXTENDED PHENYTOIN SODIUM: pregnancy:
+The background risk of major birth defects and miscarriage for the indicated population is unknown. Clinical Considerations Disease-associated maternal risk An increase in seizure frequency may occur 
+during pregnancy because of altered phenytoin pharmacokinetics. Periodic measurement of serum phenytoin concentrations may be valuable in the management of pregnant women as a guide to appropriate 
+adjustment of dosage  . However, postpartum restoration of the original dosage will probably be indicated . Fetal/Neonatal Adverse Reactions A potentially life-threatening bleeding disorder related to
+decreased levels of vitamin K-dependent clotting factors may occur in newborns exposed to phenytoin in utero . This drug-induced condition can be prevented with vitamin K administration to the mother 
+before delivery and to the neonate after birth. EXTENDED PHENYTOIN SODIUM: pregnancy: Data Human Data Meta-analyses using data from published observational studies and registries have estimated an 
+approximately 2.4-fold increased risk for any major malformation in children with prenatal phenytoin exposure compared to controls. An increased risk of heart defects, facial clefts, and digital 
+hypoplasia has been reported. The fetal hydantoin syndrome is a pattern of congenital anomalies including craniofacial anomalies, nail and digital hypoplasia, prenatal-onset growth deficiency, and 
+neurodevelopmental deficiencies. Animal Data Administration of phenytoin to pregnant rats, rabbits, and mice during organogenesis resulted in embryofetal death, fetal malformations, and decreased 
+fetal growth. Malformations (including craniofacial, cardiovascular, neural, limb, and digit abnormalities) were observed in rats, rabbits, and mice at doses as low as 100, 75, and 12.5 mg/kg, 
+respectively.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: PHENYTOIN: warnings_and_cautions: In all cases of lymphadenopathy, follow-up observation for an extended period is indicated and every effort should be made to achieve seizure control using 
+alternative antiepileptic drugs. 5.8 Local Toxicity (Including Purple Glove Syndrome) Soft tissue irritation and inflammation has occurred at the site of injection with and without extravasation of 
+intravenous phenytoin. Edema, discoloration and pain distal to the site of injection (described as “purple glove syndrome”) have also been reported following peripheral intravenous phenytoin 
+injection. Soft tissue irritation may vary from slight tenderness to extensive necrosis, and sloughing. The syndrome may not develop for several days after injection. Although resolution of symptoms 
+may be spontaneous, skin necrosis and limb ischemia have occurred and required such interventions as fasciotomies, skin grafting, and, in rare cases, amputation. PHENYTOIN: warnings_and_cautions: 
+Because of the risk of local toxicity, intravenous Phenytoin Sodium Injection should be administered directly into a large peripheral or central vein through a large-gauge catheter. Prior to the 
+administration, the patency of the IV catheter should be tested with a flush of sterile saline. Each injection of parenteral Phenytoin Sodium Injection should then be followed by a flush of sterile 
+saline through the same catheter to avoid local venous irritation caused by the alkalinity of the solution. Intramuscular Phenytoin Sodium Injection administration may cause pain, necrosis, and 
+abscess formation at the injection site  . 5. PHENYTOIN: warnings_and_cautions: 9 Renal or Hepatic Impairment or Hypoalbuminemia Because the fraction of unbound phenytoin is increased in patients with
+renal or hepatic disease, or in those with hypoalbuminemia, the monitoring of phenytoin serum levels should be based on the unbound fraction in those patients. 5.10 Exacerbation of Porphyria In view 
+of isolated reports associating phenytoin with exacerbation of porphyria, caution should be exercised in using this medication in patients suffering from this disease. 5.11 Teratogenicity and Other 
+Harm to the Newborn Phenytoin Sodium Injection may cause fetal harm when administered to a pregnant woman. Prenatal exposure to phenytoin may increase the risks for congenital malformations and other 
+adverse developmental outcomes  . PHENYTOIN: warnings_and_cautions: Increased frequencies of major malformations (such as orofacial clefts and cardiac defects), and abnormalities characteristic of 
+fetal hydantoin syndrome, including dysmorphic skull and facial features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits, have been reported among 
+children born to epileptic women who took phenytoin alone or in combination with other antiepileptic drugs during pregnancy. There have been several reported cases of malignancies, including 
+neuroblastoma. A potentially life-threatening bleeding disorder related to decreased levels of vitamin K-dependent clotting factors may occur in newborns exposed to phenytoin in utero. This 
+drug-induced condition can be prevented with vitamin K administration to the mother before delivery and to the neonate after birth. 5.12 Hyperglycemia Hyperglycemia, resulting from the drug's 
+inhibitory effect on insulin release, has been reported. PHENYTOIN: warnings_and_cautions: Phenytoin may also raise the serum glucose level in diabetic patients. 5.13 Serum Phenytoin Levels Above 
+Therapeutic Range Serum levels of phenytoin sustained above the therapeutic range may produce confusional states referred to as "delirium", "psychosis", or "encephalopathy", or rarely irreversible 
+cerebellar dysfunction and/or cerebellar atrophy. Accordingly, at the first sign of acute toxicity, serum levels should be immediately checked. Dose reduction of phenytoin therapy is indicated if 
+serum levels are excessive; if symptoms persist, termination is recommended.         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: CARBAMAZEPINE: drug_interactions: ( 4 ) Following co-administration of carbamazepine 400 mg/day with trazodone 100 mg to 300 mg daily, carbamazepine reduced trough plasma concentrations of 
+trazodone (as well as meta-chlorophenylpiperazine ) by 76 and 60% respectively, compared to precarbamazepine values. (5) Warfarin’s anticoagulant effect can be reduced in the presence of 
+carbamazepine. (6) Concomitant use of carbamazepine with rivaroxaban, apixaban, dabigatran, and edoxaban (direct acting oral anticoagulants) is expected to result in decreased plasma concentrations of
+these anticoagulants that may be insufficient to achieve the intended therapeutic effect. CARBAMAZEPINE: drug_interactions: In general, coadministration of carbamazepine with rivaroxaban, apixaban, 
+dabigatran, and edoxaban should be avoided. Thus, if a patient has been titrated to a stable dosage on one of the agents in this category, and then begins a course of treatment with carbamazepine 
+extended-release capsules, it is reasonable to expect that a dose increase for the concomitant agent may be necessary. Agents with Increased Levels in the Presence of Carbamazepine Carbamazepine 
+extended-release capsules increase the plasma levels of the following agents. Thus, if a patient has been titrated to a stable dosage on one of the agents in this category, and then begins a course of
+the treatment with carbamazepine extended-release capsules, it is reasonable to expect that a dose decrease for the concomitant agent may be necessary. CARBAMAZEPINE: drug_interactions: Clomipramine 
+HCl, Phenytoin( 7 ), and Primidone Carbamazepine extended-release capsules can increase the concentrations of clomipramine, phenytoin, and primidone. If a patient has been titrated to a stable dosage 
+on one of these agents in this category, and then begins treatment with carbamazepine extended-release capsules, it may be necessary to decrease the dose of these drugs. ( 7 )Phenytoin has also been 
+reported to decrease in the presence of carbamazepine. Careful monitoring of phenytoin plasma levels following co-medication with carbamazepine is advised. Cyclophosphamide Cyclophosphamide is an 
+inactive prodrug and is converted to its active metabolite in part by CYP3A. CARBAMAZEPINE: drug_interactions: The rate of metabolism and the leukopenic activity of cyclophosphamide are reportedly 
+increased by chronic co-administration of CYP3A4 inducers. There is a potential for increased cyclophosphamide toxicity when coadministered with carbamazepine. Pharmacological/Pharmacodynamic 
+Interactions with Carbamazepine: Delavirdine Coadministration of carbamazepine with delavirdine may lead to loss of virologic response and possible resistance to delavirdine or to the class of 
+non-nucleoside reverse transcriptase inhibitors (see CONTRAINDICATIONS ). Lithium Concomitant administration of carbamazepine and lithium may increase the risk of neurotoxic side effects. Thyroid 
+Effects with Other Anticonvulsant Medications Alterations of thyroid function have been reported in combination therapy with other anticonvulsant medications. CARBAMAZEPINE: drug_interactions: 
+Chloroquine and Mefloquine Anti-malarial drugs, such as chloroquine and mefloquine, may antagonize the activity of carbamazepine. Thus if a patient has been titrated to a stable dosage on one of the 
+agents in this category, and then begins a course of treatment with carbamazepine extended-release capsules, it is reasonable to expect that a dose adjustment may be necessary. CNS Depressants The 
+concomitant use of carbamazepine extended-release capsules and other CNS depressants can increase the risk of respiratory depression, profound sedation, hypotension, and syncope.         
+SOURCE:CARBAMAZEPINE label
+
+
+CONTENT: PHENYTOIN SODIUM: drug_interactions: Neuromuscular blocking agents Cisatracurium, pancuronium, rocuronium and vecuronium: resistance to the neuromuscular blocking action of the 
+nondepolarizing neuromuscular blocking agents has occurred in patients chronically administered phenytoin. Whether or not phenytoin has the same effect on other non-depolarizing agents is unknown. 
+Prevention or Management : Patients should be monitored closely for more rapid recovery from neuromuscular blockade than expected, and infusion rate requirements may be higher. PHENYTOIN SODIUM: 
+drug_interactions: Warfarin Increased and decreased PT/INR responses have been reported when phenytoin is coadministered with warfarin Other Corticosteroids, doxycycline, estrogens, furosemide, oral 
+contraceptives, paroxetine, quinidine, rifampin, sertraline, theophylline, and vitamin D Drugs whose level is decreased by phenytoin Antiepileptic drugs a Carbamazepine, felbamate, lamotrigine, 
+topiramate, oxcarbazepine Antilipidemic agents Atorvastatin, fluvastatin, simvastatin Antiviral agents Efavirenz, lopinavir/ritonavir, indinavir, nelfinavir, ritonavir, saquinavir Fosamprenavir: 
+phenytoin when given with fosamprenavir alone may PHENYTOIN SODIUM: drug_interactions: decrease the concentration of amprenavir, the active metabolite. Phenytoin when given with the combination of 
+fosamprenavir and ritonavir may increase the concentration of amprenavir Calcium channel blockers Nifedipine, nimodipine, nisoldipine, verapamil Other Albendazole (decreases active metabolite), 
+chlorpropamide, clozapine, cyclosporine, digoxin, disopyramide, folic acid, methadone, mexiletine, praziquantel, quetiapine a The effect of phenytoin on phenobarbital, valproic acid and sodium 
+valproate serum levels is unpredictable 7.3 Drug/Laboratory Test Interactions Care should be taken when using immunoanalytical methods to measure serum phenytoin concentrations following fosphenytoin 
+administration.         
+SOURCE:PHENYTOIN SODIUM label
+
+
+CONTENT: PHENYTOIN: openfda: spl_id         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: information_for_patients: 17 PATIENT COUNSELING INFORMATION Advise patients to read the FDA-approved patient labeling (Medication Guide). Administration Information
+Advise patients taking phenytoin of the importance of adhering strictly to the prescribed dosage regimen, and of informing the physician of any clinical condition in which it is not possible to take 
+the drug orally as prescribed, e.g., surgery, etc. Advise patients not to use capsules which are discolored. Withdrawal of Antiepileptic Drugs Advise patients not to discontinue use of phenytoin 
+without consulting with their healthcare provider. Phenytoin should normally be gradually withdrawn to reduce the potential for increased seizure frequency and status epilepticus  . EXTENDED PHENYTOIN
+SODIUM: information_for_patients: Suicidal Ideation and Behavior Counsel patients, their caregivers, and families that AEDs, including extended phenytoin sodium capsules, may increase the risk of 
+suicidal thoughts and behavior and advise them of the need to be alert for the emergence or worsening of symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal 
+thoughts, behavior, or thoughts about self-harm. Behaviors of concern should be reported immediately to healthcare providers  . Serious Dermatologic Reactions Advise patients of the early signs and 
+symptoms of severe cutaneous adverse reactions and to report any occurrence immediately to a physician  . EXTENDED PHENYTOIN SODIUM: information_for_patients: Potential Signs of Drug Reaction with 
+Eosinophilia and Systemic Symptoms (DRESS) and Other Systemic Reactions Advise patients of the early toxic signs and symptoms of potential hematologic, dermatologic, hypersensitivity, or hepatic 
+reactions. These symptoms may include, but are not limited to, fever, sore throat, rash, ulcers in the mouth, easy bruising, lymphadenopathy, facial swelling, and petechial or purpuric hemorrhage, and
+in the case of liver reactions, anorexia, nausea/vomiting, or jaundice. Advise the patient that, because these signs and symptoms may signal a serious reaction, that they must report any occurrence 
+immediately to a physician. In addition, advise the patient that these signs and symptoms should be reported even if mild or when occurring after extended use  . Cardiac Effects Counsel patients that 
+cases of bradycardia and cardiac arrest have been reported, both at recommended phenytoin doses and levels, and in association with phenytoin toxicity. Patients should report cardiac signs or symptoms
+to their healthcare provider  . Angioedema Advise patients to discontinue phenytoin sodium and seek immediate medical care if they develop signs or symptoms of angioedema, such as facial, perioral, or
+upper airway swelling  . Effects of Alcohol Use and Other Drugs and Over-the-Counter Drug Interactions Caution patients against the use of other drugs or alcoholic beverages without first seeking 
+their physician’s advice [ Drug Interactions (7.1 , 7.2 )] . Inform patients that certain over-the-counter medications (e.g.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: These events may be part of the spectrum of DRESS or may occur in isolation . Other common manifestations include jaundice, hepatomegaly, 
+elevated serum transaminase levels, leukocytosis, and eosinophilia. The clinical course of acute phenytoin hepatotoxicity ranges from prompt recovery to fatal outcomes. In these patients with acute 
+hepatotoxicity, phenytoin sodium should be immediately discontinued and not readministered. 5.9 Hematopoietic Complications Hematopoietic complications, some fatal, have occasionally been reported in 
+association with administration of phenytoin sodium. These have included thrombocytopenia, leukopenia, granulocytopenia, agranulocytosis, and pancytopenia with or without bone marrow suppression. 
+EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: There have been a number of reports suggesting a relationship between phenytoin and the development of lymphadenopathy (local or generalized) 
+including benign lymph node hyperplasia, pseudolymphoma, lymphoma, and Hodgkin’s disease. Although a cause and effect relationship has not been established, the occurrence of lymphadenopathy indicates
+the need to differentiate such a condition from other types of lymph node pathology. Lymph node involvement may occur with or without symptoms and signs of DRESS  . In all cases of lymphadenopathy, 
+follow-up observation for an extended period is indicated and every effort should be made to achieve seizure control using alternative antiepileptic drugs. 5.10 Effects on Vitamin D and Bone The 
+chronic use of phenytoin in patients with epilepsy has been associated with decreased bone mineral density (osteopenia, osteoporosis, and osteomalacia) and bone fractures. EXTENDED PHENYTOIN SODIUM: 
+warnings_and_cautions: Phenytoin induces hepatic metabolizing enzymes. This may enhance the metabolism of vitamin D and decrease vitamin D levels, which may lead to vitamin D deficiency, hypocalcemia,
+and hypophosphatemia. Consideration should be given to screening with bone-related laboratory and radiological tests as appropriate and initiating treatment plans according to established guidelines. 
+5.11 Renal or Hepatic Impairment or Hypoalbuminemia Because the fraction of unbound phenytoin is increased in patients with renal or hepatic disease, or in those with hypoalbuminemia, the monitoring 
+of phenytoin serum levels should be based on the unbound fraction in those patients. 5.12 Exacerbation of Porphyria In view of isolated reports associating phenytoin with exacerbation of porphyria, 
+caution should be exercised in using this medication in patients suffering from this disease. 5. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: 13 Teratogenicity and Other Harm to the Newborn 
+Phenytoin may cause fetal harm when administered to a pregnant woman. Prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse developmental outcomes . 
+Increased frequencies of major malformations (such as orofacial clefts and cardiac defects), and abnormalities characteristic of fetal hydantoin syndrome, including dysmorphic skull and facial 
+features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits, have been reported among children born to epileptic women who took phenytoin alone or in 
+combination with other antiepileptic drugs during pregnancy. There have been several reported cases of malignancies, including neuroblastoma. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: A 
+potentially life-threatening bleeding disorder related to decreased levels of vitamin K-dependent clotting factors may occur in newborns exposed to phenytoin in utero . This drug-induced condition can
+be prevented with vitamin K administration to the mother before delivery and to the neonate after birth. 5.14 Hyperglycemia Hyperglycemia, resulting from the drug’s inhibitory effects on insulin 
+release, has been reported. Phenytoin may also raise the serum glucose level in diabetic patients. 5.15 Serum Phenytoin Levels above Therapeutic Range Serum levels of phenytoin sustained above the 
+therapeutic range may produce confusional states referred to as “delirium,” “psychosis,” or “encephalopathy,” or rarely irreversible cerebellar dysfunction and/or cerebellar atrophy. Accordingly, at 
+the first sign of acute toxicity, serum levels should be immediately checked.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item><item>Stopping a seizure medicine suddenly can cause you to have seizures more often or seizures that will not stop (status 
+epilepticus).</item></list><paragraph><content styleCode="bold">2. Like other antiepileptic drugs,</content><content styleCode="bold">extended phenytoin sodium capsules may cause suicidal thoughts or 
+actions in a very small number of people, about 1 in 500. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: Call a healthcare provider right away if you have any of these symptoms, especially if they are
+new, worse, or worry you:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Thoughts about suicide or dying</item><item>New or worse anxiety</item><item>Trouble sleeping 
+(insomnia)</item><item>Acting on dangerous impulses</item><item>Attempts to commit suicide</item><item>Feeling agitated or restless</item><item>New or worse irritability</item><item>An extreme 
+increase in activity and talking (mania)</item><item>New or worse depression</item><item>Panic attacks</item><item>Acting aggressive, being angry, or violent</item><item>Other unusual changes in 
+behavior or mood</item></list><paragraph>Suicidal thoughts or actions can be caused by things other than medicines. If you have suicidal thoughts or actions, your healthcare provider may check for 
+other causes. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: paragraph><paragraph><content styleCode="bold">How can I watch for early symptoms of suicidal thoughts and 
+actions?</content></paragraph><list listType="unordered" styleCode="Disc"><item>Pay attention to any changes, especially sudden changes, in mood, behaviors, thoughts, or feelings.</item><item>Keep all
+follow-up visits with your healthcare provider as scheduled.</item></list><paragraph>Call your healthcare provider between visits as needed, especially if you are worried about 
+symptoms.</paragraph><paragraph><content styleCode="bold">3.</content><content styleCode="bold">Extended phenytoin sodium capsules can cause a type of serious allergic reaction that may affect 
+different parts of the body such as your liver, kidneys, blood, heart, skin or other parts of your body. These can be very serious and cause death. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: Call 
+your healthcare provider right away if you have any or all of these symptoms:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Fever</item><item>Sore throat</item><item>Not 
+wanting to eat (anorexia)</item><item>Rash</item><item>Sores in your mouth</item><item>Nausea</item><item>Swollen lymph glands</item><item>Bruise easily</item><item>Vomiting</item><item>Swelling of 
+your face, eye, lips, or tongue</item><item>Trouble swallowing or breathing</item><item>Purple or red spots on your skin</item><item>Increase infections</item><item>Yellowing of the skin and the white
+part of your eyes (jaundice)</item></list><paragraph>Call your healthcare provider even if the symptoms are mild or if you have been taking extended phenytoin sodium capsules for an extended EXTENDED 
+PHENYTOIN SODIUM: spl_medguide_table: period of time. These symptoms can be a sign of a serious allergic reaction.</paragraph><paragraph><content styleCode="bold">4. Extended phenytoin sodium capsules
+can cause problems with your heart, including a slow heartbeat. Let your healthcare provider know right away if you have any of these symptoms:</content></paragraph><list listType="unordered" 
+styleCode="Disc"><item>dizziness</item><item>tiredness</item><item>feeling like your heart is beating slowly or skipping beats</item><item>chest pain</item></list></td></tr><tr><td styleCode=" Botrule
+Toprule Lrule Rrule"><paragraph><content styleCode="bold">What are</content><content styleCode="bold">extended phenytoin sodium capsules?         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: ENALAPRIL MALEATE: indications_and_usage: INDICATIONS AND USAGE Hypertension Enalapril maleate tablets, USP are indicated for the treatment of hypertension. Enalapril maleate tablets, USP are
+effective alone or in combination with other antihypertensive agents, especially thiazide-type diuretics. The blood pressure lowering effects of enalapril maleate and thiazides are approximately 
+additive. Heart Failure Enalapril maleate tablets, USP are indicated for the treatment of symptomatic congestive heart failure, usually in combination with diuretics and digitalis. In these patients 
+enalapril maleate improves symptoms, increases survival, and decreases the frequency of hospitalization (see CLINICAL PHARMACOLOGY, Heart Failure, Mortality Trials for details and limitations of 
+survival trials). ENALAPRIL MALEATE: indications_and_usage: Asymptomatic Left Ventricular Dysfunction In clinically stable asymptomatic patients with left ventricular dysfunction (ejection fraction 
+≤35 percent), enalapril maleate tablets, USP decreases the rate of development of overt heart failure and decreases the incidence of hospitalization for heart failure (see CLINICAL PHARMACOLOGY, Heart
+Failure, Mortality Trials for details and limitations of survival trials). In using enalapril maleate, consideration should be given to the fact that another angiotensin-converting enzyme inhibitor, 
+captopril, has caused agranulocytosis, particularly in patients with renal impairment or collagen vascular disease, and that available data are insufficient to show that enalapril maleate does not 
+have a similar risk (see WARNINGS , Neutropenia/Agranulocytosis ). ENALAPRIL MALEATE: indications_and_usage: In considering use of enalapril maleate, it should be noted that in controlled clinical 
+trials ACE inhibitors have an effect on blood pressure that is less in black patients than in non-blacks. In addition, it should be noted that black patients receiving ACE inhibitors have been 
+reported to have a higher incidence of angioedema compared to non-blacks (see WARNINGS, Head and Neck Angioedema ).         
+SOURCE:ENALAPRIL MALEATE label
+
+
+CONTENT: PHENYTOIN: drug_interactions: Neuromuscular blocking agents Cisatracurium, pancuronium, rocuronium and vecuronium: resistance to the neuromuscular blocking action of the nondepolarizing 
+neuromuscular blocking agents has occurred in patients chronically administered phenytoin. Whether or not phenytoin has the same effect on other non-depolarizing agents is unknown. Prevention or 
+Management : Patients should be monitored closely for more rapid recovery from neuromuscular blockade than expected, and infusion rate requirements may be higher. PHENYTOIN: drug_interactions: 
+Warfarin Increased and decreased PT/INR responses have been reported when phenytoin is coadministered with warfarin Other Corticosteroids, doxycycline, estrogens, furosemide, oral contraceptives, 
+paroxetine, quinidine, rifampin, sertraline, theophylline, and vitamin D Drugs whose level is decreased by phenytoin Antiepileptic drugs a Carbamazepine, felbamate, lamotrigine, topiramate, 
+oxcarbazepine Antilipidemic agents Atorvastatin, fluvastatin, simvastatin Antiviral agents Efavirenz, lopinavir/ritonavir, indinavir, nelfinavir, ritonavir, saquinavir Fosamprenavir: phenytoin when 
+given with fosamprenavir alone may PHENYTOIN: drug_interactions: decrease the concentration of amprenavir, the active metabolite. Phenytoin when given with the combination of fosamprenavir and 
+ritonavir may increase the concentration of amprenavir Calcium channel blockers Nifedipine, nimodipine, nisoldipine, verapamil Other Albendazole (decreases active metabolite), chlorpropamide, 
+clozapine, cyclosporine, digoxin, disopyramide, folic acid, methadone, mexiletine, praziquantel, quetiapine a The effect of phenytoin on phenobarbital, valproic acid and sodium valproate serum levels 
+is unpredictable 7.3 Drug/Laboratory Test Interactions Care should be taken when using immunoanalytical methods to measure serum phenytoin concentrations following fosphenytoin administration.        
+SOURCE:PHENYTOIN label
+
+
+CONTENT: THIOTHIXENE: warnings: Neuroleptic Malignant Syndrome (NMS) A potentially fatal symptom complex sometimes referred to as Neuroleptic Malignant Syndrome (NMS) has been reported in association 
+with antipsychotic drugs, including thiothixene 2 . Clinical manifestations of NMS are hyperpyrexia, muscle rigidity, altered mental status and evidence of autonomic instability (irregular pulse or 
+blood pressure, tachycardia, diaphoresis, and cardiac dysrhythmias). The diagnostic evaluation of patients with this syndrome is complicated. In arriving at a diagnosis, it is important to identify 
+cases where the clinical presentation includes both serious medical illness (e.g., pneumonia, systemic infection, etc.) and untreated or inadequately treated extrapyramidal signs and symptoms (EPS). 
+Other important considerations in the differential diagnosis include central anticholinergic toxicity, heat stroke, drug fever and primary central nervous system (CNS) pathology. THIOTHIXENE: 
+warnings: The management of NMS should include 1) immediate discontinuation of antipsychotic drugs and other drugs not essential to concurrent therapy, 2) intensive symptomatic treatment and medical 
+monitoring, and 3) treatment of any concomitant serious medical problems for which specific treatments are available. There is no general agreement about specific pharmacological treatment regimens 
+for uncomplicated NMS. If a patient requires antipsychotic drug treatment after recovery from NMS, the potential reintroduction of drug therapy should be carefully considered. The patient should be 
+carefully monitored, since recurrences of NMS have been reported. Pregnancy Safe use of thiothixene during pregnancy has not been established. Therefore, this drug should be given to pregnant patients
+only when, in the judgment of the physician, the expected benefits from the treatment exceed the possible risks to mother and fetus. THIOTHIXENE: warnings: Non-teratogenic Effects Neonates exposed to 
+antipsychotic drugs, during the third trimester of pregnancy are at risk for extrapyramidal and/or withdrawal symptoms following delivery. There have been reports of agitation, hypertonia, hypotonia, 
+tremor, somnolence, respiratory distress and feeding disorder in these neonates. These complications have varied in severity; while in some cases symptoms have been self-limited, in other cases 
+neonates have required intensive care unit support and prolonged hospitalization. Thiothixene should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. 
+Animal reproduction studies and clinical experience to date have not demonstrated any teratogenic effects. In the animal reproduction studies with thiothixene, there was some decrease in conception 
+rate and litter size, and an increase in resorption rate in rats and rabbits. Similar findings have been reported with other psychotropic agents. THIOTHIXENE: warnings: After repeated oral 
+administration of thiothixene to rats (5 to 15 mg/kg/day), rabbits (3 to 50 mg/kg/day), and monkeys (1 to 3 mg/kg/day) before and during gestation, no teratogenic effects were seen. Usage in Children 
+The use of thiothixene in children under 12 years of age is not recommended because safe conditions for its use have not been established. As is true with many CNS drugs, thiothixene may impair the 
+mental and/or physical abilities required for the performance of potentially hazardous tasks such as driving a car or operating machinery, especially during the first few days of therapy. Therefore, 
+the patient should be cautioned accordingly. As in the case of other CNS-acting drugs, patients receiving thiothixene should be cautioned about the possible additive effects (which may include 
+hypotension) with CNS depressants and with alcohol.         
+SOURCE:THIOTHIXENE label
+
+
+CONTENT: PHENYTOIN: pregnancy: 8.1 Pregnancy P regnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to antiepileptic drugs (AEDs), such 
+as Phenytoin Sodium Injection, during pregnancy. Physicians are advised to recommend that pregnant patients taking phenytoin enroll in the North American Antiepileptic Drug (NAAED) Pregnancy Registry.
+This can be done by calling the toll free number 1-888-233-2334, and must be done by patients themselves. Information on the registry can also be found at the website 
+http://www.aedpregnancyregistry.org/ . Risk Summary In humans, prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse developmental outcomes. Prenatal 
+phenytoin exposure is associated with an increased incidence of major malformations (including orofacial clefts and cardiac defects). PHENYTOIN: pregnancy: In addition, the fetal hydantoin syndrome a 
+pattern of abnormalities including dysmorphic skull and facial features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits has been reported among 
+children born to epileptic women who took phenytoin alone or in combination with other antiepileptic drugs during pregnancy  . There have been several reported cases of malignancies, including 
+neuroblastoma, in children whose mothers received phenytoin during pregnancy. Administration of phenytoin to pregnant animals resulted in an increased incidence of fetal malformations and other 
+manifestations of developmental toxicity (including embryofetal death, growth impairment, and behavioral abnormalities) in multiple species at clinically relevant doses . In the U.S. general 
+population, the estimated background risk of major birth defects and of miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively. PHENYTOIN: pregnancy: The background 
+risk of major birth defects and miscarriage for the indicated population is unknown. Clinical Considerations Disease-associated maternal risk An increase in seizure frequency may occur during 
+pregnancy because of altered phenytoin pharmacokinetics. Periodic measurement of serum phenytoin concentrations may be valuable in the management of pregnant women as a guide to appropriate adjustment
+of dosage  . However, postpartum restoration of the original dosage will probably be indicated. Fetal/Neonatal adverse reactions A potentially life-threatening bleeding disorder related to decreased 
+levels of vitamin K-dependent clotting factors may occur in newborns exposed to phenytoin in utero . This drug-induced condition can be prevented with vitamin K administration to the mother before 
+delivery and to the neonate after birth. Data Human Data Meta-analyses using data from published observational studies and registries have estimated an approximately 2. PHENYTOIN: pregnancy: 4-fold 
+increased risk for any major malformation in children with prenatal phenytoin exposure compared to controls. An increased risk of heart defects, facial clefts, and digital hypoplasia has been 
+reported. The fetal hydantion syndrome is a pattern of congenital anomalies including craniofacial anomalies, nail and digital hypoplasia, prenatal-onset growth deficiency, and neurodevelopmental 
+deficiencies. Animal Data Administration of phenytoin to pregnant rats, rabbits, and mice during organogenesis resulted in embryofetal death, fetal malformations, and decreased fetal growth 
+retardation. Malformations (including craniofacial, cardiovascular, neural, limb, and digit abnormalities) were observed in rats, rabbits, and mice at doses as low as 100, 75, and 12.5 mg/kg, 
+respectively.         
+SOURCE:PHENYTOIN label
+
+
+CONTENT: PHENYTOIN SODIUM: pregnancy: 8.1 Pregnancy P regnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to antiepileptic drugs (AEDs),
+such as Phenytoin Sodium Injection, during pregnancy. Physicians are advised to recommend that pregnant patients taking phenytoin enroll in the North American Antiepileptic Drug (NAAED) Pregnancy 
+Registry. This can be done by calling the toll free number 1-888-233-2334, and must be done by patients themselves. Information on the registry can also be found at the website 
+http://www.aedpregnancyregistry.org/ . Risk Summary In humans, prenatal exposure to phenytoin may increase the risks for congenital malformations and other adverse developmental outcomes. Prenatal 
+phenytoin exposure is associated with an increased incidence of major malformations (including orofacial clefts and cardiac defects). PHENYTOIN SODIUM: pregnancy: In addition, the fetal hydantoin 
+syndrome a pattern of abnormalities including dysmorphic skull and facial features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive deficits has been reported 
+among children born to epileptic women who took phenytoin alone or in combination with other antiepileptic drugs during pregnancy  . There have been several reported cases of malignancies, including 
+neuroblastoma, in children whose mothers received phenytoin during pregnancy. Administration of phenytoin to pregnant animals resulted in an increased incidence of fetal malformations and other 
+manifestations of developmental toxicity (including embryofetal death, growth impairment, and behavioral abnormalities) in multiple species at clinically relevant doses . In the U.S. general 
+population, the estimated background risk of major birth defects and of miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively. PHENYTOIN SODIUM: pregnancy: The 
+background risk of major birth defects and miscarriage for the indicated population is unknown. Clinical Considerations Disease-associated maternal risk An increase in seizure frequency may occur 
+during pregnancy because of altered phenytoin pharmacokinetics. Periodic measurement of serum phenytoin concentrations may be valuable in the management of pregnant women as a guide to appropriate 
+adjustment of dosage  . However, postpartum restoration of the original dosage will probably be indicated. Fetal/Neonatal adverse reactions A potentially life-threatening bleeding disorder related to 
+decreased levels of vitamin K-dependent clotting factors may occur in newborns exposed to phenytoin in utero . This drug-induced condition can be prevented with vitamin K administration to the mother 
+before delivery and to the neonate after birth. Data Human Data Meta-analyses using data from published observational studies and registries have estimated an approximately 2. PHENYTOIN SODIUM: 
+pregnancy: 4-fold increased risk for any major malformation in children with prenatal phenytoin exposure compared to controls. An increased risk of heart defects, facial clefts, and digital hypoplasia
+has been reported. The fetal hydantion syndrome is a pattern of congenital anomalies including craniofacial anomalies, nail and digital hypoplasia, prenatal-onset growth deficiency, and 
+neurodevelopmental deficiencies. Animal Data Administration of phenytoin to pregnant rats, rabbits, and mice during organogenesis resulted in embryofetal death, fetal malformations, and decreased 
+fetal growth retardation. Malformations (including craniofacial, cardiovascular, neural, limb, and digit abnormalities) were observed in rats, rabbits, and mice at doses as low as 100, 75, and 12.5 
+mg/kg, respectively.         
+SOURCE:PHENYTOIN SODIUM label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER 
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(DocumentHandler) (=>          ) (X           )       (          ) 
+                Try a web search using the `relevant_search_extracts` tool,
+                to see if it can help answer the question.
+                
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does PHENYTOIN increase or decrease the risk of hospitalization?",
+    "drug": "phenytoin"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does PHENYTOIN increase or decrease the risk of 
+hospitalization?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-hospitalization-PHENYTOIN)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hospitalization-PHENYTOIN)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-hospitalization-PHENYTOIN)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hospitalization-PHENYTOIN)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hospitalization-PHENYTOIN)  Entity.AGENT 
+*(orchestrator-hospitalization-PHENYTOIN)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) I have asked FDAHandler about the effects of phenytoin on the risk of 
+hospitalization. However, the FDA label data does not specify whether phenytoin increases or decreases the risk of hospitalization. Therefore, without this specific information, I cannot provide a 
+definitive answer to the question.
+
+<DONE> DO-NOT-KNOW
+
+The justification for this response is that the FDA label data, which is the source of information I have access to for this inquiry, does not contain details on the risk of hospitalization associated
+with the use of phenytoin. Consequently, I cannot determine whether phenytoin increases or decreases the risk of hospitalization based on the available data.

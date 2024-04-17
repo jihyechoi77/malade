@@ -1,0 +1,416 @@
+ (orchestrator-renal failure-LORAZEPAM)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does LORAZEPAM increase or decrease the risk of renal failure?
+ (orchestrator-renal failure-LORAZEPAM)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-LORAZEPAM)  Entity.AGENT 
+*(orchestrator-renal failure-LORAZEPAM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "LORAZEPAM"
+  }
+}
+*(orchestrator-renal failure-LORAZEPAM)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) LORAZEPAM
+ (orchestrator-renal failure-LORAZEPAM)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-LORAZEPAM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-LORAZEPAM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) LORAZEPAM
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_extracts) FUNC: {
+  "name": "relevant_extracts",
+  "to": "",
+  "arguments": {
+    "query": "LORAZEPAM",
+    "filter_drugs": [
+      "LORAZEPAM"
+    ]
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: LORAZEPAM: openfda: brand_name         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: description: DESCRIPTION Lorazepam USP, an antianxiety agent, has the chemical formula, 7-chloro-5-( o -chlorophenyl)-1,3‑-dihydro-3-hydroxy-2 H -1,4-benzodiazepin-2-one: It is a 
+nearly white powder almost insoluble in water. Each lorazepam tablet, USP to be taken orally, contains 0.5 mg, 1 mg, or 2 mg of lorazepam, USP. The inactive ingredients present are anhydrous lactose, 
+magnesium stearate, microcrystalline cellulose, and polacrilin potassium. LORAZEPAM: description: Chemical Structure         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: openfda: pharm_class_cs         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: spl_medguide: • Serious side effects including coma and death have happened in people who have abused or misused benzodiazepines, including lorazepam tablets. These serious side 
+effects may also include delirium, paranoia, suicidal thoughts or actions, seizures, and difficulty breathing. Call your healthcare provider or go to the nearest hospital emergency room right away if 
+you get any of these serious side effects. • You can develop an addiction even if you take lorazepam tablets exactly as prescribed by your healthcare provider. • Take lorazepam tablets exactly as your
+healthcare provider prescribed. • Do not share your lorazepam tablets with other people. • Keep lorazepam tablets in a safe place and away from children. • Physical dependence and withdrawal 
+reactions. Lorazepam tablets can cause physical dependence and withdrawal reactions. • Do not suddenly stop taking lorazepam tablets. LORAZEPAM: spl_medguide: Stopping lorazepam tablets suddenly can 
+cause serious and life-threatening side effects, including, unusual movements, responses or expressions, seizures, sudden and severe mental or nervous system changes, depression, seeing or hearing 
+things that others do not see or hear, an extreme increase in activity or talking, losing touch with reality, and suicidal thoughts or actions. Call your healthcare provider or go to the nearest 
+hospital emergency room right away if you get any of these symptoms. • Some people who suddenly stop benzodiazepines have symptoms that can last for several weeks to more than 12 months, including 
+anxiety, trouble remembering, learning, or concentrating, depression, problems sleeping, feeling like insects are crawling under your skin, weakness, shaking, muscle twitching, burning or prickling 
+feeling in your hands, arms, legs or feet, and ringing in your ears. • Physical dependence is not the same as drug addiction. Your healthcare provider can tell you more about the differences between 
+physical dependence and drug addiction. LORAZEPAM: spl_medguide: • Do not take more lorazepam tablets than prescribed or take lorazepam tablets for longer than prescribed. What are lorazepam tablets? 
+• Lorazepam tablets are a prescription medicine used: • to treat anxiety disorders • for the short-term relief of the symptoms of anxiety or anxiety that can happen with symptoms of depression • 
+Lorazepam tablets are a federal controlled substance (CIV) because it contains lorazepam that can be abused or lead to dependence. Keep lorazepam tablets in a safe place to prevent misuse and abuse. 
+Selling or giving away lorazepam tablets may harm others, and is against the law. Tell your healthcare provider if you have abused or been dependent on alcohol, prescription medicines or street drugs.
+• It is not known if lorazepam tablets are safe and effective for use in children less than 12 years of age. • It is not known if lorazepam tablets are safe and effective for use for longer than 4 
+months. LORAZEPAM: spl_medguide: Do not take lorazepam tablets if you: • are allergic to lorazepam, other benzodiazepines, or any of the ingredients in lorazepam tablets. See the end of this 
+Medication Guide for a complete list of ingredients in lorazepam tablets. Before you take lorazepam tablets, tell your healthcare provider about all of your medical conditions, including if you: • 
+have or have had depression, mood problems, or suicidal thoughts or behavior • have a history of drug or alcohol abuse or addiction • have lung disease or breathing problems (such as COPD, sleep apnea
+syndrome) • have liver or kidney problems • have or have had seizures • are pregnant or plan to become pregnant. • Taking lorazepam tablets late in pregnancy may cause your baby to have symptoms of 
+sedation (breathing problems, sluggishness, low muscle tone), and/or withdrawal symptoms (jitteriness, irritability, restlessness, shaking, excessive crying, feeding problems). LORAZEPAM: 
+spl_medguide: • Tell your healthcare provider right away if you become pregnant or think you are pregnant during treatment with lorazepam tablets. • There is a pregnancy registry for women who take 
+lorazepam tablets during pregnancy. The purpose of the registry is to collect information about the health of you and your baby. If you become pregnant during treatment with lorazepam tablets, talk to
+your healthcare provider about registering with the National Pregnancy Registry for Psychiatric Medications. You can register by calling 1-866-961-2388 or visiting 
+https://womensmentalhealth.org/pregnancyregistry/. • are breastfeeding or plan to breastfeed. Lorazepam passes into your breast milk. • Breastfeeding during treatment with lorazepam tablets may cause 
+your baby to have sleepiness, feeding problems, and decreased weight gain. • Talk to your healthcare provider about the best way to feed your baby if you take lorazepam tablets. LORAZEPAM: 
+spl_medguide: Tell your healthcare provider about all the medicines you take , including prescription and over-the-counter medicines, vitamins, and herbal supplements. Taking lorazepam tablets with 
+certain other medicines can cause side effects or affect how well lorazepam tablets or the other medicines work. Do not start or stop other medicines without talking to your healthcare provider. How 
+should I take lorazepam tablets? • Take lorazepam tablets exactly as your healthcare provider tells you to take it. Your healthcare provider will tell you how much lorazepam tablets to take and when 
+to take it. • If you take too much lorazepam tablets, call your healthcare provider or go to the nearest hospital emergency room right away. What are the possible side effects of lorazepam tablets? 
+Lorazepam tablets may cause serious side effects, including: • See “What is the most important information I should know about lorazepam tablets?” • Lorazepam tablets can make you sleepy or dizzy and 
+can slow your thinking and motor skills. LORAZEPAM: spl_medguide: • Do not drive, operate heavy machinery, or do other dangerous activities until you know how lorazepam tablets affects you. • Do not 
+drink alcohol or take other drugs that may make you sleepy or dizzy while taking lorazepam tablets without first talking to your healthcare provider. When taken with alcohol or drugs that cause 
+sleepiness or dizziness, lorazepam tablets may make your sleepiness or dizziness much worse. • Depression. Pre-existing depression may emerge or worsen during use of benzodiazepines including 
+lorazepam tablets. The most common side effects of lorazepam tablets include: • sedation • dizziness • weakness • unsteadiness These are not all the possible side effects of lorazepam tablets. Call 
+your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. How should I store lorazepam tablets? LORAZEPAM: spl_medguide: • Store lorazepam tablets in a 
+tightly closed container at room temperature between 20° to 25°C (68° to 77°F). • Keep lorazepam tablets and all medicines out of the reach of children. General information about the safe and 
+effective use of lorazepam tablets Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use lorazepam tablets for a condition for which it was not 
+prescribed. Do not give lorazepam tablets to other people, even if they have the same symptoms that you have. It may harm them. You can ask your pharmacist or healthcare provider for information about
+lorazepam tablets that is written for health professionals. What are the ingredients in lorazepam tablets? Active ingredient: lorazepam Inactive ingredients: anhydrous lactose, magnesium stearate, 
+microcrystalline cellulose, and polacrilin potassium. LORAZEPAM: spl_medguide: Distributed by: Aurobindo Pharma USA, Inc. 279 Princeton-Hightstown Road East Windsor, NJ 08520 Manufactured by: 
+Aurobindo Pharma Limited Hyderabad-500 032, India For more information, call Aurobindo Pharma USA, Inc. at 1-866-850-2876. This Medication Guide has been approved by the U.S. Food and Drug 
+Administration. Repackaged by Preferred Pharmaceuticals, Inc. LORAZEPAM: spl_medguide: Revised: 06/2023         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: drug_abuse_and_dependence: The following severe adverse reactions have occurred with benzodiazepine abuse and/or misuse: delirium, paranoia, suicidal ideation and behavior, 
+seizures, coma, breathing difficulty, and death. Death is more often associated with polysubstance use (especially benzodiazepines with other CNS depressants such as opioids and alcohol). Dependence 
+Physical Dependence Lorazepam may produce physical dependence from continued therapy. Physical dependence is a state that develops as a result of physiological adaptation in response to repeated drug 
+use, manifested by withdrawal signs and symptoms after abrupt discontinuation or a significant dose reduction of a drug. Abrupt discontinuation or rapid dosage reduction of benzodiazepines or 
+administration of flumazenil, a benzodiazepine antagonist, may precipitate acute withdrawal reactions, including seizures, which can be life-threatening. Patients at an increased risk of withdrawal 
+adverse reactions after benzodiazepine discontinuation or rapid dosage reduction include those who take higher dosages (i. LORAZEPAM: drug_abuse_and_dependence: ., higher and/or more frequent doses) 
+and those who have had longer durations of use (see WARNINGS: Dependence and Withdrawal Reactions ). To reduce the risk of withdrawal reactions, use a gradual taper to discontinue lorazepam or reduce 
+the dosage (see DOSAGE AND ADMINISTRATION: Discontinuation or Dosage Reduction of lorazepam and WARNINGS ). Acute Withdrawal Signs and Symptoms Acute withdrawal signs and symptoms associated with 
+benzodiazepines have included abnormal involuntary movements, anxiety, blurred vision, depersonalization, depression, derealization, dizziness, fatigue, gastrointestinal adverse reactions (e.g., 
+nausea, vomiting, diarrhea, weight loss, decreased appetite), headache, hyperacusis, hypertension, irritability, insomnia, memory impairment, muscle pain and stiffness, panic attacks, photophobia, 
+restlessness, tachycardia, and tremor. LORAZEPAM: drug_abuse_and_dependence: More severe acute withdrawal signs and symptoms, including life-threatening reactions, have included catatonia, 
+convulsions, delirium tremens, depression, hallucinations, mania, psychosis, seizures and suicidality. Protracted Withdrawal Syndrome Protracted withdrawal syndrome associated with benzodiazepines is 
+characterized by anxiety, cognitive impairment, depression, insomnia, formication, motor symptoms (e.g., weakness, tremor, muscle twitches), paresthesia, and tinnitus that persists beyond 4 to 6 weeks
+after initial benzodiazepine withdrawal. Protracted withdrawal symptoms may last weeks to more than 12 months. As a result, there may be difficulty in differentiating withdrawal symptoms from 
+potential re‑-emergence or continuation of symptoms for which the benzodiazepine was being used. Tolerance Tolerance to lorazepam may develop from continued therapy. LORAZEPAM: 
+drug_abuse_and_dependence: Tolerance is a physiological state characterized by a reduced response to a drug after repeated administration (i.e., a higher dose of a drug is required to produce the same
+effect that was once obtained at a lower dose). Tolerance to the therapeutic effect of lorazepam may develop; however, little tolerance develops to the amnestic reactions and other cognitive 
+impairments caused by benzodiazepines.         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: precautions: However, use of lorazepam for prolonged periods and in geriatric patients requires caution, and there should be frequent monitoring for symptoms of upper GI disease. 
+Safety and effectiveness of lorazepam in children of less than 12 years have not been established. Information for Patients Advise the patient to read the FDA-approved patient labeling ( Medication 
+Guide ). Risks from Concomitant Use with Opioids Advise both patients and caregivers about the risks of potentially fatal respiratory depression and sedation when lorazepam is used with opioids and 
+not to use such drugs concomitantly unless supervised by a healthcare provider. Advise patients not to drive or operate heavy machinery until the effects of concomitant use with the opioid have been 
+determined (see WARNINGS: Risks from Concomitant Use of Opioids and PRECAUTIONS: Drug Interactions ). LORAZEPAM: precautions: Abuse, Misuse, and Addiction Inform patients that the use of lorazepam 
+even at recommended doses, exposes users to risks of abuse, misuse, and addiction, which can lead to overdose and death, especially when used in combination with other medications (e.g., opioid 
+analgesics), alcohol, and/or illicit substances. Inform patients about the signs and symptoms of benzodiazepine abuse, misuse, and addiction; to seek medical help if they develop these signs and/or 
+symptoms; and on the proper disposal of unused drug (see WARNINGS: Abuse Misuse, and Addiction and DRUG ABUSE AND DEPENDENCE ). Withdrawal Reactions Inform patients that the continued use of lorazepam
+may lead to clinically significant physical dependence and that abrupt discontinuation or rapid dosage reduction of lorazepam may precipitate acute withdrawal reactions, which can be life-threatening.
+LORAZEPAM: precautions: Inform patients that in some cases, patients taking benzodiazepines have developed a protracted withdrawal syndrome with withdrawal symptoms lasting weeks to more than 12 
+months. Instruct patients that discontinuation or dosage reduction of lorazepam may require a slow taper (see WARNINGS: Dependence and Withdrawal Reactions and DRUG ABUSE AND DEPENDENCE ). Pregnancy 
+Advise pregnant females that use of lorazepam late in pregnancy can result in sedation (respiratory depression, lethargy, hypotonia) and/or withdrawal symptoms (hyperreflexia, irritability, 
+restlessness, tremors, inconsolable crying, and feeding difficulties) in newborns (see WARNINGS: Neonatal Sedation and Withdrawal Syndrome and PRECAUTIONS: Pregnancy ). Instruct patients to inform 
+their healthcare provider if they are pregnant. LORAZEPAM: precautions: Advise patients that there is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to lorazepam 
+during pregnancy (see PRECAUTIONS: Pregnancy ). Nursing Instruct patients to notify their healthcare provider if they are breastfeeding or intend to breastfeed. Instruct breastfeeding patients using 
+lorazepam to monitor infants for excessive sedation, poor feeding and poor weight gain, and to seek medical attention if they notice these signs (see PRECAUTIONS: Nursing Mothers ). Essential 
+Laboratory Tests Some patients on lorazepam have developed leukopenia, and some have had elevations of LDH. As with other benzodiazepines, periodic blood counts and liver function tests are 
+recommended for patients on long-term therapy. Drug Interactions The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at different 
+receptor sites in the CNS that control respiration. Benzodiazepines interact at GABA A sites and opioids interact primarily at mu receptors. LORAZEPAM: precautions: When benzodiazepines and opioids 
+are combined, the potential for benzodiazepines to significantly worsen opioid-related respiratory depression exists. Limit dosage and duration of concomitant use of benzodiazepines and opioids, and 
+monitor patients closely for respiratory depression and sedation. The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such 
+as alcohol, barbiturates, antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics. Concomitant use of clozapine
+and lorazepam may produce marked sedation, excessive salivation, hypotension, ataxia, delirium, and respiratory arrest. Concurrent administration of lorazepam with valproate results in increased 
+plasma concentrations and reduced clearance of lorazepam. LORAZEPAM: precautions: Lorazepam dosage should be reduced to approximately 50% when coadministered with valproate. Concurrent administration 
+of lorazepam with probenecid may result in a more rapid onset or prolonged effect of lorazepam due to increased half-life and decreased total clearance. Lorazepam dosage needs to be reduced by 
+approximately 50% when coadministered with probenecid. The effects of probenecid and valproate on lorazepam may be due to inhibition of glucuronidation. Administration of theophylline or aminophylline
+may reduce the sedative effects of benzodiazepines, including lorazepam. Carcinogenesis and Mutagenesis No evidence of carcinogenic potential emerged in rats during an 18-month study with lorazepam. 
+No studies regarding mutagenesis have been performed. LORAZEPAM: pregnancy: Pregnancy Pregnancy Exposure Registry There is a pregnancy registry that monitors pregnancy outcomes in women exposed to 
+psychiatric medications, including lorazepam, during pregnancy. Healthcare providers are encouraged to register patients by calling the National Pregnancy Registry for Psychiatric Medications at 
+1-866-961-2388 or visiting online at https://womensmentalhealth.org/pregnancyregistry/. Risk Summary Neonates born to mothers using benzodiazepines late in pregnancy have been reported to experience 
+symptoms of sedation and/or neonatal withdrawal (see WARNINGS: Neonatal Sedation and Withdrawal Syndrome and Clinical Considerations ). Available data from published observational studies of pregnant 
+women exposed to benzodiazepines do not report a clear association with benzodiazepines and major birth defects (see Data) . The background risk of major birth defects and miscarriage for the 
+indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. LORAZEPAM: pregnancy: general population, the estimated risk of 
+major birth defects and of miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively. Clinical Considerations Fetal/Neonatal Adverse Reactions Benzodiazepines cross the
+placenta and may produce respiratory depression, hypotonia and sedation in neonates. Monitor neonates exposed to lorazepam during pregnancy or labor for signs of sedation, respiratory depression, 
+hypotonia, and feeding problems. Monitor neonates exposed to lorazepam during pregnancy for signs of withdrawal. Manage these neonates accordingly (see WARNINGS: Neonatal Sedation and Withdrawal 
+Syndrome ). Data Human Data Published data from observational studies on the use of benzodiazepines during pregnancy do not report a clear association with benzodiazepines and major birth defects.    
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: clinical_pharmacology: CLINICAL PHARMACOLOGY Studies in healthy volunteers show that in single high doses lorazepam has a tranquilizing action on the central nervous system with no
+appreciable effect on the respiratory or cardiovascular systems. Lorazepam is readily absorbed with an absolute bioavailability of 90%. Peak concentrations in plasma occur approximately 2 hours 
+following administration. The peak plasma level of lorazepam from a 2 mg dose is approximately 20 ng/mL. The mean half-life of unconjugated lorazepam in human plasma is about 12 hours and for its 
+major metabolite, lorazepam glucuronide, about 18 hours. At clinically relevant concentrations, lorazepam is approximately 85% bound to plasma proteins. Lorazepam is rapidly conjugated at its 
+3-hydroxy group into lorazepam glucuronide which is then excreted in the urine. Lorazepam glucuronide has no demonstrable central nervous system (CNS) activity in animals. LORAZEPAM: 
+clinical_pharmacology: The plasma levels of lorazepam are proportional to the dose given. There is no evidence of accumulation of lorazepam on administration up to 6 months. Studies comparing young 
+and elderly subjects have shown that advancing age does not have a significant effect on the pharmacokinetics of lorazepam. However, in one study involving single intravenous doses of 1.5 to 3 mg of 
+lorazepam Injection, mean total body clearance of lorazepam decreased by 20% in 15 elderly subjects of 60 to 84 years of age compared to that in 15 younger subjects of 19 to 38 years of age.         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: overdosage: OVERDOSAGE Overdosage of benzodiazepines is characterized by central nervous system depression ranging from drowsiness to coma. In mild to moderate cases, symptoms can 
+include drowsiness, confusion, dysarthria, lethargy, hypnotic state, diminished reflexes, ataxia, and hypotonia. Rarely, paradoxical or disinhibitory reactions (including agitation, irritability, 
+impulsivity, violent behavior, confusion, restlessness, excitement, and talkativeness) may occur. In severe overdosage cases, patients may develop respiratory depression and coma. Overdosage of 
+benzodiazepines in combination with other CNS depressants (including alcohol and opioids) may be fatal (see WARNINGS: Abuse, Misuse , and Addiction ). Markedly abnormal (lowered or elevated) blood 
+pressure, heart rate, or respiratory rate raise the concern that additional drugs and/or alcohol are involved in the overdosage. LORAZEPAM: overdosage: In managing benzodiazepine overdosage, employ 
+general supportive measures, including intravenous fluids and airway management. Flumazenil, a specific benzodiazepine receptor antagonist indicated for the complete or partial reversal of the 
+sedative effects of benzodiazepines in the management of benzodiazepine overdosage, can lead to withdrawal and adverse reactions, including seizures, particularly in the context of mixed overdosage 
+with drugs that increase seizure risk (e.g., tricyclic and tetracyclic antidepressants) and in patients with long-term benzodiazepine use and physical dependency. The risk of withdrawal seizures with 
+flumazenil use may be increased in patients with epilepsy. Flumazenil is contraindicated in patients who have received a benzodiazepine for control of a potentially life-threatening condition (e.g., 
+status epilepticus). LORAZEPAM: overdosage: If the decision is made to use flumazenil, it should be used as an adjunct to, not as a substitute for, supportive management of benzodiazepine overdosage. 
+See the flumazenil injection Prescribing Information. Consider contacting the Poison Help line (1-800-222-1222) or a medical toxicologist for additional overdosage management recommendations.         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: drug_interactions: Drug Interactions The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at different receptor sites 
+in the CNS that control respiration. Benzodiazepines interact at GABA A sites and opioids interact primarily at mu receptors. When benzodiazepines and opioids are combined, the potential for 
+benzodiazepines to significantly worsen opioid-related respiratory depression exists. Limit dosage and duration of concomitant use of benzodiazepines and opioids, and monitor patients closely for 
+respiratory depression and sedation. The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, 
+antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics. LORAZEPAM: drug_interactions: Concomitant use of 
+clozapine and lorazepam may produce marked sedation, excessive salivation, hypotension, ataxia, delirium, and respiratory arrest. Concurrent administration of lorazepam with valproate results in 
+increased plasma concentrations and reduced clearance of lorazepam. Lorazepam dosage should be reduced to approximately 50% when coadministered with valproate. Concurrent administration of lorazepam 
+with probenecid may result in a more rapid onset or prolonged effect of lorazepam due to increased half-life and decreased total clearance. Lorazepam dosage needs to be reduced by approximately 50% 
+when coadministered with probenecid. The effects of probenecid and valproate on lorazepam may be due to inhibition of glucuronidation. Administration of theophylline or aminophylline may reduce the 
+sedative effects of benzodiazepines, including lorazepam.         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: spl_product_data_elements: Lorazepam Lorazepam LORAZEPAM LORAZEPAM ANHYDROUS LACTOSE MAGNESIUM STEARATE MICROCRYSTALLINE CELLULOSE POLACRILIN POTASSIUM White to off white 
+Flat-faced beveled edge U33         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: how_supplied: HOW SUPPLIED Lorazepam Tablets, USP are available in the following dosage strengths: 1 mg, white to off-white, round, flat-faced beveled edge tablets debossed with 
+‘U33’ on one side and bisect on the other side. Bottles of 30 NDC 68788-7428-03 Bottles of 60 NDC 68788-7428-06 Bottles of 90 NDC 68788-7428-09 Bottles of 100 NDC 68788-7428-01 Bottles of 120 NDC 
+68788-7428-08 Keep bottles tightly closed. Keep out of reach of children. Store at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature]. Dispense in a tight, light-resistant container as 
+described in the USP. Dispense with Medication Guide available at: www.aurobindousa. LORAZEPAM: how_supplied: /medication-guides Distributed by: Aurobindo Pharma USA, Inc. 279 Princeton-Hightstown 
+Road East Windsor, NJ 08520 Manufactured by: Aurobindo Pharma Limited Hyderabad-500 032, India Revised: 06/2023 Repackaged by Preferred Pharmaceuticals, Inc. Dispense with Medication Guide available 
+at: www.aurobindousa. LORAZEPAM: how_supplied: /medication-guides         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: openfda: generic_name         
+SOURCE:LORAZEPAM label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: Lorazepam is an antianxiety agent that belongs to the class of drugs known as benzodiazepines. It is used to treat anxiety disorders and for the short-term relief of symptoms of anxiety or 
+anxiety associated with depression. Lorazepam is available in tablet form for oral administration, with dosages of 0.5 mg, 1 mg, or 2 mg. The medication can cause serious side effects, including coma 
+and death, particularly if abused or misused. It has the potential to cause physical dependence and withdrawal reactions, and should not be stopped suddenly due to the risk of serious and 
+life-threatening side effects. Lorazepam is a controlled substance due to its potential for abuse and dependence. It is not known if lorazepam is safe and effective for use in children under 12 years 
+of age or for use longer than 4 months. The medication can interact with other drugs, especially opioids, leading to increased risk of respiratory depression and sedation. It is also contraindicated 
+in patients with certain medical conditions and should be used with caution in elderly patients and those with a history of drug or alcohol abuse or addiction.
+
+SOURCE: LORAZEPAM label
+EXTRACT_START_END: DESCRIPTION Lorazepam USP, an antianxiety agent ... for a complete list of ingredients in lorazepam tablets.
+*(orchestrator-renal failure-LORAZEPAM)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: Lorazepam is an antianxiety agent that belongs to the class of 
+drugs known as benzodiazepines. It is used to treat anxiety disorders and for the short-term relief of symptoms of anxiety or anxiety associated with depression. Lorazepam is available in tablet form 
+for oral administration, with dosages of 0.5 mg, 1 mg, or 2 mg. The medication can cause serious side effects, including coma and death, particularly if abused or misused. It has the potential to 
+cause physical dependence and withdrawal reactions, and should not be stopped suddenly due to the risk of serious and life-threatening side effects. Lorazepam is a controlled substance due to its 
+potential for abuse and dependence. It is not known if lorazepam is safe and effective for use in children under 12 years of age or for use longer than 4 months. The medication can interact with other
+drugs, especially opioids, leading to increased risk of respiratory depression and sedation. It is also contraindicated in patients with certain medical conditions and should be used with caution in 
+elderly patients and those with a history of drug or alcohol abuse or addiction.
+
+SOURCE: LORAZEPAM label
+EXTRACT_START_END: DESCRIPTION Lorazepam USP, an antianxiety agent ... for a complete list of ingredients in lorazepam tablets.
+ (orchestrator-renal failure-LORAZEPAM)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-LORAZEPAM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-renal failure-LORAZEPAM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does LORAZEPAM increase or decrease the risk of renal failure?"
+  }
+}
+*(orchestrator-renal failure-LORAZEPAM)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does LORAZEPAM increase or decrease the risk of renal failure?
+ (orchestrator-renal failure-LORAZEPAM)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-LORAZEPAM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-LORAZEPAM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does LORAZEPAM increase or decrease the risk of renal failure?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_extracts) FUNC: {
+  "name": "relevant_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does LORAZEPAM increase or decrease the risk of renal failure?",
+    "filter_drugs": [
+      "LORAZEPAM"
+    ]
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: LORAZEPAM: pregnancy: Although early studies reported an increased risk of congenital malformations with diazepam and chlordiazepoxide, there was no consistent pattern noted. In addition, the
+majority of more recent case-control and cohort studies of benzodiazepine use during pregnancy, which were adjusted for confounding exposures to alcohol, tobacco and other medications, have not 
+confirmed these findings. Animal Data Reproductive studies in animals were performed in mice, rats, and two strains of rabbits. Occasional anomalies (reduction of tarsals, tibia, metatarsals, 
+malrotated limbs, gastroschisis, malformed skull, and microphthalmia) were seen in drug-treated rabbits without relationship to dosage. Although all of these anomalies were not present in the 
+concurrent control group, they have been reported to occur randomly in historical controls. At doses of 40 mg/kg and higher, there was evidence of fetal resorption and increased fetal loss in rabbits 
+which was not seen at lower doses. LORAZEPAM: precautions: Nursing Mothers Risk Summary Lorazepam is present in breast milk. There are reports of sedation, poor feeding and poor weight gain in infants
+exposed to benzodiazepines through breast milk. The effects of lorazepam on milk production are unknown. The developmental and health benefits of breastfeeding should be considered along with the 
+mother’s clinical need for lorazepam and any potential adverse effects on the breastfed infant from lorazepam or from the underlying maternal condition. Clinical Considerations Infants exposed to 
+lorazepam through breast milk should be monitored for sedation, poor feeding and poor weight gain. Geriatric Use Clinical studies of lorazepam generally were not adequate to determine whether subjects
+aged 65 and over respond differently than younger subjects; however, the incidence of sedation and unsteadiness was observed to increase with age (see ADVERSE REACTIONS ). Age does not appear to have 
+a significant effect on lorazepam kinetics (see CLINICAL PHARMACOLOGY ). LORAZEPAM: precautions: Clinical circumstances, some of which may be more common in the elderly, such as hepatic or renal 
+impairment, should be considered. Greater sensitivity (e.g., sedation) of some older individuals cannot be ruled out. In general, dose selection for an elderly patient should be cautious, and lower 
+doses may be sufficient in these patients (see DOSAGE AND ADMINISTRATION ).         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: adverse_reactions: ADVERSE REACTIONS Most adverse reactions to benzodiazepines, including CNS effects and respiratory depression, are dose dependent, with more severe effects 
+occurring with high doses. In a sample of about 3500 patients treated for anxiety, the most frequent adverse reaction to lorazepam was sedation (15.9%), followed by dizziness (6.9%), weakness (4.2%), 
+and unsteadiness (3.4%). The incidence of sedation and unsteadiness increased with age. LORAZEPAM: adverse_reactions: Other adverse reactions to benzodiazepines, including lorazepam are fatigue, 
+drowsiness, amnesia, memory impairment, confusion, disorientation, depression, unmasking of depression, disinhibition, euphoria, suicidal ideation/attempt, ataxia, asthenia, extrapyramidal symptoms, 
+convulsions/seizures, tremor, vertigo, eye function/visual disturbance (including diplopia and blurred vision), dysarthria/slurred speech, change in libido, impotence, decreased orgasm; headache, 
+coma; respiratory depression, apnea, worsening of sleep apnea, worsening of obstructive pulmonary disease; gastrointestinal symptoms including nausea, change in appetite, constipation, jaundice, 
+increase in bilirubin, increase in liver transaminases, increase in alkaline phosphatase; hypersensitivity reactions, anaphylactoid reactions; dermatological symptoms, allergic skin reactions, 
+alopecia; syndrome of inappropriate antidiuretic LORAZEPAM: adverse_reactions: hormone (SIADH), hyponatremia; thrombocytopenia, agranulocytosis, pancytopenia; hypothermia; and autonomic 
+manifestations. Paradoxical reactions, including anxiety, excitation, agitation, hostility, aggression, rage, sleep disturbances/insomnia, sexual arousal, and hallucinations may occur. Small decreases
+in blood pressure and hypotension may occur but are usually not clinically significant, probably being related to the relief of anxiety produced by lorazepam. To report SUSPECTED ADVERSE REACTIONS, 
+contact Aurobindo Pharma USA, Inc. at 1-866-850-2876 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: spl_medguide: • Store lorazepam tablets in a tightly closed container at room temperature between 20° to 25°C (68° to 77°F). • Keep lorazepam tablets and all medicines out of the 
+reach of children. General information about the safe and effective use of lorazepam tablets Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use 
+lorazepam tablets for a condition for which it was not prescribed. Do not give lorazepam tablets to other people, even if they have the same symptoms that you have. It may harm them. You can ask your 
+pharmacist or healthcare provider for information about lorazepam tablets that is written for health professionals. What are the ingredients in lorazepam tablets? Active ingredient: lorazepam Inactive
+ingredients: anhydrous lactose, magnesium stearate, microcrystalline cellulose, and polacrilin potassium. LORAZEPAM: spl_medguide: Distributed by: Aurobindo Pharma USA, Inc. 279 Princeton-Hightstown 
+Road East Windsor, NJ 08520 Manufactured by: Aurobindo Pharma Limited Hyderabad-500 032, India For more information, call Aurobindo Pharma USA, Inc. at 1-866-850-2876. This Medication Guide has been 
+approved by the U.S. Food and Drug Administration. Repackaged by Preferred Pharmaceuticals, Inc. LORAZEPAM: spl_medguide: Revised: 06/2023         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: precautions: Advise patients that there is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to lorazepam during pregnancy (see PRECAUTIONS: Pregnancy
+). Nursing Instruct patients to notify their healthcare provider if they are breastfeeding or intend to breastfeed. Instruct breastfeeding patients using lorazepam to monitor infants for excessive 
+sedation, poor feeding and poor weight gain, and to seek medical attention if they notice these signs (see PRECAUTIONS: Nursing Mothers ). Essential Laboratory Tests Some patients on lorazepam have 
+developed leukopenia, and some have had elevations of LDH. As with other benzodiazepines, periodic blood counts and liver function tests are recommended for patients on long-term therapy. Drug 
+Interactions The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at different receptor sites in the CNS that control respiration. 
+Benzodiazepines interact at GABA A sites and opioids interact primarily at mu receptors. LORAZEPAM: precautions: When benzodiazepines and opioids are combined, the potential for benzodiazepines to 
+significantly worsen opioid-related respiratory depression exists. Limit dosage and duration of concomitant use of benzodiazepines and opioids, and monitor patients closely for respiratory depression 
+and sedation. The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, antipsychotics, 
+sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics. Concomitant use of clozapine and lorazepam may produce marked 
+sedation, excessive salivation, hypotension, ataxia, delirium, and respiratory arrest. Concurrent administration of lorazepam with valproate results in increased plasma concentrations and reduced 
+clearance of lorazepam. LORAZEPAM: precautions: Lorazepam dosage should be reduced to approximately 50% when coadministered with valproate. Concurrent administration of lorazepam with probenecid may 
+result in a more rapid onset or prolonged effect of lorazepam due to increased half-life and decreased total clearance. Lorazepam dosage needs to be reduced by approximately 50% when coadministered 
+with probenecid. The effects of probenecid and valproate on lorazepam may be due to inhibition of glucuronidation. Administration of theophylline or aminophylline may reduce the sedative effects of 
+benzodiazepines, including lorazepam. Carcinogenesis and Mutagenesis No evidence of carcinogenic potential emerged in rats during an 18-month study with lorazepam. No studies regarding mutagenesis 
+have been performed. LORAZEPAM: pregnancy: Pregnancy Pregnancy Exposure Registry There is a pregnancy registry that monitors pregnancy outcomes in women exposed to psychiatric medications, including 
+lorazepam, during pregnancy. Healthcare providers are encouraged to register patients by calling the National Pregnancy Registry for Psychiatric Medications at 1-866-961-2388 or visiting online at 
+https://womensmentalhealth.org/pregnancyregistry/. Risk Summary Neonates born to mothers using benzodiazepines late in pregnancy have been reported to experience symptoms of sedation and/or neonatal 
+withdrawal (see WARNINGS: Neonatal Sedation and Withdrawal Syndrome and Clinical Considerations ). Available data from published observational studies of pregnant women exposed to benzodiazepines do 
+not report a clear association with benzodiazepines and major birth defects (see Data) . The background risk of major birth defects and miscarriage for the indicated population is unknown. All 
+pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. LORAZEPAM: pregnancy: general population, the estimated risk of major birth defects and of miscarriage 
+in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively. Clinical Considerations Fetal/Neonatal Adverse Reactions Benzodiazepines cross the placenta and may produce respiratory 
+depression, hypotonia and sedation in neonates. Monitor neonates exposed to lorazepam during pregnancy or labor for signs of sedation, respiratory depression, hypotonia, and feeding problems. Monitor 
+neonates exposed to lorazepam during pregnancy for signs of withdrawal. Manage these neonates accordingly (see WARNINGS: Neonatal Sedation and Withdrawal Syndrome ). Data Human Data Published data 
+from observational studies on the use of benzodiazepines during pregnancy do not report a clear association with benzodiazepines and major birth defects.         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: openfda: pharm_class_cs         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: drug_interactions: Drug Interactions The concomitant use of benzodiazepines and opioids increases the risk of respiratory depression because of actions at different receptor sites 
+in the CNS that control respiration. Benzodiazepines interact at GABA A sites and opioids interact primarily at mu receptors. When benzodiazepines and opioids are combined, the potential for 
+benzodiazepines to significantly worsen opioid-related respiratory depression exists. Limit dosage and duration of concomitant use of benzodiazepines and opioids, and monitor patients closely for 
+respiratory depression and sedation. The benzodiazepines, including lorazepam, produce increased CNS-depressant effects when administered with other CNS depressants such as alcohol, barbiturates, 
+antipsychotics, sedative/hypnotics, anxiolytics, antidepressants, narcotic analgesics, sedative antihistamines, anticonvulsants, and anesthetics. LORAZEPAM: drug_interactions: Concomitant use of 
+clozapine and lorazepam may produce marked sedation, excessive salivation, hypotension, ataxia, delirium, and respiratory arrest. Concurrent administration of lorazepam with valproate results in 
+increased plasma concentrations and reduced clearance of lorazepam. Lorazepam dosage should be reduced to approximately 50% when coadministered with valproate. Concurrent administration of lorazepam 
+with probenecid may result in a more rapid onset or prolonged effect of lorazepam due to increased half-life and decreased total clearance. Lorazepam dosage needs to be reduced by approximately 50% 
+when coadministered with probenecid. The effects of probenecid and valproate on lorazepam may be due to inhibition of glucuronidation. Administration of theophylline or aminophylline may reduce the 
+sedative effects of benzodiazepines, including lorazepam.         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: openfda: spl_id         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: boxed_warning: WARNING: RISKS FROM CONCOMITANT USE WITH OPIOIDS; ABUSE, MISUSE, AND ADDICTION; and DEPENDENCE AND WITHDRAWAL REACTIONS • Concomitant use of benzodiazepines and 
+opioids may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing of these drugs for patients for whom alternative treatment options are inadequate. 
+Limit dosages and durations to the minimum required. Follow patients for signs and symptoms of respiratory depression and sedation (see WARNINGS and PRECAUTIONS ). • The use of benzodiazepines, 
+including lorazepam, exposes users to risks of abuse, misuse, and addiction, which can lead to overdose or death. Abuse and misuse of benzodiazepines commonly involve concomitant use of other 
+medications, alcohol, and/or illicit substances, which is associated with an increased frequency of serious adverse outcomes. LORAZEPAM: boxed_warning: Before prescribing lorazepam and throughout 
+treatment, assess each patient’s risk for abuse, misuse, and addiction (see WARNINGS ). • The continued use of benzodiazepines, including lorazepam, may lead to clinically significant physical 
+dependence. The risks of dependence and withdrawal increase with longer treatment duration and higher daily dose. Abrupt discontinuation or rapid dosage reduction of lorazepam after continued use may 
+precipitate acute withdrawal reactions, which can be life-threatening. To reduce the risk of withdrawal reactions, use a gradual taper to discontinue lorazepam or reduce the dosage ( DOSAGE AND 
+ADMINISTRATION and WARNINGS ).         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: geriatric_use: Geriatric Use Clinical studies of lorazepam generally were not adequate to determine whether subjects aged 65 and over respond differently than younger subjects; 
+however, the incidence of sedation and unsteadiness was observed to increase with age (see ADVERSE REACTIONS ). Age does not appear to have a significant effect on lorazepam kinetics (see CLINICAL 
+PHARMACOLOGY ). Clinical circumstances, some of which may be more common in the elderly, such as hepatic or renal impairment, should be considered. Greater sensitivity (e.g., sedation) of some older 
+individuals cannot be ruled out. In general, dose selection for an elderly patient should be cautious, and lower doses may be sufficient in these patients (see DOSAGE AND ADMINISTRATION ).         
+SOURCE:LORAZEPAM label
+
+
+CONTENT: LORAZEPAM: dosage_and_administration: DOSAGE AND ADMINISTRATION Lorazepam tablets are administered orally. For optimal results, dose, frequency of administration, and duration of therapy 
+should be individualized according to patient response. To facilitate this, 0.5 mg, 1 mg, and 2 mg tablets are available. The usual range is 2 to 6 mg/day given in divided doses, the largest dose 
+being taken before bedtime, but the daily dosage may vary from 1 to 10 mg/day. For anxiety, most patients require an initial dose of 2 to 3 mg/day given two times a day or three times a day. For 
+insomnia due to anxiety or transient situational stress, a single daily dose of 2 to 4 mg may be given, usually at bedtime. For elderly or debilitated patients, an initial dosage of 1 to 2 mg/day in 
+divided doses is recommended, to be adjusted as needed and tolerated. LORAZEPAM: dosage_and_administration: The dosage of lorazepam tablets should be increased gradually when needed to help avoid 
+adverse effects. When higher dosage is indicated, the evening dose should be increased before the daytime doses. Discontinuation or Dosage Reduction of Lorazepam Tablets To reduce the risk of 
+withdrawal reactions, use a gradual taper to discontinue lorazepam tablets or reduce the dosage. If a patient develops withdrawal reactions, consider pausing the taper or increasing the dosage to the 
+previous tapered dosage level. Subsequently decrease the dosage more slowly (see WARNINGS: Dependence and Withdrawal Reactions and DRUG ABUSE AND DEPENDENCE: Dependence ).         
+SOURCE:LORAZEPAM label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does LORAZEPAM increase or decrease the risk of renal failure?",
+    "drug": "LORAZEPAM"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does LORAZEPAM increase or decrease the risk of 
+renal failure?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-renal failure-LORAZEPAM)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-renal failure-LORAZEPAM)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-renal failure-LORAZEPAM)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-renal failure-LORAZEPAM)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-LORAZEPAM)  Entity.AGENT 
+*(orchestrator-renal failure-LORAZEPAM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) The FDA label data for Lorazepam does not specify information regarding the
+drug's effect on the risk of renal failure. Therefore, based on the available FDA label data, it is not known whether Lorazepam increases or decreases the risk of renal failure.
+
+<DONE> DO-NOT-KNOW
+
+Justification: The FDAHandler, which provides information based on FDA label data, has indicated that there is no information available in the Lorazepam label regarding its impact on renal failure 
+risk. Consequently, we cannot determine whether Lorazepam has any effect on the risk of renal failure.

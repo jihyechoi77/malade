@@ -1,0 +1,289 @@
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does EXTENDED PHENYTOIN SODIUM increase or decrease the
+risk of aplastic anemia?
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT 
+*(orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of aplastic anemia?"
+  }
+}
+*(orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does EXTENDED PHENYTOIN SODIUM increase or decrease the
+risk of aplastic anemia?
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of aplastic anemia?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does extended phenytoin sodium increase the risk of aplastic anemia?",
+    "drug": "extended phenytoin sodium"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: EXTENDED PHENYTOIN SODIUM: adverse_reactions: 6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: Withdrawal Precipitated Seizure, Status 
+Epilepticus  Suicidal Behavior and Ideation  Serious Dermatologic Reactions  Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)/Multiorgan Hypersensitivity  Hypersensitivity  Cardiac 
+Effects  Angioedema  Hepatic Injury  Hematopoietic Complications  Effects on Vitamin D and Bone  Exacerbation of Porphyria  Teratogenicity and Other Harm to the Newborn  Hyperglycemia [ see Warnings 
+and Precautions (5.14) ] The following adverse reactions associated with the use of phenytoin were identified in clinical studies or postmarketing reports. Because these reactions are reported 
+voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. EXTENDED PHENYTOIN SODIUM: 
+adverse_reactions: Body as a Whole: Allergic reactions in the form of rash and rarely more serious forms and DRESS have been observed, as has angioedema  . Anaphylaxis has also been reported. There 
+have also been reports of coarsening of facial features, systemic lupus erythematosus, periarteritis nodosa, and immunoglobulin abnormalities. Digestive System: Acute hepatic failure, toxic hepatitis,
+liver damage, nausea, vomiting, constipation, enlargement of the lips, and gingival hyperplasia. Hematologic and Lymphatic System: Hematopoietic complications, some fatal, have occasionally been 
+reported in association with administration of phenytoin. EXTENDED PHENYTOIN SODIUM: adverse_reactions: These have included thrombocytopenia, leukopenia, granulocytopenia, agranulocytosis, and 
+pancytopenia with or without bone marrow suppression. While macrocytosis and megaloblastic anemia have occurred, these conditions usually respond to folic acid therapy. Lymphadenopathy including 
+benign lymph node hyperplasia, pseudolymphoma, lymphoma, and Hodgkin’s disease have been reported  . Pure red cell aplasia has also been reported. Laboratory Test Abnormality: Phenytoin may decrease 
+serum concentrations of thyroid hormone (T4 and T3), sometimes with an accompanying increase in thyroid-stimulating hormone (TSH), but usually in the absence of clinical hypothyroidism. Phenytoin may 
+also produce lower than normal values for dexamethasone or metyrapone tests. EXTENDED PHENYTOIN SODIUM: adverse_reactions: Phenytoin may cause increased serum levels of glucose [ see Warnings and 
+Precautions (5.14) ] , alkaline phosphatase, and gamma glutamyl transpeptidase (GGT). Nervous System: The most common adverse reactions encountered with phenytoin therapy are nervous system reactions 
+and are usually dose-related. Reactions include nystagmus, ataxia, slurred speech, decreased coordination, somnolence, and mental confusion. Dizziness, vertigo, insomnia, transient nervousness, motor 
+twitchings, paresthesias, and headaches have also been observed. There have also been rare reports of phenytoin-induced dyskinesias, including chorea, dystonia, tremor and asterixis, similar to those 
+induced by phenothiazine and other neuroleptic drugs. EXTENDED PHENYTOIN SODIUM: adverse_reactions: Cerebellar atrophy has been reported, and appears more likely in settings of elevated phenytoin 
+levels and/or long-term phenytoin use [ see Warnings and Precautions (5.15) ] . A predominantly sensory peripheral polyneuropathy has been observed in patients receiving long-term phenytoin therapy. 
+Skin and Appendages: Dermatological manifestations sometimes accompanied by fever have included scarlatiniform or morbilliform rashes. A morbilliform rash (measles-like) is the most common; other 
+types of dermatitis are seen more rarely. Other more serious forms which may be fatal have included bullous, exfoliative or purpuric dermatitis, acute generalized exanthematous pustulosis, 
+Stevens-Johnson syndrome, and toxic epidermal necrolysis  . There have also been reports of hypertrichosis and urticaria.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide: MEDICATION GUIDE Dispense with Medication Guide available at: documents.amneal.com/mg/extended-phenytoin-sodium.pdf Extended phenytoin sodium (fen‘ i 
+toyn soe‘ dee um) capsules What is the most important information I should know about extended phenytoin sodium capsules? 1. Do not stop taking extended phenytoin sodium capsules without first talking
+to your healthcare provider. Stopping extended phenytoin sodium capsules suddenly can cause serious problems. Stopping a seizure medicine suddenly can cause you to have seizures more often or seizures
+that will not stop (status epilepticus). 2. Like other antiepileptic drugs, extended phenytoin sodium capsules may cause suicidal thoughts or actions in a very small number of people, about 1 in 500. 
+EXTENDED PHENYTOIN SODIUM: spl_medguide: Call a healthcare provider right away if you have any of these symptoms, especially if they are new, worse, or worry you: Thoughts about suicide or dying New 
+or worse anxiety Trouble sleeping (insomnia) Acting on dangerous impulses Attempts to commit suicide Feeling agitated or restless New or worse irritability An extreme increase in activity and talking 
+(mania) New or worse depression Panic attacks Acting aggressive, being angry, or violent Other unusual changes in behavior or mood Suicidal thoughts or actions can be caused by things other than 
+medicines. If you have suicidal thoughts or actions, your healthcare provider may check for other causes. How can I watch for early symptoms of suicidal thoughts and actions? Pay attention to any 
+changes, especially sudden changes, in mood, behaviors, thoughts, or feelings. Keep all follow-up visits with your healthcare provider as scheduled. Call your healthcare provider between visits as 
+needed, especially if you are worried about symptoms. 3. EXTENDED PHENYTOIN SODIUM: spl_medguide: Extended phenytoin sodium capsules can cause a type of serious allergic reaction that may affect 
+different parts of the body such as your liver, kidneys, blood, heart, skin or other parts of your body. These can be very serious and cause death. Call your healthcare provider right away if you have
+any or all of these symptoms: Fever Sore throat Not wanting to eat (anorexia) Rash Sores in your mouth Nausea Swollen lymph glands Bruise easily Vomiting Swelling of your face, eye, lips, or tongue 
+Trouble swallowing or breathing Purple or red spots on your skin Increase infections Yellowing of the skin and the white part of your eyes (jaundice) Call your healthcare provider even if the symptoms
+are mild or if you have been taking extended phenytoin sodium capsules for an extended period of time. These symptoms can be a sign of a serious allergic reaction. 4. EXTENDED PHENYTOIN SODIUM: 
+spl_medguide: Extended phenytoin sodium capsules can cause problems with your heart, including a slow heartbeat. Let your healthcare provider know right away if you have any of these symptoms: 
+dizziness tiredness feeling like your heart is beating slowly or skipping beats chest pain What are extended phenytoin sodium capsules? Extended phenytoin sodium capsules are a prescription medicine 
+used to treat certain types of seizures called tonic-clonic (grand mal) and psychomotor (temporal lobe) seizures. Do not take extended phenytoin sodium capsules if you: Are allergic to phenytoin or 
+any of the ingredients in extended phenytoin sodium capsules. See the end of this leaflet for a complete list of ingredients in extended phenytoin sodium capsules. Have had an allergic reaction to 
+CEREBYX (fosphenytoin), PEGANONE (ethotoin), or MESANTOIN (mephenytoin). EXTENDED PHENYTOIN SODIUM: spl_medguide: Have had liver problems from taking phenytoin. Take delavirdine. Before taking 
+extended phenytoin sodium capsules, tell your healthcare provider about all of your medical conditions, including if you: Have or have had depression, mood problems, or suicidal thoughts or behavior 
+Have had an allergic reaction to a medicine similar to extended phenytoin sodium capsules called carboxamides, barbiturates, succinimides, and oxazolidinediones Have or had liver or kidney problems 
+Have or had an enzyme problem called porphyria Have or had high blood sugar (hyperglycemia) Drink alcohol Are pregnant or plan to become pregnant. Extended phenytoin sodium capsules may harm your 
+unborn baby. If you take extended phenytoin sodium capsules during pregnancy, your baby is at risk for serious birth defects. EXTENDED PHENYTOIN SODIUM: spl_medguide: If you become pregnant while 
+taking extended phenytoin sodium capsules, the level of phenytoin in your blood may decrease, causing your seizures to become worse. Your healthcare provider may change your dose of extended phenytoin
+sodium capsules. If you take extended phenytoin sodium capsules during pregnancy, your baby is also at risk for bleeding problems right after birth. Your healthcare provider may give you and your baby
+medicine to prevent this. All women of child-bearing age should talk to their healthcare provider about using other possible treatments instead of extended phenytoin sodium capsules. If you are of 
+childbearing age and are not planning on getting pregnant, you should use effective birth control (contraception) while taking extended phenytoin sodium capsules. Pregnancy Registry: If you become 
+pregnant while taking extended phenytoin sodium capsules, talk to your healthcare provider about registering with the North American Antiepileptic Drug Pregnancy Registry. EXTENDED PHENYTOIN SODIUM: 
+spl_medguide: You can enroll in this registry by calling 1-888-233-2334. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. Are 
+breastfeeding or plan to breastfeed. Phenytoin can pass into breast milk. You and your healthcare provider should decide if you will take extended phenytoin sodium capsules while you are 
+breastfeeding. Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. These medicines can change the 
+levels of phenytoin in your blood. Taking extended phenytoin sodium capsules with certain other medicines can cause side effects or affect how well they work. Do not start or stop other medicines 
+without talking to your healthcare provider. Know the medicines you take. Keep a list of them and show it to your healthcare provider and pharmacist when you get a new medicine. How should I take 
+extended phenytoin sodium capsules? EXTENDED PHENYTOIN SODIUM: spl_medguide: Take extended phenytoin sodium capsules exactly as your healthcare provider tells you. Your healthcare provider will tell 
+you how much extended phenytoin sodium capsules to take and when to take it. Your healthcare provider may change your dose if needed. Do not change your dose of extended phenytoin sodium capsules 
+without talking to your healthcare provider. Do not stop taking extended phenytoin sodium capsules without first talking to your healthcare provider. Stopping extended phenytoin sodium capsules 
+suddenly can cause serious problems. What should I avoid while taking extended phenytoin sodium capsules? Do not drink alcohol while you take extended phenytoin sodium capsules without first talking 
+to your healthcare provider. Drinking alcohol while taking extended phenytoin sodium capsules may change your blood levels of phenytoin which can cause serious problems. Do not drive, operate heavy 
+machinery, or do other dangerous activities until you know how extended phenytoin sodium capsules affects you.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: spl_medguide_table: content></paragraph><paragraph>Extended phenytoin sodium capsules are a prescription medicine used to treat certain types of seizures called 
+tonic-clonic (grand mal) and psychomotor (temporal lobe) seizures.</paragraph></td></tr><tr><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph><content styleCode="bold">Do not 
+take</content><content styleCode="bold">extended phenytoin sodium capsules if you:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Are allergic to phenytoin or any of the 
+ingredients in extended phenytoin sodium capsules. See the end of this leaflet for a complete list of ingredients in extended phenytoin sodium capsules.</item><item>Have had an allergic reaction to 
+CEREBYX (fosphenytoin), PEGANONE (ethotoin), or MESANTOIN (mephenytoin). EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item><item>Have had liver problems from taking phenytoin.</item><item>Take 
+delavirdine.</item></list><paragraph><content styleCode="bold">Before taking</content><content styleCode="bold">extended phenytoin sodium capsules, tell your healthcare provider about all of your 
+medical conditions, including if you:</content></paragraph><list listType="unordered" styleCode="Disc"><item>Have or have had depression, mood problems, or suicidal thoughts or 
+behavior</item><item>Have had an allergic reaction to a medicine similar to extended phenytoin sodium capsules called carboxamides, barbiturates, succinimides, and oxazolidinediones</item><item>Have 
+or had liver or kidney problems</item><item>Have or had an enzyme problem called porphyria</item><item>Have or had high blood sugar (hyperglycemia)</item><item>Drink alcohol</item><item EXTENDED 
+PHENYTOIN SODIUM: spl_medguide_table: >Are pregnant or plan to become pregnant. Extended phenytoin sodium capsules may harm your unborn baby.</item><item>If you take extended phenytoin sodium capsules
+during pregnancy, your baby is at risk for serious birth defects.</item><item>If you become pregnant while taking extended phenytoin sodium capsules, the level of phenytoin in your blood may decrease,
+causing your seizures to become worse. Your healthcare provider may change your dose of extended phenytoin sodium capsules.</item><item>If you take extended phenytoin sodium capsules during pregnancy,
+your baby is also at risk for bleeding problems right after birth. Your healthcare provider may give you and your baby medicine to prevent this.</item><item>All women of child-bearing age should talk 
+to their healthcare provider about using other possible treatments instead of extended phenytoin sodium capsules. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item><item>If you are of childbearing 
+age and are not planning on getting pregnant, you should use effective birth control (contraception) while taking extended phenytoin sodium capsules.</item><item><content styleCode="bold">Pregnancy 
+Registry:</content>If you become pregnant while taking extended phenytoin sodium capsules, talk to your healthcare provider about registering with the North American Antiepileptic Drug Pregnancy 
+Registry. You can enroll in this registry by calling 1-888-233-2334. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. </item><item>Are 
+breastfeeding or plan to breastfeed. Phenytoin can pass into breast milk. You and your healthcare provider should decide if you will take extended phenytoin sodium capsules while you are 
+breastfeeding. EXTENDED PHENYTOIN SODIUM: spl_medguide_table: item></list><paragraph>Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter 
+medicines, vitamins, and herbal supplements. These medicines can change the levels of phenytoin in your blood.</paragraph><paragraph>Taking extended phenytoin sodium capsules with certain other 
+medicines can cause side effects or affect how well they work. Do not start or stop other medicines without talking to your healthcare provider.</paragraph><paragraph>Know the medicines you take. Keep
+a list of them and show it to your healthcare provider and pharmacist when you get a new medicine.</paragraph></td></tr><tr><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph><content 
+styleCode="bold">How should I take</content><content styleCode="bold">extended phenytoin sodium capsules?         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: Anyone considering prescribing phenytoin sodium or any other AED must balance the risk of suicidal thoughts or behavior with the risk of 
+untreated illness. Epilepsy and many other illnesses for which AEDs are prescribed are themselves associated with morbidity and mortality and an increased risk of suicidal thoughts and behavior. 
+Should suicidal thoughts and behavior emerge during treatment, the prescriber needs to consider whether the emergence of these symptoms in any given patient may be related to the illness being 
+treated. Patients, their caregivers, and families should be informed that AEDs increase the risk of suicidal thoughts and behavior and should be advised of the need to be alert for the emergence or 
+worsening of the signs and symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. Behaviors of concern should be
+reported immediately to healthcare providers. 5. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: 3 Serious Dermatologic Reactions Phenytoin sodium can cause severe cutaneous adverse reactions 
+(SCARs), which may be fatal. Reported reactions in phenytoin-treated patients have included toxic epidermal necrolysis (TEN), Stevens-Johnson syndrome (SJS), acute generalized exanthematous pustulosis
+(AGEP), and Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS)  . The onset of symptoms is usually within 28 days, but can occur later. Phenytoin sodium should be discontinued at the first 
+sign of a rash, unless the rash is clearly not drug-related. If signs or symptoms suggest a severe cutaneous adverse reaction, use of this drug should not be resumed and alternative therapy should be 
+considered. If a rash occurs, the patient should be evaluated for signs and symptoms of SCARs. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: Studies in patients of Chinese ancestry have found a 
+strong association between the risk of developing SJS/TEN and the presence of HLA-B*1502, an inherited allelic variant of the HLA-B gene, in patients using carbamazepine. Limited evidence suggests 
+that HLA-B*1502 may be a risk factor for the development of SJS/TEN in patients of Asian ancestry taking other antiepileptic drugs associated with SJS/TEN, including phenytoin. In addition, 
+retrospective, case-control, genome-wide association studies in patients of southeast Asian ancestry have also identified an increased risk of SCARs in carriers of the decreased function CYP2C9*3 
+variant, which has also been associated with decreased clearance of phenytoin. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: Consider avoiding phenytoin as an alternative to carbamazepine in 
+patients who are positive for HLA-B*1502 or in CYP2C9*3 carriers  . The use of HLA-B*1502 or CYP2C9 genotyping has important limitations and must never substitute for appropriate clinical vigilance 
+and patient management. The role of other possible factors in the development of, and morbidity from, SJS/TEN, such as antiepileptic drug (AED) dose, compliance, concomitant medications, 
+comorbidities, and the level of dermatologic monitoring have not been studied. 5. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: 4 Drug Reaction with Eosinophilia and Systemic Symptoms 
+(DRESS)/Multiorgan Hypersensitivity Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS), also known as Multiorgan hypersensitivity, has been reported in patients taking antiepileptic drugs, 
+including phenytoin sodium. Some of these events have been fatal or life-threatening. DRESS typically, although not exclusively, presents with fever, rash, lymphadenopathy, and/or facial swelling, in 
+association with other organ system involvement, such as hepatitis, nephritis, hematological abnormalities, myocarditis, or myositis sometimes resembling an acute viral infection. Eosinophilia is 
+often present. Because this disorder is variable in its expression, other organ systems not noted here may be involved. It is important to note that early manifestations of hypersensitivity, such as 
+fever or lymphadenopathy, may be present even though rash is not evident.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+
+CONTENT: EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: 6 Cardiac Effects Cases of bradycardia and cardiac arrest have been reported in phenytoin sodium-treated patients, both at recommended 
+phenytoin doses and levels, and in association with phenytoin toxicity  . Most of the reports of cardiac arrest occurred in patients with underlying cardiac disease. 5.7 Angioedema Angioedema has been
+reported in patients treated with phenytoin sodium in the postmarketing setting. Phenytoin sodium should be discontinued immediately if symptoms of angioedema, such as facial, perioral, or upper 
+airway swelling occur. Phenytoin sodium should be discontinued permanently if a clear alternative etiology for the reaction cannot be established. 5.8 Hepatic Injury Cases of acute hepatotoxicity, 
+including infrequent cases of acute hepatic failure, have been reported with phenytoin sodium. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: These events may be part of the spectrum of DRESS or 
+may occur in isolation . Other common manifestations include jaundice, hepatomegaly, elevated serum transaminase levels, leukocytosis, and eosinophilia. The clinical course of acute phenytoin 
+hepatotoxicity ranges from prompt recovery to fatal outcomes. In these patients with acute hepatotoxicity, phenytoin sodium should be immediately discontinued and not readministered. 5.9 Hematopoietic
+Complications Hematopoietic complications, some fatal, have occasionally been reported in association with administration of phenytoin sodium. These have included thrombocytopenia, leukopenia, 
+granulocytopenia, agranulocytosis, and pancytopenia with or without bone marrow suppression. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: There have been a number of reports suggesting a 
+relationship between phenytoin and the development of lymphadenopathy (local or generalized) including benign lymph node hyperplasia, pseudolymphoma, lymphoma, and Hodgkin’s disease. Although a cause 
+and effect relationship has not been established, the occurrence of lymphadenopathy indicates the need to differentiate such a condition from other types of lymph node pathology. Lymph node 
+involvement may occur with or without symptoms and signs of DRESS  . In all cases of lymphadenopathy, follow-up observation for an extended period is indicated and every effort should be made to 
+achieve seizure control using alternative antiepileptic drugs. 5.10 Effects on Vitamin D and Bone The chronic use of phenytoin in patients with epilepsy has been associated with decreased bone mineral
+density (osteopenia, osteoporosis, and osteomalacia) and bone fractures. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: Phenytoin induces hepatic metabolizing enzymes. This may enhance the 
+metabolism of vitamin D and decrease vitamin D levels, which may lead to vitamin D deficiency, hypocalcemia, and hypophosphatemia. Consideration should be given to screening with bone-related 
+laboratory and radiological tests as appropriate and initiating treatment plans according to established guidelines. 5.11 Renal or Hepatic Impairment or Hypoalbuminemia Because the fraction of unbound
+phenytoin is increased in patients with renal or hepatic disease, or in those with hypoalbuminemia, the monitoring of phenytoin serum levels should be based on the unbound fraction in those patients. 
+5.12 Exacerbation of Porphyria In view of isolated reports associating phenytoin with exacerbation of porphyria, caution should be exercised in using this medication in patients suffering from this 
+disease. 5. EXTENDED PHENYTOIN SODIUM: warnings_and_cautions: 13 Teratogenicity and Other Harm to the Newborn Phenytoin may cause fetal harm when administered to a pregnant woman. Prenatal exposure to
+phenytoin may increase the risks for congenital malformations and other adverse developmental outcomes . Increased frequencies of major malformations (such as orofacial clefts and cardiac defects), 
+and abnormalities characteristic of fetal hydantoin syndrome, including dysmorphic skull and facial features, nail and digit hypoplasia, growth abnormalities (including microcephaly), and cognitive 
+deficits, have been reported among children born to epileptic women who took phenytoin alone or in combination with other antiepileptic drugs during pregnancy. There have been several reported cases 
+of malignancies, including neuroblastoma.         
+SOURCE:EXTENDED PHENYTOIN SODIUM label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: Extended phenytoin sodium has been associated with hematopoietic complications, some of which have been fatal. These complications include thrombocytopenia, leukopenia, granulocytopenia, 
+agranulocytosis, and pancytopenia with or without bone marrow suppression. Pure red cell aplasia has also been reported. However, the frequency of these events is not reliably estimated, and a causal 
+relationship to drug exposure is not always clear.
+
+SOURCE: EXTENDED PHENYTOIN SODIUM label
+EXTRACT_START_END: Hematopoietic complications, some fatal... Pure red cell aplasia has also been reported.
+*(orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: Extended phenytoin sodium has been associated 
+with hematopoietic complications, some of which have been fatal. These complications include thrombocytopenia, leukopenia, granulocytopenia, agranulocytosis, and pancytopenia with or without bone 
+marrow suppression. Pure red cell aplasia has also been reported. However, the frequency of these events is not reliably estimated, and a causal relationship to drug exposure is not always clear.
+
+SOURCE: EXTENDED PHENYTOIN SODIUM label
+EXTRACT_START_END: Hematopoietic complications, some fatal... Pure red cell aplasia has also been reported.
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of aplastic anemia?",
+    "steps": [
+      "I asked FDAHandler whether EXTENDED PHENYTOIN SODIUM increases or decreases the risk of aplastic anemia.",
+      "FDAHandler responded by indicating that EXTENDED PHENYTOIN SODIUM has been associated with hematopoietic complications, some of which have been fatal, including thrombocytopenia, leukopenia, 
+granulocytopenia, agranulocytosis, and pancytopenia with or without bone marrow suppression. Pure red cell aplasia has also been reported. However, the frequency of these events is not reliably 
+estimated, and a causal relationship to drug exposure is not always clear."
+    ],
+    "answer": "EXTENDED PHENYTOIN SODIUM has been associated with hematopoietic complications, including conditions that affect the bone marrow and blood cells. These complications can be severe and 
+sometimes fatal. While pure red cell aplasia has been reported, which is a condition related to aplastic anemia, the frequency of these events and the clarity of the causal relationship to the drug 
+are not well established. Therefore, it is known that there is an association, but the degree of risk and the reliability of the causal relationship are not clearly defined."
+  }
+}
+*(orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  FDAHandler  Entity.USER(FDAHandler) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of aplastic anemia?",
+    "steps": [
+      "I asked FDAHandler whether EXTENDED PHENYTOIN SODIUM increases or decreases the risk of aplastic anemia.",
+      "FDAHandler responded by indicating that EXTENDED PHENYTOIN SODIUM has been associated with hematopoietic complications, some of which have been fatal, including thrombocytopenia, leukopenia, 
+granulocytopenia, agranulocytosis, and pancytopenia with or without bone marrow suppression. Pure red cell aplasia has also been reported. However, the frequency of these events is not reliably 
+estimated, and a causal relationship to drug exposure is not always clear."
+    ],
+    "answer": "EXTENDED PHENYTOIN SODIUM has been associated with hematopoietic complications, including conditions that affect the bone marrow and blood cells. These complications can be severe and 
+sometimes fatal. While pure red cell aplasia has been reported, which is a condition related to aplastic anemia, the frequency of these events and the clarity of the causal relationship to the drug 
+are not well established. Therefore, it is known that there is an association, but the degree of risk and the reliability of the causal relationship are not clearly defined.",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does EXTENDED PHENYTOIN SODIUM increase or decrease the risk of aplastic anemia?
+        -----
+        Reasoning:
+        1. I asked FDAHandler whether EXTENDED PHENYTOIN SODIUM increases or decreases the risk of aplastic anemia.
+2. FDAHandler responded by indicating that EXTENDED PHENYTOIN SODIUM has been associated with hematopoietic complications, some of which have been fatal, including thrombocytopenia, leukopenia, 
+granulocytopenia, agranulocytosis, and pancytopenia with or without bone marrow suppression. Pure red cell aplasia has also been reported. However, the frequency of these events is not reliably 
+estimated, and a causal relationship to drug exposure is not always clear.
+        -----
+        Final answer: EXTENDED PHENYTOIN SODIUM has been associated with hematopoietic complications, including conditions that affect the bone marrow and blood cells. These complications can be 
+severe and sometimes fatal. While pure red cell aplasia has been reported, which is a condition related to aplastic anemia, the frequency of these events and the clarity of the causal relationship to 
+the drug are not well established. Therefore, it is known that there is an association, but the degree of risk and the reliability of the causal relationship are not clearly defined.
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is consistent with the information given by FDAHandler and aligns with medical knowledge regarding drug side effects and their reporting. The response 
+acknowledges the association between EXTENDED PHENYTOIN SODIUM and hematopoietic complications, including conditions related to aplastic anemia, while also correctly stating that the frequency and 
+causal relationship are not well established. There are no apparent logical flaws in the reasoning process, and the final answer appropriately reflects the strength of evidence and the magnitude of 
+the effect as being uncertain."
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Critic  Entity.USER(    Critic) (=>     AGENT) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is consistent with the information given by FDAHandler and aligns with medical knowledge regarding drug side effects and their reporting. The response 
+acknowledges the association between EXTENDED PHENYTOIN SODIUM and hematopoietic complications, including conditions related to aplastic anemia, while also correctly stating that the frequency and 
+causal relationship are not well established. There are no apparent logical flaws in the reasoning process, and the final answer appropriately reflects the strength of evidence and the magnitude of 
+the effect as being uncertain.",
+    "request": "feedback"
+  }
+}
+*(orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) 
+        Feedback: The reasoning provided is consistent with the information given by FDAHandler and aligns with medical knowledge regarding drug side effects and their reporting. The response 
+acknowledges the association between EXTENDED PHENYTOIN SODIUM and hematopoietic complications, including conditions related to aplastic anemia, while also correctly stating that the frequency and 
+causal relationship are not well established. There are no apparent logical flaws in the reasoning process, and the final answer appropriately reflects the strength of evidence and the magnitude of 
+the effect as being uncertain.
+
+        If any flaws in the reasoning used to produce your
+        answer were identified, you must try again.
+        
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.USER 
+ (orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-aplastic anemia-EXTENDED PHENYTOIN SODIUM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+
+The question was whether EXTENDED PHENYTOIN SODIUM increases or decreases the risk of aplastic anemia. According to the information provided by FDAHandler, EXTENDED PHENYTOIN SODIUM has been 
+associated with various hematopoietic complications, some of which have been fatal. These complications include a range of conditions that affect the bone marrow and blood cells, such as 
+thrombocytopenia, leukopenia, granulocytopenia, agranulocytosis, and pancytopenia, with or without bone marrow suppression. Additionally, pure red cell aplasia, which is related to aplastic anemia, 
+has been reported. However, the frequency of these events and the clarity of the causal relationship to the drug are not well established.
+
+Therefore, while there is an association between EXTENDED PHENYTOIN SODIUM and hematopoietic complications, including conditions related to aplastic anemia, the degree of risk and the reliability of 
+the causal relationship are not clearly defined.

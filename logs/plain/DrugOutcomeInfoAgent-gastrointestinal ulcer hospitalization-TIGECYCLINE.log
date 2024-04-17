@@ -1,0 +1,527 @@
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does TIGECYCLINE increase or decrease the risk
+of gastrointestinal ulcer hospitalization?
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT 
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?"
+  }
+}
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does TIGECYCLINE increase or decrease the risk
+of gastrointestinal ulcer hospitalization?
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?",
+    "drug": "tigecycline"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: TIGECYCLINE: clinical_studies_table: <table ID="t11" width="100%"><caption ID="G27e24559-6ed6-49f7-a922-9571f94945ca">Table 10. Post-hoc Analysis of Clinical Cure Rates in Patients with 
+Community-Acquired Bacterial Pneumonia Based on Risk of Mortality<sup>a</sup></caption><colgroup><col align="left" width="25%"/><col align="center" width="25%"/><col align="center" width="25%"/><col 
+align="center" width="25%"/></colgroup><thead><tr><th/><th>Tigecycline for injection</th><th>Levofloxacin</th><th/></tr><tr><th/><th>n/N (%) </th><th>n/N (%) </th><th>95% 
+CI<sup>b</sup></th></tr></thead><tfoot><tr><td colspan="4"><sup>a</sup TIGECYCLINE: clinical_studies_table: > Patients at higher risk of death include patients with any one of the following: 
+&#x2265;50 year of age; PSI score &#x2265;3; or bacteremia due to <content styleCode="italics">Streptococcus pneumoniae</content><paragraph><sup>b</sup> 95% confidence interval for the treatment 
+difference</paragraph><paragraph><sup>c</sup> After at least 3 days of intravenous therapy, a switch to oral levofloxacin (500 mg daily) was permitted for both treatment arms in Study 1. TIGECYCLINE: 
+clinical_studies_table: paragraph></td></tr></tfoot><tbody><tr><td>Study 1<sup>c</sup></td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td></tr><tr><td> CE </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Higher risk 
+</td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Yes </td><td align="center" valign="middle">93/103 (90.3) 
+</td><td align="center" valign="middle">84/102 (82. TIGECYCLINE: clinical_studies_table: 4) </td><td align="center" valign="middle">(-2.3, 18.2) </td></tr><tr><td> No </td><td align="center" 
+valign="middle">32/35 (91.4) </td><td align="center" valign="middle">52/54 (96.3) </td><td align="center" valign="middle">(-20.8, 7. TIGECYCLINE: clinical_studies_table: 1) </td></tr><tr><td> c-mITT 
+</td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Higher risk </td><td align="center" valign="middle"> 
+</td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Yes </td><td align="center" valign="middle">111/142 (78.2) </td><td align="center" 
+valign="middle">100/134 (74.6) </td><td align="center" valign="middle">(-6.9, 14) </td></tr><tr><td> No </td><td align="center" valign="middle">38/49 (77. TIGECYCLINE: clinical_studies_table: 6) 
+</td><td align="center" valign="middle">58/69 (84.1) </td><td align="center" valign="middle">(-22.8, 8. TIGECYCLINE: clinical_studies_table: 7) </td></tr><tr><td>Study 2 </td><td align="center" 
+valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> CE </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Higher risk </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td></tr><tr><td> Yes </td><td align="center" valign="middle">95/107 (88. TIGECYCLINE: clinical_studies_table: 8) </td><td align="center" valign="middle">68/85 (80) </td><td 
+align="center" valign="middle">(-2.2, 20.3) </td></tr><tr><td> No </td><td align="center" valign="middle">33/37 (89.2) </td><td align="center" valign="middle">48/51 (94.1) </td><td align="center" 
+valign="middle">(-21.1, 8. TIGECYCLINE: clinical_studies_table: 6) </td></tr><tr><td> c-mITT </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td></tr><tr><td> Higher risk </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Yes 
+</td><td align="center" valign="middle">112/134 (83.6) </td><td align="center" valign="middle">93/120 (77.5) </td><td align="center" valign="middle">(-4.2, 16.4) </td></tr><tr><td> No </td><td 
+align="center" valign="middle">58/69 (84. TIGECYCLINE: clinical_studies_table: 1) </td><td align="center" valign="middle">70/80 (87.5) </td><td align="center" valign="middle">(-16.2, 8. TIGECYCLINE: 
+clinical_studies_table: 8) </td></tr></tbody></table>         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: clinical_studies: 3) Legionella pneumophila 10/10 (100.0) 6/6 (100.0) Streptococcus pneumoniae (penicillin-susceptible only) b 44/46 (95.7) 39/44 (88.6) To further evaluate the 
+treatment effect of tigecycline, a post-hoc analysis was conducted in CABP patients with a higher risk of mortality, for whom the treatment effect of antibacterial drugs is supported by historical 
+evidence. The higher-risk group included CABP patients from the two studies with any of the following factors: Age ≥50 years PSI score ≥3 Streptococcus pneumoniae bacteremia The results of this 
+analysis are shown in Table 10. Age ≥50 was the most common risk factor in the higher-risk group. Table 10. TIGECYCLINE: clinical_studies: Post-hoc Analysis of Clinical Cure Rates in Patients with 
+Community-Acquired Bacterial Pneumonia Based on Risk of Mortality a Tigecycline for injection Levofloxacin n/N (%) n/N (%) 95% CI b a Patients at higher risk of death include patients with any one of 
+the following: ≥50 year of age; PSI score ≥3; or bacteremia due to Streptococcus pneumoniae b 95% confidence interval for the treatment difference c After at least 3 days of intravenous therapy, a 
+switch to oral levofloxacin (500 mg daily) was permitted for both treatment arms in Study 1. Study 1 c CE Higher risk Yes 93/103 (90.3) 84/102 (82.4) (-2.3, 18.2) No 32/35 (91.4) 52/54 (96.3) (-20.8, 
+7. TIGECYCLINE: clinical_studies: 1) c-mITT Higher risk Yes 111/142 (78.2) 100/134 (74.6) (-6.9, 14) No 38/49 (77.6) 58/69 (84.1) (-22.8, 8.7) Study 2 CE Higher risk Yes 95/107 (88.8) 68/85 (80) 
+(-2.2, 20.3) No 33/37 (89.2) 48/51 (94.1) (-21.1, 8.6) c-mITT Higher risk Yes 112/134 (83.6) 93/120 (77.5) (-4.2, 16.4) No 58/69 (84.1) 70/80 (87.5) (-16.2, 8.         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: pharmacokinetics: Gender In a pooled analysis of 38 women and 298 men participating in clinical pharmacology studies, there was no significant difference in the mean (±SD) 
+tigecycline clearance between women (20.7±6.5 L/h) and men (22.8±8.7 L/h). Therefore, no dosage adjustment is necessary based on gender. Race In a pooled analysis of 73 Asian subjects, 53 Black 
+subjects, 15 Hispanic subjects, 190 White subjects, and 3 subjects classified as “other” participating in clinical pharmacology studies, there was no significant difference in the mean (±SD) 
+tigecycline clearance among the Asian subjects (28.8±8.8 L/h), Black subjects (23.0±7.8 L/h), Hispanic subjects (24.3±6.5 L/h), White subjects (22.1±8.9 L/h), and “other” subjects (25. TIGECYCLINE: 
+pharmacokinetics: 0±4.8 L/h). Therefore, no dosage adjustment is necessary based on race. Drug Interaction Studies Digoxin Tigecycline for injection (100 mg followed by 50 mg every 12 hours) and 
+digoxin (0.5 mg followed by 0.25 mg, orally, every 24 hours) were co-administered to healthy subjects in a drug interaction study. Tigecycline slightly decreased the C max of digoxin by 13%, but did 
+not affect the AUC or clearance of digoxin. This small change in C max did not affect the steady-state pharmacodynamic effects of digoxin as measured by changes in ECG intervals. In addition, digoxin 
+did not affect the pharmacokinetic profile of tigecycline. Therefore, no dosage adjustment of either drug is necessary when tigecycline for injection is administered with digoxin. TIGECYCLINE: 
+pharmacokinetics: Warfarin Concomitant administration of tigecycline for injection (100 mg followed by 50 mg every 12 hours) and warfarin (25 mg single-dose) to healthy subjects resulted in a decrease
+in clearance of R‑warfarin and S‑warfarin by 40% and 23%, an increase in C max by 38% and 43% and an increase in AUC by 68% and 29%, respectively. Tigecycline did not significantly alter the effects 
+of warfarin on INR. In addition, warfarin did not affect the pharmacokinetic profile of tigecycline. However, prothrombin time or other suitable anticoagulation test should be monitored if tigecycline
+is administered with warfarin. TIGECYCLINE: pharmacokinetics: In vitro studies in human liver microsomes indicate that tigecycline does not inhibit metabolism mediated by any of the following 6 
+cytochrome P450 (CYP) isoforms: 1A2, 2C8, 2C9, 2C19, 2D6, and 3A4. Therefore, tigecycline for injection is not expected to alter the metabolism of drugs metabolized by these enzymes. In addition, 
+because tigecycline is not extensively metabolized, clearance of tigecycline is not expected to be affected by drugs that inhibit or induce the activity of these CYP450 isoforms. In vitro studies 
+using Caco-2 cells indicate that tigecycline does not inhibit digoxin flux, suggesting that tigecycline is not a P-glycoprotein (P-gp) inhibitor. TIGECYCLINE: pharmacokinetics: This in vitro 
+information is consistent with the lack of effect of tigecycline on digoxin clearance noted in the in vivo drug interaction study described above. Tigecycline is a substrate of P-gp based on an in 
+vitro study using a cell line overexpressing P-gp. The potential contribution of P-gp-mediated transport to the in vivo disposition of tigecycline is not known. Coadministration of P-gp inhibitors 
+(e.g., ketoconazole or cyclosporine) or P-gp inducers (e.g., rifampicin) could affect the pharmacokinetics of tigecycline.         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: spl_id         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: package_ndc         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: spl_set_id         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: product_ndc         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: pharm_class_cs         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: adverse_reactions: 6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: All-Cause Mortality  Mortality Imbalance and Lower Cure 
+Rates in Hospital-Acquired Pneumonia  Anaphylaxis [Warning and Precautions ( 5.3 )] Hepatic Adverse Effects [Warnings and Precautions ( 5.4 )] Pancreatitis [Warnings and Precautions ( 5.5 )] The most 
+common adverse reactions (incidence >5%) are nausea, vomiting, diarrhea, abdominal pain, headache, and increased SGPT. ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact Apotex at 1-800-706-5575 
+or FDA at 1-800-FDA-1088 or www. TIGECYCLINE: adverse_reactions: da.gov/medwatch 6.1 Clinical Trials Experience Because clinical trials are conducted under widely varying conditions, adverse reaction 
+rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. In clinical trials, 2514
+patients were treated with tigecycline for injection. Tigecycline for injection was discontinued due to adverse reactions in 7% of patients compared to 6% for all comparators. Table 1 shows the 
+incidence of adverse reactions through test of cure reported in ≥2% of patients in these trials. Table 1. TIGECYCLINE: adverse_reactions: Incidence (%) of Adverse Reactions Through Test of Cure 
+Reported in ≥ 2% of Patients Treated in Clinical Studies Body System Tigecycline for injection Comparators a Adverse Reactions (N=2514) (N=2307) a Vancomycin/Aztreonam, Imipenem/Cilastatin, 
+Levofloxacin, Linezolid. b LFT abnormalities in tigecycline for injection-treated patients were reported more frequently in the post therapy period than those in comparator-treated patients, which 
+occurred more often on therapy.         
+SOURCE:TIGECYCLINE label
+
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?",
+    "drug": "tigecycline"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does TIGECYCLINE increase or decrease the risk of 
+gastrointestinal ulcer hospitalization?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT 
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?"
+  }
+}
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does TIGECYCLINE increase or decrease the risk
+of gastrointestinal ulcer hospitalization?
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?",
+    "drug": "tigecycline"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: TIGECYCLINE: clinical_studies_table: <table ID="t11" width="100%"><caption ID="G27e24559-6ed6-49f7-a922-9571f94945ca">Table 10. Post-hoc Analysis of Clinical Cure Rates in Patients with 
+Community-Acquired Bacterial Pneumonia Based on Risk of Mortality<sup>a</sup></caption><colgroup><col align="left" width="25%"/><col align="center" width="25%"/><col align="center" width="25%"/><col 
+align="center" width="25%"/></colgroup><thead><tr><th/><th>Tigecycline for injection</th><th>Levofloxacin</th><th/></tr><tr><th/><th>n/N (%) </th><th>n/N (%) </th><th>95% 
+CI<sup>b</sup></th></tr></thead><tfoot><tr><td colspan="4"><sup>a</sup TIGECYCLINE: clinical_studies_table: > Patients at higher risk of death include patients with any one of the following: 
+&#x2265;50 year of age; PSI score &#x2265;3; or bacteremia due to <content styleCode="italics">Streptococcus pneumoniae</content><paragraph><sup>b</sup> 95% confidence interval for the treatment 
+difference</paragraph><paragraph><sup>c</sup> After at least 3 days of intravenous therapy, a switch to oral levofloxacin (500 mg daily) was permitted for both treatment arms in Study 1. TIGECYCLINE: 
+clinical_studies_table: paragraph></td></tr></tfoot><tbody><tr><td>Study 1<sup>c</sup></td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td></tr><tr><td> CE </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Higher risk 
+</td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Yes </td><td align="center" valign="middle">93/103 (90.3) 
+</td><td align="center" valign="middle">84/102 (82. TIGECYCLINE: clinical_studies_table: 4) </td><td align="center" valign="middle">(-2.3, 18.2) </td></tr><tr><td> No </td><td align="center" 
+valign="middle">32/35 (91.4) </td><td align="center" valign="middle">52/54 (96.3) </td><td align="center" valign="middle">(-20.8, 7. TIGECYCLINE: clinical_studies_table: 1) </td></tr><tr><td> c-mITT 
+</td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Higher risk </td><td align="center" valign="middle"> 
+</td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Yes </td><td align="center" valign="middle">111/142 (78.2) </td><td align="center" 
+valign="middle">100/134 (74.6) </td><td align="center" valign="middle">(-6.9, 14) </td></tr><tr><td> No </td><td align="center" valign="middle">38/49 (77. TIGECYCLINE: clinical_studies_table: 6) 
+</td><td align="center" valign="middle">58/69 (84.1) </td><td align="center" valign="middle">(-22.8, 8. TIGECYCLINE: clinical_studies_table: 7) </td></tr><tr><td>Study 2 </td><td align="center" 
+valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> CE </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Higher risk </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td></tr><tr><td> Yes </td><td align="center" valign="middle">95/107 (88. TIGECYCLINE: clinical_studies_table: 8) </td><td align="center" valign="middle">68/85 (80) </td><td 
+align="center" valign="middle">(-2.2, 20.3) </td></tr><tr><td> No </td><td align="center" valign="middle">33/37 (89.2) </td><td align="center" valign="middle">48/51 (94.1) </td><td align="center" 
+valign="middle">(-21.1, 8. TIGECYCLINE: clinical_studies_table: 6) </td></tr><tr><td> c-mITT </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" 
+valign="middle"> </td></tr><tr><td> Higher risk </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td><td align="center" valign="middle"> </td></tr><tr><td> Yes 
+</td><td align="center" valign="middle">112/134 (83.6) </td><td align="center" valign="middle">93/120 (77.5) </td><td align="center" valign="middle">(-4.2, 16.4) </td></tr><tr><td> No </td><td 
+align="center" valign="middle">58/69 (84. TIGECYCLINE: clinical_studies_table: 1) </td><td align="center" valign="middle">70/80 (87.5) </td><td align="center" valign="middle">(-16.2, 8. TIGECYCLINE: 
+clinical_studies_table: 8) </td></tr></tbody></table>         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: clinical_studies: 3) Legionella pneumophila 10/10 (100.0) 6/6 (100.0) Streptococcus pneumoniae (penicillin-susceptible only) b 44/46 (95.7) 39/44 (88.6) To further evaluate the 
+treatment effect of tigecycline, a post-hoc analysis was conducted in CABP patients with a higher risk of mortality, for whom the treatment effect of antibacterial drugs is supported by historical 
+evidence. The higher-risk group included CABP patients from the two studies with any of the following factors: Age ≥50 years PSI score ≥3 Streptococcus pneumoniae bacteremia The results of this 
+analysis are shown in Table 10. Age ≥50 was the most common risk factor in the higher-risk group. Table 10. TIGECYCLINE: clinical_studies: Post-hoc Analysis of Clinical Cure Rates in Patients with 
+Community-Acquired Bacterial Pneumonia Based on Risk of Mortality a Tigecycline for injection Levofloxacin n/N (%) n/N (%) 95% CI b a Patients at higher risk of death include patients with any one of 
+the following: ≥50 year of age; PSI score ≥3; or bacteremia due to Streptococcus pneumoniae b 95% confidence interval for the treatment difference c After at least 3 days of intravenous therapy, a 
+switch to oral levofloxacin (500 mg daily) was permitted for both treatment arms in Study 1. Study 1 c CE Higher risk Yes 93/103 (90.3) 84/102 (82.4) (-2.3, 18.2) No 32/35 (91.4) 52/54 (96.3) (-20.8, 
+7. TIGECYCLINE: clinical_studies: 1) c-mITT Higher risk Yes 111/142 (78.2) 100/134 (74.6) (-6.9, 14) No 38/49 (77.6) 58/69 (84.1) (-22.8, 8.7) Study 2 CE Higher risk Yes 95/107 (88.8) 68/85 (80) 
+(-2.2, 20.3) No 33/37 (89.2) 48/51 (94.1) (-21.1, 8.6) c-mITT Higher risk Yes 112/134 (83.6) 93/120 (77.5) (-4.2, 16.4) No 58/69 (84.1) 70/80 (87.5) (-16.2, 8.         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: pharmacokinetics: Gender In a pooled analysis of 38 women and 298 men participating in clinical pharmacology studies, there was no significant difference in the mean (±SD) 
+tigecycline clearance between women (20.7±6.5 L/h) and men (22.8±8.7 L/h). Therefore, no dosage adjustment is necessary based on gender. Race In a pooled analysis of 73 Asian subjects, 53 Black 
+subjects, 15 Hispanic subjects, 190 White subjects, and 3 subjects classified as “other” participating in clinical pharmacology studies, there was no significant difference in the mean (±SD) 
+tigecycline clearance among the Asian subjects (28.8±8.8 L/h), Black subjects (23.0±7.8 L/h), Hispanic subjects (24.3±6.5 L/h), White subjects (22.1±8.9 L/h), and “other” subjects (25. TIGECYCLINE: 
+pharmacokinetics: 0±4.8 L/h). Therefore, no dosage adjustment is necessary based on race. Drug Interaction Studies Digoxin Tigecycline for injection (100 mg followed by 50 mg every 12 hours) and 
+digoxin (0.5 mg followed by 0.25 mg, orally, every 24 hours) were co-administered to healthy subjects in a drug interaction study. Tigecycline slightly decreased the C max of digoxin by 13%, but did 
+not affect the AUC or clearance of digoxin. This small change in C max did not affect the steady-state pharmacodynamic effects of digoxin as measured by changes in ECG intervals. In addition, digoxin 
+did not affect the pharmacokinetic profile of tigecycline. Therefore, no dosage adjustment of either drug is necessary when tigecycline for injection is administered with digoxin. TIGECYCLINE: 
+pharmacokinetics: Warfarin Concomitant administration of tigecycline for injection (100 mg followed by 50 mg every 12 hours) and warfarin (25 mg single-dose) to healthy subjects resulted in a decrease
+in clearance of R‑warfarin and S‑warfarin by 40% and 23%, an increase in C max by 38% and 43% and an increase in AUC by 68% and 29%, respectively. Tigecycline did not significantly alter the effects 
+of warfarin on INR. In addition, warfarin did not affect the pharmacokinetic profile of tigecycline. However, prothrombin time or other suitable anticoagulation test should be monitored if tigecycline
+is administered with warfarin. TIGECYCLINE: pharmacokinetics: In vitro studies in human liver microsomes indicate that tigecycline does not inhibit metabolism mediated by any of the following 6 
+cytochrome P450 (CYP) isoforms: 1A2, 2C8, 2C9, 2C19, 2D6, and 3A4. Therefore, tigecycline for injection is not expected to alter the metabolism of drugs metabolized by these enzymes. In addition, 
+because tigecycline is not extensively metabolized, clearance of tigecycline is not expected to be affected by drugs that inhibit or induce the activity of these CYP450 isoforms. In vitro studies 
+using Caco-2 cells indicate that tigecycline does not inhibit digoxin flux, suggesting that tigecycline is not a P-glycoprotein (P-gp) inhibitor. TIGECYCLINE: pharmacokinetics: This in vitro 
+information is consistent with the lack of effect of tigecycline on digoxin clearance noted in the in vivo drug interaction study described above. Tigecycline is a substrate of P-gp based on an in 
+vitro study using a cell line overexpressing P-gp. The potential contribution of P-gp-mediated transport to the in vivo disposition of tigecycline is not known. Coadministration of P-gp inhibitors 
+(e.g., ketoconazole or cyclosporine) or P-gp inducers (e.g., rifampicin) could affect the pharmacokinetics of tigecycline.         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: spl_id         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: package_ndc         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: spl_set_id         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: product_ndc         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: openfda: pharm_class_cs         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: adverse_reactions: 6 ADVERSE REACTIONS The following serious adverse reactions are described elsewhere in the labeling: All-Cause Mortality  Mortality Imbalance and Lower Cure 
+Rates in Hospital-Acquired Pneumonia  Anaphylaxis [Warning and Precautions ( 5.3 )] Hepatic Adverse Effects [Warnings and Precautions ( 5.4 )] Pancreatitis [Warnings and Precautions ( 5.5 )] The most 
+common adverse reactions (incidence >5%) are nausea, vomiting, diarrhea, abdominal pain, headache, and increased SGPT. ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact Apotex at 1-800-706-5575 
+or FDA at 1-800-FDA-1088 or www. TIGECYCLINE: adverse_reactions: da.gov/medwatch 6.1 Clinical Trials Experience Because clinical trials are conducted under widely varying conditions, adverse reaction 
+rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. In clinical trials, 2514
+patients were treated with tigecycline for injection. Tigecycline for injection was discontinued due to adverse reactions in 7% of patients compared to 6% for all comparators. Table 1 shows the 
+incidence of adverse reactions through test of cure reported in ≥2% of patients in these trials. Table 1. TIGECYCLINE: adverse_reactions: Incidence (%) of Adverse Reactions Through Test of Cure 
+Reported in ≥ 2% of Patients Treated in Clinical Studies Body System Tigecycline for injection Comparators a Adverse Reactions (N=2514) (N=2307) a Vancomycin/Aztreonam, Imipenem/Cilastatin, 
+Levofloxacin, Linezolid. b LFT abnormalities in tigecycline for injection-treated patients were reported more frequently in the post therapy period than those in comparator-treated patients, which 
+occurred more often on therapy.         
+SOURCE:TIGECYCLINE label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT 
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?"
+  }
+}
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does TIGECYCLINE increase or decrease the risk
+of gastrointestinal ulcer hospitalization?
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?",
+    "drug": "tigecycline"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does TIGECYCLINE increase or decrease the risk of 
+gastrointestinal ulcer hospitalization?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT 
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Tigecycline"
+  }
+}
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Tigecycline
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Tigecycline
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Tigecycline",
+    "drug": "tigecycline"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: TIGECYCLINE: microbiology: 12.4 Microbiology Mechanism of Action Tigecycline inhibits protein translation in bacteria by binding to the 30S ribosomal subunit and blocking entry of amino-acyl 
+tRNA molecules into the A site of the ribosome. This prevents incorporation of amino acid residues into elongating peptide chains. In general, tigecycline is considered bacteriostatic; however, 
+tigecycline for injection has demonstrated bactericidal activity against isolates of S. pneumoniae and L. pneumophila . Resistance To date there has been no cross-resistance observed between 
+tigecycline and other antibacterial drugs. Tigecycline is less affected by the two major tetracycline-resistance mechanisms, ribosomal protection and efflux. TIGECYCLINE: microbiology: Additionally, 
+tigecycline is not affected by resistance mechanisms such as beta-lactamases (including extended spectrum beta-lactamases), target-site modifications, macrolide efflux pumps or enzyme target changes 
+(e.g. gyrase/topoisomerases). However, some ESBL-producing isolates may confer resistance to tigecycline via other resistance mechanisms. Tigecycline resistance in some bacteria (e.g. Acinetobacter 
+calcoaceticus-Acinetobacter baumannii complex) is associated with multi-drug resistant (MDR) efflux pumps. Interaction with Other Antimicrobials In vitro studies have not demonstrated antagonism 
+between tigecycline and other commonly used antibacterial drugs. Antimicrobial Activity Tigecycline has been shown to be active against most of the following microorganisms, both in vitro and in 
+clinical infections  . TIGECYCLINE: microbiology: Gram-positive bacteria Enterococcus faecalis (vancomycin-susceptible isolates) Staphylococcus aureus (methicillin-susceptible and -resistant isolates)
+Streptococcus agalactiae Streptococcus anginosus group (includes S. anginosus, S. intermedius, and S. TIGECYCLINE: microbiology: constellatus ) Streptococcus pneumoniae (penicillin-susceptible 
+isolates) Streptococcus pyogenes Gram-negative bacteria Citrobacter freundii Enterobacter cloacae Escherichia coli Haemophilus influenzae Klebsiella oxytoca Klebsiella pneumoniae Legionella 
+pneumophila Anaerobic bacteria Bacteroides fragilis Bacteroides thetaiotaomicron Bacteroides uniformis Bacteroides vulgatus Clostridium perfringens Peptostreptococcus micros The following in vitro 
+data are available, but their clinical significance is unknown. At least 90 percent of the following bacteria exhibit an in vitro minimum inhibitory concentration (MIC) less than or equal to the 
+susceptible breakpoint for tigecycline against isolates of similar genus or organism group. TIGECYCLINE: microbiology: However, the efficacy of tigecycline in treating clinical infections caused by 
+these bacteria has not been established in adequate and well-controlled clinical trials. TIGECYCLINE: microbiology: Gram-positive bacteria Enterococcus avium Enterococcus casseliflavus Enterococcus 
+faecalis (vancomycin-resistant isolates) Enterococcus faecium (vancomycin-susceptible and -resistant isolates) Enterococcus gallinarum Listeria monocytogenes Staphylococcus epidermidis 
+(methicillin-susceptible and -resistant isolates) Staphylococcus haemolyticus Gram-negative bacteria Acinetobacter baumannii* Aeromonas hydrophila Citrobacter koseri Enterobacter aerogenes Haemophilus
+influenzae (ampicillin-resistant) Haemophilus parainfluenzae Pasteurella multocida Serratia marcescens Stenotrophomonas maltophilia Anaerobic bacteria Bacteroides distasonis Bacteroides ovatus 
+Peptostreptococcus spp. TIGECYCLINE: microbiology: Porphyromonas spp. Prevotella spp. Other bacteria Mycobacterium abscessus Mycobacterium fortuitum *There have been reports of the development of 
+tigecycline resistance in Acinetobacter infections seen during the course of standard treatment. Such resistance appears to be attributable to an MDR efflux pump mechanism. While monitoring for 
+relapse of infection is important for all infected patients, more frequent monitoring in this case is suggested. If relapse is suspected, blood and other specimens should be obtained and cultured for 
+the presence of bacteria. All bacterial isolates should be identified and tested for susceptibility to tigecycline and other appropriate antimicrobials. Susceptibility Testing For specific information
+regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: mechanism_of_action: 12.1 Mechanism of Action Tigecycline is a tetracycline class antibacterial  .         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: spl_product_data_elements: Tigecycline TIGECYCLINE TIGECYCLINE TIGECYCLINE HYDROCHLORIC ACID SODIUM HYDROXIDE LACTOSE MONOHYDRATE Tigecycline-for-injection-Vial-Label 
+Tigecycline-for-injection-Carton-label         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: contraindications: 4 CONTRAINDICATIONS Tigecycline for injection is contraindicated for use in patients who have known hypersensitivity to tigecycline. Reactions have included 
+anaphylactic reactions [ see Warnings and Precautions ( 5.3 ) and Adverse Reactions ( 6.2 ) ] . Known hypersensitivity to tigecycline.         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: pharmacokinetics: 61 mcg·h/mL) of tigecycline in skin blister fluid was approximately 26% lower than the AUC 0-12h in the serum of 10 healthy subjects. In a single-dose study, 
+tigecycline 100 mg was administered to subjects prior to undergoing elective surgery or medical procedure for tissue extraction. Concentrations at 4 hours after tigecycline administration were higher 
+in gallbladder (38-fold, n=6), lung (3.7-fold, n=5), and colon (2.3-fold, n=6), and lower in synovial fluid (0.58-fold, n=5), and bone (0.35-fold, n=6) relative to serum. The concentration of 
+tigecycline in these tissues after multiple doses has not been studied. Elimination Metabolism Tigecycline is not extensively metabolized. TIGECYCLINE: pharmacokinetics: In vitro studies with 
+tigecycline using human liver microsomes, liver slices, and hepatocytes led to the formation of only trace amounts of metabolites. In healthy male volunteers receiving 14 C-tigecycline, tigecycline 
+was the primary 14 C-labeled material recovered in urine and feces, but a glucuronide, an N-acetyl metabolite, and a tigecycline epimer (each at no more than 10% of the administered dose) were also 
+present. Tigecycline is a substrate of P-glycoprotein (P-gp) based on an in vitro study using a cell line overexpressing P-gp. The potential contribution of P-gp-mediated transport to the in vivo 
+disposition of tigecycline is not known. TIGECYCLINE: pharmacokinetics: Excretion The recovery of total radioactivity in feces and urine following administration of 14 C‑tigecycline indicates that 59%
+of the dose is eliminated by biliary/fecal excretion, and 33% is excreted in urine. Approximately 22% of the total dose is excreted as unchanged tigecycline in urine. Overall, the primary route of 
+elimination for tigecycline is biliary excretion of unchanged tigecycline and its metabolites. Glucuronidation and renal excretion of unchanged tigecycline are secondary routes. TIGECYCLINE: 
+pharmacokinetics: Specific Populations Hepatic Impairment In a study comparing 10 patients with mild hepatic impairment (Child Pugh A), 10 patients with moderate hepatic impairment (Child Pugh B), and
+5 patients with severe hepatic impairment (Child Pugh C) to 23 age and weight matched healthy control subjects, the single-dose pharmacokinetic disposition of tigecycline was not altered in patients 
+with mild hepatic impairment. However, systemic clearance of tigecycline was reduced by 25% and the half-life of tigecycline was prolonged by 23% in patients with moderate hepatic impairment (Child 
+Pugh B). Systemic clearance of tigecycline was reduced by 55%, and the half-life of tigecycline was prolonged by 43% in patients with severe hepatic impairment (Child Pugh C). TIGECYCLINE: 
+pharmacokinetics: Dosage adjustment is necessary in patients with severe hepatic impairment (Child Pugh C)  . Renal Impairment A single dose study compared 6 subjects with severe renal impairment 
+(creatinine clearance <30 mL/min), 4 end stage renal disease (ESRD) patients receiving tigecycline 2 hours before hemodialysis, 4 ESRD patients receiving tigecycline 1 hour after hemodialysis, and 6 
+healthy control subjects. The pharmacokinetic profile of tigecycline was not significantly altered in any of the renally impaired patient groups, nor was tigecycline removed by hemodialysis. No dosage
+adjustment of tigecycline for injection is necessary in patients with renal impairment or in patients undergoing hemodialysis.         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: warnings_and_cautions: 5 WARNINGS AND PRECAUTIONS All-Cause Mortality: A meta-analysis of Phase 3 and 4 clinical trials demonstrated an increase in all-cause mortality in 
+tigecycline for injection-treated patients compared to controls with a risk difference of 0.6% (95% CI 0.1, 1.2). The cause of this increase has not been established. An increase was also seen in a 
+meta-analysis limited to the approved indications [0.6% (95% CI 0.0, 1.2)]. The greatest difference in mortality was seen in tigecycline for injection-treated patients with ventilator-associated 
+pneumonia. ( 5.1 , 5.2 ) Anaphylactic Reactions: have been reported with tigecycline for injection and may be life-threatening. Avoid use in patients with known hypersensitivity to tetracyclines. ( 5.
+TIGECYCLINE: warnings_and_cautions: 3 ) Hepatic Adverse Effects: have been reported with tigecycline for injection. Patients who develop abnormal liver function tests during tigecycline for injection 
+therapy should be monitored for evidence of worsening hepatic function and evaluated for risk/benefit of continuing tigecycline therapy. ( 5.4 ) Pancreatitis: including fatalities, has been reported 
+with tigecycline for injection. If pancreatitis is suspected, then consider stopping tigecycline for injection. ( 5.5 ) Monitoring Blood Coagulation Parameters: Hypofibrinogenemia has been reported 
+with tigecycline for injection. Monitor blood coagulation parameters, including fibrinogen, at baseline and regularly during treatment with tigecycline for injection. ( 5. TIGECYCLINE: 
+warnings_and_cautions: 6 ) Tooth Discoloration and Enamel Hypoplasia: The use of tigecycline for injection during tooth development (last half of pregnancy, infancy, and childhood to the age of 8 
+years) may cause permanent discoloration of the teeth (yellow-gray-brown) and enamel hypoplasia. ( 5.7 ) Inhibition of Bone Growth: The use of tigecycline for injection during the second and third 
+trimester of pregnancy, infancy, and childhood up to the age of 8 years may cause reversible inhibition of bone growth. ( 5.8 ) Clostridium difficile associated Diarrhea (CDAD): evaluate if diarrhea 
+occurs. (5.9 ) 5.1 All-Cause Mortality An increase in all-cause mortality has been observed in a meta-analysis of Phase 3 and 4 clinical trials in tigecycline for injection-treated patients versus 
+comparator-treated patients. TIGECYCLINE: warnings_and_cautions: In all 13 Phase 3 and 4 trials that included a comparator, death occurred in 4.0% (150/3788) of patients receiving tigecycline for 
+injection and 3.0% (110/3646) of patients receiving comparator drugs. In a pooled analysis of these trials, based on a random effects model by trial weight, the adjusted risk difference of all-cause 
+mortality was 0.6% (95% CI 0.1, 1.2) between tigecycline for injection and comparator-treated patients. An analysis of mortality in all trials conducted for approved indications (cSSSI, cIAI, and 
+CABP), including post-market trials showed an adjusted mortality rate of 2.5% (66/2640) for tigecycline and 1.8% (48/2628) for comparator, respectively.         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: warnings_and_cautions: If CDAD is suspected or confirmed, ongoing antibacterial drug use not directed against C. difficile may need to be discontinued. Appropriate fluid and 
+electrolyte management, protein supplementation, antibacterial drug treatment of C. difficile , and surgical evaluation should be instituted as clinically indicated. 5.10 Sepsis/Septic Shock in 
+Patients With Intestinal Perforation Monotherapy with tigecycline should be avoided in patients with complicated intra-abdominal infections (cIAI) secondary to clinically apparent intestinal 
+perforation. In cIAI studies (n=1642), 6 patients treated with tigecycline for injection and 2 patients treated with imipenem/cilastatin presented with intestinal perforations and developed 
+sepsis/septic shock. TIGECYCLINE: warnings_and_cautions: The 6 patients treated with tigecycline for injection had higher APACHE II scores (median = 13) versus the 2 patients treated with 
+imipenem/cilastatin (APACHE II scores = 4 and 6). Due to differences in baseline APACHE II scores between treatment groups and small overall numbers, the relationship of this outcome to treatment 
+cannot be established. 5.11 Tetracycline-Class Adverse Effects Tigecycline for injection is structurally similar to tetracycline-class antibacterial drugs and may have similar adverse effects. Such 
+effects may include: photosensitivity, pseudotumor cerebri, and anti-anabolic action (which has led to increased BUN, azotemia, acidosis, and hyperphosphatemia). 5. TIGECYCLINE: warnings_and_cautions:
+12 Development of Drug-Resistant Bacteria Prescribing tigecycline for injection in the absence of a proven or strongly suspected bacterial infection is unlikely to provide benefit to the patient and 
+increases the risk of the development of drug-resistant bacteria.         
+SOURCE:TIGECYCLINE label
+
+
+CONTENT: TIGECYCLINE: description: 11 DESCRIPTION Tigecycline, USP is a tetracycline class antibacterial for intravenous infusion. The chemical name of tigecycline is (4S,4aS,5aR,12aS)- 
+9-[2-(tert-butylamino)acetamido]-4,7-bis(dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,10,12,12a-tetrahydroxy-1,11-dioxo-2 naphthacenecarboxamide. The empirical formula is C 29 H 39 N 5 O 8 and the 
+molecular weight is 585.65. The following represents the chemical structure of tigecycline: Figure 1: Structure of Tigecycline Tigecycline for injection, USP is an orange lyophilized powder or cake. 
+TIGECYCLINE: description: Each tigecycline for injection single-dose 5 mL vial contains 50 mg tigecycline, USP lyophilized powder for reconstitution for intravenous infusion and 100 mg of lactose 
+monohydrate. The pH is adjusted with hydrochloric acid, and if necessary sodium hydroxide. The product does not contain preservatives. TIGECYCLINE: description: Chemical_Structure         
+SOURCE:TIGECYCLINE label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: Tigecycline is a tetracycline class antibacterial that inhibits protein translation in bacteria by binding to the 30S ribosomal subunit, preventing the incorporation of amino acid residues 
+into elongating peptide chains. It is considered bacteriostatic but has shown bactericidal activity against certain bacteria such as S. pneumoniae and L. pneumophila. Tigecycline is active against a 
+variety of microorganisms, including both Gram-positive and Gram-negative bacteria, as well as anaerobic bacteria. It is not extensively metabolized and is primarily eliminated by biliary/fecal 
+excretion. Tigecycline is contraindicated in patients with known hypersensitivity to the drug, and its use has been associated with an increase in all-cause mortality compared to controls in clinical 
+trials. It should be avoided in patients with complicated intra-abdominal infections secondary to clinically apparent intestinal perforation. The drug is structurally similar to other tetracyclines 
+and may have similar adverse effects, such as photosensitivity, pseudotumor cerebri, and anti-anabolic action.
+
+SOURCE: TIGECYCLINE label
+EXTRACT_START_END: Tigecycline inhibits protein ... anti-anabolic action.
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: Tigecycline is a tetracycline class 
+antibacterial that inhibits protein translation in bacteria by binding to the 30S ribosomal subunit, preventing the incorporation of amino acid residues into elongating peptide chains. It is 
+considered bacteriostatic but has shown bactericidal activity against certain bacteria such as S. pneumoniae and L. pneumophila. Tigecycline is active against a variety of microorganisms, including 
+both Gram-positive and Gram-negative bacteria, as well as anaerobic bacteria. It is not extensively metabolized and is primarily eliminated by biliary/fecal excretion. Tigecycline is contraindicated 
+in patients with known hypersensitivity to the drug, and its use has been associated with an increase in all-cause mortality compared to controls in clinical trials. It should be avoided in patients 
+with complicated intra-abdominal infections secondary to clinically apparent intestinal perforation. The drug is structurally similar to other tetracyclines and may have similar adverse effects, such 
+as photosensitivity, pseudotumor cerebri, and anti-anabolic action.
+
+SOURCE: TIGECYCLINE label
+EXTRACT_START_END: Tigecycline inhibits protein ... anti-anabolic action.
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?",
+    "steps": [
+      "I sent a message to FDAHandler asking whether TIGECYCLINE increases or decreases the risk of gastrointestinal ulcer hospitalization.",
+      "FDAHandler provided information about TIGECYCLINE, including its mechanism of action, activity against microorganisms, metabolism, excretion, contraindications, and association with increased 
+all-cause mortality in clinical trials. However, there was no specific mention of gastrointestinal ulcer hospitalization."
+    ],
+    "answer": "DO-NOT-KNOW"
+  }
+}
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  FDAHandler  Entity.USER(FDAHandler) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?",
+    "steps": [
+      "I sent a message to FDAHandler asking whether TIGECYCLINE increases or decreases the risk of gastrointestinal ulcer hospitalization.",
+      "FDAHandler provided information about TIGECYCLINE, including its mechanism of action, activity against microorganisms, metabolism, excretion, contraindications, and association with increased 
+all-cause mortality in clinical trials. However, there was no specific mention of gastrointestinal ulcer hospitalization."
+    ],
+    "answer": "DO-NOT-KNOW",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does TIGECYCLINE increase or decrease the risk of gastrointestinal ulcer hospitalization?
+        -----
+        Reasoning:
+        1. I sent a message to FDAHandler asking whether TIGECYCLINE increases or decreases the risk of gastrointestinal ulcer hospitalization.
+2. FDAHandler provided information about TIGECYCLINE, including its mechanism of action, activity against microorganisms, metabolism, excretion, contraindications, and association with increased 
+all-cause mortality in clinical trials. However, there was no specific mention of gastrointestinal ulcer hospitalization.
+        -----
+        Final answer: DO-NOT-KNOW
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": ""
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Critic  Entity.USER(    Critic) (=>     AGENT) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "",
+    "request": "feedback"
+  }
+}
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) Your reasoning is valid, no feedback was 
+provided.
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.USER 
+ (orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-gastrointestinal ulcer hospitalization-TIGECYCLINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+
+The FDAHandler provided information about TIGECYCLINE, including its mechanism of action, activity against microorganisms, metabolism, excretion, contraindications, and association with increased 
+all-cause mortality in clinical trials. However, there was no specific mention of gastrointestinal ulcer hospitalization in the information provided. Therefore, I cannot determine whether TIGECYCLINE 
+increases or decreases the risk of gastrointestinal ulcer hospitalization based on the FDA label data.
