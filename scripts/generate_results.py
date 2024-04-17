@@ -81,6 +81,18 @@ omop_confusion(
     im_kw={"vmin": 0, "vmax": 1}
 )
 
+plt.savefig("img/confusion_matrix_postprocessing.pdf", bbox_inches='tight', pad_inches=0)
+
+
+fig, ax = plt.subplots(figsize=(5,4.5))
+
+omop_confusion(
+    noop, 
+    ax=ax,
+    colorbar=True, 
+    im_kw={"vmin": 0, "vmax": 1}
+)
+
 plt.savefig("img/confusion_matrix.pdf", bbox_inches='tight', pad_inches=0)
 
 print("F1: no postprocessing")
@@ -163,5 +175,5 @@ for k, v in table([
     ("CategoryOutcomeRiskAgent", classification_counts),
 ]).items():
     print(k)
-    print(f"No correction rate: {v['0,1']}, correction rate {v['2']}\n")
+    print(f"No correction rate: {v['0,1']}, correction rate {v['2+']}\n")
     
