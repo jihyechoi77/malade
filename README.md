@@ -65,7 +65,7 @@ The outputs from MALADE are in the `outputs` folder; outputs from `DrugFinder` a
 # Code Structure
 
 The core code is contained in the `malade` directory. `malade/omop.py` defines the OMOP Ground Truth table, and the associated drug categories and conditions. `malade/drug_categories.py` contains the code for finding representative drugs; `malade/omop_interactions.py` contains 
-`CategoryOutcomeRiskAgent` and `DrugOutcomeInfoAgent` and the code for identifying drug-outcome associations and labeling drug category-outcome associations. `malade/critic_agent.py` contains the code for `Critic` and `malade/omop_evaluation.py` contains utilities for evaluation (for use by `results.ipynb`).
+`CategoryOutcomeRiskAgent` and `DrugOutcomeInfoAgent` and the code for identifying drug-outcome associations and labeling drug category-outcome associations. `malade/critic_agent.py` contains the code for `Critic` and `malade/omop_evaluation.py` contains utilities for evaluation (for use by `scripts/generate_results.py`).
 
 `malade/doc` contains RAG-related code, in particular, `malade/fda_handler.py`, which contains `FDAHandler`. `malade/utils` contains general utilities, see `malade/utils/openfda.py` for the OpenFDA query code. `medrag/tools` contains utilities related to tool-use.
 
@@ -75,4 +75,4 @@ If MIMIC-IV was set up, run `DrugFinder` and the drug category representative id
 Run `DrugOutcomeInfoAgent` and the drug-outcome association identification process with `python3 malade/omop_interactions.py --recompute_iteractions`; 
 run `CategoryOutcomeRiskAgent` and the category-outcome labeling process with `python3 malade/omop_interactions.py --recompute_labels`. Run `python3 scripts/generate_summary_files.py` to process the outputs from MALADE into a readable format.
 
-`results.ipynb` contains the code to generate the final experimental results. 
+`scripts/generate_results.py` contains the code to generate the final experimental results. 

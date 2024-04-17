@@ -371,7 +371,7 @@ def omop_confusion(exclude_fn, **kwargs):
         **kwargs
     )
 
-def plot_sensitivity_specificity(confidence_method=confidence, show=True, path=None):
+def plot_sensitivity_specificity(confidence_method=confidence, show=False, path=None):
     _, ax = plt.subplots(1, 2, figsize=(10,4.5))
     
     for i, target_class in enumerate([OMOPLabels.NO_EFFECT, OMOPLabels.INCREASE]):
@@ -404,7 +404,7 @@ def plot_sensitivity_specificity(confidence_method=confidence, show=True, path=N
     if show:
         plt.show()
 
-def plot_rocs(confidence_method=confidence, show=True, path=None):
+def plot_rocs(confidence_method=confidence, show=False, path=None):
     _, ax = plt.subplots(1, 2, figsize=(10,4.5))
     for i, target_class in enumerate([OMOPLabels.NO_EFFECT, OMOPLabels.INCREASE]):
         predictions = omop_table_effect_confidences(interactions, partial(confidence_method, target_class=target_class))
@@ -433,6 +433,8 @@ def plot_interactions(
         interactions: dict[OMOPDrugs, dict[OMOPConditions, OMOPLabels]],
         save_to: Optional[str]=None,
         width=800,
+        height=200,
+        legend=True,
         domain = ["Decreased Risk", "No Effect", "Increased Risk", "No Effect (Evaluated)"],
         range_ = ["green", "white", "red", "blue"],
         keep_blue=True
@@ -455,10 +457,10 @@ def plot_interactions(
     chart = alt.Chart(df).mark_rect(stroke="black").encode(
         alt.X("Drug Category:N").sort(alt.SortArray([printing_name(d) for d in omop_drugs_for_evaluation])),
         alt.Y("Condition:N", title="Outcome").sort(alt.SortArray([printing_name(c) for c in conditions])),
-        alt.Color("Label:N", scale=alt.Scale(domain=domain if ground_truth and keep_blue else domain[:-1], range=range_)),
+        alt.Color("Label:N", scale=alt.Scale(domain=domain if ground_truth and keep_blue else domain[:-1], range=range_), **({} if legend else {"legend": None})),
     ).properties(
         width=width,
-        height=200,
+        height=height,
     )
 
     if save_to:
