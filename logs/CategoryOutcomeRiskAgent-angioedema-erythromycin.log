@@ -1,116 +1,116 @@
- [1m([0moverall-effect-angioedema-erythromycin[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[34m                Passages:[0m
-[34m                [0m[1;34m1[0m[34m. Drug ERYTHROMYCIN: ERYTHROMYCIN can potentially increase the risk of angioedema. This is based on information from the FDAHandler, which indicates that ERYTHROMYCIN has been [0m
-[34massociated with generalized urticarial reactions that can include angioedema and have required systemic steroid therapy.[0m
-[1;34m2[0m[34m. Drug ERYTHROMYCIN ETHYLSUCCINATE: The FDA label for ERYTHROMYCIN ETHYLSUCCINATE does not specifically mention an increased risk of angioedema, but it does list allergic reactions as side effects, [0m
-[34mwhich could potentially include angioedema. Therefore, while angioedema is not explicitly listed, it may be a possible side effect within the spectrum of allergic reactions to the drug.[0m
-[1;34m3[0m[34m. Drug ERYTHROMYCIN: The final answer to the question [0m[34m"Does ERYTHROMYCIN increase or decrease the risk of angioedema?"[0m[34m is that the ERYTHROMYCIN label does not explicitly mention an increased risk of [0m
-[34mangioedema. However, it does report generalized urticarial reactions, which can be associated with angioedema. The degree of risk or causality is not confirmed by the label.[0m
-[34m                ---------[0m
-[34m                Does the erythromycin category of drugs increase the risk of[0m
-[34m                angioedema, decrease it, or is there no clear effect?[0m
-[34m            [0m
- [1m([0moverall-effect-angioedema-erythromycin[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0moverall-effect-angioedema-erythromycin[1m)[0m [31m Entity.AGENT [0m
-*[1m([0moverall-effect-angioedema-erythromycin[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"final_answer"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"question"[0m[32m: [0m[32m"Does the erythromycin category of drugs increase the risk of angioedema, decrease it, or is there no clear effect?"[0m[32m,[0m
-[32m    [0m[32m"steps"[0m[32m: [0m[1;32m[[0m
-[32m      [0m[32m"Passage 1 states that ERYTHROMYCIN can potentially increase the risk of angioedema, based on FDAHandler information indicating an association with generalized urticarial reactions that can [0m
-[32minclude angioedema."[0m[32m,[0m
-[32m      [0m[32m"Passage 2 indicates that while the FDA label for ERYTHROMYCIN ETHYLSUCCINATE does not specifically mention an increased risk of angioedema, it lists allergic reactions as side effects, which [0m
-[32mcould potentially include angioedema."[0m[32m,[0m
-[32m      [0m[32m"Passage 3 reiterates that the ERYTHROMYCIN label does not explicitly mention an increased risk of angioedema but does report generalized urticarial reactions, which can be associated with [0m
-[32mangioedema."[0m[32m,[0m
-[32m      [0m[32m"The information provided suggests that there is a potential for erythromycin and its derivatives to increase the risk of angioedema, although the degree of risk or causality is not confirmed by[0m
-[32mthe labels."[0m
-[32m    [0m[1;32m][0m[32m,[0m
-[32m    [0m[32m"answer"[0m[32m: [0m[32m"The erythromycin category of drugs potentially increases the risk of angioedema."[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0moverall-effect-angioedema-erythromycin[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31m__PASS__:Critic[0m
- [1m([0moverall-effect-angioedema-erythromycin[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0moverall-effect-angioedema-erythromycin[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mCritic[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [34mFUNC: [0m[1;34m{[0m
-[34m  [0m[34m"name"[0m[34m: [0m[34m"final_answer"[0m[34m,[0m
-[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
-[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
-[34m    [0m[34m"question"[0m[34m: [0m[34m"Does the erythromycin category of drugs increase the risk of angioedema, decrease it, or is there no clear effect?"[0m[34m,[0m
-[34m    [0m[34m"steps"[0m[34m: [0m[1;34m[[0m
-[34m      [0m[34m"Passage 1 states that ERYTHROMYCIN can potentially increase the risk of angioedema, based on FDAHandler information indicating an association with generalized urticarial reactions that can [0m
-[34minclude angioedema."[0m[34m,[0m
-[34m      [0m[34m"Passage 2 indicates that while the FDA label for ERYTHROMYCIN ETHYLSUCCINATE does not specifically mention an increased risk of angioedema, it lists allergic reactions as side effects, which [0m
-[34mcould potentially include angioedema."[0m[34m,[0m
-[34m      [0m[34m"Passage 3 reiterates that the ERYTHROMYCIN label does not explicitly mention an increased risk of angioedema but does report generalized urticarial reactions, which can be associated with [0m
-[34mangioedema."[0m[34m,[0m
-[34m      [0m[34m"The information provided suggests that there is a potential for erythromycin and its derivatives to increase the risk of angioedema, although the degree of risk or causality is not confirmed by[0m
-[34mthe labels."[0m
-[34m    [0m[1;34m][0m[34m,[0m
-[34m    [0m[34m"answer"[0m[34m: [0m[34m"The erythromycin category of drugs potentially increases the risk of angioedema."[0m[34m,[0m
-[34m    [0m[34m"request"[0m[34m: [0m[34m"final_answer"[0m
-[34m  [0m[1;34m}[0m
-[1;34m}[0m
-*[1m([0mCritic[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31m        Question: Does the erythromycin category of drugs increase the risk of angioedema, decrease it, or is there no clear effect?[0m
-[31m        -----[0m
-[31m        Reasoning:[0m
-[31m        [0m[1;31m1[0m[31m. Passage [0m[1;31m1[0m[31m states that ERYTHROMYCIN can potentially increase the risk of angioedema, based on FDAHandler information indicating an association with generalized urticarial reactions that can [0m
-[31minclude angioedema.[0m
-[1;31m2[0m[31m. Passage [0m[1;31m2[0m[31m indicates that while the FDA label for ERYTHROMYCIN ETHYLSUCCINATE does not specifically mention an increased risk of angioedema, it lists allergic reactions as side effects, which could [0m
-[31mpotentially include angioedema.[0m
-[1;31m3[0m[31m. Passage [0m[1;31m3[0m[31m reiterates that the ERYTHROMYCIN label does not explicitly mention an increased risk of angioedema but does report generalized urticarial reactions, which can be associated with [0m
-[31mangioedema.[0m
-[1;31m4[0m[31m. The information provided suggests that there is a potential for erythromycin and its derivatives to increase the risk of angioedema, although the degree of risk or causality is not confirmed by the[0m
-[31mlabels.[0m
-[31m        -----[0m
-[31m        Final answer: The erythromycin category of drugs potentially increases the risk of angioedema.[0m
-[31m        [0m
- [1m([0mCritic[1m)[0m [31m Entity.USER [0m
- [1m([0mCritic[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"feedback"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"critique"[0m[32m: [0m[32m"The reasoning provided is generally sound. The user has correctly identified that erythromycin is associated with generalized urticarial reactions, which can include angioedema, and [0m
-[32mhas noted that while the labels do not explicitly confirm an increased risk of angioedema, the association with allergic reactions suggests a potential increase in risk. The final answer appropriately[0m
-[32mreflects the evidence provided, indicating a potential increase in the risk of angioedema with the use of erythromycin category drugs."[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m[31m __PASS__[0m
-*[1m([0moverall-effect-angioedema-erythromycin[1m)[0m [37m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [34mFUNC: [0m[1;34m{[0m
-[34m  [0m[34m"name"[0m[34m: [0m[34m"feedback"[0m[34m,[0m
-[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
-[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
-[34m    [0m[34m"critique"[0m[34m: [0m[34m"The reasoning provided is generally sound. The user has correctly identified that erythromycin is associated with generalized urticarial reactions, which can include angioedema, and [0m
-[34mhas noted that while the labels do not explicitly confirm an increased risk of angioedema, the association with allergic reactions suggests a potential increase in risk. The final answer appropriately[0m
-[34mreflects the evidence provided, indicating a potential increase in the risk of angioedema with the use of erythromycin category drugs."[0m[34m,[0m
-[34m    [0m[34m"request"[0m[34m: [0m[34m"feedback"[0m
-[34m  [0m[1;34m}[0m
-[1;34m}[0m
-*[1m([0moverall-effect-angioedema-erythromycin[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31m        Feedback: The reasoning provided is generally sound. The user has correctly identified that erythromycin is associated with generalized urticarial reactions, which can include angioedema, and [0m
-[31mhas noted that while the labels do not explicitly confirm an increased risk of angioedema, the association with allergic reactions suggests a potential increase in risk. The final answer appropriately[0m
-[31mreflects the evidence provided, indicating a potential increase in the risk of angioedema with the use of erythromycin category drugs.[0m
+ (overall-effect-angioedema-erythromycin)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) 
+                Passages:
+                1. Drug ERYTHROMYCIN: ERYTHROMYCIN can potentially increase the risk of angioedema. This is based on information from the FDAHandler, which indicates that ERYTHROMYCIN has been 
+associated with generalized urticarial reactions that can include angioedema and have required systemic steroid therapy.
+2. Drug ERYTHROMYCIN ETHYLSUCCINATE: The FDA label for ERYTHROMYCIN ETHYLSUCCINATE does not specifically mention an increased risk of angioedema, but it does list allergic reactions as side effects, 
+which could potentially include angioedema. Therefore, while angioedema is not explicitly listed, it may be a possible side effect within the spectrum of allergic reactions to the drug.
+3. Drug ERYTHROMYCIN: The final answer to the question "Does ERYTHROMYCIN increase or decrease the risk of angioedema?" is that the ERYTHROMYCIN label does not explicitly mention an increased risk of 
+angioedema. However, it does report generalized urticarial reactions, which can be associated with angioedema. The degree of risk or causality is not confirmed by the label.
+                ---------
+                Does the erythromycin category of drugs increase the risk of
+                angioedema, decrease it, or is there no clear effect?
+            
+ (overall-effect-angioedema-erythromycin)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (overall-effect-angioedema-erythromycin)  Entity.AGENT 
+*(overall-effect-angioedema-erythromycin)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does the erythromycin category of drugs increase the risk of angioedema, decrease it, or is there no clear effect?",
+    "steps": [
+      "Passage 1 states that ERYTHROMYCIN can potentially increase the risk of angioedema, based on FDAHandler information indicating an association with generalized urticarial reactions that can 
+include angioedema.",
+      "Passage 2 indicates that while the FDA label for ERYTHROMYCIN ETHYLSUCCINATE does not specifically mention an increased risk of angioedema, it lists allergic reactions as side effects, which 
+could potentially include angioedema.",
+      "Passage 3 reiterates that the ERYTHROMYCIN label does not explicitly mention an increased risk of angioedema but does report generalized urticarial reactions, which can be associated with 
+angioedema.",
+      "The information provided suggests that there is a potential for erythromycin and its derivatives to increase the risk of angioedema, although the degree of risk or causality is not confirmed by
+the labels."
+    ],
+    "answer": "The erythromycin category of drugs potentially increases the risk of angioedema."
+  }
+}
+*(overall-effect-angioedema-erythromycin)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (overall-effect-angioedema-erythromycin)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (overall-effect-angioedema-erythromycin)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does the erythromycin category of drugs increase the risk of angioedema, decrease it, or is there no clear effect?",
+    "steps": [
+      "Passage 1 states that ERYTHROMYCIN can potentially increase the risk of angioedema, based on FDAHandler information indicating an association with generalized urticarial reactions that can 
+include angioedema.",
+      "Passage 2 indicates that while the FDA label for ERYTHROMYCIN ETHYLSUCCINATE does not specifically mention an increased risk of angioedema, it lists allergic reactions as side effects, which 
+could potentially include angioedema.",
+      "Passage 3 reiterates that the ERYTHROMYCIN label does not explicitly mention an increased risk of angioedema but does report generalized urticarial reactions, which can be associated with 
+angioedema.",
+      "The information provided suggests that there is a potential for erythromycin and its derivatives to increase the risk of angioedema, although the degree of risk or causality is not confirmed by
+the labels."
+    ],
+    "answer": "The erythromycin category of drugs potentially increases the risk of angioedema.",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does the erythromycin category of drugs increase the risk of angioedema, decrease it, or is there no clear effect?
+        -----
+        Reasoning:
+        1. Passage 1 states that ERYTHROMYCIN can potentially increase the risk of angioedema, based on FDAHandler information indicating an association with generalized urticarial reactions that can 
+include angioedema.
+2. Passage 2 indicates that while the FDA label for ERYTHROMYCIN ETHYLSUCCINATE does not specifically mention an increased risk of angioedema, it lists allergic reactions as side effects, which could 
+potentially include angioedema.
+3. Passage 3 reiterates that the ERYTHROMYCIN label does not explicitly mention an increased risk of angioedema but does report generalized urticarial reactions, which can be associated with 
+angioedema.
+4. The information provided suggests that there is a potential for erythromycin and its derivatives to increase the risk of angioedema, although the degree of risk or causality is not confirmed by the
+labels.
+        -----
+        Final answer: The erythromycin category of drugs potentially increases the risk of angioedema.
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is generally sound. The user has correctly identified that erythromycin is associated with generalized urticarial reactions, which can include angioedema, and 
+has noted that while the labels do not explicitly confirm an increased risk of angioedema, the association with allergic reactions suggests a potential increase in risk. The final answer appropriately
+reflects the evidence provided, indicating a potential increase in the risk of angioedema with the use of erythromycin category drugs."
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(overall-effect-angioedema-erythromycin)  Critic  Entity.USER(    Critic) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is generally sound. The user has correctly identified that erythromycin is associated with generalized urticarial reactions, which can include angioedema, and 
+has noted that while the labels do not explicitly confirm an increased risk of angioedema, the association with allergic reactions suggests a potential increase in risk. The final answer appropriately
+reflects the evidence provided, indicating a potential increase in the risk of angioedema with the use of erythromycin category drugs.",
+    "request": "feedback"
+  }
+}
+*(overall-effect-angioedema-erythromycin)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) 
+        Feedback: The reasoning provided is generally sound. The user has correctly identified that erythromycin is associated with generalized urticarial reactions, which can include angioedema, and 
+has noted that while the labels do not explicitly confirm an increased risk of angioedema, the association with allergic reactions suggests a potential increase in risk. The final answer appropriately
+reflects the evidence provided, indicating a potential increase in the risk of angioedema with the use of erythromycin category drugs.
 
-[31m        If any flaws in the reasoning used to produce your[0m
-[31m        answer were identified, you must try again.[0m
-[31m        [0m
- [1m([0moverall-effect-angioedema-erythromycin[1m)[0m [31m Entity.USER [0m
- [1m([0moverall-effect-angioedema-erythromycin[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0moverall-effect-angioedema-erythromycin[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mcategory_effect_tool[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"category_effect_tool"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"label"[0m[32m: [0m[32m"increase"[0m[32m,[0m
-[32m    [0m[32m"confidence"[0m[32m: [0m[1;32m0.7[0m[32m,[0m
-[32m    [0m[32m"probability"[0m[32m: [0m[1;32m0.1[0m[32m,[0m
-[32m    [0m[32m"frequency"[0m[32m: [0m[32m"rare"[0m[32m,[0m
-[32m    [0m[32m"evidence"[0m[32m: [0m[32m"weak"[0m[32m,[0m
-[32m    [0m[32m"justification"[0m[32m: [0m[32m"Erythromycin has been associated with generalized urticarial reactions that can include angioedema, as indicated by the FDAHandler. While the FDA label for erythromycin [0m
-[32methylsuccinate does not explicitly mention angioedema, it lists allergic reactions as possible side effects, which could potentially include angioedema. The degree of risk or causality is not [0m
-[32mconfirmed by the labels, suggesting a potential but not definitive increase in risk."[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0moverall-effect-angioedema-erythromycin[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mcategory_effect_tool[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m
+        If any flaws in the reasoning used to produce your
+        answer were identified, you must try again.
+        
+ (overall-effect-angioedema-erythromycin)  Entity.USER 
+ (overall-effect-angioedema-erythromycin)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(overall-effect-angioedema-erythromycin)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(category_effect_tool) FUNC: {
+  "name": "category_effect_tool",
+  "to": "",
+  "arguments": {
+    "label": "increase",
+    "confidence": 0.7,
+    "probability": 0.1,
+    "frequency": "rare",
+    "evidence": "weak",
+    "justification": "Erythromycin has been associated with generalized urticarial reactions that can include angioedema, as indicated by the FDAHandler. While the FDA label for erythromycin 
+ethylsuccinate does not explicitly mention angioedema, it lists allergic reactions as possible side effects, which could potentially include angioedema. The degree of risk or causality is not 
+confirmed by the labels, suggesting a potential but not definitive increase in risk."
+  }
+}
+*(overall-effect-angioedema-erythromycin)  Entity.AGENT  Entity.AGENT(category_effect_tool) (=>          ) (X           )       (          ) <DONE>

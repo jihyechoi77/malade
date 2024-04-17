@@ -1,116 +1,116 @@
- [1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[34m                Passages:[0m
-[34m                [0m[1;34m1[0m[34m. Drug DOXYCYCLINE HYCLATE: DOXYCYCLINE HYCLATE has been reported to rarely increase the risk of acute liver injury. This information comes from the FDA label for Doxycycline Hyclate,[0m
-[34mwhich indicates that hepatotoxicity, including acute liver injury, has been reported rarely with its use. The adverse reactions have occurred with both oral and parenteral administration of [0m
-[34mtetracyclines, a category that includes Doxycycline Hyclate.[0m
-[1;34m2[0m[34m. Drug TIGECYCLINE: TIGECYCLINE can increase the risk of acute liver injury. This is supported by the response from FDAHandler, which indicates that hepatic adverse effects, including increases in [0m
-[34mtotal bilirubin concentration, prothrombin time, and transaminases, have been reported in patients treated with tigecycline. Additionally, isolated cases of significant hepatic dysfunction and hepatic[0m
-[34mfailure have been reported, although it is noted that some of these patients were receiving multiple concomitant medications. Monitoring for worsening hepatic function is recommended for patients who [0m
-[34mdevelop abnormal liver function tests during tigecycline therapy.[0m
-[1;34m3[0m[34m. Drug MINOCYCLINE: MINOCYCLINE has been associated with an increased risk of acute liver injury. This includes reports of serious liver injury, irreversible drug-induced hepatitis, and fulminant [0m
-[34mhepatic failure, some of which have been fatal, as confirmed by FDAHandler referencing the MINOCYCLINE label.[0m
-[34m                ---------[0m
-[34m                Does the tetracycline category of drugs increase the risk of[0m
-[34m                acute liver injury, decrease it, or is there no clear effect?[0m
-[34m            [0m
- [1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [31m Entity.AGENT [0m
-*[1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"final_answer"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"question"[0m[32m: [0m[32m"Does the tetracycline category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?"[0m[32m,[0m
-[32m    [0m[32m"steps"[0m[32m: [0m[1;32m[[0m
-[32m      [0m[32m"All three drugs mentioned [0m[32m([0m[32mDoxycycline Hyclate, Tigecycline, and Minocycline[0m[32m)[0m[32m belong to the tetracycline category."[0m[32m,[0m
-[32m      [0m[32m"Each drug has been reported to increase the risk of acute liver injury, as indicated by their respective FDA labels and reports."[0m[32m,[0m
-[32m      [0m[32m"Doxycycline Hyclate has been reported to rarely increase the risk of acute liver injury."[0m[32m,[0m
-[32m      [0m[32m"Tigecycline has been reported to increase the risk of acute liver injury, with hepatic adverse effects noted in patients treated with the drug."[0m[32m,[0m
-[32m      [0m[32m"Minocycline has been associated with an increased risk of acute liver injury, including serious liver injury and fatal outcomes."[0m[32m,[0m
-[32m      [0m[32m"Given that all three drugs in the tetracycline category have been reported to increase the risk of acute liver injury, it can be concluded that the tetracycline category of drugs as a whole [0m
-[32mincreases the risk of acute liver injury."[0m
-[32m    [0m[1;32m][0m[32m,[0m
-[32m    [0m[32m"answer"[0m[32m: [0m[32m"The tetracycline category of drugs increases the risk of acute liver injury."[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31m__PASS__:Critic[0m
- [1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mCritic[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [34mFUNC: [0m[1;34m{[0m
-[34m  [0m[34m"name"[0m[34m: [0m[34m"final_answer"[0m[34m,[0m
-[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
-[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
-[34m    [0m[34m"question"[0m[34m: [0m[34m"Does the tetracycline category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?"[0m[34m,[0m
-[34m    [0m[34m"steps"[0m[34m: [0m[1;34m[[0m
-[34m      [0m[34m"All three drugs mentioned [0m[34m([0m[34mDoxycycline Hyclate, Tigecycline, and Minocycline[0m[34m)[0m[34m belong to the tetracycline category."[0m[34m,[0m
-[34m      [0m[34m"Each drug has been reported to increase the risk of acute liver injury, as indicated by their respective FDA labels and reports."[0m[34m,[0m
-[34m      [0m[34m"Doxycycline Hyclate has been reported to rarely increase the risk of acute liver injury."[0m[34m,[0m
-[34m      [0m[34m"Tigecycline has been reported to increase the risk of acute liver injury, with hepatic adverse effects noted in patients treated with the drug."[0m[34m,[0m
-[34m      [0m[34m"Minocycline has been associated with an increased risk of acute liver injury, including serious liver injury and fatal outcomes."[0m[34m,[0m
-[34m      [0m[34m"Given that all three drugs in the tetracycline category have been reported to increase the risk of acute liver injury, it can be concluded that the tetracycline category of drugs as a whole [0m
-[34mincreases the risk of acute liver injury."[0m
-[34m    [0m[1;34m][0m[34m,[0m
-[34m    [0m[34m"answer"[0m[34m: [0m[34m"The tetracycline category of drugs increases the risk of acute liver injury."[0m[34m,[0m
-[34m    [0m[34m"request"[0m[34m: [0m[34m"final_answer"[0m
-[34m  [0m[1;34m}[0m
-[1;34m}[0m
-*[1m([0mCritic[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31m        Question: Does the tetracycline category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?[0m
-[31m        -----[0m
-[31m        Reasoning:[0m
-[31m        [0m[1;31m1[0m[31m. All three drugs mentioned [0m[1;31m([0m[31mDoxycycline Hyclate, Tigecycline, and Minocycline[0m[1;31m)[0m[31m belong to the tetracycline category.[0m
-[1;31m2[0m[31m. Each drug has been reported to increase the risk of acute liver injury, as indicated by their respective FDA labels and reports.[0m
-[1;31m3[0m[31m. Doxycycline Hyclate has been reported to rarely increase the risk of acute liver injury.[0m
-[1;31m4[0m[31m. Tigecycline has been reported to increase the risk of acute liver injury, with hepatic adverse effects noted in patients treated with the drug.[0m
-[1;31m5[0m[31m. Minocycline has been associated with an increased risk of acute liver injury, including serious liver injury and fatal outcomes.[0m
-[1;31m6[0m[31m. Given that all three drugs in the tetracycline category have been reported to increase the risk of acute liver injury, it can be concluded that the tetracycline category of drugs as a whole [0m
-[31mincreases the risk of acute liver injury.[0m
-[31m        -----[0m
-[31m        Final answer: The tetracycline category of drugs increases the risk of acute liver injury.[0m
-[31m        [0m
- [1m([0mCritic[1m)[0m [31m Entity.USER [0m
- [1m([0mCritic[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"feedback"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"critique"[0m[32m: [0m[32m"The reasoning provided is consistent with the evidence presented. All three drugs within the tetracycline category have been reported to increase the risk of acute liver injury [0m
-[32maccording to their FDA labels and reports. Therefore, it is reasonable to conclude that the tetracycline category of drugs, as a whole, increases the risk of acute liver injury. The final answer [0m
-[32maligns with the evidence and the reasoning process is logically sound."[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m[31m __PASS__[0m
-*[1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [37m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [34mFUNC: [0m[1;34m{[0m
-[34m  [0m[34m"name"[0m[34m: [0m[34m"feedback"[0m[34m,[0m
-[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
-[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
-[34m    [0m[34m"critique"[0m[34m: [0m[34m"The reasoning provided is consistent with the evidence presented. All three drugs within the tetracycline category have been reported to increase the risk of acute liver injury [0m
-[34maccording to their FDA labels and reports. Therefore, it is reasonable to conclude that the tetracycline category of drugs, as a whole, increases the risk of acute liver injury. The final answer [0m
-[34maligns with the evidence and the reasoning process is logically sound."[0m[34m,[0m
-[34m    [0m[34m"request"[0m[34m: [0m[34m"feedback"[0m
-[34m  [0m[1;34m}[0m
-[1;34m}[0m
-*[1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31m        Feedback: The reasoning provided is consistent with the evidence presented. All three drugs within the tetracycline category have been reported to increase the risk of acute liver injury [0m
-[31maccording to their FDA labels and reports. Therefore, it is reasonable to conclude that the tetracycline category of drugs, as a whole, increases the risk of acute liver injury. The final answer [0m
-[31maligns with the evidence and the reasoning process is logically sound.[0m
+ (overall-effect-acute liver injury-tetracycline)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) 
+                Passages:
+                1. Drug DOXYCYCLINE HYCLATE: DOXYCYCLINE HYCLATE has been reported to rarely increase the risk of acute liver injury. This information comes from the FDA label for Doxycycline Hyclate,
+which indicates that hepatotoxicity, including acute liver injury, has been reported rarely with its use. The adverse reactions have occurred with both oral and parenteral administration of 
+tetracyclines, a category that includes Doxycycline Hyclate.
+2. Drug TIGECYCLINE: TIGECYCLINE can increase the risk of acute liver injury. This is supported by the response from FDAHandler, which indicates that hepatic adverse effects, including increases in 
+total bilirubin concentration, prothrombin time, and transaminases, have been reported in patients treated with tigecycline. Additionally, isolated cases of significant hepatic dysfunction and hepatic
+failure have been reported, although it is noted that some of these patients were receiving multiple concomitant medications. Monitoring for worsening hepatic function is recommended for patients who 
+develop abnormal liver function tests during tigecycline therapy.
+3. Drug MINOCYCLINE: MINOCYCLINE has been associated with an increased risk of acute liver injury. This includes reports of serious liver injury, irreversible drug-induced hepatitis, and fulminant 
+hepatic failure, some of which have been fatal, as confirmed by FDAHandler referencing the MINOCYCLINE label.
+                ---------
+                Does the tetracycline category of drugs increase the risk of
+                acute liver injury, decrease it, or is there no clear effect?
+            
+ (overall-effect-acute liver injury-tetracycline)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (overall-effect-acute liver injury-tetracycline)  Entity.AGENT 
+*(overall-effect-acute liver injury-tetracycline)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does the tetracycline category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?",
+    "steps": [
+      "All three drugs mentioned (Doxycycline Hyclate, Tigecycline, and Minocycline) belong to the tetracycline category.",
+      "Each drug has been reported to increase the risk of acute liver injury, as indicated by their respective FDA labels and reports.",
+      "Doxycycline Hyclate has been reported to rarely increase the risk of acute liver injury.",
+      "Tigecycline has been reported to increase the risk of acute liver injury, with hepatic adverse effects noted in patients treated with the drug.",
+      "Minocycline has been associated with an increased risk of acute liver injury, including serious liver injury and fatal outcomes.",
+      "Given that all three drugs in the tetracycline category have been reported to increase the risk of acute liver injury, it can be concluded that the tetracycline category of drugs as a whole 
+increases the risk of acute liver injury."
+    ],
+    "answer": "The tetracycline category of drugs increases the risk of acute liver injury."
+  }
+}
+*(overall-effect-acute liver injury-tetracycline)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (overall-effect-acute liver injury-tetracycline)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (overall-effect-acute liver injury-tetracycline)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does the tetracycline category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?",
+    "steps": [
+      "All three drugs mentioned (Doxycycline Hyclate, Tigecycline, and Minocycline) belong to the tetracycline category.",
+      "Each drug has been reported to increase the risk of acute liver injury, as indicated by their respective FDA labels and reports.",
+      "Doxycycline Hyclate has been reported to rarely increase the risk of acute liver injury.",
+      "Tigecycline has been reported to increase the risk of acute liver injury, with hepatic adverse effects noted in patients treated with the drug.",
+      "Minocycline has been associated with an increased risk of acute liver injury, including serious liver injury and fatal outcomes.",
+      "Given that all three drugs in the tetracycline category have been reported to increase the risk of acute liver injury, it can be concluded that the tetracycline category of drugs as a whole 
+increases the risk of acute liver injury."
+    ],
+    "answer": "The tetracycline category of drugs increases the risk of acute liver injury.",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does the tetracycline category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?
+        -----
+        Reasoning:
+        1. All three drugs mentioned (Doxycycline Hyclate, Tigecycline, and Minocycline) belong to the tetracycline category.
+2. Each drug has been reported to increase the risk of acute liver injury, as indicated by their respective FDA labels and reports.
+3. Doxycycline Hyclate has been reported to rarely increase the risk of acute liver injury.
+4. Tigecycline has been reported to increase the risk of acute liver injury, with hepatic adverse effects noted in patients treated with the drug.
+5. Minocycline has been associated with an increased risk of acute liver injury, including serious liver injury and fatal outcomes.
+6. Given that all three drugs in the tetracycline category have been reported to increase the risk of acute liver injury, it can be concluded that the tetracycline category of drugs as a whole 
+increases the risk of acute liver injury.
+        -----
+        Final answer: The tetracycline category of drugs increases the risk of acute liver injury.
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is consistent with the evidence presented. All three drugs within the tetracycline category have been reported to increase the risk of acute liver injury 
+according to their FDA labels and reports. Therefore, it is reasonable to conclude that the tetracycline category of drugs, as a whole, increases the risk of acute liver injury. The final answer 
+aligns with the evidence and the reasoning process is logically sound."
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(overall-effect-acute liver injury-tetracycline)  Critic  Entity.USER(    Critic) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is consistent with the evidence presented. All three drugs within the tetracycline category have been reported to increase the risk of acute liver injury 
+according to their FDA labels and reports. Therefore, it is reasonable to conclude that the tetracycline category of drugs, as a whole, increases the risk of acute liver injury. The final answer 
+aligns with the evidence and the reasoning process is logically sound.",
+    "request": "feedback"
+  }
+}
+*(overall-effect-acute liver injury-tetracycline)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) 
+        Feedback: The reasoning provided is consistent with the evidence presented. All three drugs within the tetracycline category have been reported to increase the risk of acute liver injury 
+according to their FDA labels and reports. Therefore, it is reasonable to conclude that the tetracycline category of drugs, as a whole, increases the risk of acute liver injury. The final answer 
+aligns with the evidence and the reasoning process is logically sound.
 
-[31m        If any flaws in the reasoning used to produce your[0m
-[31m        answer were identified, you must try again.[0m
-[31m        [0m
- [1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [31m Entity.USER [0m
- [1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mcategory_effect_tool[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"category_effect_tool"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"label"[0m[32m: [0m[32m"increase"[0m[32m,[0m
-[32m    [0m[32m"confidence"[0m[32m: [0m[1;32m0.9[0m[32m,[0m
-[32m    [0m[32m"probability"[0m[32m: [0m[1;32m0.7[0m[32m,[0m
-[32m    [0m[32m"frequency"[0m[32m: [0m[32m"rare"[0m[32m,[0m
-[32m    [0m[32m"evidence"[0m[32m: [0m[32m"strong"[0m[32m,[0m
-[32m    [0m[32m"justification"[0m[32m: [0m[32m"The FDA labels and reports for Doxycycline Hyclate, Tigecycline, and Minocycline, all of which belong to the tetracycline category, indicate an increased risk of acute liver [0m
-[32minjury. The adverse reactions are reported to be rare for Doxycycline Hyclate, while Tigecycline and Minocycline have more pronounced hepatic adverse effects. The evidence is considered strong as it [0m
-[32mis based on official drug labels and reports."[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0moverall-effect-acute liver injury-tetracycline[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mcategory_effect_tool[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m
+        If any flaws in the reasoning used to produce your
+        answer were identified, you must try again.
+        
+ (overall-effect-acute liver injury-tetracycline)  Entity.USER 
+ (overall-effect-acute liver injury-tetracycline)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(overall-effect-acute liver injury-tetracycline)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(category_effect_tool) FUNC: {
+  "name": "category_effect_tool",
+  "to": "",
+  "arguments": {
+    "label": "increase",
+    "confidence": 0.9,
+    "probability": 0.7,
+    "frequency": "rare",
+    "evidence": "strong",
+    "justification": "The FDA labels and reports for Doxycycline Hyclate, Tigecycline, and Minocycline, all of which belong to the tetracycline category, indicate an increased risk of acute liver 
+injury. The adverse reactions are reported to be rare for Doxycycline Hyclate, while Tigecycline and Minocycline have more pronounced hepatic adverse effects. The evidence is considered strong as it 
+is based on official drug labels and reports."
+  }
+}
+*(overall-effect-acute liver injury-tetracycline)  Entity.AGENT  Entity.AGENT(category_effect_tool) (=>          ) (X           )       (          ) <DONE>

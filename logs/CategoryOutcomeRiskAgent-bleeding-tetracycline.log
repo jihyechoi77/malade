@@ -1,116 +1,116 @@
- [1m([0moverall-effect-bleeding-tetracycline[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[34m                Passages:[0m
-[34m                [0m[1;34m1[0m[34m. Drug DOXYCYCLINE HYCLATE: DOXYCYCLINE HYCLATE could potentially increase the risk of bleeding, especially in patients on anticoagulant therapy, due to its effect on depressing [0m
-[34mplasma prothrombin activity.[0m
-[1;34m2[0m[34m. Drug TIGECYCLINE: Tigecycline may increase the risk of bleeding due to its potential effect on blood coagulation parameters, specifically by causing hypofibrinogenemia. Patients taking tigecycline [0m
-[34mshould monitor their blood coagulation parameters, including fibrinogen levels.[0m
-[1;34m3[0m[34m. Drug MINOCYCLINE: MINOCYCLINE has been shown to potentially increase the risk of bleeding by depressing plasma prothrombin activity. This information is based on the MINOCYCLINE label, which [0m
-[34mindicates that patients on anticoagulant therapy may need to adjust their dosage when taking MINOCYCLINE.[0m
-[34m                ---------[0m
-[34m                Does the tetracycline category of drugs increase the risk of[0m
-[34m                bleeding, decrease it, or is there no clear effect?[0m
-[34m            [0m
- [1m([0moverall-effect-bleeding-tetracycline[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0moverall-effect-bleeding-tetracycline[1m)[0m [31m Entity.AGENT [0m
-*[1m([0moverall-effect-bleeding-tetracycline[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"final_answer"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"question"[0m[32m: [0m[32m"Does the tetracycline category of drugs increase the risk of bleeding, decrease it, or is there no clear effect?"[0m[32m,[0m
-[32m    [0m[32m"steps"[0m[32m: [0m[1;32m[[0m
-[32m      [0m[32m"The passage for DOXYCYCLINE HYCLATE indicates that it could potentially increase the risk of bleeding, especially in patients on anticoagulant therapy, due to its effect on depressing plasma [0m
-[32mprothrombin activity."[0m[32m,[0m
-[32m      [0m[32m"The passage for TIGECYCLINE states that it may increase the risk of bleeding due to its potential effect on blood coagulation parameters, specifically by causing hypofibrinogenemia."[0m[32m,[0m
-[32m      [0m[32m"The passage for MINOCYCLINE shows that it has been shown to potentially increase the risk of bleeding by depressing plasma prothrombin activity, particularly in patients on anticoagulant [0m
-[32mtherapy."[0m[32m,[0m
-[32m      [0m[32m"All three drugs mentioned, which belong to the tetracycline category, have been associated with an increased risk of bleeding through various mechanisms affecting blood coagulation."[0m[32m,[0m
-[32m      [0m[32m"There is a consistent pattern across the drugs in the tetracycline category that suggests an increased risk of bleeding."[0m
-[32m    [0m[1;32m][0m[32m,[0m
-[32m    [0m[32m"answer"[0m[32m: [0m[32m"increase"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0moverall-effect-bleeding-tetracycline[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31m__PASS__:Critic[0m
- [1m([0moverall-effect-bleeding-tetracycline[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0moverall-effect-bleeding-tetracycline[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mCritic[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [34mFUNC: [0m[1;34m{[0m
-[34m  [0m[34m"name"[0m[34m: [0m[34m"final_answer"[0m[34m,[0m
-[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
-[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
-[34m    [0m[34m"question"[0m[34m: [0m[34m"Does the tetracycline category of drugs increase the risk of bleeding, decrease it, or is there no clear effect?"[0m[34m,[0m
-[34m    [0m[34m"steps"[0m[34m: [0m[1;34m[[0m
-[34m      [0m[34m"The passage for DOXYCYCLINE HYCLATE indicates that it could potentially increase the risk of bleeding, especially in patients on anticoagulant therapy, due to its effect on depressing plasma [0m
-[34mprothrombin activity."[0m[34m,[0m
-[34m      [0m[34m"The passage for TIGECYCLINE states that it may increase the risk of bleeding due to its potential effect on blood coagulation parameters, specifically by causing hypofibrinogenemia."[0m[34m,[0m
-[34m      [0m[34m"The passage for MINOCYCLINE shows that it has been shown to potentially increase the risk of bleeding by depressing plasma prothrombin activity, particularly in patients on anticoagulant [0m
-[34mtherapy."[0m[34m,[0m
-[34m      [0m[34m"All three drugs mentioned, which belong to the tetracycline category, have been associated with an increased risk of bleeding through various mechanisms affecting blood coagulation."[0m[34m,[0m
-[34m      [0m[34m"There is a consistent pattern across the drugs in the tetracycline category that suggests an increased risk of bleeding."[0m
-[34m    [0m[1;34m][0m[34m,[0m
-[34m    [0m[34m"answer"[0m[34m: [0m[34m"increase"[0m[34m,[0m
-[34m    [0m[34m"request"[0m[34m: [0m[34m"final_answer"[0m
-[34m  [0m[1;34m}[0m
-[1;34m}[0m
-*[1m([0mCritic[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31m        Question: Does the tetracycline category of drugs increase the risk of bleeding, decrease it, or is there no clear effect?[0m
-[31m        -----[0m
-[31m        Reasoning:[0m
-[31m        [0m[1;31m1[0m[31m. The passage for DOXYCYCLINE HYCLATE indicates that it could potentially increase the risk of bleeding, especially in patients on anticoagulant therapy, due to its effect on depressing [0m
-[31mplasma prothrombin activity.[0m
-[1;31m2[0m[31m. The passage for TIGECYCLINE states that it may increase the risk of bleeding due to its potential effect on blood coagulation parameters, specifically by causing hypofibrinogenemia.[0m
-[1;31m3[0m[31m. The passage for MINOCYCLINE shows that it has been shown to potentially increase the risk of bleeding by depressing plasma prothrombin activity, particularly in patients on anticoagulant therapy.[0m
-[1;31m4[0m[31m. All three drugs mentioned, which belong to the tetracycline category, have been associated with an increased risk of bleeding through various mechanisms affecting blood coagulation.[0m
-[1;31m5[0m[31m. There is a consistent pattern across the drugs in the tetracycline category that suggests an increased risk of bleeding.[0m
-[31m        -----[0m
-[31m        Final answer: increase[0m
-[31m        [0m
- [1m([0mCritic[1m)[0m [31m Entity.USER [0m
- [1m([0mCritic[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"feedback"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"critique"[0m[32m: [0m[32m"The reasoning provided is sound and consistent with the evidence presented. All three drugs within the tetracycline category [0m[32m([0m[32mdoxycycline hyclate, tigecycline, and minocycline[0m[32m)[0m[32m have [0m
-[32mbeen associated with an increased risk of bleeding through mechanisms that affect blood coagulation. The user has correctly identified a consistent pattern across these drugs that suggests an [0m
-[32mincreased risk of bleeding. Therefore, there is no flaw in the reasoning process, and the conclusion that the tetracycline category of drugs may increase the risk of bleeding is supported by the [0m
-[32mevidence provided."[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m[31m __PASS__[0m
-*[1m([0moverall-effect-bleeding-tetracycline[1m)[0m [37m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [34mFUNC: [0m[1;34m{[0m
-[34m  [0m[34m"name"[0m[34m: [0m[34m"feedback"[0m[34m,[0m
-[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
-[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
-[34m    [0m[34m"critique"[0m[34m: [0m[34m"The reasoning provided is sound and consistent with the evidence presented. All three drugs within the tetracycline category [0m[34m([0m[34mdoxycycline hyclate, tigecycline, and minocycline[0m[34m)[0m[34m have [0m
-[34mbeen associated with an increased risk of bleeding through mechanisms that affect blood coagulation. The user has correctly identified a consistent pattern across these drugs that suggests an [0m
-[34mincreased risk of bleeding. Therefore, there is no flaw in the reasoning process, and the conclusion that the tetracycline category of drugs may increase the risk of bleeding is supported by the [0m
-[34mevidence provided."[0m[34m,[0m
-[34m    [0m[34m"request"[0m[34m: [0m[34m"feedback"[0m
-[34m  [0m[1;34m}[0m
-[1;34m}[0m
-*[1m([0moverall-effect-bleeding-tetracycline[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31m        Feedback: The reasoning provided is sound and consistent with the evidence presented. All three drugs within the tetracycline category [0m[1;31m([0m[31mdoxycycline hyclate, tigecycline, and minocycline[0m[1;31m)[0m[31m have [0m
-[31mbeen associated with an increased risk of bleeding through mechanisms that affect blood coagulation. The user has correctly identified a consistent pattern across these drugs that suggests an [0m
-[31mincreased risk of bleeding. Therefore, there is no flaw in the reasoning process, and the conclusion that the tetracycline category of drugs may increase the risk of bleeding is supported by the [0m
-[31mevidence provided.[0m
+ (overall-effect-bleeding-tetracycline)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) 
+                Passages:
+                1. Drug DOXYCYCLINE HYCLATE: DOXYCYCLINE HYCLATE could potentially increase the risk of bleeding, especially in patients on anticoagulant therapy, due to its effect on depressing 
+plasma prothrombin activity.
+2. Drug TIGECYCLINE: Tigecycline may increase the risk of bleeding due to its potential effect on blood coagulation parameters, specifically by causing hypofibrinogenemia. Patients taking tigecycline 
+should monitor their blood coagulation parameters, including fibrinogen levels.
+3. Drug MINOCYCLINE: MINOCYCLINE has been shown to potentially increase the risk of bleeding by depressing plasma prothrombin activity. This information is based on the MINOCYCLINE label, which 
+indicates that patients on anticoagulant therapy may need to adjust their dosage when taking MINOCYCLINE.
+                ---------
+                Does the tetracycline category of drugs increase the risk of
+                bleeding, decrease it, or is there no clear effect?
+            
+ (overall-effect-bleeding-tetracycline)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (overall-effect-bleeding-tetracycline)  Entity.AGENT 
+*(overall-effect-bleeding-tetracycline)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does the tetracycline category of drugs increase the risk of bleeding, decrease it, or is there no clear effect?",
+    "steps": [
+      "The passage for DOXYCYCLINE HYCLATE indicates that it could potentially increase the risk of bleeding, especially in patients on anticoagulant therapy, due to its effect on depressing plasma 
+prothrombin activity.",
+      "The passage for TIGECYCLINE states that it may increase the risk of bleeding due to its potential effect on blood coagulation parameters, specifically by causing hypofibrinogenemia.",
+      "The passage for MINOCYCLINE shows that it has been shown to potentially increase the risk of bleeding by depressing plasma prothrombin activity, particularly in patients on anticoagulant 
+therapy.",
+      "All three drugs mentioned, which belong to the tetracycline category, have been associated with an increased risk of bleeding through various mechanisms affecting blood coagulation.",
+      "There is a consistent pattern across the drugs in the tetracycline category that suggests an increased risk of bleeding."
+    ],
+    "answer": "increase"
+  }
+}
+*(overall-effect-bleeding-tetracycline)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (overall-effect-bleeding-tetracycline)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (overall-effect-bleeding-tetracycline)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does the tetracycline category of drugs increase the risk of bleeding, decrease it, or is there no clear effect?",
+    "steps": [
+      "The passage for DOXYCYCLINE HYCLATE indicates that it could potentially increase the risk of bleeding, especially in patients on anticoagulant therapy, due to its effect on depressing plasma 
+prothrombin activity.",
+      "The passage for TIGECYCLINE states that it may increase the risk of bleeding due to its potential effect on blood coagulation parameters, specifically by causing hypofibrinogenemia.",
+      "The passage for MINOCYCLINE shows that it has been shown to potentially increase the risk of bleeding by depressing plasma prothrombin activity, particularly in patients on anticoagulant 
+therapy.",
+      "All three drugs mentioned, which belong to the tetracycline category, have been associated with an increased risk of bleeding through various mechanisms affecting blood coagulation.",
+      "There is a consistent pattern across the drugs in the tetracycline category that suggests an increased risk of bleeding."
+    ],
+    "answer": "increase",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does the tetracycline category of drugs increase the risk of bleeding, decrease it, or is there no clear effect?
+        -----
+        Reasoning:
+        1. The passage for DOXYCYCLINE HYCLATE indicates that it could potentially increase the risk of bleeding, especially in patients on anticoagulant therapy, due to its effect on depressing 
+plasma prothrombin activity.
+2. The passage for TIGECYCLINE states that it may increase the risk of bleeding due to its potential effect on blood coagulation parameters, specifically by causing hypofibrinogenemia.
+3. The passage for MINOCYCLINE shows that it has been shown to potentially increase the risk of bleeding by depressing plasma prothrombin activity, particularly in patients on anticoagulant therapy.
+4. All three drugs mentioned, which belong to the tetracycline category, have been associated with an increased risk of bleeding through various mechanisms affecting blood coagulation.
+5. There is a consistent pattern across the drugs in the tetracycline category that suggests an increased risk of bleeding.
+        -----
+        Final answer: increase
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is sound and consistent with the evidence presented. All three drugs within the tetracycline category (doxycycline hyclate, tigecycline, and minocycline) have 
+been associated with an increased risk of bleeding through mechanisms that affect blood coagulation. The user has correctly identified a consistent pattern across these drugs that suggests an 
+increased risk of bleeding. Therefore, there is no flaw in the reasoning process, and the conclusion that the tetracycline category of drugs may increase the risk of bleeding is supported by the 
+evidence provided."
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(overall-effect-bleeding-tetracycline)  Critic  Entity.USER(    Critic) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is sound and consistent with the evidence presented. All three drugs within the tetracycline category (doxycycline hyclate, tigecycline, and minocycline) have 
+been associated with an increased risk of bleeding through mechanisms that affect blood coagulation. The user has correctly identified a consistent pattern across these drugs that suggests an 
+increased risk of bleeding. Therefore, there is no flaw in the reasoning process, and the conclusion that the tetracycline category of drugs may increase the risk of bleeding is supported by the 
+evidence provided.",
+    "request": "feedback"
+  }
+}
+*(overall-effect-bleeding-tetracycline)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) 
+        Feedback: The reasoning provided is sound and consistent with the evidence presented. All three drugs within the tetracycline category (doxycycline hyclate, tigecycline, and minocycline) have 
+been associated with an increased risk of bleeding through mechanisms that affect blood coagulation. The user has correctly identified a consistent pattern across these drugs that suggests an 
+increased risk of bleeding. Therefore, there is no flaw in the reasoning process, and the conclusion that the tetracycline category of drugs may increase the risk of bleeding is supported by the 
+evidence provided.
 
-[31m        If any flaws in the reasoning used to produce your[0m
-[31m        answer were identified, you must try again.[0m
-[31m        [0m
- [1m([0moverall-effect-bleeding-tetracycline[1m)[0m [31m Entity.USER [0m
- [1m([0moverall-effect-bleeding-tetracycline[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0moverall-effect-bleeding-tetracycline[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mcategory_effect_tool[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"category_effect_tool"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"label"[0m[32m: [0m[32m"increase"[0m[32m,[0m
-[32m    [0m[32m"confidence"[0m[32m: [0m[1;32m0.9[0m[32m,[0m
-[32m    [0m[32m"probability"[0m[32m: [0m[1;32m0.7[0m[32m,[0m
-[32m    [0m[32m"frequency"[0m[32m: [0m[32m"rare"[0m[32m,[0m
-[32m    [0m[32m"evidence"[0m[32m: [0m[32m"strong"[0m[32m,[0m
-[32m    [0m[32m"justification"[0m[32m: [0m[32m"All three drugs within the tetracycline category have been associated with an increased risk of bleeding through mechanisms that affect blood coagulation. The evidence is [0m
-[32mconsidered strong as it is based on drug labels and known pharmacological effects. The probability is set at 0.7 to reflect the potential for increased risk, but not certainty, as bleeding is a [0m
-[32mcomplex multifactorial condition. The frequency is considered rare, as not all individuals taking these drugs will experience bleeding, and the risk is particularly noted in those on anticoagulant [0m
-[32mtherapy."[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0moverall-effect-bleeding-tetracycline[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mcategory_effect_tool[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m
+        If any flaws in the reasoning used to produce your
+        answer were identified, you must try again.
+        
+ (overall-effect-bleeding-tetracycline)  Entity.USER 
+ (overall-effect-bleeding-tetracycline)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(overall-effect-bleeding-tetracycline)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(category_effect_tool) FUNC: {
+  "name": "category_effect_tool",
+  "to": "",
+  "arguments": {
+    "label": "increase",
+    "confidence": 0.9,
+    "probability": 0.7,
+    "frequency": "rare",
+    "evidence": "strong",
+    "justification": "All three drugs within the tetracycline category have been associated with an increased risk of bleeding through mechanisms that affect blood coagulation. The evidence is 
+considered strong as it is based on drug labels and known pharmacological effects. The probability is set at 0.7 to reflect the potential for increased risk, but not certainty, as bleeding is a 
+complex multifactorial condition. The frequency is considered rare, as not all individuals taking these drugs will experience bleeding, and the risk is particularly noted in those on anticoagulant 
+therapy."
+  }
+}
+*(overall-effect-bleeding-tetracycline)  Entity.AGENT  Entity.AGENT(category_effect_tool) (=>          ) (X           )       (          ) <DONE>

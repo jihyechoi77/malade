@@ -1,305 +1,305 @@
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes DESIPRAMINE increase or decrease the risk of angioedema?[0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
-[32m    [0m[32m"content"[0m[32m: [0m[32m"DESIPRAMINE"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDESIPRAMINE[0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDESIPRAMINE[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"query"[0m[32m: [0m[32m"Desipramine"[0m[32m,[0m
-[32m    [0m[32m"drug"[0m[32m: [0m[32m"desipramine"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31mCONTENT: DESIPRAMINE: description: DESCRIPTION Desipramine hydrochloride, USP is an antidepressant drug of the tricyclic type, and is chemically: 5H-Dibenz [0m[31m [0m
-[31mazepine-[0m[1;31m5[0m[31m-propanamine,[0m[1;31m10[0m[31m,[0m[1;31m11[0m[31m-dihydro-N-methyl-, monohydrochloride. Each desipramine hydrochloride, USP tablet contains [0m[1;31m10[0m[31m mg, [0m[1;31m25[0m[31m mg, [0m[1;31m50[0m[31m mg, [0m[1;31m75[0m[31m mg, [0m[1;31m100[0m[31m mg, or [0m[1;31m150[0m[31m mg of desipramine hydrochloride for [0m
-[31moral administration. Inactive Ingredients The following inactive ingredients are contained in all dosage strengths: Hypromellose, lactose monohydrate, microcrystalline cellulose, polyethylene glycol, [0m
-[31msodium starch glycolate type A [0m[1;31m([0m[31mpotato[0m[1;31m)[0m[31m, stearic acid, talc and titanium dioxide. DESIPRAMINE: description: desipramine-chemical-structure         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does DESIPRAMINE increase or decrease the risk of angioedema?
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.AGENT 
+*(orchestrator-angioedema-DESIPRAMINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "DESIPRAMINE"
+  }
+}
+*(orchestrator-angioedema-DESIPRAMINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) DESIPRAMINE
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) DESIPRAMINE
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Desipramine",
+    "drug": "desipramine"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: DESIPRAMINE: description: DESCRIPTION Desipramine hydrochloride, USP is an antidepressant drug of the tricyclic type, and is chemically: 5H-Dibenz  
+azepine-5-propanamine,10,11-dihydro-N-methyl-, monohydrochloride. Each desipramine hydrochloride, USP tablet contains 10 mg, 25 mg, 50 mg, 75 mg, 100 mg, or 150 mg of desipramine hydrochloride for 
+oral administration. Inactive Ingredients The following inactive ingredients are contained in all dosage strengths: Hypromellose, lactose monohydrate, microcrystalline cellulose, polyethylene glycol, 
+sodium starch glycolate type A (potato), stearic acid, talc and titanium dioxide. DESIPRAMINE: description: desipramine-chemical-structure         
+SOURCE:DESIPRAMINE label
 
 
-[31mCONTENT: DESIPRAMINE: clinical_pharmacology: CLINICAL PHARMACOLOGY Mechanism of Action Available evidence suggests that many depressions have a biochemical basis in the form of a relative deficiency [0m
-[31mof neurotransmitters such as norepinephrine and serotonin. Norepinephrine deficiency may be associated with relatively low urinary [0m[1;31m3[0m[31m-methoxy-[0m[1;31m4[0m[31m- hydroxyphenyl glycol [0m[1;31m([0m[31mMHPG[0m[1;31m)[0m[31m levels, while serotonin [0m
-[31mdeficiencies may be associated with low spinal fluid levels of [0m[1;31m5[0m[31m-hydroxyindoleacetic acid. While the precise mechanism of action of the tricyclic antidepressants is unknown, a leading theory suggests [0m
-[31mthat they restore normal levels of neurotransmitters by blocking the re-uptake of these substances from the synapse in the central nervous system. Evidence indicates that the secondary amine tricyclic[0m
-[31mantidepressants, including desipramine hydrochloride, may have greater activity in blocking the re-uptake of norepinephrine. DESIPRAMINE: clinical_pharmacology: Tertiary amine tricyclic [0m
-[31mantidepressants, such as amitriptyline, may have greater effect on serotonin re-uptake. Desipramine hydrochloride is not a monoamine oxidase inhibitor [0m[1;31m([0m[31mMAOI[0m[1;31m)[0m[31m and does not act primarily as a central [0m
-[31mnervous system stimulant. It has been found in some studies to have a more rapid onset of action than imipramine. Earliest therapeutic effects may occasionally be seen in [0m[1;31m2[0m[31m to [0m[1;31m5[0m[31m days, but full [0m
-[31mtreatment benefit usually requires [0m[1;31m2[0m[31m to [0m[1;31m3[0m[31m weeks to obtain. Metabolism Tricyclic antidepressants, such as desipramine hydrochloride, are rapidly absorbed from the gastrointestinal tract. Tricyclic [0m
-[31mantidepressants or their metabolites are to some extent excreted through the gastric mucosa and reabsorbed from the gastrointestinal tract. Desipramine is metabolized in the liver, and approximately [0m
-[1;31m70[0m[31m% is excreted in the urine. DESIPRAMINE: clinical_pharmacology: The rate of metabolism of tricyclic antidepressants varies widely from individual to individual, chiefly on a genetically determined [0m
-[31mbasis. Up to a [0m[1;31m36[0m[31m-fold difference in plasma level may be noted among individuals taking the same oral dose of desipramine. The ratio of [0m[1;31m2[0m[31m-hydroxydesipramine to desipramine may be increased in the [0m
-[31melderly, most likely due to decreased renal elimination with aging. Certain drugs, particularly the psychostimulants and the phenothiazines, increase plasma levels of concomitantly administered [0m
-[31mtricyclic antidepressants through competition for the same metabolic enzyme systems. Concurrent administration of cimetidine and tricyclic antidepressants can produce clinically significant increases [0m
-[31min the plasma concentrations of the tricyclic antidepressants. DESIPRAMINE: clinical_pharmacology: Conversely, decreases in plasma levels of the tricyclic antidepressants have been reported upon [0m
-[31mdiscontinuation of cimetidine, which may result in the loss of the therapeutic efficacy of the tricyclic antidepressant. Other substances, particularly barbiturates and alcohol, induce liver enzyme [0m
-[31mactivity and thereby reduce tricyclic antidepressant plasma levels. Similar effects have been reported with tobacco smoke. Research on the relationship of plasma level to therapeutic response with the[0m
-[31mtricyclic antidepressants has produced conflicting results. While some studies report no correlation, many studies cite therapeutic levels for most tricyclics in the range of [0m[1;31m50[0m[31m to [0m[1;31m300[0m[31m nanograms per [0m
-[31mmilliliter. The therapeutic range is different for each tricyclic antidepressant. For desipramine, an optimal range of therapeutic plasma levels has not been established.         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+CONTENT: DESIPRAMINE: clinical_pharmacology: CLINICAL PHARMACOLOGY Mechanism of Action Available evidence suggests that many depressions have a biochemical basis in the form of a relative deficiency 
+of neurotransmitters such as norepinephrine and serotonin. Norepinephrine deficiency may be associated with relatively low urinary 3-methoxy-4- hydroxyphenyl glycol (MHPG) levels, while serotonin 
+deficiencies may be associated with low spinal fluid levels of 5-hydroxyindoleacetic acid. While the precise mechanism of action of the tricyclic antidepressants is unknown, a leading theory suggests 
+that they restore normal levels of neurotransmitters by blocking the re-uptake of these substances from the synapse in the central nervous system. Evidence indicates that the secondary amine tricyclic
+antidepressants, including desipramine hydrochloride, may have greater activity in blocking the re-uptake of norepinephrine. DESIPRAMINE: clinical_pharmacology: Tertiary amine tricyclic 
+antidepressants, such as amitriptyline, may have greater effect on serotonin re-uptake. Desipramine hydrochloride is not a monoamine oxidase inhibitor (MAOI) and does not act primarily as a central 
+nervous system stimulant. It has been found in some studies to have a more rapid onset of action than imipramine. Earliest therapeutic effects may occasionally be seen in 2 to 5 days, but full 
+treatment benefit usually requires 2 to 3 weeks to obtain. Metabolism Tricyclic antidepressants, such as desipramine hydrochloride, are rapidly absorbed from the gastrointestinal tract. Tricyclic 
+antidepressants or their metabolites are to some extent excreted through the gastric mucosa and reabsorbed from the gastrointestinal tract. Desipramine is metabolized in the liver, and approximately 
+70% is excreted in the urine. DESIPRAMINE: clinical_pharmacology: The rate of metabolism of tricyclic antidepressants varies widely from individual to individual, chiefly on a genetically determined 
+basis. Up to a 36-fold difference in plasma level may be noted among individuals taking the same oral dose of desipramine. The ratio of 2-hydroxydesipramine to desipramine may be increased in the 
+elderly, most likely due to decreased renal elimination with aging. Certain drugs, particularly the psychostimulants and the phenothiazines, increase plasma levels of concomitantly administered 
+tricyclic antidepressants through competition for the same metabolic enzyme systems. Concurrent administration of cimetidine and tricyclic antidepressants can produce clinically significant increases 
+in the plasma concentrations of the tricyclic antidepressants. DESIPRAMINE: clinical_pharmacology: Conversely, decreases in plasma levels of the tricyclic antidepressants have been reported upon 
+discontinuation of cimetidine, which may result in the loss of the therapeutic efficacy of the tricyclic antidepressant. Other substances, particularly barbiturates and alcohol, induce liver enzyme 
+activity and thereby reduce tricyclic antidepressant plasma levels. Similar effects have been reported with tobacco smoke. Research on the relationship of plasma level to therapeutic response with the
+tricyclic antidepressants has produced conflicting results. While some studies report no correlation, many studies cite therapeutic levels for most tricyclics in the range of 50 to 300 nanograms per 
+milliliter. The therapeutic range is different for each tricyclic antidepressant. For desipramine, an optimal range of therapeutic plasma levels has not been established.         
+SOURCE:DESIPRAMINE label
 
 
-[31mCONTENT: DESIPRAMINE: spl_product_data_elements: Desipramine Hydrochloride Desipramine Hydrochloride LACTOSE MONOHYDRATE CELLULOSE, MICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A POTATO STEARIC ACID [0m
-[31mHYPROMELLOSE [0m[1;31m2910[0m[31m [0m[1;31m([0m[1;31m6[0m[31m MPA.S[0m[1;31m)[0m[31m TALC POLYETHYLENE GLYCOL [0m[1;31m8000[0m[31m TITANIUM DIOXIDE DESIPRAMINE HYDROCHLORIDE DESIPRAMINE white to off white rounded square N6 Desipramine Hydrochloride Desipramine [0m
-[31mHydrochloride LACTOSE MONOHYDRATE CELLULOSE, MICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A POTATO STEARIC ACID HYPROMELLOSE [0m[1;31m2910[0m[31m [0m[1;31m([0m[1;31m6[0m[31m MPA. DESIPRAMINE: spl_product_data_elements: [0m[1;31m)[0m[31m TALC POLYETHYLENE [0m
-[31mGLYCOL [0m[1;31m8000[0m[31m TITANIUM DIOXIDE DESIPRAMINE HYDROCHLORIDE DESIPRAMINE white to off white round biconvex I86 Desipramine Hydrochloride Desipramine Hydrochloride LACTOSE MONOHYDRATE CELLULOSE, [0m
-[31mMICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A POTATO STEARIC ACID HYPROMELLOSE [0m[1;31m2910[0m[31m [0m[1;31m([0m[1;31m6[0m[31m MPA. DESIPRAMINE: spl_product_data_elements: [0m[1;31m)[0m[31m TALC POLYETHYLENE GLYCOL [0m[1;31m8000[0m[31m TITANIUM DIOXIDE DESIPRAMINE [0m
-[31mHYDROCHLORIDE DESIPRAMINE white to off white round biconvex I82 Desipramine Hydrochloride Desipramine Hydrochloride LACTOSE MONOHYDRATE CELLULOSE, MICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A [0m
-[31mPOTATO STEARIC ACID HYPROMELLOSE [0m[1;31m2910[0m[31m [0m[1;31m([0m[1;31m6[0m[31m MPA. DESIPRAMINE: spl_product_data_elements: [0m[1;31m)[0m[31m TALC POLYETHYLENE GLYCOL [0m[1;31m8000[0m[31m TITANIUM DIOXIDE DESIPRAMINE HYDROCHLORIDE DESIPRAMINE white to off white round [0m
-[31mbiconvex I83 Desipramine Hydrochloride Desipramine Hydrochloride LACTOSE MONOHYDRATE CELLULOSE, MICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A POTATO STEARIC ACID HYPROMELLOSE [0m[1;31m2910[0m[31m [0m[1;31m([0m[1;31m6[0m[31m MPA. [0m
-[31mDESIPRAMINE: spl_product_data_elements: [0m[1;31m)[0m[31m TALC POLYETHYLENE GLYCOL [0m[1;31m8000[0m[31m TITANIUM DIOXIDE DESIPRAMINE HYDROCHLORIDE DESIPRAMINE white to off white round biconvex I84 Desipramine Hydrochloride [0m
-[31mDesipramine Hydrochloride LACTOSE MONOHYDRATE CELLULOSE, MICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A POTATO STEARIC ACID HYPROMELLOSE [0m[1;31m2910[0m[31m [0m[1;31m([0m[1;31m6[0m[31m MPA. DESIPRAMINE: spl_product_data_elements: [0m[1;31m)[0m[31m TALC [0m
-[31mPOLYETHYLENE GLYCOL [0m[1;31m8000[0m[31m TITANIUM DIOXIDE DESIPRAMINE HYDROCHLORIDE DESIPRAMINE white to off white round biconvex I85         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+CONTENT: DESIPRAMINE: spl_product_data_elements: Desipramine Hydrochloride Desipramine Hydrochloride LACTOSE MONOHYDRATE CELLULOSE, MICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A POTATO STEARIC ACID 
+HYPROMELLOSE 2910 (6 MPA.S) TALC POLYETHYLENE GLYCOL 8000 TITANIUM DIOXIDE DESIPRAMINE HYDROCHLORIDE DESIPRAMINE white to off white rounded square N6 Desipramine Hydrochloride Desipramine 
+Hydrochloride LACTOSE MONOHYDRATE CELLULOSE, MICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A POTATO STEARIC ACID HYPROMELLOSE 2910 (6 MPA. DESIPRAMINE: spl_product_data_elements: ) TALC POLYETHYLENE 
+GLYCOL 8000 TITANIUM DIOXIDE DESIPRAMINE HYDROCHLORIDE DESIPRAMINE white to off white round biconvex I86 Desipramine Hydrochloride Desipramine Hydrochloride LACTOSE MONOHYDRATE CELLULOSE, 
+MICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A POTATO STEARIC ACID HYPROMELLOSE 2910 (6 MPA. DESIPRAMINE: spl_product_data_elements: ) TALC POLYETHYLENE GLYCOL 8000 TITANIUM DIOXIDE DESIPRAMINE 
+HYDROCHLORIDE DESIPRAMINE white to off white round biconvex I82 Desipramine Hydrochloride Desipramine Hydrochloride LACTOSE MONOHYDRATE CELLULOSE, MICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A 
+POTATO STEARIC ACID HYPROMELLOSE 2910 (6 MPA. DESIPRAMINE: spl_product_data_elements: ) TALC POLYETHYLENE GLYCOL 8000 TITANIUM DIOXIDE DESIPRAMINE HYDROCHLORIDE DESIPRAMINE white to off white round 
+biconvex I83 Desipramine Hydrochloride Desipramine Hydrochloride LACTOSE MONOHYDRATE CELLULOSE, MICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A POTATO STEARIC ACID HYPROMELLOSE 2910 (6 MPA. 
+DESIPRAMINE: spl_product_data_elements: ) TALC POLYETHYLENE GLYCOL 8000 TITANIUM DIOXIDE DESIPRAMINE HYDROCHLORIDE DESIPRAMINE white to off white round biconvex I84 Desipramine Hydrochloride 
+Desipramine Hydrochloride LACTOSE MONOHYDRATE CELLULOSE, MICROCRYSTALLINE SODIUM STARCH GLYCOLATE TYPE A POTATO STEARIC ACID HYPROMELLOSE 2910 (6 MPA. DESIPRAMINE: spl_product_data_elements: ) TALC 
+POLYETHYLENE GLYCOL 8000 TITANIUM DIOXIDE DESIPRAMINE HYDROCHLORIDE DESIPRAMINE white to off white round biconvex I85         
+SOURCE:DESIPRAMINE label
 
 
-[31mCONTENT: DESIPRAMINE: package_label_principal_display_panel: PACKAGE LABEL.PRINCIPAL DISPLAY PANEL Desipramine Hydrochloride Tablets, USP [0m[1;31m10[0m[31m mg NDC-[0m[1;31m62135[0m[31m-[0m[1;31m593[0m[31m-[0m[1;31m12[0m[31m - [0m[1;31m120[0m[31m Tablets Label Desipramine [0m
-[31mHydrochloride Tablets, USP [0m[1;31m25[0m[31m mg NDC-[0m[1;31m62135[0m[31m-[0m[1;31m594[0m[31m-[0m[1;31m12[0m[31m - [0m[1;31m120[0m[31m Tablets Label Desipramine Hydrochloride Tablets, USP [0m[1;31m50[0m[31m mg NDC-[0m[1;31m62135[0m[31m-[0m[1;31m595[0m[31m-[0m[1;31m12[0m[31m - [0m[1;31m120[0m[31m Tablets Label Desipramine Hydrochloride Tablets, USP [0m[1;31m75[0m[31m mg [0m
-[31mNDC-[0m[1;31m62135[0m[31m-[0m[1;31m597[0m[31m-[0m[1;31m12[0m[31m - [0m[1;31m120[0m[31m Tablets Label Desipramine Hydrochloride Tablets, USP [0m[1;31m100[0m[31m mg NDC-[0m[1;31m62135[0m[31m-[0m[1;31m598[0m[31m-[0m[1;31m30[0m[31m - [0m[1;31m30[0m[31m Tablets Label Desipramine Hydrochloride Tablets, USP [0m[1;31m150[0m[31m mg NDC-[0m[1;31m62135[0m[31m-[0m[1;31m599[0m[31m-[0m[1;31m30[0m[31m - [0m[1;31m30[0m[31m Tablets Label[0m
-[31mdesipramine-hcl-10mg-tablet desipramine-hcl-25mg-tablet desip DESIPRAMINE: package_label_principal_display_panel: ramine-hcl-[0m[1;31m50[0m[31m-mg-tablet desipramine-hcl-[0m[1;31m75[0m[31m-mg-tablet desipramine-hcl-[0m[1;31m100[0m[31m-mg-tablet [0m
-[31mdesipramine-hcl-[0m[1;31m150[0m[31m-mg-tablet         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+CONTENT: DESIPRAMINE: package_label_principal_display_panel: PACKAGE LABEL.PRINCIPAL DISPLAY PANEL Desipramine Hydrochloride Tablets, USP 10 mg NDC-62135-593-12 - 120 Tablets Label Desipramine 
+Hydrochloride Tablets, USP 25 mg NDC-62135-594-12 - 120 Tablets Label Desipramine Hydrochloride Tablets, USP 50 mg NDC-62135-595-12 - 120 Tablets Label Desipramine Hydrochloride Tablets, USP 75 mg 
+NDC-62135-597-12 - 120 Tablets Label Desipramine Hydrochloride Tablets, USP 100 mg NDC-62135-598-30 - 30 Tablets Label Desipramine Hydrochloride Tablets, USP 150 mg NDC-62135-599-30 - 30 Tablets Label
+desipramine-hcl-10mg-tablet desipramine-hcl-25mg-tablet desip DESIPRAMINE: package_label_principal_display_panel: ramine-hcl-50-mg-tablet desipramine-hcl-75-mg-tablet desipramine-hcl-100-mg-tablet 
+desipramine-hcl-150-mg-tablet         
+SOURCE:DESIPRAMINE label
 
 
-[31mCONTENT: DESIPRAMINE: indications_and_usage: INDICATIONS AND USAGE Desipramine hydrochloride tablets is indicated for the treatment of depression.         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+CONTENT: DESIPRAMINE: indications_and_usage: INDICATIONS AND USAGE Desipramine hydrochloride tablets is indicated for the treatment of depression.         
+SOURCE:DESIPRAMINE label
 
 
-[31mCONTENT: DESIPRAMINE: warnings: Screening Patients for Bipolar Disorder: A major depressive episode may be the initial presentation of bipolar disorder. It is generally believed [0m[1;31m([0m[31mthough not [0m
-[31mestablished in controlled trials[0m[1;31m)[0m[31m that treating such an episode with an antidepressant alone may increase the likelihood of precipitation of a mixed/manic episode in patients at risk for bipolar [0m
-[31mdisorder. Whether any of the symptoms described above represent such a conversion is unknown. However, prior to initiating treatment with an antidepressant, patients with depressive symptoms should be[0m
-[31madequately screened to determine if they are at risk for bipolar disorder; such screening should include a detailed psychiatric history, including a family history of suicide, bipolar disorder, and [0m
-[31mdepression. It should be noted that desipramine hydrochloride is not approved for use in treating bipolar depression. DESIPRAMINE: warnings: Serotonin Syndrome: The development of a potentially [0m
-[31mlife-threatening serotonin syndrome has been reported with serotonin norepinephrine reuptake inhibitors [0m[1;31m([0m[31mSNRIs[0m[1;31m)[0m[31m and SSRIs, including desipramine hydrochloride, alone but particularly with concomitant [0m
-[31muse of other serotonergic drugs [0m[1;31m([0m[31mincluding triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John's Wort[0m[1;31m)[0m[31m and with drugs that impair metabolism of [0m
-[31mserotonin [0m[1;31m([0m[31min particular, MAOIs both those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue[0m[1;31m)[0m[31m. Serotonin syndrome symptoms may include mental [0m
-[31mstatus changes [0m[1;31m([0m[31me.g., agitation, hallucinations, delirium, and coma[0m[1;31m)[0m[31m, autonomic instability [0m[1;31m([0m[31me.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia[0m[1;31m)[0m[31m, neuromuscular [0m
-[31mchanges [0m[1;31m([0m[31me.g. DESIPRAMINE: warnings: tremor, rigidity, myoclonus, hyperreflexia, incoordination[0m[1;31m)[0m[31m, seizures, and/or gastrointestinal symptoms [0m[1;31m([0m[31me.g., nausea, vomiting, diarrhea[0m[1;31m)[0m[31m. Patients should be [0m
-[31mmonitored for the emergence of serotonin syndrome. The concomitant use of desipramine hydrochloride with MAOIs intended to treat psychiatric disorders is contraindicated. Desipramine hydrochloride [0m
-[31mshould also not be started in a patient who is being treated with MAOIs such as linezolid or intravenous methylene blue. All reports with methylene blue that provided information on the route of [0m
-[31madministration involved intravenous administration in the dose range of [0m[1;31m1[0m[31m mg/kg to [0m[1;31m8[0m[31m mg/kg. No reports involved the administration of methylene blue by other routes [0m[1;31m([0m[31msuch as oral tablets or local [0m
-[31mtissue injection[0m[1;31m)[0m[31m or at lower doses. DESIPRAMINE: warnings: There may be circumstances when it is necessary to initiate treatment with an MAOI such as linezolid or intravenous methylene blue in a [0m
-[31mpatient taking desipramine hydrochloride. Desipramine hydrochloride should be discontinued before initiating treatment with the MAOI [0m[1;31m([0m[31m see CONTRAINDICATIONS and DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m. If [0m
-[31mconcomitant use of desipramine hydrochloride with other serotonergic drugs including triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, buspirone, tryptophan, and St. John's Wort is [0m
-[31mclinically warranted, patients should be made aware of a potential increased risk for serotonin syndrome particularly during treatment initiation and dose increases. Treatment with desipramine [0m
-[31mhydrochloride and any concomitant serotonergic agents should be discontinued immediately if the above events occur and supportive symptomatic treatment should be initiated. DESIPRAMINE: warnings: [0m
-[31mAngle-Closure Glaucoma: The pupillary dilation that occurs following use of many antidepressant drugs including desipramine hydrochloride may trigger an angle closure attack in a patient with [0m
-[31manatomically narrow angles who does not have a patent iridectomy. General Extreme caution should be used when this drug is given in the following situations: In patients with cardiovascular disease, [0m
-[31mbecause of the possibility of conduction defects, arrhythmias, tachycardias, strokes, and acute myocardial infarction. In patients who have a family history of sudden death, cardiac dysrhythmias, or [0m
-[31mcardiac conduction disturbances. In patients with a history of urinary retention or glaucoma, because of the anticholinergic properties of the drug. In patients with thyroid disease or those taking [0m
-[31mthyroid medication, because of the possibility of cardiovascular toxicity, including arrhythmias. In patients with a history of seizure disorder, because this drug has been shown to lower the seizure [0m
-[31mthreshold.         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+CONTENT: DESIPRAMINE: warnings: Screening Patients for Bipolar Disorder: A major depressive episode may be the initial presentation of bipolar disorder. It is generally believed (though not 
+established in controlled trials) that treating such an episode with an antidepressant alone may increase the likelihood of precipitation of a mixed/manic episode in patients at risk for bipolar 
+disorder. Whether any of the symptoms described above represent such a conversion is unknown. However, prior to initiating treatment with an antidepressant, patients with depressive symptoms should be
+adequately screened to determine if they are at risk for bipolar disorder; such screening should include a detailed psychiatric history, including a family history of suicide, bipolar disorder, and 
+depression. It should be noted that desipramine hydrochloride is not approved for use in treating bipolar depression. DESIPRAMINE: warnings: Serotonin Syndrome: The development of a potentially 
+life-threatening serotonin syndrome has been reported with serotonin norepinephrine reuptake inhibitors (SNRIs) and SSRIs, including desipramine hydrochloride, alone but particularly with concomitant 
+use of other serotonergic drugs (including triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John's Wort) and with drugs that impair metabolism of 
+serotonin (in particular, MAOIs both those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue). Serotonin syndrome symptoms may include mental 
+status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular 
+changes (e.g. DESIPRAMINE: warnings: tremor, rigidity, myoclonus, hyperreflexia, incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea). Patients should be 
+monitored for the emergence of serotonin syndrome. The concomitant use of desipramine hydrochloride with MAOIs intended to treat psychiatric disorders is contraindicated. Desipramine hydrochloride 
+should also not be started in a patient who is being treated with MAOIs such as linezolid or intravenous methylene blue. All reports with methylene blue that provided information on the route of 
+administration involved intravenous administration in the dose range of 1 mg/kg to 8 mg/kg. No reports involved the administration of methylene blue by other routes (such as oral tablets or local 
+tissue injection) or at lower doses. DESIPRAMINE: warnings: There may be circumstances when it is necessary to initiate treatment with an MAOI such as linezolid or intravenous methylene blue in a 
+patient taking desipramine hydrochloride. Desipramine hydrochloride should be discontinued before initiating treatment with the MAOI ( see CONTRAINDICATIONS and DOSAGE AND ADMINISTRATION ). If 
+concomitant use of desipramine hydrochloride with other serotonergic drugs including triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, buspirone, tryptophan, and St. John's Wort is 
+clinically warranted, patients should be made aware of a potential increased risk for serotonin syndrome particularly during treatment initiation and dose increases. Treatment with desipramine 
+hydrochloride and any concomitant serotonergic agents should be discontinued immediately if the above events occur and supportive symptomatic treatment should be initiated. DESIPRAMINE: warnings: 
+Angle-Closure Glaucoma: The pupillary dilation that occurs following use of many antidepressant drugs including desipramine hydrochloride may trigger an angle closure attack in a patient with 
+anatomically narrow angles who does not have a patent iridectomy. General Extreme caution should be used when this drug is given in the following situations: In patients with cardiovascular disease, 
+because of the possibility of conduction defects, arrhythmias, tachycardias, strokes, and acute myocardial infarction. In patients who have a family history of sudden death, cardiac dysrhythmias, or 
+cardiac conduction disturbances. In patients with a history of urinary retention or glaucoma, because of the anticholinergic properties of the drug. In patients with thyroid disease or those taking 
+thyroid medication, because of the possibility of cardiovascular toxicity, including arrhythmias. In patients with a history of seizure disorder, because this drug has been shown to lower the seizure 
+threshold.         
+SOURCE:DESIPRAMINE label
 
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m
-[32mANSWER: Desipramine hydrochloride is an antidepressant drug of the tricyclic type. It is used for the treatment of depression and is available in tablet form with various dosages ranging from [0m[1;32m10[0m[32m mg to[0m
-[1;32m150[0m[32m mg. The mechanism of action is thought to be related to the blocking of the re-uptake of neurotransmitters such as norepinephrine and serotonin in the central nervous system, which may help [0m
-[32mrestore normal levels of these substances. Desipramine is rapidly absorbed from the gastrointestinal tract, metabolized in the liver, and approximately [0m[1;32m70[0m[32m% is excreted in the urine. The drug has a [0m
-[32mrange of potential side effects and warnings, including the risk of precipitating a mixed/manic episode in patients with bipolar disorder, the potential development of serotonin syndrome, and the need[0m
-[32mfor caution in patients with cardiovascular disease, a history of urinary retention or glaucoma, thyroid disease, or seizure disorders.[0m
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: Desipramine hydrochloride is an antidepressant drug of the tricyclic type. It is used for the treatment of depression and is available in tablet form with various dosages ranging from 10 mg to
+150 mg. The mechanism of action is thought to be related to the blocking of the re-uptake of neurotransmitters such as norepinephrine and serotonin in the central nervous system, which may help 
+restore normal levels of these substances. Desipramine is rapidly absorbed from the gastrointestinal tract, metabolized in the liver, and approximately 70% is excreted in the urine. The drug has a 
+range of potential side effects and warnings, including the risk of precipitating a mixed/manic episode in patients with bipolar disorder, the potential development of serotonin syndrome, and the need
+for caution in patients with cardiovascular disease, a history of urinary retention or glaucoma, thyroid disease, or seizure disorders.
 
-[32mSOURCE: DESIPRAMINE label[0m
-[32mEXTRACT_START_END: DESCRIPTION Desipramine hydrochloride[0m[32m...[0m[32m for oral administration. [0m[32m/[0m[32m [0m[32m...[0m[32mshould be initiated.[0m
-*[1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [37m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mANSWER: Desipramine hydrochloride is an antidepressant drug of the [0m
-[34mtricyclic type. It is used for the treatment of depression and is available in tablet form with various dosages ranging from [0m[1;34m10[0m[34m mg to [0m[1;34m150[0m[34m mg. The mechanism of action is thought to be related to the [0m
-[34mblocking of the re-uptake of neurotransmitters such as norepinephrine and serotonin in the central nervous system, which may help restore normal levels of these substances. Desipramine is rapidly [0m
-[34mabsorbed from the gastrointestinal tract, metabolized in the liver, and approximately [0m[1;34m70[0m[34m% is excreted in the urine. The drug has a range of potential side effects and warnings, including the risk of [0m
-[34mprecipitating a mixed/manic episode in patients with bipolar disorder, the potential development of serotonin syndrome, and the need for caution in patients with cardiovascular disease, a history of [0m
-[34murinary retention or glaucoma, thyroid disease, or seizure disorders.[0m
+SOURCE: DESIPRAMINE label
+EXTRACT_START_END: DESCRIPTION Desipramine hydrochloride... for oral administration. / ...should be initiated.
+*(orchestrator-angioedema-DESIPRAMINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: Desipramine hydrochloride is an antidepressant drug of the 
+tricyclic type. It is used for the treatment of depression and is available in tablet form with various dosages ranging from 10 mg to 150 mg. The mechanism of action is thought to be related to the 
+blocking of the re-uptake of neurotransmitters such as norepinephrine and serotonin in the central nervous system, which may help restore normal levels of these substances. Desipramine is rapidly 
+absorbed from the gastrointestinal tract, metabolized in the liver, and approximately 70% is excreted in the urine. The drug has a range of potential side effects and warnings, including the risk of 
+precipitating a mixed/manic episode in patients with bipolar disorder, the potential development of serotonin syndrome, and the need for caution in patients with cardiovascular disease, a history of 
+urinary retention or glaucoma, thyroid disease, or seizure disorders.
 
-[34mSOURCE: DESIPRAMINE label[0m
-[34mEXTRACT_START_END: DESCRIPTION Desipramine hydrochloride[0m[34m...[0m[34m for oral administration. [0m[34m/[0m[34m [0m[34m...[0m[34mshould be initiated.[0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
-[32m    [0m[32m"content"[0m[32m: [0m[32m"Does DESIPRAMINE increase or decrease the risk of angioedema?"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes DESIPRAMINE increase or decrease the risk of angioedema?[0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes DESIPRAMINE increase or decrease the risk of angioedema?[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"query"[0m[32m: [0m[32m"Does Desipramine increase the risk of angioedema?"[0m[32m,[0m
-[32m    [0m[32m"drug"[0m[32m: [0m[32m"desipramine"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31mCONTENT: DESIPRAMINE: warnings: All patients being treated with antidepressants for any indication should be monitored appropriately and observed closely for clinical worsening, suicidality, and [0m
-[31munusual changes in behavior, especially during the initial few months of a course of drug therapy, or at times of dose changes, either increases or decreases. The following symptoms, anxiety, [0m
-[31magitation, panic attacks, insomnia, irritability, hostility, aggressiveness, impulsivity, akathisia [0m[1;31m([0m[31mpsychomotor restlessness[0m[1;31m)[0m[31m, hypomania, and mania, have been reported in adult and pediatric patients[0m
-[31mbeing treated with antidepressants for major depressive disorder as well as for other indications, both psychiatric and nonpsychiatric. Although a causal link between the emergence of such symptoms [0m
-[31mand either the worsening of depression and/or the emergence of suicidal impulses has not been established, there is concern that such symptoms may represent precursors to emerging suicidality. [0m
-[31mDESIPRAMINE: warnings: Consideration should be given to changing the therapeutic regimen, including possibly discontinuing the medication, in patients whose depression is persistently worse, or who [0m
-[31mare experiencing emergent suicidality or symptoms that might be precursors to worsening depression or suicidality, especially if these symptoms are severe, abrupt in onset, or were not part of the [0m
-[31mpatient's presenting symptoms. Families and caregivers of patients being treated with antidepressants for major depressive disorder or other indications, both psychiatric and nonpsychiatric, should be[0m
-[31malerted about the need to monitor patients for the emergence of agitation, irritability, unusual changes in behavior, and the other symptoms described above, as well as the emergence of suicidality, [0m
-[31mand to report such symptoms immediately to health care providers. Such monitoring should include daily observation by families and caregivers. Prescriptions for desipramine hydrochloride should be [0m
-[31mwritten for the smallest quantity of tablets consistent with good patient management, in order to reduce the risk of overdose. DESIPRAMINE: warnings: Screening Patients for Bipolar Disorder: A major [0m
-[31mdepressive episode may be the initial presentation of bipolar disorder. It is generally believed [0m[1;31m([0m[31mthough not established in controlled trials[0m[1;31m)[0m[31m that treating such an episode with an antidepressant [0m
-[31malone may increase the likelihood of precipitation of a mixed/manic episode in patients at risk for bipolar disorder. Whether any of the symptoms described above represent such a conversion is [0m
-[31munknown. However, prior to initiating treatment with an antidepressant, patients with depressive symptoms should be adequately screened to determine if they are at risk for bipolar disorder; such [0m
-[31mscreening should include a detailed psychiatric history, including a family history of suicide, bipolar disorder, and depression. It should be noted that desipramine hydrochloride is not approved for [0m
-[31muse in treating bipolar depression. DESIPRAMINE: warnings: Serotonin Syndrome: The development of a potentially life-threatening serotonin syndrome has been reported with serotonin norepinephrine [0m
-[31mreuptake inhibitors [0m[1;31m([0m[31mSNRIs[0m[1;31m)[0m[31m and SSRIs, including desipramine hydrochloride, alone but particularly with concomitant use of other serotonergic drugs [0m[1;31m([0m[31mincluding triptans, tricyclic antidepressants, [0m
-[31mfentanyl, lithium, tramadol, tryptophan, buspirone, and St. John's Wort[0m[1;31m)[0m[31m and with drugs that impair metabolism of serotonin [0m[1;31m([0m[31min particular, MAOIs both those intended to treat psychiatric disorders and[0m
-[31malso others, such as linezolid and intravenous methylene blue[0m[1;31m)[0m[31m. Serotonin syndrome symptoms may include mental status changes [0m[1;31m([0m[31me.g., agitation, hallucinations, delirium, and coma[0m[1;31m)[0m[31m, autonomic [0m
-[31minstability [0m[1;31m([0m[31me.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia[0m[1;31m)[0m[31m, neuromuscular changes [0m[1;31m([0m[31me.g. DESIPRAMINE: warnings: tremor, rigidity, myoclonus, hyperreflexia, [0m
-[31mincoordination[0m[1;31m)[0m[31m, seizures, and/or gastrointestinal symptoms [0m[1;31m([0m[31me.g., nausea, vomiting, diarrhea[0m[1;31m)[0m[31m. Patients should be monitored for the emergence of serotonin syndrome. The concomitant use of desipramine[0m
-[31mhydrochloride with MAOIs intended to treat psychiatric disorders is contraindicated. Desipramine hydrochloride should also not be started in a patient who is being treated with MAOIs such as linezolid[0m
-[31mor intravenous methylene blue. All reports with methylene blue that provided information on the route of administration involved intravenous administration in the dose range of [0m[1;31m1[0m[31m mg/kg to [0m[1;31m8[0m[31m mg/kg. No [0m
-[31mreports involved the administration of methylene blue by other routes [0m[1;31m([0m[31msuch as oral tablets or local tissue injection[0m[1;31m)[0m[31m or at lower doses. DESIPRAMINE: warnings: There may be circumstances when it is [0m
-[31mnecessary to initiate treatment with an MAOI such as linezolid or intravenous methylene blue in a patient taking desipramine hydrochloride. Desipramine hydrochloride should be discontinued before [0m
-[31minitiating treatment with the MAOI [0m[1;31m([0m[31m see CONTRAINDICATIONS and DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m. If concomitant use of desipramine hydrochloride with other serotonergic drugs including triptans, tricyclic [0m
-[31mantidepressants, fentanyl, lithium, tramadol, buspirone, tryptophan, and St. John's Wort is clinically warranted, patients should be made aware of a potential increased risk for serotonin syndrome [0m
-[31mparticularly during treatment initiation and dose increases. Treatment with desipramine hydrochloride and any concomitant serotonergic agents should be discontinued immediately if the above events [0m
-[31moccur and supportive symptomatic treatment should be initiated. DESIPRAMINE: warnings: Angle-Closure Glaucoma: The pupillary dilation that occurs following use of many antidepressant drugs including [0m
-[31mdesipramine hydrochloride may trigger an angle closure attack in a patient with anatomically narrow angles who does not have a patent iridectomy. General Extreme caution should be used when this drug [0m
-[31mis given in the following situations: In patients with cardiovascular disease, because of the possibility of conduction defects, arrhythmias, tachycardias, strokes, and acute myocardial infarction. In[0m
-[31mpatients who have a family history of sudden death, cardiac dysrhythmias, or cardiac conduction disturbances. In patients with a history of urinary retention or glaucoma, because of the [0m
-[31manticholinergic properties of the drug. In patients with thyroid disease or those taking thyroid medication, because of the possibility of cardiovascular toxicity, including arrhythmias. In patients [0m
-[31mwith a history of seizure disorder, because this drug has been shown to lower the seizure threshold. DESIPRAMINE: warnings: Seizures precede cardiac dysrhythmias and death in some patients. This drug [0m
-[31mis capable of blocking the antihypertensive effect of guanethidine and similarly acting compounds. The patient should be cautioned that this drug may impair the mental and/or physical abilities [0m
-[31mrequired for the performance of potentially hazardous tasks such as driving a car or operating machinery. In patients who may use alcohol excessively, it should be borne in mind that the potentiation [0m
-[31mmay increase the danger inherent in any suicide attempt or overdosage. Pregnancy There is a pregnancy exposure registry that monitors pregnancy outcomes in woman exposed to antidepressants, including [0m
-[31mdesipramine hydrochloride tablets during pregnancy. Healthcare providers are encouraged to register patients by calling the National Pregnancy Registry for Antidepressants at [0m[1;31m1[0m[31m-[0m[1;31m844[0m[31m-[0m[1;31m405[0m[31m-[0m[1;31m6185[0m[31m or [0m
-[31mvisiting online at [0m[4;31mhttp://womensmentalhealth.[0m[31m DESIPRAMINE: warnings: [0m[31m/[0m[31mclinical-and-research-[0m[31m programs/pregnancyregistry/antidepressants Safe use of desipramine hydrochloride during pregnancy and [0m
-[31mlactation has not been established; therefore, if it is to be given to pregnant patients, nursing mothers, or women of childbearing potential, the possible benefits must be weighed against the [0m
-[31mpossible hazards to mother and child. Animal reproductive studies have been inconclusive. Geriatric Use Clinical studies of desipramine hydrochloride did not include sufficient numbers of subjects [0m
-[31maged [0m[1;31m65[0m[31m and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger [0m
-[31mpatients. Lower doses are recommended for elderly patients. [0m[1;31m([0m[31m See DOSAGE AND ADMINISTRATION .[0m[1;31m)[0m[31m The ratio of [0m[1;31m2[0m[31m-hydroxydesipramine to desipramine may be increased in the elderly, most likely due to [0m
-[31mdecreased renal elimination with aging. DESIPRAMINE: warnings: This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients [0m
-[31mwith impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. [0m
-[31mDesipramine hydrochloride use in the elderly has been associated with a proneness to falling as well as confusional states [0m[1;31m([0m[31mSee ADVERSE REACTIONS .         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
-
-
-[31mCONTENT: DESIPRAMINE: adverse_reactions: ADVERSE REACTIONS Included in the following listing are a few adverse reactions that have not been reported with this specific drug. However, the pharmacologic[0m
-[31msimilarities among the tricyclic antidepressant drugs require that each of the reactions be considered when desipramine hydrochloride is given. Cardiovascular: Hypotension, hypertension, palpitations,[0m
-[31mheart block, myocardial infarction, stroke, arrhythmias, premature ventricular contractions, tachycardia, ventricular tachycardia, ventricular fibrillation, sudden death There has been a report of an [0m
-[31m"acute collapse"[0m[31m and [0m[31m"sudden death"[0m[31m in an [0m[1;31m8[0m[31m-year-old [0m[1;31m([0m[1;31m18[0m[31m kg[0m[1;31m)[0m[31m male, treated for [0m[1;31m2[0m[31m years for hyperactivity. DESIPRAMINE: adverse_reactions: There have been additional reports of sudden death in children[0m
-[1;31m([0m[31m See PRECAUTIONS- Pediatric Use [0m[1;31m)[0m[31m Psychiatric: Confusional states [0m[1;31m([0m[31mespecially in the elderly[0m[1;31m)[0m[31m with hallucinations, disorientation, delusions; anxiety, restlessness, agitation; insomnia and [0m
-[31mnightmares; hypomania; exacerbation of psychosis Neurologic: Numbness, tingling, paresthesias of extremities; incoordination, ataxia, tremors; peripheral neuropathy; extrapyramidal symptoms; seizures;[0m
-[31malterations in EEG patterns; tinnitus . Symptoms attributed to Neuroleptic Malignant Syndrome have been reported during desipramine use with and without concomitant neuroleptic therapy. DESIPRAMINE: [0m
-[31madverse_reactions: Anticholinergic: Dry mouth, and rarely associated sublingual adenitis; blurred vision, disturbance of accommodation, mydriasis, increased intraocular pressure; constipation, [0m
-[31mparalytic ileus; urinary retention, delayed micturition, dilation of urinary tract Allergic: Skin rash, petechiae, urticaria, itching, photosensitization [0m[1;31m([0m[31mavoid excessive exposure to sunlight[0m[1;31m)[0m[31m, edema [0m
-[1;31m([0m[31mof face and tongue or general[0m[1;31m)[0m[31m, drug fever, cross- sensitivity with other tricyclic drugs Hematologic: Bone marrow depressions including agranulocytosis, eosinophilia, purpura, thrombocytopenia [0m
-[31mGastrointestinal: Anorexia, nausea and vomiting, epigastric distress, peculiar taste, abdominal cramps, diarrhea, stomatitis, black tongue, hepatitis, jaundice [0m[1;31m([0m[31msimulating obstructive[0m[1;31m)[0m[31m, altered liver [0m
-[31mfunction, elevated liver function tests, increased pancreatic enzymes Endocrine: Gynecomastia DESIPRAMINE: adverse_reactions: in the male, breast enlargement and galactorrhea in the female; increased [0m
-[31mor decreased libido, impotence, painful ejaculation, testicular swelling; elevation or depression of blood sugar levels; syndrome of inappropriate antidiuretic hormone secretion [0m[1;31m([0m[31mSIADH[0m[1;31m)[0m[31m Other: Weight [0m
-[31mgain or loss; perspiration, flushing; urinary frequency, nocturia; parotid swelling; drowsiness, dizziness, proneness to falling, weakness and fatigue, headache; fever; alopecia; elevated alkaline [0m
-[31mphosphatase Withdrawal Symptoms: Though not indicative of addiction, abrupt cessation of treatment after prolonged therapy may produce nausea, headache, and malaise. To report SUSPECTED ADVERSE [0m
-[31mREACTIONS, contact Chartwell RX, LLC. at [0m[1;31m1[0m[31m-[0m[1;31m845[0m[31m-[0m[1;31m232[0m[31m-[0m[1;31m1683[0m[31m or FDA at [0m[1;31m1[0m[31m-[0m[1;31m800[0m[31m-FDA-[0m[1;31m1088[0m[31m or www.fda.gov/medwatch.         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+SOURCE: DESIPRAMINE label
+EXTRACT_START_END: DESCRIPTION Desipramine hydrochloride... for oral administration. / ...should be initiated.
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-angioedema-DESIPRAMINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does DESIPRAMINE increase or decrease the risk of angioedema?"
+  }
+}
+*(orchestrator-angioedema-DESIPRAMINE)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does DESIPRAMINE increase or decrease the risk of angioedema?
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does DESIPRAMINE increase or decrease the risk of angioedema?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does Desipramine increase the risk of angioedema?",
+    "drug": "desipramine"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: DESIPRAMINE: warnings: All patients being treated with antidepressants for any indication should be monitored appropriately and observed closely for clinical worsening, suicidality, and 
+unusual changes in behavior, especially during the initial few months of a course of drug therapy, or at times of dose changes, either increases or decreases. The following symptoms, anxiety, 
+agitation, panic attacks, insomnia, irritability, hostility, aggressiveness, impulsivity, akathisia (psychomotor restlessness), hypomania, and mania, have been reported in adult and pediatric patients
+being treated with antidepressants for major depressive disorder as well as for other indications, both psychiatric and nonpsychiatric. Although a causal link between the emergence of such symptoms 
+and either the worsening of depression and/or the emergence of suicidal impulses has not been established, there is concern that such symptoms may represent precursors to emerging suicidality. 
+DESIPRAMINE: warnings: Consideration should be given to changing the therapeutic regimen, including possibly discontinuing the medication, in patients whose depression is persistently worse, or who 
+are experiencing emergent suicidality or symptoms that might be precursors to worsening depression or suicidality, especially if these symptoms are severe, abrupt in onset, or were not part of the 
+patient's presenting symptoms. Families and caregivers of patients being treated with antidepressants for major depressive disorder or other indications, both psychiatric and nonpsychiatric, should be
+alerted about the need to monitor patients for the emergence of agitation, irritability, unusual changes in behavior, and the other symptoms described above, as well as the emergence of suicidality, 
+and to report such symptoms immediately to health care providers. Such monitoring should include daily observation by families and caregivers. Prescriptions for desipramine hydrochloride should be 
+written for the smallest quantity of tablets consistent with good patient management, in order to reduce the risk of overdose. DESIPRAMINE: warnings: Screening Patients for Bipolar Disorder: A major 
+depressive episode may be the initial presentation of bipolar disorder. It is generally believed (though not established in controlled trials) that treating such an episode with an antidepressant 
+alone may increase the likelihood of precipitation of a mixed/manic episode in patients at risk for bipolar disorder. Whether any of the symptoms described above represent such a conversion is 
+unknown. However, prior to initiating treatment with an antidepressant, patients with depressive symptoms should be adequately screened to determine if they are at risk for bipolar disorder; such 
+screening should include a detailed psychiatric history, including a family history of suicide, bipolar disorder, and depression. It should be noted that desipramine hydrochloride is not approved for 
+use in treating bipolar depression. DESIPRAMINE: warnings: Serotonin Syndrome: The development of a potentially life-threatening serotonin syndrome has been reported with serotonin norepinephrine 
+reuptake inhibitors (SNRIs) and SSRIs, including desipramine hydrochloride, alone but particularly with concomitant use of other serotonergic drugs (including triptans, tricyclic antidepressants, 
+fentanyl, lithium, tramadol, tryptophan, buspirone, and St. John's Wort) and with drugs that impair metabolism of serotonin (in particular, MAOIs both those intended to treat psychiatric disorders and
+also others, such as linezolid and intravenous methylene blue). Serotonin syndrome symptoms may include mental status changes (e.g., agitation, hallucinations, delirium, and coma), autonomic 
+instability (e.g., tachycardia, labile blood pressure, dizziness, diaphoresis, flushing, hyperthermia), neuromuscular changes (e.g. DESIPRAMINE: warnings: tremor, rigidity, myoclonus, hyperreflexia, 
+incoordination), seizures, and/or gastrointestinal symptoms (e.g., nausea, vomiting, diarrhea). Patients should be monitored for the emergence of serotonin syndrome. The concomitant use of desipramine
+hydrochloride with MAOIs intended to treat psychiatric disorders is contraindicated. Desipramine hydrochloride should also not be started in a patient who is being treated with MAOIs such as linezolid
+or intravenous methylene blue. All reports with methylene blue that provided information on the route of administration involved intravenous administration in the dose range of 1 mg/kg to 8 mg/kg. No 
+reports involved the administration of methylene blue by other routes (such as oral tablets or local tissue injection) or at lower doses. DESIPRAMINE: warnings: There may be circumstances when it is 
+necessary to initiate treatment with an MAOI such as linezolid or intravenous methylene blue in a patient taking desipramine hydrochloride. Desipramine hydrochloride should be discontinued before 
+initiating treatment with the MAOI ( see CONTRAINDICATIONS and DOSAGE AND ADMINISTRATION ). If concomitant use of desipramine hydrochloride with other serotonergic drugs including triptans, tricyclic 
+antidepressants, fentanyl, lithium, tramadol, buspirone, tryptophan, and St. John's Wort is clinically warranted, patients should be made aware of a potential increased risk for serotonin syndrome 
+particularly during treatment initiation and dose increases. Treatment with desipramine hydrochloride and any concomitant serotonergic agents should be discontinued immediately if the above events 
+occur and supportive symptomatic treatment should be initiated. DESIPRAMINE: warnings: Angle-Closure Glaucoma: The pupillary dilation that occurs following use of many antidepressant drugs including 
+desipramine hydrochloride may trigger an angle closure attack in a patient with anatomically narrow angles who does not have a patent iridectomy. General Extreme caution should be used when this drug 
+is given in the following situations: In patients with cardiovascular disease, because of the possibility of conduction defects, arrhythmias, tachycardias, strokes, and acute myocardial infarction. In
+patients who have a family history of sudden death, cardiac dysrhythmias, or cardiac conduction disturbances. In patients with a history of urinary retention or glaucoma, because of the 
+anticholinergic properties of the drug. In patients with thyroid disease or those taking thyroid medication, because of the possibility of cardiovascular toxicity, including arrhythmias. In patients 
+with a history of seizure disorder, because this drug has been shown to lower the seizure threshold. DESIPRAMINE: warnings: Seizures precede cardiac dysrhythmias and death in some patients. This drug 
+is capable of blocking the antihypertensive effect of guanethidine and similarly acting compounds. The patient should be cautioned that this drug may impair the mental and/or physical abilities 
+required for the performance of potentially hazardous tasks such as driving a car or operating machinery. In patients who may use alcohol excessively, it should be borne in mind that the potentiation 
+may increase the danger inherent in any suicide attempt or overdosage. Pregnancy There is a pregnancy exposure registry that monitors pregnancy outcomes in woman exposed to antidepressants, including 
+desipramine hydrochloride tablets during pregnancy. Healthcare providers are encouraged to register patients by calling the National Pregnancy Registry for Antidepressants at 1-844-405-6185 or 
+visiting online at http://womensmentalhealth. DESIPRAMINE: warnings: /clinical-and-research- programs/pregnancyregistry/antidepressants Safe use of desipramine hydrochloride during pregnancy and 
+lactation has not been established; therefore, if it is to be given to pregnant patients, nursing mothers, or women of childbearing potential, the possible benefits must be weighed against the 
+possible hazards to mother and child. Animal reproductive studies have been inconclusive. Geriatric Use Clinical studies of desipramine hydrochloride did not include sufficient numbers of subjects 
+aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger 
+patients. Lower doses are recommended for elderly patients. ( See DOSAGE AND ADMINISTRATION .) The ratio of 2-hydroxydesipramine to desipramine may be increased in the elderly, most likely due to 
+decreased renal elimination with aging. DESIPRAMINE: warnings: This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients 
+with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function. 
+Desipramine hydrochloride use in the elderly has been associated with a proneness to falling as well as confusional states (See ADVERSE REACTIONS .         
+SOURCE:DESIPRAMINE label
 
 
-[31mCONTENT: DESIPRAMINE: openfda: spl_set_id         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+CONTENT: DESIPRAMINE: adverse_reactions: ADVERSE REACTIONS Included in the following listing are a few adverse reactions that have not been reported with this specific drug. However, the pharmacologic
+similarities among the tricyclic antidepressant drugs require that each of the reactions be considered when desipramine hydrochloride is given. Cardiovascular: Hypotension, hypertension, palpitations,
+heart block, myocardial infarction, stroke, arrhythmias, premature ventricular contractions, tachycardia, ventricular tachycardia, ventricular fibrillation, sudden death There has been a report of an 
+"acute collapse" and "sudden death" in an 8-year-old (18 kg) male, treated for 2 years for hyperactivity. DESIPRAMINE: adverse_reactions: There have been additional reports of sudden death in children
+( See PRECAUTIONS- Pediatric Use ) Psychiatric: Confusional states (especially in the elderly) with hallucinations, disorientation, delusions; anxiety, restlessness, agitation; insomnia and 
+nightmares; hypomania; exacerbation of psychosis Neurologic: Numbness, tingling, paresthesias of extremities; incoordination, ataxia, tremors; peripheral neuropathy; extrapyramidal symptoms; seizures;
+alterations in EEG patterns; tinnitus . Symptoms attributed to Neuroleptic Malignant Syndrome have been reported during desipramine use with and without concomitant neuroleptic therapy. DESIPRAMINE: 
+adverse_reactions: Anticholinergic: Dry mouth, and rarely associated sublingual adenitis; blurred vision, disturbance of accommodation, mydriasis, increased intraocular pressure; constipation, 
+paralytic ileus; urinary retention, delayed micturition, dilation of urinary tract Allergic: Skin rash, petechiae, urticaria, itching, photosensitization (avoid excessive exposure to sunlight), edema 
+(of face and tongue or general), drug fever, cross- sensitivity with other tricyclic drugs Hematologic: Bone marrow depressions including agranulocytosis, eosinophilia, purpura, thrombocytopenia 
+Gastrointestinal: Anorexia, nausea and vomiting, epigastric distress, peculiar taste, abdominal cramps, diarrhea, stomatitis, black tongue, hepatitis, jaundice (simulating obstructive), altered liver 
+function, elevated liver function tests, increased pancreatic enzymes Endocrine: Gynecomastia DESIPRAMINE: adverse_reactions: in the male, breast enlargement and galactorrhea in the female; increased 
+or decreased libido, impotence, painful ejaculation, testicular swelling; elevation or depression of blood sugar levels; syndrome of inappropriate antidiuretic hormone secretion (SIADH) Other: Weight 
+gain or loss; perspiration, flushing; urinary frequency, nocturia; parotid swelling; drowsiness, dizziness, proneness to falling, weakness and fatigue, headache; fever; alopecia; elevated alkaline 
+phosphatase Withdrawal Symptoms: Though not indicative of addiction, abrupt cessation of treatment after prolonged therapy may produce nausea, headache, and malaise. To report SUSPECTED ADVERSE 
+REACTIONS, contact Chartwell RX, LLC. at 1-845-232-1683 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.         
+SOURCE:DESIPRAMINE label
 
 
-[31mCONTENT: DESIPRAMINE: openfda: spl_id         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+CONTENT: DESIPRAMINE: openfda: spl_set_id         
+SOURCE:DESIPRAMINE label
 
 
-[31mCONTENT: DESIPRAMINE: indications_and_usage: INDICATIONS AND USAGE Desipramine hydrochloride tablets is indicated for the treatment of depression.         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+CONTENT: DESIPRAMINE: openfda: spl_id         
+SOURCE:DESIPRAMINE label
 
 
-[31mCONTENT: DESIPRAMINE: clinical_pharmacology: CLINICAL PHARMACOLOGY Mechanism of Action Available evidence suggests that many depressions have a biochemical basis in the form of a relative deficiency [0m
-[31mof neurotransmitters such as norepinephrine and serotonin. Norepinephrine deficiency may be associated with relatively low urinary [0m[1;31m3[0m[31m-methoxy-[0m[1;31m4[0m[31m- hydroxyphenyl glycol [0m[1;31m([0m[31mMHPG[0m[1;31m)[0m[31m levels, while serotonin [0m
-[31mdeficiencies may be associated with low spinal fluid levels of [0m[1;31m5[0m[31m-hydroxyindoleacetic acid. While the precise mechanism of action of the tricyclic antidepressants is unknown, a leading theory suggests [0m
-[31mthat they restore normal levels of neurotransmitters by blocking the re-uptake of these substances from the synapse in the central nervous system. Evidence indicates that the secondary amine tricyclic[0m
-[31mantidepressants, including desipramine hydrochloride, may have greater activity in blocking the re-uptake of norepinephrine. DESIPRAMINE: clinical_pharmacology: Tertiary amine tricyclic [0m
-[31mantidepressants, such as amitriptyline, may have greater effect on serotonin re-uptake. Desipramine hydrochloride is not a monoamine oxidase inhibitor [0m[1;31m([0m[31mMAOI[0m[1;31m)[0m[31m and does not act primarily as a central [0m
-[31mnervous system stimulant. It has been found in some studies to have a more rapid onset of action than imipramine. Earliest therapeutic effects may occasionally be seen in [0m[1;31m2[0m[31m to [0m[1;31m5[0m[31m days, but full [0m
-[31mtreatment benefit usually requires [0m[1;31m2[0m[31m to [0m[1;31m3[0m[31m weeks to obtain. Metabolism Tricyclic antidepressants, such as desipramine hydrochloride, are rapidly absorbed from the gastrointestinal tract. Tricyclic [0m
-[31mantidepressants or their metabolites are to some extent excreted through the gastric mucosa and reabsorbed from the gastrointestinal tract. Desipramine is metabolized in the liver, and approximately [0m
-[1;31m70[0m[31m% is excreted in the urine. DESIPRAMINE: clinical_pharmacology: The rate of metabolism of tricyclic antidepressants varies widely from individual to individual, chiefly on a genetically determined [0m
-[31mbasis. Up to a [0m[1;31m36[0m[31m-fold difference in plasma level may be noted among individuals taking the same oral dose of desipramine. The ratio of [0m[1;31m2[0m[31m-hydroxydesipramine to desipramine may be increased in the [0m
-[31melderly, most likely due to decreased renal elimination with aging. Certain drugs, particularly the psychostimulants and the phenothiazines, increase plasma levels of concomitantly administered [0m
-[31mtricyclic antidepressants through competition for the same metabolic enzyme systems. Concurrent administration of cimetidine and tricyclic antidepressants can produce clinically significant increases [0m
-[31min the plasma concentrations of the tricyclic antidepressants. DESIPRAMINE: clinical_pharmacology: Conversely, decreases in plasma levels of the tricyclic antidepressants have been reported upon [0m
-[31mdiscontinuation of cimetidine, which may result in the loss of the therapeutic efficacy of the tricyclic antidepressant. Other substances, particularly barbiturates and alcohol, induce liver enzyme [0m
-[31mactivity and thereby reduce tricyclic antidepressant plasma levels. Similar effects have been reported with tobacco smoke. Research on the relationship of plasma level to therapeutic response with the[0m
-[31mtricyclic antidepressants has produced conflicting results. While some studies report no correlation, many studies cite therapeutic levels for most tricyclics in the range of [0m[1;31m50[0m[31m to [0m[1;31m300[0m[31m nanograms per [0m
-[31mmilliliter. The therapeutic range is different for each tricyclic antidepressant. For desipramine, an optimal range of therapeutic plasma levels has not been established.         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+CONTENT: DESIPRAMINE: indications_and_usage: INDICATIONS AND USAGE Desipramine hydrochloride tablets is indicated for the treatment of depression.         
+SOURCE:DESIPRAMINE label
 
 
-[31mCONTENT: DESIPRAMINE: boxed_warning: Suicidality and Antidepressant Drugs Antidepressants increased the risk compared to placebo of suicidal thinking and behavior [0m[1;31m([0m[31msuicidality[0m[1;31m)[0m[31m in children, [0m
-[31madolescents, and young adults in short-term studies of major depressive disorder [0m[1;31m([0m[31mMDD[0m[1;31m)[0m[31m and other psychiatric disorders. Anyone considering the use of desipramine hydrochloride tablets or any other [0m
-[31mantidepressant in a child, adolescent, or young adult must balance this risk with the clinical need. Short-term studies did not show an increase in the risk of suicidality with antidepressants [0m
-[31mcompared to placebo in adults beyond age [0m[1;31m24[0m[31m; there was a reduction in risk with antidepressants compared to placebo in adults aged [0m[1;31m65[0m[31m and older. Depression and certain other psychiatric disorders are [0m
-[31mthemselves associated with increases in the risk of suicide. Patients of all ages who are started on antidepressant therapy should be monitored appropriately and observed closely for clinical [0m
-[31mworsening, suicidality, or unusual changes in behavior. DESIPRAMINE: boxed_warning: Families and caregivers should be advised of the need for close observation and communication with the prescriber. [0m
-[31mDesipramine hydrochloride is not approved for use in pediatric patients [0m[1;31m([0m[31m See WARNINGS: Clinical Worsening and Suicide Risk , PRECAUTIONS: Information for Patients , and PRECAUTIONS: Pediatric Use .  [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+CONTENT: DESIPRAMINE: clinical_pharmacology: CLINICAL PHARMACOLOGY Mechanism of Action Available evidence suggests that many depressions have a biochemical basis in the form of a relative deficiency 
+of neurotransmitters such as norepinephrine and serotonin. Norepinephrine deficiency may be associated with relatively low urinary 3-methoxy-4- hydroxyphenyl glycol (MHPG) levels, while serotonin 
+deficiencies may be associated with low spinal fluid levels of 5-hydroxyindoleacetic acid. While the precise mechanism of action of the tricyclic antidepressants is unknown, a leading theory suggests 
+that they restore normal levels of neurotransmitters by blocking the re-uptake of these substances from the synapse in the central nervous system. Evidence indicates that the secondary amine tricyclic
+antidepressants, including desipramine hydrochloride, may have greater activity in blocking the re-uptake of norepinephrine. DESIPRAMINE: clinical_pharmacology: Tertiary amine tricyclic 
+antidepressants, such as amitriptyline, may have greater effect on serotonin re-uptake. Desipramine hydrochloride is not a monoamine oxidase inhibitor (MAOI) and does not act primarily as a central 
+nervous system stimulant. It has been found in some studies to have a more rapid onset of action than imipramine. Earliest therapeutic effects may occasionally be seen in 2 to 5 days, but full 
+treatment benefit usually requires 2 to 3 weeks to obtain. Metabolism Tricyclic antidepressants, such as desipramine hydrochloride, are rapidly absorbed from the gastrointestinal tract. Tricyclic 
+antidepressants or their metabolites are to some extent excreted through the gastric mucosa and reabsorbed from the gastrointestinal tract. Desipramine is metabolized in the liver, and approximately 
+70% is excreted in the urine. DESIPRAMINE: clinical_pharmacology: The rate of metabolism of tricyclic antidepressants varies widely from individual to individual, chiefly on a genetically determined 
+basis. Up to a 36-fold difference in plasma level may be noted among individuals taking the same oral dose of desipramine. The ratio of 2-hydroxydesipramine to desipramine may be increased in the 
+elderly, most likely due to decreased renal elimination with aging. Certain drugs, particularly the psychostimulants and the phenothiazines, increase plasma levels of concomitantly administered 
+tricyclic antidepressants through competition for the same metabolic enzyme systems. Concurrent administration of cimetidine and tricyclic antidepressants can produce clinically significant increases 
+in the plasma concentrations of the tricyclic antidepressants. DESIPRAMINE: clinical_pharmacology: Conversely, decreases in plasma levels of the tricyclic antidepressants have been reported upon 
+discontinuation of cimetidine, which may result in the loss of the therapeutic efficacy of the tricyclic antidepressant. Other substances, particularly barbiturates and alcohol, induce liver enzyme 
+activity and thereby reduce tricyclic antidepressant plasma levels. Similar effects have been reported with tobacco smoke. Research on the relationship of plasma level to therapeutic response with the
+tricyclic antidepressants has produced conflicting results. While some studies report no correlation, many studies cite therapeutic levels for most tricyclics in the range of 50 to 300 nanograms per 
+milliliter. The therapeutic range is different for each tricyclic antidepressant. For desipramine, an optimal range of therapeutic plasma levels has not been established.         
+SOURCE:DESIPRAMINE label
 
 
-[31mCONTENT: DESIPRAMINE: precautions: PRECAUTIONS Information for Patients Prescribers or other health professionals should inform patients, their families, and their caregivers about the benefits and [0m
-[31mrisks associated with treatment with desipramine hydrochloride and should counsel them in its appropriate use. A patient Medication Guide about [0m[31m"Antidepressant Medicines, Depression and other Serious [0m
-[31mMental illnesses, and Suicidal Thoughts or Actions"[0m[31m is available for desipramine hydrochloride. The prescriber or health professional should instruct patients, their families, and their caregivers to [0m
-[31mread the Medication Guide and should assist them in understanding its contents. Patients should be given the opportunity to discuss the contents of the Medication Guide and to obtain answers to any [0m
-[31mquestions they may have. The complete text of the Medication Guide is reprinted at the end of this document. Patients should be advised of the following issues and asked to alert their prescriber if [0m
-[31mthese occur while taking desipramine hydrochloride. DESIPRAMINE: precautions: Clinical Worsening and Suicide Risk: Patients, their families, and their caregivers should be encouraged to be alert to [0m
-[31mthe emergence of anxiety, agitation, panic attacks, insomnia, irritability, hostility, aggressiveness, impulsivity, akathisia [0m[1;31m([0m[31mpsychomotor restlessness[0m[1;31m)[0m[31m, hypomania, mania, other unusual changes in [0m
-[31mbehavior, worsening of depression, and suicidal ideation, especially early during antidepressant treatment and when the dose is adjusted up or down. Families and caregivers of patients should be [0m
-[31madvised to observe for the emergence of such symptoms on a day-to-day basis, since changes may be abrupt. Such symptoms should be reported to the patient's prescriber or health professional, [0m
-[31mespecially if they are severe, abrupt in onset, or were not part of the patient's presenting symptoms. Symptoms such as these may be associated with an increased risk for suicidal thinking and [0m
-[31mbehavior and indicate a need for very close monitoring and possibly changes in the medication. DESIPRAMINE: precautions: Patients should be advised that taking desipramine hydrochloride can cause mild[0m
-[31mpupillary dilation, which in susceptible individuals, can lead to an episode of angle closure glaucoma. Pre-existing glaucoma is almost always open-angle glaucoma because angle closure glaucoma, when [0m
-[31mdiagnosed, can be treated definitively with iridectomy. Open- angle glaucoma is not a risk factor for angle closure glaucoma. Patients may wish to be examined to determine whether they are susceptible[0m
-[31mto angle closure, and have a prophylactic procedure [0m[1;31m([0m[31me.g., iridectomy[0m[1;31m)[0m[31m, if they are susceptible. Pediatric Use Safety and effectiveness in the pediatric population have not been established [0m[1;31m([0m[31m see BOX [0m
-[31mWARNING and WARNINGS-Clinical Worsening and Suicide Risk [0m[1;31m)[0m[31m. Therefore, desipramine hydrochloride is not recommended for use in children. DESIPRAMINE: precautions: Anyone considering the use of [0m
-[31mdesipramine hydrochloride in a child or adolescent must balance the potential risks with the clinical need [0m[1;31m([0m[31msee also ADVERSE REACTIONS- Cardiovascular [0m[1;31m)[0m[31m. General It is important that this drug be [0m
-[31mdispensed in the least possible quantities to depressed outpatients, since suicide has been accomplished with this class of drug [0m[1;31m([0m[31m see WARNINGS-Clinical Worsening and Suicide Risk [0m[1;31m)[0m[31m. Ordinary prudence[0m
-[31mrequires that children not have access to this drug or to potent drugs of any kind; if possible, this drug should be dispensed in containers with child-resistant safety closures. Storage of this drug [0m
-[31min the home must be supervised responsibly. If serious adverse effects occur, dosage should be reduced or treatment should be altered. Desipramine hydrochloride therapy in patients with [0m
-[31mmanic-depressive illness may induce a hypomanic state after the depressive phase terminates. The drug may cause exacerbation of psychosis in schizophrenic patients. Both elevation and lowering of [0m
-[31mblood sugar levels have been reported. DESIPRAMINE: precautions: Leukocyte and differential counts should be performed in any patient who develops fever and sore throat during therapy; the drug should[0m
-[31mbe discontinued if there is evidence of pathologic neutrophil depression. Clinical experience in the concurrent administration of ECT and antidepressant drugs is limited. Thus, if such treatment is [0m
-[31messential, the possibility of increased risk relative to benefits should be considered. This drug should be discontinued as soon as possible prior to elective surgery because of possible [0m
-[31mcardiovascular effects. Hypertensive episodes have been observed during surgery in patients taking desipramine hydrochloride.         [0m
-[31mSOUR[0m[1;31mCE:DE[0m[31mSIPRAMINE label[0m
+CONTENT: DESIPRAMINE: boxed_warning: Suicidality and Antidepressant Drugs Antidepressants increased the risk compared to placebo of suicidal thinking and behavior (suicidality) in children, 
+adolescents, and young adults in short-term studies of major depressive disorder (MDD) and other psychiatric disorders. Anyone considering the use of desipramine hydrochloride tablets or any other 
+antidepressant in a child, adolescent, or young adult must balance this risk with the clinical need. Short-term studies did not show an increase in the risk of suicidality with antidepressants 
+compared to placebo in adults beyond age 24; there was a reduction in risk with antidepressants compared to placebo in adults aged 65 and older. Depression and certain other psychiatric disorders are 
+themselves associated with increases in the risk of suicide. Patients of all ages who are started on antidepressant therapy should be monitored appropriately and observed closely for clinical 
+worsening, suicidality, or unusual changes in behavior. DESIPRAMINE: boxed_warning: Families and caregivers should be advised of the need for close observation and communication with the prescriber. 
+Desipramine hydrochloride is not approved for use in pediatric patients ( See WARNINGS: Clinical Worsening and Suicide Risk , PRECAUTIONS: Information for Patients , and PRECAUTIONS: Pediatric Use .  
+SOURCE:DESIPRAMINE label
 
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
-*[1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-angioedema-DESIPRAMINE[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mThe FDA label for Desipramine does not specify information regarding the [0m
-[32mrisk of angioedema associated with its use. Therefore, based on the available FDA label data, it is not possible to determine whether Desipramine increases or decreases the risk of angioedema. [0m
 
-[1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
+CONTENT: DESIPRAMINE: precautions: PRECAUTIONS Information for Patients Prescribers or other health professionals should inform patients, their families, and their caregivers about the benefits and 
+risks associated with treatment with desipramine hydrochloride and should counsel them in its appropriate use. A patient Medication Guide about "Antidepressant Medicines, Depression and other Serious 
+Mental illnesses, and Suicidal Thoughts or Actions" is available for desipramine hydrochloride. The prescriber or health professional should instruct patients, their families, and their caregivers to 
+read the Medication Guide and should assist them in understanding its contents. Patients should be given the opportunity to discuss the contents of the Medication Guide and to obtain answers to any 
+questions they may have. The complete text of the Medication Guide is reprinted at the end of this document. Patients should be advised of the following issues and asked to alert their prescriber if 
+these occur while taking desipramine hydrochloride. DESIPRAMINE: precautions: Clinical Worsening and Suicide Risk: Patients, their families, and their caregivers should be encouraged to be alert to 
+the emergence of anxiety, agitation, panic attacks, insomnia, irritability, hostility, aggressiveness, impulsivity, akathisia (psychomotor restlessness), hypomania, mania, other unusual changes in 
+behavior, worsening of depression, and suicidal ideation, especially early during antidepressant treatment and when the dose is adjusted up or down. Families and caregivers of patients should be 
+advised to observe for the emergence of such symptoms on a day-to-day basis, since changes may be abrupt. Such symptoms should be reported to the patient's prescriber or health professional, 
+especially if they are severe, abrupt in onset, or were not part of the patient's presenting symptoms. Symptoms such as these may be associated with an increased risk for suicidal thinking and 
+behavior and indicate a need for very close monitoring and possibly changes in the medication. DESIPRAMINE: precautions: Patients should be advised that taking desipramine hydrochloride can cause mild
+pupillary dilation, which in susceptible individuals, can lead to an episode of angle closure glaucoma. Pre-existing glaucoma is almost always open-angle glaucoma because angle closure glaucoma, when 
+diagnosed, can be treated definitively with iridectomy. Open- angle glaucoma is not a risk factor for angle closure glaucoma. Patients may wish to be examined to determine whether they are susceptible
+to angle closure, and have a prophylactic procedure (e.g., iridectomy), if they are susceptible. Pediatric Use Safety and effectiveness in the pediatric population have not been established ( see BOX 
+WARNING and WARNINGS-Clinical Worsening and Suicide Risk ). Therefore, desipramine hydrochloride is not recommended for use in children. DESIPRAMINE: precautions: Anyone considering the use of 
+desipramine hydrochloride in a child or adolescent must balance the potential risks with the clinical need (see also ADVERSE REACTIONS- Cardiovascular ). General It is important that this drug be 
+dispensed in the least possible quantities to depressed outpatients, since suicide has been accomplished with this class of drug ( see WARNINGS-Clinical Worsening and Suicide Risk ). Ordinary prudence
+requires that children not have access to this drug or to potent drugs of any kind; if possible, this drug should be dispensed in containers with child-resistant safety closures. Storage of this drug 
+in the home must be supervised responsibly. If serious adverse effects occur, dosage should be reduced or treatment should be altered. Desipramine hydrochloride therapy in patients with 
+manic-depressive illness may induce a hypomanic state after the depressive phase terminates. The drug may cause exacerbation of psychosis in schizophrenic patients. Both elevation and lowering of 
+blood sugar levels have been reported. DESIPRAMINE: precautions: Leukocyte and differential counts should be performed in any patient who develops fever and sore throat during therapy; the drug should
+be discontinued if there is evidence of pathologic neutrophil depression. Clinical experience in the concurrent administration of ECT and antidepressant drugs is limited. Thus, if such treatment is 
+essential, the possibility of increased risk relative to benefits should be considered. This drug should be discontinued as soon as possible prior to elective surgery because of possible 
+cardiovascular effects. Hypertensive episodes have been observed during surgery in patients taking desipramine hydrochloride.         
+SOURCE:DESIPRAMINE label
 
-[32mJustification: The FDA label data, which is the source of information for this inquiry, does not mention angioedema as a side effect or a condition affected by Desipramine. Consequently, there is no [0m
-[32mreliable information to suggest that Desipramine has an effect on the risk of angioedema.[0m
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-angioedema-DESIPRAMINE)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-angioedema-DESIPRAMINE)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-angioedema-DESIPRAMINE)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-DESIPRAMINE)  Entity.AGENT 
+*(orchestrator-angioedema-DESIPRAMINE)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) The FDA label for Desipramine does not specify information regarding the 
+risk of angioedema associated with its use. Therefore, based on the available FDA label data, it is not possible to determine whether Desipramine increases or decreases the risk of angioedema. 
+
+<DONE> DO-NOT-KNOW
+
+Justification: The FDA label data, which is the source of information for this inquiry, does not mention angioedema as a side effect or a condition affected by Desipramine. Consequently, there is no 
+reliable information to suggest that Desipramine has an effect on the risk of angioedema.

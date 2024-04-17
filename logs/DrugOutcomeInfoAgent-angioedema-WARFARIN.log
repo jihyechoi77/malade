@@ -1,480 +1,480 @@
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes WARFARIN increase or decrease the risk of angioedema?[0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-angioedema-WARFARIN[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
-[32m    [0m[32m"content"[0m[32m: [0m[32m"Does WARFARIN increase the risk of angioedema?"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0morchestrator-angioedema-WARFARIN[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes WARFARIN increase the risk of angioedema?[0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes WARFARIN increase the risk of angioedema?[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"query"[0m[32m: [0m[32m"Does WARFARIN increase the risk of angioedema?"[0m[32m,[0m
-[32m    [0m[32m"drug"[0m[32m: [0m[32m"WARFARIN"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31mCONTENT: WARFARIN: contraindications: [0m[1;31m4[0m[31m CONTRAINDICATIONS Warfarin sodium is contraindicated in: Pregnancy Warfarin sodium is contraindicated in women who are pregnant except in pregnant women with [0m
-[31mmechanical heart valves, who are at high risk of thromboembolism [0m[31m . Warfarin sodium can cause fetal harm when administered to a pregnant woman. Warfarin sodium exposure during pregnancy causes a [0m
-[31mrecognized pattern of major congenital malformations [0m[1;31m([0m[31mwarfarin embryopathy and fetotoxicity[0m[1;31m)[0m[31m, fatal fetal hemorrhage, and an increased risk of spontaneous abortion and fetal mortality. If warfarin [0m
-[31msodium is used during pregnancy or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to a fetus [0m[31m . WARFARIN: contraindications: Warfarin [0m
-[31msodium is contraindicated in patients with: Hemorrhagic tendencies or blood dyscrasias Recent or contemplated surgery of the central nervous system or eye, or traumatic surgery resulting in large open[0m
-[31msurfaces [0m[31m Bleeding tendencies associated with: − Active ulceration or overt bleeding of the gastrointestinal, genitourinary, or respiratory tract − Central nervous system hemorrhage − Cerebral [0m
-[31maneurysms, dissecting aorta − Pericarditis and pericardial effusions − Bacterial endocarditis Threatened abortion, eclampsia, and preeclampsia Unsupervised patients with conditions associated with [0m
-[31mpotential high level of non-compliance Spinal puncture and other diagnostic or therapeutic procedures with potential for uncontrollable bleeding Hypersensitivity to warfarin or to any other components[0m
-[31mof this product [0m[1;31m([0m[31me.g. WARFARIN: contraindications: anaphylaxis[0m[1;31m)[0m[31m [0m[31m Major regional or lumbar block anesthesia Malignant hypertension Pregnancy, except in women with mechanical heart valves [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m[1;31m5.7[0m[31m , [0m
-[1;31m8.1[0m[31m [0m[1;31m)[0m[31m Hemorrhagic tendencies or blood dyscrasias [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Recent or contemplated surgery of the central nervous system [0m[1;31m([0m[31mCNS[0m[1;31m)[0m[31m or eye, or traumatic surgery resulting in large open surfaces [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m[1;31m5[0m[31m. [0m
-[31mWARFARIN: contraindications: [0m[1;31m8[0m[31m [0m[1;31m)[0m[31m Bleeding tendencies associated with certain conditions [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Threatened abortion, eclampsia, and preeclampsia [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Unsupervised patients with potential high levels of[0m
-[31mnon-compliance [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Spinal puncture and other diagnostic or therapeutic procedures with potential for uncontrollable bleeding [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Hypersensitivity to warfarin or any component of the product [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m [0m
-[31mMajor regional or lumbar block anesthesia [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Malignant hypertension [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m         [0m
-[31mSOURCE:WARFARIN label[0m
+ (orchestrator-angioedema-WARFARIN)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does WARFARIN increase or decrease the risk of angioedema?
+ (orchestrator-angioedema-WARFARIN)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-WARFARIN)  Entity.AGENT 
+*(orchestrator-angioedema-WARFARIN)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does WARFARIN increase the risk of angioedema?"
+  }
+}
+*(orchestrator-angioedema-WARFARIN)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does WARFARIN increase the risk of angioedema?
+ (orchestrator-angioedema-WARFARIN)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-WARFARIN)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-WARFARIN)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does WARFARIN increase the risk of angioedema?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does WARFARIN increase the risk of angioedema?",
+    "drug": "WARFARIN"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: WARFARIN: contraindications: 4 CONTRAINDICATIONS Warfarin sodium is contraindicated in: Pregnancy Warfarin sodium is contraindicated in women who are pregnant except in pregnant women with 
+mechanical heart valves, who are at high risk of thromboembolism  . Warfarin sodium can cause fetal harm when administered to a pregnant woman. Warfarin sodium exposure during pregnancy causes a 
+recognized pattern of major congenital malformations (warfarin embryopathy and fetotoxicity), fatal fetal hemorrhage, and an increased risk of spontaneous abortion and fetal mortality. If warfarin 
+sodium is used during pregnancy or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to a fetus  . WARFARIN: contraindications: Warfarin 
+sodium is contraindicated in patients with: Hemorrhagic tendencies or blood dyscrasias Recent or contemplated surgery of the central nervous system or eye, or traumatic surgery resulting in large open
+surfaces  Bleeding tendencies associated with: − Active ulceration or overt bleeding of the gastrointestinal, genitourinary, or respiratory tract − Central nervous system hemorrhage − Cerebral 
+aneurysms, dissecting aorta − Pericarditis and pericardial effusions − Bacterial endocarditis Threatened abortion, eclampsia, and preeclampsia Unsupervised patients with conditions associated with 
+potential high level of non-compliance Spinal puncture and other diagnostic or therapeutic procedures with potential for uncontrollable bleeding Hypersensitivity to warfarin or to any other components
+of this product (e.g. WARFARIN: contraindications: anaphylaxis)  Major regional or lumbar block anesthesia Malignant hypertension Pregnancy, except in women with mechanical heart valves ( 4 , 5.7 , 
+8.1 ) Hemorrhagic tendencies or blood dyscrasias ( 4 ) Recent or contemplated surgery of the central nervous system (CNS) or eye, or traumatic surgery resulting in large open surfaces ( 4 , 5. 
+WARFARIN: contraindications: 8 ) Bleeding tendencies associated with certain conditions ( 4 ) Threatened abortion, eclampsia, and preeclampsia ( 4 ) Unsupervised patients with potential high levels of
+non-compliance ( 4 ) Spinal puncture and other diagnostic or therapeutic procedures with potential for uncontrollable bleeding ( 4 ) Hypersensitivity to warfarin or any component of the product ( 4 ) 
+Major regional or lumbar block anesthesia ( 4 ) Malignant hypertension ( 4 )         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: clinical_pharmacology: Absorption Warfarin is essentially completely absorbed after oral administration, with peak concentration generally attained within the first [0m[1;31m4[0m[31m hours. [0m
-[31mDistribution Warfarin shows a volume of distribution of about [0m[1;31m0.14[0m[31m L/kg. Approximately [0m[1;31m99[0m[31m% of the drug is bound to plasma proteins. Metabolism The elimination of warfarin is almost entirely by [0m
-[31mmetabolism. Warfarin is stereoselectively metabolized by hepatic cytochrome P-[0m[1;31m450[0m[31m [0m[1;31m([0m[31mCYP450[0m[1;31m)[0m[31m microsomal enzymes to inactive hydroxylated metabolites [0m[1;31m([0m[31mpredominant route[0m[1;31m)[0m[31m and by reductases to reduced [0m
-[31mmetabolites [0m[1;31m([0m[31mwarfarin alcohols[0m[1;31m)[0m[31m with minimal anticoagulant activity. Identified metabolites of warfarin include dehydrowarfarin, two diastereoisomer alcohols, and [0m[1;31m4[0m[31m′-, [0m[1;31m6[0m[31m-, [0m[1;31m7[0m[31m-, [0m[1;31m8[0m[31m-, and [0m[1;31m10[0m[31m- [0m
-[31mhydroxywarfarin. WARFARIN: clinical_pharmacology: The CYP450 isozymes involved in the metabolism of warfarin include CYP2C9, 2C19, 2C8, 2C18, 1A2, and 3A4. CYP2C9, a polymorphic enzyme, is likely to [0m
-[31mbe the principal form of human liver CYP450 that modulates the in vivo anticoagulant activity of warfarin. Patients with one or more variant CYP2C9 alleles have decreased S-warfarin clearance [0m[31m . [0m
-[31mExcretion The terminal half-life of warfarin after a single dose is approximately [0m[1;31m1[0m[31m week; however, the effective half-life ranges from [0m[1;31m20[0m[31m to [0m[1;31m60[0m[31m hours, with a mean of about [0m[1;31m40[0m[31m hours. WARFARIN: [0m
-[31mclinical_pharmacology: The clearance of R-warfarin is generally half that of S-warfarin, thus as the volumes of distribution are similar, the half-life of R-warfarin is longer than that of S-warfarin.[0m
-[31mThe half-life of R-warfarin ranges from [0m[1;31m37[0m[31m to [0m[1;31m89[0m[31m hours, while that of S-warfarin ranges from [0m[1;31m21[0m[31m to [0m[1;31m43[0m[31m hours. Studies with radiolabeled drug have demonstrated that up to [0m[1;31m92[0m[31m% of the orally administered [0m
-[31mdose is recovered in urine. Very little warfarin is excreted unchanged in urine. Urinary excretion is in the form of metabolites. Geriatric Patients Patients [0m[1;31m60[0m[31m years or older appear to exhibit [0m
-[31mgreater than expected INR response to the anticoagulant effects of warfarin. The cause of the increased sensitivity to the anticoagulant effects of warfarin in this age group is unknown but may be due[0m
-[31mto a combination of pharmacokinetic and pharmacodynamic factors. WARFARIN: clinical_pharmacology: Limited information suggests there is no difference in the clearance of S-warfarin; however, there may[0m
-[31mbe a slight decrease in the clearance of R-warfarin in the elderly as compared to the young. Therefore, as patient age increases, a lower dose of warfarin is usually required to produce a therapeutic [0m
-[31mlevel of anticoagulation [0m[31m. Asian Patients Asian patients may require lower initiation and maintenance doses of warfarin. A non-controlled study of [0m[1;31m151[0m[31m Chinese outpatients stabilized on warfarin for [0m
-[31mvarious indications reported a mean daily warfarin requirement of [0m[1;31m3.3[0m[31m ± [0m[1;31m1.4[0m[31m mg to achieve an INR of [0m[1;31m2[0m[31m to [0m[1;31m2.5[0m[31m. Patient age was the most important determinant of warfarin requirement in these patients, [0m
-[31mwith a progressively lower warfarin requirement with increasing age. [0m[1;31m12[0m[31m. WARFARIN: clinical_pharmacology: [0m[1;31m5[0m[31m Pharmacogenomics CYP2C9 and VKORC1 Polymorphisms The S -enantiomer of warfarin is mainly [0m
-[31mmetabolized to [0m[1;31m7[0m[31m-hydroxywarfarin by CYP2C9, a polymorphic enzyme. The variant alleles, CYP2C9*[0m[1;31m2[0m[31m and CYP2C9*[0m[1;31m3[0m[31m, result in decreased in vitro CYP2C9 enzymatic [0m[1;31m7[0m[31m-hydroxylation of S-warfarin. The [0m
-[31mfrequencies of these alleles in Caucasians are approximately [0m[1;31m11[0m[31m% and [0m[1;31m7[0m[31m% for CYP2C9*[0m[1;31m2[0m[31m and CYP2C9*[0m[1;31m3[0m[31m, respectively. Other CYP2C9 alleles associated with reduced enzymatic activity occur at lower [0m
-[31mfrequencies, including *[0m[1;31m5[0m[31m, *[0m[1;31m6[0m[31m, and *[0m[1;31m11[0m[31m alleles in populations of African ancestry and *[0m[1;31m5[0m[31m, *[0m[1;31m9[0m[31m, and *[0m[1;31m11[0m[31m alleles in Caucasians.         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: clinical_pharmacology: Absorption Warfarin is essentially completely absorbed after oral administration, with peak concentration generally attained within the first 4 hours. 
+Distribution Warfarin shows a volume of distribution of about 0.14 L/kg. Approximately 99% of the drug is bound to plasma proteins. Metabolism The elimination of warfarin is almost entirely by 
+metabolism. Warfarin is stereoselectively metabolized by hepatic cytochrome P-450 (CYP450) microsomal enzymes to inactive hydroxylated metabolites (predominant route) and by reductases to reduced 
+metabolites (warfarin alcohols) with minimal anticoagulant activity. Identified metabolites of warfarin include dehydrowarfarin, two diastereoisomer alcohols, and 4′-, 6-, 7-, 8-, and 10- 
+hydroxywarfarin. WARFARIN: clinical_pharmacology: The CYP450 isozymes involved in the metabolism of warfarin include CYP2C9, 2C19, 2C8, 2C18, 1A2, and 3A4. CYP2C9, a polymorphic enzyme, is likely to 
+be the principal form of human liver CYP450 that modulates the in vivo anticoagulant activity of warfarin. Patients with one or more variant CYP2C9 alleles have decreased S-warfarin clearance  . 
+Excretion The terminal half-life of warfarin after a single dose is approximately 1 week; however, the effective half-life ranges from 20 to 60 hours, with a mean of about 40 hours. WARFARIN: 
+clinical_pharmacology: The clearance of R-warfarin is generally half that of S-warfarin, thus as the volumes of distribution are similar, the half-life of R-warfarin is longer than that of S-warfarin.
+The half-life of R-warfarin ranges from 37 to 89 hours, while that of S-warfarin ranges from 21 to 43 hours. Studies with radiolabeled drug have demonstrated that up to 92% of the orally administered 
+dose is recovered in urine. Very little warfarin is excreted unchanged in urine. Urinary excretion is in the form of metabolites. Geriatric Patients Patients 60 years or older appear to exhibit 
+greater than expected INR response to the anticoagulant effects of warfarin. The cause of the increased sensitivity to the anticoagulant effects of warfarin in this age group is unknown but may be due
+to a combination of pharmacokinetic and pharmacodynamic factors. WARFARIN: clinical_pharmacology: Limited information suggests there is no difference in the clearance of S-warfarin; however, there may
+be a slight decrease in the clearance of R-warfarin in the elderly as compared to the young. Therefore, as patient age increases, a lower dose of warfarin is usually required to produce a therapeutic 
+level of anticoagulation . Asian Patients Asian patients may require lower initiation and maintenance doses of warfarin. A non-controlled study of 151 Chinese outpatients stabilized on warfarin for 
+various indications reported a mean daily warfarin requirement of 3.3 ± 1.4 mg to achieve an INR of 2 to 2.5. Patient age was the most important determinant of warfarin requirement in these patients, 
+with a progressively lower warfarin requirement with increasing age. 12. WARFARIN: clinical_pharmacology: 5 Pharmacogenomics CYP2C9 and VKORC1 Polymorphisms The S -enantiomer of warfarin is mainly 
+metabolized to 7-hydroxywarfarin by CYP2C9, a polymorphic enzyme. The variant alleles, CYP2C9*2 and CYP2C9*3, result in decreased in vitro CYP2C9 enzymatic 7-hydroxylation of S-warfarin. The 
+frequencies of these alleles in Caucasians are approximately 11% and 7% for CYP2C9*2 and CYP2C9*3, respectively. Other CYP2C9 alleles associated with reduced enzymatic activity occur at lower 
+frequencies, including *5, *6, and *11 alleles in populations of African ancestry and *5, *9, and *11 alleles in Caucasians.         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: ALENDRONATE SODIUM: contraindications: [0m[1;31m4[0m[31m CONTRAINDICATIONS BINOSTO is contraindicated in patients with the following conditions: Abnormalities of the esophagus which delay esophageal emptying[0m
-[31msuch as stricture or achalasia [0m[31m Inability to stand or sit upright for at least [0m[1;31m30[0m[31m minutes [0m[31m Do not administer BINOSTO to patients at increased risk of aspiration Hypocalcemia [0m[31m Hypersensitivity to any [0m
-[31mcomponent of this product. Hypersensitivity reactions including urticaria and angioedema have been reported [0m[31m . Abnormalities of the esophagus which delay emptying such as stricture or achalasia [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m
-[1;31m5[0m[31m. ALENDRONATE SODIUM: contraindications: [0m[1;31m1[0m[31m [0m[1;31m)[0m[31m Inability to stand/sit upright for at least [0m[1;31m30[0m[31m minutes [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m[1;31m5.1[0m[31m [0m[1;31m)[0m[31m Increased risk of aspiration. [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Hypocalcemia [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m[1;31m5.2[0m[31m [0m[1;31m)[0m[31m Hypersensitivity to any [0m
-[31mcomponent of this product [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m[1;31m6[0m[31m.         [0m
-[31mSOUR[0m[1;31mCE:A[0m[31mLENDRONATE SODIUM label[0m
+CONTENT: ALENDRONATE SODIUM: contraindications: 4 CONTRAINDICATIONS BINOSTO is contraindicated in patients with the following conditions: Abnormalities of the esophagus which delay esophageal emptying
+such as stricture or achalasia  Inability to stand or sit upright for at least 30 minutes  Do not administer BINOSTO to patients at increased risk of aspiration Hypocalcemia  Hypersensitivity to any 
+component of this product. Hypersensitivity reactions including urticaria and angioedema have been reported  . Abnormalities of the esophagus which delay emptying such as stricture or achalasia ( 4 , 
+5. ALENDRONATE SODIUM: contraindications: 1 ) Inability to stand/sit upright for at least 30 minutes ( 4 , 5.1 ) Increased risk of aspiration. ( 4 ) Hypocalcemia ( 4 , 5.2 ) Hypersensitivity to any 
+component of this product ( 4 , 6.         
+SOURCE:ALENDRONATE SODIUM label
 
 
-[31mCONTENT: WARFARIN: spl_medguide: MEDICATION GUIDE Dispense with Medication Guide available at: www.tevausa.com/medguides Warfarin [0m[1;31m([0m[31mwar' far in[0m[1;31m)[0m[31m Sodium [0m[1;31m([0m[31msoe' dee um[0m[1;31m)[0m[31m Tablets What is the most important [0m
-[31minformation I should know about warfarin sodium tablets? Warfarin sodium tablets can cause bleeding which can be serious and sometimes lead to death. This is because warfarin sodium tablets are a [0m
-[31mblood thinner medicine that lowers the chance of blood clots forming in your body. WARFARIN: spl_medguide: You may have a higher risk of bleeding if you take warfarin sodium tablets and: are [0m[1;31m65[0m[31m years [0m
-[31mof age or older have a history of stomach or intestinal bleeding have high blood pressure [0m[1;31m([0m[31mhypertension[0m[1;31m)[0m[31m have a history of stroke, or “mini-stroke” [0m[1;31m([0m[31mtransient ischemic attack or TIA[0m[1;31m)[0m[31m have serious [0m
-[31mheart disease have a low blood count or cancer have had trauma, such as an accident or surgery have kidney problems take other medicines that increase your risk of bleeding, including: a medicine that[0m
-[31mcontains heparin other medicines to prevent or treat blood clots non-steroidal anti-inflammatory drugs [0m[1;31m([0m[31mNSAIDs[0m[1;31m)[0m[31m take warfarin sodium for a long time. Warfarin sodium is the active ingredient in [0m
-[31mwarfarin sodium tablets. Tell your healthcare provider if you take any of these medicines. Ask your healthcare provider if you are not sure if your medicine is one listed above. WARFARIN: [0m
-[31mspl_medguide: Many other medicines can interact with warfarin sodium tablets and affect the dose you need or increase warfarin sodium tablets side effects. Do not change or stop any of your medicines [0m
-[31mor start any new medicines before you talk to your healthcare provider. Do not take other medicines that contain warfarin sodium while taking warfarin sodium tablets. Get your regular blood test to [0m
-[31mcheck for your response to warfarin sodium tablets. This blood test is called an INR test. The INR test checks to see how fast your blood clots. Your healthcare provider will decide what INR numbers [0m
-[31mare best for you. Your dose of warfarin sodium tablets will be adjusted to keep your INR in a target range for you. WARFARIN: spl_medguide: Call your healthcare provider right away if you get any of [0m
-[31mthe following signs or symptoms of bleeding problems: pain, swelling, or discomfort headaches, dizziness, or weakness unusual bruising [0m[1;31m([0m[31mbruises that develop without known cause or grow in size[0m[1;31m)[0m[31m [0m
-[31mnosebleeds bleeding gums bleeding from cuts takes a long time to stop menstrual bleeding or vaginal bleeding that is heavier than normal pink or brown urine red or black stools coughing up blood [0m
-[31mvomiting blood or material that looks like coffee grounds Some foods and beverages can interact with warfarin sodium tablets and affect your treatment and dose. Eat a normal, balanced diet. Talk to [0m
-[31myour healthcare provider before you make any diet changes. Do not eat large amounts of leafy, green vegetables. Leafy, green vegetables contain vitamin K. Certain vegetable oils also contain large [0m
-[31mamounts of vitamin K. Too much vitamin K can lower the effect of warfarin sodium tablets. Always tell all of your healthcare providers that you take warfarin sodium tablets.         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: spl_medguide: MEDICATION GUIDE Dispense with Medication Guide available at: www.tevausa.com/medguides Warfarin (war' far in) Sodium (soe' dee um) Tablets What is the most important 
+information I should know about warfarin sodium tablets? Warfarin sodium tablets can cause bleeding which can be serious and sometimes lead to death. This is because warfarin sodium tablets are a 
+blood thinner medicine that lowers the chance of blood clots forming in your body. WARFARIN: spl_medguide: You may have a higher risk of bleeding if you take warfarin sodium tablets and: are 65 years 
+of age or older have a history of stomach or intestinal bleeding have high blood pressure (hypertension) have a history of stroke, or “mini-stroke” (transient ischemic attack or TIA) have serious 
+heart disease have a low blood count or cancer have had trauma, such as an accident or surgery have kidney problems take other medicines that increase your risk of bleeding, including: a medicine that
+contains heparin other medicines to prevent or treat blood clots non-steroidal anti-inflammatory drugs (NSAIDs) take warfarin sodium for a long time. Warfarin sodium is the active ingredient in 
+warfarin sodium tablets. Tell your healthcare provider if you take any of these medicines. Ask your healthcare provider if you are not sure if your medicine is one listed above. WARFARIN: 
+spl_medguide: Many other medicines can interact with warfarin sodium tablets and affect the dose you need or increase warfarin sodium tablets side effects. Do not change or stop any of your medicines 
+or start any new medicines before you talk to your healthcare provider. Do not take other medicines that contain warfarin sodium while taking warfarin sodium tablets. Get your regular blood test to 
+check for your response to warfarin sodium tablets. This blood test is called an INR test. The INR test checks to see how fast your blood clots. Your healthcare provider will decide what INR numbers 
+are best for you. Your dose of warfarin sodium tablets will be adjusted to keep your INR in a target range for you. WARFARIN: spl_medguide: Call your healthcare provider right away if you get any of 
+the following signs or symptoms of bleeding problems: pain, swelling, or discomfort headaches, dizziness, or weakness unusual bruising (bruises that develop without known cause or grow in size) 
+nosebleeds bleeding gums bleeding from cuts takes a long time to stop menstrual bleeding or vaginal bleeding that is heavier than normal pink or brown urine red or black stools coughing up blood 
+vomiting blood or material that looks like coffee grounds Some foods and beverages can interact with warfarin sodium tablets and affect your treatment and dose. Eat a normal, balanced diet. Talk to 
+your healthcare provider before you make any diet changes. Do not eat large amounts of leafy, green vegetables. Leafy, green vegetables contain vitamin K. Certain vegetable oils also contain large 
+amounts of vitamin K. Too much vitamin K can lower the effect of warfarin sodium tablets. Always tell all of your healthcare providers that you take warfarin sodium tablets.         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: drug_interactions: [0m[1;31m7[0m[31m DRUG INTERACTIONS Concomitant use of drugs that increase bleeding risk, antibiotics, antifungals, botanical [0m[1;31m([0m[31mherbal[0m[1;31m)[0m[31m products, and inhibitors and inducers of [0m
-[31mCYP2C9, 1A2, or 3A4. [0m[1;31m([0m[31m [0m[1;31m7[0m[31m [0m[1;31m)[0m[31m Consult labeling of all concurrently used drugs for complete information about interactions with warfarin sodium or increased risks for bleeding. [0m[1;31m([0m[31m [0m[1;31m7[0m[31m [0m[1;31m)[0m[31m [0m[1;31m7.1[0m[31m General [0m
-[31mInformation Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism [0m[1;31m([0m[31mimpaired[0m
-[31mhemostasis, reduced clotting factor synthesis[0m[1;31m)[0m[31m, competitive antagonism [0m[1;31m([0m[31mvitamin K[0m[1;31m)[0m[31m, and alteration of the physiologic control loop for vitamin K metabolism [0m[1;31m([0m[31mhereditary resistance[0m[1;31m)[0m[31m. Pharmacokinetic [0m
-[31mmechanisms for drug interactions with warfarin sodium are mainly enzyme induction, enzyme inhibition, and reduced plasma protein binding. WARFARIN: drug_interactions: It is important to note that some[0m
-[31mdrugs may interact by more than one mechanism. More frequent INR monitoring should be performed when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs, [0m
-[31mincluding drugs intended for short-term use [0m[1;31m([0m[31me.g., antibiotics, antifungals, corticosteroids[0m[1;31m)[0m[31m [0m[1;31m[[0m[31m see Boxed Warning [0m[1;31m][0m[31m. Consult the labeling of all concurrently used drugs to obtain further information [0m
-[31mabout interactions with warfarin sodium or adverse reactions pertaining to bleeding. [0m[1;31m7.2[0m[31m CYP450 Interactions CYP450 isozymes involved in the metabolism of warfarin include CYP2C9, 2C19, 2C8, 2C18, [0m
-[31m1A2, and 3A4. The more potent warfarin S -enantiomer is metabolized by CYP2C9 while the R -enantiomer is metabolized by CYP1A2 and 3A4. WARFARIN: drug_interactions: Inhibitors of CYP2C9, 1A2, and/or [0m
-[31m3A4 have the potential to increase the effect [0m[1;31m([0m[31mincrease INR[0m[1;31m)[0m[31m of warfarin by increasing the exposure of warfarin. Inducers of CYP2C9, 1A2, and/or 3A4 have the potential to decrease the effect [0m[1;31m([0m[31mdecrease[0m
-[31mINR[0m[1;31m)[0m[31m of warfarin by decreasing the exposure of warfarin. Examples of inhibitors and inducers of CYP2C9, 1A2, and 3A4 are below in Table [0m[1;31m2[0m[31m ; however, this list should not be considered all-inclusive. [0m
-[31mConsult the labeling of all concurrently used drugs to obtain further information about CYP450 interaction potential. The CYP450 inhibition and induction potential should be considered when starting, [0m
-[31mstopping, or changing dose of concomitant medications. WARFARIN: drug_interactions: Closely monitor INR if a concomitant drug is a CYP2C9, 1A2, and/or 3A4 inhibitor or inducer. Table [0m[1;31m2[0m[31m: Examples of [0m
-[31mCYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, [0m
-[31msulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazepine, phenobarbital, rifampin CYP1A2 acyclovir, allopurinol, caffeine, cimetidine, ciprofloxacin, disulfiram, [0m
-[31menoxacin, famotidine, fluvoxamine WARFARIN: drug_interactions: , methoxsalen, mexiletine, norfloxacin, oral contraceptives, phenylpropanolamine, propafenone, propranolol, terbinafine, thiabendazole, [0m
-[31mticlopidine, verapamil, zileuton montelukast, moricizine, omeprazole, phenobarbital, phenytoin, cigarette smoking CYP3A4 alprazolam, amiodarone, amlodipine, amprenavir, aprepitant, atorvastatin, [0m
-[31matazanavir, bicalutamide, cilostazol, cimetidine, ciprofloxacin, clarithromycin, conivaptan, cyclosporine, darunavir/ritonavir, diltiazem, erythromycin, fluconazole, fluoxetine, fluvoxamine, [0m
-[31mfosamprenav WARFARIN: drug_interactions: ir, imatinib, indinavir, isoniazid, itraconazole, ketoconazole, lopinavir/ritonavir, nefazodone, nelfinavir, nilotinib, oral contraceptives, posaconazole, [0m
-[31mranitidine, ranolazine, ritonavir, saquinavir, telithromycin, tipranavir, voriconazole, zileuton armodafinil, amprenavir, aprepitant, bosentan, carbamazepine, efavirenz, etravirine, modafinil, [0m
-[31mnafcillin, phenytoin, pioglitazone, prednisone, rifampin, rufinamide [0m[1;31m7.3[0m[31m Drugs that Increase Bleeding Risk Examples of drugs known to increase the risk of bleeding are presented in Table [0m[1;31m3[0m[31m . WARFARIN:[0m
-[31mdrug_interactions: Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. WARFARIN: [0m
-[31mdrug_interactions: Table [0m[1;31m3[0m[31m: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs Anticoagulants argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin Antiplatelet Agents[0m
-[31maspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine Non-steroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, [0m
-[31mketorolac, mefenamic acid, naproxen, oxaprozin, piroxicam, sulindac Serotonin Reuptake Inhibitors citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, [0m
-[31mparoxetine, sertraline, venlaf WARFARIN: drug_interactions: axine, vilazodone [0m[1;31m7.4[0m[31m Antibiotics and Antifungals There have been reports of changes in INR in patients taking warfarin and antibiotics or [0m
-[31mantifungals, but clinical pharmacokinetic studies have not shown consistent effects of these agents on plasma concentrations of warfarin. Closely monitor INR when starting or stopping any antibiotic [0m
-[31mor antifungal in patients taking warfarin. [0m[1;31m7.5[0m[31m Botanical [0m[1;31m([0m[31mHerbal[0m[1;31m)[0m[31m Products and Foods More frequent INR monitoring should be performed when starting or stopping botanicals. Few adequate, [0m
-[31mwell-controlled studies evaluating the potential for metabolic and/or pharmacologic interactions between botanicals and warfarin sodium exist. Due to a lack of manufacturing standardization with [0m
-[31mbotanical medicinal preparations, the amount of active ingredients may vary. This could further confound the ability to assess potential interactions and effects on anticoagulation. Some botanicals [0m
-[31mmay cause bleeding events when taken alone [0m[1;31m([0m[31me.g. WARFARIN: drug_interactions: garlic and Ginkgo biloba[0m[1;31m)[0m[31m and may have anticoagulant, antiplatelet, and/or fibrinolytic properties. These effects would be[0m
-[31mexpected to be additive to the anticoagulant effects of warfarin sodium. Conversely, some botanicals may decrease the effects of warfarin sodium [0m[1;31m([0m[31me.g., co-enzyme Q [0m[1;31m10[0m[31m , St. John’s wort, ginseng[0m[1;31m)[0m[31m. Some[0m
-[31mbotanicals and foods can interact with warfarin sodium through CYP450 interactions [0m[1;31m([0m[31me.g., echinacea, grapefruit juice, ginkgo, goldenseal, St. John’s wort[0m[1;31m)[0m[31m. The amount of vitamin K in food may affect [0m
-[31mtherapy with warfarin sodium. Advise patients taking warfarin sodium to eat a normal, balanced diet maintaining a consistent amount of vitamin K. Patients taking warfarin sodium should avoid drastic [0m
-[31mchanges in dietary habits, such as eating large amounts of green leafy vegetables.         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: drug_interactions: 7 DRUG INTERACTIONS Concomitant use of drugs that increase bleeding risk, antibiotics, antifungals, botanical (herbal) products, and inhibitors and inducers of 
+CYP2C9, 1A2, or 3A4. ( 7 ) Consult labeling of all concurrently used drugs for complete information about interactions with warfarin sodium or increased risks for bleeding. ( 7 ) 7.1 General 
+Information Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism (impaired
+hemostasis, reduced clotting factor synthesis), competitive antagonism (vitamin K), and alteration of the physiologic control loop for vitamin K metabolism (hereditary resistance). Pharmacokinetic 
+mechanisms for drug interactions with warfarin sodium are mainly enzyme induction, enzyme inhibition, and reduced plasma protein binding. WARFARIN: drug_interactions: It is important to note that some
+drugs may interact by more than one mechanism. More frequent INR monitoring should be performed when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs, 
+including drugs intended for short-term use (e.g., antibiotics, antifungals, corticosteroids) [ see Boxed Warning ]. Consult the labeling of all concurrently used drugs to obtain further information 
+about interactions with warfarin sodium or adverse reactions pertaining to bleeding. 7.2 CYP450 Interactions CYP450 isozymes involved in the metabolism of warfarin include CYP2C9, 2C19, 2C8, 2C18, 
+1A2, and 3A4. The more potent warfarin S -enantiomer is metabolized by CYP2C9 while the R -enantiomer is metabolized by CYP1A2 and 3A4. WARFARIN: drug_interactions: Inhibitors of CYP2C9, 1A2, and/or 
+3A4 have the potential to increase the effect (increase INR) of warfarin by increasing the exposure of warfarin. Inducers of CYP2C9, 1A2, and/or 3A4 have the potential to decrease the effect (decrease
+INR) of warfarin by decreasing the exposure of warfarin. Examples of inhibitors and inducers of CYP2C9, 1A2, and 3A4 are below in Table 2 ; however, this list should not be considered all-inclusive. 
+Consult the labeling of all concurrently used drugs to obtain further information about CYP450 interaction potential. The CYP450 inhibition and induction potential should be considered when starting, 
+stopping, or changing dose of concomitant medications. WARFARIN: drug_interactions: Closely monitor INR if a concomitant drug is a CYP2C9, 1A2, and/or 3A4 inhibitor or inducer. Table 2: Examples of 
+CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, 
+sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazepine, phenobarbital, rifampin CYP1A2 acyclovir, allopurinol, caffeine, cimetidine, ciprofloxacin, disulfiram, 
+enoxacin, famotidine, fluvoxamine WARFARIN: drug_interactions: , methoxsalen, mexiletine, norfloxacin, oral contraceptives, phenylpropanolamine, propafenone, propranolol, terbinafine, thiabendazole, 
+ticlopidine, verapamil, zileuton montelukast, moricizine, omeprazole, phenobarbital, phenytoin, cigarette smoking CYP3A4 alprazolam, amiodarone, amlodipine, amprenavir, aprepitant, atorvastatin, 
+atazanavir, bicalutamide, cilostazol, cimetidine, ciprofloxacin, clarithromycin, conivaptan, cyclosporine, darunavir/ritonavir, diltiazem, erythromycin, fluconazole, fluoxetine, fluvoxamine, 
+fosamprenav WARFARIN: drug_interactions: ir, imatinib, indinavir, isoniazid, itraconazole, ketoconazole, lopinavir/ritonavir, nefazodone, nelfinavir, nilotinib, oral contraceptives, posaconazole, 
+ranitidine, ranolazine, ritonavir, saquinavir, telithromycin, tipranavir, voriconazole, zileuton armodafinil, amprenavir, aprepitant, bosentan, carbamazepine, efavirenz, etravirine, modafinil, 
+nafcillin, phenytoin, pioglitazone, prednisone, rifampin, rufinamide 7.3 Drugs that Increase Bleeding Risk Examples of drugs known to increase the risk of bleeding are presented in Table 3 . WARFARIN:
+drug_interactions: Because bleeding risk is increased when these drugs are used concomitantly with warfarin, closely monitor patients receiving any such drug with warfarin. WARFARIN: 
+drug_interactions: Table 3: Drugs that Can Increase the Risk of Bleeding Drug Class Specific Drugs Anticoagulants argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin Antiplatelet Agents
+aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine Non-steroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, 
+ketorolac, mefenamic acid, naproxen, oxaprozin, piroxicam, sulindac Serotonin Reuptake Inhibitors citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, 
+paroxetine, sertraline, venlaf WARFARIN: drug_interactions: axine, vilazodone 7.4 Antibiotics and Antifungals There have been reports of changes in INR in patients taking warfarin and antibiotics or 
+antifungals, but clinical pharmacokinetic studies have not shown consistent effects of these agents on plasma concentrations of warfarin. Closely monitor INR when starting or stopping any antibiotic 
+or antifungal in patients taking warfarin. 7.5 Botanical (Herbal) Products and Foods More frequent INR monitoring should be performed when starting or stopping botanicals. Few adequate, 
+well-controlled studies evaluating the potential for metabolic and/or pharmacologic interactions between botanicals and warfarin sodium exist. Due to a lack of manufacturing standardization with 
+botanical medicinal preparations, the amount of active ingredients may vary. This could further confound the ability to assess potential interactions and effects on anticoagulation. Some botanicals 
+may cause bleeding events when taken alone (e.g. WARFARIN: drug_interactions: garlic and Ginkgo biloba) and may have anticoagulant, antiplatelet, and/or fibrinolytic properties. These effects would be
+expected to be additive to the anticoagulant effects of warfarin sodium. Conversely, some botanicals may decrease the effects of warfarin sodium (e.g., co-enzyme Q 10 , St. John’s wort, ginseng). Some
+botanicals and foods can interact with warfarin sodium through CYP450 interactions (e.g., echinacea, grapefruit juice, ginkgo, goldenseal, St. John’s wort). The amount of vitamin K in food may affect 
+therapy with warfarin sodium. Advise patients taking warfarin sodium to eat a normal, balanced diet maintaining a consistent amount of vitamin K. Patients taking warfarin sodium should avoid drastic 
+changes in dietary habits, such as eating large amounts of green leafy vegetables.         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: boxed_warning: WARNING: BLEEDING RISK Warfarin sodium can cause major or fatal bleeding [0m[31m . Perform regular monitoring of INR in all treated patients [0m[31m . Drugs, dietary changes, and [0m
-[31mother factors affect INR levels achieved with warfarin sodium therapy [0m[31m . Instruct patients about prevention measures to minimize risk of bleeding and to report signs and symptoms of bleeding [0m[31m . [0m
-[31mWARNING: BLEEDING RISK See full prescribing information for complete boxed warning. Warfarin sodium can cause major or fatal bleeding. [0m[1;31m([0m[31m [0m[1;31m5.1[0m[31m [0m[1;31m)[0m[31m Perform regular monitoring of INR in all treated [0m
-[31mpatients. [0m[1;31m([0m[31m [0m[1;31m2.1[0m[31m [0m[1;31m)[0m[31m Drugs, dietary changes, and other factors affect INR levels achieved with warfarin sodium therapy. WARFARIN: boxed_warning: [0m[1;31m([0m[31m [0m[1;31m7[0m[31m [0m[1;31m)[0m[31m Instruct patients about prevention measures to [0m
-[31mminimize risk of bleeding and to report signs and symptoms of bleeding. WARFARIN: boxed_warning: [0m[1;31m([0m[31m [0m[1;31m17[0m[31m [0m[1;31m)[0m[31m         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: boxed_warning: WARNING: BLEEDING RISK Warfarin sodium can cause major or fatal bleeding  . Perform regular monitoring of INR in all treated patients  . Drugs, dietary changes, and 
+other factors affect INR levels achieved with warfarin sodium therapy  . Instruct patients about prevention measures to minimize risk of bleeding and to report signs and symptoms of bleeding  . 
+WARNING: BLEEDING RISK See full prescribing information for complete boxed warning. Warfarin sodium can cause major or fatal bleeding. ( 5.1 ) Perform regular monitoring of INR in all treated 
+patients. ( 2.1 ) Drugs, dietary changes, and other factors affect INR levels achieved with warfarin sodium therapy. WARFARIN: boxed_warning: ( 7 ) Instruct patients about prevention measures to 
+minimize risk of bleeding and to report signs and symptoms of bleeding. WARFARIN: boxed_warning: ( 17 )         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: dosage_and_administration: [0m[1;31m5[0m[31m to [0m[1;31m2[0m[31m mg † Ranges are derived from multiple published clinical studies. VKORC1−1639G > A [0m[1;31m([0m[31mrs9923231[0m[1;31m)[0m[31m variant is used in this table. Other co-inherited [0m
-[31mVKORC1 variants may also be important determinants of warfarin dose. [0m[1;31m2.4[0m[31m Monitoring to Achieve Optimal Anticoagulation Warfarin sodium tablets have a narrow therapeutic range [0m[1;31m([0m[31mindex[0m[1;31m)[0m[31m, and their action[0m
-[31mmay be affected by factors such as other drugs and dietary vitamin K. Therefore, anticoagulation must be carefully monitored during warfarin sodium tablets therapy. Determine the INR daily after the [0m
-[31madministration of the initial dose until INR results stabilize in the therapeutic range. After stabilization, maintain dosing within the therapeutic range by performing periodic INRs. The frequency of[0m
-[31mperforming INR should be based on the clinical situation but generally acceptable intervals for INR determinations are [0m[1;31m1[0m[31m to [0m[1;31m4[0m[31m weeks. WARFARIN: dosage_and_administration: Perform additional INR tests [0m
-[31mwhen other warfarin products are interchanged with warfarin sodium tablets, as well as whenever other medications are initiated, discontinued, or taken irregularly. Heparin, a common concomitant drug,[0m
-[31mincreases the INR [0m[31m . Determinations of whole blood clotting and bleeding times are not effective measures for monitoring of warfarin sodium tablets therapy. [0m[1;31m2.5[0m[31m Renal Impairment No dosage adjustment [0m
-[31mis necessary for patients with renal failure. Monitor INR more frequently in patients with compromised renal function to maintain INR within the therapeutic range [0m[31m. [0m[1;31m2.6[0m[31m Missed Dose The anticoagulant [0m
-[31meffect of warfarin sodium tablets persists beyond [0m[1;31m24[0m[31m hours. WARFARIN: dosage_and_administration: If a patient misses a dose of warfarin sodium tablets at the intended time of day, the patient should [0m
-[31mtake the dose as soon as possible on the same day. The patient should not double the dose the next day to make up for a missed dose. [0m[1;31m2.7[0m[31m Treatment During Dentistry and Surgery Some dental or surgical [0m
-[31mprocedures may necessitate the interruption or change in the dose of warfarin sodium tablets therapy. Consider the benefits and risks when discontinuing warfarin sodium tablets even for a short period[0m
-[31mof time. Determine the INR immediately prior to any dental or surgical procedure. In patients undergoing minimally invasive procedures who must be anticoagulated prior to, during, or immediately [0m
-[31mfollowing these procedures, adjusting the dosage of warfarin sodium tablets to maintain the INR at the low end of the therapeutic range may safely allow for continued anticoagulation. [0m[1;31m2[0m[31m. WARFARIN: [0m
-[31mdosage_and_administration: [0m[1;31m8[0m[31m Conversion From Other Anticoagulants Heparin Since the full anticoagulant effect of warfarin sodium tablets is not achieved for several days, heparin is preferred for [0m
-[31minitial rapid anticoagulation. During initial therapy with warfarin sodium tablets, the interference with heparin anticoagulation is of minimal clinical significance. Conversion to warfarin sodium [0m
-[31mtablets may begin concomitantly with heparin therapy or may be delayed [0m[1;31m3[0m[31m to [0m[1;31m6[0m[31m days. To ensure therapeutic anticoagulation, continue full dose heparin therapy and overlap warfarin sodium tablets [0m
-[31mtherapy with heparin for [0m[1;31m4[0m[31m to [0m[1;31m5[0m[31m days and until warfarin sodium tablets has produced the desired therapeutic response as determined by INR, at which point heparin may be discontinued. WARFARIN: [0m
-[31mdosage_and_administration: As heparin may affect the INR, patients receiving both heparin and warfarin sodium tablets should have INR monitoring at least: [0m[1;31m5[0m[31m hours after the last intravenous bolus dose[0m
-[31mof heparin, or [0m[1;31m4[0m[31m hours after cessation of a continuous intravenous infusion of heparin, or [0m[1;31m24[0m[31m hours after the last subcutaneous heparin injection. Warfarin sodium tablets may increase the activated [0m
-[31mpartial thromboplastin time [0m[1;31m([0m[31maPTT[0m[1;31m)[0m[31m test, even in the absence of heparin. A severe elevation [0m[1;31m([0m[31m> [0m[1;31m50[0m[31m seconds[0m[1;31m)[0m[31m in aPTT with an INR in the desired range has been identified as an indication of increased [0m
-[31mrisk of postoperative hemorrhage. Other Anticoagulants Consult the labeling of other anticoagulants for instructions on conversion to warfarin sodium tablets.         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: dosage_and_administration: 5 to 2 mg † Ranges are derived from multiple published clinical studies. VKORC1−1639G > A (rs9923231) variant is used in this table. Other co-inherited 
+VKORC1 variants may also be important determinants of warfarin dose. 2.4 Monitoring to Achieve Optimal Anticoagulation Warfarin sodium tablets have a narrow therapeutic range (index), and their action
+may be affected by factors such as other drugs and dietary vitamin K. Therefore, anticoagulation must be carefully monitored during warfarin sodium tablets therapy. Determine the INR daily after the 
+administration of the initial dose until INR results stabilize in the therapeutic range. After stabilization, maintain dosing within the therapeutic range by performing periodic INRs. The frequency of
+performing INR should be based on the clinical situation but generally acceptable intervals for INR determinations are 1 to 4 weeks. WARFARIN: dosage_and_administration: Perform additional INR tests 
+when other warfarin products are interchanged with warfarin sodium tablets, as well as whenever other medications are initiated, discontinued, or taken irregularly. Heparin, a common concomitant drug,
+increases the INR  . Determinations of whole blood clotting and bleeding times are not effective measures for monitoring of warfarin sodium tablets therapy. 2.5 Renal Impairment No dosage adjustment 
+is necessary for patients with renal failure. Monitor INR more frequently in patients with compromised renal function to maintain INR within the therapeutic range . 2.6 Missed Dose The anticoagulant 
+effect of warfarin sodium tablets persists beyond 24 hours. WARFARIN: dosage_and_administration: If a patient misses a dose of warfarin sodium tablets at the intended time of day, the patient should 
+take the dose as soon as possible on the same day. The patient should not double the dose the next day to make up for a missed dose. 2.7 Treatment During Dentistry and Surgery Some dental or surgical 
+procedures may necessitate the interruption or change in the dose of warfarin sodium tablets therapy. Consider the benefits and risks when discontinuing warfarin sodium tablets even for a short period
+of time. Determine the INR immediately prior to any dental or surgical procedure. In patients undergoing minimally invasive procedures who must be anticoagulated prior to, during, or immediately 
+following these procedures, adjusting the dosage of warfarin sodium tablets to maintain the INR at the low end of the therapeutic range may safely allow for continued anticoagulation. 2. WARFARIN: 
+dosage_and_administration: 8 Conversion From Other Anticoagulants Heparin Since the full anticoagulant effect of warfarin sodium tablets is not achieved for several days, heparin is preferred for 
+initial rapid anticoagulation. During initial therapy with warfarin sodium tablets, the interference with heparin anticoagulation is of minimal clinical significance. Conversion to warfarin sodium 
+tablets may begin concomitantly with heparin therapy or may be delayed 3 to 6 days. To ensure therapeutic anticoagulation, continue full dose heparin therapy and overlap warfarin sodium tablets 
+therapy with heparin for 4 to 5 days and until warfarin sodium tablets has produced the desired therapeutic response as determined by INR, at which point heparin may be discontinued. WARFARIN: 
+dosage_and_administration: As heparin may affect the INR, patients receiving both heparin and warfarin sodium tablets should have INR monitoring at least: 5 hours after the last intravenous bolus dose
+of heparin, or 4 hours after cessation of a continuous intravenous infusion of heparin, or 24 hours after the last subcutaneous heparin injection. Warfarin sodium tablets may increase the activated 
+partial thromboplastin time (aPTT) test, even in the absence of heparin. A severe elevation (> 50 seconds) in aPTT with an INR in the desired range has been identified as an indication of increased 
+risk of postoperative hemorrhage. Other Anticoagulants Consult the labeling of other anticoagulants for instructions on conversion to warfarin sodium tablets.         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: warnings_and_cautions: [0m[1;31m5[0m[31m WARNINGS AND PRECAUTIONS Tissue necrosis: Necrosis or gangrene of skin or other tissues can occur, with severe cases requiring debridement or amputation. [0m
-[31mDiscontinue warfarin sodium and consider alternative anticoagulants if necessary. [0m[1;31m([0m[31m [0m[1;31m5.2[0m[31m [0m[1;31m)[0m[31m Calciphylaxis: Fatal and serious cases have occurred. Discontinue warfarin sodium and consider alternative [0m
-[31manticoagulation therapy. [0m[1;31m([0m[31m [0m[1;31m5.3[0m[31m [0m[1;31m)[0m[31m Acute kidney injury may occur during episodes of excessive anticoagulation and hematuria. [0m[1;31m([0m[31m [0m[1;31m5.4[0m[31m [0m[1;31m)[0m[31m Systemic atheroemboli and cholesterol microemboli: Some cases have [0m
-[31mprogressed to necrosis or death. Discontinue warfarin sodium if such emboli occur. [0m[1;31m([0m[31m [0m[1;31m5.5[0m[31m [0m[1;31m)[0m[31m Heparin-induced thrombocytopenia [0m[1;31m([0m[31mHIT[0m[1;31m)[0m[31m: Initial therapy with warfarin sodium in HIT has resulted in cases of [0m
-[31mamputation and death. WARFARIN: warnings_and_cautions: Warfarin sodium may be considered after platelet count has normalized. [0m[1;31m([0m[31m [0m[1;31m5.6[0m[31m [0m[1;31m)[0m[31m Pregnant women with mechanical heart valves: Warfarin sodium may [0m
-[31mcause fetal harm; however, the benefits may outweigh the risks. [0m[1;31m([0m[31m [0m[1;31m5.7[0m[31m [0m[1;31m)[0m[31m [0m[1;31m5.1[0m[31m Hemorrhage Warfarin sodium can cause major or fatal bleeding. Bleeding is more likely to occur within the first month. Risk [0m
-[31mfactors for bleeding include high intensity of anticoagulation [0m[1;31m([0m[31mINR > [0m[1;31m4[0m[1;31m)[0m[31m, age greater than or equal to [0m[1;31m65[0m[31m, history of highly variable INRs, history of gastrointestinal bleeding, hypertension, [0m
-[31mcerebrovascular disease, anemia, malignancy, trauma, renal impairment, certain genetic factors [0m[31m , certain concomitant drugs [0m[31m , and long duration of warfarin therapy. Perform regular monitoring of INR [0m
-[31min all treated patients. WARFARIN: warnings_and_cautions: Those at high risk of bleeding may benefit from more frequent INR monitoring, careful dose adjustment to desired INR, and a shortest duration [0m
-[31mof therapy appropriate for the clinical condition. However, maintenance of INR in the therapeutic range does not eliminate the risk of bleeding. Drugs, dietary changes, and other factors affect INR [0m
-[31mlevels achieved with warfarin sodium therapy. Perform more frequent INR monitoring when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs [0m[31m . Instruct [0m
-[31mpatients about prevention measures to minimize risk of bleeding and to report signs and symptoms of bleeding [0m[31m . [0m[1;31m5.2[0m[31m Tissue Necrosis Warfarin sodium can cause necrosis and/or gangrene of skin and other[0m
-[31mtissues, which is an uncommon but serious risk [0m[1;31m([0m[1;31m<[0m[1;31m0.1[0m[31m%[0m[1;31m)[0m[31m. WARFARIN: warnings_and_cautions: Necrosis may be associated with local thrombosis and usually appears within a few days of the start of warfarin[0m
-[31msodium therapy. In severe cases of necrosis, treatment through debridement or amputation of the affected tissue, limb, breast, or penis has been reported. Careful clinical evaluation is required to [0m
-[31mdetermine whether necrosis is caused by an underlying disease. Although various treatments have been attempted, no treatment for necrosis has been considered uniformly effective. Discontinue warfarin [0m
-[31msodium therapy if necrosis occurs. Consider alternative drugs if continued anticoagulation therapy is necessary. [0m[1;31m5.3[0m[31m Calciphylaxis Warfarin sodium can cause fatal and serious calciphylaxis or calcium [0m
-[31muremic arteriolopathy, which has been reported in patients with and without end-stage renal disease. When calciphylaxis is diagnosed in these patients, discontinue warfarin sodium and treat [0m
-[31mcalciphylaxis as appropriate. Consider alternative anticoagulation therapy. [0m[1;31m5[0m[31m. WARFARIN: warnings_and_cautions: [0m[1;31m4[0m[31m Acute Kidney Injury In patients with altered glomerular integrity or with a history of[0m
-[31mkidney disease, acute kidney injury may occur with warfarin sodium, possibly in relation to episodes of excessive anticoagulation and hematuria [0m[31m . More frequent monitoring of anticoagulation is [0m
-[31madvised in patients with compromised renal function. [0m[1;31m5.5[0m[31m Systemic Atheroemboli and Cholesterol Microemboli Anticoagulation therapy with warfarin sodium may enhance the release of atheromatous plaque [0m
-[31memboli. Systemic atheroemboli and cholesterol microemboli can present with a variety of signs and symptoms depending on the site of embolization. The most commonly involved visceral organs are the [0m
-[31mkidneys followed by the pancreas, spleen, and liver. Some cases have progressed to necrosis or death. A distinct syndrome resulting from microemboli to the feet is known as “purple toes syndrome.     [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: warnings_and_cautions: 5 WARNINGS AND PRECAUTIONS Tissue necrosis: Necrosis or gangrene of skin or other tissues can occur, with severe cases requiring debridement or amputation. 
+Discontinue warfarin sodium and consider alternative anticoagulants if necessary. ( 5.2 ) Calciphylaxis: Fatal and serious cases have occurred. Discontinue warfarin sodium and consider alternative 
+anticoagulation therapy. ( 5.3 ) Acute kidney injury may occur during episodes of excessive anticoagulation and hematuria. ( 5.4 ) Systemic atheroemboli and cholesterol microemboli: Some cases have 
+progressed to necrosis or death. Discontinue warfarin sodium if such emboli occur. ( 5.5 ) Heparin-induced thrombocytopenia (HIT): Initial therapy with warfarin sodium in HIT has resulted in cases of 
+amputation and death. WARFARIN: warnings_and_cautions: Warfarin sodium may be considered after platelet count has normalized. ( 5.6 ) Pregnant women with mechanical heart valves: Warfarin sodium may 
+cause fetal harm; however, the benefits may outweigh the risks. ( 5.7 ) 5.1 Hemorrhage Warfarin sodium can cause major or fatal bleeding. Bleeding is more likely to occur within the first month. Risk 
+factors for bleeding include high intensity of anticoagulation (INR > 4), age greater than or equal to 65, history of highly variable INRs, history of gastrointestinal bleeding, hypertension, 
+cerebrovascular disease, anemia, malignancy, trauma, renal impairment, certain genetic factors  , certain concomitant drugs  , and long duration of warfarin therapy. Perform regular monitoring of INR 
+in all treated patients. WARFARIN: warnings_and_cautions: Those at high risk of bleeding may benefit from more frequent INR monitoring, careful dose adjustment to desired INR, and a shortest duration 
+of therapy appropriate for the clinical condition. However, maintenance of INR in the therapeutic range does not eliminate the risk of bleeding. Drugs, dietary changes, and other factors affect INR 
+levels achieved with warfarin sodium therapy. Perform more frequent INR monitoring when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs  . Instruct 
+patients about prevention measures to minimize risk of bleeding and to report signs and symptoms of bleeding  . 5.2 Tissue Necrosis Warfarin sodium can cause necrosis and/or gangrene of skin and other
+tissues, which is an uncommon but serious risk (<0.1%). WARFARIN: warnings_and_cautions: Necrosis may be associated with local thrombosis and usually appears within a few days of the start of warfarin
+sodium therapy. In severe cases of necrosis, treatment through debridement or amputation of the affected tissue, limb, breast, or penis has been reported. Careful clinical evaluation is required to 
+determine whether necrosis is caused by an underlying disease. Although various treatments have been attempted, no treatment for necrosis has been considered uniformly effective. Discontinue warfarin 
+sodium therapy if necrosis occurs. Consider alternative drugs if continued anticoagulation therapy is necessary. 5.3 Calciphylaxis Warfarin sodium can cause fatal and serious calciphylaxis or calcium 
+uremic arteriolopathy, which has been reported in patients with and without end-stage renal disease. When calciphylaxis is diagnosed in these patients, discontinue warfarin sodium and treat 
+calciphylaxis as appropriate. Consider alternative anticoagulation therapy. 5. WARFARIN: warnings_and_cautions: 4 Acute Kidney Injury In patients with altered glomerular integrity or with a history of
+kidney disease, acute kidney injury may occur with warfarin sodium, possibly in relation to episodes of excessive anticoagulation and hematuria  . More frequent monitoring of anticoagulation is 
+advised in patients with compromised renal function. 5.5 Systemic Atheroemboli and Cholesterol Microemboli Anticoagulation therapy with warfarin sodium may enhance the release of atheromatous plaque 
+emboli. Systemic atheroemboli and cholesterol microemboli can present with a variety of signs and symptoms depending on the site of embolization. The most commonly involved visceral organs are the 
+kidneys followed by the pancreas, spleen, and liver. Some cases have progressed to necrosis or death. A distinct syndrome resulting from microemboli to the feet is known as “purple toes syndrome.     
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: drug_interactions_table: <table [0m[31mwidth[0m[31m=[0m[31m"800px"[0m[31m [0m[31mcellspacing[0m[31m=[0m[31m"0"[0m[31m [0m[31mcellpadding[0m[31m=[0m[31m"5"[0m[31m><col/><col/><tbody><tr><td [0m[31mcolspan[0m[31m=[0m[31m"2"[0m[31m [0m[31mstyleCode[0m[31m=[0m[31m" Botrule"[0m[31m><paragraph><content [0m[31mstyleCode[0m[31m=[0m[31m"bold"[0m[31m>Table [0m
-[1;31m3[0m[31m: Drugs that Can Increase the Risk of Bleeding<[0m[31m/[0m[31mcontent[0m[31m><[0m[31m/[0m[31mparagraph[0m[31m><[0m[31m/[0m[31mtd[0m[31m><[0m[31m/[0m[31mtr[0m[31m><tr><td [0m[31mstyleCode[0m[31m=[0m[31m" Botrule Toprule Lrule Rrule"[0m[31m><paragraph><content [0m[31mstyleCode[0m[31m=[0m[31m"bold"[0m[31m>Drug [0m
-[31mClass<[0m[31m/[0m[31mcontent[0m[31m><[0m[31m/[0m[31mparagraph[0m[31m><[0m[31m/[0m[31mtd[0m[31m><td [0m[31mstyleCode[0m[31m=[0m[31m" Botrule Toprule Lrule Rrule"[0m[31m><paragraph><content [0m[31mstyleCode[0m[31m=[0m[31m"bold"[0m[31m>Specific Drugs<[0m[31m/[0m[31mcontent[0m[31m><[0m[31m/[0m[31mparagraph[0m[31m><[0m[31m/[0m[31mtd[0m[31m><[0m[31m/[0m[31mtr[0m[31m><tr><td [0m[31mstyleCode[0m[31m=[0m[31m" Botrule Toprule [0m
-[31mLrule Rrule"[0m[31m><paragraph>Anticoagulants <[0m[31m/[0m[31mparagraph[0m[31m><[0m[31m/[0m[31mtd[0m[31m><td [0m[31mstyleCode[0m[31m=[0m[31m" Botrule Toprule Lrule Rrule"[0m[31m><paragraph>argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin <[0m[31m/[0m[31mparagraph[0m[31m><[0m[31m/[0m[31m [0m
-[31mWARFARIN: drug_interactions_table: td><[0m[31m/[0m[31mtr[0m[31m><tr><td [0m[31mstyleCode[0m[31m=[0m[31m" Botrule Toprule Lrule Rrule"[0m[31m><paragraph>Antiplatelet Agents <[0m[31m/[0m[31mparagraph[0m[31m><[0m[31m/[0m[31mtd[0m[31m><td [0m[31mstyleCode[0m[31m=[0m[31m" Botrule Toprule Lrule [0m
-[31mRrule"[0m[31m><paragraph>aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine <[0m[31m/[0m[31mparagraph[0m[31m><[0m[31m/[0m[31mtd[0m[31m><[0m[31m/[0m[31mtr[0m[31m><tr><td [0m[31mstyleCode[0m[31m=[0m[31m" Botrule Toprule Lrule Rrule"[0m[31m><paragraph>Non-steroidal [0m
-[31mAnti-Inflammatory Agents <[0m[31m/[0m[31mparagraph[0m[31m><[0m[31m/[0m[31mtd[0m[31m><td [0m[31mstyleCode[0m[31m=[0m[31m" Botrule Toprule Lrule Rrule"[0m[31m><paragraph>celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, ketorolac, [0m
-[31mmefenamic acid, naproxen, oxaprozin, piroxicam, sulindac <[0m[31m/[0m[31mparagraph[0m[31m><[0m[31m/[0m[31mtd[0m[31m><[0m[31m/[0m[31mtr[0m[31m><tr><td [0m[31mstyleCode[0m[31m=[0m[31m" Botrule Top WARFARIN: drug_interactions_table: rule Lrule Rrule"[0m[31m><paragraph>Serotonin Reuptake [0m
-[31mInhibitors <[0m[31m/[0m[31mparagraph[0m[31m><[0m[31m/[0m[31mtd[0m[31m><td [0m[31mstyleCode[0m[31m=[0m[31m" Botrule Toprule Lrule Rrule"[0m[31m><paragraph>citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, paroxetine, sertraline, [0m
-[31mvenlafaxine, vilazodone <[0m[31m/[0m[31mparagraph[0m[31m><[0m[31m/[0m[31mtd[0m[31m><[0m[31m/[0m[31mtr[0m[31m><[0m[31m/[0m[31mtbody[0m[31m><[0m[31m/[0m[31mtable[0m[1;31m>[0m[31m         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: drug_interactions_table: <table width="800px" cellspacing="0" cellpadding="5"><col/><col/><tbody><tr><td colspan="2" styleCode=" Botrule"><paragraph><content styleCode="bold">Table 
+3: Drugs that Can Increase the Risk of Bleeding</content></paragraph></td></tr><tr><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph><content styleCode="bold">Drug 
+Class</content></paragraph></td><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph><content styleCode="bold">Specific Drugs</content></paragraph></td></tr><tr><td styleCode=" Botrule Toprule 
+Lrule Rrule"><paragraph>Anticoagulants </paragraph></td><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph>argatroban, dabigatran, bivalirudin, desirudin, heparin, lepirudin </paragraph></ 
+WARFARIN: drug_interactions_table: td></tr><tr><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph>Antiplatelet Agents </paragraph></td><td styleCode=" Botrule Toprule Lrule 
+Rrule"><paragraph>aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel, ticlopidine </paragraph></td></tr><tr><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph>Non-steroidal 
+Anti-Inflammatory Agents </paragraph></td><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph>celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen, indomethacin, ketoprofen, ketorolac, 
+mefenamic acid, naproxen, oxaprozin, piroxicam, sulindac </paragraph></td></tr><tr><td styleCode=" Botrule Top WARFARIN: drug_interactions_table: rule Lrule Rrule"><paragraph>Serotonin Reuptake 
+Inhibitors </paragraph></td><td styleCode=" Botrule Toprule Lrule Rrule"><paragraph>citalopram, desvenlafaxine, duloxetine, escitalopram, fluoxetine, fluvoxamine, milnacipran, paroxetine, sertraline, 
+venlafaxine, vilazodone </paragraph></td></tr></tbody></table>         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: ALENDRONATE: contraindications: [0m[1;31m4[0m[31m CONTRAINDICATIONS BINOSTO is contraindicated in patients with the following conditions: Abnormalities of the esophagus which delay esophageal emptying such [0m
-[31mas stricture or achalasia [0m[31m Inability to stand or sit upright for at least [0m[1;31m30[0m[31m minutes [0m[31m Do not administer BINOSTO to patients at increased risk of aspiration Hypocalcemia [0m[31m Hypersensitivity to any [0m
-[31mcomponent of this product. Hypersensitivity reactions including urticaria and angioedema have been reported [0m[31m . Abnormalities of the esophagus which delay emptying such as stricture or achalasia [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m
-[1;31m5[0m[31m. ALENDRONATE: contraindications: [0m[1;31m1[0m[31m [0m[1;31m)[0m[31m Inability to stand/sit upright for at least [0m[1;31m30[0m[31m minutes [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m[1;31m5.1[0m[31m [0m[1;31m)[0m[31m Increased risk of aspiration. [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Hypocalcemia [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m[1;31m5.2[0m[31m [0m[1;31m)[0m[31m Hypersensitivity to any component[0m
-[31mof this product [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m[1;31m6[0m[31m.         [0m
-[31mSOUR[0m[1;31mCE:A[0m[31mLENDRONATE label[0m
+CONTENT: ALENDRONATE: contraindications: 4 CONTRAINDICATIONS BINOSTO is contraindicated in patients with the following conditions: Abnormalities of the esophagus which delay esophageal emptying such 
+as stricture or achalasia  Inability to stand or sit upright for at least 30 minutes  Do not administer BINOSTO to patients at increased risk of aspiration Hypocalcemia  Hypersensitivity to any 
+component of this product. Hypersensitivity reactions including urticaria and angioedema have been reported  . Abnormalities of the esophagus which delay emptying such as stricture or achalasia ( 4 , 
+5. ALENDRONATE: contraindications: 1 ) Inability to stand/sit upright for at least 30 minutes ( 4 , 5.1 ) Increased risk of aspiration. ( 4 ) Hypocalcemia ( 4 , 5.2 ) Hypersensitivity to any component
+of this product ( 4 , 6.         
+SOURCE:ALENDRONATE label
 
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
-*[1m([0morchestrator-angioedema-WARFARIN[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-angioedema-WARFARIN[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
-[32m    [0m[32m"content"[0m[32m: [0m[32m"Does WARFARIN decrease the risk of angioedema?"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0morchestrator-angioedema-WARFARIN[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes WARFARIN decrease the risk of angioedema?[0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes WARFARIN decrease the risk of angioedema?[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"query"[0m[32m: [0m[32m"Does WARFARIN decrease the risk of angioedema?"[0m[32m,[0m
-[32m    [0m[32m"drug"[0m[32m: [0m[32m"WARFARIN"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31mCONTENT: WARFARIN: contraindications: [0m[1;31m4[0m[31m CONTRAINDICATIONS Warfarin sodium is contraindicated in: Pregnancy Warfarin sodium is contraindicated in women who are pregnant except in pregnant women with [0m
-[31mmechanical heart valves, who are at high risk of thromboembolism [0m[31m . Warfarin sodium can cause fetal harm when administered to a pregnant woman. Warfarin sodium exposure during pregnancy causes a [0m
-[31mrecognized pattern of major congenital malformations [0m[1;31m([0m[31mwarfarin embryopathy and fetotoxicity[0m[1;31m)[0m[31m, fatal fetal hemorrhage, and an increased risk of spontaneous abortion and fetal mortality. If warfarin [0m
-[31msodium is used during pregnancy or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to a fetus [0m[31m . WARFARIN: contraindications: Warfarin [0m
-[31msodium is contraindicated in patients with: Hemorrhagic tendencies or blood dyscrasias Recent or contemplated surgery of the central nervous system or eye, or traumatic surgery resulting in large open[0m
-[31msurfaces [0m[31m Bleeding tendencies associated with: − Active ulceration or overt bleeding of the gastrointestinal, genitourinary, or respiratory tract − Central nervous system hemorrhage − Cerebral [0m
-[31maneurysms, dissecting aorta − Pericarditis and pericardial effusions − Bacterial endocarditis Threatened abortion, eclampsia, and preeclampsia Unsupervised patients with conditions associated with [0m
-[31mpotential high level of non-compliance Spinal puncture and other diagnostic or therapeutic procedures with potential for uncontrollable bleeding Hypersensitivity to warfarin or to any other components[0m
-[31mof this product [0m[1;31m([0m[31me.g. WARFARIN: contraindications: anaphylaxis[0m[1;31m)[0m[31m [0m[31m Major regional or lumbar block anesthesia Malignant hypertension Pregnancy, except in women with mechanical heart valves [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m[1;31m5.7[0m[31m , [0m
-[1;31m8.1[0m[31m [0m[1;31m)[0m[31m Hemorrhagic tendencies or blood dyscrasias [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Recent or contemplated surgery of the central nervous system [0m[1;31m([0m[31mCNS[0m[1;31m)[0m[31m or eye, or traumatic surgery resulting in large open surfaces [0m[1;31m([0m[31m [0m[1;31m4[0m[31m , [0m[1;31m5[0m[31m. [0m
-[31mWARFARIN: contraindications: [0m[1;31m8[0m[31m [0m[1;31m)[0m[31m Bleeding tendencies associated with certain conditions [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Threatened abortion, eclampsia, and preeclampsia [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Unsupervised patients with potential high levels of[0m
-[31mnon-compliance [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Spinal puncture and other diagnostic or therapeutic procedures with potential for uncontrollable bleeding [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Hypersensitivity to warfarin or any component of the product [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m [0m
-[31mMajor regional or lumbar block anesthesia [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m Malignant hypertension [0m[1;31m([0m[31m [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m         [0m
-[31mSOURCE:WARFARIN label[0m
-
-
-[31mCONTENT: WARFARIN: clinical_studies: Major hemorrhages occurred in [0m[1;31m4.6[0m[31m% of patients in the higher intensity INR group compared to zero in the lower intensity INR group. [0m[1;31m14.3[0m[31m Myocardial Infarction [0m
-[31mWARIS [0m[1;31m([0m[31mThe Warfarin Re-Infarction Study[0m[1;31m)[0m[31m was a double-blind, randomized study of [0m[1;31m1214[0m[31m patients [0m[1;31m2[0m[31m to [0m[1;31m4[0m[31m weeks post-infarction treated with warfarin to a target INR of [0m[1;31m2.8[0m[31m to [0m[1;31m4.8[0m[31m. The primary endpoint [0m
-[31mwas a composite of total mortality and recurrent infarction. A secondary endpoint of cerebrovascular events was assessed. Mean follow-up of the patients was [0m[1;31m37[0m[31m months. The results for each endpoint [0m
-[31mseparately, including an analysis of vascular death, are provided in Table [0m[1;31m7[0m[31m . WARFARIN: clinical_studies: Table [0m[1;31m7[0m[31m: WARIS – Endpoint Analysis of Separate Events % Risk Warfarin Placebo Reduction Event[0m
-[1;31m([0m[31mN = [0m[1;31m607[0m[1;31m)[0m[31m [0m[1;31m([0m[31mN = [0m[1;31m607[0m[1;31m)[0m[31m RR [0m[1;31m([0m[1;31m95[0m[31m% CI[0m[1;31m)[0m[31m [0m[1;31m([0m[31m p -value[0m[1;31m)[0m[31m Total Patient Years of Follow-up [0m[1;31m2018[0m[31m [0m[1;31m1944[0m[31m Total Mortality [0m[1;31m94[0m[31m [0m[1;31m([0m[1;31m4.7[0m[31m/[0m[1;31m100[0m[31m py[0m[1;31m)[0m[31m [0m[1;31m123[0m[31m [0m[1;31m([0m[1;31m6.3[0m[31m/[0m[1;31m100[0m[31m py[0m[1;31m)[0m[31m [0m[1;31m0.76[0m[31m [0m[1;31m([0m[1;31m0.60[0m[31m, [0m[1;31m0.97[0m[1;31m)[0m[31m [0m[1;31m24[0m[31m [0m[1;31m([0m[31mp = [0m[1;31m0.030[0m[1;31m)[0m[31m Vascular Death [0m[1;31m82[0m[31m [0m[1;31m([0m[1;31m4.1[0m[31m/[0m[1;31m100[0m[31m py[0m[1;31m)[0m[31m [0m
-[1;31m105[0m[31m [0m[1;31m([0m[1;31m5.4[0m[31m/[0m[1;31m100[0m[31m py[0m[1;31m)[0m[31m [0m[1;31m0.78[0m[31m [0m[1;31m([0m[1;31m0.60[0m[31m, [0m[1;31m1.02[0m[1;31m)[0m[31m [0m[1;31m22[0m[31m [0m[1;31m([0m[31mp = [0m[1;31m0.068[0m[1;31m)[0m[31m Recurrent MI [0m[1;31m82[0m[31m [0m[1;31m([0m[1;31m4.1[0m[31m/[0m[1;31m100[0m[31m py[0m[1;31m)[0m[31m [0m[1;31m124[0m[31m [0m[1;31m([0m[1;31m6.4[0m[31m/[0m[1;31m100[0m[31m py[0m[1;31m)[0m[31m [0m[1;31m0.66[0m[31m [0m[1;31m([0m[1;31m0.51[0m[31m, [0m[1;31m0.85[0m[1;31m)[0m[31m [0m[1;31m34[0m[31m [0m[1;31m([0m[31mp = [0m[1;31m0[0m[31m. WARFARIN: clinical_studies: [0m[1;31m001[0m[1;31m)[0m[31m Cerebrovascular Event [0m[1;31m20[0m[31m [0m[1;31m([0m[1;31m1[0m[31m/[0m[1;31m100[0m[31m py[0m[1;31m)[0m[31m [0m[1;31m44[0m[31m [0m
-[1;31m([0m[1;31m2.3[0m[31m/[0m[1;31m100[0m[31m py[0m[1;31m)[0m[31m [0m[1;31m0.46[0m[31m [0m[1;31m([0m[1;31m0.28[0m[31m, [0m[1;31m0.75[0m[1;31m)[0m[31m [0m[1;31m54[0m[31m [0m[1;31m([0m[31mp = [0m[1;31m0.002[0m[1;31m)[0m[31m RR = Relative risk; Risk reduction = [0m[1;31m([0m[1;31m1[0m[31m - RR[0m[1;31m)[0m[31m; CI = Confidence interval; MI = Myocardial infarction; py = patient years WARIS II [0m[1;31m([0m[31mThe Warfarin, Aspirin, [0m
-[31mRe-Infarction Study[0m[1;31m)[0m[31m was an open-label, randomized study of [0m[1;31m3630[0m[31m patients hospitalized for acute myocardial infarction treated with warfarin to a target INR [0m[1;31m2.8[0m[31m to [0m[1;31m4.2[0m[31m, aspirin [0m[1;31m160[0m[31m mg per day, or [0m
-[31mwarfarin to a target INR [0m[1;31m2[0m[31m to [0m[1;31m2.5[0m[31m plus aspirin [0m[1;31m75[0m[31m mg per day prior to hospital discharge. The primary endpoint was a composite of death, nonfatal reinfarction, or thromboembolic stroke. WARFARIN: [0m
-[31mclinical_studies: The mean duration of observation was approximately [0m[1;31m4[0m[31m years. The results for WARIS II are provided in Table [0m[1;31m8[0m[31m . Table [0m[1;31m8[0m[31m: WARIS II – Distribution of Events According to Treatment Group[0m
-[31mEvent Aspirin [0m[1;31m([0m[31mN = [0m[1;31m1206[0m[1;31m)[0m[31m Warfarin [0m[1;31m([0m[31mN = [0m[1;31m1216[0m[1;31m)[0m[31m Aspirin plus Warfarin [0m[1;31m([0m[31mN = [0m[1;31m1208[0m[1;31m)[0m[31m Rate Ratio [0m[1;31m([0m[1;31m95[0m[31m% CI[0m[1;31m)[0m[31m p -value No. of Events Major Bleeding a [0m[1;31m8[0m[31m [0m[1;31m33[0m[31m [0m[1;31m28[0m[31m [0m[1;31m3.35[0m[31m b [0m[1;31m([0m[31mND[0m[1;31m)[0m[31m ND [0m[1;31m4.00[0m[31m c [0m[1;31m([0m[31mND[0m[1;31m)[0m[31m ND Minor Bleeding d [0m[1;31m39[0m[31m [0m[1;31m103[0m[31m [0m
-[1;31m133[0m[31m [0m[1;31m3.21[0m[31m b [0m[1;31m([0m[31mND[0m[1;31m)[0m[31m ND [0m[1;31m2.55[0m[31m c [0m[1;31m([0m[31mND[0m[1;31m)[0m[31m ND Composite Endpoints e [0m[1;31m241[0m[31m [0m[1;31m203[0m[31m [0m[1;31m181[0m[31m [0m[1;31m0.81[0m[31m [0m[1;31m([0m[1;31m0.69[0m[31m to [0m[1;31m0.95[0m[1;31m)[0m[31m b [0m[1;31m0.03[0m[31m [0m[1;31m0.71[0m[31m [0m[1;31m([0m[1;31m0.60[0m[31m to [0m[1;31m0.83[0m[1;31m)[0m[31m c [0m[1;31m0[0m[31m. WARFARIN: clinical_studies: [0m[1;31m001[0m[31m Reinfarction [0m[1;31m117[0m[31m [0m[1;31m90[0m[31m [0m[1;31m69[0m[31m [0m[1;31m0.56[0m[31m [0m[1;31m([0m[1;31m0.41[0m[31m to [0m[1;31m0.78[0m[1;31m)[0m[31m b [0m[1;31m<[0m[31m [0m
-[1;31m0.001[0m[31m [0m[1;31m0.74[0m[31m [0m[1;31m([0m[1;31m0.55[0m[31m to [0m[1;31m0.98[0m[1;31m)[0m[31m c [0m[1;31m0.03[0m[31m Thromboembolic Stroke [0m[1;31m32[0m[31m [0m[1;31m17[0m[31m [0m[1;31m17[0m[31m [0m[1;31m0.52[0m[31m [0m[1;31m([0m[1;31m0.28[0m[31m to [0m[1;31m0.98[0m[1;31m)[0m[31m b [0m[1;31m0.03[0m[31m [0m[1;31m0.52[0m[31m [0m[1;31m([0m[1;31m0.28[0m[31m to [0m[1;31m0.97[0m[1;31m)[0m[31m c [0m[1;31m0.03[0m[31m Death [0m[1;31m92[0m[31m [0m[1;31m96[0m[31m [0m[1;31m95[0m[31m [0m[1;31m0.82[0m[31m a Major bleeding episodes were defined as nonfatal cerebral [0m
-[31mhemorrhage or bleeding necessitating surgical intervention or blood transfusion. b The rate ratio is for aspirin plus warfarin as compared with aspirin. c The rate ratio is for warfarin as compared [0m
-[31mwith aspirin. d Minor bleeding episodes were defined as non-cerebral hemorrhage not necessitating surgical intervention or blood transfusion.         [0m
-[31mSOURCE:WARFARIN label[0m
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-angioedema-WARFARIN)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-angioedema-WARFARIN)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-angioedema-WARFARIN)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-angioedema-WARFARIN)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-WARFARIN)  Entity.AGENT 
+*(orchestrator-angioedema-WARFARIN)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does WARFARIN decrease the risk of angioedema?"
+  }
+}
+*(orchestrator-angioedema-WARFARIN)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does WARFARIN decrease the risk of angioedema?
+ (orchestrator-angioedema-WARFARIN)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-WARFARIN)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-WARFARIN)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does WARFARIN decrease the risk of angioedema?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does WARFARIN decrease the risk of angioedema?",
+    "drug": "WARFARIN"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: WARFARIN: contraindications: 4 CONTRAINDICATIONS Warfarin sodium is contraindicated in: Pregnancy Warfarin sodium is contraindicated in women who are pregnant except in pregnant women with 
+mechanical heart valves, who are at high risk of thromboembolism  . Warfarin sodium can cause fetal harm when administered to a pregnant woman. Warfarin sodium exposure during pregnancy causes a 
+recognized pattern of major congenital malformations (warfarin embryopathy and fetotoxicity), fatal fetal hemorrhage, and an increased risk of spontaneous abortion and fetal mortality. If warfarin 
+sodium is used during pregnancy or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to a fetus  . WARFARIN: contraindications: Warfarin 
+sodium is contraindicated in patients with: Hemorrhagic tendencies or blood dyscrasias Recent or contemplated surgery of the central nervous system or eye, or traumatic surgery resulting in large open
+surfaces  Bleeding tendencies associated with: − Active ulceration or overt bleeding of the gastrointestinal, genitourinary, or respiratory tract − Central nervous system hemorrhage − Cerebral 
+aneurysms, dissecting aorta − Pericarditis and pericardial effusions − Bacterial endocarditis Threatened abortion, eclampsia, and preeclampsia Unsupervised patients with conditions associated with 
+potential high level of non-compliance Spinal puncture and other diagnostic or therapeutic procedures with potential for uncontrollable bleeding Hypersensitivity to warfarin or to any other components
+of this product (e.g. WARFARIN: contraindications: anaphylaxis)  Major regional or lumbar block anesthesia Malignant hypertension Pregnancy, except in women with mechanical heart valves ( 4 , 5.7 , 
+8.1 ) Hemorrhagic tendencies or blood dyscrasias ( 4 ) Recent or contemplated surgery of the central nervous system (CNS) or eye, or traumatic surgery resulting in large open surfaces ( 4 , 5. 
+WARFARIN: contraindications: 8 ) Bleeding tendencies associated with certain conditions ( 4 ) Threatened abortion, eclampsia, and preeclampsia ( 4 ) Unsupervised patients with potential high levels of
+non-compliance ( 4 ) Spinal puncture and other diagnostic or therapeutic procedures with potential for uncontrollable bleeding ( 4 ) Hypersensitivity to warfarin or any component of the product ( 4 ) 
+Major regional or lumbar block anesthesia ( 4 ) Malignant hypertension ( 4 )         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: warnings_and_cautions: [0m[1;31m5[0m[31m WARNINGS AND PRECAUTIONS Tissue necrosis: Necrosis or gangrene of skin or other tissues can occur, with severe cases requiring debridement or amputation. [0m
-[31mDiscontinue warfarin sodium and consider alternative anticoagulants if necessary. [0m[1;31m([0m[31m [0m[1;31m5.2[0m[31m [0m[1;31m)[0m[31m Calciphylaxis: Fatal and serious cases have occurred. Discontinue warfarin sodium and consider alternative [0m
-[31manticoagulation therapy. [0m[1;31m([0m[31m [0m[1;31m5.3[0m[31m [0m[1;31m)[0m[31m Acute kidney injury may occur during episodes of excessive anticoagulation and hematuria. [0m[1;31m([0m[31m [0m[1;31m5.4[0m[31m [0m[1;31m)[0m[31m Systemic atheroemboli and cholesterol microemboli: Some cases have [0m
-[31mprogressed to necrosis or death. Discontinue warfarin sodium if such emboli occur. [0m[1;31m([0m[31m [0m[1;31m5.5[0m[31m [0m[1;31m)[0m[31m Heparin-induced thrombocytopenia [0m[1;31m([0m[31mHIT[0m[1;31m)[0m[31m: Initial therapy with warfarin sodium in HIT has resulted in cases of [0m
-[31mamputation and death. WARFARIN: warnings_and_cautions: Warfarin sodium may be considered after platelet count has normalized. [0m[1;31m([0m[31m [0m[1;31m5.6[0m[31m [0m[1;31m)[0m[31m Pregnant women with mechanical heart valves: Warfarin sodium may [0m
-[31mcause fetal harm; however, the benefits may outweigh the risks. [0m[1;31m([0m[31m [0m[1;31m5.7[0m[31m [0m[1;31m)[0m[31m [0m[1;31m5.1[0m[31m Hemorrhage Warfarin sodium can cause major or fatal bleeding. Bleeding is more likely to occur within the first month. Risk [0m
-[31mfactors for bleeding include high intensity of anticoagulation [0m[1;31m([0m[31mINR > [0m[1;31m4[0m[1;31m)[0m[31m, age greater than or equal to [0m[1;31m65[0m[31m, history of highly variable INRs, history of gastrointestinal bleeding, hypertension, [0m
-[31mcerebrovascular disease, anemia, malignancy, trauma, renal impairment, certain genetic factors [0m[31m , certain concomitant drugs [0m[31m , and long duration of warfarin therapy. Perform regular monitoring of INR [0m
-[31min all treated patients. WARFARIN: warnings_and_cautions: Those at high risk of bleeding may benefit from more frequent INR monitoring, careful dose adjustment to desired INR, and a shortest duration [0m
-[31mof therapy appropriate for the clinical condition. However, maintenance of INR in the therapeutic range does not eliminate the risk of bleeding. Drugs, dietary changes, and other factors affect INR [0m
-[31mlevels achieved with warfarin sodium therapy. Perform more frequent INR monitoring when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs [0m[31m . Instruct [0m
-[31mpatients about prevention measures to minimize risk of bleeding and to report signs and symptoms of bleeding [0m[31m . [0m[1;31m5.2[0m[31m Tissue Necrosis Warfarin sodium can cause necrosis and/or gangrene of skin and other[0m
-[31mtissues, which is an uncommon but serious risk [0m[1;31m([0m[31m<[0m[1;31m0.1[0m[31m%[0m[1;31m)[0m[31m. WARFARIN: warnings_and_cautions: Necrosis may be associated with local thrombosis and usually appears within a few days of the start of warfarin[0m
-[31msodium therapy. In severe cases of necrosis, treatment through debridement or amputation of the affected tissue, limb, breast, or penis has been reported. Careful clinical evaluation is required to [0m
-[31mdetermine whether necrosis is caused by an underlying disease. Although various treatments have been attempted, no treatment for necrosis has been considered uniformly effective. Discontinue warfarin [0m
-[31msodium therapy if necrosis occurs. Consider alternative drugs if continued anticoagulation therapy is necessary. [0m[1;31m5.3[0m[31m Calciphylaxis Warfarin sodium can cause fatal and serious calciphylaxis or calcium [0m
-[31muremic arteriolopathy, which has been reported in patients with and without end-stage renal disease. When calciphylaxis is diagnosed in these patients, discontinue warfarin sodium and treat [0m
-[31mcalciphylaxis as appropriate. Consider alternative anticoagulation therapy. [0m[1;31m5[0m[31m. WARFARIN: warnings_and_cautions: [0m[1;31m4[0m[31m Acute Kidney Injury In patients with altered glomerular integrity or with a history of[0m
-[31mkidney disease, acute kidney injury may occur with warfarin sodium, possibly in relation to episodes of excessive anticoagulation and hematuria [0m[31m . More frequent monitoring of anticoagulation is [0m
-[31madvised in patients with compromised renal function. [0m[1;31m5.5[0m[31m Systemic Atheroemboli and Cholesterol Microemboli Anticoagulation therapy with warfarin sodium may enhance the release of atheromatous plaque [0m
-[31memboli. Systemic atheroemboli and cholesterol microemboli can present with a variety of signs and symptoms depending on the site of embolization. The most commonly involved visceral organs are the [0m
-[31mkidneys followed by the pancreas, spleen, and liver. Some cases have progressed to necrosis or death. A distinct syndrome resulting from microemboli to the feet is known as “purple toes syndrome.     [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: clinical_studies: Major hemorrhages occurred in 4.6% of patients in the higher intensity INR group compared to zero in the lower intensity INR group. 14.3 Myocardial Infarction 
+WARIS (The Warfarin Re-Infarction Study) was a double-blind, randomized study of 1214 patients 2 to 4 weeks post-infarction treated with warfarin to a target INR of 2.8 to 4.8. The primary endpoint 
+was a composite of total mortality and recurrent infarction. A secondary endpoint of cerebrovascular events was assessed. Mean follow-up of the patients was 37 months. The results for each endpoint 
+separately, including an analysis of vascular death, are provided in Table 7 . WARFARIN: clinical_studies: Table 7: WARIS – Endpoint Analysis of Separate Events % Risk Warfarin Placebo Reduction Event
+(N = 607) (N = 607) RR (95% CI) ( p -value) Total Patient Years of Follow-up 2018 1944 Total Mortality 94 (4.7/100 py) 123 (6.3/100 py) 0.76 (0.60, 0.97) 24 (p = 0.030) Vascular Death 82 (4.1/100 py) 
+105 (5.4/100 py) 0.78 (0.60, 1.02) 22 (p = 0.068) Recurrent MI 82 (4.1/100 py) 124 (6.4/100 py) 0.66 (0.51, 0.85) 34 (p = 0. WARFARIN: clinical_studies: 001) Cerebrovascular Event 20 (1/100 py) 44 
+(2.3/100 py) 0.46 (0.28, 0.75) 54 (p = 0.002) RR = Relative risk; Risk reduction = (1 - RR); CI = Confidence interval; MI = Myocardial infarction; py = patient years WARIS II (The Warfarin, Aspirin, 
+Re-Infarction Study) was an open-label, randomized study of 3630 patients hospitalized for acute myocardial infarction treated with warfarin to a target INR 2.8 to 4.2, aspirin 160 mg per day, or 
+warfarin to a target INR 2 to 2.5 plus aspirin 75 mg per day prior to hospital discharge. The primary endpoint was a composite of death, nonfatal reinfarction, or thromboembolic stroke. WARFARIN: 
+clinical_studies: The mean duration of observation was approximately 4 years. The results for WARIS II are provided in Table 8 . Table 8: WARIS II – Distribution of Events According to Treatment Group
+Event Aspirin (N = 1206) Warfarin (N = 1216) Aspirin plus Warfarin (N = 1208) Rate Ratio (95% CI) p -value No. of Events Major Bleeding a 8 33 28 3.35 b (ND) ND 4.00 c (ND) ND Minor Bleeding d 39 103 
+133 3.21 b (ND) ND 2.55 c (ND) ND Composite Endpoints e 241 203 181 0.81 (0.69 to 0.95) b 0.03 0.71 (0.60 to 0.83) c 0. WARFARIN: clinical_studies: 001 Reinfarction 117 90 69 0.56 (0.41 to 0.78) b < 
+0.001 0.74 (0.55 to 0.98) c 0.03 Thromboembolic Stroke 32 17 17 0.52 (0.28 to 0.98) b 0.03 0.52 (0.28 to 0.97) c 0.03 Death 92 96 95 0.82 a Major bleeding episodes were defined as nonfatal cerebral 
+hemorrhage or bleeding necessitating surgical intervention or blood transfusion. b The rate ratio is for aspirin plus warfarin as compared with aspirin. c The rate ratio is for warfarin as compared 
+with aspirin. d Minor bleeding episodes were defined as non-cerebral hemorrhage not necessitating surgical intervention or blood transfusion.         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: pregnancy: [0m[1;31m8.1[0m[31m Pregnancy Risk Summary Warfarin sodium is contraindicated in women who are pregnant except in pregnant women with mechanical heart valves, who are at high risk of [0m
-[31mthromboembolism, and for whom the benefits of warfarin sodium may outweigh the risks [0m[31m . Warfarin sodium can cause fetal harm. Exposure to warfarin during the first trimester of pregnancy caused a [0m
-[31mpattern of congenital malformations in about [0m[1;31m5[0m[31m% of exposed offspring. Because these data were not collected in adequate and well-controlled studies, this incidence of major birth defects is not an [0m
-[31madequate basis for comparison to the estimated incidences in the control group or the U.S. general population and may not reflect the incidences observed in practice. Consider the benefits and risks [0m
-[31mof warfarin sodium and possible risks to the fetus when prescribing warfarin sodium to a pregnant woman. WARFARIN: pregnancy: Adverse outcomes in pregnancy occur regardless of the health of the mother[0m
-[31mor the use of medications. The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk [0m
-[31mof major birth defects and miscarriage in clinically recognized pregnancies is [0m[1;31m2[0m[31m% to [0m[1;31m4[0m[31m% and [0m[1;31m15[0m[31m% to [0m[1;31m20[0m[31m%, respectively. Clinical Considerations Fetal/Neonatal Adverse Reactions In humans, warfarin [0m
-[31mcrosses the placenta, and concentrations in fetal plasma approach the maternal values. Exposure to warfarin during the first trimester of pregnancy caused a pattern of congenital malformations in [0m
-[31mabout [0m[1;31m5[0m[31m% of exposed offspring. Warfarin embryopathy is characterized by nasal hypoplasia with or without stippled epiphyses [0m[1;31m([0m[31mchondrodysplasia punctata[0m[1;31m)[0m[31m and growth retardation [0m[1;31m([0m[31mincluding low birth [0m
-[31mweight[0m[1;31m)[0m[31m. WARFARIN: pregnancy: Central nervous system and eye abnormalities have also been reported, including dorsal midline dysplasia characterized by agenesis of the corpus callosum, Dandy-Walker [0m
-[31mmalformation, midline cerebellar atrophy, and ventral midline dysplasia characterized by optic atrophy. Mental retardation, blindness, schizencephaly, microcephaly, hydrocephalus, and other adverse [0m
-[31mpregnancy outcomes have been reported following warfarin exposure during the second and third trimesters of pregnancy [0m[31m .         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: warnings_and_cautions: 5 WARNINGS AND PRECAUTIONS Tissue necrosis: Necrosis or gangrene of skin or other tissues can occur, with severe cases requiring debridement or amputation. 
+Discontinue warfarin sodium and consider alternative anticoagulants if necessary. ( 5.2 ) Calciphylaxis: Fatal and serious cases have occurred. Discontinue warfarin sodium and consider alternative 
+anticoagulation therapy. ( 5.3 ) Acute kidney injury may occur during episodes of excessive anticoagulation and hematuria. ( 5.4 ) Systemic atheroemboli and cholesterol microemboli: Some cases have 
+progressed to necrosis or death. Discontinue warfarin sodium if such emboli occur. ( 5.5 ) Heparin-induced thrombocytopenia (HIT): Initial therapy with warfarin sodium in HIT has resulted in cases of 
+amputation and death. WARFARIN: warnings_and_cautions: Warfarin sodium may be considered after platelet count has normalized. ( 5.6 ) Pregnant women with mechanical heart valves: Warfarin sodium may 
+cause fetal harm; however, the benefits may outweigh the risks. ( 5.7 ) 5.1 Hemorrhage Warfarin sodium can cause major or fatal bleeding. Bleeding is more likely to occur within the first month. Risk 
+factors for bleeding include high intensity of anticoagulation (INR > 4), age greater than or equal to 65, history of highly variable INRs, history of gastrointestinal bleeding, hypertension, 
+cerebrovascular disease, anemia, malignancy, trauma, renal impairment, certain genetic factors  , certain concomitant drugs  , and long duration of warfarin therapy. Perform regular monitoring of INR 
+in all treated patients. WARFARIN: warnings_and_cautions: Those at high risk of bleeding may benefit from more frequent INR monitoring, careful dose adjustment to desired INR, and a shortest duration 
+of therapy appropriate for the clinical condition. However, maintenance of INR in the therapeutic range does not eliminate the risk of bleeding. Drugs, dietary changes, and other factors affect INR 
+levels achieved with warfarin sodium therapy. Perform more frequent INR monitoring when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs  . Instruct 
+patients about prevention measures to minimize risk of bleeding and to report signs and symptoms of bleeding  . 5.2 Tissue Necrosis Warfarin sodium can cause necrosis and/or gangrene of skin and other
+tissues, which is an uncommon but serious risk (<0.1%). WARFARIN: warnings_and_cautions: Necrosis may be associated with local thrombosis and usually appears within a few days of the start of warfarin
+sodium therapy. In severe cases of necrosis, treatment through debridement or amputation of the affected tissue, limb, breast, or penis has been reported. Careful clinical evaluation is required to 
+determine whether necrosis is caused by an underlying disease. Although various treatments have been attempted, no treatment for necrosis has been considered uniformly effective. Discontinue warfarin 
+sodium therapy if necrosis occurs. Consider alternative drugs if continued anticoagulation therapy is necessary. 5.3 Calciphylaxis Warfarin sodium can cause fatal and serious calciphylaxis or calcium 
+uremic arteriolopathy, which has been reported in patients with and without end-stage renal disease. When calciphylaxis is diagnosed in these patients, discontinue warfarin sodium and treat 
+calciphylaxis as appropriate. Consider alternative anticoagulation therapy. 5. WARFARIN: warnings_and_cautions: 4 Acute Kidney Injury In patients with altered glomerular integrity or with a history of
+kidney disease, acute kidney injury may occur with warfarin sodium, possibly in relation to episodes of excessive anticoagulation and hematuria  . More frequent monitoring of anticoagulation is 
+advised in patients with compromised renal function. 5.5 Systemic Atheroemboli and Cholesterol Microemboli Anticoagulation therapy with warfarin sodium may enhance the release of atheromatous plaque 
+emboli. Systemic atheroemboli and cholesterol microemboli can present with a variety of signs and symptoms depending on the site of embolization. The most commonly involved visceral organs are the 
+kidneys followed by the pancreas, spleen, and liver. Some cases have progressed to necrosis or death. A distinct syndrome resulting from microemboli to the feet is known as “purple toes syndrome.     
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: dosage_and_administration: [0m[1;31m5[0m[31m to [0m[1;31m2[0m[31m mg † Ranges are derived from multiple published clinical studies. VKORC1−1639G > A [0m[1;31m([0m[31mrs9923231[0m[1;31m)[0m[31m variant is used in this table. Other co-inherited [0m
-[31mVKORC1 variants may also be important determinants of warfarin dose. [0m[1;31m2.4[0m[31m Monitoring to Achieve Optimal Anticoagulation Warfarin sodium tablets have a narrow therapeutic range [0m[1;31m([0m[31mindex[0m[1;31m)[0m[31m, and their action[0m
-[31mmay be affected by factors such as other drugs and dietary vitamin K. Therefore, anticoagulation must be carefully monitored during warfarin sodium tablets therapy. Determine the INR daily after the [0m
-[31madministration of the initial dose until INR results stabilize in the therapeutic range. After stabilization, maintain dosing within the therapeutic range by performing periodic INRs. The frequency of[0m
-[31mperforming INR should be based on the clinical situation but generally acceptable intervals for INR determinations are [0m[1;31m1[0m[31m to [0m[1;31m4[0m[31m weeks. WARFARIN: dosage_and_administration: Perform additional INR tests [0m
-[31mwhen other warfarin products are interchanged with warfarin sodium tablets, as well as whenever other medications are initiated, discontinued, or taken irregularly. Heparin, a common concomitant drug,[0m
-[31mincreases the INR [0m[31m . Determinations of whole blood clotting and bleeding times are not effective measures for monitoring of warfarin sodium tablets therapy. [0m[1;31m2.5[0m[31m Renal Impairment No dosage adjustment [0m
-[31mis necessary for patients with renal failure. Monitor INR more frequently in patients with compromised renal function to maintain INR within the therapeutic range [0m[31m. [0m[1;31m2.6[0m[31m Missed Dose The anticoagulant [0m
-[31meffect of warfarin sodium tablets persists beyond [0m[1;31m24[0m[31m hours. WARFARIN: dosage_and_administration: If a patient misses a dose of warfarin sodium tablets at the intended time of day, the patient should [0m
-[31mtake the dose as soon as possible on the same day. The patient should not double the dose the next day to make up for a missed dose. [0m[1;31m2.7[0m[31m Treatment During Dentistry and Surgery Some dental or surgical [0m
-[31mprocedures may necessitate the interruption or change in the dose of warfarin sodium tablets therapy. Consider the benefits and risks when discontinuing warfarin sodium tablets even for a short period[0m
-[31mof time. Determine the INR immediately prior to any dental or surgical procedure. In patients undergoing minimally invasive procedures who must be anticoagulated prior to, during, or immediately [0m
-[31mfollowing these procedures, adjusting the dosage of warfarin sodium tablets to maintain the INR at the low end of the therapeutic range may safely allow for continued anticoagulation. [0m[1;31m2[0m[31m. WARFARIN: [0m
-[31mdosage_and_administration: [0m[1;31m8[0m[31m Conversion From Other Anticoagulants Heparin Since the full anticoagulant effect of warfarin sodium tablets is not achieved for several days, heparin is preferred for [0m
-[31minitial rapid anticoagulation. During initial therapy with warfarin sodium tablets, the interference with heparin anticoagulation is of minimal clinical significance. Conversion to warfarin sodium [0m
-[31mtablets may begin concomitantly with heparin therapy or may be delayed [0m[1;31m3[0m[31m to [0m[1;31m6[0m[31m days. To ensure therapeutic anticoagulation, continue full dose heparin therapy and overlap warfarin sodium tablets [0m
-[31mtherapy with heparin for [0m[1;31m4[0m[31m to [0m[1;31m5[0m[31m days and until warfarin sodium tablets has produced the desired therapeutic response as determined by INR, at which point heparin may be discontinued. WARFARIN: [0m
-[31mdosage_and_administration: As heparin may affect the INR, patients receiving both heparin and warfarin sodium tablets should have INR monitoring at least: [0m[1;31m5[0m[31m hours after the last intravenous bolus dose[0m
-[31mof heparin, or [0m[1;31m4[0m[31m hours after cessation of a continuous intravenous infusion of heparin, or [0m[1;31m24[0m[31m hours after the last subcutaneous heparin injection. Warfarin sodium tablets may increase the activated [0m
-[31mpartial thromboplastin time [0m[1;31m([0m[31maPTT[0m[1;31m)[0m[31m test, even in the absence of heparin. A severe elevation [0m[1;31m([0m[1;31m>[0m[31m [0m[1;31m50[0m[31m seconds[0m[1;31m)[0m[31m in aPTT with an INR in the desired range has been identified as an indication of increased [0m
-[31mrisk of postoperative hemorrhage. Other Anticoagulants Consult the labeling of other anticoagulants for instructions on conversion to warfarin sodium tablets.         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: pregnancy: 8.1 Pregnancy Risk Summary Warfarin sodium is contraindicated in women who are pregnant except in pregnant women with mechanical heart valves, who are at high risk of 
+thromboembolism, and for whom the benefits of warfarin sodium may outweigh the risks  . Warfarin sodium can cause fetal harm. Exposure to warfarin during the first trimester of pregnancy caused a 
+pattern of congenital malformations in about 5% of exposed offspring. Because these data were not collected in adequate and well-controlled studies, this incidence of major birth defects is not an 
+adequate basis for comparison to the estimated incidences in the control group or the U.S. general population and may not reflect the incidences observed in practice. Consider the benefits and risks 
+of warfarin sodium and possible risks to the fetus when prescribing warfarin sodium to a pregnant woman. WARFARIN: pregnancy: Adverse outcomes in pregnancy occur regardless of the health of the mother
+or the use of medications. The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk 
+of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively. Clinical Considerations Fetal/Neonatal Adverse Reactions In humans, warfarin 
+crosses the placenta, and concentrations in fetal plasma approach the maternal values. Exposure to warfarin during the first trimester of pregnancy caused a pattern of congenital malformations in 
+about 5% of exposed offspring. Warfarin embryopathy is characterized by nasal hypoplasia with or without stippled epiphyses (chondrodysplasia punctata) and growth retardation (including low birth 
+weight). WARFARIN: pregnancy: Central nervous system and eye abnormalities have also been reported, including dorsal midline dysplasia characterized by agenesis of the corpus callosum, Dandy-Walker 
+malformation, midline cerebellar atrophy, and ventral midline dysplasia characterized by optic atrophy. Mental retardation, blindness, schizencephaly, microcephaly, hydrocephalus, and other adverse 
+pregnancy outcomes have been reported following warfarin exposure during the second and third trimesters of pregnancy  .         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: boxed_warning: WARNING: BLEEDING RISK Warfarin sodium can cause major or fatal bleeding [0m[31m . Perform regular monitoring of INR in all treated patients [0m[31m . Drugs, dietary changes, and [0m
-[31mother factors affect INR levels achieved with warfarin sodium therapy [0m[31m . Instruct patients about prevention measures to minimize risk of bleeding and to report signs and symptoms of bleeding [0m[31m . [0m
-[31mWARNING: BLEEDING RISK See full prescribing information for complete boxed warning. Warfarin sodium can cause major or fatal bleeding. [0m[1;31m([0m[31m [0m[1;31m5.1[0m[31m [0m[1;31m)[0m[31m Perform regular monitoring of INR in all treated [0m
-[31mpatients. [0m[1;31m([0m[31m [0m[1;31m2.1[0m[31m [0m[1;31m)[0m[31m Drugs, dietary changes, and other factors affect INR levels achieved with warfarin sodium therapy. WARFARIN: boxed_warning: [0m[1;31m([0m[31m [0m[1;31m7[0m[31m [0m[1;31m)[0m[31m Instruct patients about prevention measures to [0m
-[31mminimize risk of bleeding and to report signs and symptoms of bleeding. WARFARIN: boxed_warning: [0m[1;31m([0m[31m [0m[1;31m17[0m[31m [0m[1;31m)[0m[31m         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: dosage_and_administration: 5 to 2 mg † Ranges are derived from multiple published clinical studies. VKORC1−1639G > A (rs9923231) variant is used in this table. Other co-inherited 
+VKORC1 variants may also be important determinants of warfarin dose. 2.4 Monitoring to Achieve Optimal Anticoagulation Warfarin sodium tablets have a narrow therapeutic range (index), and their action
+may be affected by factors such as other drugs and dietary vitamin K. Therefore, anticoagulation must be carefully monitored during warfarin sodium tablets therapy. Determine the INR daily after the 
+administration of the initial dose until INR results stabilize in the therapeutic range. After stabilization, maintain dosing within the therapeutic range by performing periodic INRs. The frequency of
+performing INR should be based on the clinical situation but generally acceptable intervals for INR determinations are 1 to 4 weeks. WARFARIN: dosage_and_administration: Perform additional INR tests 
+when other warfarin products are interchanged with warfarin sodium tablets, as well as whenever other medications are initiated, discontinued, or taken irregularly. Heparin, a common concomitant drug,
+increases the INR  . Determinations of whole blood clotting and bleeding times are not effective measures for monitoring of warfarin sodium tablets therapy. 2.5 Renal Impairment No dosage adjustment 
+is necessary for patients with renal failure. Monitor INR more frequently in patients with compromised renal function to maintain INR within the therapeutic range . 2.6 Missed Dose The anticoagulant 
+effect of warfarin sodium tablets persists beyond 24 hours. WARFARIN: dosage_and_administration: If a patient misses a dose of warfarin sodium tablets at the intended time of day, the patient should 
+take the dose as soon as possible on the same day. The patient should not double the dose the next day to make up for a missed dose. 2.7 Treatment During Dentistry and Surgery Some dental or surgical 
+procedures may necessitate the interruption or change in the dose of warfarin sodium tablets therapy. Consider the benefits and risks when discontinuing warfarin sodium tablets even for a short period
+of time. Determine the INR immediately prior to any dental or surgical procedure. In patients undergoing minimally invasive procedures who must be anticoagulated prior to, during, or immediately 
+following these procedures, adjusting the dosage of warfarin sodium tablets to maintain the INR at the low end of the therapeutic range may safely allow for continued anticoagulation. 2. WARFARIN: 
+dosage_and_administration: 8 Conversion From Other Anticoagulants Heparin Since the full anticoagulant effect of warfarin sodium tablets is not achieved for several days, heparin is preferred for 
+initial rapid anticoagulation. During initial therapy with warfarin sodium tablets, the interference with heparin anticoagulation is of minimal clinical significance. Conversion to warfarin sodium 
+tablets may begin concomitantly with heparin therapy or may be delayed 3 to 6 days. To ensure therapeutic anticoagulation, continue full dose heparin therapy and overlap warfarin sodium tablets 
+therapy with heparin for 4 to 5 days and until warfarin sodium tablets has produced the desired therapeutic response as determined by INR, at which point heparin may be discontinued. WARFARIN: 
+dosage_and_administration: As heparin may affect the INR, patients receiving both heparin and warfarin sodium tablets should have INR monitoring at least: 5 hours after the last intravenous bolus dose
+of heparin, or 4 hours after cessation of a continuous intravenous infusion of heparin, or 24 hours after the last subcutaneous heparin injection. Warfarin sodium tablets may increase the activated 
+partial thromboplastin time (aPTT) test, even in the absence of heparin. A severe elevation (> 50 seconds) in aPTT with an INR in the desired range has been identified as an indication of increased 
+risk of postoperative hemorrhage. Other Anticoagulants Consult the labeling of other anticoagulants for instructions on conversion to warfarin sodium tablets.         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: clinical_studies: [0m[1;31m14[0m[31m CLINICAL STUDIES [0m[1;31m14.1[0m[31m Atrial Fibrillation In five prospective, randomized, controlled clinical trials involving [0m[1;31m3711[0m[31m patients with non-rheumatic AF, warfarin [0m
-[31msignificantly reduced the risk of systemic thromboembolism including stroke [0m[1;31m([0m[31msee Table [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m. The risk reduction ranged from [0m[1;31m60[0m[31m% to [0m[1;31m86[0m[31m% in all except one trial [0m[1;31m([0m[31mCAFA: [0m[1;31m45[0m[31m%[0m[1;31m)[0m[31m, which was stopped early due [0m
-[31mto published positive results from two of these trials. The incidence of major bleeding in these trials ranged from [0m[1;31m0.6[0m[31m% to [0m[1;31m2.7[0m[31m% [0m[1;31m([0m[31msee Table [0m[1;31m4[0m[31m [0m[1;31m)[0m[31m. Table [0m[1;31m4[0m[31m: Clinical Studies of Warfarin in Non-Rheumatic [0m
-[31mAF Patients * N Thromboembolism % Major Bleeding Study Warfarin-Treated Patients Control Patients PT Ratio INR % Risk Reduction p -value Warfarin-Treated Patients Control Patients AFASAK [0m[1;31m335[0m[31m [0m[1;31m336[0m[31m [0m[1;31m1.5[0m[31m [0m
-[31mto [0m[1;31m2[0m[31m [0m[1;31m2[0m[31m. WARFARIN: clinical_studies: [0m[1;31m8[0m[31m to [0m[1;31m4.2[0m[31m [0m[1;31m60[0m[31m [0m[1;31m0.027[0m[31m [0m[1;31m0.6[0m[31m [0m[1;31m0[0m[31m SPAF [0m[1;31m210[0m[31m [0m[1;31m211[0m[31m [0m[1;31m1.3[0m[31m to [0m[1;31m1.8[0m[31m [0m[1;31m2[0m[31m to [0m[1;31m4.5[0m[31m [0m[1;31m67[0m[31m [0m[1;31m0.01[0m[31m [0m[1;31m1.9[0m[31m [0m[1;31m1.9[0m[31m BAATAF [0m[1;31m212[0m[31m [0m[1;31m208[0m[31m [0m[1;31m1.2[0m[31m to [0m[1;31m1.5[0m[31m [0m[1;31m1.5[0m[31m to [0m[1;31m2.7[0m[31m [0m[1;31m86[0m[31m < [0m[1;31m0.05[0m[31m [0m[1;31m0.9[0m[31m [0m[1;31m0.5[0m[31m CAFA [0m[1;31m187[0m[31m [0m[1;31m191[0m[31m [0m[1;31m1.3[0m[31m to [0m[1;31m1.6[0m[31m [0m[1;31m2[0m[31m to [0m[1;31m3[0m[31m [0m[1;31m45[0m[31m [0m
-[1;31m0.25[0m[31m [0m[1;31m2.7[0m[31m [0m[1;31m0.5[0m[31m SPINAF [0m[1;31m260[0m[31m [0m[1;31m265[0m[31m [0m[1;31m1.2[0m[31m to [0m[1;31m1.5[0m[31m [0m[1;31m1.4[0m[31m to [0m[1;31m2.8[0m[31m [0m[1;31m79[0m[31m [0m[1;31m0.001[0m[31m [0m[1;31m2.3[0m[31m [0m[1;31m1.5[0m[31m * All study results of warfarin vs. WARFARIN: clinical_studies: control are based on intention-to-treat analysis and include ischemic[0m
-[31mstroke and systemic thromboembolism, excluding hemorrhagic stroke and transient ischemic attacks. Trials in patients with both AF and mitral stenosis suggest a benefit from anticoagulation with [0m
-[31mwarfarin sodium [0m[31m . [0m[1;31m14.2[0m[31m Mechanical and Bioprosthetic Heart Valves In a prospective, randomized, open-label, positive-controlled study in [0m[1;31m254[0m[31m patients with mechanical prosthetic heart valves, the [0m
-[31mthromboembolic-free interval was found to be significantly greater in patients treated with warfarin alone compared with dipyridamole/aspirin-treated patients [0m[1;31m([0m[31mp < [0m[1;31m0.005[0m[1;31m)[0m[31m and [0m
-[31mpentoxifylline/aspirin-treated patients [0m[1;31m([0m[31mp < [0m[1;31m0.05[0m[1;31m)[0m[31m. The results of this study are presented in Table [0m[1;31m5[0m[31m .         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: boxed_warning: WARNING: BLEEDING RISK Warfarin sodium can cause major or fatal bleeding  . Perform regular monitoring of INR in all treated patients  . Drugs, dietary changes, and 
+other factors affect INR levels achieved with warfarin sodium therapy  . Instruct patients about prevention measures to minimize risk of bleeding and to report signs and symptoms of bleeding  . 
+WARNING: BLEEDING RISK See full prescribing information for complete boxed warning. Warfarin sodium can cause major or fatal bleeding. ( 5.1 ) Perform regular monitoring of INR in all treated 
+patients. ( 2.1 ) Drugs, dietary changes, and other factors affect INR levels achieved with warfarin sodium therapy. WARFARIN: boxed_warning: ( 7 ) Instruct patients about prevention measures to 
+minimize risk of bleeding and to report signs and symptoms of bleeding. WARFARIN: boxed_warning: ( 17 )         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: drug_interactions: [0m[1;31m7[0m[31m DRUG INTERACTIONS Concomitant use of drugs that increase bleeding risk, antibiotics, antifungals, botanical [0m[1;31m([0m[31mherbal[0m[1;31m)[0m[31m products, and inhibitors and inducers of [0m
-[31mCYP2C9, 1A2, or 3A4. [0m[1;31m([0m[31m [0m[1;31m7[0m[31m [0m[1;31m)[0m[31m Consult labeling of all concurrently used drugs for complete information about interactions with warfarin sodium or increased risks for bleeding. [0m[1;31m([0m[31m [0m[1;31m7[0m[31m [0m[1;31m)[0m[31m [0m[1;31m7.1[0m[31m General [0m
-[31mInformation Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism [0m[1;31m([0m[31mimpaired[0m
-[31mhemostasis, reduced clotting factor synthesis[0m[1;31m)[0m[31m, competitive antagonism [0m[1;31m([0m[31mvitamin K[0m[1;31m)[0m[31m, and alteration of the physiologic control loop for vitamin K metabolism [0m[1;31m([0m[31mhereditary resistance[0m[1;31m)[0m[31m. Pharmacokinetic [0m
-[31mmechanisms for drug interactions with warfarin sodium are mainly enzyme induction, enzyme inhibition, and reduced plasma protein binding. WARFARIN: drug_interactions: It is important to note that some[0m
-[31mdrugs may interact by more than one mechanism. More frequent INR monitoring should be performed when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs, [0m
-[31mincluding drugs intended for short-term use [0m[1;31m([0m[31me.g., antibiotics, antifungals, corticosteroids[0m[1;31m)[0m[31m [0m[1;31m[[0m[31m see Boxed Warning [0m[1;31m][0m[31m. Consult the labeling of all concurrently used drugs to obtain further information [0m
-[31mabout interactions with warfarin sodium or adverse reactions pertaining to bleeding. [0m[1;31m7.2[0m[31m CYP450 Interactions CYP450 isozymes involved in the metabolism of warfarin include CYP2C9, 2C19, 2C8, 2C18, [0m
-[31m1A2, and 3A4. The more potent warfarin S -enantiomer is metabolized by CYP2C9 while the R -enantiomer is metabolized by CYP1A2 and 3A4. WARFARIN: drug_interactions: Inhibitors of CYP2C9, 1A2, and/or [0m
-[31m3A4 have the potential to increase the effect [0m[1;31m([0m[31mincrease INR[0m[1;31m)[0m[31m of warfarin by increasing the exposure of warfarin. Inducers of CYP2C9, 1A2, and/or 3A4 have the potential to decrease the effect [0m[1;31m([0m[31mdecrease[0m
-[31mINR[0m[1;31m)[0m[31m of warfarin by decreasing the exposure of warfarin. Examples of inhibitors and inducers of CYP2C9, 1A2, and 3A4 are below in Table [0m[1;31m2[0m[31m ; however, this list should not be considered all-inclusive. [0m
-[31mConsult the labeling of all concurrently used drugs to obtain further information about CYP450 interaction potential. The CYP450 inhibition and induction potential should be considered when starting, [0m
-[31mstopping, or changing dose of concomitant medications. WARFARIN: drug_interactions: Closely monitor INR if a concomitant drug is a CYP2C9, 1A2, and/or 3A4 inhibitor or inducer. Table [0m[1;31m2[0m[31m: Examples of [0m
-[31mCYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, [0m
-[31msulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazepine, phenobarbital, rifampin CYP1A2 acyclovir, allopurinol, caffeine, cimetidine, ciprofloxacin, disulfiram, [0m
-[31menoxacin, famotidine, fluvoxamine WARFARIN: drug_interactions: , methoxsalen, mexiletine, norfloxacin, oral contraceptives, phenylpropanolamine, propafenone, propranolol, terbinafine, thiabendazole, [0m
-[31mticlopidine, verapamil, zileuton montelukast, moricizine, omeprazole, phenobarbital, phenytoin, cigarette smoking CYP3A4 alprazolam, amiodarone, amlodipine, amprenavir, aprepitant, atorvastatin, [0m
-[31matazanavir, bicalutamide, cilostazol, cimetidine, ciprofloxacin, clarithromycin, conivaptan, cyclosporine, darunavir/ritonavir, diltiazem, erythromycin, fluconazole, fluoxetine, fluvoxamine, [0m
-[31mfosamprenav         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: clinical_studies: 14 CLINICAL STUDIES 14.1 Atrial Fibrillation In five prospective, randomized, controlled clinical trials involving 3711 patients with non-rheumatic AF, warfarin 
+significantly reduced the risk of systemic thromboembolism including stroke (see Table 4 ). The risk reduction ranged from 60% to 86% in all except one trial (CAFA: 45%), which was stopped early due 
+to published positive results from two of these trials. The incidence of major bleeding in these trials ranged from 0.6% to 2.7% (see Table 4 ). Table 4: Clinical Studies of Warfarin in Non-Rheumatic 
+AF Patients * N Thromboembolism % Major Bleeding Study Warfarin-Treated Patients Control Patients PT Ratio INR % Risk Reduction p -value Warfarin-Treated Patients Control Patients AFASAK 335 336 1.5 
+to 2 2. WARFARIN: clinical_studies: 8 to 4.2 60 0.027 0.6 0 SPAF 210 211 1.3 to 1.8 2 to 4.5 67 0.01 1.9 1.9 BAATAF 212 208 1.2 to 1.5 1.5 to 2.7 86 < 0.05 0.9 0.5 CAFA 187 191 1.3 to 1.6 2 to 3 45 
+0.25 2.7 0.5 SPINAF 260 265 1.2 to 1.5 1.4 to 2.8 79 0.001 2.3 1.5 * All study results of warfarin vs. WARFARIN: clinical_studies: control are based on intention-to-treat analysis and include ischemic
+stroke and systemic thromboembolism, excluding hemorrhagic stroke and transient ischemic attacks. Trials in patients with both AF and mitral stenosis suggest a benefit from anticoagulation with 
+warfarin sodium  . 14.2 Mechanical and Bioprosthetic Heart Valves In a prospective, randomized, open-label, positive-controlled study in 254 patients with mechanical prosthetic heart valves, the 
+thromboembolic-free interval was found to be significantly greater in patients treated with warfarin alone compared with dipyridamole/aspirin-treated patients (p < 0.005) and 
+pentoxifylline/aspirin-treated patients (p < 0.05). The results of this study are presented in Table 5 .         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: dosage_and_administration: [0m[1;31m2[0m[31m Recommended Target INR Ranges and Durations for Individual Indications An INR of greater than [0m[1;31m4[0m[31m appears to provide no additional therapeutic benefit in [0m
-[31mmost patients and is associated with a higher risk of bleeding. Venous Thromboembolism [0m[1;31m([0m[31mincluding deep venous thrombosis [0m[1;31m[[0m[31mDVT[0m[1;31m][0m[31m and PE[0m[1;31m)[0m[31m Adjust the warfarin dose to maintain a target INR of [0m[1;31m2.5[0m[31m [0m[1;31m([0m[31mINR [0m
-[31mrange, [0m[1;31m2[0m[31m to [0m[1;31m3[0m[1;31m)[0m[31m for all treatment durations. The duration of treatment is based on the indication as follows: For patients with a DVT or PE secondary to a transient [0m[1;31m([0m[31mreversible[0m[1;31m)[0m[31m risk factor, treatment [0m
-[31mwith warfarin for [0m[1;31m3[0m[31m months is recommended. For patients with an unprovoked DVT or PE, treatment with warfarin is recommended for at least [0m[1;31m3[0m[31m months. After [0m[1;31m3[0m[31m months of therapy, evaluate the risk-benefit[0m
-[31mratio of long-term treatment for the individual patient. WARFARIN: dosage_and_administration: For patients with two episodes of unprovoked DVT or PE, long-term treatment with warfarin is recommended. [0m
-[31mFor a patient receiving long-term anticoagulant treatment, periodically reassess the risk-benefit ratio of continuing such treatment in the individual patient. Atrial Fibrillation In patients with [0m
-[31mnon-valvular AF, anticoagulate with warfarin to target INR of [0m[1;31m2.5[0m[31m [0m[1;31m([0m[31mrange, [0m[1;31m2[0m[31m to [0m[1;31m3[0m[1;31m)[0m[31m. In patients with non-valvular AF that is persistent or paroxysmal and at high risk of stroke [0m[1;31m([0m[31mi.e., having any of the[0m
-[31mfollowing features: prior ischemic stroke, transient ischemic attack, or systemic embolism, or [0m[1;31m2[0m[31m of the following risk factors: age greater than [0m[1;31m75[0m[31m years, moderately or severely impaired left [0m
-[31mventricular systolic function and/or heart failure, history of hypertension, or diabetes mellitus[0m[1;31m)[0m[31m, long-term anticoagulation with warfarin is recommended. WARFARIN: dosage_and_administration: In [0m
-[31mpatients with non-valvular AF that is persistent or paroxysmal and at an intermediate risk of ischemic stroke [0m[1;31m([0m[31mi.e., having [0m[1;31m1[0m[31m of the following risk factors: age greater than [0m[1;31m75[0m[31m years, moderately or [0m
-[31mseverely impaired left ventricular systolic function and/or heart failure, history of hypertension, or diabetes mellitus[0m[1;31m)[0m[31m, long-term anticoagulation with warfarin is recommended. For patients with AF [0m
-[31mand mitral stenosis, long-term anticoagulation with warfarin is recommended. For patients with AF and prosthetic heart valves, long-term anticoagulation with warfarin is recommended; the target INR [0m
-[31mmay be increased and aspirin added depending on valve type and position, and on patient factors. WARFARIN: dosage_and_administration: Mechanical and Bioprosthetic Heart Valves For patients with a [0m
-[31mbileaflet mechanical valve or a Medtronic Hall [0m[1;31m([0m[31mMinneapolis, MN[0m[1;31m)[0m[31m tilting disk valve in the aortic position who are in sinus rhythm and without left atrial enlargement, therapy with warfarin to a [0m
-[31mtarget INR of [0m[1;31m2.5[0m[31m [0m[1;31m([0m[31mrange, [0m[1;31m2[0m[31m to [0m[1;31m3[0m[1;31m)[0m[31m is recommended. For patients with tilting disk valves and bileaflet mechanical valves in the mitral position, therapy with warfarin to a target INR of [0m[1;31m3[0m[31m [0m[1;31m([0m[31mrange, [0m[1;31m2.5[0m[31m [0m
-[31mto [0m[1;31m3.5[0m[1;31m)[0m[31m is recommended. For patients with caged ball or caged disk valves, therapy with warfarin to a target INR of [0m[1;31m3[0m[31m [0m[1;31m([0m[31mrange, [0m[1;31m2.5[0m[31m to [0m[1;31m3.5[0m[1;31m)[0m[31m is recommended. For patients with a bioprosthetic valve in the[0m
-[31mmitral position, therapy with warfarin to a target INR of [0m[1;31m2[0m[31m. WARFARIN: dosage_and_administration: [0m[1;31m5[0m[31m [0m[1;31m([0m[31mrange, [0m[1;31m2[0m[31m to [0m[1;31m3[0m[1;31m)[0m[31m for the first [0m[1;31m3[0m[31m months after valve insertion is recommended. If additional risk [0m
-[31mfactors for thromboembolism are present [0m[1;31m([0m[31mAF, previous thromboembolism, left ventricular dysfunction[0m[1;31m)[0m[31m, a target INR of [0m[1;31m2.5[0m[31m [0m[1;31m([0m[31mrange [0m[1;31m2[0m[31m to [0m[1;31m3[0m[1;31m)[0m[31m is recommended. Post-Myocardial Infarction For high-risk [0m
-[31mpatients with MI [0m[1;31m([0m[31me.g., those with a large anterior MI, those with significant heart failure, those with intracardiac thrombus visible on transthoracic echocardiography, those with AF, and those with [0m
-[31ma history of a thromboembolic event[0m[1;31m)[0m[31m, therapy with combined moderate-intensity [0m[1;31m([0m[31mINR, [0m[1;31m2[0m[31m to [0m[1;31m3[0m[1;31m)[0m[31m warfarin plus low-dose aspirin [0m[1;31m([0m[31m≤ [0m[1;31m100[0m[31m mg/day[0m[1;31m)[0m[31m for at least [0m[1;31m3[0m[31m months after the MI is recommended.         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: drug_interactions: 7 DRUG INTERACTIONS Concomitant use of drugs that increase bleeding risk, antibiotics, antifungals, botanical (herbal) products, and inhibitors and inducers of 
+CYP2C9, 1A2, or 3A4. ( 7 ) Consult labeling of all concurrently used drugs for complete information about interactions with warfarin sodium or increased risks for bleeding. ( 7 ) 7.1 General 
+Information Drugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharmacodynamic mechanisms for drug interactions with warfarin sodium are synergism (impaired
+hemostasis, reduced clotting factor synthesis), competitive antagonism (vitamin K), and alteration of the physiologic control loop for vitamin K metabolism (hereditary resistance). Pharmacokinetic 
+mechanisms for drug interactions with warfarin sodium are mainly enzyme induction, enzyme inhibition, and reduced plasma protein binding. WARFARIN: drug_interactions: It is important to note that some
+drugs may interact by more than one mechanism. More frequent INR monitoring should be performed when starting or stopping other drugs, including botanicals, or when changing dosages of other drugs, 
+including drugs intended for short-term use (e.g., antibiotics, antifungals, corticosteroids) [ see Boxed Warning ]. Consult the labeling of all concurrently used drugs to obtain further information 
+about interactions with warfarin sodium or adverse reactions pertaining to bleeding. 7.2 CYP450 Interactions CYP450 isozymes involved in the metabolism of warfarin include CYP2C9, 2C19, 2C8, 2C18, 
+1A2, and 3A4. The more potent warfarin S -enantiomer is metabolized by CYP2C9 while the R -enantiomer is metabolized by CYP1A2 and 3A4. WARFARIN: drug_interactions: Inhibitors of CYP2C9, 1A2, and/or 
+3A4 have the potential to increase the effect (increase INR) of warfarin by increasing the exposure of warfarin. Inducers of CYP2C9, 1A2, and/or 3A4 have the potential to decrease the effect (decrease
+INR) of warfarin by decreasing the exposure of warfarin. Examples of inhibitors and inducers of CYP2C9, 1A2, and 3A4 are below in Table 2 ; however, this list should not be considered all-inclusive. 
+Consult the labeling of all concurrently used drugs to obtain further information about CYP450 interaction potential. The CYP450 inhibition and induction potential should be considered when starting, 
+stopping, or changing dose of concomitant medications. WARFARIN: drug_interactions: Closely monitor INR if a concomitant drug is a CYP2C9, 1A2, and/or 3A4 inhibitor or inducer. Table 2: Examples of 
+CYP450 Interactions with Warfarin Enzyme Inhibitors Inducers CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole, fluvastatin, fluvoxamine, metronidazole, miconazole, oxandrolone, 
+sulfinpyrazone, tigecycline, voriconazole, zafirlukast aprepitant, bosentan, carbamazepine, phenobarbital, rifampin CYP1A2 acyclovir, allopurinol, caffeine, cimetidine, ciprofloxacin, disulfiram, 
+enoxacin, famotidine, fluvoxamine WARFARIN: drug_interactions: , methoxsalen, mexiletine, norfloxacin, oral contraceptives, phenylpropanolamine, propafenone, propranolol, terbinafine, thiabendazole, 
+ticlopidine, verapamil, zileuton montelukast, moricizine, omeprazole, phenobarbital, phenytoin, cigarette smoking CYP3A4 alprazolam, amiodarone, amlodipine, amprenavir, aprepitant, atorvastatin, 
+atazanavir, bicalutamide, cilostazol, cimetidine, ciprofloxacin, clarithromycin, conivaptan, cyclosporine, darunavir/ritonavir, diltiazem, erythromycin, fluconazole, fluoxetine, fluvoxamine, 
+fosamprenav         
+SOURCE:WARFARIN label
 
 
-[31mCONTENT: WARFARIN: openfda: spl_set_id         [0m
-[31mSOURCE:WARFARIN label[0m
+CONTENT: WARFARIN: dosage_and_administration: 2 Recommended Target INR Ranges and Durations for Individual Indications An INR of greater than 4 appears to provide no additional therapeutic benefit in 
+most patients and is associated with a higher risk of bleeding. Venous Thromboembolism (including deep venous thrombosis [DVT] and PE) Adjust the warfarin dose to maintain a target INR of 2.5 (INR 
+range, 2 to 3) for all treatment durations. The duration of treatment is based on the indication as follows: For patients with a DVT or PE secondary to a transient (reversible) risk factor, treatment 
+with warfarin for 3 months is recommended. For patients with an unprovoked DVT or PE, treatment with warfarin is recommended for at least 3 months. After 3 months of therapy, evaluate the risk-benefit
+ratio of long-term treatment for the individual patient. WARFARIN: dosage_and_administration: For patients with two episodes of unprovoked DVT or PE, long-term treatment with warfarin is recommended. 
+For a patient receiving long-term anticoagulant treatment, periodically reassess the risk-benefit ratio of continuing such treatment in the individual patient. Atrial Fibrillation In patients with 
+non-valvular AF, anticoagulate with warfarin to target INR of 2.5 (range, 2 to 3). In patients with non-valvular AF that is persistent or paroxysmal and at high risk of stroke (i.e., having any of the
+following features: prior ischemic stroke, transient ischemic attack, or systemic embolism, or 2 of the following risk factors: age greater than 75 years, moderately or severely impaired left 
+ventricular systolic function and/or heart failure, history of hypertension, or diabetes mellitus), long-term anticoagulation with warfarin is recommended. WARFARIN: dosage_and_administration: In 
+patients with non-valvular AF that is persistent or paroxysmal and at an intermediate risk of ischemic stroke (i.e., having 1 of the following risk factors: age greater than 75 years, moderately or 
+severely impaired left ventricular systolic function and/or heart failure, history of hypertension, or diabetes mellitus), long-term anticoagulation with warfarin is recommended. For patients with AF 
+and mitral stenosis, long-term anticoagulation with warfarin is recommended. For patients with AF and prosthetic heart valves, long-term anticoagulation with warfarin is recommended; the target INR 
+may be increased and aspirin added depending on valve type and position, and on patient factors. WARFARIN: dosage_and_administration: Mechanical and Bioprosthetic Heart Valves For patients with a 
+bileaflet mechanical valve or a Medtronic Hall (Minneapolis, MN) tilting disk valve in the aortic position who are in sinus rhythm and without left atrial enlargement, therapy with warfarin to a 
+target INR of 2.5 (range, 2 to 3) is recommended. For patients with tilting disk valves and bileaflet mechanical valves in the mitral position, therapy with warfarin to a target INR of 3 (range, 2.5 
+to 3.5) is recommended. For patients with caged ball or caged disk valves, therapy with warfarin to a target INR of 3 (range, 2.5 to 3.5) is recommended. For patients with a bioprosthetic valve in the
+mitral position, therapy with warfarin to a target INR of 2. WARFARIN: dosage_and_administration: 5 (range, 2 to 3) for the first 3 months after valve insertion is recommended. If additional risk 
+factors for thromboembolism are present (AF, previous thromboembolism, left ventricular dysfunction), a target INR of 2.5 (range 2 to 3) is recommended. Post-Myocardial Infarction For high-risk 
+patients with MI (e.g., those with a large anterior MI, those with significant heart failure, those with intracardiac thrombus visible on transthoracic echocardiography, those with AF, and those with 
+a history of a thromboembolic event), therapy with combined moderate-intensity (INR, 2 to 3) warfarin plus low-dose aspirin (≤ 100 mg/day) for at least 3 months after the MI is recommended.         
+SOURCE:WARFARIN label
 
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
-*[1m([0morchestrator-angioedema-WARFARIN[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-angioedema-WARFARIN[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"final_answer"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"question"[0m[32m: [0m[32m"Does WARFARIN increase or decrease the risk of angioedema?"[0m[32m,[0m
-[32m    [0m[32m"steps"[0m[32m: [0m[1;32m[[0m
-[32m      [0m[32m"I asked FDAHandler whether WARFARIN increases the risk of angioedema and received a DO-NOT-KNOW response."[0m[32m,[0m
-[32m      [0m[32m"I asked FDAHandler whether WARFARIN decreases the risk of angioedema and received a DO-NOT-KNOW response."[0m[32m,[0m
-[32m      [0m[32m"These responses indicate that the FDA label for WARFARIN does not contain information about its effect on the risk of angioedema."[0m
-[32m    [0m[1;32m][0m[32m,[0m
-[32m    [0m[32m"answer"[0m[32m: [0m[32m"DO-NOT-KNOW"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0morchestrator-angioedema-WARFARIN[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31m__PASS__:Critic[0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mCritic[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [34mFUNC: [0m[1;34m{[0m
-[34m  [0m[34m"name"[0m[34m: [0m[34m"final_answer"[0m[34m,[0m
-[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
-[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
-[34m    [0m[34m"question"[0m[34m: [0m[34m"Does WARFARIN increase or decrease the risk of angioedema?"[0m[34m,[0m
-[34m    [0m[34m"steps"[0m[34m: [0m[1;34m[[0m
-[34m      [0m[34m"I asked FDAHandler whether WARFARIN increases the risk of angioedema and received a DO-NOT-KNOW response."[0m[34m,[0m
-[34m      [0m[34m"I asked FDAHandler whether WARFARIN decreases the risk of angioedema and received a DO-NOT-KNOW response."[0m[34m,[0m
-[34m      [0m[34m"These responses indicate that the FDA label for WARFARIN does not contain information about its effect on the risk of angioedema."[0m
-[34m    [0m[1;34m][0m[34m,[0m
-[34m    [0m[34m"answer"[0m[34m: [0m[34m"DO-NOT-KNOW"[0m[34m,[0m
-[34m    [0m[34m"request"[0m[34m: [0m[34m"final_answer"[0m
-[34m  [0m[1;34m}[0m
-[1;34m}[0m
-*[1m([0mCritic[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31m        Question: Does WARFARIN increase or decrease the risk of angioedema?[0m
-[31m        -----[0m
-[31m        Reasoning:[0m
-[31m        [0m[1;31m1[0m[31m. I asked FDAHandler whether WARFARIN increases the risk of angioedema and received a DO-NOT-KNOW response.[0m
-[1;31m2[0m[31m. I asked FDAHandler whether WARFARIN decreases the risk of angioedema and received a DO-NOT-KNOW response.[0m
-[1;31m3[0m[31m. These responses indicate that the FDA label for WARFARIN does not contain information about its effect on the risk of angioedema.[0m
-[31m        -----[0m
-[31m        Final answer: DO-NOT-KNOW[0m
-[31m        [0m
- [1m([0mCritic[1m)[0m [31m Entity.USER [0m
- [1m([0mCritic[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"feedback"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"critique"[0m[32m: [0m[32m""[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m[31m __PASS__[0m
-*[1m([0morchestrator-angioedema-WARFARIN[1m)[0m [37m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>     AGENT[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [34mFUNC: [0m[1;34m{[0m
-[34m  [0m[34m"name"[0m[34m: [0m[34m"feedback"[0m[34m,[0m
-[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
-[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
-[34m    [0m[34m"critique"[0m[34m: [0m[34m""[0m[34m,[0m
-[34m    [0m[34m"request"[0m[34m: [0m[34m"feedback"[0m
-[34m  [0m[1;34m}[0m
-[1;34m}[0m
-*[1m([0morchestrator-angioedema-WARFARIN[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31mYour reasoning is valid, no feedback was provided.[0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.USER [0m
- [1m([0morchestrator-angioedema-WARFARIN[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0morchestrator-angioedema-WARFARIN[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
 
-[32mThe FDA label for WARFARIN does not contain information about its effect on the risk of angioedema. Therefore, it is not possible to determine from this data whether WARFARIN increases or decreases [0m
-[32mthe risk of angioedema.[0m
+CONTENT: WARFARIN: openfda: spl_set_id         
+SOURCE:WARFARIN label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-angioedema-WARFARIN)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-angioedema-WARFARIN)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-angioedema-WARFARIN)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-angioedema-WARFARIN)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-WARFARIN)  Entity.AGENT 
+*(orchestrator-angioedema-WARFARIN)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does WARFARIN increase or decrease the risk of angioedema?",
+    "steps": [
+      "I asked FDAHandler whether WARFARIN increases the risk of angioedema and received a DO-NOT-KNOW response.",
+      "I asked FDAHandler whether WARFARIN decreases the risk of angioedema and received a DO-NOT-KNOW response.",
+      "These responses indicate that the FDA label for WARFARIN does not contain information about its effect on the risk of angioedema."
+    ],
+    "answer": "DO-NOT-KNOW"
+  }
+}
+*(orchestrator-angioedema-WARFARIN)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (orchestrator-angioedema-WARFARIN)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-WARFARIN)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-angioedema-WARFARIN)  FDAHandler  Entity.USER(FDAHandler) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does WARFARIN increase or decrease the risk of angioedema?",
+    "steps": [
+      "I asked FDAHandler whether WARFARIN increases the risk of angioedema and received a DO-NOT-KNOW response.",
+      "I asked FDAHandler whether WARFARIN decreases the risk of angioedema and received a DO-NOT-KNOW response.",
+      "These responses indicate that the FDA label for WARFARIN does not contain information about its effect on the risk of angioedema."
+    ],
+    "answer": "DO-NOT-KNOW",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does WARFARIN increase or decrease the risk of angioedema?
+        -----
+        Reasoning:
+        1. I asked FDAHandler whether WARFARIN increases the risk of angioedema and received a DO-NOT-KNOW response.
+2. I asked FDAHandler whether WARFARIN decreases the risk of angioedema and received a DO-NOT-KNOW response.
+3. These responses indicate that the FDA label for WARFARIN does not contain information about its effect on the risk of angioedema.
+        -----
+        Final answer: DO-NOT-KNOW
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": ""
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(orchestrator-angioedema-WARFARIN)  Critic  Entity.USER(    Critic) (=>     AGENT) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "",
+    "request": "feedback"
+  }
+}
+*(orchestrator-angioedema-WARFARIN)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) Your reasoning is valid, no feedback was provided.
+ (orchestrator-angioedema-WARFARIN)  Entity.USER 
+ (orchestrator-angioedema-WARFARIN)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-angioedema-WARFARIN)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+
+The FDA label for WARFARIN does not contain information about its effect on the risk of angioedema. Therefore, it is not possible to determine from this data whether WARFARIN increases or decreases 
+the risk of angioedema.

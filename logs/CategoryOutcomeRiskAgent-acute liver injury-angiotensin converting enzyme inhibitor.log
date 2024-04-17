@@ -1,107 +1,107 @@
- [1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[34m                Passages:[0m
-[34m                [0m[1;34m1[0m[34m. Drug LISINOPRIL: LISINOPRIL has been associated with a rare increase in the risk of acute liver injury, as indicated by rare cases of liver enzyme elevations and/or serum bilirubin [0m
-[34melevations. This information is based on the LISINOPRIL label provided by FDAHandler.[0m
-[1;34m2[0m[34m. Drug CAPTOPRIL: CAPTOPRIL, as an ACE inhibitor, can rarely increase the risk of a syndrome that may lead to acute liver injury, starting with cholestatic jaundice and potentially progressing to [0m
-[34mfulminant hepatic necrosis and sometimes death. This information is based on the CAPTOPRIL label provided by the FDA, which states that this association is rare and the mechanism of the syndrome is [0m
-[34mnot understood. Patients who develop jaundice or marked elevations of hepatic enzymes while on CAPTOPRIL should discontinue the medication and receive appropriate medical follow-up.[0m
-[1;34m3[0m[34m. Drug ENALAPRIL MALEATE: ENALAPRIL MALEATE has been associated with an increased risk of a syndrome that can lead to acute liver injury, including cholestatic jaundice and fulminant hepatic [0m
-[34mnecrosis. However, the occurrence of this syndrome is rare.[0m
-[34m                ---------[0m
-[34m                Does the angiotensin converting enzyme inhibitor category of drugs increase the risk of[0m
-[34m                acute liver injury, decrease it, or is there no clear effect?[0m
-[34m            [0m
- [1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [31m Entity.AGENT [0m
-*[1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"final_answer"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"question"[0m[32m: [0m[32m"Does the angiotensin converting enzyme inhibitor category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?"[0m[32m,[0m
-[32m    [0m[32m"steps"[0m[32m: [0m[1;32m[[0m
-[32m      [0m[32m"All three drugs mentioned [0m[32m([0m[32mLISINOPRIL, CAPTOPRIL, and ENALAPRIL MALEATE[0m[32m)[0m[32m are part of the angiotensin converting enzyme [0m[32m([0m[32mACE[0m[32m)[0m[32m inhibitor category."[0m[32m,[0m
-[32m      [0m[32m"Each drug has been associated with a rare increase in the risk of acute liver injury, as indicated by their respective FDA labels."[0m[32m,[0m
-[32m      [0m[32m"The evidence suggests that while the risk increase is rare, it is present for each of these drugs."[0m[32m,[0m
-[32m      [0m[32m"Given that all three drugs in the ACE inhibitor category listed here show a rare but increased risk of acute liver injury, it can be inferred that the category as a whole may have a similar [0m
-[32meffect."[0m
-[32m    [0m[1;32m][0m[32m,[0m
-[32m    [0m[32m"answer"[0m[32m: [0m[32m"The angiotensin converting enzyme inhibitor category of drugs increases the risk of acute liver injury, although this increase is rare."[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31m__PASS__:Critic[0m
- [1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mCritic[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>    Critic[1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mfinal_answer[1m)[0m [34mFUNC: [0m[1;34m{[0m
-[34m  [0m[34m"name"[0m[34m: [0m[34m"final_answer"[0m[34m,[0m
-[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
-[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
-[34m    [0m[34m"question"[0m[34m: [0m[34m"Does the angiotensin converting enzyme inhibitor category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?"[0m[34m,[0m
-[34m    [0m[34m"steps"[0m[34m: [0m[1;34m[[0m
-[34m      [0m[34m"All three drugs mentioned [0m[34m([0m[34mLISINOPRIL, CAPTOPRIL, and ENALAPRIL MALEATE[0m[34m)[0m[34m are part of the angiotensin converting enzyme [0m[34m([0m[34mACE[0m[34m)[0m[34m inhibitor category."[0m[34m,[0m
-[34m      [0m[34m"Each drug has been associated with a rare increase in the risk of acute liver injury, as indicated by their respective FDA labels."[0m[34m,[0m
-[34m      [0m[34m"The evidence suggests that while the risk increase is rare, it is present for each of these drugs."[0m[34m,[0m
-[34m      [0m[34m"Given that all three drugs in the ACE inhibitor category listed here show a rare but increased risk of acute liver injury, it can be inferred that the category as a whole may have a similar [0m
-[34meffect."[0m
-[34m    [0m[1;34m][0m[34m,[0m
-[34m    [0m[34m"answer"[0m[34m: [0m[34m"The angiotensin converting enzyme inhibitor category of drugs increases the risk of acute liver injury, although this increase is rare."[0m[34m,[0m
-[34m    [0m[34m"request"[0m[34m: [0m[34m"final_answer"[0m
-[34m  [0m[1;34m}[0m
-[1;34m}[0m
-*[1m([0mCritic[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mfinal_answer[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31m        Question: Does the angiotensin converting enzyme inhibitor category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?[0m
-[31m        -----[0m
-[31m        Reasoning:[0m
-[31m        [0m[1;31m1[0m[31m. All three drugs mentioned [0m[1;31m([0m[31mLISINOPRIL, CAPTOPRIL, and ENALAPRIL MALEATE[0m[1;31m)[0m[31m are part of the angiotensin converting enzyme [0m[1;31m([0m[31mACE[0m[1;31m)[0m[31m inhibitor category.[0m
-[1;31m2[0m[31m. Each drug has been associated with a rare increase in the risk of acute liver injury, as indicated by their respective FDA labels.[0m
-[1;31m3[0m[31m. The evidence suggests that while the risk increase is rare, it is present for each of these drugs.[0m
-[1;31m4[0m[31m. Given that all three drugs in the ACE inhibitor category listed here show a rare but increased risk of acute liver injury, it can be inferred that the category as a whole may have a similar effect.[0m
-[31m        -----[0m
-[31m        Final answer: The angiotensin converting enzyme inhibitor category of drugs increases the risk of acute liver injury, although this increase is rare.[0m
-[31m        [0m
- [1m([0mCritic[1m)[0m [31m Entity.USER [0m
- [1m([0mCritic[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"feedback"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"critique"[0m[32m: [0m[32m"The reasoning provided is consistent with the guidelines and medical knowledge. If all three drugs in the ACE inhibitor category listed have been associated with a rare increase in [0m
-[32mthe risk of acute liver injury according to their FDA labels, it is reasonable to infer that the category as a whole may have a similar effect. The conclusion that the ACE inhibitor category of drugs [0m
-[32mincreases the risk of acute liver injury, albeit rarely, is supported by the evidence provided."[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mCritic[1m)[0m [37m Entity.LLM [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m[31m __PASS__[0m
-*[1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [37m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0m  feedback[1m)[0m [34mFUNC: [0m[1;34m{[0m
-[34m  [0m[34m"name"[0m[34m: [0m[34m"feedback"[0m[34m,[0m
-[34m  [0m[34m"to"[0m[34m: [0m[34m""[0m[34m,[0m
-[34m  [0m[34m"arguments"[0m[34m: [0m[1;34m{[0m
-[34m    [0m[34m"critique"[0m[34m: [0m[34m"The reasoning provided is consistent with the guidelines and medical knowledge. If all three drugs in the ACE inhibitor category listed have been associated with a rare increase in [0m
-[34mthe risk of acute liver injury according to their FDA labels, it is reasonable to infer that the category as a whole may have a similar effect. The conclusion that the ACE inhibitor category of drugs [0m
-[34mincreases the risk of acute liver injury, albeit rarely, is supported by the evidence provided."[0m[34m,[0m
-[34m    [0m[34m"request"[0m[34m: [0m[34m"feedback"[0m
-[34m  [0m[1;34m}[0m
-[1;34m}[0m
-*[1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0m  feedback[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31m        Feedback: The reasoning provided is consistent with the guidelines and medical knowledge. If all three drugs in the ACE inhibitor category listed have been associated with a rare increase in [0m
-[31mthe risk of acute liver injury according to their FDA labels, it is reasonable to infer that the category as a whole may have a similar effect. The conclusion that the ACE inhibitor category of drugs [0m
-[31mincreases the risk of acute liver injury, albeit rarely, is supported by the evidence provided.[0m
+ (overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) 
+                Passages:
+                1. Drug LISINOPRIL: LISINOPRIL has been associated with a rare increase in the risk of acute liver injury, as indicated by rare cases of liver enzyme elevations and/or serum bilirubin 
+elevations. This information is based on the LISINOPRIL label provided by FDAHandler.
+2. Drug CAPTOPRIL: CAPTOPRIL, as an ACE inhibitor, can rarely increase the risk of a syndrome that may lead to acute liver injury, starting with cholestatic jaundice and potentially progressing to 
+fulminant hepatic necrosis and sometimes death. This information is based on the CAPTOPRIL label provided by the FDA, which states that this association is rare and the mechanism of the syndrome is 
+not understood. Patients who develop jaundice or marked elevations of hepatic enzymes while on CAPTOPRIL should discontinue the medication and receive appropriate medical follow-up.
+3. Drug ENALAPRIL MALEATE: ENALAPRIL MALEATE has been associated with an increased risk of a syndrome that can lead to acute liver injury, including cholestatic jaundice and fulminant hepatic 
+necrosis. However, the occurrence of this syndrome is rare.
+                ---------
+                Does the angiotensin converting enzyme inhibitor category of drugs increase the risk of
+                acute liver injury, decrease it, or is there no clear effect?
+            
+ (overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.AGENT 
+*(overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does the angiotensin converting enzyme inhibitor category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?",
+    "steps": [
+      "All three drugs mentioned (LISINOPRIL, CAPTOPRIL, and ENALAPRIL MALEATE) are part of the angiotensin converting enzyme (ACE) inhibitor category.",
+      "Each drug has been associated with a rare increase in the risk of acute liver injury, as indicated by their respective FDA labels.",
+      "The evidence suggests that while the risk increase is rare, it is present for each of these drugs.",
+      "Given that all three drugs in the ACE inhibitor category listed here show a rare but increased risk of acute liver injury, it can be inferred that the category as a whole may have a similar 
+effect."
+    ],
+    "answer": "The angiotensin converting enzyme inhibitor category of drugs increases the risk of acute liver injury, although this increase is rare."
+  }
+}
+*(overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.LLM  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) __PASS__:Critic
+ (overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.LLM  Entity.LLM(Entity.LLM) (=>    Critic) (X           )       (          ) [CANNOT RESPOND]
+ (Critic)  Entity.USER  Entity.USER(          ) (=>    Critic) (X           )   FUNC(final_answer) FUNC: {
+  "name": "final_answer",
+  "to": "",
+  "arguments": {
+    "question": "Does the angiotensin converting enzyme inhibitor category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?",
+    "steps": [
+      "All three drugs mentioned (LISINOPRIL, CAPTOPRIL, and ENALAPRIL MALEATE) are part of the angiotensin converting enzyme (ACE) inhibitor category.",
+      "Each drug has been associated with a rare increase in the risk of acute liver injury, as indicated by their respective FDA labels.",
+      "The evidence suggests that while the risk increase is rare, it is present for each of these drugs.",
+      "Given that all three drugs in the ACE inhibitor category listed here show a rare but increased risk of acute liver injury, it can be inferred that the category as a whole may have a similar 
+effect."
+    ],
+    "answer": "The angiotensin converting enzyme inhibitor category of drugs increases the risk of acute liver injury, although this increase is rare.",
+    "request": "final_answer"
+  }
+}
+*(Critic)  Entity.AGENT  Entity.AGENT(final_answer) (=>          ) (X           )       (          ) 
+        Question: Does the angiotensin converting enzyme inhibitor category of drugs increase the risk of acute liver injury, decrease it, or is there no clear effect?
+        -----
+        Reasoning:
+        1. All three drugs mentioned (LISINOPRIL, CAPTOPRIL, and ENALAPRIL MALEATE) are part of the angiotensin converting enzyme (ACE) inhibitor category.
+2. Each drug has been associated with a rare increase in the risk of acute liver injury, as indicated by their respective FDA labels.
+3. The evidence suggests that while the risk increase is rare, it is present for each of these drugs.
+4. Given that all three drugs in the ACE inhibitor category listed here show a rare but increased risk of acute liver injury, it can be inferred that the category as a whole may have a similar effect.
+        -----
+        Final answer: The angiotensin converting enzyme inhibitor category of drugs increases the risk of acute liver injury, although this increase is rare.
+        
+ (Critic)  Entity.USER 
+ (Critic)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(Critic)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is consistent with the guidelines and medical knowledge. If all three drugs in the ACE inhibitor category listed have been associated with a rare increase in 
+the risk of acute liver injury according to their FDA labels, it is reasonable to infer that the category as a whole may have a similar effect. The conclusion that the ACE inhibitor category of drugs 
+increases the risk of acute liver injury, albeit rarely, is supported by the evidence provided."
+  }
+}
+*(Critic)  Entity.LLM  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) <DONE> __PASS__
+*(overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Critic  Entity.USER(    Critic) (=>          ) (X           )   FUNC(  feedback) FUNC: {
+  "name": "feedback",
+  "to": "",
+  "arguments": {
+    "critique": "The reasoning provided is consistent with the guidelines and medical knowledge. If all three drugs in the ACE inhibitor category listed have been associated with a rare increase in 
+the risk of acute liver injury according to their FDA labels, it is reasonable to infer that the category as a whole may have a similar effect. The conclusion that the ACE inhibitor category of drugs 
+increases the risk of acute liver injury, albeit rarely, is supported by the evidence provided.",
+    "request": "feedback"
+  }
+}
+*(overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.AGENT  Entity.AGENT(  feedback) (=>          ) (X           )       (          ) 
+        Feedback: The reasoning provided is consistent with the guidelines and medical knowledge. If all three drugs in the ACE inhibitor category listed have been associated with a rare increase in 
+the risk of acute liver injury according to their FDA labels, it is reasonable to infer that the category as a whole may have a similar effect. The conclusion that the ACE inhibitor category of drugs 
+increases the risk of acute liver injury, albeit rarely, is supported by the evidence provided.
 
-[31m        If any flaws in the reasoning used to produce your[0m
-[31m        answer were identified, you must try again.[0m
-[31m        [0m
- [1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [31m Entity.USER [0m
- [1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mcategory_effect_tool[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"category_effect_tool"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"label"[0m[32m: [0m[32m"increase"[0m[32m,[0m
-[32m    [0m[32m"confidence"[0m[32m: [0m[1;32m0.85[0m[32m,[0m
-[32m    [0m[32m"probability"[0m[32m: [0m[1;32m0.01[0m[32m,[0m
-[32m    [0m[32m"frequency"[0m[32m: [0m[32m"rare"[0m[32m,[0m
-[32m    [0m[32m"evidence"[0m[32m: [0m[32m"strong"[0m[32m,[0m
-[32m    [0m[32m"justification"[0m[32m: [0m[32m"All three drugs in the ACE inhibitor category [0m[32m([0m[32mLISINOPRIL, CAPTOPRIL, and ENALAPRIL MALEATE[0m[32m)[0m[32m have been associated with a rare increase in the risk of acute liver injury according[0m
-[32mto their FDA labels. This consistent pattern across multiple drugs in the category supports the conclusion that ACE inhibitors may increase the risk of acute liver injury, although the risk is rare. [0m
-[32mThe evidence is considered strong as it is based on official drug labels which are derived from clinical data and post-marketing surveillance."[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0moverall-effect-acute liver injury-angiotensin converting enzyme inhibitor[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mcategory_effect_tool[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m<[0m[1;31mDONE[0m[1;31m>[0m
+        If any flaws in the reasoning used to produce your
+        answer were identified, you must try again.
+        
+ (overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.USER 
+ (overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(category_effect_tool) FUNC: {
+  "name": "category_effect_tool",
+  "to": "",
+  "arguments": {
+    "label": "increase",
+    "confidence": 0.85,
+    "probability": 0.01,
+    "frequency": "rare",
+    "evidence": "strong",
+    "justification": "All three drugs in the ACE inhibitor category (LISINOPRIL, CAPTOPRIL, and ENALAPRIL MALEATE) have been associated with a rare increase in the risk of acute liver injury according
+to their FDA labels. This consistent pattern across multiple drugs in the category supports the conclusion that ACE inhibitors may increase the risk of acute liver injury, although the risk is rare. 
+The evidence is considered strong as it is based on official drug labels which are derived from clinical data and post-marketing surveillance."
+  }
+}
+*(overall-effect-acute liver injury-angiotensin converting enzyme inhibitor)  Entity.AGENT  Entity.AGENT(category_effect_tool) (=>          ) (X           )       (          ) <DONE>

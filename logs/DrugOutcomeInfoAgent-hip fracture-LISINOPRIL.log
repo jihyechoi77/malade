@@ -1,556 +1,556 @@
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes LISINOPRIL increase or decrease the risk of hip fracture?[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
-[32m    [0m[32m"content"[0m[32m: [0m[32m"Does LISINOPRIL increase or decrease the risk of hip fracture?"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes LISINOPRIL increase or decrease the risk of hip fracture?[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes LISINOPRIL increase or decrease the risk of hip fracture?[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"query"[0m[32m: [0m[32m"Does LISINOPRIL increase or decrease the risk of hip fracture?"[0m[32m,[0m
-[32m    [0m[32m"drug"[0m[32m: [0m[32m"LISINOPRIL"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31m        Below are some relevant extracts for your query:[0m
-[31m        -----[0m
-[31m        [0m
-[31mCONTENT: LISINOPRIL: drug_interactions: Drug Interactions Lisinopril Hypotension - Patients on Diuretic Therapy: Patients on diuretics and especially those in whom diuretic therapy was recently [0m
-[31minstituted, may occasionally experience an excessive reduction of blood pressure after initiation of therapy with lisinopril. The possibility of hypotensive effects with lisinopril can be minimized by[0m
-[31meither discontinuing the diuretic or increasing the salt intake prior to initiation of treatment with lisinopril. If it is necessary to continue the diuretic, initiate therapy with lisinopril at a [0m
-[31mdose of [0m[1;31m5[0m[31m mg daily, and provide close medical supervision after the initial dose for at least two hours and until blood pressure has stabilized for at least an additional hour. [0m[1;31m([0m[31mSee WARNINGS , and [0m
-[31mDOSAGE AND ADMINISTRATION .[0m[1;31m)[0m[31m When a diuretic is added to the therapy of a patient receiving lisinopril, an additional antihypertensive effect is usually observed [0m[1;31m([0m[31mSee DOSAGE AND ADMINISTRATION . [0m
-[31mLISINOPRIL: drug_interactions: [0m[1;31m)[0m[31m Non-steroidal Anti-inflammatory Agents Including Selective Cyclooxygenase-[0m[1;31m2[0m[31m [0m[1;31m([0m[31mCOX-[0m[1;31m2[0m[1;31m)[0m[31m Inhibitors: In patients who are elderly, volume-depleted [0m[1;31m([0m[31mincluding those on [0m
-[31mdiuretic therapy[0m[1;31m)[0m[31m, or with compromised renal function, co-administration of NSAIDs, including selective COX-[0m[1;31m2[0m[31m inhibitors, with ACE inhibitors, including lisinopril, may result in deterioration of [0m
-[31mrenal function, including possible acute renal failure. These effects are usually reversible. Monitor renal function periodically in patients receiving lisinopril and NSAID therapy. The [0m
-[31mantihypertensive effect of ACE inhibitors, including lisinopril, may be attenuated by NSAIDs. LISINOPRIL: drug_interactions: Dual Blockade of the Renin-Angiotensin System [0m[1;31m([0m[31mRAS[0m[1;31m)[0m[31m: Dual blockade of the [0m
-[31mRAS with angiotensin receptor blockers, ACE inhibitors, or direct renin inhibitors [0m[1;31m([0m[31msuch as aliskiren[0m[1;31m)[0m[31m is associated with increased risk of hypotension, syncope, hyperkalemia, and changes in renal [0m
-[31mfunction [0m[1;31m([0m[31mincluding acute renal failure[0m[1;31m)[0m[31m compared to monotherapy. The VA NEPHRON trial enrolled [0m[1;31m1448[0m[31m patients with type [0m[1;31m2[0m[31m diabetes, elevated urinary-albumin-to-creatinine ratio, and decreased [0m
-[31mestimated glomerular filtration rate [0m[1;31m([0m[31mGFR [0m[1;31m30[0m[31m to [0m[1;31m89.9[0m[31m ml/min[0m[1;31m)[0m[31m, randomized them to lisinopril or placebo on a background of losartan therapy and followed them for a median of [0m[1;31m2.2[0m[31m years. LISINOPRIL: [0m
-[31mdrug_interactions: Patients receiving the combination of losartan and lisinopril did not obtain any additional benefit compared to monotherapy for the combined endpoint of decline in GFR, end state [0m
-[31mrenal disease, or death, but experienced an increased incidence of hyperkalemia and acute kidney injury compared with the monotherapy group. In general, avoid combined use of RAS inhibitors. Monitor [0m
-[31mblood pressure, renal function, and electrolytes in patients on lisinopril and hydrochlorothiazide tablets and other agents that affect the RAS. Do not coadminister aliskiren with lisinopril and [0m
-[31mhydrochlorothiazide tablets in patients with diabetes. Avoid use of aliskiren with PRINZIDE in patients with renal impairment [0m[1;31m([0m[31mGFR <[0m[1;31m60[0m[31m ml/min[0m[1;31m)[0m[31m. Other Agents: Lisinopril has been used concomitantly [0m
-[31mwith nitrates and/or digoxin without evidence of clinically significant adverse interactions. LISINOPRIL: drug_interactions: No meaningful clinically important pharmacokinetic interactions occurred [0m
-[31mwhen lisinopril was used concomitantly with propranolol, digoxin, or hydrochlorothiazide. The presence of food in the stomach does not alter the bioavailability of lisinopril. Agents Increasing Serum [0m
-[31mPotassium: Lisinopril attenuates potassium loss caused by thiazide-type diuretics. Use of lisinopril with potassium-sparing diuretics [0m[1;31m([0m[31me.g., spironolactone, eplerenone, triamterene, or amiloride[0m[1;31m)[0m[31m, [0m
-[31mpotassium supplements, or potassium-containing salt substitutes may lead to significant increases in serum potassium. Therefore, if concomitant use of these agents is indicated, because of [0m
-[31mdemonstrated hypokalemia, they should be used with caution and with frequent monitoring of serum potassium. Lithium: Lithium toxicity has been reported in patients receiving lithium concomitantly with[0m
-[31mdrugs which cause elimination of sodium, including ACE inhibitors.         [0m
-[31mSOURCE:LISINOPRIL label[0m
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does LISINOPRIL increase or decrease the risk of hip fracture?
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT 
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does LISINOPRIL increase or decrease the risk of hip fracture?"
+  }
+}
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does LISINOPRIL increase or decrease the risk of hip fracture?
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does LISINOPRIL increase or decrease the risk of hip fracture?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does LISINOPRIL increase or decrease the risk of hip fracture?",
+    "drug": "LISINOPRIL"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: LISINOPRIL: drug_interactions: Drug Interactions Lisinopril Hypotension - Patients on Diuretic Therapy: Patients on diuretics and especially those in whom diuretic therapy was recently 
+instituted, may occasionally experience an excessive reduction of blood pressure after initiation of therapy with lisinopril. The possibility of hypotensive effects with lisinopril can be minimized by
+either discontinuing the diuretic or increasing the salt intake prior to initiation of treatment with lisinopril. If it is necessary to continue the diuretic, initiate therapy with lisinopril at a 
+dose of 5 mg daily, and provide close medical supervision after the initial dose for at least two hours and until blood pressure has stabilized for at least an additional hour. (See WARNINGS , and 
+DOSAGE AND ADMINISTRATION .) When a diuretic is added to the therapy of a patient receiving lisinopril, an additional antihypertensive effect is usually observed (See DOSAGE AND ADMINISTRATION . 
+LISINOPRIL: drug_interactions: ) Non-steroidal Anti-inflammatory Agents Including Selective Cyclooxygenase-2 (COX-2) Inhibitors: In patients who are elderly, volume-depleted (including those on 
+diuretic therapy), or with compromised renal function, co-administration of NSAIDs, including selective COX-2 inhibitors, with ACE inhibitors, including lisinopril, may result in deterioration of 
+renal function, including possible acute renal failure. These effects are usually reversible. Monitor renal function periodically in patients receiving lisinopril and NSAID therapy. The 
+antihypertensive effect of ACE inhibitors, including lisinopril, may be attenuated by NSAIDs. LISINOPRIL: drug_interactions: Dual Blockade of the Renin-Angiotensin System (RAS): Dual blockade of the 
+RAS with angiotensin receptor blockers, ACE inhibitors, or direct renin inhibitors (such as aliskiren) is associated with increased risk of hypotension, syncope, hyperkalemia, and changes in renal 
+function (including acute renal failure) compared to monotherapy. The VA NEPHRON trial enrolled 1448 patients with type 2 diabetes, elevated urinary-albumin-to-creatinine ratio, and decreased 
+estimated glomerular filtration rate (GFR 30 to 89.9 ml/min), randomized them to lisinopril or placebo on a background of losartan therapy and followed them for a median of 2.2 years. LISINOPRIL: 
+drug_interactions: Patients receiving the combination of losartan and lisinopril did not obtain any additional benefit compared to monotherapy for the combined endpoint of decline in GFR, end state 
+renal disease, or death, but experienced an increased incidence of hyperkalemia and acute kidney injury compared with the monotherapy group. In general, avoid combined use of RAS inhibitors. Monitor 
+blood pressure, renal function, and electrolytes in patients on lisinopril and hydrochlorothiazide tablets and other agents that affect the RAS. Do not coadminister aliskiren with lisinopril and 
+hydrochlorothiazide tablets in patients with diabetes. Avoid use of aliskiren with PRINZIDE in patients with renal impairment (GFR <60 ml/min). Other Agents: Lisinopril has been used concomitantly 
+with nitrates and/or digoxin without evidence of clinically significant adverse interactions. LISINOPRIL: drug_interactions: No meaningful clinically important pharmacokinetic interactions occurred 
+when lisinopril was used concomitantly with propranolol, digoxin, or hydrochlorothiazide. The presence of food in the stomach does not alter the bioavailability of lisinopril. Agents Increasing Serum 
+Potassium: Lisinopril attenuates potassium loss caused by thiazide-type diuretics. Use of lisinopril with potassium-sparing diuretics (e.g., spironolactone, eplerenone, triamterene, or amiloride), 
+potassium supplements, or potassium-containing salt substitutes may lead to significant increases in serum potassium. Therefore, if concomitant use of these agents is indicated, because of 
+demonstrated hypokalemia, they should be used with caution and with frequent monitoring of serum potassium. Lithium: Lithium toxicity has been reported in patients receiving lithium concomitantly with
+drugs which cause elimination of sodium, including ACE inhibitors.         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: indications_and_usage: INDICATIONS AND USAGE Lisinopril and hydrochlorothiazide tablets are indicated for the treatment of hypertension, to lower blood pressure. Lowering blood [0m
-[31mpressure lowers the risk of fatal and non-fatal cardiovascular events, primarily strokes and myocardial infarctions. These benefits have been seen in controlled trials of antihypertensive drugs from a[0m
-[31mwide variety of pharmacologic classes including lisinopril and hydrochlorothiazide. Control of high blood pressure should be part of comprehensive cardiovascular risk management, including, as [0m
-[31mappropriate, lipid control, diabetes management, antithrombotic therapy, smoking cessation, exercise, and limited sodium intake. Many patients will require more than [0m[1;31m1[0m[31m drug to achieve blood pressure [0m
-[31mgoals. For specific advice on goals and management, see published guidelines, such as those of the National High Blood Pressure Education Program’s Joint National Committee on Prevention, Detection, [0m
-[31mEvaluation, and Treatment of High Blood Pressure [0m[1;31m([0m[31mJNC[0m[1;31m)[0m[31m. LISINOPRIL: indications_and_usage: Numerous antihypertensive drugs, from a variety of pharmacologic classes and with different mechanisms of [0m
-[31maction, have been shown in randomized controlled trials to reduce cardiovascular morbidity and mortality, and it can be concluded that it is blood pressure reduction, and not some other pharmacologic [0m
-[31mproperty of the drugs, that is largely responsible for those benefits. The largest and most consistent cardiovascular outcome benefit has been a reduction in the risk of stroke, but reductions in [0m
-[31mmyocardial infarction and cardiovascular mortality also have been seen regularly. Elevated systolic or diastolic pressure causes increased cardiovascular risk, and the absolute risk increase per mmHg [0m
-[31mis greater at higher blood pressures, so that even modest reductions of severe hypertension can provide substantial benefit. LISINOPRIL: indications_and_usage: Relative risk reduction from blood [0m
-[31mpressure reduction is similar across populations with varying absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension [0m[1;31m([0m[31mfor example, [0m
-[31mpatients with diabetes or hyperlipidemia[0m[1;31m)[0m[31m, and such patients would be expected to benefit from more aggressive treatment to a lower blood pressure goal. Some antihypertensive drugs have smaller blood [0m
-[31mpressure effects [0m[1;31m([0m[31mas monotherapy[0m[1;31m)[0m[31m in black patients, and many antihypertensive drugs have additional approved indications and effects [0m[1;31m([0m[31me.g., on angina, heart failure, or diabetic kidney disease[0m[1;31m)[0m[31m. [0m
-[31mThese considerations may guide selection of therapy. These fixed-dose combinations are not indicated for initial therapy [0m[1;31m([0m[31msee DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m. LISINOPRIL: indications_and_usage: In using [0m
-[31mlisinopril and hydrochlorothiazide tablets, consideration should be given to the fact that an angiotensin-converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients [0m
-[31mwith renal impairment or collagen vascular disease, and that available data are insufficient to show that lisinopril does not have a similar risk. [0m[1;31m([0m[31mSee WARNINGS .[0m[1;31m)[0m[31m In considering use of lisinopril and[0m
-[31mhydrochlorothiazide tablets, it should be noted that Black patients receiving ACE inhibitors have been reported to have a higher incidence of angioedema compared to non-Black. [0m[1;31m([0m[31mSee WARNINGS, Head and [0m
-[31mNeck Angioedema .         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: indications_and_usage: INDICATIONS AND USAGE Lisinopril and hydrochlorothiazide tablets are indicated for the treatment of hypertension, to lower blood pressure. Lowering blood 
+pressure lowers the risk of fatal and non-fatal cardiovascular events, primarily strokes and myocardial infarctions. These benefits have been seen in controlled trials of antihypertensive drugs from a
+wide variety of pharmacologic classes including lisinopril and hydrochlorothiazide. Control of high blood pressure should be part of comprehensive cardiovascular risk management, including, as 
+appropriate, lipid control, diabetes management, antithrombotic therapy, smoking cessation, exercise, and limited sodium intake. Many patients will require more than 1 drug to achieve blood pressure 
+goals. For specific advice on goals and management, see published guidelines, such as those of the National High Blood Pressure Education Program’s Joint National Committee on Prevention, Detection, 
+Evaluation, and Treatment of High Blood Pressure (JNC). LISINOPRIL: indications_and_usage: Numerous antihypertensive drugs, from a variety of pharmacologic classes and with different mechanisms of 
+action, have been shown in randomized controlled trials to reduce cardiovascular morbidity and mortality, and it can be concluded that it is blood pressure reduction, and not some other pharmacologic 
+property of the drugs, that is largely responsible for those benefits. The largest and most consistent cardiovascular outcome benefit has been a reduction in the risk of stroke, but reductions in 
+myocardial infarction and cardiovascular mortality also have been seen regularly. Elevated systolic or diastolic pressure causes increased cardiovascular risk, and the absolute risk increase per mmHg 
+is greater at higher blood pressures, so that even modest reductions of severe hypertension can provide substantial benefit. LISINOPRIL: indications_and_usage: Relative risk reduction from blood 
+pressure reduction is similar across populations with varying absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension (for example, 
+patients with diabetes or hyperlipidemia), and such patients would be expected to benefit from more aggressive treatment to a lower blood pressure goal. Some antihypertensive drugs have smaller blood 
+pressure effects (as monotherapy) in black patients, and many antihypertensive drugs have additional approved indications and effects (e.g., on angina, heart failure, or diabetic kidney disease). 
+These considerations may guide selection of therapy. These fixed-dose combinations are not indicated for initial therapy (see DOSAGE AND ADMINISTRATION ). LISINOPRIL: indications_and_usage: In using 
+lisinopril and hydrochlorothiazide tablets, consideration should be given to the fact that an angiotensin-converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients 
+with renal impairment or collagen vascular disease, and that available data are insufficient to show that lisinopril does not have a similar risk. (See WARNINGS .) In considering use of lisinopril and
+hydrochlorothiazide tablets, it should be noted that Black patients receiving ACE inhibitors have been reported to have a higher incidence of angioedema compared to non-Black. (See WARNINGS, Head and 
+Neck Angioedema .         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: adverse_reactions: Discontinuation of therapy due to adverse effects was required in [0m[1;31m4.4[0m[31m% of patients principally because of dizziness, cough, fatigue and muscle cramps. Adverse [0m
-[31mexperiences occurring in greater than one percent of patients treated with lisinopril plus hydrochlorothiazide in controlled clinical trials are shown below. Percent of Patients in Controlled Studies [0m
-[31mClinical adverse experiences occurring in [0m[1;31m0.3[0m[31m% to [0m[1;31m1.0[0m[31m% of patients in controlled trials included: Lisinopril-Hydrochlorothiazide [0m[1;31m([0m[31mn[0m[31m=[0m[1;31m930[0m[1;31m)[0m[31m Incidence [0m[1;31m([0m[31mdiscontinuation[0m[1;31m)[0m[31m Placebo [0m[1;31m([0m[31mn[0m[31m=[0m[1;31m207[0m[1;31m)[0m[31m Incidence Dizziness[0m
-[1;31m7.5[0m[31m [0m[1;31m([0m[1;31m0.8[0m[1;31m)[0m[31m [0m[1;31m1.9[0m[31m Headache [0m[1;31m5.2[0m[31m [0m[1;31m([0m[1;31m0.3[0m[1;31m)[0m[31m [0m[1;31m1.9[0m[31m Cough [0m[1;31m3.9[0m[31m [0m[1;31m([0m[1;31m0.6[0m[1;31m)[0m[31m [0m[1;31m1.0[0m[31m Fatigue [0m[1;31m3.7[0m[31m [0m[1;31m([0m[1;31m0.4[0m[1;31m)[0m[31m [0m[1;31m1.0[0m[31m Orthostatic Effects [0m[1;31m3.2[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m1[0m[31m. LISINOPRIL: adverse_reactions: [0m[1;31m0[0m[31m Diarrhea [0m[1;31m2.5[0m[31m [0m[1;31m([0m[1;31m0.2[0m[1;31m)[0m[31m [0m[1;31m2.4[0m[31m Nausea [0m[1;31m2.2[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m2.4[0m[31m Upper [0m
-[31mRespiratory Infection [0m[1;31m2.2[0m[31m [0m[1;31m([0m[1;31m0.0[0m[1;31m)[0m[31m [0m[1;31m0.0[0m[31m Muscle Cramps [0m[1;31m2.0[0m[31m [0m[1;31m([0m[1;31m0.4[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Asthenia [0m[1;31m1.8[0m[31m [0m[1;31m([0m[1;31m0.2[0m[1;31m)[0m[31m [0m[1;31m1.0[0m[31m Paresthesia [0m[1;31m1.5[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m0.0[0m[31m Hypotension [0m[1;31m1.4[0m[31m [0m[1;31m([0m[1;31m0.3[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Vomiting [0m[1;31m1.4[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Dyspepsia [0m[1;31m1.3[0m[31m [0m[1;31m([0m[1;31m0.0[0m[1;31m)[0m[31m [0m[1;31m0.0[0m[31m Rash [0m[1;31m1.2[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m
-[1;31m0.5[0m[31m Impotence [0m[1;31m1.2[0m[31m [0m[1;31m([0m[1;31m0.3[0m[1;31m)[0m[31m [0m[1;31m0[0m[31m. LISINOPRIL: adverse_reactions: [0m[1;31m0[0m[31m Body as a Whole: Chest pain, abdominal pain, syncope, chest discomfort, fever, trauma, virus infection. Cardiovascular: Palpitation, [0m
-[31morthostatic hypotension. Digestive: Gastrointestinal cramps, dry mouth, constipation, heartburn. Musculoskeletal: Back pain, shoulder pain, knee pain, back strain, myalgia, foot pain. [0m
-[31mNervous/Psychiatric: Decreased libido, vertigo, depression, somnolence. Respiratory: Common cold, nasal congestion, influenza, bronchitis, pharyngeal pain, dyspnea, pulmonary congestion, chronic [0m
-[31msinusitis, allergic rhinitis, pharyngeal discomfort. Skin: Flushing, pruritus, skin inflammation, diaphoresis. Special Senses: Blurred vision, tinnitus, otalgia. Urogenital: Urinary tract infection. [0m
-[31mLISINOPRIL: adverse_reactions: Angioedema: Angioedema has been reported in patients receiving PRINZIDE, with an incidence higher in Black than in non-Black patients. Angioedema associated with [0m
-[31mlaryngeal edema may be fatal. If angioedema of the face, extremities, lips, tongue, glottis and/or larynx occurs, treatment with PRINZIDE should be discontinued and appropriate therapy instituted [0m
-[31mimmediately. In rare cases, intestinal angioedema has been reported with angiotensin converting enzyme inhibitors including lisinopril. [0m[1;31m([0m[31mSee WARNINGS [0m[1;31m)[0m[31m. Hypotension: In clinical trials, adverse [0m
-[31meffects relating to hypotension occurred as follows: hypotension [0m[1;31m([0m[1;31m1.4[0m[31m percent[0m[1;31m)[0m[31m, orthostatic hypotension [0m[1;31m([0m[1;31m0.5[0m[31m percent[0m[1;31m)[0m[31m, other orthostatic effects [0m[1;31m([0m[1;31m3.2[0m[31m percent[0m[1;31m)[0m[31m. In addition syncope occurred in [0m[1;31m0.8[0m[31m [0m
-[31mpercent of patients [0m[1;31m([0m[31mSee WARNINGS [0m[1;31m)[0m[31m. LISINOPRIL: adverse_reactions: Cough: See PRECAUTIONS - Cough . Clinical Laboratory Test Findings Serum Electrolytes: [0m[1;31m([0m[31mSee PRECAUTIONS [0m[1;31m)[0m[31m. Creatinine, Blood Urea [0m
-[31mNitrogen: Minor reversible increases in blood urea nitrogen and serum creatinine were observed in patients with essential hypertension treated with lisinopril and hydrochlorothiazide tablets. More [0m
-[31mmarked increases have also been reported and were more likely to occur in patients with renal artery stenosis [0m[1;31m([0m[31mSee PRECAUTIONS [0m[1;31m)[0m[31m. Serum Uric Acid, Glucose, Magnesium, Cholesterol, Triglycerides and [0m
-[31mCalcium: [0m[1;31m([0m[31mSee PRECAUTIONS [0m[1;31m)[0m[31m. Hemoglobin and Hematocrit: Small decreases in hemoglobin and hematocrit [0m[1;31m([0m[31mmean decreases of approximately [0m[1;31m0.5[0m[31m g% and [0m[1;31m1.5[0m[31m vol%, respectively[0m[1;31m)[0m[31m occurred frequently in [0m
-[31mhypertensive patients treated with lisinopril and hydrochlorothiazide tablets but were rarely of clinical importance unless another cause of anemia coexisted.         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: adverse_reactions: Discontinuation of therapy due to adverse effects was required in 4.4% of patients principally because of dizziness, cough, fatigue and muscle cramps. Adverse 
+experiences occurring in greater than one percent of patients treated with lisinopril plus hydrochlorothiazide in controlled clinical trials are shown below. Percent of Patients in Controlled Studies 
+Clinical adverse experiences occurring in 0.3% to 1.0% of patients in controlled trials included: Lisinopril-Hydrochlorothiazide (n=930) Incidence (discontinuation) Placebo (n=207) Incidence Dizziness
+7.5 (0.8) 1.9 Headache 5.2 (0.3) 1.9 Cough 3.9 (0.6) 1.0 Fatigue 3.7 (0.4) 1.0 Orthostatic Effects 3.2 (0.1) 1. LISINOPRIL: adverse_reactions: 0 Diarrhea 2.5 (0.2) 2.4 Nausea 2.2 (0.1) 2.4 Upper 
+Respiratory Infection 2.2 (0.0) 0.0 Muscle Cramps 2.0 (0.4) 0.5 Asthenia 1.8 (0.2) 1.0 Paresthesia 1.5 (0.1) 0.0 Hypotension 1.4 (0.3) 0.5 Vomiting 1.4 (0.1) 0.5 Dyspepsia 1.3 (0.0) 0.0 Rash 1.2 (0.1)
+0.5 Impotence 1.2 (0.3) 0. LISINOPRIL: adverse_reactions: 0 Body as a Whole: Chest pain, abdominal pain, syncope, chest discomfort, fever, trauma, virus infection. Cardiovascular: Palpitation, 
+orthostatic hypotension. Digestive: Gastrointestinal cramps, dry mouth, constipation, heartburn. Musculoskeletal: Back pain, shoulder pain, knee pain, back strain, myalgia, foot pain. 
+Nervous/Psychiatric: Decreased libido, vertigo, depression, somnolence. Respiratory: Common cold, nasal congestion, influenza, bronchitis, pharyngeal pain, dyspnea, pulmonary congestion, chronic 
+sinusitis, allergic rhinitis, pharyngeal discomfort. Skin: Flushing, pruritus, skin inflammation, diaphoresis. Special Senses: Blurred vision, tinnitus, otalgia. Urogenital: Urinary tract infection. 
+LISINOPRIL: adverse_reactions: Angioedema: Angioedema has been reported in patients receiving PRINZIDE, with an incidence higher in Black than in non-Black patients. Angioedema associated with 
+laryngeal edema may be fatal. If angioedema of the face, extremities, lips, tongue, glottis and/or larynx occurs, treatment with PRINZIDE should be discontinued and appropriate therapy instituted 
+immediately. In rare cases, intestinal angioedema has been reported with angiotensin converting enzyme inhibitors including lisinopril. (See WARNINGS ). Hypotension: In clinical trials, adverse 
+effects relating to hypotension occurred as follows: hypotension (1.4 percent), orthostatic hypotension (0.5 percent), other orthostatic effects (3.2 percent). In addition syncope occurred in 0.8 
+percent of patients (See WARNINGS ). LISINOPRIL: adverse_reactions: Cough: See PRECAUTIONS - Cough . Clinical Laboratory Test Findings Serum Electrolytes: (See PRECAUTIONS ). Creatinine, Blood Urea 
+Nitrogen: Minor reversible increases in blood urea nitrogen and serum creatinine were observed in patients with essential hypertension treated with lisinopril and hydrochlorothiazide tablets. More 
+marked increases have also been reported and were more likely to occur in patients with renal artery stenosis (See PRECAUTIONS ). Serum Uric Acid, Glucose, Magnesium, Cholesterol, Triglycerides and 
+Calcium: (See PRECAUTIONS ). Hemoglobin and Hematocrit: Small decreases in hemoglobin and hematocrit (mean decreases of approximately 0.5 g% and 1.5 vol%, respectively) occurred frequently in 
+hypertensive patients treated with lisinopril and hydrochlorothiazide tablets but were rarely of clinical importance unless another cause of anemia coexisted.         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: spl_id         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: spl_id         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: pharm_class_pe         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: pharm_class_pe         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: product_ndc         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: product_ndc         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: package_ndc         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: package_ndc         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: pharm_class_cs         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: pharm_class_cs         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: warnings: Periodic monitoring of white blood cell counts in patients with collagen vascular disease and renal disease should be considered. Hepatic Failure Rarely, ACE inhibitors [0m
-[31mhave been associated with a syndrome that starts with cholestatic jaundice or hepatitis and progresses to fulminant hepatic necrosis, and [0m[1;31m([0m[31msometimes[0m[1;31m)[0m[31m death. The mechanism of this syndrome is not [0m
-[31munderstood. Patients receiving ACE inhibitors who develop jaundice or marked elevations of hepatic enzymes should discontinue the ACE inhibitor and receive appropriate medical follow-up. [0m
-[31mHydrochlorothiazide Thiazides should be used with caution in severe renal disease. In patients with renal disease, thiazides may precipitate azotemia. Cumulative effects of the drug may develop in [0m
-[31mpatients with impaired renal function. Thiazides should be used with caution in patients with impaired hepatic function or progressive liver disease, since minor alterations of fluid and electrolyte [0m
-[31mbalance may precipitate hepatic coma. LISINOPRIL: warnings: Sensitivity reactions may occur in patients with or without a history of allergy or bronchial asthma. The possibility of exacerbation or [0m
-[31mactivation of systemic lupus erythematosus has been reported. Lithium generally should not be given with thiazides [0m[1;31m([0m[31msee PRECAUTIONS, Drug Interactions , Lisinopril and Hydrochlorothiazide [0m[1;31m)[0m[31m. Acute [0m
-[31mMyopia and Secondary Angle-Closure Glaucoma : Hydrochlorothiazide, a sulfonamide, can cause an idiosyncratic reaction, resulting in acute transient myopia and acute angle-closure glaucoma. Symptoms [0m
-[31minclude acute onset of decreased visual acuity or ocular pain and typically occur within hours to weeks of drug initiation. Untreated acute angle-closure glaucoma can lead to permanent vision loss. [0m
-[31mThe primary treatment is to discontinue hydrochlorothiazide as rapidly as possible. Prompt medical or surgical treatments may need to be considered if the intraocular pressure remains uncontrolled. [0m
-[31mLISINOPRIL: warnings: Risk factors for developing acute angle-closure glaucoma may include a history of sulfonamide or penicillin allergy. Fetal Toxicity Use of drugs that act on the renin-angiotensin[0m
-[31msystem during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal [0m
-[31mlung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected, discontinue [0m
-[31mlisinopril and hydrochlorothiazide tablets as soon as possible. These adverse outcomes are usually associated with the use of these drugs in the second and third trimester of pregnancy. LISINOPRIL: [0m
-[31mwarnings: Most epidemiologic studies examining fetal abnormalities after exposure to antihypertensive use in the first trimester have not distinguished drugs affecting the renin-angiotensin system [0m
-[31mfrom other antihypertensive agents. Appropriate management of maternal hypertension during pregnancy is important to optimize outcomes for both mother and fetus. In the unusual case that there is no [0m
-[31mappropriate alternative therapy to drugs affecting the renin-angiotensin system for a particular patient, apprise the mother of the potential risk to the fetus. Perform serial ultrasound examinations [0m
-[31mto assess the intra-amniotic environment. If oligohydramnios is observed, discontinue lisinopril and hydrochlorothiazide tablets, unless it is considered lifesaving for the mother. Fetal testing may [0m
-[31mbe appropriate, based on the week of pregnancy. Patients and physicians should be aware, however, that oligohydramnios may not appear until after the fetus has sustained irreversible injury. [0m
-[31mLISINOPRIL: warnings: Closely observe infants with histories of in utero exposure to lisinopril and hydrochlorothiazide tablets for hypotension, oliguria, and hyperkalemia [0m[1;31m([0m[31m See PRECAUTIONS, Pediatric[0m
-[31mUse [0m[1;31m)[0m[31m. Lisinopril-Hydrochlorothiazide Teratogenicity studies were conducted in mice and rats with up to [0m[1;31m90[0m[31m mg/kg/day of lisinopril in combination with [0m[1;31m10[0m[31m mg/kg/day of hydrochlorothiazide. This dose of[0m
-[31mlisinopril is [0m[1;31m5[0m[31m times [0m[1;31m([0m[31min mice[0m[1;31m)[0m[31m and [0m[1;31m10[0m[31m times [0m[1;31m([0m[31min rats[0m[1;31m)[0m[31m the maximum recommended human daily dose [0m[1;31m([0m[31mMRHDD[0m[1;31m)[0m[31m when compared on a body surface area basis [0m[1;31m([0m[31mmg/m [0m[1;31m2[0m[31m [0m[1;31m)[0m[31m; the dose of hydrochlorothiazide is [0m[1;31m0.9[0m[31m [0m
-[31mtimes [0m[1;31m([0m[31min mice[0m[1;31m)[0m[31m and [0m[1;31m1.8[0m[31m times [0m[1;31m([0m[31min rats[0m[1;31m)[0m[31m the MRHDD. Maternal or fetotoxic effects were not seen in mice with the combination.         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: warnings: Periodic monitoring of white blood cell counts in patients with collagen vascular disease and renal disease should be considered. Hepatic Failure Rarely, ACE inhibitors 
+have been associated with a syndrome that starts with cholestatic jaundice or hepatitis and progresses to fulminant hepatic necrosis, and (sometimes) death. The mechanism of this syndrome is not 
+understood. Patients receiving ACE inhibitors who develop jaundice or marked elevations of hepatic enzymes should discontinue the ACE inhibitor and receive appropriate medical follow-up. 
+Hydrochlorothiazide Thiazides should be used with caution in severe renal disease. In patients with renal disease, thiazides may precipitate azotemia. Cumulative effects of the drug may develop in 
+patients with impaired renal function. Thiazides should be used with caution in patients with impaired hepatic function or progressive liver disease, since minor alterations of fluid and electrolyte 
+balance may precipitate hepatic coma. LISINOPRIL: warnings: Sensitivity reactions may occur in patients with or without a history of allergy or bronchial asthma. The possibility of exacerbation or 
+activation of systemic lupus erythematosus has been reported. Lithium generally should not be given with thiazides (see PRECAUTIONS, Drug Interactions , Lisinopril and Hydrochlorothiazide ). Acute 
+Myopia and Secondary Angle-Closure Glaucoma : Hydrochlorothiazide, a sulfonamide, can cause an idiosyncratic reaction, resulting in acute transient myopia and acute angle-closure glaucoma. Symptoms 
+include acute onset of decreased visual acuity or ocular pain and typically occur within hours to weeks of drug initiation. Untreated acute angle-closure glaucoma can lead to permanent vision loss. 
+The primary treatment is to discontinue hydrochlorothiazide as rapidly as possible. Prompt medical or surgical treatments may need to be considered if the intraocular pressure remains uncontrolled. 
+LISINOPRIL: warnings: Risk factors for developing acute angle-closure glaucoma may include a history of sulfonamide or penicillin allergy. Fetal Toxicity Use of drugs that act on the renin-angiotensin
+system during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal 
+lung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected, discontinue 
+lisinopril and hydrochlorothiazide tablets as soon as possible. These adverse outcomes are usually associated with the use of these drugs in the second and third trimester of pregnancy. LISINOPRIL: 
+warnings: Most epidemiologic studies examining fetal abnormalities after exposure to antihypertensive use in the first trimester have not distinguished drugs affecting the renin-angiotensin system 
+from other antihypertensive agents. Appropriate management of maternal hypertension during pregnancy is important to optimize outcomes for both mother and fetus. In the unusual case that there is no 
+appropriate alternative therapy to drugs affecting the renin-angiotensin system for a particular patient, apprise the mother of the potential risk to the fetus. Perform serial ultrasound examinations 
+to assess the intra-amniotic environment. If oligohydramnios is observed, discontinue lisinopril and hydrochlorothiazide tablets, unless it is considered lifesaving for the mother. Fetal testing may 
+be appropriate, based on the week of pregnancy. Patients and physicians should be aware, however, that oligohydramnios may not appear until after the fetus has sustained irreversible injury. 
+LISINOPRIL: warnings: Closely observe infants with histories of in utero exposure to lisinopril and hydrochlorothiazide tablets for hypotension, oliguria, and hyperkalemia ( See PRECAUTIONS, Pediatric
+Use ). Lisinopril-Hydrochlorothiazide Teratogenicity studies were conducted in mice and rats with up to 90 mg/kg/day of lisinopril in combination with 10 mg/kg/day of hydrochlorothiazide. This dose of
+lisinopril is 5 times (in mice) and 10 times (in rats) the maximum recommended human daily dose (MRHDD) when compared on a body surface area basis (mg/m 2 ); the dose of hydrochlorothiazide is 0.9 
+times (in mice) and 1.8 times (in rats) the MRHDD. Maternal or fetotoxic effects were not seen in mice with the combination.         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: adverse_reactions: In addition, and since lisinopril has been marketed, the following adverse reactions have been reported with lisinopril and should be considered potential [0m
-[31madverse reactions for lisinopril and hydrochlorothiazide tablets: Body as a Whole: Anaphylactoid reactions [0m[1;31m([0m[31msee WARNINGS, Anaphylactoid and Possibly Related Reactions [0m[1;31m)[0m[31m, malaise, edema, facial edema, [0m
-[31mpain, pelvic pain, flank pain, chills; Cardiovascular: Cardiac arrest, myocardial infarction or cerebrovascular accident, possibly secondary to excessive hypotension in high risk patients [0m[1;31m([0m[31msee [0m
-[31mWARNINGS, Hypotension [0m[1;31m)[0m[31m, pulmonary embolism and infarction, worsening of heart failure, arrhythmias [0m[1;31m([0m[31mincluding tachycardia, ventricular tachycardia, atrial tachycardia, atrial fibrillation, [0m
-[31mbradycardia, and premature ventricular contractions[0m[1;31m)[0m[31m, angina pectoris, transient ischemic attacks LISINOPRIL: adverse_reactions: , paroxysmal nocturnal dyspnea, decreased blood pressure, peripheral [0m
-[31medema, vasculitis; Digestive: Pancreatitis, hepatitis [0m[1;31m([0m[31mhepatocellular or cholestatic jaundice[0m[1;31m)[0m[31m [0m[1;31m([0m[31msee WARNINGS, Hepatic Failure [0m[1;31m)[0m[31m, gastritis, anorexia, flatulence, increased salivation; Endocrine: [0m
-[31mDiabetes mellitus, syndrome of inappropriate antidiuretic hormone secretion [0m[1;31m([0m[31mSIADH[0m[1;31m)[0m[31m; Hematologic: Rare cases of neutropenia, thrombocytopenia, and bone marrow depression have been reported. [0m
-[31mLISINOPRIL: adverse_reactions: Hemolytic anemia has been reported; a causal relationship to lisinopril cannot be excluded; Metabolic: Gout, weight loss, dehydration, fluid overload, weight gain; [0m
-[31mMusculoskeletal: Arthritis, arthralgia, neck pain, hip pain, joint pain, leg pain, arm pain, lumbago; Nervous System/Psychiatric: Ataxia, memory impairment, tremor, insomnia, stroke, nervousness, [0m
-[31mconfusion, peripheral neuropathy [0m[1;31m([0m[31me.g. LISINOPRIL: adverse_reactions: paresthesia, dysesthesia[0m[1;31m)[0m[31m, spasm, hypersomnia, irritability, mood alterations [0m[1;31m([0m[31mincluding depressive symptoms[0m[1;31m)[0m[31m; hallucinations ; [0m
-[31mRespiratory: Malignant lung neoplasms, hemoptysis, pulmonary edema, pulmonary infiltrates, eosinophilic pneumonitis, bronchospasm, asthma, pleural effusion, pneumonia, wheezing, orthopnea, painful [0m
-[31mrespiration, epistaxis, laryngitis, sinusitis, pharyngitis, rhinitis, rhinorrhea, chest sound abnormalities; Skin: Urticaria, alopecia, herpes zoster, photosensitivity, skin lesions, skin infections, [0m
-[31mpemphigus, erythema, psoriasis. LISINOPRIL: adverse_reactions: Other severe skin reactions [0m[1;31m([0m[31mincluding toxic epidermal necrolysis, Stevens-Johnson syndrome and cutaneous pseudolymphoma[0m[1;31m)[0m[31m have been [0m
-[31mreported rarely; causal relationship has not been established; Special Senses: Visual loss, diplopia, photophobia, taste disturbances, olfactory disturbances; Urogenital: Acute renal failure, [0m
-[31moliguria, anuria, uremia, progressive azotemia, renal dysfunction [0m[1;31m([0m[31msee PRECAUTIONS and DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m, pyelonephritis, dysuria, breast pain. Miscellaneous: A symptom complex has been [0m
-[31mreported which may include a positive ANA, an elevated erythrocyte sedimentation rate, arthralgia/arthritis, myalgia, fever, vasculitis, leukocytosis, eosinophilia, photosensitivity, rash, and other [0m
-[31mdermatological manifestations.         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: adverse_reactions: In addition, and since lisinopril has been marketed, the following adverse reactions have been reported with lisinopril and should be considered potential 
+adverse reactions for lisinopril and hydrochlorothiazide tablets: Body as a Whole: Anaphylactoid reactions (see WARNINGS, Anaphylactoid and Possibly Related Reactions ), malaise, edema, facial edema, 
+pain, pelvic pain, flank pain, chills; Cardiovascular: Cardiac arrest, myocardial infarction or cerebrovascular accident, possibly secondary to excessive hypotension in high risk patients (see 
+WARNINGS, Hypotension ), pulmonary embolism and infarction, worsening of heart failure, arrhythmias (including tachycardia, ventricular tachycardia, atrial tachycardia, atrial fibrillation, 
+bradycardia, and premature ventricular contractions), angina pectoris, transient ischemic attacks LISINOPRIL: adverse_reactions: , paroxysmal nocturnal dyspnea, decreased blood pressure, peripheral 
+edema, vasculitis; Digestive: Pancreatitis, hepatitis (hepatocellular or cholestatic jaundice) (see WARNINGS, Hepatic Failure ), gastritis, anorexia, flatulence, increased salivation; Endocrine: 
+Diabetes mellitus, syndrome of inappropriate antidiuretic hormone secretion (SIADH); Hematologic: Rare cases of neutropenia, thrombocytopenia, and bone marrow depression have been reported. 
+LISINOPRIL: adverse_reactions: Hemolytic anemia has been reported; a causal relationship to lisinopril cannot be excluded; Metabolic: Gout, weight loss, dehydration, fluid overload, weight gain; 
+Musculoskeletal: Arthritis, arthralgia, neck pain, hip pain, joint pain, leg pain, arm pain, lumbago; Nervous System/Psychiatric: Ataxia, memory impairment, tremor, insomnia, stroke, nervousness, 
+confusion, peripheral neuropathy (e.g. LISINOPRIL: adverse_reactions: paresthesia, dysesthesia), spasm, hypersomnia, irritability, mood alterations (including depressive symptoms); hallucinations ; 
+Respiratory: Malignant lung neoplasms, hemoptysis, pulmonary edema, pulmonary infiltrates, eosinophilic pneumonitis, bronchospasm, asthma, pleural effusion, pneumonia, wheezing, orthopnea, painful 
+respiration, epistaxis, laryngitis, sinusitis, pharyngitis, rhinitis, rhinorrhea, chest sound abnormalities; Skin: Urticaria, alopecia, herpes zoster, photosensitivity, skin lesions, skin infections, 
+pemphigus, erythema, psoriasis. LISINOPRIL: adverse_reactions: Other severe skin reactions (including toxic epidermal necrolysis, Stevens-Johnson syndrome and cutaneous pseudolymphoma) have been 
+reported rarely; causal relationship has not been established; Special Senses: Visual loss, diplopia, photophobia, taste disturbances, olfactory disturbances; Urogenital: Acute renal failure, 
+oliguria, anuria, uremia, progressive azotemia, renal dysfunction (see PRECAUTIONS and DOSAGE AND ADMINISTRATION ), pyelonephritis, dysuria, breast pain. Miscellaneous: A symptom complex has been 
+reported which may include a positive ANA, an elevated erythrocyte sedimentation rate, arthralgia/arthritis, myalgia, fever, vasculitis, leukocytosis, eosinophilia, photosensitivity, rash, and other 
+dermatological manifestations.         
+SOURCE:LISINOPRIL label
 
-[31m        -----[0m
-[31m        If NONE of the extracts are relevant, try doing a web search with the[0m
-[31m        `relevant_search_extracts` tool/function-call[0m
-[31m        [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32m DO-NOT-KNOW[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"query"[0m[32m: [0m[32m"Does LISINOPRIL increase or decrease the risk of hip fracture?"[0m[32m,[0m
-[32m    [0m[32m"drug"[0m[32m: [0m[32m"LISINOPRIL"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31mNo relevant extracts found for Does LISINOPRIL increase or decrease the risk of hip[0m
-[31mfracture?[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
-[32m    [0m[32m"content"[0m[32m: [0m[32m"Does LISINOPRIL increase or decrease the risk of hip fracture?"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes LISINOPRIL increase or decrease the risk of hip fracture?[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes LISINOPRIL increase or decrease the risk of hip fracture?[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"query"[0m[32m: [0m[32m"Does LISINOPRIL increase or decrease the risk of hip fracture?"[0m[32m,[0m
-[32m    [0m[32m"drug"[0m[32m: [0m[32m"LISINOPRIL"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31mCONTENT: LISINOPRIL: drug_interactions: Drug Interactions Lisinopril Hypotension - Patients on Diuretic Therapy: Patients on diuretics and especially those in whom diuretic therapy was recently [0m
-[31minstituted, may occasionally experience an excessive reduction of blood pressure after initiation of therapy with lisinopril. The possibility of hypotensive effects with lisinopril can be minimized by[0m
-[31meither discontinuing the diuretic or increasing the salt intake prior to initiation of treatment with lisinopril. If it is necessary to continue the diuretic, initiate therapy with lisinopril at a [0m
-[31mdose of [0m[1;31m5[0m[31m mg daily, and provide close medical supervision after the initial dose for at least two hours and until blood pressure has stabilized for at least an additional hour. [0m[1;31m([0m[31mSee WARNINGS , and [0m
-[31mDOSAGE AND ADMINISTRATION .[0m[1;31m)[0m[31m When a diuretic is added to the therapy of a patient receiving lisinopril, an additional antihypertensive effect is usually observed [0m[1;31m([0m[31mSee DOSAGE AND ADMINISTRATION . [0m
-[31mLISINOPRIL: drug_interactions: [0m[1;31m)[0m[31m Non-steroidal Anti-inflammatory Agents Including Selective Cyclooxygenase-[0m[1;31m2[0m[31m [0m[1;31m([0m[31mCOX-[0m[1;31m2[0m[1;31m)[0m[31m Inhibitors: In patients who are elderly, volume-depleted [0m[1;31m([0m[31mincluding those on [0m
-[31mdiuretic therapy[0m[1;31m)[0m[31m, or with compromised renal function, co-administration of NSAIDs, including selective COX-[0m[1;31m2[0m[31m inhibitors, with ACE inhibitors, including lisinopril, may result in deterioration of [0m
-[31mrenal function, including possible acute renal failure. These effects are usually reversible. Monitor renal function periodically in patients receiving lisinopril and NSAID therapy. The [0m
-[31mantihypertensive effect of ACE inhibitors, including lisinopril, may be attenuated by NSAIDs. LISINOPRIL: drug_interactions: Dual Blockade of the Renin-Angiotensin System [0m[1;31m([0m[31mRAS[0m[1;31m)[0m[31m: Dual blockade of the [0m
-[31mRAS with angiotensin receptor blockers, ACE inhibitors, or direct renin inhibitors [0m[1;31m([0m[31msuch as aliskiren[0m[1;31m)[0m[31m is associated with increased risk of hypotension, syncope, hyperkalemia, and changes in renal [0m
-[31mfunction [0m[1;31m([0m[31mincluding acute renal failure[0m[1;31m)[0m[31m compared to monotherapy. The VA NEPHRON trial enrolled [0m[1;31m1448[0m[31m patients with type [0m[1;31m2[0m[31m diabetes, elevated urinary-albumin-to-creatinine ratio, and decreased [0m
-[31mestimated glomerular filtration rate [0m[1;31m([0m[31mGFR [0m[1;31m30[0m[31m to [0m[1;31m89.9[0m[31m ml/min[0m[1;31m)[0m[31m, randomized them to lisinopril or placebo on a background of losartan therapy and followed them for a median of [0m[1;31m2.2[0m[31m years. LISINOPRIL: [0m
-[31mdrug_interactions: Patients receiving the combination of losartan and lisinopril did not obtain any additional benefit compared to monotherapy for the combined endpoint of decline in GFR, end state [0m
-[31mrenal disease, or death, but experienced an increased incidence of hyperkalemia and acute kidney injury compared with the monotherapy group. In general, avoid combined use of RAS inhibitors. Monitor [0m
-[31mblood pressure, renal function, and electrolytes in patients on lisinopril and hydrochlorothiazide tablets and other agents that affect the RAS. Do not coadminister aliskiren with lisinopril and [0m
-[31mhydrochlorothiazide tablets in patients with diabetes. Avoid use of aliskiren with PRINZIDE in patients with renal impairment [0m[1;31m([0m[31mGFR <[0m[1;31m60[0m[31m ml/min[0m[1;31m)[0m[31m. Other Agents: Lisinopril has been used concomitantly [0m
-[31mwith nitrates and/or digoxin without evidence of clinically significant adverse interactions. LISINOPRIL: drug_interactions: No meaningful clinically important pharmacokinetic interactions occurred [0m
-[31mwhen lisinopril was used concomitantly with propranolol, digoxin, or hydrochlorothiazide. The presence of food in the stomach does not alter the bioavailability of lisinopril. Agents Increasing Serum [0m
-[31mPotassium: Lisinopril attenuates potassium loss caused by thiazide-type diuretics. Use of lisinopril with potassium-sparing diuretics [0m[1;31m([0m[31me.g., spironolactone, eplerenone, triamterene, or amiloride[0m[1;31m)[0m[31m, [0m
-[31mpotassium supplements, or potassium-containing salt substitutes may lead to significant increases in serum potassium. Therefore, if concomitant use of these agents is indicated, because of [0m
-[31mdemonstrated hypokalemia, they should be used with caution and with frequent monitoring of serum potassium. Lithium: Lithium toxicity has been reported in patients receiving lithium concomitantly with[0m
-[31mdrugs which cause elimination of sodium, including ACE inhibitors.         [0m
-[31mSOURCE:LISINOPRIL label[0m
-
-
-[31mCONTENT: LISINOPRIL: indications_and_usage: INDICATIONS AND USAGE Lisinopril and hydrochlorothiazide tablets are indicated for the treatment of hypertension, to lower blood pressure. Lowering blood [0m
-[31mpressure lowers the risk of fatal and non-fatal cardiovascular events, primarily strokes and myocardial infarctions. These benefits have been seen in controlled trials of antihypertensive drugs from a[0m
-[31mwide variety of pharmacologic classes including lisinopril and hydrochlorothiazide. Control of high blood pressure should be part of comprehensive cardiovascular risk management, including, as [0m
-[31mappropriate, lipid control, diabetes management, antithrombotic therapy, smoking cessation, exercise, and limited sodium intake. Many patients will require more than [0m[1;31m1[0m[31m drug to achieve blood pressure [0m
-[31mgoals. For specific advice on goals and management, see published guidelines, such as those of the National High Blood Pressure Education Program’s Joint National Committee on Prevention, Detection, [0m
-[31mEvaluation, and Treatment of High Blood Pressure [0m[1;31m([0m[31mJNC[0m[1;31m)[0m[31m. LISINOPRIL: indications_and_usage: Numerous antihypertensive drugs, from a variety of pharmacologic classes and with different mechanisms of [0m
-[31maction, have been shown in randomized controlled trials to reduce cardiovascular morbidity and mortality, and it can be concluded that it is blood pressure reduction, and not some other pharmacologic [0m
-[31mproperty of the drugs, that is largely responsible for those benefits. The largest and most consistent cardiovascular outcome benefit has been a reduction in the risk of stroke, but reductions in [0m
-[31mmyocardial infarction and cardiovascular mortality also have been seen regularly. Elevated systolic or diastolic pressure causes increased cardiovascular risk, and the absolute risk increase per mmHg [0m
-[31mis greater at higher blood pressures, so that even modest reductions of severe hypertension can provide substantial benefit. LISINOPRIL: indications_and_usage: Relative risk reduction from blood [0m
-[31mpressure reduction is similar across populations with varying absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension [0m[1;31m([0m[31mfor example, [0m
-[31mpatients with diabetes or hyperlipidemia[0m[1;31m)[0m[31m, and such patients would be expected to benefit from more aggressive treatment to a lower blood pressure goal. Some antihypertensive drugs have smaller blood [0m
-[31mpressure effects [0m[1;31m([0m[31mas monotherapy[0m[1;31m)[0m[31m in black patients, and many antihypertensive drugs have additional approved indications and effects [0m[1;31m([0m[31me.g., on angina, heart failure, or diabetic kidney disease[0m[1;31m)[0m[31m. [0m
-[31mThese considerations may guide selection of therapy. These fixed-dose combinations are not indicated for initial therapy [0m[1;31m([0m[31msee DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m. LISINOPRIL: indications_and_usage: In using [0m
-[31mlisinopril and hydrochlorothiazide tablets, consideration should be given to the fact that an angiotensin-converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients [0m
-[31mwith renal impairment or collagen vascular disease, and that available data are insufficient to show that lisinopril does not have a similar risk. [0m[1;31m([0m[31mSee WARNINGS .[0m[1;31m)[0m[31m In considering use of lisinopril and[0m
-[31mhydrochlorothiazide tablets, it should be noted that Black patients receiving ACE inhibitors have been reported to have a higher incidence of angioedema compared to non-Black. [0m[1;31m([0m[31mSee WARNINGS, Head and [0m
-[31mNeck Angioedema .         [0m
-[31mSOURCE:LISINOPRIL label[0m
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          )  DO-NOT-KNOW
+*(FDAHandler)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does LISINOPRIL increase or decrease the risk of hip fracture?",
+    "drug": "LISINOPRIL"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does LISINOPRIL increase or decrease the risk of hip
+fracture?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT 
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does LISINOPRIL increase or decrease the risk of hip fracture?"
+  }
+}
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does LISINOPRIL increase or decrease the risk of hip fracture?
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does LISINOPRIL increase or decrease the risk of hip fracture?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does LISINOPRIL increase or decrease the risk of hip fracture?",
+    "drug": "LISINOPRIL"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: LISINOPRIL: drug_interactions: Drug Interactions Lisinopril Hypotension - Patients on Diuretic Therapy: Patients on diuretics and especially those in whom diuretic therapy was recently 
+instituted, may occasionally experience an excessive reduction of blood pressure after initiation of therapy with lisinopril. The possibility of hypotensive effects with lisinopril can be minimized by
+either discontinuing the diuretic or increasing the salt intake prior to initiation of treatment with lisinopril. If it is necessary to continue the diuretic, initiate therapy with lisinopril at a 
+dose of 5 mg daily, and provide close medical supervision after the initial dose for at least two hours and until blood pressure has stabilized for at least an additional hour. (See WARNINGS , and 
+DOSAGE AND ADMINISTRATION .) When a diuretic is added to the therapy of a patient receiving lisinopril, an additional antihypertensive effect is usually observed (See DOSAGE AND ADMINISTRATION . 
+LISINOPRIL: drug_interactions: ) Non-steroidal Anti-inflammatory Agents Including Selective Cyclooxygenase-2 (COX-2) Inhibitors: In patients who are elderly, volume-depleted (including those on 
+diuretic therapy), or with compromised renal function, co-administration of NSAIDs, including selective COX-2 inhibitors, with ACE inhibitors, including lisinopril, may result in deterioration of 
+renal function, including possible acute renal failure. These effects are usually reversible. Monitor renal function periodically in patients receiving lisinopril and NSAID therapy. The 
+antihypertensive effect of ACE inhibitors, including lisinopril, may be attenuated by NSAIDs. LISINOPRIL: drug_interactions: Dual Blockade of the Renin-Angiotensin System (RAS): Dual blockade of the 
+RAS with angiotensin receptor blockers, ACE inhibitors, or direct renin inhibitors (such as aliskiren) is associated with increased risk of hypotension, syncope, hyperkalemia, and changes in renal 
+function (including acute renal failure) compared to monotherapy. The VA NEPHRON trial enrolled 1448 patients with type 2 diabetes, elevated urinary-albumin-to-creatinine ratio, and decreased 
+estimated glomerular filtration rate (GFR 30 to 89.9 ml/min), randomized them to lisinopril or placebo on a background of losartan therapy and followed them for a median of 2.2 years. LISINOPRIL: 
+drug_interactions: Patients receiving the combination of losartan and lisinopril did not obtain any additional benefit compared to monotherapy for the combined endpoint of decline in GFR, end state 
+renal disease, or death, but experienced an increased incidence of hyperkalemia and acute kidney injury compared with the monotherapy group. In general, avoid combined use of RAS inhibitors. Monitor 
+blood pressure, renal function, and electrolytes in patients on lisinopril and hydrochlorothiazide tablets and other agents that affect the RAS. Do not coadminister aliskiren with lisinopril and 
+hydrochlorothiazide tablets in patients with diabetes. Avoid use of aliskiren with PRINZIDE in patients with renal impairment (GFR <60 ml/min). Other Agents: Lisinopril has been used concomitantly 
+with nitrates and/or digoxin without evidence of clinically significant adverse interactions. LISINOPRIL: drug_interactions: No meaningful clinically important pharmacokinetic interactions occurred 
+when lisinopril was used concomitantly with propranolol, digoxin, or hydrochlorothiazide. The presence of food in the stomach does not alter the bioavailability of lisinopril. Agents Increasing Serum 
+Potassium: Lisinopril attenuates potassium loss caused by thiazide-type diuretics. Use of lisinopril with potassium-sparing diuretics (e.g., spironolactone, eplerenone, triamterene, or amiloride), 
+potassium supplements, or potassium-containing salt substitutes may lead to significant increases in serum potassium. Therefore, if concomitant use of these agents is indicated, because of 
+demonstrated hypokalemia, they should be used with caution and with frequent monitoring of serum potassium. Lithium: Lithium toxicity has been reported in patients receiving lithium concomitantly with
+drugs which cause elimination of sodium, including ACE inhibitors.         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: adverse_reactions: Discontinuation of therapy due to adverse effects was required in [0m[1;31m4.4[0m[31m% of patients principally because of dizziness, cough, fatigue and muscle cramps. Adverse [0m
-[31mexperiences occurring in greater than one percent of patients treated with lisinopril plus hydrochlorothiazide in controlled clinical trials are shown below. Percent of Patients in Controlled Studies [0m
-[31mClinical adverse experiences occurring in [0m[1;31m0.3[0m[31m% to [0m[1;31m1.0[0m[31m% of patients in controlled trials included: Lisinopril-Hydrochlorothiazide [0m[1;31m([0m[31mn[0m[31m=[0m[1;31m930[0m[1;31m)[0m[31m Incidence [0m[1;31m([0m[31mdiscontinuation[0m[1;31m)[0m[31m Placebo [0m[1;31m([0m[31mn[0m[31m=[0m[1;31m207[0m[1;31m)[0m[31m Incidence Dizziness[0m
-[1;31m7.5[0m[31m [0m[1;31m([0m[1;31m0.8[0m[1;31m)[0m[31m [0m[1;31m1.9[0m[31m Headache [0m[1;31m5.2[0m[31m [0m[1;31m([0m[1;31m0.3[0m[1;31m)[0m[31m [0m[1;31m1.9[0m[31m Cough [0m[1;31m3.9[0m[31m [0m[1;31m([0m[1;31m0.6[0m[1;31m)[0m[31m [0m[1;31m1.0[0m[31m Fatigue [0m[1;31m3.7[0m[31m [0m[1;31m([0m[1;31m0.4[0m[1;31m)[0m[31m [0m[1;31m1.0[0m[31m Orthostatic Effects [0m[1;31m3.2[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m1[0m[31m. LISINOPRIL: adverse_reactions: [0m[1;31m0[0m[31m Diarrhea [0m[1;31m2.5[0m[31m [0m[1;31m([0m[1;31m0.2[0m[1;31m)[0m[31m [0m[1;31m2.4[0m[31m Nausea [0m[1;31m2.2[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m2.4[0m[31m Upper [0m
-[31mRespiratory Infection [0m[1;31m2.2[0m[31m [0m[1;31m([0m[1;31m0.0[0m[1;31m)[0m[31m [0m[1;31m0.0[0m[31m Muscle Cramps [0m[1;31m2.0[0m[31m [0m[1;31m([0m[1;31m0.4[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Asthenia [0m[1;31m1.8[0m[31m [0m[1;31m([0m[1;31m0.2[0m[1;31m)[0m[31m [0m[1;31m1.0[0m[31m Paresthesia [0m[1;31m1.5[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m0.0[0m[31m Hypotension [0m[1;31m1.4[0m[31m [0m[1;31m([0m[1;31m0.3[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Vomiting [0m[1;31m1.4[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Dyspepsia [0m[1;31m1.3[0m[31m [0m[1;31m([0m[1;31m0.0[0m[1;31m)[0m[31m [0m[1;31m0.0[0m[31m Rash [0m[1;31m1.2[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m
-[1;31m0.5[0m[31m Impotence [0m[1;31m1.2[0m[31m [0m[1;31m([0m[1;31m0.3[0m[1;31m)[0m[31m [0m[1;31m0[0m[31m. LISINOPRIL: adverse_reactions: [0m[1;31m0[0m[31m Body as a Whole: Chest pain, abdominal pain, syncope, chest discomfort, fever, trauma, virus infection. Cardiovascular: Palpitation, [0m
-[31morthostatic hypotension. Digestive: Gastrointestinal cramps, dry mouth, constipation, heartburn. Musculoskeletal: Back pain, shoulder pain, knee pain, back strain, myalgia, foot pain. [0m
-[31mNervous/Psychiatric: Decreased libido, vertigo, depression, somnolence. Respiratory: Common cold, nasal congestion, influenza, bronchitis, pharyngeal pain, dyspnea, pulmonary congestion, chronic [0m
-[31msinusitis, allergic rhinitis, pharyngeal discomfort. Skin: Flushing, pruritus, skin inflammation, diaphoresis. Special Senses: Blurred vision, tinnitus, otalgia. Urogenital: Urinary tract infection. [0m
-[31mLISINOPRIL: adverse_reactions: Angioedema: Angioedema has been reported in patients receiving PRINZIDE, with an incidence higher in Black than in non-Black patients. Angioedema associated with [0m
-[31mlaryngeal edema may be fatal. If angioedema of the face, extremities, lips, tongue, glottis and/or larynx occurs, treatment with PRINZIDE should be discontinued and appropriate therapy instituted [0m
-[31mimmediately. In rare cases, intestinal angioedema has been reported with angiotensin converting enzyme inhibitors including lisinopril. [0m[1;31m([0m[31mSee WARNINGS [0m[1;31m)[0m[31m. Hypotension: In clinical trials, adverse [0m
-[31meffects relating to hypotension occurred as follows: hypotension [0m[1;31m([0m[1;31m1.4[0m[31m percent[0m[1;31m)[0m[31m, orthostatic hypotension [0m[1;31m([0m[1;31m0.5[0m[31m percent[0m[1;31m)[0m[31m, other orthostatic effects [0m[1;31m([0m[1;31m3.2[0m[31m percent[0m[1;31m)[0m[31m. In addition syncope occurred in [0m[1;31m0.8[0m[31m [0m
-[31mpercent of patients [0m[1;31m([0m[31mSee WARNINGS [0m[1;31m)[0m[31m. LISINOPRIL: adverse_reactions: Cough: See PRECAUTIONS - Cough . Clinical Laboratory Test Findings Serum Electrolytes: [0m[1;31m([0m[31mSee PRECAUTIONS [0m[1;31m)[0m[31m. Creatinine, Blood Urea [0m
-[31mNitrogen: Minor reversible increases in blood urea nitrogen and serum creatinine were observed in patients with essential hypertension treated with lisinopril and hydrochlorothiazide tablets. More [0m
-[31mmarked increases have also been reported and were more likely to occur in patients with renal artery stenosis [0m[1;31m([0m[31mSee PRECAUTIONS [0m[1;31m)[0m[31m. Serum Uric Acid, Glucose, Magnesium, Cholesterol, Triglycerides and [0m
-[31mCalcium: [0m[1;31m([0m[31mSee PRECAUTIONS [0m[1;31m)[0m[31m. Hemoglobin and Hematocrit: Small decreases in hemoglobin and hematocrit [0m[1;31m([0m[31mmean decreases of approximately [0m[1;31m0.5[0m[31m g% and [0m[1;31m1.5[0m[31m vol%, respectively[0m[1;31m)[0m[31m occurred frequently in [0m
-[31mhypertensive patients treated with lisinopril and hydrochlorothiazide tablets but were rarely of clinical importance unless another cause of anemia coexisted.         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: indications_and_usage: INDICATIONS AND USAGE Lisinopril and hydrochlorothiazide tablets are indicated for the treatment of hypertension, to lower blood pressure. Lowering blood 
+pressure lowers the risk of fatal and non-fatal cardiovascular events, primarily strokes and myocardial infarctions. These benefits have been seen in controlled trials of antihypertensive drugs from a
+wide variety of pharmacologic classes including lisinopril and hydrochlorothiazide. Control of high blood pressure should be part of comprehensive cardiovascular risk management, including, as 
+appropriate, lipid control, diabetes management, antithrombotic therapy, smoking cessation, exercise, and limited sodium intake. Many patients will require more than 1 drug to achieve blood pressure 
+goals. For specific advice on goals and management, see published guidelines, such as those of the National High Blood Pressure Education Program’s Joint National Committee on Prevention, Detection, 
+Evaluation, and Treatment of High Blood Pressure (JNC). LISINOPRIL: indications_and_usage: Numerous antihypertensive drugs, from a variety of pharmacologic classes and with different mechanisms of 
+action, have been shown in randomized controlled trials to reduce cardiovascular morbidity and mortality, and it can be concluded that it is blood pressure reduction, and not some other pharmacologic 
+property of the drugs, that is largely responsible for those benefits. The largest and most consistent cardiovascular outcome benefit has been a reduction in the risk of stroke, but reductions in 
+myocardial infarction and cardiovascular mortality also have been seen regularly. Elevated systolic or diastolic pressure causes increased cardiovascular risk, and the absolute risk increase per mmHg 
+is greater at higher blood pressures, so that even modest reductions of severe hypertension can provide substantial benefit. LISINOPRIL: indications_and_usage: Relative risk reduction from blood 
+pressure reduction is similar across populations with varying absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension (for example, 
+patients with diabetes or hyperlipidemia), and such patients would be expected to benefit from more aggressive treatment to a lower blood pressure goal. Some antihypertensive drugs have smaller blood 
+pressure effects (as monotherapy) in black patients, and many antihypertensive drugs have additional approved indications and effects (e.g., on angina, heart failure, or diabetic kidney disease). 
+These considerations may guide selection of therapy. These fixed-dose combinations are not indicated for initial therapy (see DOSAGE AND ADMINISTRATION ). LISINOPRIL: indications_and_usage: In using 
+lisinopril and hydrochlorothiazide tablets, consideration should be given to the fact that an angiotensin-converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients 
+with renal impairment or collagen vascular disease, and that available data are insufficient to show that lisinopril does not have a similar risk. (See WARNINGS .) In considering use of lisinopril and
+hydrochlorothiazide tablets, it should be noted that Black patients receiving ACE inhibitors have been reported to have a higher incidence of angioedema compared to non-Black. (See WARNINGS, Head and 
+Neck Angioedema .         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: spl_id         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: adverse_reactions: Discontinuation of therapy due to adverse effects was required in 4.4% of patients principally because of dizziness, cough, fatigue and muscle cramps. Adverse 
+experiences occurring in greater than one percent of patients treated with lisinopril plus hydrochlorothiazide in controlled clinical trials are shown below. Percent of Patients in Controlled Studies 
+Clinical adverse experiences occurring in 0.3% to 1.0% of patients in controlled trials included: Lisinopril-Hydrochlorothiazide (n=930) Incidence (discontinuation) Placebo (n=207) Incidence Dizziness
+7.5 (0.8) 1.9 Headache 5.2 (0.3) 1.9 Cough 3.9 (0.6) 1.0 Fatigue 3.7 (0.4) 1.0 Orthostatic Effects 3.2 (0.1) 1. LISINOPRIL: adverse_reactions: 0 Diarrhea 2.5 (0.2) 2.4 Nausea 2.2 (0.1) 2.4 Upper 
+Respiratory Infection 2.2 (0.0) 0.0 Muscle Cramps 2.0 (0.4) 0.5 Asthenia 1.8 (0.2) 1.0 Paresthesia 1.5 (0.1) 0.0 Hypotension 1.4 (0.3) 0.5 Vomiting 1.4 (0.1) 0.5 Dyspepsia 1.3 (0.0) 0.0 Rash 1.2 (0.1)
+0.5 Impotence 1.2 (0.3) 0. LISINOPRIL: adverse_reactions: 0 Body as a Whole: Chest pain, abdominal pain, syncope, chest discomfort, fever, trauma, virus infection. Cardiovascular: Palpitation, 
+orthostatic hypotension. Digestive: Gastrointestinal cramps, dry mouth, constipation, heartburn. Musculoskeletal: Back pain, shoulder pain, knee pain, back strain, myalgia, foot pain. 
+Nervous/Psychiatric: Decreased libido, vertigo, depression, somnolence. Respiratory: Common cold, nasal congestion, influenza, bronchitis, pharyngeal pain, dyspnea, pulmonary congestion, chronic 
+sinusitis, allergic rhinitis, pharyngeal discomfort. Skin: Flushing, pruritus, skin inflammation, diaphoresis. Special Senses: Blurred vision, tinnitus, otalgia. Urogenital: Urinary tract infection. 
+LISINOPRIL: adverse_reactions: Angioedema: Angioedema has been reported in patients receiving PRINZIDE, with an incidence higher in Black than in non-Black patients. Angioedema associated with 
+laryngeal edema may be fatal. If angioedema of the face, extremities, lips, tongue, glottis and/or larynx occurs, treatment with PRINZIDE should be discontinued and appropriate therapy instituted 
+immediately. In rare cases, intestinal angioedema has been reported with angiotensin converting enzyme inhibitors including lisinopril. (See WARNINGS ). Hypotension: In clinical trials, adverse 
+effects relating to hypotension occurred as follows: hypotension (1.4 percent), orthostatic hypotension (0.5 percent), other orthostatic effects (3.2 percent). In addition syncope occurred in 0.8 
+percent of patients (See WARNINGS ). LISINOPRIL: adverse_reactions: Cough: See PRECAUTIONS - Cough . Clinical Laboratory Test Findings Serum Electrolytes: (See PRECAUTIONS ). Creatinine, Blood Urea 
+Nitrogen: Minor reversible increases in blood urea nitrogen and serum creatinine were observed in patients with essential hypertension treated with lisinopril and hydrochlorothiazide tablets. More 
+marked increases have also been reported and were more likely to occur in patients with renal artery stenosis (See PRECAUTIONS ). Serum Uric Acid, Glucose, Magnesium, Cholesterol, Triglycerides and 
+Calcium: (See PRECAUTIONS ). Hemoglobin and Hematocrit: Small decreases in hemoglobin and hematocrit (mean decreases of approximately 0.5 g% and 1.5 vol%, respectively) occurred frequently in 
+hypertensive patients treated with lisinopril and hydrochlorothiazide tablets but were rarely of clinical importance unless another cause of anemia coexisted.         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: pharm_class_pe         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: spl_id         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: product_ndc         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: pharm_class_pe         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: package_ndc         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: product_ndc         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: pharm_class_cs         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: package_ndc         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: warnings: Periodic monitoring of white blood cell counts in patients with collagen vascular disease and renal disease should be considered. Hepatic Failure Rarely, ACE inhibitors [0m
-[31mhave been associated with a syndrome that starts with cholestatic jaundice or hepatitis and progresses to fulminant hepatic necrosis, and [0m[1;31m([0m[31msometimes[0m[1;31m)[0m[31m death. The mechanism of this syndrome is not [0m
-[31munderstood. Patients receiving ACE inhibitors who develop jaundice or marked elevations of hepatic enzymes should discontinue the ACE inhibitor and receive appropriate medical follow-up. [0m
-[31mHydrochlorothiazide Thiazides should be used with caution in severe renal disease. In patients with renal disease, thiazides may precipitate azotemia. Cumulative effects of the drug may develop in [0m
-[31mpatients with impaired renal function. Thiazides should be used with caution in patients with impaired hepatic function or progressive liver disease, since minor alterations of fluid and electrolyte [0m
-[31mbalance may precipitate hepatic coma. LISINOPRIL: warnings: Sensitivity reactions may occur in patients with or without a history of allergy or bronchial asthma. The possibility of exacerbation or [0m
-[31mactivation of systemic lupus erythematosus has been reported. Lithium generally should not be given with thiazides [0m[1;31m([0m[31msee PRECAUTIONS, Drug Interactions , Lisinopril and Hydrochlorothiazide [0m[1;31m)[0m[31m. Acute [0m
-[31mMyopia and Secondary Angle-Closure Glaucoma : Hydrochlorothiazide, a sulfonamide, can cause an idiosyncratic reaction, resulting in acute transient myopia and acute angle-closure glaucoma. Symptoms [0m
-[31minclude acute onset of decreased visual acuity or ocular pain and typically occur within hours to weeks of drug initiation. Untreated acute angle-closure glaucoma can lead to permanent vision loss. [0m
-[31mThe primary treatment is to discontinue hydrochlorothiazide as rapidly as possible. Prompt medical or surgical treatments may need to be considered if the intraocular pressure remains uncontrolled. [0m
-[31mLISINOPRIL: warnings: Risk factors for developing acute angle-closure glaucoma may include a history of sulfonamide or penicillin allergy. Fetal Toxicity Use of drugs that act on the renin-angiotensin[0m
-[31msystem during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal [0m
-[31mlung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected, discontinue [0m
-[31mlisinopril and hydrochlorothiazide tablets as soon as possible. These adverse outcomes are usually associated with the use of these drugs in the second and third trimester of pregnancy. LISINOPRIL: [0m
-[31mwarnings: Most epidemiologic studies examining fetal abnormalities after exposure to antihypertensive use in the first trimester have not distinguished drugs affecting the renin-angiotensin system [0m
-[31mfrom other antihypertensive agents. Appropriate management of maternal hypertension during pregnancy is important to optimize outcomes for both mother and fetus. In the unusual case that there is no [0m
-[31mappropriate alternative therapy to drugs affecting the renin-angiotensin system for a particular patient, apprise the mother of the potential risk to the fetus. Perform serial ultrasound examinations [0m
-[31mto assess the intra-amniotic environment. If oligohydramnios is observed, discontinue lisinopril and hydrochlorothiazide tablets, unless it is considered lifesaving for the mother. Fetal testing may [0m
-[31mbe appropriate, based on the week of pregnancy. Patients and physicians should be aware, however, that oligohydramnios may not appear until after the fetus has sustained irreversible injury. [0m
-[31mLISINOPRIL: warnings: Closely observe infants with histories of in utero exposure to lisinopril and hydrochlorothiazide tablets for hypotension, oliguria, and hyperkalemia [0m[1;31m([0m[31m See PRECAUTIONS, Pediatric[0m
-[31mUse [0m[1;31m)[0m[31m. Lisinopril-Hydrochlorothiazide Teratogenicity studies were conducted in mice and rats with up to [0m[1;31m90[0m[31m mg/kg/day of lisinopril in combination with [0m[1;31m10[0m[31m mg/kg/day of hydrochlorothiazide. This dose of[0m
-[31mlisinopril is [0m[1;31m5[0m[31m times [0m[1;31m([0m[31min mice[0m[1;31m)[0m[31m and [0m[1;31m10[0m[31m times [0m[1;31m([0m[31min rats[0m[1;31m)[0m[31m the maximum recommended human daily dose [0m[1;31m([0m[31mMRHDD[0m[1;31m)[0m[31m when compared on a body surface area basis [0m[1;31m([0m[31mmg/m [0m[1;31m2[0m[31m [0m[1;31m)[0m[31m; the dose of hydrochlorothiazide is [0m[1;31m0.9[0m[31m [0m
-[31mtimes [0m[1;31m([0m[31min mice[0m[1;31m)[0m[31m and [0m[1;31m1.8[0m[31m times [0m[1;31m([0m[31min rats[0m[1;31m)[0m[31m the MRHDD. Maternal or fetotoxic effects were not seen in mice with the combination.         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: pharm_class_cs         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: adverse_reactions: In addition, and since lisinopril has been marketed, the following adverse reactions have been reported with lisinopril and should be considered potential [0m
-[31madverse reactions for lisinopril and hydrochlorothiazide tablets: Body as a Whole: Anaphylactoid reactions [0m[1;31m([0m[31msee WARNINGS, Anaphylactoid and Possibly Related Reactions [0m[1;31m)[0m[31m, malaise, edema, facial edema, [0m
-[31mpain, pelvic pain, flank pain, chills; Cardiovascular: Cardiac arrest, myocardial infarction or cerebrovascular accident, possibly secondary to excessive hypotension in high risk patients [0m[1;31m([0m[31msee [0m
-[31mWARNINGS, Hypotension [0m[1;31m)[0m[31m, pulmonary embolism and infarction, worsening of heart failure, arrhythmias [0m[1;31m([0m[31mincluding tachycardia, ventricular tachycardia, atrial tachycardia, atrial fibrillation, [0m
-[31mbradycardia, and premature ventricular contractions[0m[1;31m)[0m[31m, angina pectoris, transient ischemic attacks LISINOPRIL: adverse_reactions: , paroxysmal nocturnal dyspnea, decreased blood pressure, peripheral [0m
-[31medema, vasculitis; Digestive: Pancreatitis, hepatitis [0m[1;31m([0m[31mhepatocellular or cholestatic jaundice[0m[1;31m)[0m[31m [0m[1;31m([0m[31msee WARNINGS, Hepatic Failure [0m[1;31m)[0m[31m, gastritis, anorexia, flatulence, increased salivation; Endocrine: [0m
-[31mDiabetes mellitus, syndrome of inappropriate antidiuretic hormone secretion [0m[1;31m([0m[31mSIADH[0m[1;31m)[0m[31m; Hematologic: Rare cases of neutropenia, thrombocytopenia, and bone marrow depression have been reported. [0m
-[31mLISINOPRIL: adverse_reactions: Hemolytic anemia has been reported; a causal relationship to lisinopril cannot be excluded; Metabolic: Gout, weight loss, dehydration, fluid overload, weight gain; [0m
-[31mMusculoskeletal: Arthritis, arthralgia, neck pain, hip pain, joint pain, leg pain, arm pain, lumbago; Nervous System/Psychiatric: Ataxia, memory impairment, tremor, insomnia, stroke, nervousness, [0m
-[31mconfusion, peripheral neuropathy [0m[1;31m([0m[31me.g. LISINOPRIL: adverse_reactions: paresthesia, dysesthesia[0m[1;31m)[0m[31m, spasm, hypersomnia, irritability, mood alterations [0m[1;31m([0m[31mincluding depressive symptoms[0m[1;31m)[0m[31m; hallucinations ; [0m
-[31mRespiratory: Malignant lung neoplasms, hemoptysis, pulmonary edema, pulmonary infiltrates, eosinophilic pneumonitis, bronchospasm, asthma, pleural effusion, pneumonia, wheezing, orthopnea, painful [0m
-[31mrespiration, epistaxis, laryngitis, sinusitis, pharyngitis, rhinitis, rhinorrhea, chest sound abnormalities; Skin: Urticaria, alopecia, herpes zoster, photosensitivity, skin lesions, skin infections, [0m
-[31mpemphigus, erythema, psoriasis. LISINOPRIL: adverse_reactions: Other severe skin reactions [0m[1;31m([0m[31mincluding toxic epidermal necrolysis, Stevens-Johnson syndrome and cutaneous pseudolymphoma[0m[1;31m)[0m[31m have been [0m
-[31mreported rarely; causal relationship has not been established; Special Senses: Visual loss, diplopia, photophobia, taste disturbances, olfactory disturbances; Urogenital: Acute renal failure, [0m
-[31moliguria, anuria, uremia, progressive azotemia, renal dysfunction [0m[1;31m([0m[31msee PRECAUTIONS and DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m, pyelonephritis, dysuria, breast pain. Miscellaneous: A symptom complex has been [0m
-[31mreported which may include a positive ANA, an elevated erythrocyte sedimentation rate, arthralgia/arthritis, myalgia, fever, vasculitis, leukocytosis, eosinophilia, photosensitivity, rash, and other [0m
-[31mdermatological manifestations.         [0m
-[31mSOURCE:LISINOPRIL label[0m
-
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
-[32m    [0m[32m"content"[0m[32m: [0m[32m"Does LISINOPRIL increase or decrease the risk of hip fracture?"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes LISINOPRIL increase or decrease the risk of hip fracture?[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes LISINOPRIL increase or decrease the risk of hip fracture?[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"query"[0m[32m: [0m[32m"Does LISINOPRIL increase or decrease the risk of hip fracture?"[0m[32m,[0m
-[32m    [0m[32m"drug"[0m[32m: [0m[32m"LISINOPRIL"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31mNo relevant extracts found for Does LISINOPRIL increase or decrease the risk of hip[0m
-[31mfracture?[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
-[32m    [0m[32m"content"[0m[32m: [0m[32m"Does LISINOPRIL increase or decrease the risk of hip fracture?"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes LISINOPRIL increase or decrease the risk of hip fracture?[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes LISINOPRIL increase or decrease the risk of hip fracture?[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"query"[0m[32m: [0m[32m"Does LISINOPRIL increase or decrease the risk of hip fracture?"[0m[32m,[0m
-[32m    [0m[32m"drug"[0m[32m: [0m[32m"LISINOPRIL"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31mCONTENT: LISINOPRIL: drug_interactions: Drug Interactions Lisinopril Hypotension - Patients on Diuretic Therapy: Patients on diuretics and especially those in whom diuretic therapy was recently [0m
-[31minstituted, may occasionally experience an excessive reduction of blood pressure after initiation of therapy with lisinopril. The possibility of hypotensive effects with lisinopril can be minimized by[0m
-[31meither discontinuing the diuretic or increasing the salt intake prior to initiation of treatment with lisinopril. If it is necessary to continue the diuretic, initiate therapy with lisinopril at a [0m
-[31mdose of [0m[1;31m5[0m[31m mg daily, and provide close medical supervision after the initial dose for at least two hours and until blood pressure has stabilized for at least an additional hour. [0m[1;31m([0m[31mSee WARNINGS , and [0m
-[31mDOSAGE AND ADMINISTRATION .[0m[1;31m)[0m[31m When a diuretic is added to the therapy of a patient receiving lisinopril, an additional antihypertensive effect is usually observed [0m[1;31m([0m[31mSee DOSAGE AND ADMINISTRATION . [0m
-[31mLISINOPRIL: drug_interactions: [0m[1;31m)[0m[31m Non-steroidal Anti-inflammatory Agents Including Selective Cyclooxygenase-[0m[1;31m2[0m[31m [0m[1;31m([0m[31mCOX-[0m[1;31m2[0m[1;31m)[0m[31m Inhibitors: In patients who are elderly, volume-depleted [0m[1;31m([0m[31mincluding those on [0m
-[31mdiuretic therapy[0m[1;31m)[0m[31m, or with compromised renal function, co-administration of NSAIDs, including selective COX-[0m[1;31m2[0m[31m inhibitors, with ACE inhibitors, including lisinopril, may result in deterioration of [0m
-[31mrenal function, including possible acute renal failure. These effects are usually reversible. Monitor renal function periodically in patients receiving lisinopril and NSAID therapy. The [0m
-[31mantihypertensive effect of ACE inhibitors, including lisinopril, may be attenuated by NSAIDs. LISINOPRIL: drug_interactions: Dual Blockade of the Renin-Angiotensin System [0m[1;31m([0m[31mRAS[0m[1;31m)[0m[31m: Dual blockade of the [0m
-[31mRAS with angiotensin receptor blockers, ACE inhibitors, or direct renin inhibitors [0m[1;31m([0m[31msuch as aliskiren[0m[1;31m)[0m[31m is associated with increased risk of hypotension, syncope, hyperkalemia, and changes in renal [0m
-[31mfunction [0m[1;31m([0m[31mincluding acute renal failure[0m[1;31m)[0m[31m compared to monotherapy. The VA NEPHRON trial enrolled [0m[1;31m1448[0m[31m patients with type [0m[1;31m2[0m[31m diabetes, elevated urinary-albumin-to-creatinine ratio, and decreased [0m
-[31mestimated glomerular filtration rate [0m[1;31m([0m[31mGFR [0m[1;31m30[0m[31m to [0m[1;31m89.9[0m[31m ml/min[0m[1;31m)[0m[31m, randomized them to lisinopril or placebo on a background of losartan therapy and followed them for a median of [0m[1;31m2.2[0m[31m years. LISINOPRIL: [0m
-[31mdrug_interactions: Patients receiving the combination of losartan and lisinopril did not obtain any additional benefit compared to monotherapy for the combined endpoint of decline in GFR, end state [0m
-[31mrenal disease, or death, but experienced an increased incidence of hyperkalemia and acute kidney injury compared with the monotherapy group. In general, avoid combined use of RAS inhibitors. Monitor [0m
-[31mblood pressure, renal function, and electrolytes in patients on lisinopril and hydrochlorothiazide tablets and other agents that affect the RAS. Do not coadminister aliskiren with lisinopril and [0m
-[31mhydrochlorothiazide tablets in patients with diabetes. Avoid use of aliskiren with PRINZIDE in patients with renal impairment [0m[1;31m([0m[31mGFR <[0m[1;31m60[0m[31m ml/min[0m[1;31m)[0m[31m. Other Agents: Lisinopril has been used concomitantly [0m
-[31mwith nitrates and/or digoxin without evidence of clinically significant adverse interactions. LISINOPRIL: drug_interactions: No meaningful clinically important pharmacokinetic interactions occurred [0m
-[31mwhen lisinopril was used concomitantly with propranolol, digoxin, or hydrochlorothiazide. The presence of food in the stomach does not alter the bioavailability of lisinopril. Agents Increasing Serum [0m
-[31mPotassium: Lisinopril attenuates potassium loss caused by thiazide-type diuretics. Use of lisinopril with potassium-sparing diuretics [0m[1;31m([0m[31me.g., spironolactone, eplerenone, triamterene, or amiloride[0m[1;31m)[0m[31m, [0m
-[31mpotassium supplements, or potassium-containing salt substitutes may lead to significant increases in serum potassium. Therefore, if concomitant use of these agents is indicated, because of [0m
-[31mdemonstrated hypokalemia, they should be used with caution and with frequent monitoring of serum potassium. Lithium: Lithium toxicity has been reported in patients receiving lithium concomitantly with[0m
-[31mdrugs which cause elimination of sodium, including ACE inhibitors.         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: warnings: Periodic monitoring of white blood cell counts in patients with collagen vascular disease and renal disease should be considered. Hepatic Failure Rarely, ACE inhibitors 
+have been associated with a syndrome that starts with cholestatic jaundice or hepatitis and progresses to fulminant hepatic necrosis, and (sometimes) death. The mechanism of this syndrome is not 
+understood. Patients receiving ACE inhibitors who develop jaundice or marked elevations of hepatic enzymes should discontinue the ACE inhibitor and receive appropriate medical follow-up. 
+Hydrochlorothiazide Thiazides should be used with caution in severe renal disease. In patients with renal disease, thiazides may precipitate azotemia. Cumulative effects of the drug may develop in 
+patients with impaired renal function. Thiazides should be used with caution in patients with impaired hepatic function or progressive liver disease, since minor alterations of fluid and electrolyte 
+balance may precipitate hepatic coma. LISINOPRIL: warnings: Sensitivity reactions may occur in patients with or without a history of allergy or bronchial asthma. The possibility of exacerbation or 
+activation of systemic lupus erythematosus has been reported. Lithium generally should not be given with thiazides (see PRECAUTIONS, Drug Interactions , Lisinopril and Hydrochlorothiazide ). Acute 
+Myopia and Secondary Angle-Closure Glaucoma : Hydrochlorothiazide, a sulfonamide, can cause an idiosyncratic reaction, resulting in acute transient myopia and acute angle-closure glaucoma. Symptoms 
+include acute onset of decreased visual acuity or ocular pain and typically occur within hours to weeks of drug initiation. Untreated acute angle-closure glaucoma can lead to permanent vision loss. 
+The primary treatment is to discontinue hydrochlorothiazide as rapidly as possible. Prompt medical or surgical treatments may need to be considered if the intraocular pressure remains uncontrolled. 
+LISINOPRIL: warnings: Risk factors for developing acute angle-closure glaucoma may include a history of sulfonamide or penicillin allergy. Fetal Toxicity Use of drugs that act on the renin-angiotensin
+system during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal 
+lung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected, discontinue 
+lisinopril and hydrochlorothiazide tablets as soon as possible. These adverse outcomes are usually associated with the use of these drugs in the second and third trimester of pregnancy. LISINOPRIL: 
+warnings: Most epidemiologic studies examining fetal abnormalities after exposure to antihypertensive use in the first trimester have not distinguished drugs affecting the renin-angiotensin system 
+from other antihypertensive agents. Appropriate management of maternal hypertension during pregnancy is important to optimize outcomes for both mother and fetus. In the unusual case that there is no 
+appropriate alternative therapy to drugs affecting the renin-angiotensin system for a particular patient, apprise the mother of the potential risk to the fetus. Perform serial ultrasound examinations 
+to assess the intra-amniotic environment. If oligohydramnios is observed, discontinue lisinopril and hydrochlorothiazide tablets, unless it is considered lifesaving for the mother. Fetal testing may 
+be appropriate, based on the week of pregnancy. Patients and physicians should be aware, however, that oligohydramnios may not appear until after the fetus has sustained irreversible injury. 
+LISINOPRIL: warnings: Closely observe infants with histories of in utero exposure to lisinopril and hydrochlorothiazide tablets for hypotension, oliguria, and hyperkalemia ( See PRECAUTIONS, Pediatric
+Use ). Lisinopril-Hydrochlorothiazide Teratogenicity studies were conducted in mice and rats with up to 90 mg/kg/day of lisinopril in combination with 10 mg/kg/day of hydrochlorothiazide. This dose of
+lisinopril is 5 times (in mice) and 10 times (in rats) the maximum recommended human daily dose (MRHDD) when compared on a body surface area basis (mg/m 2 ); the dose of hydrochlorothiazide is 0.9 
+times (in mice) and 1.8 times (in rats) the MRHDD. Maternal or fetotoxic effects were not seen in mice with the combination.         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: indications_and_usage: INDICATIONS AND USAGE Lisinopril and hydrochlorothiazide tablets are indicated for the treatment of hypertension, to lower blood pressure. Lowering blood [0m
-[31mpressure lowers the risk of fatal and non-fatal cardiovascular events, primarily strokes and myocardial infarctions. These benefits have been seen in controlled trials of antihypertensive drugs from a[0m
-[31mwide variety of pharmacologic classes including lisinopril and hydrochlorothiazide. Control of high blood pressure should be part of comprehensive cardiovascular risk management, including, as [0m
-[31mappropriate, lipid control, diabetes management, antithrombotic therapy, smoking cessation, exercise, and limited sodium intake. Many patients will require more than [0m[1;31m1[0m[31m drug to achieve blood pressure [0m
-[31mgoals. For specific advice on goals and management, see published guidelines, such as those of the National High Blood Pressure Education Program’s Joint National Committee on Prevention, Detection, [0m
-[31mEvaluation, and Treatment of High Blood Pressure [0m[1;31m([0m[31mJNC[0m[1;31m)[0m[31m. LISINOPRIL: indications_and_usage: Numerous antihypertensive drugs, from a variety of pharmacologic classes and with different mechanisms of [0m
-[31maction, have been shown in randomized controlled trials to reduce cardiovascular morbidity and mortality, and it can be concluded that it is blood pressure reduction, and not some other pharmacologic [0m
-[31mproperty of the drugs, that is largely responsible for those benefits. The largest and most consistent cardiovascular outcome benefit has been a reduction in the risk of stroke, but reductions in [0m
-[31mmyocardial infarction and cardiovascular mortality also have been seen regularly. Elevated systolic or diastolic pressure causes increased cardiovascular risk, and the absolute risk increase per mmHg [0m
-[31mis greater at higher blood pressures, so that even modest reductions of severe hypertension can provide substantial benefit. LISINOPRIL: indications_and_usage: Relative risk reduction from blood [0m
-[31mpressure reduction is similar across populations with varying absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension [0m[1;31m([0m[31mfor example, [0m
-[31mpatients with diabetes or hyperlipidemia[0m[1;31m)[0m[31m, and such patients would be expected to benefit from more aggressive treatment to a lower blood pressure goal. Some antihypertensive drugs have smaller blood [0m
-[31mpressure effects [0m[1;31m([0m[31mas monotherapy[0m[1;31m)[0m[31m in black patients, and many antihypertensive drugs have additional approved indications and effects [0m[1;31m([0m[31me.g., on angina, heart failure, or diabetic kidney disease[0m[1;31m)[0m[31m. [0m
-[31mThese considerations may guide selection of therapy. These fixed-dose combinations are not indicated for initial therapy [0m[1;31m([0m[31msee DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m. LISINOPRIL: indications_and_usage: In using [0m
-[31mlisinopril and hydrochlorothiazide tablets, consideration should be given to the fact that an angiotensin-converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients [0m
-[31mwith renal impairment or collagen vascular disease, and that available data are insufficient to show that lisinopril does not have a similar risk. [0m[1;31m([0m[31mSee WARNINGS .[0m[1;31m)[0m[31m In considering use of lisinopril and[0m
-[31mhydrochlorothiazide tablets, it should be noted that Black patients receiving ACE inhibitors have been reported to have a higher incidence of angioedema compared to non-Black. [0m[1;31m([0m[31mSee WARNINGS, Head and [0m
-[31mNeck Angioedema .         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: adverse_reactions: In addition, and since lisinopril has been marketed, the following adverse reactions have been reported with lisinopril and should be considered potential 
+adverse reactions for lisinopril and hydrochlorothiazide tablets: Body as a Whole: Anaphylactoid reactions (see WARNINGS, Anaphylactoid and Possibly Related Reactions ), malaise, edema, facial edema, 
+pain, pelvic pain, flank pain, chills; Cardiovascular: Cardiac arrest, myocardial infarction or cerebrovascular accident, possibly secondary to excessive hypotension in high risk patients (see 
+WARNINGS, Hypotension ), pulmonary embolism and infarction, worsening of heart failure, arrhythmias (including tachycardia, ventricular tachycardia, atrial tachycardia, atrial fibrillation, 
+bradycardia, and premature ventricular contractions), angina pectoris, transient ischemic attacks LISINOPRIL: adverse_reactions: , paroxysmal nocturnal dyspnea, decreased blood pressure, peripheral 
+edema, vasculitis; Digestive: Pancreatitis, hepatitis (hepatocellular or cholestatic jaundice) (see WARNINGS, Hepatic Failure ), gastritis, anorexia, flatulence, increased salivation; Endocrine: 
+Diabetes mellitus, syndrome of inappropriate antidiuretic hormone secretion (SIADH); Hematologic: Rare cases of neutropenia, thrombocytopenia, and bone marrow depression have been reported. 
+LISINOPRIL: adverse_reactions: Hemolytic anemia has been reported; a causal relationship to lisinopril cannot be excluded; Metabolic: Gout, weight loss, dehydration, fluid overload, weight gain; 
+Musculoskeletal: Arthritis, arthralgia, neck pain, hip pain, joint pain, leg pain, arm pain, lumbago; Nervous System/Psychiatric: Ataxia, memory impairment, tremor, insomnia, stroke, nervousness, 
+confusion, peripheral neuropathy (e.g. LISINOPRIL: adverse_reactions: paresthesia, dysesthesia), spasm, hypersomnia, irritability, mood alterations (including depressive symptoms); hallucinations ; 
+Respiratory: Malignant lung neoplasms, hemoptysis, pulmonary edema, pulmonary infiltrates, eosinophilic pneumonitis, bronchospasm, asthma, pleural effusion, pneumonia, wheezing, orthopnea, painful 
+respiration, epistaxis, laryngitis, sinusitis, pharyngitis, rhinitis, rhinorrhea, chest sound abnormalities; Skin: Urticaria, alopecia, herpes zoster, photosensitivity, skin lesions, skin infections, 
+pemphigus, erythema, psoriasis. LISINOPRIL: adverse_reactions: Other severe skin reactions (including toxic epidermal necrolysis, Stevens-Johnson syndrome and cutaneous pseudolymphoma) have been 
+reported rarely; causal relationship has not been established; Special Senses: Visual loss, diplopia, photophobia, taste disturbances, olfactory disturbances; Urogenital: Acute renal failure, 
+oliguria, anuria, uremia, progressive azotemia, renal dysfunction (see PRECAUTIONS and DOSAGE AND ADMINISTRATION ), pyelonephritis, dysuria, breast pain. Miscellaneous: A symptom complex has been 
+reported which may include a positive ANA, an elevated erythrocyte sedimentation rate, arthralgia/arthritis, myalgia, fever, vasculitis, leukocytosis, eosinophilia, photosensitivity, rash, and other 
+dermatological manifestations.         
+SOURCE:LISINOPRIL label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT 
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does LISINOPRIL increase or decrease the risk of hip fracture?"
+  }
+}
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does LISINOPRIL increase or decrease the risk of hip fracture?
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does LISINOPRIL increase or decrease the risk of hip fracture?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does LISINOPRIL increase or decrease the risk of hip fracture?",
+    "drug": "LISINOPRIL"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does LISINOPRIL increase or decrease the risk of hip
+fracture?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT 
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does LISINOPRIL increase or decrease the risk of hip fracture?"
+  }
+}
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does LISINOPRIL increase or decrease the risk of hip fracture?
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does LISINOPRIL increase or decrease the risk of hip fracture?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does LISINOPRIL increase or decrease the risk of hip fracture?",
+    "drug": "LISINOPRIL"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+CONTENT: LISINOPRIL: drug_interactions: Drug Interactions Lisinopril Hypotension - Patients on Diuretic Therapy: Patients on diuretics and especially those in whom diuretic therapy was recently 
+instituted, may occasionally experience an excessive reduction of blood pressure after initiation of therapy with lisinopril. The possibility of hypotensive effects with lisinopril can be minimized by
+either discontinuing the diuretic or increasing the salt intake prior to initiation of treatment with lisinopril. If it is necessary to continue the diuretic, initiate therapy with lisinopril at a 
+dose of 5 mg daily, and provide close medical supervision after the initial dose for at least two hours and until blood pressure has stabilized for at least an additional hour. (See WARNINGS , and 
+DOSAGE AND ADMINISTRATION .) When a diuretic is added to the therapy of a patient receiving lisinopril, an additional antihypertensive effect is usually observed (See DOSAGE AND ADMINISTRATION . 
+LISINOPRIL: drug_interactions: ) Non-steroidal Anti-inflammatory Agents Including Selective Cyclooxygenase-2 (COX-2) Inhibitors: In patients who are elderly, volume-depleted (including those on 
+diuretic therapy), or with compromised renal function, co-administration of NSAIDs, including selective COX-2 inhibitors, with ACE inhibitors, including lisinopril, may result in deterioration of 
+renal function, including possible acute renal failure. These effects are usually reversible. Monitor renal function periodically in patients receiving lisinopril and NSAID therapy. The 
+antihypertensive effect of ACE inhibitors, including lisinopril, may be attenuated by NSAIDs. LISINOPRIL: drug_interactions: Dual Blockade of the Renin-Angiotensin System (RAS): Dual blockade of the 
+RAS with angiotensin receptor blockers, ACE inhibitors, or direct renin inhibitors (such as aliskiren) is associated with increased risk of hypotension, syncope, hyperkalemia, and changes in renal 
+function (including acute renal failure) compared to monotherapy. The VA NEPHRON trial enrolled 1448 patients with type 2 diabetes, elevated urinary-albumin-to-creatinine ratio, and decreased 
+estimated glomerular filtration rate (GFR 30 to 89.9 ml/min), randomized them to lisinopril or placebo on a background of losartan therapy and followed them for a median of 2.2 years. LISINOPRIL: 
+drug_interactions: Patients receiving the combination of losartan and lisinopril did not obtain any additional benefit compared to monotherapy for the combined endpoint of decline in GFR, end state 
+renal disease, or death, but experienced an increased incidence of hyperkalemia and acute kidney injury compared with the monotherapy group. In general, avoid combined use of RAS inhibitors. Monitor 
+blood pressure, renal function, and electrolytes in patients on lisinopril and hydrochlorothiazide tablets and other agents that affect the RAS. Do not coadminister aliskiren with lisinopril and 
+hydrochlorothiazide tablets in patients with diabetes. Avoid use of aliskiren with PRINZIDE in patients with renal impairment (GFR <60 ml/min). Other Agents: Lisinopril has been used concomitantly 
+with nitrates and/or digoxin without evidence of clinically significant adverse interactions. LISINOPRIL: drug_interactions: No meaningful clinically important pharmacokinetic interactions occurred 
+when lisinopril was used concomitantly with propranolol, digoxin, or hydrochlorothiazide. The presence of food in the stomach does not alter the bioavailability of lisinopril. Agents Increasing Serum 
+Potassium: Lisinopril attenuates potassium loss caused by thiazide-type diuretics. Use of lisinopril with potassium-sparing diuretics (e.g., spironolactone, eplerenone, triamterene, or amiloride), 
+potassium supplements, or potassium-containing salt substitutes may lead to significant increases in serum potassium. Therefore, if concomitant use of these agents is indicated, because of 
+demonstrated hypokalemia, they should be used with caution and with frequent monitoring of serum potassium. Lithium: Lithium toxicity has been reported in patients receiving lithium concomitantly with
+drugs which cause elimination of sodium, including ACE inhibitors.         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: adverse_reactions: Discontinuation of therapy due to adverse effects was required in [0m[1;31m4.4[0m[31m% of patients principally because of dizziness, cough, fatigue and muscle cramps. Adverse [0m
-[31mexperiences occurring in greater than one percent of patients treated with lisinopril plus hydrochlorothiazide in controlled clinical trials are shown below. Percent of Patients in Controlled Studies [0m
-[31mClinical adverse experiences occurring in [0m[1;31m0.3[0m[31m% to [0m[1;31m1.0[0m[31m% of patients in controlled trials included: Lisinopril-Hydrochlorothiazide [0m[1;31m([0m[31mn[0m[31m=[0m[1;31m930[0m[1;31m)[0m[31m Incidence [0m[1;31m([0m[31mdiscontinuation[0m[1;31m)[0m[31m Placebo [0m[1;31m([0m[31mn[0m[31m=[0m[1;31m207[0m[1;31m)[0m[31m Incidence Dizziness[0m
-[1;31m7.5[0m[31m [0m[1;31m([0m[1;31m0.8[0m[1;31m)[0m[31m [0m[1;31m1.9[0m[31m Headache [0m[1;31m5.2[0m[31m [0m[1;31m([0m[1;31m0.3[0m[1;31m)[0m[31m [0m[1;31m1.9[0m[31m Cough [0m[1;31m3.9[0m[31m [0m[1;31m([0m[1;31m0.6[0m[1;31m)[0m[31m [0m[1;31m1.0[0m[31m Fatigue [0m[1;31m3.7[0m[31m [0m[1;31m([0m[1;31m0.4[0m[1;31m)[0m[31m [0m[1;31m1.0[0m[31m Orthostatic Effects [0m[1;31m3.2[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m1[0m[31m. LISINOPRIL: adverse_reactions: [0m[1;31m0[0m[31m Diarrhea [0m[1;31m2.5[0m[31m [0m[1;31m([0m[1;31m0.2[0m[1;31m)[0m[31m [0m[1;31m2.4[0m[31m Nausea [0m[1;31m2.2[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m2.4[0m[31m Upper [0m
-[31mRespiratory Infection [0m[1;31m2.2[0m[31m [0m[1;31m([0m[1;31m0.0[0m[1;31m)[0m[31m [0m[1;31m0.0[0m[31m Muscle Cramps [0m[1;31m2.0[0m[31m [0m[1;31m([0m[1;31m0.4[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Asthenia [0m[1;31m1.8[0m[31m [0m[1;31m([0m[1;31m0.2[0m[1;31m)[0m[31m [0m[1;31m1.0[0m[31m Paresthesia [0m[1;31m1.5[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m0.0[0m[31m Hypotension [0m[1;31m1.4[0m[31m [0m[1;31m([0m[1;31m0.3[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Vomiting [0m[1;31m1.4[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m[31m [0m[1;31m0.5[0m[31m Dyspepsia [0m[1;31m1.3[0m[31m [0m[1;31m([0m[1;31m0.0[0m[1;31m)[0m[31m [0m[1;31m0.0[0m[31m Rash [0m[1;31m1.2[0m[31m [0m[1;31m([0m[1;31m0.1[0m[1;31m)[0m
-[1;31m0.5[0m[31m Impotence [0m[1;31m1.2[0m[31m [0m[1;31m([0m[1;31m0.3[0m[1;31m)[0m[31m [0m[1;31m0[0m[31m. LISINOPRIL: adverse_reactions: [0m[1;31m0[0m[31m Body as a Whole: Chest pain, abdominal pain, syncope, chest discomfort, fever, trauma, virus infection. Cardiovascular: Palpitation, [0m
-[31morthostatic hypotension. Digestive: Gastrointestinal cramps, dry mouth, constipation, heartburn. Musculoskeletal: Back pain, shoulder pain, knee pain, back strain, myalgia, foot pain. [0m
-[31mNervous/Psychiatric: Decreased libido, vertigo, depression, somnolence. Respiratory: Common cold, nasal congestion, influenza, bronchitis, pharyngeal pain, dyspnea, pulmonary congestion, chronic [0m
-[31msinusitis, allergic rhinitis, pharyngeal discomfort. Skin: Flushing, pruritus, skin inflammation, diaphoresis. Special Senses: Blurred vision, tinnitus, otalgia. Urogenital: Urinary tract infection. [0m
-[31mLISINOPRIL: adverse_reactions: Angioedema: Angioedema has been reported in patients receiving PRINZIDE, with an incidence higher in Black than in non-Black patients. Angioedema associated with [0m
-[31mlaryngeal edema may be fatal. If angioedema of the face, extremities, lips, tongue, glottis and/or larynx occurs, treatment with PRINZIDE should be discontinued and appropriate therapy instituted [0m
-[31mimmediately. In rare cases, intestinal angioedema has been reported with angiotensin converting enzyme inhibitors including lisinopril. [0m[1;31m([0m[31mSee WARNINGS [0m[1;31m)[0m[31m. Hypotension: In clinical trials, adverse [0m
-[31meffects relating to hypotension occurred as follows: hypotension [0m[1;31m([0m[1;31m1.4[0m[31m percent[0m[1;31m)[0m[31m, orthostatic hypotension [0m[1;31m([0m[1;31m0.5[0m[31m percent[0m[1;31m)[0m[31m, other orthostatic effects [0m[1;31m([0m[1;31m3.2[0m[31m percent[0m[1;31m)[0m[31m. In addition syncope occurred in [0m[1;31m0.8[0m[31m [0m
-[31mpercent of patients [0m[1;31m([0m[31mSee WARNINGS [0m[1;31m)[0m[31m. LISINOPRIL: adverse_reactions: Cough: See PRECAUTIONS - Cough . Clinical Laboratory Test Findings Serum Electrolytes: [0m[1;31m([0m[31mSee PRECAUTIONS [0m[1;31m)[0m[31m. Creatinine, Blood Urea [0m
-[31mNitrogen: Minor reversible increases in blood urea nitrogen and serum creatinine were observed in patients with essential hypertension treated with lisinopril and hydrochlorothiazide tablets. More [0m
-[31mmarked increases have also been reported and were more likely to occur in patients with renal artery stenosis [0m[1;31m([0m[31mSee PRECAUTIONS [0m[1;31m)[0m[31m. Serum Uric Acid, Glucose, Magnesium, Cholesterol, Triglycerides and [0m
-[31mCalcium: [0m[1;31m([0m[31mSee PRECAUTIONS [0m[1;31m)[0m[31m. Hemoglobin and Hematocrit: Small decreases in hemoglobin and hematocrit [0m[1;31m([0m[31mmean decreases of approximately [0m[1;31m0.5[0m[31m g% and [0m[1;31m1.5[0m[31m vol%, respectively[0m[1;31m)[0m[31m occurred frequently in [0m
-[31mhypertensive patients treated with lisinopril and hydrochlorothiazide tablets but were rarely of clinical importance unless another cause of anemia coexisted.         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: indications_and_usage: INDICATIONS AND USAGE Lisinopril and hydrochlorothiazide tablets are indicated for the treatment of hypertension, to lower blood pressure. Lowering blood 
+pressure lowers the risk of fatal and non-fatal cardiovascular events, primarily strokes and myocardial infarctions. These benefits have been seen in controlled trials of antihypertensive drugs from a
+wide variety of pharmacologic classes including lisinopril and hydrochlorothiazide. Control of high blood pressure should be part of comprehensive cardiovascular risk management, including, as 
+appropriate, lipid control, diabetes management, antithrombotic therapy, smoking cessation, exercise, and limited sodium intake. Many patients will require more than 1 drug to achieve blood pressure 
+goals. For specific advice on goals and management, see published guidelines, such as those of the National High Blood Pressure Education Program’s Joint National Committee on Prevention, Detection, 
+Evaluation, and Treatment of High Blood Pressure (JNC). LISINOPRIL: indications_and_usage: Numerous antihypertensive drugs, from a variety of pharmacologic classes and with different mechanisms of 
+action, have been shown in randomized controlled trials to reduce cardiovascular morbidity and mortality, and it can be concluded that it is blood pressure reduction, and not some other pharmacologic 
+property of the drugs, that is largely responsible for those benefits. The largest and most consistent cardiovascular outcome benefit has been a reduction in the risk of stroke, but reductions in 
+myocardial infarction and cardiovascular mortality also have been seen regularly. Elevated systolic or diastolic pressure causes increased cardiovascular risk, and the absolute risk increase per mmHg 
+is greater at higher blood pressures, so that even modest reductions of severe hypertension can provide substantial benefit. LISINOPRIL: indications_and_usage: Relative risk reduction from blood 
+pressure reduction is similar across populations with varying absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension (for example, 
+patients with diabetes or hyperlipidemia), and such patients would be expected to benefit from more aggressive treatment to a lower blood pressure goal. Some antihypertensive drugs have smaller blood 
+pressure effects (as monotherapy) in black patients, and many antihypertensive drugs have additional approved indications and effects (e.g., on angina, heart failure, or diabetic kidney disease). 
+These considerations may guide selection of therapy. These fixed-dose combinations are not indicated for initial therapy (see DOSAGE AND ADMINISTRATION ). LISINOPRIL: indications_and_usage: In using 
+lisinopril and hydrochlorothiazide tablets, consideration should be given to the fact that an angiotensin-converting enzyme inhibitor, captopril, has caused agranulocytosis, particularly in patients 
+with renal impairment or collagen vascular disease, and that available data are insufficient to show that lisinopril does not have a similar risk. (See WARNINGS .) In considering use of lisinopril and
+hydrochlorothiazide tablets, it should be noted that Black patients receiving ACE inhibitors have been reported to have a higher incidence of angioedema compared to non-Black. (See WARNINGS, Head and 
+Neck Angioedema .         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: spl_id         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: adverse_reactions: Discontinuation of therapy due to adverse effects was required in 4.4% of patients principally because of dizziness, cough, fatigue and muscle cramps. Adverse 
+experiences occurring in greater than one percent of patients treated with lisinopril plus hydrochlorothiazide in controlled clinical trials are shown below. Percent of Patients in Controlled Studies 
+Clinical adverse experiences occurring in 0.3% to 1.0% of patients in controlled trials included: Lisinopril-Hydrochlorothiazide (n=930) Incidence (discontinuation) Placebo (n=207) Incidence Dizziness
+7.5 (0.8) 1.9 Headache 5.2 (0.3) 1.9 Cough 3.9 (0.6) 1.0 Fatigue 3.7 (0.4) 1.0 Orthostatic Effects 3.2 (0.1) 1. LISINOPRIL: adverse_reactions: 0 Diarrhea 2.5 (0.2) 2.4 Nausea 2.2 (0.1) 2.4 Upper 
+Respiratory Infection 2.2 (0.0) 0.0 Muscle Cramps 2.0 (0.4) 0.5 Asthenia 1.8 (0.2) 1.0 Paresthesia 1.5 (0.1) 0.0 Hypotension 1.4 (0.3) 0.5 Vomiting 1.4 (0.1) 0.5 Dyspepsia 1.3 (0.0) 0.0 Rash 1.2 (0.1)
+0.5 Impotence 1.2 (0.3) 0. LISINOPRIL: adverse_reactions: 0 Body as a Whole: Chest pain, abdominal pain, syncope, chest discomfort, fever, trauma, virus infection. Cardiovascular: Palpitation, 
+orthostatic hypotension. Digestive: Gastrointestinal cramps, dry mouth, constipation, heartburn. Musculoskeletal: Back pain, shoulder pain, knee pain, back strain, myalgia, foot pain. 
+Nervous/Psychiatric: Decreased libido, vertigo, depression, somnolence. Respiratory: Common cold, nasal congestion, influenza, bronchitis, pharyngeal pain, dyspnea, pulmonary congestion, chronic 
+sinusitis, allergic rhinitis, pharyngeal discomfort. Skin: Flushing, pruritus, skin inflammation, diaphoresis. Special Senses: Blurred vision, tinnitus, otalgia. Urogenital: Urinary tract infection. 
+LISINOPRIL: adverse_reactions: Angioedema: Angioedema has been reported in patients receiving PRINZIDE, with an incidence higher in Black than in non-Black patients. Angioedema associated with 
+laryngeal edema may be fatal. If angioedema of the face, extremities, lips, tongue, glottis and/or larynx occurs, treatment with PRINZIDE should be discontinued and appropriate therapy instituted 
+immediately. In rare cases, intestinal angioedema has been reported with angiotensin converting enzyme inhibitors including lisinopril. (See WARNINGS ). Hypotension: In clinical trials, adverse 
+effects relating to hypotension occurred as follows: hypotension (1.4 percent), orthostatic hypotension (0.5 percent), other orthostatic effects (3.2 percent). In addition syncope occurred in 0.8 
+percent of patients (See WARNINGS ). LISINOPRIL: adverse_reactions: Cough: See PRECAUTIONS - Cough . Clinical Laboratory Test Findings Serum Electrolytes: (See PRECAUTIONS ). Creatinine, Blood Urea 
+Nitrogen: Minor reversible increases in blood urea nitrogen and serum creatinine were observed in patients with essential hypertension treated with lisinopril and hydrochlorothiazide tablets. More 
+marked increases have also been reported and were more likely to occur in patients with renal artery stenosis (See PRECAUTIONS ). Serum Uric Acid, Glucose, Magnesium, Cholesterol, Triglycerides and 
+Calcium: (See PRECAUTIONS ). Hemoglobin and Hematocrit: Small decreases in hemoglobin and hematocrit (mean decreases of approximately 0.5 g% and 1.5 vol%, respectively) occurred frequently in 
+hypertensive patients treated with lisinopril and hydrochlorothiazide tablets but were rarely of clinical importance unless another cause of anemia coexisted.         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: pharm_class_pe         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: spl_id         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: product_ndc         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: pharm_class_pe         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: package_ndc         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: product_ndc         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: openfda: pharm_class_cs         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: package_ndc         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: warnings: Periodic monitoring of white blood cell counts in patients with collagen vascular disease and renal disease should be considered. Hepatic Failure Rarely, ACE inhibitors [0m
-[31mhave been associated with a syndrome that starts with cholestatic jaundice or hepatitis and progresses to fulminant hepatic necrosis, and [0m[1;31m([0m[31msometimes[0m[1;31m)[0m[31m death. The mechanism of this syndrome is not [0m
-[31munderstood. Patients receiving ACE inhibitors who develop jaundice or marked elevations of hepatic enzymes should discontinue the ACE inhibitor and receive appropriate medical follow-up. [0m
-[31mHydrochlorothiazide Thiazides should be used with caution in severe renal disease. In patients with renal disease, thiazides may precipitate azotemia. Cumulative effects of the drug may develop in [0m
-[31mpatients with impaired renal function. Thiazides should be used with caution in patients with impaired hepatic function or progressive liver disease, since minor alterations of fluid and electrolyte [0m
-[31mbalance may precipitate hepatic coma. LISINOPRIL: warnings: Sensitivity reactions may occur in patients with or without a history of allergy or bronchial asthma. The possibility of exacerbation or [0m
-[31mactivation of systemic lupus erythematosus has been reported. Lithium generally should not be given with thiazides [0m[1;31m([0m[31msee PRECAUTIONS, Drug Interactions , Lisinopril and Hydrochlorothiazide [0m[1;31m)[0m[31m. Acute [0m
-[31mMyopia and Secondary Angle-Closure Glaucoma : Hydrochlorothiazide, a sulfonamide, can cause an idiosyncratic reaction, resulting in acute transient myopia and acute angle-closure glaucoma. Symptoms [0m
-[31minclude acute onset of decreased visual acuity or ocular pain and typically occur within hours to weeks of drug initiation. Untreated acute angle-closure glaucoma can lead to permanent vision loss. [0m
-[31mThe primary treatment is to discontinue hydrochlorothiazide as rapidly as possible. Prompt medical or surgical treatments may need to be considered if the intraocular pressure remains uncontrolled. [0m
-[31mLISINOPRIL: warnings: Risk factors for developing acute angle-closure glaucoma may include a history of sulfonamide or penicillin allergy. Fetal Toxicity Use of drugs that act on the renin-angiotensin[0m
-[31msystem during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal [0m
-[31mlung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected, discontinue [0m
-[31mlisinopril and hydrochlorothiazide tablets as soon as possible. These adverse outcomes are usually associated with the use of these drugs in the second and third trimester of pregnancy. LISINOPRIL: [0m
-[31mwarnings: Most epidemiologic studies examining fetal abnormalities after exposure to antihypertensive use in the first trimester have not distinguished drugs affecting the renin-angiotensin system [0m
-[31mfrom other antihypertensive agents. Appropriate management of maternal hypertension during pregnancy is important to optimize outcomes for both mother and fetus. In the unusual case that there is no [0m
-[31mappropriate alternative therapy to drugs affecting the renin-angiotensin system for a particular patient, apprise the mother of the potential risk to the fetus. Perform serial ultrasound examinations [0m
-[31mto assess the intra-amniotic environment. If oligohydramnios is observed, discontinue lisinopril and hydrochlorothiazide tablets, unless it is considered lifesaving for the mother. Fetal testing may [0m
-[31mbe appropriate, based on the week of pregnancy. Patients and physicians should be aware, however, that oligohydramnios may not appear until after the fetus has sustained irreversible injury. [0m
-[31mLISINOPRIL: warnings: Closely observe infants with histories of in utero exposure to lisinopril and hydrochlorothiazide tablets for hypotension, oliguria, and hyperkalemia [0m[1;31m([0m[31m See PRECAUTIONS, Pediatric[0m
-[31mUse [0m[1;31m)[0m[31m. Lisinopril-Hydrochlorothiazide Teratogenicity studies were conducted in mice and rats with up to [0m[1;31m90[0m[31m mg/kg/day of lisinopril in combination with [0m[1;31m10[0m[31m mg/kg/day of hydrochlorothiazide. This dose of[0m
-[31mlisinopril is [0m[1;31m5[0m[31m times [0m[1;31m([0m[31min mice[0m[1;31m)[0m[31m and [0m[1;31m10[0m[31m times [0m[1;31m([0m[31min rats[0m[1;31m)[0m[31m the maximum recommended human daily dose [0m[1;31m([0m[31mMRHDD[0m[1;31m)[0m[31m when compared on a body surface area basis [0m[1;31m([0m[31mmg/m [0m[1;31m2[0m[31m [0m[1;31m)[0m[31m; the dose of hydrochlorothiazide is [0m[1;31m0.9[0m[31m [0m
-[31mtimes [0m[1;31m([0m[31min mice[0m[1;31m)[0m[31m and [0m[1;31m1.8[0m[31m times [0m[1;31m([0m[31min rats[0m[1;31m)[0m[31m the MRHDD. Maternal or fetotoxic effects were not seen in mice with the combination.         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: openfda: pharm_class_cs         
+SOURCE:LISINOPRIL label
 
 
-[31mCONTENT: LISINOPRIL: adverse_reactions: In addition, and since lisinopril has been marketed, the following adverse reactions have been reported with lisinopril and should be considered potential [0m
-[31madverse reactions for lisinopril and hydrochlorothiazide tablets: Body as a Whole: Anaphylactoid reactions [0m[1;31m([0m[31msee WARNINGS, Anaphylactoid and Possibly Related Reactions [0m[1;31m)[0m[31m, malaise, edema, facial edema, [0m
-[31mpain, pelvic pain, flank pain, chills; Cardiovascular: Cardiac arrest, myocardial infarction or cerebrovascular accident, possibly secondary to excessive hypotension in high risk patients [0m[1;31m([0m[31msee [0m
-[31mWARNINGS, Hypotension [0m[1;31m)[0m[31m, pulmonary embolism and infarction, worsening of heart failure, arrhythmias [0m[1;31m([0m[31mincluding tachycardia, ventricular tachycardia, atrial tachycardia, atrial fibrillation, [0m
-[31mbradycardia, and premature ventricular contractions[0m[1;31m)[0m[31m, angina pectoris, transient ischemic attacks LISINOPRIL: adverse_reactions: , paroxysmal nocturnal dyspnea, decreased blood pressure, peripheral [0m
-[31medema, vasculitis; Digestive: Pancreatitis, hepatitis [0m[1;31m([0m[31mhepatocellular or cholestatic jaundice[0m[1;31m)[0m[31m [0m[1;31m([0m[31msee WARNINGS, Hepatic Failure [0m[1;31m)[0m[31m, gastritis, anorexia, flatulence, increased salivation; Endocrine: [0m
-[31mDiabetes mellitus, syndrome of inappropriate antidiuretic hormone secretion [0m[1;31m([0m[31mSIADH[0m[1;31m)[0m[31m; Hematologic: Rare cases of neutropenia, thrombocytopenia, and bone marrow depression have been reported. [0m
-[31mLISINOPRIL: adverse_reactions: Hemolytic anemia has been reported; a causal relationship to lisinopril cannot be excluded; Metabolic: Gout, weight loss, dehydration, fluid overload, weight gain; [0m
-[31mMusculoskeletal: Arthritis, arthralgia, neck pain, hip pain, joint pain, leg pain, arm pain, lumbago; Nervous System/Psychiatric: Ataxia, memory impairment, tremor, insomnia, stroke, nervousness, [0m
-[31mconfusion, peripheral neuropathy [0m[1;31m([0m[31me.g. LISINOPRIL: adverse_reactions: paresthesia, dysesthesia[0m[1;31m)[0m[31m, spasm, hypersomnia, irritability, mood alterations [0m[1;31m([0m[31mincluding depressive symptoms[0m[1;31m)[0m[31m; hallucinations ; [0m
-[31mRespiratory: Malignant lung neoplasms, hemoptysis, pulmonary edema, pulmonary infiltrates, eosinophilic pneumonitis, bronchospasm, asthma, pleural effusion, pneumonia, wheezing, orthopnea, painful [0m
-[31mrespiration, epistaxis, laryngitis, sinusitis, pharyngitis, rhinitis, rhinorrhea, chest sound abnormalities; Skin: Urticaria, alopecia, herpes zoster, photosensitivity, skin lesions, skin infections, [0m
-[31mpemphigus, erythema, psoriasis. LISINOPRIL: adverse_reactions: Other severe skin reactions [0m[1;31m([0m[31mincluding toxic epidermal necrolysis, Stevens-Johnson syndrome and cutaneous pseudolymphoma[0m[1;31m)[0m[31m have been [0m
-[31mreported rarely; causal relationship has not been established; Special Senses: Visual loss, diplopia, photophobia, taste disturbances, olfactory disturbances; Urogenital: Acute renal failure, [0m
-[31moliguria, anuria, uremia, progressive azotemia, renal dysfunction [0m[1;31m([0m[31msee PRECAUTIONS and DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m, pyelonephritis, dysuria, breast pain. Miscellaneous: A symptom complex has been [0m
-[31mreported which may include a positive ANA, an elevated erythrocyte sedimentation rate, arthralgia/arthritis, myalgia, fever, vasculitis, leukocytosis, eosinophilia, photosensitivity, rash, and other [0m
-[31mdermatological manifestations.         [0m
-[31mSOURCE:LISINOPRIL label[0m
+CONTENT: LISINOPRIL: warnings: Periodic monitoring of white blood cell counts in patients with collagen vascular disease and renal disease should be considered. Hepatic Failure Rarely, ACE inhibitors 
+have been associated with a syndrome that starts with cholestatic jaundice or hepatitis and progresses to fulminant hepatic necrosis, and (sometimes) death. The mechanism of this syndrome is not 
+understood. Patients receiving ACE inhibitors who develop jaundice or marked elevations of hepatic enzymes should discontinue the ACE inhibitor and receive appropriate medical follow-up. 
+Hydrochlorothiazide Thiazides should be used with caution in severe renal disease. In patients with renal disease, thiazides may precipitate azotemia. Cumulative effects of the drug may develop in 
+patients with impaired renal function. Thiazides should be used with caution in patients with impaired hepatic function or progressive liver disease, since minor alterations of fluid and electrolyte 
+balance may precipitate hepatic coma. LISINOPRIL: warnings: Sensitivity reactions may occur in patients with or without a history of allergy or bronchial asthma. The possibility of exacerbation or 
+activation of systemic lupus erythematosus has been reported. Lithium generally should not be given with thiazides (see PRECAUTIONS, Drug Interactions , Lisinopril and Hydrochlorothiazide ). Acute 
+Myopia and Secondary Angle-Closure Glaucoma : Hydrochlorothiazide, a sulfonamide, can cause an idiosyncratic reaction, resulting in acute transient myopia and acute angle-closure glaucoma. Symptoms 
+include acute onset of decreased visual acuity or ocular pain and typically occur within hours to weeks of drug initiation. Untreated acute angle-closure glaucoma can lead to permanent vision loss. 
+The primary treatment is to discontinue hydrochlorothiazide as rapidly as possible. Prompt medical or surgical treatments may need to be considered if the intraocular pressure remains uncontrolled. 
+LISINOPRIL: warnings: Risk factors for developing acute angle-closure glaucoma may include a history of sulfonamide or penicillin allergy. Fetal Toxicity Use of drugs that act on the renin-angiotensin
+system during the second and third trimesters of pregnancy reduces fetal renal function and increases fetal and neonatal morbidity and death. Resulting oligohydramnios can be associated with fetal 
+lung hypoplasia and skeletal deformations. Potential neonatal adverse effects include skull hypoplasia, anuria, hypotension, renal failure, and death. When pregnancy is detected, discontinue 
+lisinopril and hydrochlorothiazide tablets as soon as possible. These adverse outcomes are usually associated with the use of these drugs in the second and third trimester of pregnancy. LISINOPRIL: 
+warnings: Most epidemiologic studies examining fetal abnormalities after exposure to antihypertensive use in the first trimester have not distinguished drugs affecting the renin-angiotensin system 
+from other antihypertensive agents. Appropriate management of maternal hypertension during pregnancy is important to optimize outcomes for both mother and fetus. In the unusual case that there is no 
+appropriate alternative therapy to drugs affecting the renin-angiotensin system for a particular patient, apprise the mother of the potential risk to the fetus. Perform serial ultrasound examinations 
+to assess the intra-amniotic environment. If oligohydramnios is observed, discontinue lisinopril and hydrochlorothiazide tablets, unless it is considered lifesaving for the mother. Fetal testing may 
+be appropriate, based on the week of pregnancy. Patients and physicians should be aware, however, that oligohydramnios may not appear until after the fetus has sustained irreversible injury. 
+LISINOPRIL: warnings: Closely observe infants with histories of in utero exposure to lisinopril and hydrochlorothiazide tablets for hypotension, oliguria, and hyperkalemia ( See PRECAUTIONS, Pediatric
+Use ). Lisinopril-Hydrochlorothiazide Teratogenicity studies were conducted in mice and rats with up to 90 mg/kg/day of lisinopril in combination with 10 mg/kg/day of hydrochlorothiazide. This dose of
+lisinopril is 5 times (in mice) and 10 times (in rats) the maximum recommended human daily dose (MRHDD) when compared on a body surface area basis (mg/m 2 ); the dose of hydrochlorothiazide is 0.9 
+times (in mice) and 1.8 times (in rats) the MRHDD. Maternal or fetotoxic effects were not seen in mice with the combination.         
+SOURCE:LISINOPRIL label
 
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-hip fracture-LISINOPRIL[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
 
-[32mThe question asked was whether Lisinopril increases or decreases the risk of hip fracture. However, the FDAHandler, which provides information based on FDA label data, could not provide an answer to [0m
-[32mthis question. Therefore, I do not have the specific information required to answer whether Lisinopril has an effect on the risk of hip fractures. Without this data, it is not possible to provide a [0m
-[32mreliable answer.[0m
+CONTENT: LISINOPRIL: adverse_reactions: In addition, and since lisinopril has been marketed, the following adverse reactions have been reported with lisinopril and should be considered potential 
+adverse reactions for lisinopril and hydrochlorothiazide tablets: Body as a Whole: Anaphylactoid reactions (see WARNINGS, Anaphylactoid and Possibly Related Reactions ), malaise, edema, facial edema, 
+pain, pelvic pain, flank pain, chills; Cardiovascular: Cardiac arrest, myocardial infarction or cerebrovascular accident, possibly secondary to excessive hypotension in high risk patients (see 
+WARNINGS, Hypotension ), pulmonary embolism and infarction, worsening of heart failure, arrhythmias (including tachycardia, ventricular tachycardia, atrial tachycardia, atrial fibrillation, 
+bradycardia, and premature ventricular contractions), angina pectoris, transient ischemic attacks LISINOPRIL: adverse_reactions: , paroxysmal nocturnal dyspnea, decreased blood pressure, peripheral 
+edema, vasculitis; Digestive: Pancreatitis, hepatitis (hepatocellular or cholestatic jaundice) (see WARNINGS, Hepatic Failure ), gastritis, anorexia, flatulence, increased salivation; Endocrine: 
+Diabetes mellitus, syndrome of inappropriate antidiuretic hormone secretion (SIADH); Hematologic: Rare cases of neutropenia, thrombocytopenia, and bone marrow depression have been reported. 
+LISINOPRIL: adverse_reactions: Hemolytic anemia has been reported; a causal relationship to lisinopril cannot be excluded; Metabolic: Gout, weight loss, dehydration, fluid overload, weight gain; 
+Musculoskeletal: Arthritis, arthralgia, neck pain, hip pain, joint pain, leg pain, arm pain, lumbago; Nervous System/Psychiatric: Ataxia, memory impairment, tremor, insomnia, stroke, nervousness, 
+confusion, peripheral neuropathy (e.g. LISINOPRIL: adverse_reactions: paresthesia, dysesthesia), spasm, hypersomnia, irritability, mood alterations (including depressive symptoms); hallucinations ; 
+Respiratory: Malignant lung neoplasms, hemoptysis, pulmonary edema, pulmonary infiltrates, eosinophilic pneumonitis, bronchospasm, asthma, pleural effusion, pneumonia, wheezing, orthopnea, painful 
+respiration, epistaxis, laryngitis, sinusitis, pharyngitis, rhinitis, rhinorrhea, chest sound abnormalities; Skin: Urticaria, alopecia, herpes zoster, photosensitivity, skin lesions, skin infections, 
+pemphigus, erythema, psoriasis. LISINOPRIL: adverse_reactions: Other severe skin reactions (including toxic epidermal necrolysis, Stevens-Johnson syndrome and cutaneous pseudolymphoma) have been 
+reported rarely; causal relationship has not been established; Special Senses: Visual loss, diplopia, photophobia, taste disturbances, olfactory disturbances; Urogenital: Acute renal failure, 
+oliguria, anuria, uremia, progressive azotemia, renal dysfunction (see PRECAUTIONS and DOSAGE AND ADMINISTRATION ), pyelonephritis, dysuria, breast pain. Miscellaneous: A symptom complex has been 
+reported which may include a positive ANA, an elevated erythrocyte sedimentation rate, arthralgia/arthritis, myalgia, fever, vasculitis, leukocytosis, eosinophilia, photosensitivity, rash, and other 
+dermatological manifestations.         
+SOURCE:LISINOPRIL label
+
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-hip fracture-LISINOPRIL)  Entity.AGENT 
+*(orchestrator-hip fracture-LISINOPRIL)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+
+The question asked was whether Lisinopril increases or decreases the risk of hip fracture. However, the FDAHandler, which provides information based on FDA label data, could not provide an answer to 
+this question. Therefore, I do not have the specific information required to answer whether Lisinopril has an effect on the risk of hip fractures. Without this data, it is not possible to provide a 
+reliable answer.

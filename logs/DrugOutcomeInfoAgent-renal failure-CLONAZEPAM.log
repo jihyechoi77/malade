@@ -1,249 +1,249 @@
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes CLONAZEPAM increase or decrease the risk of renal failure?[0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
-[32m    [0m[32m"content"[0m[32m: [0m[32m"CLONAZEPAM"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mCLONAZEPAM[0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mCLONAZEPAM[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"query"[0m[32m: [0m[32m"What is Clonazepam used for?"[0m[32m,[0m
-[32m    [0m[32m"drug"[0m[32m: [0m[32m"clonazepam"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m 
-[31m        Below are some relevant extracts for your query:[0m
-[31m        -----[0m
-[31m        [0m
-[31mCONTENT: CLONAZEPAM: indications_and_usage: INDICATIONS AND USAGE Seizure Disorders: Clonazepam tablets are useful alone or as an adjunct in the treatment of the Lennox-Gastaut syndrome [0m[1;31m([0m[31mpetit mal [0m
-[31mvariant[0m[1;31m)[0m[31m, akinetic, and myoclonic seizures. In patients with absence seizures [0m[1;31m([0m[31mpetit mal[0m[1;31m)[0m[31m who have failed to respond to succinimides, clonazepam tablets may be useful. Some loss of effect may occur [0m
-[31mduring the course of clonazepam treatment [0m[1;31m([0m[31msee PRECAUTIONS: Loss of Effect [0m[1;31m)[0m[31m. Panic Disorder: Clonazepam tablets are indicated for the treatment of panic disorder, with or without agoraphobia, as [0m
-[31mdefined in DSM-V. Panic disorder is characterized by the occurrence of unexpected panic attacks and associated concern about having additional attacks, worry about the implications or consequences of [0m
-[31mthe attacks, and/or a significant change in behavior related to the attacks. CLONAZEPAM: indications_and_usage: The efficacy of clonazepam tablets was established in two [0m[1;31m6[0m[31m- to [0m[1;31m9[0m[31m-week trials in panic [0m
-[31mdisorder patients whose diagnoses corresponded to the DSM-IIIR category of panic disorder [0m[1;31m([0m[31msee CLINICAL PHARMACOLOGY: Clinical Trials [0m[1;31m)[0m[31m. Panic disorder [0m[1;31m([0m[31mDSM-V[0m[1;31m)[0m[31m is characterized by recurrent unexpected[0m
-[31mpanic attacks, i.e. CLONAZEPAM: indications_and_usage: a discrete period of intense fear or discomfort in which four [0m[1;31m([0m[31mor more[0m[1;31m)[0m[31m of the following symptoms develop abruptly and reach a peak within [0m[1;31m10[0m[31m [0m
-[31mminutes: [0m[1;31m([0m[1;31m1[0m[1;31m)[0m[31m palpitations, pounding heart or accelerated heart rate; [0m[1;31m([0m[1;31m2[0m[1;31m)[0m[31m sweating; [0m[1;31m([0m[1;31m3[0m[1;31m)[0m[31m trembling or shaking; [0m[1;31m([0m[1;31m4[0m[1;31m)[0m[31m sensations of shortness of breath or smothering; [0m[1;31m([0m[1;31m5[0m[1;31m)[0m[31m feeling of choking; [0m[1;31m([0m[1;31m6[0m[1;31m)[0m[31m chest pain[0m
-[31mor discomfort; [0m[1;31m([0m[1;31m7[0m[1;31m)[0m[31m nausea or abdominal distress; [0m[1;31m([0m[1;31m8[0m[1;31m)[0m[31m feeling dizzy, unsteady, lightheaded or faint; [0m[1;31m([0m[1;31m9[0m[1;31m)[0m[31m derealization [0m[1;31m([0m[31mfeelings of unreality[0m[1;31m)[0m[31m or depersonalization [0m[1;31m([0m[31mbeing detached from oneself[0m[1;31m)[0m[31m; [0m[1;31m([0m[1;31m10[0m[1;31m)[0m[31m [0m
-[31mfear of losing control; [0m[1;31m([0m[1;31m11[0m[1;31m)[0m[31m fear of dying; [0m[1;31m([0m[1;31m12[0m[1;31m)[0m[31m paresthesias [0m[1;31m([0m[31mnumbness or tingling sensations[0m[1;31m)[0m[31m; [0m[1;31m([0m[1;31m13[0m[1;31m)[0m[31m chills or hot flushes. CLONAZEPAM: indications_and_usage: The effectiveness of clonazepam tablets [0m
-[31min long-term use, that is, for more than [0m[1;31m9[0m[31m weeks, has not been systematically studied in controlled clinical trials. The physician who elects to use clonazepam tablets for extended periods should [0m
-[31mperiodically reevaluate the long-term usefulness of the drug for the individual patient [0m[1;31m([0m[31msee DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m.         [0m
-[31mSOUR[0m[1;31mCE:C[0m[31mLONAZEPAM label[0m
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) Does CLONAZEPAM increase or decrease the risk of renal failure?
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.AGENT 
+*(orchestrator-renal failure-CLONAZEPAM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "CLONAZEPAM"
+  }
+}
+*(orchestrator-renal failure-CLONAZEPAM)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) CLONAZEPAM
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) CLONAZEPAM
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "What is Clonazepam used for?",
+    "drug": "clonazepam"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) 
+        Below are some relevant extracts for your query:
+        -----
+        
+CONTENT: CLONAZEPAM: indications_and_usage: INDICATIONS AND USAGE Seizure Disorders: Clonazepam tablets are useful alone or as an adjunct in the treatment of the Lennox-Gastaut syndrome (petit mal 
+variant), akinetic, and myoclonic seizures. In patients with absence seizures (petit mal) who have failed to respond to succinimides, clonazepam tablets may be useful. Some loss of effect may occur 
+during the course of clonazepam treatment (see PRECAUTIONS: Loss of Effect ). Panic Disorder: Clonazepam tablets are indicated for the treatment of panic disorder, with or without agoraphobia, as 
+defined in DSM-V. Panic disorder is characterized by the occurrence of unexpected panic attacks and associated concern about having additional attacks, worry about the implications or consequences of 
+the attacks, and/or a significant change in behavior related to the attacks. CLONAZEPAM: indications_and_usage: The efficacy of clonazepam tablets was established in two 6- to 9-week trials in panic 
+disorder patients whose diagnoses corresponded to the DSM-IIIR category of panic disorder (see CLINICAL PHARMACOLOGY: Clinical Trials ). Panic disorder (DSM-V) is characterized by recurrent unexpected
+panic attacks, i.e. CLONAZEPAM: indications_and_usage: a discrete period of intense fear or discomfort in which four (or more) of the following symptoms develop abruptly and reach a peak within 10 
+minutes: (1) palpitations, pounding heart or accelerated heart rate; (2) sweating; (3) trembling or shaking; (4) sensations of shortness of breath or smothering; (5) feeling of choking; (6) chest pain
+or discomfort; (7) nausea or abdominal distress; (8) feeling dizzy, unsteady, lightheaded or faint; (9) derealization (feelings of unreality) or depersonalization (being detached from oneself); (10) 
+fear of losing control; (11) fear of dying; (12) paresthesias (numbness or tingling sensations); (13) chills or hot flushes. CLONAZEPAM: indications_and_usage: The effectiveness of clonazepam tablets 
+in long-term use, that is, for more than 9 weeks, has not been systematically studied in controlled clinical trials. The physician who elects to use clonazepam tablets for extended periods should 
+periodically reevaluate the long-term usefulness of the drug for the individual patient (see DOSAGE AND ADMINISTRATION ).         
+SOURCE:CLONAZEPAM label
 
 
-[31mCONTENT: CLONAZEPAM: pediatric_use: Pediatric Use: Because of the possibility that adverse effects on physical or mental development could become apparent only after many years, a benefit-risk [0m
-[31mconsideration of the long-term use of clonazepam tablets is important in pediatric patients being treated for seizure disorder [0m[1;31m([0m[31msee INDICATIONS AND USAGE and DOSAGE AND ADMINISTRATION [0m[1;31m)[0m[31m. Safety and [0m
-[31meffectiveness in pediatric patients with panic disorder below the age of [0m[1;31m18[0m[31m have not been established.         [0m
-[31mSOUR[0m[1;31mCE:C[0m[31mLONAZEPAM label[0m
+CONTENT: CLONAZEPAM: pediatric_use: Pediatric Use: Because of the possibility that adverse effects on physical or mental development could become apparent only after many years, a benefit-risk 
+consideration of the long-term use of clonazepam tablets is important in pediatric patients being treated for seizure disorder (see INDICATIONS AND USAGE and DOSAGE AND ADMINISTRATION ). Safety and 
+effectiveness in pediatric patients with panic disorder below the age of 18 have not been established.         
+SOURCE:CLONAZEPAM label
 
 
-[31mCONTENT: CLONAZEPAM: precautions: When benzodiazepines and opioids are combined, the potential for benzodiazepines to significantly worsen opioid-related respiratory depression exists. Limit dosage [0m
-[31mand duration of concomitant use of benzodiazepines and opioids, and follow patients closely for respiratory depression and sedation. Effect of Clonazepam on the Pharmacokinetics of Other Drugs: [0m
-[31mClonazepam does not appear to alter the pharmacokinetics of carbamazepine or phenobarbital. Clonazepam has the potential to influence concentrations of phenytoin. Monitoring of phenytoin concentration[0m
-[31mis recommended when clonazepam is co-administrated with phenytoin. The effect of clonazepam on the metabolism of other drugs has not been investigated. Effect of Other Drugs on the Pharmacokinetics of[0m
-[31mClonazepam: Literature reports suggest that ranitidine, an agent that decreases stomach acidity, does not greatly alter clonazepam pharmacokinetics. CLONAZEPAM: precautions: In a study in which the [0m[1;31m2[0m[31m [0m
-[31mmg clonazepam orally disintegrating tablet was administered with and without propantheline [0m[1;31m([0m[31man anticholinergic agent with multiple effects on the GI tract[0m[1;31m)[0m[31m to healthy volunteers, the AUC of clonazepam[0m
-[31mwas [0m[1;31m10[0m[31m% lower and the C max of clonazepam was [0m[1;31m20[0m[31m% lower when the orally disintegrating tablet was given with propantheline compared to when it was given alone. The selective serotonin reuptake [0m
-[31minhibitors sertraline [0m[1;31m([0m[31mweak CYP3A4 inducer[0m[1;31m)[0m[31m and fluoxetine [0m[1;31m([0m[31mCYP2D6 inhibitor[0m[1;31m)[0m[31m, and the anti-epileptic drug felbamate [0m[1;31m([0m[31mCYP2C19 inhibitor and CYP3A4 inducer[0m[1;31m)[0m[31m do not affect the pharmacokinetics of [0m
-[31mclonazepam. CLONAZEPAM: precautions: Cytochrome P-[0m[1;31m450[0m[31m inducers, such as phenytoin, carbamazepine, lamotrigine, and phenobarbital induce clonazepam metabolism, causing an approximately [0m[1;31m38[0m[31m% decrease in [0m
-[31mplasma clonazepam levels. Although clinical studies have not been performed, based on the involvement of the cytochrome P-[0m[1;31m450[0m[31m 3A family in clonazepam metabolism, inhibitors of this enzyme system, [0m
-[31mnotably oral antifungal agents [0m[1;31m([0m[31me.g., fluconazole[0m[1;31m)[0m[31m, should be used cautiously in patients receiving clonazepam because they may impair the metabolism of clonazepam leading to exaggerated [0m
-[31mconcentrations and effects. CLONAZEPAM: precautions: Pharmacodynamic Interactions: The CNS-depressant action of the benzodiazepine class of drugs may be potentiated by alcohol, narcotics, [0m
-[31mbarbiturates, nonbarbiturate hypnotics, antianxiety agents, the phenothiazines, thioxanthene and butyrophenone classes of antipsychotic agents, monoamine oxidase inhibitors and the tricyclic [0m
-[31mantidepressants, and by other anticonvulsant drugs. Carcinogenesis, Mutagenesis, Impairment of Fertility: Carcinogenesis Carcinogenicity studies have not been conducted with clonazepam. Mutagenesis [0m
-[31mThe data currently available are not sufficient to determine the genotoxic potential of clonazepam. CLONAZEPAM: precautions: Impairment of Fertility In a two-generation fertility study in which [0m
-[31mclonazepam was given orally to rats at [0m[1;31m10[0m[31m and [0m[1;31m100[0m[31m mg/kg/day, there was a decrease in the number of pregnancies and in the number of offspring surviving until weaning. The lowest dose tested is [0m
-[31mapproximately [0m[1;31m5[0m[31m and [0m[1;31m24[0m[31m times the maximum recommended human dose [0m[1;31m([0m[31mMRHD[0m[1;31m)[0m[31m of [0m[1;31m20[0m[31m mg/day for seizure disorders and [0m[1;31m4[0m[31m mg/day for panic disorder, respectively, on a body surface area [0m[1;31m([0m[31mmg/m [0m[1;31m2[0m[31m [0m[1;31m)[0m[31m basis. [0m
-[31mPregnancy: Pregnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to AEDs, such as clonazepam tablets, during pregnancy. Healthcare [0m
-[31mproviders are encouraged to recommend that pregnant women taking clonazepam tablets enroll in the NAAED Pregnancy Registry by calling [0m[1;31m1[0m[31m-[0m[1;31m888[0m[31m-[0m[1;31m233[0m[31m-[0m[1;31m2334[0m[31m or online at [0m[4;31mhttp://www.aedpregnancyregistry.org/[0m[31m .[0m
-[31mSOUR[0m[1;31mCE:C[0m[31mLONAZEPAM label[0m
+CONTENT: CLONAZEPAM: precautions: When benzodiazepines and opioids are combined, the potential for benzodiazepines to significantly worsen opioid-related respiratory depression exists. Limit dosage 
+and duration of concomitant use of benzodiazepines and opioids, and follow patients closely for respiratory depression and sedation. Effect of Clonazepam on the Pharmacokinetics of Other Drugs: 
+Clonazepam does not appear to alter the pharmacokinetics of carbamazepine or phenobarbital. Clonazepam has the potential to influence concentrations of phenytoin. Monitoring of phenytoin concentration
+is recommended when clonazepam is co-administrated with phenytoin. The effect of clonazepam on the metabolism of other drugs has not been investigated. Effect of Other Drugs on the Pharmacokinetics of
+Clonazepam: Literature reports suggest that ranitidine, an agent that decreases stomach acidity, does not greatly alter clonazepam pharmacokinetics. CLONAZEPAM: precautions: In a study in which the 2 
+mg clonazepam orally disintegrating tablet was administered with and without propantheline (an anticholinergic agent with multiple effects on the GI tract) to healthy volunteers, the AUC of clonazepam
+was 10% lower and the C max of clonazepam was 20% lower when the orally disintegrating tablet was given with propantheline compared to when it was given alone. The selective serotonin reuptake 
+inhibitors sertraline (weak CYP3A4 inducer) and fluoxetine (CYP2D6 inhibitor), and the anti-epileptic drug felbamate (CYP2C19 inhibitor and CYP3A4 inducer) do not affect the pharmacokinetics of 
+clonazepam. CLONAZEPAM: precautions: Cytochrome P-450 inducers, such as phenytoin, carbamazepine, lamotrigine, and phenobarbital induce clonazepam metabolism, causing an approximately 38% decrease in 
+plasma clonazepam levels. Although clinical studies have not been performed, based on the involvement of the cytochrome P-450 3A family in clonazepam metabolism, inhibitors of this enzyme system, 
+notably oral antifungal agents (e.g., fluconazole), should be used cautiously in patients receiving clonazepam because they may impair the metabolism of clonazepam leading to exaggerated 
+concentrations and effects. CLONAZEPAM: precautions: Pharmacodynamic Interactions: The CNS-depressant action of the benzodiazepine class of drugs may be potentiated by alcohol, narcotics, 
+barbiturates, nonbarbiturate hypnotics, antianxiety agents, the phenothiazines, thioxanthene and butyrophenone classes of antipsychotic agents, monoamine oxidase inhibitors and the tricyclic 
+antidepressants, and by other anticonvulsant drugs. Carcinogenesis, Mutagenesis, Impairment of Fertility: Carcinogenesis Carcinogenicity studies have not been conducted with clonazepam. Mutagenesis 
+The data currently available are not sufficient to determine the genotoxic potential of clonazepam. CLONAZEPAM: precautions: Impairment of Fertility In a two-generation fertility study in which 
+clonazepam was given orally to rats at 10 and 100 mg/kg/day, there was a decrease in the number of pregnancies and in the number of offspring surviving until weaning. The lowest dose tested is 
+approximately 5 and 24 times the maximum recommended human dose (MRHD) of 20 mg/day for seizure disorders and 4 mg/day for panic disorder, respectively, on a body surface area (mg/m 2 ) basis. 
+Pregnancy: Pregnancy Exposure Registry There is a pregnancy exposure registry that monitors pregnancy outcomes in women exposed to AEDs, such as clonazepam tablets, during pregnancy. Healthcare 
+providers are encouraged to recommend that pregnant women taking clonazepam tablets enroll in the NAAED Pregnancy Registry by calling 1-888-233-2334 or online at http://www.aedpregnancyregistry.org/ .
+SOURCE:CLONAZEPAM label
 
 
-[31mCONTENT: CLONAZEPAM: abuse: Abuse: Clonazepam tablets are a benzodiazepine and a CNS depressant with a potential for abuse and addiction. Abuse is the intentional, non-therapeutic use of a drug, even [0m
-[31monce, for its desirable psychological or physiological effects. Misuse is the intentional use, for therapeutic purposes, of a drug by an individual in a way other than prescribed by a health care [0m
-[31mprovider or for whom it was not prescribed. Drug addiction is a cluster of behavioral, cognitive, and physiological phenomena that may include a strong desire to take the drug, difficulties in [0m
-[31mcontrolling drug use [0m[1;31m([0m[31me.g., continuing drug use despite harmful consequences, giving a higher priority to drug use than other activities and obligations[0m[1;31m)[0m[31m, and possible tolerance or physical [0m
-[31mdependence. Even taking benzodiazepines as prescribed may put patients at risk for abuse and misuse of their medication. Abuse and misuse of benzodiazepines may lead to addiction. CLONAZEPAM: abuse: [0m
-[31mAbuse and misuse of benzodiazepines often [0m[1;31m([0m[31mbut not always[0m[1;31m)[0m[31m involve the use of doses greater than the maximum recommended dosage and commonly involve concomitant use of other medications, alcohol, [0m
-[31mand/or illicit substances, which is associated with an increased frequency of serious adverse outcomes, including respiratory depression, overdose, or death. Benzodiazepines are often sought by [0m
-[31mindividuals who abuse drugs and other substances, and by individuals with addictive disorders [0m[1;31m([0m[31msee WARNINGS: Abuse, Misuse, and Addiction [0m[1;31m)[0m[31m. The following adverse reactions have occurred with [0m
-[31mbenzodiazepine abuse and/or misuse: abdominal pain, amnesia, anorexia, anxiety, aggression, ataxia, blurred vision, confusion, depression, disinhibition, disorientation, dizziness, euphoria, impaired [0m
-[31mconcentration and memory, indigestion, irritability, muscle pain, slurred speech, tremors, and vertigo. CLONAZEPAM: abuse: The following severe adverse reactions have occurred with benzodiazepine [0m
-[31mabuse and/or misuse: delirium, paranoia, suicidal ideation and behavior, seizures, coma, breathing difficulty, and death. Death is more often associated with polysubstance use [0m[1;31m([0m[31mespecially [0m
-[31mbenzodiazepines with other CNS depressants such as opioids and alcohol[0m[1;31m)[0m[31m .         [0m
-[31mSOUR[0m[1;31mCE:C[0m[31mLONAZEPAM label[0m
+CONTENT: CLONAZEPAM: abuse: Abuse: Clonazepam tablets are a benzodiazepine and a CNS depressant with a potential for abuse and addiction. Abuse is the intentional, non-therapeutic use of a drug, even 
+once, for its desirable psychological or physiological effects. Misuse is the intentional use, for therapeutic purposes, of a drug by an individual in a way other than prescribed by a health care 
+provider or for whom it was not prescribed. Drug addiction is a cluster of behavioral, cognitive, and physiological phenomena that may include a strong desire to take the drug, difficulties in 
+controlling drug use (e.g., continuing drug use despite harmful consequences, giving a higher priority to drug use than other activities and obligations), and possible tolerance or physical 
+dependence. Even taking benzodiazepines as prescribed may put patients at risk for abuse and misuse of their medication. Abuse and misuse of benzodiazepines may lead to addiction. CLONAZEPAM: abuse: 
+Abuse and misuse of benzodiazepines often (but not always) involve the use of doses greater than the maximum recommended dosage and commonly involve concomitant use of other medications, alcohol, 
+and/or illicit substances, which is associated with an increased frequency of serious adverse outcomes, including respiratory depression, overdose, or death. Benzodiazepines are often sought by 
+individuals who abuse drugs and other substances, and by individuals with addictive disorders (see WARNINGS: Abuse, Misuse, and Addiction ). The following adverse reactions have occurred with 
+benzodiazepine abuse and/or misuse: abdominal pain, amnesia, anorexia, anxiety, aggression, ataxia, blurred vision, confusion, depression, disinhibition, disorientation, dizziness, euphoria, impaired 
+concentration and memory, indigestion, irritability, muscle pain, slurred speech, tremors, and vertigo. CLONAZEPAM: abuse: The following severe adverse reactions have occurred with benzodiazepine 
+abuse and/or misuse: delirium, paranoia, suicidal ideation and behavior, seizures, coma, breathing difficulty, and death. Death is more often associated with polysubstance use (especially 
+benzodiazepines with other CNS depressants such as opioids and alcohol) .         
+SOURCE:CLONAZEPAM label
 
 
-[31mCONTENT: CLONAZEPAM: clinical_pharmacology: Thus, caution should be exercised when administering clonazepam to these patients [0m[1;31m([0m[31msee CONTRAINDICATIONS [0m[1;31m)[0m[31m. In children, clearance values of [0m[1;31m0.42[0m[31m ± [0m[1;31m0.32[0m[31m [0m
-[31mmL/min/kg [0m[1;31m([0m[31mages [0m[1;31m2[0m[31m to [0m[1;31m18[0m[31m years[0m[1;31m)[0m[31m and [0m[1;31m0.88[0m[31m ± [0m[1;31m0.4[0m[31m mL/min/kg [0m[1;31m([0m[31mages [0m[1;31m7[0m[31m to [0m[1;31m12[0m[31m years[0m[1;31m)[0m[31m were reported; these values decreased with increasing body weight. Ketogenic diet in children does not affect clonazepam [0m
-[31mconcentrations. Clinical Trials: Panic Disorder: The effectiveness of clonazepam tablets in the treatment of panic disorder was demonstrated in two double-blind, placebo-controlled studies of adult [0m
-[31moutpatients who had a primary diagnosis of panic disorder [0m[1;31m([0m[31mDSM-IIIR[0m[1;31m)[0m[31m with or without agoraphobia. CLONAZEPAM: clinical_pharmacology: In these studies, clonazepam tablets were shown to be significantly[0m
-[31mmore effective than placebo in treating panic disorder on change from baseline in panic attack frequency, the Clinician’s Global Impression Severity of Illness Score and the Clinician’s Global [0m
-[31mImpression Improvement Score. Study [0m[1;31m1[0m[31m was a [0m[1;31m9[0m[31m-week, fixed-dose study involving clonazepam tablets doses of [0m[1;31m0.5[0m[31m, [0m[1;31m1[0m[31m, [0m[1;31m2[0m[31m, [0m[1;31m3[0m[31m or [0m[1;31m4[0m[31m mg/day or placebo. This study was conducted in four phases: a [0m[1;31m1[0m[31m-week [0m
-[31mplacebo lead-in, a [0m[1;31m3[0m[31m-week upward titration, a [0m[1;31m6[0m[31m-week fixed dose, and a [0m[1;31m7[0m[31m-week discontinuance phase. A significant difference from placebo was observed consistently only for the [0m[1;31m1[0m[31m mg/day group. The [0m
-[31mdifference between the [0m[1;31m1[0m[31m mg dose group and placebo in reduction from baseline in the number of full panic attacks was approximately [0m[1;31m1[0m[31m panic attack per week. CLONAZEPAM: clinical_pharmacology: At [0m
-[31mendpoint, [0m[1;31m74[0m[31m% of patients receiving clonazepam [0m[1;31m1[0m[31m mg/day were free of full panic attacks, compared to [0m[1;31m56[0m[31m% of placebo-treated patients. Study [0m[1;31m2[0m[31m was a [0m[1;31m6[0m[31m-week, flexible-dose study involving clonazepam [0m
-[31mtablets in a dose range of [0m[1;31m0.5[0m[31m to [0m[1;31m4[0m[31m mg/day or placebo. This study was conducted in three phases: a [0m[1;31m1[0m[31m-week placebo lead-in, a [0m[1;31m6[0m[31m-week optimal-dose, and a [0m[1;31m6[0m[31m-week discontinuance phase. The mean clonazepam[0m
-[31mdose during the optimal dosing period was [0m[1;31m2.3[0m[31m mg/day. The difference between clonazepam tablets and placebo in reduction from baseline in the number of full panic attacks was approximately [0m[1;31m1[0m[31m panic [0m
-[31mattack per week. At endpoint, [0m[1;31m62[0m[31m% of patients receiving clonazepam were free of full panic attacks, compared to [0m[1;31m37[0m[31m% of placebo-treated patients. CLONAZEPAM: clinical_pharmacology: Subgroup analyses [0m
-[31mdid not indicate that there were any differences in treatment outcomes as a function of race or gender.         [0m
-[31mSOUR[0m[1;31mCE:C[0m[31mLONAZEPAM label[0m
+CONTENT: CLONAZEPAM: clinical_pharmacology: Thus, caution should be exercised when administering clonazepam to these patients (see CONTRAINDICATIONS ). In children, clearance values of 0.42 ± 0.32 
+mL/min/kg (ages 2 to 18 years) and 0.88 ± 0.4 mL/min/kg (ages 7 to 12 years) were reported; these values decreased with increasing body weight. Ketogenic diet in children does not affect clonazepam 
+concentrations. Clinical Trials: Panic Disorder: The effectiveness of clonazepam tablets in the treatment of panic disorder was demonstrated in two double-blind, placebo-controlled studies of adult 
+outpatients who had a primary diagnosis of panic disorder (DSM-IIIR) with or without agoraphobia. CLONAZEPAM: clinical_pharmacology: In these studies, clonazepam tablets were shown to be significantly
+more effective than placebo in treating panic disorder on change from baseline in panic attack frequency, the Clinician’s Global Impression Severity of Illness Score and the Clinician’s Global 
+Impression Improvement Score. Study 1 was a 9-week, fixed-dose study involving clonazepam tablets doses of 0.5, 1, 2, 3 or 4 mg/day or placebo. This study was conducted in four phases: a 1-week 
+placebo lead-in, a 3-week upward titration, a 6-week fixed dose, and a 7-week discontinuance phase. A significant difference from placebo was observed consistently only for the 1 mg/day group. The 
+difference between the 1 mg dose group and placebo in reduction from baseline in the number of full panic attacks was approximately 1 panic attack per week. CLONAZEPAM: clinical_pharmacology: At 
+endpoint, 74% of patients receiving clonazepam 1 mg/day were free of full panic attacks, compared to 56% of placebo-treated patients. Study 2 was a 6-week, flexible-dose study involving clonazepam 
+tablets in a dose range of 0.5 to 4 mg/day or placebo. This study was conducted in three phases: a 1-week placebo lead-in, a 6-week optimal-dose, and a 6-week discontinuance phase. The mean clonazepam
+dose during the optimal dosing period was 2.3 mg/day. The difference between clonazepam tablets and placebo in reduction from baseline in the number of full panic attacks was approximately 1 panic 
+attack per week. At endpoint, 62% of patients receiving clonazepam were free of full panic attacks, compared to 37% of placebo-treated patients. CLONAZEPAM: clinical_pharmacology: Subgroup analyses 
+did not indicate that there were any differences in treatment outcomes as a function of race or gender.         
+SOURCE:CLONAZEPAM label
 
 
-[31mCONTENT: CLONAZEPAM: spl_medguide: Your healthcare provider can tell you more about the differences between physical dependence and drug addiction. Do not take more clonazepam tablets than prescribed [0m
-[31mor take clonazepam tablets for longer than prescribed. Clonazepam tablets can make you sleepy or dizzy and can slow your thinking and motor skills. This may get better over time. Do not drive, operate[0m
-[31mheavy machinery, or do other dangerous activities until you know how clonazepam tablets affect you. Clonazepam tablets may cause problems with your coordination, especially when you are walking or [0m
-[31mpicking things up. Do not drink alcohol or take other drugs that may make you sleepy or dizzy while taking clonazepam tablets until you talk to your healthcare provider. When taken with alcohol or [0m
-[31mdrugs that cause sleepiness or dizziness, clonazepam tablets may make your sleepiness or dizziness worse. CLONAZEPAM: spl_medguide: Like other antiepileptic medicines, clonazepam tablets may cause [0m
-[31msuicidal thoughts or actions in a very small number of people, about [0m[1;31m1[0m[31m in [0m[1;31m500[0m[31m. Call your healthcare provider right away if you have any of these symptoms, especially if they are new, worse, or worry [0m
-[31myou: thoughts about suicide or dying attempts to commit suicide new or worse depression new or worse anxiety feeling agitated or restless panic attacks trouble sleeping [0m[1;31m([0m[31minsomnia[0m[1;31m)[0m[31m acting on dangerous [0m
-[31mimpulses new or worse irritability an extreme increase in activity and talking [0m[1;31m([0m[31mmania[0m[1;31m)[0m[31m acting aggressive, being angry, or violent other unusual changes in behavior or mood How can I watch for early [0m
-[31msymptoms of suicidal thoughts and actions? Pay attention to any changes, especially sudden changes, in mood, behaviors, thoughts, or feelings. Keep all follow-up visits with your healthcare provider [0m
-[31mas scheduled. Call your healthcare provider between visits as needed, especially if you are worried about symptoms. CLONAZEPAM: spl_medguide: Suicidal thoughts or actions can be caused by things other[0m
-[31mthan medicines. If you have suicidal thoughts or actions, your healthcare provider may check for other causes. Do not stop clonazepam tablets without first talking to a healthcare provider. Stopping [0m
-[31mclonazepam tablets suddenly can cause serious problems. Stopping clonazepam tablets suddenly can cause seizures that will not stop [0m[1;31m([0m[31mstatus epilepticus[0m[1;31m)[0m[31m. What are clonazepam tablets? Clonazepam tablets[0m
-[31mare a prescription medicine used alone or with other medicines to treat: certain types of seizure disorders [0m[1;31m([0m[31mepilepsy[0m[1;31m)[0m[31m in adults and children panic disorder with or without fear of open spaces [0m
-[1;31m([0m[31magoraphobia[0m[1;31m)[0m[31m in adults Clonazepam tablets are a federally controlled substance [0m[1;31m([0m[31mC-IV[0m[1;31m)[0m[31m because it contains clonazepam that can be abused or lead to dependence. Keep clonazepam tablets in a safe place [0m
-[31mto prevent misuse and abuse. CLONAZEPAM: spl_medguide: Selling or giving away clonazepam tablets may harm others, and is against the law. Tell your healthcare provider if you have ever abused or been [0m
-[31mdependent on alcohol, prescription medicines, or street drugs. It is not known if clonazepam tablets are safe or effective in treating panic disorder in children younger than [0m[1;31m18[0m[31m years old. Who should [0m
-[31mnot take clonazepam tablets? Do not take clonazepam tablets if you: are allergic to benzodiazepines have significant liver disease have an eye disease called acute narrow angle glaucoma Ask your [0m
-[31mhealthcare provider if you are not sure if you have any of the problems listed above. Before you take clonazepam tablets, tell your healthcare provider if you: have liver or kidney problems have lung [0m
-[31mproblems [0m[1;31m([0m[31mrespiratory disease[0m[1;31m)[0m[31m have or have had depression, mood problems, or suicidal thoughts or behavior have any other medical problems are pregnant or plan to become pregnant. CLONAZEPAM: [0m
-[31mspl_medguide: Taking clonazepam tablets late in pregnancy may cause your baby to have symptoms of sedation [0m[1;31m([0m[31mbreathing problems, sluggishness, low muscle tone[0m[1;31m)[0m[31m, and/or withdrawal symptoms [0m[1;31m([0m[31mjitteriness,[0m
-[31mirritability, restlessness, shaking, excessive crying, feeding problems[0m[1;31m)[0m[31m. Tell your healthcare provider right away if you become pregnant or think you are pregnant during treatment with clonazepam [0m
-[31mtablets. If you become pregnant while taking clonazepam tablets, talk to your healthcare provider about registering with the North American Antiepileptic Drug Pregnancy Registry. You can register by [0m
-[31mcalling [0m[1;31m1[0m[31m-[0m[1;31m888[0m[31m-[0m[1;31m233[0m[31m-[0m[1;31m2334[0m[31m. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. are breastfeeding or plan to breastfeed. Clonazepam can pass [0m
-[31minto breast milk. Breastfeeding during treatment with clonazepam tablets may cause your baby to have sleepiness, feeding problems, and decreased weight gain.         [0m
-[31mSOUR[0m[1;31mCE:C[0m[31mLONAZEPAM label[0m
+CONTENT: CLONAZEPAM: spl_medguide: Your healthcare provider can tell you more about the differences between physical dependence and drug addiction. Do not take more clonazepam tablets than prescribed 
+or take clonazepam tablets for longer than prescribed. Clonazepam tablets can make you sleepy or dizzy and can slow your thinking and motor skills. This may get better over time. Do not drive, operate
+heavy machinery, or do other dangerous activities until you know how clonazepam tablets affect you. Clonazepam tablets may cause problems with your coordination, especially when you are walking or 
+picking things up. Do not drink alcohol or take other drugs that may make you sleepy or dizzy while taking clonazepam tablets until you talk to your healthcare provider. When taken with alcohol or 
+drugs that cause sleepiness or dizziness, clonazepam tablets may make your sleepiness or dizziness worse. CLONAZEPAM: spl_medguide: Like other antiepileptic medicines, clonazepam tablets may cause 
+suicidal thoughts or actions in a very small number of people, about 1 in 500. Call your healthcare provider right away if you have any of these symptoms, especially if they are new, worse, or worry 
+you: thoughts about suicide or dying attempts to commit suicide new or worse depression new or worse anxiety feeling agitated or restless panic attacks trouble sleeping (insomnia) acting on dangerous 
+impulses new or worse irritability an extreme increase in activity and talking (mania) acting aggressive, being angry, or violent other unusual changes in behavior or mood How can I watch for early 
+symptoms of suicidal thoughts and actions? Pay attention to any changes, especially sudden changes, in mood, behaviors, thoughts, or feelings. Keep all follow-up visits with your healthcare provider 
+as scheduled. Call your healthcare provider between visits as needed, especially if you are worried about symptoms. CLONAZEPAM: spl_medguide: Suicidal thoughts or actions can be caused by things other
+than medicines. If you have suicidal thoughts or actions, your healthcare provider may check for other causes. Do not stop clonazepam tablets without first talking to a healthcare provider. Stopping 
+clonazepam tablets suddenly can cause serious problems. Stopping clonazepam tablets suddenly can cause seizures that will not stop (status epilepticus). What are clonazepam tablets? Clonazepam tablets
+are a prescription medicine used alone or with other medicines to treat: certain types of seizure disorders (epilepsy) in adults and children panic disorder with or without fear of open spaces 
+(agoraphobia) in adults Clonazepam tablets are a federally controlled substance (C-IV) because it contains clonazepam that can be abused or lead to dependence. Keep clonazepam tablets in a safe place 
+to prevent misuse and abuse. CLONAZEPAM: spl_medguide: Selling or giving away clonazepam tablets may harm others, and is against the law. Tell your healthcare provider if you have ever abused or been 
+dependent on alcohol, prescription medicines, or street drugs. It is not known if clonazepam tablets are safe or effective in treating panic disorder in children younger than 18 years old. Who should 
+not take clonazepam tablets? Do not take clonazepam tablets if you: are allergic to benzodiazepines have significant liver disease have an eye disease called acute narrow angle glaucoma Ask your 
+healthcare provider if you are not sure if you have any of the problems listed above. Before you take clonazepam tablets, tell your healthcare provider if you: have liver or kidney problems have lung 
+problems (respiratory disease) have or have had depression, mood problems, or suicidal thoughts or behavior have any other medical problems are pregnant or plan to become pregnant. CLONAZEPAM: 
+spl_medguide: Taking clonazepam tablets late in pregnancy may cause your baby to have symptoms of sedation (breathing problems, sluggishness, low muscle tone), and/or withdrawal symptoms (jitteriness,
+irritability, restlessness, shaking, excessive crying, feeding problems). Tell your healthcare provider right away if you become pregnant or think you are pregnant during treatment with clonazepam 
+tablets. If you become pregnant while taking clonazepam tablets, talk to your healthcare provider about registering with the North American Antiepileptic Drug Pregnancy Registry. You can register by 
+calling 1-888-233-2334. The purpose of this registry is to collect information about the safety of antiepileptic drugs during pregnancy. are breastfeeding or plan to breastfeed. Clonazepam can pass 
+into breast milk. Breastfeeding during treatment with clonazepam tablets may cause your baby to have sleepiness, feeding problems, and decreased weight gain.         
+SOURCE:CLONAZEPAM label
 
 
-[31mCONTENT: CLONAZEPAM: precautions: PRECAUTIONS General: Worsening of Seizures: When used in patients in whom several different types of seizure disorders coexist, clonazepam tablets may increase the [0m
-[31mincidence or precipitate the onset of generalized tonic-clonic seizures [0m[1;31m([0m[31mgrand mal[0m[1;31m)[0m[31m. This may require the addition of appropriate anticonvulsants or an increase in their dosages. The concomitant use [0m
-[31mof valproic acid and clonazepam tablets may produce absence status. Loss of Effect: In some studies, up to [0m[1;31m30[0m[31m% of patients who initially responded have shown a loss of anticonvulsant activity, often [0m
-[31mwithin [0m[1;31m3[0m[31m months of administration. In some cases, dosage adjustment may reestablish efficacy. Laboratory Testing During Long-Term Therapy: Periodic blood counts and liver function tests are advisable [0m
-[31mduring long-term therapy with clonazepam tablets. CLONAZEPAM: general_precautions: Psychiatric and Paradoxical Reactions: Paradoxical reactions, such as agitation, irritability, aggression, anxiety, [0m
-[31manger, nightmares, hallucinations, and psychoses are known to occur when using benzodiazepines [0m[1;31m([0m[31msee ADVERSE REACTIONS: Psychiatric [0m[1;31m)[0m[31m. Should this occur, the use of the drug should be discontinued [0m
-[31mgradually [0m[1;31m([0m[31msee WARNINGS: Dependence and Withdrawal Reactions and DRUG ABUSE AND DEPENDENCE: Dependence [0m[1;31m)[0m[31m. Paradoxical reactions are more likely to occur in children and in the elderly. Caution in [0m
-[31mRenally Impaired Patients: Metabolites of clonazepam tablets are excreted by the kidneys; to avoid their excess accumulation, caution should be exercised in the administration of the drug to patients [0m
-[31mwith impaired renal function. Hypersalivation: Clonazepam tablets may produce an increase in salivation. This should be considered before giving the drug to patients who have difficulty handling [0m
-[31msecretions. CLONAZEPAM: precautions: Respiratory Depression: Clonazepam tablets may cause respiratory depression and should be used with caution in patients with compromised respiratory function [0m
-[1;31m([0m[31me.g., chronic obstructive pulmonary disease, sleep apnea[0m[1;31m)[0m[31m. Porphyria: Clonazepam tablets may have a porphyrogenic effect and should be used with care in patients with porphyria. Information for [0m
-[31mPatients: A clonazepam tablets Medication Guide must be given to the patient each time clonazepam tablets are dispensed, as required by law. Patients should be instructed to take clonazepam tablets [0m
-[31monly as prescribed. CLONAZEPAM: precautions: Physicians are advised to discuss the following issues with patients for whom they prescribe clonazepam tablets: Risks from Concomitant Use with Opioids: [0m
-[31mInform patients and caregivers that potentially fatal additive effects may occur if clonazepam tablets are used with opioids and not to use such drugs concomitantly unless supervised by a health care [0m
-[31mprovider [0m[1;31m([0m[31msee WARNINGS: Risks from Concomitant Use with Opioids and PRECAUTIONS: Drug Interactions [0m[1;31m)[0m[31m. Abuse, Misuse, and Addiction: Inform patients that the use of clonazepam tablets, even at [0m
-[31mrecommended dosages, exposes users to risks of abuse, misuse, and addiction, which can lead to overdose and death, especially when used in combination with other medications [0m[1;31m([0m[31me.g., opioid analgesics[0m[1;31m)[0m[31m,[0m
-[31malcohol, and/or illicit substances . CLONAZEPAM: precautions: Inform patients about the signs and symptoms of benzodiazepine abuse, misuse, and addiction; to seek medical help if they develop these [0m
-[31msigns and/or symptoms; and on the proper disposal of unused drug [0m[1;31m([0m[31msee WARNINGS: Abuse, Misuse, and Addiction and DRUG ABUSE AND DEPENDENCE [0m[1;31m)[0m[31m . Withdrawal Reactions: Inform patients that the continued [0m
-[31muse of clonazepam tablets may lead to clinically significant physical dependence and that abrupt discontinuation or rapid dosage reduction of clonazepam tablets may precipitate acute withdrawal [0m
-[31mreactions, which can be life-threatening. Inform patients that in some cases, patients taking benzodiazepines have developed a protracted withdrawal syndrome with withdrawal symptoms lasting weeks to [0m
-[31mmore than [0m[1;31m12[0m[31m months. Instruct patients that discontinuation or dosage reduction of clonazepam tablets may require a slow taper [0m[1;31m([0m[31msee WARNINGS: Dependence and Withdrawal Reactions and DRUG ABUSE AND [0m
-[31mDEPENDENCE [0m[1;31m)[0m[31m . CLONAZEPAM: general_precautions: General: Worsening of Seizures: When used in patients in whom several different types of seizure disorders coexist, clonazepam tablets may increase the [0m
-[31mincidence or precipitate the onset of generalized tonic-clonic seizures [0m[1;31m([0m[31mgrand mal[0m[1;31m)[0m[31m. This may require the addition of appropriate anticonvulsants or an increase in their dosages. The concomitant use [0m
-[31mof valproic acid and clonazepam tablets may produce absence status. Loss of Effect: In some studies, up to [0m[1;31m30[0m[31m% of patients who initially responded have shown a loss of anticonvulsant activity, often [0m
-[31mwithin [0m[1;31m3[0m[31m months of administration. In some cases, dosage adjustment may reestablish efficacy. Laboratory Testing During Long-Term Therapy: Periodic blood counts and liver function tests are advisable [0m
-[31mduring long-term therapy with clonazepam tablets. CLONAZEPAM: general_precautions: Respiratory Depression: Clonazepam tablets may cause respiratory depression and should be used with caution in [0m
-[31mpatients with compromised respiratory function [0m[1;31m([0m[31me.g., chronic obstructive pulmonary disease, sleep apnea[0m[1;31m)[0m[31m. Porphyria: Clonazepam tablets may have a porphyrogenic effect and should be used with care in[0m
-[31mpatients with porphyria. CLONAZEPAM: precautions: Interference With Cognitive and Motor Performance: Because benzodiazepines have the potential to impair judgment, thinking or motor skills, patients [0m
-[31mshould be cautioned about operating hazardous machinery, including automobiles, until they are reasonably certain that clonazepam tablets therapy does not affect them adversely. Suicidal Thinking and [0m
-[31mBehavior: Patients, their caregivers, and families should be counseled that AEDs, including clonazepam tablets, may increase the risk of suicidal thoughts and behavior and should be advised of the [0m
-[31mneed to be alert for the emergence or worsening of symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. [0m
-[31mBehaviors of concern should be reported immediately to healthcare providers.         [0m
-[31mSOUR[0m[1;31mCE:C[0m[31mLONAZEPAM label[0m
+CONTENT: CLONAZEPAM: precautions: PRECAUTIONS General: Worsening of Seizures: When used in patients in whom several different types of seizure disorders coexist, clonazepam tablets may increase the 
+incidence or precipitate the onset of generalized tonic-clonic seizures (grand mal). This may require the addition of appropriate anticonvulsants or an increase in their dosages. The concomitant use 
+of valproic acid and clonazepam tablets may produce absence status. Loss of Effect: In some studies, up to 30% of patients who initially responded have shown a loss of anticonvulsant activity, often 
+within 3 months of administration. In some cases, dosage adjustment may reestablish efficacy. Laboratory Testing During Long-Term Therapy: Periodic blood counts and liver function tests are advisable 
+during long-term therapy with clonazepam tablets. CLONAZEPAM: general_precautions: Psychiatric and Paradoxical Reactions: Paradoxical reactions, such as agitation, irritability, aggression, anxiety, 
+anger, nightmares, hallucinations, and psychoses are known to occur when using benzodiazepines (see ADVERSE REACTIONS: Psychiatric ). Should this occur, the use of the drug should be discontinued 
+gradually (see WARNINGS: Dependence and Withdrawal Reactions and DRUG ABUSE AND DEPENDENCE: Dependence ). Paradoxical reactions are more likely to occur in children and in the elderly. Caution in 
+Renally Impaired Patients: Metabolites of clonazepam tablets are excreted by the kidneys; to avoid their excess accumulation, caution should be exercised in the administration of the drug to patients 
+with impaired renal function. Hypersalivation: Clonazepam tablets may produce an increase in salivation. This should be considered before giving the drug to patients who have difficulty handling 
+secretions. CLONAZEPAM: precautions: Respiratory Depression: Clonazepam tablets may cause respiratory depression and should be used with caution in patients with compromised respiratory function 
+(e.g., chronic obstructive pulmonary disease, sleep apnea). Porphyria: Clonazepam tablets may have a porphyrogenic effect and should be used with care in patients with porphyria. Information for 
+Patients: A clonazepam tablets Medication Guide must be given to the patient each time clonazepam tablets are dispensed, as required by law. Patients should be instructed to take clonazepam tablets 
+only as prescribed. CLONAZEPAM: precautions: Physicians are advised to discuss the following issues with patients for whom they prescribe clonazepam tablets: Risks from Concomitant Use with Opioids: 
+Inform patients and caregivers that potentially fatal additive effects may occur if clonazepam tablets are used with opioids and not to use such drugs concomitantly unless supervised by a health care 
+provider (see WARNINGS: Risks from Concomitant Use with Opioids and PRECAUTIONS: Drug Interactions ). Abuse, Misuse, and Addiction: Inform patients that the use of clonazepam tablets, even at 
+recommended dosages, exposes users to risks of abuse, misuse, and addiction, which can lead to overdose and death, especially when used in combination with other medications (e.g., opioid analgesics),
+alcohol, and/or illicit substances . CLONAZEPAM: precautions: Inform patients about the signs and symptoms of benzodiazepine abuse, misuse, and addiction; to seek medical help if they develop these 
+signs and/or symptoms; and on the proper disposal of unused drug (see WARNINGS: Abuse, Misuse, and Addiction and DRUG ABUSE AND DEPENDENCE ) . Withdrawal Reactions: Inform patients that the continued 
+use of clonazepam tablets may lead to clinically significant physical dependence and that abrupt discontinuation or rapid dosage reduction of clonazepam tablets may precipitate acute withdrawal 
+reactions, which can be life-threatening. Inform patients that in some cases, patients taking benzodiazepines have developed a protracted withdrawal syndrome with withdrawal symptoms lasting weeks to 
+more than 12 months. Instruct patients that discontinuation or dosage reduction of clonazepam tablets may require a slow taper (see WARNINGS: Dependence and Withdrawal Reactions and DRUG ABUSE AND 
+DEPENDENCE ) . CLONAZEPAM: general_precautions: General: Worsening of Seizures: When used in patients in whom several different types of seizure disorders coexist, clonazepam tablets may increase the 
+incidence or precipitate the onset of generalized tonic-clonic seizures (grand mal). This may require the addition of appropriate anticonvulsants or an increase in their dosages. The concomitant use 
+of valproic acid and clonazepam tablets may produce absence status. Loss of Effect: In some studies, up to 30% of patients who initially responded have shown a loss of anticonvulsant activity, often 
+within 3 months of administration. In some cases, dosage adjustment may reestablish efficacy. Laboratory Testing During Long-Term Therapy: Periodic blood counts and liver function tests are advisable 
+during long-term therapy with clonazepam tablets. CLONAZEPAM: general_precautions: Respiratory Depression: Clonazepam tablets may cause respiratory depression and should be used with caution in 
+patients with compromised respiratory function (e.g., chronic obstructive pulmonary disease, sleep apnea). Porphyria: Clonazepam tablets may have a porphyrogenic effect and should be used with care in
+patients with porphyria. CLONAZEPAM: precautions: Interference With Cognitive and Motor Performance: Because benzodiazepines have the potential to impair judgment, thinking or motor skills, patients 
+should be cautioned about operating hazardous machinery, including automobiles, until they are reasonably certain that clonazepam tablets therapy does not affect them adversely. Suicidal Thinking and 
+Behavior: Patients, their caregivers, and families should be counseled that AEDs, including clonazepam tablets, may increase the risk of suicidal thoughts and behavior and should be advised of the 
+need to be alert for the emergence or worsening of symptoms of depression, any unusual changes in mood or behavior, or the emergence of suicidal thoughts, behavior, or thoughts about self-harm. 
+Behaviors of concern should be reported immediately to healthcare providers.         
+SOURCE:CLONAZEPAM label
 
 
-[31mCONTENT: CLONAZEPAM: spl_medguide_table: item>[0m[1;31m<[0m[1;31mitem[0m[31m>other unusual changes in behavior or mood<[0m[31m/[0m[31mitem[0m[31m><[0m[31m/[0m[31mlist[0m[31m><[0m[31m/[0m[31mtd[0m[31m><[0m[31m/[0m[31mtr[0m[31m><tr [0m[31mstyleCode[0m[31m=[0m[31m"Botrule"[0m[31m><td [0m[31mstyleCode[0m[31m=[0m[31m"Lrule[0m[31m Rrule"[0m[31m [0m[31mvalign[0m[31m=[0m[31m"top"[0m[31m><content [0m
-[31mstyleCode[0m[31m=[0m[31m"bold"[0m[31m>How can I watch for early symptoms of suicidal thoughts and actions?<[0m[31m/[0m[31mcontent[0m[31m> <list [0m[31mlistType[0m[31m=[0m[31m"unordered"[0m[31m [0m[31mstyleCode[0m[31m=[0m[31m"Disc"[0m[31m><item>Pay attention to any changes, especially sudden [0m
-[31mchanges, in mood, behaviors, thoughts, or feelings.<[0m[31m/[0m[31mitem[0m[31m><item>Keep all follow-up visits with your healthcare provider as scheduled.<[0m[31m/[0m[31mitem[0m[31m><[0m[31m/[0m[31mlist[0m[31m>Call your healthcare provider between visits as [0m
-[31mneeded, especially if you are worried about symptoms. Suicidal thoughts or actions can be caused by things other than medicines. If you have suicidal thoughts or actions, your healthcare provider may [0m
-[31mcheck for other causes. CLONAZEPAM: spl_medguide_table: <list [0m[31mlistType[0m[31m=[0m[31m"unordered"[0m[31m [0m[31mstyleCode[0m[31m=[0m[31m"Disc"[0m[31m><item><content [0m[31mstyleCode[0m[31m=[0m[31m"bold"[0m[31m>Do not stop clonazepam tablets without first talking to a healthcare[0m
-[31mprovider.<[0m[31m/[0m[31mcontent[0m[31m><list [0m[31mlistType[0m[31m=[0m[31m"unordered"[0m[31m [0m[31mstyleCode[0m[31m=[0m[31m"Disc"[0m[31m><item>Stopping clonazepam tablets suddenly can cause serious problems. Stopping clonazepam tablets suddenly can cause seizures that will [0m
-[31mnot stop [0m[1;31m([0m[31mstatus epilepticus[0m[1;31m)[0m[31m.<[0m[31m/[0m[31mitem[0m[31m><[0m[31m/[0m[31mlist[0m[31m><[0m[31m/[0m[31mitem[0m[31m><[0m[31m/[0m[31mlist[0m[31m><[0m[31m/[0m[31mtd[0m[31m><[0m[31m/[0m[31mtr[0m[31m><tr [0m[31mstyleCode[0m[31m=[0m[31m"Botrule"[0m[31m><td [0m[31mstyleCode[0m[31m=[0m[31m"Lrule[0m[31m Rrule"[0m[31m [0m[31mvalign[0m[31m=[0m[31m"top"[0m[31m><content [0m[31mstyleCode[0m[31m=[0m[31m"bold"[0m[31m>What are clonazepam tablets? CLONAZEPAM: [0m
-[31mspl_medguide_table: content> <list [0m[31mlistType[0m[31m=[0m[31m"unordered"[0m[31m [0m[31mstyleCode[0m[31m=[0m[31m"Disc"[0m[31m><item>Clonazepam tablets are a prescription medicine used alone or with other medicines to treat:<[0m[31m/[0m[31mitem[0m[31m><item>certain types of [0m
-[31mseizure disorders [0m[1;31m([0m[31mepilepsy[0m[1;31m)[0m[31m in adults and children<[0m[31m/[0m[31mitem[0m[31m><item>panic disorder with or without fear of open spaces [0m[1;31m([0m[31magoraphobia[0m[1;31m)[0m[31m in adults<[0m[31m/[0m[31mitem[0m[31m><item><content [0m[31mstyleCode[0m[31m=[0m[31m"bold"[0m[31m>Clonazepam tablets are [0m
-[31ma federally controlled substance [0m[1;31m([0m[31mC-IV[0m[1;31m)[0m[31m because it contains clonazepam that can be abused or lead to dependence.<[0m[31m/[0m[31mcontent[0m[31m>Keep clonazepam tablets in a safe place to prevent misuse and abuse. Selling [0m
-[31mor giving away clonazepam tablets may harm others, and is against the law. Tell your healthcare provider if you have ever abused or been dependent on alcohol, prescription medicines, or street drugs. [0m
-[31mCLONAZEPAM: spl_medguide_table: <[0m[31m/[0m[31mitem[0m[31m><[0m[31m/[0m[31mlist[0m[31m>It is not known if clonazepam tablets are safe or effective in treating panic disorder in children younger than [0m[1;31m18[0m[31m years old.  <[0m[31m/[0m[31mtd[0m[31m><[0m[31m/[0m[31mtr[0m[31m><tr [0m
-[31mstyleCode[0m[31m=[0m[31m"Botrule"[0m[31m><td [0m[31mstyleCode[0m[31m=[0m[31m"Lrule[0m[31m Rrule"[0m[31m [0m[31mvalign[0m[31m=[0m[31m"top"[0m[31m><content [0m[31mstyleCode[0m[31m=[0m[31m"bold"[0m[31m>Who should not take clonazepam tablets?<[0m[31m/[0m[31mcontent[0m[31m>  Do not take clonazepam tablets if you:  <list [0m
-[31mlistType[0m[31m=[0m[31m"unordered"[0m[31m [0m[31mstyleCode[0m[31m=[0m[31m"Disc"[0m[31m><item>are allergic to benzodiazepines<[0m[31m/[0m[31mitem[0m[31m><item>have significant liver disease<[0m[31m/[0m[31mitem[0m[31m><item>have an eye disease called acute narrow angle [0m
-[31mglaucoma<[0m[31m/[0m[31mitem[0m[31m><[0m[31m/[0m[31mlist[0m[31m><content [0m[31mstyleCode[0m[31m=[0m[31m"bold"[0m[31m>Ask your healthcare provider if you are not sure if you have any of the problems listed above. CLONAZEPAM: spl_medguide_table: content> <[0m[31m/[0m[31mtd[0m[31m><[0m[31m/[0m[31mtr[0m[31m><tr [0m
-[31mstyleCode[0m[31m=[0m[31m"Botrule"[0m[31m><td [0m[31mstyleCode[0m[31m=[0m[31m"Lrule[0m[31m Rrule"[0m[31m [0m[31mvalign[0m[31m=[0m[31m"top"[0m[31m><content [0m[31mstyleCode[0m[31m=[0m[31m"bold"[0m[31m>Before you take clonazepam tablets, tell your healthcare provider if you:<[0m[31m/[0m[31mcontent[0m[31m> <list [0m[31mlistType[0m[31m=[0m[31m"unordered"[0m[31m [0m
-[31mstyleCode[0m[31m=[0m[31m"Disc"[0m[31m><item>have liver or kidney problems<[0m[31m/[0m[31mitem[0m[31m><item>have lung problems [0m[1;31m([0m[31mrespiratory disease[0m[1;31m)[0m[31m<[0m[31m/[0m[31mitem[0m[31m><item>have or have had depression, mood problems, or suicidal thoughts or [0m
-[31mbehavior<[0m[31m/[0m[31mitem[0m[31m><item>have any other medical problems<[0m[31m/[0m[31mitem[0m[31m><item>are pregnant or plan to become pregnant. <list [0m[31mlistType[0m[31m=[0m[31m"unordered"[0m[31m [0m[31mstyleCode[0m[31m=[0m[31m"Disc"[0m[31m><item[0m[1;31m>[0m[31mTaking clonazepam tablets late in pregnancy [0m
-[31mmay cause your baby to have symptoms of sedation [0m[1;31m([0m[31mbreathing problems, sluggishness, low muscle tone[0m[1;31m)[0m[31m, and/or withdrawal symptoms [0m[1;31m([0m[31mjitteriness, irritability, restlessness, shaking, excessive crying, [0m
-[31mfeeding problems[0m[1;31m)[0m[31m.         [0m
-[31mSOUR[0m[1;31mCE:C[0m[31mLONAZEPAM label[0m
+CONTENT: CLONAZEPAM: spl_medguide_table: item><item>other unusual changes in behavior or mood</item></list></td></tr><tr styleCode="Botrule"><td styleCode="Lrule Rrule" valign="top"><content 
+styleCode="bold">How can I watch for early symptoms of suicidal thoughts and actions?</content> <list listType="unordered" styleCode="Disc"><item>Pay attention to any changes, especially sudden 
+changes, in mood, behaviors, thoughts, or feelings.</item><item>Keep all follow-up visits with your healthcare provider as scheduled.</item></list>Call your healthcare provider between visits as 
+needed, especially if you are worried about symptoms. Suicidal thoughts or actions can be caused by things other than medicines. If you have suicidal thoughts or actions, your healthcare provider may 
+check for other causes. CLONAZEPAM: spl_medguide_table: <list listType="unordered" styleCode="Disc"><item><content styleCode="bold">Do not stop clonazepam tablets without first talking to a healthcare
+provider.</content><list listType="unordered" styleCode="Disc"><item>Stopping clonazepam tablets suddenly can cause serious problems. Stopping clonazepam tablets suddenly can cause seizures that will 
+not stop (status epilepticus).</item></list></item></list></td></tr><tr styleCode="Botrule"><td styleCode="Lrule Rrule" valign="top"><content styleCode="bold">What are clonazepam tablets? CLONAZEPAM: 
+spl_medguide_table: content> <list listType="unordered" styleCode="Disc"><item>Clonazepam tablets are a prescription medicine used alone or with other medicines to treat:</item><item>certain types of 
+seizure disorders (epilepsy) in adults and children</item><item>panic disorder with or without fear of open spaces (agoraphobia) in adults</item><item><content styleCode="bold">Clonazepam tablets are 
+a federally controlled substance (C-IV) because it contains clonazepam that can be abused or lead to dependence.</content>Keep clonazepam tablets in a safe place to prevent misuse and abuse. Selling 
+or giving away clonazepam tablets may harm others, and is against the law. Tell your healthcare provider if you have ever abused or been dependent on alcohol, prescription medicines, or street drugs. 
+CLONAZEPAM: spl_medguide_table: </item></list>It is not known if clonazepam tablets are safe or effective in treating panic disorder in children younger than 18 years old.  </td></tr><tr 
+styleCode="Botrule"><td styleCode="Lrule Rrule" valign="top"><content styleCode="bold">Who should not take clonazepam tablets?</content>  Do not take clonazepam tablets if you:  <list 
+listType="unordered" styleCode="Disc"><item>are allergic to benzodiazepines</item><item>have significant liver disease</item><item>have an eye disease called acute narrow angle 
+glaucoma</item></list><content styleCode="bold">Ask your healthcare provider if you are not sure if you have any of the problems listed above. CLONAZEPAM: spl_medguide_table: content> </td></tr><tr 
+styleCode="Botrule"><td styleCode="Lrule Rrule" valign="top"><content styleCode="bold">Before you take clonazepam tablets, tell your healthcare provider if you:</content> <list listType="unordered" 
+styleCode="Disc"><item>have liver or kidney problems</item><item>have lung problems (respiratory disease)</item><item>have or have had depression, mood problems, or suicidal thoughts or 
+behavior</item><item>have any other medical problems</item><item>are pregnant or plan to become pregnant. <list listType="unordered" styleCode="Disc"><item>Taking clonazepam tablets late in pregnancy 
+may cause your baby to have symptoms of sedation (breathing problems, sluggishness, low muscle tone), and/or withdrawal symptoms (jitteriness, irritability, restlessness, shaking, excessive crying, 
+feeding problems).         
+SOURCE:CLONAZEPAM label
 
-[31m        -----[0m
-[31m        If NONE of the extracts are relevant, try doing a web search with the[0m
-[31m        `relevant_search_extracts` tool/function-call[0m
-[31m        [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m
-[32mANSWER: Clonazepam is used for the treatment of seizure disorders, including the Lennox-Gastaut syndrome [0m[1;32m([0m[32mpetit mal variant[0m[1;32m)[0m[32m, akinetic, and myoclonic seizures. It is also indicated for the treatment [0m
-[32mof panic disorder, with or without agoraphobia, as defined in DSM-V. The efficacy of clonazepam for panic disorder was established in two [0m[1;32m6[0m[32m- to [0m[1;32m9[0m[32m-week trials. However, the effectiveness of clonazepam [0m
-[32min long-term use, that is, for more than [0m[1;32m9[0m[32m weeks, has not been systematically studied in controlled clinical trials.[0m
+        -----
+        If NONE of the extracts are relevant, try doing a web search with the
+        `relevant_search_extracts` tool/function-call
+        
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE>
+ANSWER: Clonazepam is used for the treatment of seizure disorders, including the Lennox-Gastaut syndrome (petit mal variant), akinetic, and myoclonic seizures. It is also indicated for the treatment 
+of panic disorder, with or without agoraphobia, as defined in DSM-V. The efficacy of clonazepam for panic disorder was established in two 6- to 9-week trials. However, the effectiveness of clonazepam 
+in long-term use, that is, for more than 9 weeks, has not been systematically studied in controlled clinical trials.
 
-[32mSOURCE: CLONAZEPAM label[0m
-[32mEXTRACT_START_END: INDICATIONS AND USAGE Seizure Disorders: Clonazepam tablets [0m[32m...[0m[32m for the individual patient.[0m
-*[1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [37m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mANSWER: Clonazepam is used for the treatment of seizure disorders, [0m
-[34mincluding the Lennox-Gastaut syndrome [0m[1;34m([0m[34mpetit mal variant[0m[1;34m)[0m[34m, akinetic, and myoclonic seizures. It is also indicated for the treatment of panic disorder, with or without agoraphobia, as defined in DSM-V.[0m
-[34mThe efficacy of clonazepam for panic disorder was established in two [0m[1;34m6[0m[34m- to [0m[1;34m9[0m[34m-week trials. However, the effectiveness of clonazepam in long-term use, that is, for more than [0m[1;34m9[0m[34m weeks, has not been [0m
-[34msystematically studied in controlled clinical trials.[0m
+SOURCE: CLONAZEPAM label
+EXTRACT_START_END: INDICATIONS AND USAGE Seizure Disorders: Clonazepam tablets ... for the individual patient.
+*(orchestrator-renal failure-CLONAZEPAM)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) ANSWER: Clonazepam is used for the treatment of seizure disorders, 
+including the Lennox-Gastaut syndrome (petit mal variant), akinetic, and myoclonic seizures. It is also indicated for the treatment of panic disorder, with or without agoraphobia, as defined in DSM-V.
+The efficacy of clonazepam for panic disorder was established in two 6- to 9-week trials. However, the effectiveness of clonazepam in long-term use, that is, for more than 9 weeks, has not been 
+systematically studied in controlled clinical trials.
 
-[34mSOURCE: CLONAZEPAM label[0m
-[34mEXTRACT_START_END: INDICATIONS AND USAGE Seizure Disorders: Clonazepam tablets [0m[34m...[0m[34m for the individual patient.[0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrecipient_message[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"recipient_message"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"intended_recipient"[0m[32m: [0m[32m"FDAHandler"[0m[32m,[0m
-[32m    [0m[32m"content"[0m[32m: [0m[32m"Does CLONAZEPAM increase or decrease the risk of renal failure?"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [37m Entity.AGENT [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mDoes CLONAZEPAM increase or decrease the risk of renal failure?[0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0mEntity.LLM[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m[[0m[32mCANNOT RESPOND[0m[1;32m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDoes CLONAZEPAM increase or decrease the risk of renal failure?[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m   [1;35mFUNC[0m[1m([0mrelevant_search_extracts[1m)[0m [32mFUNC: [0m[1;32m{[0m
-[32m  [0m[32m"name"[0m[32m: [0m[32m"relevant_search_extracts"[0m[32m,[0m
-[32m  [0m[32m"to"[0m[32m: [0m[32m""[0m[32m,[0m
-[32m  [0m[32m"arguments"[0m[32m: [0m[1;32m{[0m
-[32m    [0m[32m"query"[0m[32m: [0m[32m"Does Clonazepam increase or decrease the risk of renal failure?"[0m[32m,[0m
-[32m    [0m[32m"drug"[0m[32m: [0m[32m"clonazepam"[0m
-[32m  [0m[1;32m}[0m
-[1;32m}[0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mrelevant_search_extracts[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [31mNo relevant extracts found for Does Clonazepam increase or decrease the risk of [0m
-[31mrenal failure?[0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.USER [0m
- [1m([0mFDAHandler[1m)[0m [31m Entity.AGENT [0m [1;31mEntity.AGENT[0m[1m([0mEntity.AGENT[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;31m[[0m[31mCANNOT RESPOND[0m[1;31m][0m
-*[1m([0mFDAHandler[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m FDAHandler [0m [1;34mEntity.USER[0m[1m([0mFDAHandler[1m)[0m [1m([0m=>       LLM[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Critic [0m [1;34mEntity.USER[0m[1m([0m    Critic[1m)[0m [1m([0m=>FDAHandler[1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
-*[1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [37m Entity.USER [0m [1;34mEntity.USER[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [34mDO-NOT-KNOW[0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.USER [0m [1;34mEntity.USER[0m[1m([0mEntity.USER[1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [1;34m[[0m[34mCANNOT RESPOND[0m[1;34m][0m
- [1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [31m Entity.AGENT [0m
-*[1m([0morchestrator-renal failure-CLONAZEPAM[1m)[0m [37m Entity.LLM [0m [1;32mEntity.LLM[0m[1m([0m          [1m)[0m [1m([0m=>          [1m)[0m [1m([0mX           [1m)[0m       [1m([0m          [1m)[0m [32mThe FDA label for Clonazepam does not specify information regarding the [0m
-[32mdrug's effect on the risk of renal failure. Therefore, it is not possible to determine from this data whether Clonazepam increases or decreases the risk of renal failure. It is important to note that [0m
-[32mthe absence of this information in the FDA label does not necessarily mean that there is no effect; it simply indicates that such effects are not documented or confirmed in the context of the FDA [0m
-[32mlabel data.[0m
+SOURCE: CLONAZEPAM label
+EXTRACT_START_END: INDICATIONS AND USAGE Seizure Disorders: Clonazepam tablets ... for the individual patient.
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.USER  Entity.USER(Entity.USER) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>       LLM) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-renal failure-CLONAZEPAM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(recipient_message) FUNC: {
+  "name": "recipient_message",
+  "to": "",
+  "arguments": {
+    "intended_recipient": "FDAHandler",
+    "content": "Does CLONAZEPAM increase or decrease the risk of renal failure?"
+  }
+}
+*(orchestrator-renal failure-CLONAZEPAM)  Entity.AGENT  Entity.LLM(          ) (=>FDAHandler) (X           )       (          ) Does CLONAZEPAM increase or decrease the risk of renal failure?
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.LLM  Entity.LLM(Entity.LLM) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.USER  Entity.USER(          ) (=>FDAHandler) (X           )       (          ) Does CLONAZEPAM increase or decrease the risk of renal failure?
+ (FDAHandler)  Entity.USER  Entity.USER(Entity.USER) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+ (FDAHandler)  Entity.AGENT 
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )   FUNC(relevant_search_extracts) FUNC: {
+  "name": "relevant_search_extracts",
+  "to": "",
+  "arguments": {
+    "query": "Does Clonazepam increase or decrease the risk of renal failure?",
+    "drug": "clonazepam"
+  }
+}
+*(FDAHandler)  Entity.AGENT  Entity.AGENT(relevant_search_extracts) (=>          ) (X           )       (          ) No relevant extracts found for Does Clonazepam increase or decrease the risk of 
+renal failure?
+ (FDAHandler)  Entity.USER 
+ (FDAHandler)  Entity.AGENT  Entity.AGENT(Entity.AGENT) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+*(FDAHandler)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) <DONE> DO-NOT-KNOW
+ (orchestrator-renal failure-CLONAZEPAM)  FDAHandler  Entity.USER(FDAHandler) (=>       LLM) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-renal failure-CLONAZEPAM)  Critic  Entity.USER(    Critic) (=>FDAHandler) (X           )       (          ) [CANNOT RESPOND]
+*(orchestrator-renal failure-CLONAZEPAM)  Entity.USER  Entity.USER(          ) (=>          ) (X           )       (          ) DO-NOT-KNOW
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.USER  Entity.USER(Entity.USER) (=>          ) (X           )       (          ) [CANNOT RESPOND]
+ (orchestrator-renal failure-CLONAZEPAM)  Entity.AGENT 
+*(orchestrator-renal failure-CLONAZEPAM)  Entity.LLM  Entity.LLM(          ) (=>          ) (X           )       (          ) The FDA label for Clonazepam does not specify information regarding the 
+drug's effect on the risk of renal failure. Therefore, it is not possible to determine from this data whether Clonazepam increases or decreases the risk of renal failure. It is important to note that 
+the absence of this information in the FDA label does not necessarily mean that there is no effect; it simply indicates that such effects are not documented or confirmed in the context of the FDA 
+label data.
 
-[1;32m<[0m[1;32mDONE[0m[1;32m>[0m[32m DO-NOT-KNOW[0m
+<DONE> DO-NOT-KNOW
