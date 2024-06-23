@@ -6,7 +6,7 @@
 
 ## **💊 What is MALADE?**
 
-MALADE (pronounced like the French word <em>malade</em> meaning 'sick' or 'ill') is a framework for the orchestration of LLM-powered agents with Retrieval Augmented Generation (RAG)
+MALADE (pronounced like the French word <em>malade</em> meaning 'sick' or 'ill') is a framework for the orchestration of Large Language Model (LLM)-powered agents with Retrieval Augmented Generation (RAG)
 for Pharmacovigilance.
 
 <p align="center">
