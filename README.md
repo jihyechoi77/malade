@@ -24,7 +24,6 @@ identify the most representative drugs within a category (this is important
 since FDA label data is specific to individual drugs, not categories).
 
 For a given drug-category and outcome, MALADE produces a variety of qualitative and quantitative outputs:
-
 > **Net Effect (computed)**: ACE inhibitors increase angiodema \
 > **Confidence/Magnitude Measures**: Confidence 1.0, Probability 0.001, Frequency rare, Evidence strong \
 > **Justification**: The evidence from FDAHandler and drug labels for LISINOPRIL, CAPTOPRIL, and ENALAPRIL MALEATE consistently reports an increased risk of angioedema with the use of these ACE inhibitors. The incidence of angioedema is reported as rare, with occurrences such as one in 1000 patients for CAPTOPRIL. The evidence is considered strong due to the authoritative nature of the sources.
@@ -133,6 +132,9 @@ If MIMIC-IV was set up, run `DrugFinder` and the drug category representative id
 ```angular2html
 python3 malade/drug_categories.py --recompute
 ```
+> Mention what this does? i.e. it finds representative drugs for the category mentioned 
+> by the user when they interact with this? And where is output shown/stored?
+> Show example interaction/output (maybe a screenshot or a video?)
 
 * STEP2: Identifying Drug-Outcome Associations 
 
@@ -141,8 +143,15 @@ Run `DrugOutcomeInfoAgent` and the drug-outcome association identification proce
 python3 malade/omop_interactions.py --recompute_interactions
 ```
 
-* STEP3: Labeling Drug Category-Outcome Associations
+> Clarify that user will be prompted to enter a drug-category and outcome, or can they pass these
+> as cli arguments? And where is output shown/stored? Show example interaction/output 
+> (screenshots or video)
 
+* STEP3: Labeling Drug Category-Outcome Associations
+> What does it mean to "label" the category-outcome, i.e. how does this differ from 
+> previous step, i.e. "identification". Does "label" mean a score is produced?
+> Show example interaction (screenshots or video).
+> 
 Run `CategoryOutcomeRiskAgent` and the category-outcome labeling process with 
 ```angular2html
 python3 malade/omop_interactions.py --recompute_labels
