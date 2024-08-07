@@ -1,12 +1,15 @@
-# **MALADE: <u>M</u>ultiple <u>A</u>gents powered by <u>L</u>LMs for <u>ADE</u> Extraction**
+# **MALADE: <u>M</u>ultiple <u>A</u>gents powered by <u>L</u>LMs for <u>ADE</u> Extraction (MLHC'24)**
 
-[![](https://img.shields.io/badge/Paper-pink?style=plastic&logo=GitBook)]()
+[![](https://img.shields.io/badge/Paper-pink?style=plastic&logo=GitBook)](https://arxiv.org/abs/2408.01869v1)
+[![](https://img.shields.io/badge/Blog-pink?style=plastic&logo=twitter)](https://langroid.github.io/langroid/blog/2024/07/16/malade-multi-agent-architecture-for-pharmacovigilance/)
 [![](https://img.shields.io/badge/Twitter-pink?style=plastic&logo=twitter)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+The code for the paper MALADE: Orchestration of LLM-powered Agents with Retrieval Augmented Generation for Pharmacovigilance. This paper is published at [Machine Learning for Healthcare 2024)](https://www.mlforhc.org/).
+
 ## **💊 What is MALADE?**
 
-MALADE (pronounced like the French word <em>malade</em> meaning 'sick' or 'ill') is a framework for the orchestration of Large Language Model (LLM)-powered agents with Retrieval Augmented Generation (RAG)
+MALADE (pronounced like the French word [<em>malade</em>](http://www.french-linguistics.co.uk/how-to-pronounce/malade-ed6e4e308efdca82/) meaning 'sick' or 'ill') is a framework for the orchestration of Large Language Model (LLM)-powered agents with Retrieval Augmented Generation (RAG)
 for Pharmacovigilance, in particular for Adverse Drug Event (ADE) extraction.
 
 The core function of MALADE is to answer category-outcome ADE questions of the form:
@@ -17,6 +20,13 @@ or
 > Is drug category X associated with adverse event Y?
 
 For example, "Do ACE inhibitors cause angiodema?".
+
+<p align="center">
+    <br>
+    <img src="./img/malade.png" width="1000"/>
+    <br>    
+<p>
+
 
 The primary data source used is FDA Drug Label data as obtained via the 
 OpenFDA API. Optionally, one can use the MIMIC-IV EHR data to 
@@ -33,11 +43,6 @@ MALADE is evaluated against the OMOP Common Data Model (CDM)
 for a specific set of 10 drug categories and 10 outcomes.
 
 
-<p align="center">
-    <br>
-    <img src="./img/malade.png" width="1000"/>
-    <br>    
-<p>
 
 
 
@@ -98,12 +103,9 @@ This step is required only to run `DrugFinder` and the process to find
 representative drugs in a category based on MIMIC-IV data.
 
 Make sure that MIMIC-IV is installed and running on your machine as PostgreSQL database.
-
-The MIMIC-IV can be obtained [here](https://physionet.org/content/mimiciv/2.2/#files).
-Access requires completing the following training described [here](https://physionet.org/content/mimiciv/view-required-training/2.2/#1).
-
-Instructions and code for loading MIMIC-IV into PostgreSQL are [here](https://github.com/MIT-LCP/mimic-code/tree/main/mimic-iv/buildmimic/postgres).
-
+The MIMIC-IV can be obtained [here](https://physionet.org/content/mimiciv/2.2/#files). \
+Access requires completing the following training described [here](https://physionet.org/content/mimiciv/view-required-training/2.2/#1). \
+Instructions and code for loading MIMIC-IV into PostgreSQL are [here](https://github.com/MIT-LCP/mimic-code/tree/main/mimic-iv/buildmimic/postgres). \
 Finally, ensure that your user account has access to the `mimiciv` database.
 
 
@@ -116,7 +118,7 @@ We provide brief descriptions for each file as follows:
 | `malade/`                   | core directory for codes                                                                                                                            |
 | `malade/omop.py`             | define the OMOP Ground Truth table, and the associated drug categories and conditions                                                               |
 | `malade/drug_categories.py`  | find representative drugs                                                                                                                           |
-| `malade/omop_interactions.py` | contain `CategoryOutcomeRiskAgent` and `DrugOutcomeInfoAgent` <br/> identify drug-outcome associations and label drug category-outcome associations |
+| `malade/omop_interactions.py` | contain `CategoryAgent` and `DrugAgent` <br/> identify drug-outcome associations and label drug category-outcome associations |
 | `malade/critic_agent.py`     | contain `Critic` and `malade/omop_evaluation.py` <br/> contain utilities for evaluation (for use by `scripts/generate_results.py`)                  |
 | `malade/doc/`                | contain RAG-related code                                                                                                                            |
 | `malade/doc/fda_handler.py`  | contain `FDAHandler`                                                                                                                                |
@@ -126,33 +128,39 @@ We provide brief descriptions for each file as follows:
 
 ### Run Experiments
 
+**TODO: add brief demo for each step below.**
+
 * STEP1: Finding Representative Drugs (Optional)
 
 If MIMIC-IV was set up, run `DrugFinder` and the drug category representative identification process with
 ```angular2html
 python3 malade/drug_categories.py --recompute
 ```
+<!---
 > Mention what this does? i.e. it finds representative drugs for the category mentioned 
 > by the user when they interact with this? And where is output shown/stored?
 > Show example interaction/output (maybe a screenshot or a video?)
+--->
 
 * STEP2: Identifying Drug-Outcome Associations 
 
-Run `DrugOutcomeInfoAgent` and the drug-outcome association identification process with
+Run `DrugAgent` and the drug-outcome association identification process with
 ```angular2html
 python3 malade/omop_interactions.py --recompute_interactions
 ```
-
+<!---
 > Clarify that user will be prompted to enter a drug-category and outcome, or can they pass these
 > as cli arguments? And where is output shown/stored? Show example interaction/output 
 > (screenshots or video)
+--->
 
 * STEP3: Labeling Drug Category-Outcome Associations
+<!---
 > What does it mean to "label" the category-outcome, i.e. how does this differ from 
 > previous step, i.e. "identification". Does "label" mean a score is produced?
 > Show example interaction (screenshots or video).
-> 
-Run `CategoryOutcomeRiskAgent` and the category-outcome labeling process with 
+--->
+Run `CategoryAgent` and the category-outcome labeling process with 
 ```angular2html
 python3 malade/omop_interactions.py --recompute_labels
 ```
@@ -163,23 +171,30 @@ Run `python3 scripts/generate_summary_files.py` to process the outputs from MALA
 
 The outputs from MALADE are in the `outputs/` directory;
 
-| File                    | Description |
-|----------------------------------| -----|
-| `outputs/representative_drugs.json` | outputs from `DrugFinder` |
-| `outputs/interactions.json`        | outputs from `DrugOutcomeInfoAgent` and `CategoryOutcomeRiskAgent` |
-| `outputs/representative_drugs.md`  | outputs in a readable format |
-| `outputs/omop_results.md`          | outputs in a readable format |
+| File                    | Description                                                        |
+|----------------------------------|--------------------------------------------------------------------|
+| `outputs/representative_drugs.json` | outputs from `DrugFinder`                                          |
+| `outputs/interactions.json`        | outputs from `DrugAgent` and `CategoryAgent` |
+| `outputs/representative_drugs.md`  | outputs from `DrugAgent` in a readable format                      |
+| `outputs/omop_results.md`          | outputs from `CategoryAgent` in a readable format       |
 
 The logs generated by the agents are in the `logs/` directory; the path is of the form \
 `logs/DrugFinder-{category name}.log` for `DrugFinder`, \
-`logs/DrugOutcomeInfoAgent-{outcome}-{drug name}.log` for `DrugOutcomeInfoAgent`, and \
-`logs/CategoryOutcomeRiskAgent-{outcome}-{category name}.log` for `CategoryOutcomeRiskAgent`.
-
+`logs/DrugOutcomeInfoAgent-{outcome}-{drug name}.log` for `DrugAgent`, and \
+`logs/CategoryOutcomeRiskAgent-{outcome}-{category name}.log` for `CategoryAgent`.
 
 ## **📎 Reference**
 
 If you find this code/work useful in your own research, please consider citing the following:
 ```bibtex
-TBD
+@misc{choi2024malade,
+      title={MALADE: Orchestration of LLM-powered Agents with Retrieval Augmented Generation for Pharmacovigilance}, 
+      author={Jihye Choi and Nils Palumbo and Prasad Chalasani and Matthew M. Engelhard and Somesh Jha and Anivarya Kumar and David Page},
+      year={2024},
+      eprint={2408.01869},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.01869}, 
+}
 ```
 
