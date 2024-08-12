@@ -19,7 +19,7 @@ or
 
 > Is drug category X associated with adverse event Y?
 
-For example, "Do ACE inhibitors cause angiodema?".
+For example, "Do ACE inhibitors cause angioedema?".
 
 <p align="center">
     <br>
@@ -33,18 +33,16 @@ OpenFDA API. Optionally, one can use the MIMIC-IV EHR data to
 identify the most representative drugs within a category (this is important
 since FDA label data is specific to individual drugs, not categories).
 
-For a given drug-category and outcome, MALADE produces a variety of qualitative and quantitative outputs:
-> **Net Effect (computed)**: ACE inhibitors increase angiodema \
-> **Confidence/Magnitude Measures**: Confidence 1.0, Probability 0.001, Frequency rare, Evidence strong \
+For a given drug-category and outcome, MALADE produces a variety of qualitative and quantitative outputs, for example:
+> **Label:** ACE inhibitors *increase* angioedema risk,\
+> **Confidence:** 0.9 (i.e. confidence in the label),\
+> **Frequency:** rare, \
+> **Evidence:** strong, \
 > **Justification**: The evidence from FDAHandler and drug labels for LISINOPRIL, CAPTOPRIL, and ENALAPRIL MALEATE consistently reports an increased risk of angioedema with the use of these ACE inhibitors. The incidence of angioedema is reported as rare, with occurrences such as one in 1000 patients for CAPTOPRIL. The evidence is considered strong due to the authoritative nature of the sources.
 
 MALADE is evaluated against the OMOP Common Data Model (CDM) 
 [ground truth table](https://www.niss.org/sites/default/files/Session3-DaveMadigan_PatrickRyanTalk_mar2015.pdf), which shows established category-outcome associations
 for a specific set of 10 drug categories and 10 outcomes.
-
-
-
-
 
 ## **⚙️ Set up environment and install dependencies**
 We leverage the awesome [Langroid](https://github.com/langroid/langroid) 
