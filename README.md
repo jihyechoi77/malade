@@ -5,7 +5,16 @@
 [![](https://img.shields.io/badge/Twitter-pink?style=plastic&logo=twitter)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The code for the [paper](https://arxiv.org/abs/2408.01869) MALADE: Orchestration of LLM-powered Agents with Retrieval Augmented Generation for Pharmacovigilance. This paper is published at [Machine Learning for Healthcare 2024](https://www.mlforhc.org/).
+Code for the paper:
+
+Jihye Choi, Nils Palumbo, Prasad Chalasani, Matthew Engelhard, Somesh Jha, Anivarya Kumar, & David Page, (2024). 
+*MALADE: Orchestration of LLM-powered Agents with Retrieval Augmented Generation for Pharmacovigilance.* 
+[Machine Learning for Healthcare 2024](https://www.mlforhc.org/).
+ 
+
+[Arxiv](https://arxiv.org/abs/2408.01869v1) | [Blog](https://langroid.github.io/langroid/blog/2024/07/16/malade-multi-agent-architecture-for-pharmacovigilance/)
+
+
 
 ## **💊 What is MALADE?**
 
