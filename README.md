@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/Twitter-pink?style=plastic&logo=twitter)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The code for the paper MALADE: Orchestration of LLM-powered Agents with Retrieval Augmented Generation for Pharmacovigilance. This paper is published at [Machine Learning for Healthcare 2024](https://www.mlforhc.org/).
+The code for the [paper](https://arxiv.org/abs/2408.01869) MALADE: Orchestration of LLM-powered Agents with Retrieval Augmented Generation for Pharmacovigilance. This paper is published at [Machine Learning for Healthcare 2024](https://www.mlforhc.org/).
 
 ## **💊 What is MALADE?**
 
