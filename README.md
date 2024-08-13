@@ -1,7 +1,7 @@
 # **MALADE: <u>M</u>ultiple <u>A</u>gents powered by <u>L</u>LMs for <u>ADE</u> Extraction (MLHC'24)**
 
 [![](https://img.shields.io/badge/Paper-pink?style=plastic&logo=GitBook)](https://arxiv.org/abs/2408.01869v1)
-[![](https://img.shields.io/badge/Blog-pink?style=plastic&logo=twitter)](https://langroid.github.io/langroid/blog/2024/07/16/malade-multi-agent-architecture-for-pharmacovigilance/)
+[![](https://img.shields.io/badge/Blog-pink?style=plastic&logo=twitter)](https://langroid.github.io/langroid/blog/2024/08/12/malade-multi-agent-architecture-for-pharmacovigilance/)
 [![](https://img.shields.io/badge/Twitter-pink?style=plastic&logo=twitter)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -10,10 +10,6 @@ Code for the paper:
 Jihye Choi, Nils Palumbo, Prasad Chalasani, Matthew Engelhard, Somesh Jha, Anivarya Kumar, & David Page, (2024). 
 *MALADE: Orchestration of LLM-powered Agents with Retrieval Augmented Generation for Pharmacovigilance.* 
 [Machine Learning for Healthcare 2024](https://www.mlforhc.org/).
- 
-
-[Arxiv](https://arxiv.org/abs/2408.01869v1) | [Blog](https://langroid.github.io/langroid/blog/2024/07/16/malade-multi-agent-architecture-for-pharmacovigilance/)
-
 
 
 ## **💊 What is MALADE?**
